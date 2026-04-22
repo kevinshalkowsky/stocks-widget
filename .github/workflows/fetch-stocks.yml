@@ -185,12 +185,13 @@ jobs:
           })()
           EOF
 
-      - name: Commit and push stocks.json
+     - name: Commit and push stocks.json
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          git reset --soft origin/main
+          git fetch --all
+          git checkout origin/main -- . 2>/dev/null || true
           git add stocks.json
-          git diff --staged --quiet || git commit -m "chore: refresh stock data [skip ci]"
-          git push
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "chore: refresh stock data [skip ci]"
+          git push origin HEAD:main --force-with-lease
