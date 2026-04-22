@@ -1,149 +1,429 @@
 {
-  "updatedAt": "2026-04-22T10:54:44.762Z",
+  "updatedAt": "2026-04-22T11:28:23.252Z",
   "stocks": {
     "AAPL": {
       "symbol": "AAPL",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
-      "name": "AAPL",
-      "sector": "",
-      "marketCap": "",
-      "logo": "",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
-      "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "price": 266.17,
+      "change": -6.88,
+      "changePercent": -2.5197,
+      "high": 272.8,
+      "low": 265.4,
+      "open": 271.5,
+      "prevClose": 273.05,
+      "name": "Apple Inc",
+      "sector": "Technology",
+      "marketCap": "$3.91T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
+      "week52High": 288.62,
+      "week52Low": 189.81,
+      "beta": 1.079344,
+      "peRatio": 34.8797,
+      "eps": 7.465,
+      "dividendYield": "0.39%",
+      "volume": "42.7M",
+      "avgVolume": "46.0M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
+      "news": [
+        {
+          "headline": "Apple names John Ternus as CEO, Cook to become executive chairman",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=68e8599e083e72be977dbc4d9213918cac37c4fb854320cd09f5a9a4c287b5b9"
+        },
+        {
+          "headline": "3 Warren Buffett Stocks to Hold Forever",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=189eb7525c008e134a20db0b29bcc3538d4eba8b125c82c06b9d0cefb4336618"
+        },
+        {
+          "headline": "John Ternus Is a Return to the Steve Jobs’ Version of Apple",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=ecde6464c04d924875b0354722e89bcd273ac756e6e5c68f7efd5c0166dccdf5"
+        },
+        {
+          "headline": "APPLE INC : JP Morgan reiterates its Buy rating",
+          "source": "Finnhub",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=09b1ebf3d13c42b2622ae5993b141bbdbb986e0f6137dec111f7007446035342"
+        },
+        {
+          "headline": "Broadcom and RH Brands have been highlighted as Zacks Bull and Bear of the Day",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=53051f4ecda9343d6432e2534ede96754d5d8972c299774e25a269552961ddf4"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2025-12-31",
+          "estimated": 2.7257,
+          "actual": 2.84,
+          "surprise": 4.1934
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 1.8075,
+          "actual": 1.85,
+          "surprise": 2.3513
+        },
+        {
+          "quarter": "2025-06-30",
+          "estimated": 1.4626,
+          "actual": 1.57,
+          "surprise": 7.3431
+        },
+        {
+          "quarter": "2025-03-31",
+          "estimated": 1.6596,
+          "actual": 1.65,
+          "surprise": -0.5785
+        }
+      ],
       "revenue": "",
-      "netIncome": "",
+      "netIncome": "$112.01B",
       "netMargin": "",
       "revenueGrowth": ""
     },
     "GOOGL": {
       "symbol": "GOOGL",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
-      "name": "GOOGL",
-      "sector": "",
-      "marketCap": "",
-      "logo": "",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
-      "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "price": 332.29,
+      "change": -5.13,
+      "changePercent": -1.5204,
+      "high": 339.34,
+      "low": 331.35,
+      "open": 337.685,
+      "prevClose": 337.42,
+      "name": "Alphabet Inc",
+      "sector": "Media",
+      "marketCap": "$4.01T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
+      "week52High": 349,
+      "week52Low": 146.1,
+      "beta": 1.1445379,
+      "peRatio": 30.3177,
+      "eps": 10.807,
+      "dividendYield": "0.25%",
+      "volume": "23.6M",
+      "avgVolume": "31.9M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
-      "revenue": "",
-      "netIncome": "",
-      "netMargin": "",
+      "news": [
+        {
+          "headline": "Google Teams Up With Marvell Technology To Build New AI Chips, Invests Heavily In TPU Strategy Amid Nvidia Dominance: Report",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d4b2882dcb23d4b8bc03d0b42d36c060b4462423ae45a460da2244dcd053469f"
+        },
+        {
+          "headline": "Want SpaceX Exposure? These 3 AI Titans Have Previously Invested in What Should Be Wall Street's Largest-Ever IPO",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=b2ad0f96b9e3294e73cb2251977b5c5b76606f2292b9e8e49ed214b05e57c6be"
+        },
+        {
+          "headline": "Bull of the Day: Broadcom (AVGO)",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=ba462521d67cc32c462480edcd441c3bc7f700c4f52812941c180460848671d1"
+        },
+        {
+          "headline": "Merck to partner with Google Cloud on AI initiatives",
+          "source": "Finnhub",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=b3fd763f77bc9364fceb78e4fcc9ad362e50ff61ce42bfaedf1d93b6e1e20bed"
+        },
+        {
+          "headline": "Vodafone Business Launch New AI and Cybersecurity Solutions to Accelerate Small Business Digital Transformation in Partnership with Google Cloud",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=abf14126c3e1e8d8ac076621e1ce2305b4dda791b24c68dd207241f1b509c77e"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2025-12-31",
+          "estimated": 2.7063,
+          "actual": 2.82,
+          "surprise": 4.2013
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 2.3954,
+          "actual": 3.1,
+          "surprise": 29.4147
+        },
+        {
+          "quarter": "2025-06-30",
+          "estimated": 2.25,
+          "actual": 2.31,
+          "surprise": 2.6667
+        },
+        {
+          "quarter": "2025-03-31",
+          "estimated": 2.0726,
+          "actual": 2.27,
+          "surprise": 9.5243
+        }
+      ],
+      "revenue": "$402.84B",
+      "netIncome": "$132.17B",
+      "netMargin": "32.8%",
       "revenueGrowth": ""
     },
     "MSFT": {
       "symbol": "MSFT",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
-      "name": "MSFT",
-      "sector": "",
-      "marketCap": "",
-      "logo": "",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
-      "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "price": 424.16,
+      "change": 6.09,
+      "changePercent": 1.4567,
+      "high": 427.18,
+      "low": 417.2,
+      "open": 420.24,
+      "prevClose": 418.07,
+      "name": "Microsoft Corp",
+      "sector": "Technology",
+      "marketCap": "$3.15T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
+      "week52High": 555.45,
+      "week52Low": 355.67,
+      "beta": 1.1400744,
+      "peRatio": 31.0021,
+      "eps": 13.6413,
+      "dividendYield": "0.86%",
+      "volume": "36.0M",
+      "avgVolume": "33.5M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
-      "revenue": "",
-      "netIncome": "",
-      "netMargin": "",
+      "news": [
+        {
+          "headline": "Sustainability LIVE Shortlisted for 3x Conference and Event Awards",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=0abdde727ba9ec7df94c86cdad58b60f4358174c14afbfc9f61df81bfb6c7f9f"
+        },
+        {
+          "headline": "OpenAI briefs feds and Five Eyes on new cyber product - Axios",
+          "source": "Finnhub",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=b1a2d2b84a16442601eae20f148c377d4236282c426ab0a2271f32a732dab33d"
+        },
+        {
+          "headline": "The world's biggest privately held companies",
+          "source": "Finnhub",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=6c608ae5ed78a58f4cfdb2862155726f8872849d515c9628b2c5e0f967fd9616"
+        },
+        {
+          "headline": "Stocks slip from pre-war peak on Mideast ceasefire doubts, Bank Indonesia holds rate",
+          "source": "Finnhub",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=62d72621a58c8f160e9510b52bc1e3461967eda32223172e2e6d0617f22792e2"
+        },
+        {
+          "headline": "Australia and New Zealand central banks monitoring Anthropic's Mythos release",
+          "source": "Finnhub",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=5ea12732ece7ac517aa896ff4fc2e3483e37fac054f11077b2e0f48c6cb388a3"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2025-12-31",
+          "estimated": 4.0345,
+          "actual": 4.14,
+          "surprise": 2.6149
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 3.7391,
+          "actual": 4.13,
+          "surprise": 10.4544
+        },
+        {
+          "quarter": "2025-06-30",
+          "estimated": 3.4368,
+          "actual": 3.65,
+          "surprise": 6.2034
+        },
+        {
+          "quarter": "2025-03-31",
+          "estimated": 3.2846,
+          "actual": 3.46,
+          "surprise": 5.3401
+        }
+      ],
+      "revenue": "$281.72B",
+      "netIncome": "$101.83B",
+      "netMargin": "36.1%",
       "revenueGrowth": ""
     },
     "AMZN": {
       "symbol": "AMZN",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
-      "name": "AMZN",
-      "sector": "",
-      "marketCap": "",
-      "logo": "",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
+      "price": 249.91,
+      "change": 1.63,
+      "changePercent": 0.6565,
+      "high": 255.09,
+      "low": 249.1,
+      "open": 255.09,
+      "prevClose": 248.28,
+      "name": "Amazon.com Inc",
+      "sector": "Retail",
+      "marketCap": "$2.69T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
+      "week52High": 258.6,
+      "week52Low": 165.29,
+      "beta": 1.4245696,
+      "peRatio": 34.9267,
+      "eps": 7.1737,
       "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "volume": "50.8M",
+      "avgVolume": "47.5M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
+      "news": [
+        {
+          "headline": "Update: Market Chatter: Amazon's Jeff Bezos Nearing $10 Billion Fundraising for Project Prometheus",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ff97e4b834d1ea2f95958c419b1338fca91d0df5d79b52d30393948c94f5933f"
+        },
+        {
+          "headline": "Amazon accused of price fixing in California legal motion",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=482ff205ce6e1151d1dc9d4d10b762c7c16b439b0111785ce4fbdd022f836b28"
+        },
+        {
+          "headline": "2 Growth Stocks Worth Buying Through the Volatility and Holding for a Lifetime",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=54947f075c9df220b49e5e101df7f520b0f2dca5fce3c63c932bf169a543ab00"
+        },
+        {
+          "headline": "AI Weekly: Amazon deepens Anthropic ties, VW fights back in China",
+          "source": "Finnhub",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=cab1b6eb93865d439b57d99259d2430a01d63b778a88def306fb72d8b8492e28"
+        },
+        {
+          "headline": "Oil at $100, Warsh Draws the Line — Wall Street Counts the Cost",
+          "source": "ChartMill",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=e077b97e0573fbad2c08c126c433f749db8f4840ad92849a682b64a64df3f29e"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2025-12-31",
+          "estimated": 2.011,
+          "actual": 1.95,
+          "surprise": -3.0333
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 1.605,
+          "actual": 1.95,
+          "surprise": 21.4953
+        },
+        {
+          "quarter": "2025-06-30",
+          "estimated": 1.3545,
+          "actual": 1.68,
+          "surprise": 24.031
+        },
+        {
+          "quarter": "2025-03-31",
+          "estimated": 1.3893,
+          "actual": 1.59,
+          "surprise": 14.4461
+        }
+      ],
       "revenue": "",
-      "netIncome": "",
+      "netIncome": "$77.67B",
       "netMargin": "",
       "revenueGrowth": ""
     },
     "TSLA": {
       "symbol": "TSLA",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
-      "name": "TSLA",
-      "sector": "",
-      "marketCap": "",
-      "logo": "",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
+      "price": 386.42,
+      "change": -6.08,
+      "changePercent": -1.549,
+      "high": 393.95,
+      "low": 385.2201,
+      "open": 393,
+      "prevClose": 392.5,
+      "name": "Tesla Inc",
+      "sector": "Automobiles",
+      "marketCap": "$1.45T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
+      "week52High": 498.83,
+      "week52Low": 222.79,
+      "beta": 1.8452321,
+      "peRatio": 382.1863,
+      "eps": 1.0754,
       "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "volume": "68.9M",
+      "avgVolume": "65.6M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
-      "revenue": "",
-      "netIncome": "",
-      "netMargin": "",
+      "news": [
+        {
+          "headline": "The Zacks Analyst Blog  Tesla",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=a8b03429b62d144577741dfdca7d33c006d15c9675931179ad624509f25735a3"
+        },
+        {
+          "headline": "What To Look for in Tesla's Earnings Deck, Beyond the Numbers",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=44422f8b6b352d8a9009b453d7a26fb97cb5a6468b24a9f5c58a02fea1356178"
+        },
+        {
+          "headline": "Why Tesla Stock Is at a Crossroads",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=7e36b9f83ba7f39ddfa4b4731db78d36fa39c6f3f142dc6ebd8524a7ab61d44c"
+        },
+        {
+          "headline": "Tesla: Bearish Reaction From 200-Day MA With Weak Relative Strength (Technical Analysis)",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=4bce6cbbf58b20033a069e95da31e934e74570a204e8b466596d5ea8509a428f"
+        },
+        {
+          "headline": "Tesla avoids paying billions through the Netherlands: a trend",
+          "source": "Finnhub",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=69a1f30eba81b1ac71af5af5b968ba7920094ce73be735eac61d95587e275cd7"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2025-12-31",
+          "estimated": 0.4559,
+          "actual": 0.5,
+          "surprise": 9.6732
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 0.5586,
+          "actual": 0.5,
+          "surprise": -10.4905
+        },
+        {
+          "quarter": "2025-06-30",
+          "estimated": 0.4373,
+          "actual": 0.4,
+          "surprise": -8.5296
+        },
+        {
+          "quarter": "2025-03-31",
+          "estimated": 0.399,
+          "actual": 0.27,
+          "surprise": -32.3308
+        }
+      ],
+      "revenue": "$94.83B",
+      "netIncome": "$3.85B",
+      "netMargin": "4.1%",
       "revenueGrowth": ""
     }
   }
