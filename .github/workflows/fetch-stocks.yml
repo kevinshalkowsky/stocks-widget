@@ -2,21 +2,21 @@ name: Fetch Stock Data
 
 on:
   schedule:
-    # Runs every 5 minutes
     - cron: "0 * * * *"
-  # Also allows manual trigger from the GitHub Actions tab
   workflow_dispatch:
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -26,7 +26,6 @@ jobs:
       - name: Fetch stock data and write stocks.json
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-          # Comma-separated list of symbols — edit this to match your Framer component
           SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA"
         run: |
           node << 'EOF'
@@ -99,7 +98,6 @@ jobs:
             const e = earnings.status === "fulfilled" && Array.isArray(earnings.value) ? earnings.value : []
             const f = financials.status === "fulfilled" ? financials.value : {}
 
-            // Financials
             const ic = f?.data?.[0]?.report?.ic ?? []
             const findLine = (label) => ic.find(l => l.label?.toLowerCase().includes(label))
             const revEntry = findLine("revenue")
@@ -112,7 +110,6 @@ jobs:
 
             return {
               symbol: sym,
-              // Quote
               price:         q.c  ?? 0,
               change:        q.d  ?? 0,
               changePercent: q.dp ?? 0,
@@ -120,39 +117,33 @@ jobs:
               low:           q.l  ?? 0,
               open:          q.o  ?? 0,
               prevClose:     q.pc ?? 0,
-              // Profile
               name:      p.name              ?? sym,
               sector:    p.finnhubIndustry   ?? "",
               marketCap: formatMarketCap((p.marketCapitalization ?? 0) * 1e6),
               logo:      p.logo              ?? "",
-              // Metrics
-              week52High:    m["52WeekHigh"]                  ?? 0,
-              week52Low:     m["52WeekLow"]                   ?? 0,
-              beta:          m.beta                           ?? 0,
-              peRatio:       m.peNormalizedAnnual             ?? 0,
-              eps:           m.epsNormalizedAnnual            ?? 0,
+              week52High:    m["52WeekHigh"]               ?? 0,
+              week52Low:     m["52WeekLow"]                ?? 0,
+              beta:          m.beta                        ?? 0,
+              peRatio:       m.peNormalizedAnnual          ?? 0,
+              eps:           m.epsNormalizedAnnual         ?? 0,
               dividendYield: m.dividendYieldIndicatedAnnual
                 ? `${m.dividendYieldIndicatedAnnual.toFixed(2)}%`
                 : "",
               volume:    formatVolume((m["10DayAverageTradingVolume"]  ?? 0) * 1e6),
               avgVolume: formatVolume((m["3MonthAverageTradingVolume"] ?? 0) * 1e6),
-              // Sparkline
               sparklineData: c.s === "ok" ? (c.c ?? []) : [],
-              // News (latest 5)
               news: n.slice(0, 5).map(item => ({
                 headline: item.headline ?? "",
                 source:   item.source   ?? "",
                 timeAgo:  timeAgo(item.datetime),
                 url:      item.url      ?? "",
               })),
-              // Earnings (latest 4 quarters)
               earnings: e.slice(0, 4).map(item => ({
-                quarter:   item.period        ?? "",
-                estimated: item.estimate      ?? 0,
-                actual:    item.actual        ?? 0,
+                quarter:   item.period          ?? "",
+                estimated: item.estimate        ?? 0,
+                actual:    item.actual          ?? 0,
                 surprise:  item.surprisePercent ?? 0,
               })),
-              // Financials
               revenue,
               netIncome,
               netMargin,
@@ -163,35 +154,39 @@ jobs:
           ;(async () => {
             console.log(`Fetching data for: ${SYMBOLS.join(", ")}`)
             const results = {}
-
             for (const sym of SYMBOLS) {
               try {
-                console.log(`  → ${sym}`)
+                console.log(`  -> ${sym}`)
                 results[sym] = await fetchSymbol(sym)
-                // Small delay between symbols to stay within rate limits
                 await new Promise(r => setTimeout(r, 300))
               } catch (err) {
-                console.error(`  ✗ ${sym}: ${err.message}`)
+                console.error(`  x ${sym}: ${err.message}`)
               }
             }
-
             const output = {
               updatedAt: new Date().toISOString(),
               stocks: results,
             }
-
             require("fs").writeFileSync("stocks.json", JSON.stringify(output, null, 2))
-            console.log(`✓ Written stocks.json (${SYMBOLS.length} symbols)`)
+            console.log(`Written stocks.json (${SYMBOLS.length} symbols)`)
           })()
           EOF
 
-     - name: Commit and push stocks.json
+      - name: Push stocks.json via GitHub API
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch --all
-          git checkout origin/main -- . 2>/dev/null || true
-          git add stocks.json
-          git diff --staged --quiet && echo "No changes" && exit 0
-          git commit -m "chore: refresh stock data [skip ci]"
-          git push origin HEAD:main --force-with-lease
+          CONTENT=$(base64 -w 0 stocks.json)
+          SHA=$(gh api repos/${{ github.repository }}/contents/stocks.json --jq '.sha' 2>/dev/null || echo "")
+          if [ -z "$SHA" ]; then
+            gh api repos/${{ github.repository }}/contents/stocks.json \
+              --method PUT \
+              --field message="chore: refresh stock data [skip ci]" \
+              --field content="$CONTENT"
+          else
+            gh api repos/${{ github.repository }}/contents/stocks.json \
+              --method PUT \
+              --field message="chore: refresh stock data [skip ci]" \
+              --field content="$CONTENT" \
+              --field sha="$SHA"
+          fi
