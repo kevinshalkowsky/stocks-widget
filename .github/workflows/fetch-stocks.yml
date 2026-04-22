@@ -192,4 +192,5 @@ jobs:
           git add stocks.json
           # Only commit if there are actual changes
           git diff --staged --quiet || git commit -m "chore: refresh stock data [skip ci]"
+          git pull --rebase origin main
           git push
