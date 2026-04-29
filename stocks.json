@@ -1,77 +1,69 @@
 {
-  "updatedAt": "2026-04-29T21:45:51.649Z",
+  "updatedAt": "2026-04-29T21:49:16.757Z",
   "data": {
-    "AAPL": {
-      "symbol": "AAPL",
+    "aapl.us": {
+      "symbol": "aapl.us",
       "type": "stock",
       "name": "Apple Inc",
-      "price": 270.17,
-      "change": -0.54,
-      "changePercent": -0.1995,
-      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png"
+      "price": 267.05,
+      "change": 245.05,
+      "changePercent": 1113.8636363636363
     },
-    "GOOGL": {
-      "symbol": "GOOGL",
+    "googl.us": {
+      "symbol": "googl.us",
       "type": "stock",
       "name": "Alphabet Inc",
-      "price": 349.94,
-      "change": 0.16,
-      "changePercent": 0.0457,
-      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png"
+      "price": 344.23,
+      "change": 322.23,
+      "changePercent": 1464.6818181818182
     },
-    "MSFT": {
-      "symbol": "MSFT",
+    "msft.us": {
+      "symbol": "msft.us",
       "type": "stock",
       "name": "Microsoft Corp",
-      "price": 424.46,
-      "change": -4.79,
-      "changePercent": -1.1159,
-      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png"
+      "price": 420.29,
+      "change": 398.29,
+      "changePercent": 1810.409090909091
     },
-    "AMZN": {
-      "symbol": "AMZN",
+    "amzn.us": {
+      "symbol": "amzn.us",
       "type": "stock",
       "name": "Amazon.com Inc",
-      "price": 263.04,
-      "change": 3.34,
-      "changePercent": 1.2861,
-      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png"
+      "price": 257.71,
+      "change": 235.70999999999998,
+      "changePercent": 1071.4090909090908
     },
-    "TSLA": {
-      "symbol": "TSLA",
+    "tsla.us": {
+      "symbol": "tsla.us",
       "type": "stock",
       "name": "Tesla Inc",
-      "price": 372.8,
-      "change": -3.22,
-      "changePercent": -0.8563,
-      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png"
+      "price": 370.04,
+      "change": 348.04,
+      "changePercent": 1582
     },
-    "^DJI": {
-      "symbol": "^DJI",
+    "^dji": {
+      "symbol": "^dji",
       "type": "stock",
       "name": "Dow Jones Industrial Average",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "logo": ""
+      "price": 48710,
+      "change": 48688,
+      "changePercent": 221309.0909090909
     },
-    "^GSPC": {
-      "symbol": "^GSPC",
+    "^spx": {
+      "symbol": "^spx",
       "type": "stock",
       "name": "S&P 500",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "logo": ""
+      "price": 7108.2,
+      "change": 7086.2,
+      "changePercent": 32209.999999999996
     },
-    "^IXIC": {
-      "symbol": "^IXIC",
+    "^ndq": {
+      "symbol": "^ndq",
       "type": "stock",
       "name": "Nasdaq Composite",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "logo": ""
+      "price": 24533.744,
+      "change": 24511.744,
+      "changePercent": 111417.01818181819
     }
   }
 }
