@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch market data (Stooq + Sparklines)
+      - name: Fetch market data (Stooq FIXED)
         run: |
           node << 'EOF'
           const https = require("https")
@@ -48,10 +48,9 @@ jobs:
             "^ndq": "Nasdaq"
           }
 
-          const INDEX_SET = new Set(["^dji", "^spx", "^ndq"])
+          function getCSV(symbol) {
+            const url = `https://stooq.com/q/l/?s=${symbol}&f=sd2t2ohlc&h&e=csv`
 
-          function getCSV(symbol, range = "") {
-            const url = `https://stooq.com/q/d/l/?s=${symbol}&i=d`
             return new Promise((resolve) => {
               https.get(url, (res) => {
                 let data = ""
@@ -61,35 +60,18 @@ jobs:
             })
           }
 
-          function parseHistory(csv) {
+          function parseCSV(csv) {
             const lines = csv.trim().split("\n")
-            if (lines.length < 2) return []
+            if (lines.length < 2) return null
 
-            const rows = lines.slice(1).map(line => {
-              const cols = line.split(",")
-              return {
-                date: cols[0],
-                close: parseFloat(cols[4])
-              }
-            })
+            const cols = lines[1].split(",")
 
-            return rows.filter(r => !isNaN(r.close))
-          }
+            const open = parseFloat(cols[3])
+            const close = parseFloat(cols[6])
 
-          function buildSparkline(history, points = 30) {
-            return history.slice(-points).map(p => p.close)
-          }
+            if (isNaN(open) || isNaN(close)) return null
 
-          function calcChange(history) {
-            if (history.length < 2) return { change: 0, changePercent: 0 }
-
-            const latest = history[history.length - 1].close
-            const prev = history[history.length - 2].close
-
-            const change = latest - prev
-            const changePercent = prev ? (change / prev) * 100 : 0
-
-            return { latest, change, changePercent }
+            return { open, close }
           }
 
           function direction(change) {
@@ -98,17 +80,21 @@ jobs:
             return "flat"
           }
 
+          function clamp(n) {
+            return Number(n.toFixed(2))
+          }
+
           ;(async () => {
-            console.log("Building market dashboard feed...")
+            console.log("Fetching FIXED Stooq data...")
 
             const results = {}
 
             for (const sym of SYMBOLS) {
               try {
                 const csv = await getCSV(sym)
-                const history = parseHistory(csv)
+                const data = parseCSV(csv)
 
-                if (!history.length) {
+                if (!data) {
                   results[sym] = {
                     symbol: sym,
                     name: NAMES[sym] || sym,
@@ -122,18 +108,19 @@ jobs:
                   continue
                 }
 
-                const { latest, change, changePercent } = calcChange(history)
-                const sparkline = buildSparkline(history, 30)
+                const price = data.close
+                const change = price - data.open
+                const changePercent = data.open ? (change / data.open) * 100 : 0
 
                 results[sym] = {
                   symbol: sym,
                   name: NAMES[sym] || sym,
                   type: "stock",
-                  price: Number(latest.toFixed(2)),
-                  change: Number(change.toFixed(2)),
-                  changePercent: Number(changePercent.toFixed(2)),
+                  price: clamp(price),
+                  change: clamp(change),
+                  changePercent: clamp(changePercent),
                   direction: direction(change),
-                  sparkline
+                  sparkline: []
                 }
 
               } catch {
@@ -157,7 +144,7 @@ jobs:
             }
 
             fs.writeFileSync("stocks.json", JSON.stringify(output, null, 2))
-            console.log("Dashboard feed updated")
+            console.log("SUCCESS: market data updated")
           })()
           EOF
 
@@ -167,5 +154,5 @@ jobs:
           git config user.email "github-actions@users.noreply.github.com"
 
           git add stocks.json
-          git commit -m "chore: update market dashboard feed [skip ci]" || echo "No changes"
+          git commit -m "chore: fix market feed data [skip ci]" || echo "No changes"
           git push
