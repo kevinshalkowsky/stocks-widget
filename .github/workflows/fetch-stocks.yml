@@ -20,23 +20,18 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch stock + index data
+      - name: Fetch stock data
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-          SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA"
-          INDEXES: "^DJI,^GSPC,^IXIC"
+          SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA,^DJI,^GSPC,^IXIC"
         run: |
           node << 'EOF'
           const https = require("https")
+          const fs = require("fs")
 
           const API_KEY = process.env.FINNHUB_API_KEY
 
-          const STOCKS = (process.env.SYMBOLS || "")
-            .split(",")
-            .filter(Boolean)
-            .map(s => s.trim().toUpperCase())
-
-          const INDEXES = (process.env.INDEXES || "")
+          const SYMBOLS = (process.env.SYMBOLS || "")
             .split(",")
             .filter(Boolean)
             .map(s => s.trim().toUpperCase())
@@ -59,7 +54,13 @@ jobs:
             })
           }
 
-          async function fetchStock(sym) {
+          const NAMES = {
+            "^DJI": "Dow Jones Industrial Average",
+            "^GSPC": "S&P 500",
+            "^IXIC": "Nasdaq Composite"
+          }
+
+          async function fetchAsset(sym) {
             const [quote, profile] = await Promise.all([
               get(`${BASE}/quote?symbol=${sym}&token=${API_KEY}`),
               get(`${BASE}/stock/profile2?symbol=${sym}&token=${API_KEY}`)
@@ -67,8 +68,8 @@ jobs:
 
             return {
               symbol: sym,
-              type: "stock",
-              name: profile.name || sym,
+              type: "stock", // everything treated uniformly
+              name: profile.name || NAMES[sym] || sym,
               price: quote.c ?? 0,
               change: quote.d ?? 0,
               changePercent: quote.dp ?? 0,
@@ -76,50 +77,20 @@ jobs:
             }
           }
 
-          async function fetchIndex(sym) {
-            const now = Math.floor(Date.now() / 1000)
-            const ago30d = now - 30 * 86400
-
-            const [quote, candles] = await Promise.all([
-              get(`${BASE}/quote?symbol=${sym}&token=${API_KEY}`),
-              get(`${BASE}/stock/candle?symbol=${sym}&resolution=D&from=${ago30d}&to=${now}&token=${API_KEY}`)
-            ])
-
-            const names = {
-              "^DJI": "Dow Jones Industrial Average",
-              "^GSPC": "S&P 500",
-              "^IXIC": "Nasdaq Composite"
-            }
-
-            return {
-              symbol: sym,
-              type: "index",
-              name: names[sym] || sym,
-              price: quote.c ?? 0,
-              change: quote.d ?? 0,
-              changePercent: quote.dp ?? 0,
-              sparklineData: candles.s === "ok" ? candles.c : []
-            }
-          }
-
           ;(async () => {
-            console.log("Fetching data...")
+            console.log("Fetching stock + index data...")
 
             const results = {}
 
-            for (const sym of STOCKS) {
+            for (const sym of SYMBOLS) {
               try {
-                results[sym] = await fetchStock(sym)
+                results[sym] = await fetchAsset(sym)
               } catch {
-                results[sym] = { symbol: sym, type: "stock", error: true }
-              }
-            }
-
-            for (const sym of INDEXES) {
-              try {
-                results[sym] = await fetchIndex(sym)
-              } catch {
-                results[sym] = { symbol: sym, type: "index", error: true }
+                results[sym] = {
+                  symbol: sym,
+                  type: "stock",
+                  error: true
+                }
               }
             }
 
@@ -128,7 +99,7 @@ jobs:
               data: results
             }
 
-            require("fs").writeFileSync("stocks.json", JSON.stringify(output, null, 2))
+            fs.writeFileSync("stocks.json", JSON.stringify(output, null, 2))
 
             console.log("stocks.json updated")
           })()
