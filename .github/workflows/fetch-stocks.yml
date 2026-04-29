@@ -23,7 +23,7 @@ jobs:
       - name: Fetch stock data
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-          SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA,^DJI,^GSPC,^IXIC"
+          SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA,DJI.INDX,SPX.INDX,IXIC.INDX"
         run: |
           node << 'EOF'
           const https = require("https")
@@ -55,9 +55,9 @@ jobs:
           }
 
           const NAMES = {
-            "^DJI": "Dow Jones Industrial Average",
-            "^GSPC": "S&P 500",
-            "^IXIC": "Nasdaq Composite"
+            "DJI.INDX": "Dow Jones Industrial Average",
+            "SPX.INDX": "S&P 500",
+            "IXIC.INDX": "Nasdaq Composite"
           }
 
           async function fetchAsset(sym) {
@@ -68,7 +68,7 @@ jobs:
 
             return {
               symbol: sym,
-              type: "stock", // everything treated uniformly
+              type: sym.includes(".INDX") ? "stock" : "stock",
               name: profile.name || NAMES[sym] || sym,
               price: quote.c ?? 0,
               change: quote.d ?? 0,
