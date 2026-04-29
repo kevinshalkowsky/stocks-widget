@@ -27,7 +27,7 @@ jobs:
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA"
-          # Finnhub supports major index quotes natively — no extra plan needed.
+          # Index quotes come from Yahoo Finance (free, no key needed).
           # ^GSPC = S&P 500 | ^DJI = Dow Jones | ^IXIC = Nasdaq Composite
           INDEX_SYMBOLS: "^GSPC,^DJI,^IXIC"
         run: |
@@ -46,14 +46,21 @@ jobs:
             "^IXIC": "Nasdaq",
           }
 
-          function get(url) {
+          function get(url, extraHeaders = {}) {
             return new Promise((resolve, reject) => {
-              https.get(url, (res) => {
+              const options = {
+                headers: {
+                  // Yahoo requires a browser-like User-Agent or it returns 403
+                  "User-Agent": "Mozilla/5.0 (compatible; StockFetcher/1.0)",
+                  ...extraHeaders,
+                }
+              }
+              https.get(url, options, (res) => {
                 let data = ""
                 res.on("data", chunk => data += chunk)
                 res.on("end", () => {
                   try { resolve(JSON.parse(data)) }
-                  catch (e) { reject(e) }
+                  catch (e) { reject(new Error(`JSON parse failed (status ${res.statusCode}): ${data.slice(0, 120)}`)) }
                 })
               }).on("error", reject)
             })
@@ -164,45 +171,73 @@ jobs:
             }
           }
 
-          // ─── Fetch a market index (quote + 30-day sparkline only) ─────────────────
-          // Indexes have no profile, earnings, or financials on Finnhub's free tier.
-          // We still pull candles for the sparkline so the UI stays consistent.
+          // ─── Fetch a market index via Yahoo Finance (free, no key needed) ───────────
+          // Yahoo symbols: %5EGSPC = ^GSPC, %5EDJI = ^DJI, %5EIXIC = ^IXIC
+          // We use two Yahoo endpoints:
+          //   - /v8/finance/chart  → quote fields + 30-day daily closes for sparkline
+          //   - (no separate candle call needed; chart endpoint returns both)
           async function fetchIndex(sym) {
-            const now    = Math.floor(Date.now() / 1000)
-            const ago30d = now - 30 * 24 * 60 * 60
+            const encodedSym = encodeURIComponent(sym)
+            const ago30d     = Math.floor(Date.now() / 1000) - 30 * 24 * 60 * 60
+            const now        = Math.floor(Date.now() / 1000)
 
-            const [quote, candles] = await Promise.allSettled([
-              get(`${BASE}/quote?symbol=${sym}&token=${API_KEY}`),
-              get(`${BASE}/stock/candle?symbol=${sym}&resolution=D&from=${ago30d}&to=${now}&token=${API_KEY}`),
-            ])
+            // Single call gets quote metadata AND historical closes
+            const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodedSym}` +
+                        `?interval=1d&period1=${ago30d}&period2=${now}&includePrePost=false`
 
-            const q = quote.status === "fulfilled" ? quote.value : {}
-            const c = candles.status === "fulfilled" ? candles.value : {}
+            let q = {}, sparklineData = []
+            try {
+              const data   = await get(url)
+              const result = data?.chart?.result?.[0]
+              if (result) {
+                const meta   = result.meta ?? {}
+                const closes = result.indicators?.quote?.[0]?.close ?? []
+                // Filter out null/undefined values Yahoo sometimes returns for non-trading days
+                sparklineData = closes.filter(v => v != null)
+
+                q = {
+                  price:         meta.regularMarketPrice          ?? 0,
+                  prevClose:     meta.chartPreviousClose          ?? meta.previousClose ?? 0,
+                  high:          meta.regularMarketDayHigh        ?? 0,
+                  low:           meta.regularMarketDayLow         ?? 0,
+                  open:          meta.regularMarketOpen           ?? 0,
+                  week52High:    meta.fiftyTwoWeekHigh            ?? 0,
+                  week52Low:     meta.fiftyTwoWeekLow             ?? 0,
+                  volume:        formatVolume(meta.regularMarketVolume ?? 0),
+                }
+                q.change        = +(q.price - q.prevClose).toFixed(2)
+                q.changePercent = q.prevClose
+                  ? +((q.change / q.prevClose) * 100).toFixed(4)
+                  : 0
+              }
+            } catch (err) {
+              console.error(`  Yahoo fetch failed for ${sym}: ${err.message}`)
+            }
 
             return {
               symbol:        sym,
               type:          "index",
               name:          INDEX_NAMES[sym] ?? sym,
-              price:         q.c  ?? 0,
-              change:        q.d  ?? 0,
-              changePercent: q.dp ?? 0,
-              high:          q.h  ?? 0,
-              low:           q.l  ?? 0,
-              open:          q.o  ?? 0,
-              prevClose:     q.pc ?? 0,
+              price:         q.price         ?? 0,
+              change:        q.change        ?? 0,
+              changePercent: q.changePercent ?? 0,
+              high:          q.high          ?? 0,
+              low:           q.low           ?? 0,
+              open:          q.open          ?? 0,
+              prevClose:     q.prevClose     ?? 0,
+              week52High:    q.week52High    ?? 0,
+              week52Low:     q.week52Low     ?? 0,
+              volume:        q.volume        ?? "",
+              sparklineData,
               // Fields not applicable to indexes — kept for schema consistency
               sector:        "",
               marketCap:     "",
               logo:          "",
-              week52High:    0,
-              week52Low:     0,
               beta:          0,
               peRatio:       0,
               eps:           0,
               dividendYield: "",
-              volume:        "",
               avgVolume:     "",
-              sparklineData: c.s === "ok" ? (c.c ?? []) : [],
               news:          [],
               earnings:      [],
               revenue:       "",
