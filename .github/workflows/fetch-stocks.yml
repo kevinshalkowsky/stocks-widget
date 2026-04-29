@@ -1,124 +1,144 @@
-- name: Fetch stock data and write stocks.json
-  env:
-    FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-    SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA"
-    INDEXES: "^DJI,^GSPC,^IXIC"
-  run: |
-    node << 'EOF'
-    const https = require("https")
+name: Fetch Stock Data
 
-    const API_KEY = process.env.FINNHUB_API_KEY
-    const STOCKS = process.env.SYMBOLS.split(",").map(s => s.trim().toUpperCase())
-    const INDEXES = process.env.INDEXES.split(",").map(s => s.trim().toUpperCase())
-    const BASE = "https://finnhub.io/api/v1"
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
 
-    function get(url) {
-      return new Promise((resolve) => {
-        https.get(url, (res) => {
-          let data = ""
-          res.on("data", chunk => data += chunk)
-          res.on("end", () => {
-            try {
-              resolve(JSON.parse(data))
-            } catch {
-              resolve({})
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch stock + index data
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA"
+          INDEXES: "^DJI,^GSPC,^IXIC"
+        run: |
+          node << 'EOF'
+          const https = require("https")
+
+          const API_KEY = process.env.FINNHUB_API_KEY
+
+          const STOCKS = (process.env.SYMBOLS || "")
+            .split(",")
+            .filter(Boolean)
+            .map(s => s.trim().toUpperCase())
+
+          const INDEXES = (process.env.INDEXES || "")
+            .split(",")
+            .filter(Boolean)
+            .map(s => s.trim().toUpperCase())
+
+          const BASE = "https://finnhub.io/api/v1"
+
+          function get(url) {
+            return new Promise((resolve) => {
+              https.get(url, (res) => {
+                let data = ""
+                res.on("data", chunk => data += chunk)
+                res.on("end", () => {
+                  try {
+                    resolve(JSON.parse(data))
+                  } catch {
+                    resolve({})
+                  }
+                })
+              }).on("error", () => resolve({}))
+            })
+          }
+
+          async function fetchStock(sym) {
+            const [quote, profile] = await Promise.all([
+              get(`${BASE}/quote?symbol=${sym}&token=${API_KEY}`),
+              get(`${BASE}/stock/profile2?symbol=${sym}&token=${API_KEY}`)
+            ])
+
+            return {
+              symbol: sym,
+              type: "stock",
+              name: profile.name || sym,
+              price: quote.c ?? 0,
+              change: quote.d ?? 0,
+              changePercent: quote.dp ?? 0,
+              logo: profile.logo || ""
             }
-          })
-        }).on("error", () => resolve({}))
-      })
-    }
+          }
 
-    function timeAgo(unixSec) {
-      if (!unixSec) return ""
-      const diffMs = Date.now() - unixSec * 1000
-      const mins = Math.floor(diffMs / 60000)
-      if (mins < 60) return `${mins}m ago`
-      const hrs = Math.floor(mins / 60)
-      if (hrs < 24) return `${hrs}h ago`
-      return `${Math.floor(hrs / 24)}d ago`
-    }
+          async function fetchIndex(sym) {
+            const now = Math.floor(Date.now() / 1000)
+            const ago30d = now - 30 * 86400
 
-    // ---------- STOCK FETCH ----------
-    async function fetchStock(sym) {
-      const now = Math.floor(Date.now() / 1000)
-      const ago30d = now - 30 * 86400
+            const [quote, candles] = await Promise.all([
+              get(`${BASE}/quote?symbol=${sym}&token=${API_KEY}`),
+              get(`${BASE}/stock/candle?symbol=${sym}&resolution=D&from=${ago30d}&to=${now}&token=${API_KEY}`)
+            ])
 
-      const [quote, profile] = await Promise.all([
-        get(`${BASE}/quote?symbol=${sym}&token=${API_KEY}`),
-        get(`${BASE}/stock/profile2?symbol=${sym}&token=${API_KEY}`)
-      ])
+            const names = {
+              "^DJI": "Dow Jones Industrial Average",
+              "^GSPC": "S&P 500",
+              "^IXIC": "Nasdaq Composite"
+            }
 
-      return {
-        symbol: sym,
-        type: "stock",
-        price: quote.c ?? 0,
-        change: quote.d ?? 0,
-        changePercent: quote.dp ?? 0,
-        name: profile.name || sym,
-        logo: profile.logo || "",
-      }
-    }
+            return {
+              symbol: sym,
+              type: "index",
+              name: names[sym] || sym,
+              price: quote.c ?? 0,
+              change: quote.d ?? 0,
+              changePercent: quote.dp ?? 0,
+              sparklineData: candles.s === "ok" ? candles.c : []
+            }
+          }
 
-    // ---------- INDEX FETCH ----------
-    async function fetchIndex(sym) {
-      const now = Math.floor(Date.now() / 1000)
-      const ago30d = now - 30 * 86400
+          ;(async () => {
+            console.log("Fetching data...")
 
-      const [quote, candles] = await Promise.all([
-        get(`${BASE}/quote?symbol=${sym}&token=${API_KEY}`),
-        get(`${BASE}/stock/candle?symbol=${sym}&resolution=D&from=${ago30d}&to=${now}&token=${API_KEY}`)
-      ])
+            const results = {}
 
-      const nameMap = {
-        "^DJI": "Dow Jones Industrial Average",
-        "^GSPC": "S&P 500",
-        "^IXIC": "Nasdaq Composite"
-      }
+            for (const sym of STOCKS) {
+              try {
+                results[sym] = await fetchStock(sym)
+              } catch {
+                results[sym] = { symbol: sym, type: "stock", error: true }
+              }
+            }
 
-      return {
-        symbol: sym,
-        type: "index",
-        name: nameMap[sym] || sym,
-        price: quote.c ?? 0,
-        change: quote.d ?? 0,
-        changePercent: quote.dp ?? 0,
-        sparklineData: candles.s === "ok" ? candles.c : [],
-        logo: "", // indexes don’t have logos
-      }
-    }
+            for (const sym of INDEXES) {
+              try {
+                results[sym] = await fetchIndex(sym)
+              } catch {
+                results[sym] = { symbol: sym, type: "index", error: true }
+              }
+            }
 
-    // ---------- MAIN ----------
-    ;(async () => {
-      console.log("Fetching stocks + indexes")
+            const output = {
+              updatedAt: new Date().toISOString(),
+              data: results
+            }
 
-      const results = {}
+            require("fs").writeFileSync("stocks.json", JSON.stringify(output, null, 2))
 
-      for (const sym of STOCKS) {
-        try {
-          console.log(`Stock -> ${sym}`)
-          results[sym] = await fetchStock(sym)
-        } catch (e) {
-          results[sym] = { symbol: sym, type: "stock", error: true }
-        }
-        await new Promise(r => setTimeout(r, 200))
-      }
+            console.log("stocks.json updated")
+          })()
+          EOF
 
-      for (const sym of INDEXES) {
-        try {
-          console.log(`Index -> ${sym}`)
-          results[sym] = await fetchIndex(sym)
-        } catch (e) {
-          results[sym] = { symbol: sym, type: "index", error: true }
-        }
-        await new Promise(r => setTimeout(r, 200))
-      }
+      - name: Commit updated stocks.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions@users.noreply.github.com"
 
-      const output = {
-        updatedAt: new Date().toISOString(),
-        data: results,
-      }
-
-      require("fs").writeFileSync("stocks.json", JSON.stringify(output, null, 2))
-      console.log("stocks.json written")
-    })()
-    EOF
+          git add stocks.json
+          git commit -m "chore: refresh stock data [skip ci]" || echo "No changes"
+          git push
