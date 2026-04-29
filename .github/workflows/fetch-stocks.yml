@@ -1,4 +1,4 @@
-name: Fetch Market Dashboard Data
+name: Market Data Engine (Stooq + Finnhub)
 
 on:
   schedule:
@@ -20,12 +20,17 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch market data (Stooq FIXED)
+      - name: Fetch Market Data (Dual Source)
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: |
           node << 'EOF'
           const https = require("https")
           const fs = require("fs")
 
+          // -----------------------------
+          // CONFIG
+          // -----------------------------
           const SYMBOLS = [
             "aapl.us",
             "googl.us",
@@ -48,30 +53,81 @@ jobs:
             "^ndq": "Nasdaq"
           }
 
-          function getCSV(symbol) {
+          const API_KEY = process.env.FINNHUB_API_KEY
+          const BASE = "https://finnhub.io/api/v1"
+
+          // -----------------------------
+          // HTTP helper
+          // -----------------------------
+          function get(url) {
+            return new Promise((resolve) => {
+              https.get(url, (res) => {
+                let data = ""
+                res.on("data", c => data += c)
+                res.on("end", () => {
+                  try { resolve(JSON.parse(data)) }
+                  catch { resolve({}) }
+                })
+              }).on("error", () => resolve({}))
+            })
+          }
+
+          // -----------------------------
+          // STLOOQ PRICE ENGINE
+          // -----------------------------
+          function getStooqCSV(symbol) {
             const url = `https://stooq.com/q/l/?s=${symbol}&f=sd2t2ohlc&h&e=csv`
 
             return new Promise((resolve) => {
               https.get(url, (res) => {
                 let data = ""
-                res.on("data", chunk => data += chunk)
+                res.on("data", c => data += c)
                 res.on("end", () => resolve(data))
               }).on("error", () => resolve(""))
             })
           }
 
-          function parseCSV(csv) {
+          function parseStooq(csv) {
             const lines = csv.trim().split("\n")
             if (lines.length < 2) return null
 
-            const cols = lines[1].split(",")
+            const c = lines[1].split(",")
 
-            const open = parseFloat(cols[3])
-            const close = parseFloat(cols[6])
+            const open = parseFloat(c[3])
+            const close = parseFloat(c[6])
 
             if (isNaN(open) || isNaN(close)) return null
 
             return { open, close }
+          }
+
+          // -----------------------------
+          // FINNHUB ENRICHMENT ENGINE
+          // -----------------------------
+          async function getEnrichment(sym) {
+            const [profile, metrics, news] = await Promise.all([
+              get(`${BASE}/stock/profile2?symbol=${sym}&token=${API_KEY}`),
+              get(`${BASE}/stock/metric?symbol=${sym}&token=${API_KEY}`),
+              get(`${BASE}/company-news?symbol=${sym}&from=2026-01-01&to=2026-12-31&token=${API_KEY}`)
+            ])
+
+            const m = metrics.metric || {}
+
+            return {
+              fiftyTwoWeek: {
+                low: m["52WeekLow"] || null,
+                high: m["52WeekHigh"] || null
+              },
+              marketCap: profile.marketCapitalization || null,
+              peRatio: m.peBasicExclExtraTTM || null,
+              revenueTTM: m.revenueTTM || null,
+              earningsPerShare: m.epsTTM || null,
+              news: (news || []).slice(0, 5).map(n => ({
+                headline: n.headline,
+                url: n.url,
+                source: n.source
+              }))
+            }
           }
 
           function direction(change) {
@@ -84,17 +140,22 @@ jobs:
             return Number(n.toFixed(2))
           }
 
+          // -----------------------------
+          // MAIN PIPELINE
+          // -----------------------------
           ;(async () => {
-            console.log("Fetching FIXED Stooq data...")
+            console.log("Running dual-source market engine...")
 
             const results = {}
 
             for (const sym of SYMBOLS) {
               try {
-                const csv = await getCSV(sym)
-                const data = parseCSV(csv)
 
-                if (!data) {
+                // ---------------- PRICE (Stooq)
+                const csv = await getStooqCSV(sym)
+                const priceData = parseStooq(csv)
+
+                if (!priceData) {
                   results[sym] = {
                     symbol: sym,
                     name: NAMES[sym] || sym,
@@ -103,24 +164,35 @@ jobs:
                     change: 0,
                     changePercent: 0,
                     direction: "flat",
-                    sparkline: []
+                    enrichment: null
                   }
                   continue
                 }
 
-                const price = data.close
-                const change = price - data.open
-                const changePercent = data.open ? (change / data.open) * 100 : 0
+                const price = priceData.close
+                const change = price - priceData.open
+                const changePercent = priceData.open ? (change / priceData.open) * 100 : 0
 
+                // ---------------- ENRICHMENT (Finnhub)
+                let enrichment = null
+                try {
+                  enrichment = await getEnrichment(sym.replace("^", ""))
+                } catch {
+                  enrichment = null
+                }
+
+                // ---------------- RESULT
                 results[sym] = {
                   symbol: sym,
                   name: NAMES[sym] || sym,
                   type: "stock",
+
                   price: clamp(price),
                   change: clamp(change),
                   changePercent: clamp(changePercent),
                   direction: direction(change),
-                  sparkline: []
+
+                  enrichment
                 }
 
               } catch {
@@ -132,7 +204,7 @@ jobs:
                   change: 0,
                   changePercent: 0,
                   direction: "flat",
-                  sparkline: []
+                  enrichment: null
                 }
               }
             }
@@ -144,7 +216,7 @@ jobs:
             }
 
             fs.writeFileSync("stocks.json", JSON.stringify(output, null, 2))
-            console.log("SUCCESS: market data updated")
+            console.log("Dual-source market feed updated")
           })()
           EOF
 
@@ -154,5 +226,5 @@ jobs:
           git config user.email "github-actions@users.noreply.github.com"
 
           git add stocks.json
-          git commit -m "chore: fix market feed data [skip ci]" || echo "No changes"
+          git commit -m "chore: dual-source market engine update [skip ci]" || echo "No changes"
           git push
