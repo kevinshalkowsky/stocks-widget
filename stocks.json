@@ -1,8 +1,101 @@
 {
-  "updatedAt": "2026-04-29T22:42:44.197Z",
+  "updatedAt": "2026-04-29T23:14:07.865Z",
+  "indexes": {
+    "^GSPC": {
+      "symbol": "^GSPC",
+      "type": "index",
+      "name": "S&P 500",
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "high": 0,
+      "low": 0,
+      "open": 0,
+      "prevClose": 0,
+      "sector": "",
+      "marketCap": "",
+      "logo": "",
+      "week52High": 0,
+      "week52Low": 0,
+      "beta": 0,
+      "peRatio": 0,
+      "eps": 0,
+      "dividendYield": "",
+      "volume": "",
+      "avgVolume": "",
+      "sparklineData": [],
+      "news": [],
+      "earnings": [],
+      "revenue": "",
+      "netIncome": "",
+      "netMargin": "",
+      "revenueGrowth": ""
+    },
+    "^DJI": {
+      "symbol": "^DJI",
+      "type": "index",
+      "name": "Dow Jones",
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "high": 0,
+      "low": 0,
+      "open": 0,
+      "prevClose": 0,
+      "sector": "",
+      "marketCap": "",
+      "logo": "",
+      "week52High": 0,
+      "week52Low": 0,
+      "beta": 0,
+      "peRatio": 0,
+      "eps": 0,
+      "dividendYield": "",
+      "volume": "",
+      "avgVolume": "",
+      "sparklineData": [],
+      "news": [],
+      "earnings": [],
+      "revenue": "",
+      "netIncome": "",
+      "netMargin": "",
+      "revenueGrowth": ""
+    },
+    "^IXIC": {
+      "symbol": "^IXIC",
+      "type": "index",
+      "name": "Nasdaq",
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "high": 0,
+      "low": 0,
+      "open": 0,
+      "prevClose": 0,
+      "sector": "",
+      "marketCap": "",
+      "logo": "",
+      "week52High": 0,
+      "week52Low": 0,
+      "beta": 0,
+      "peRatio": 0,
+      "eps": 0,
+      "dividendYield": "",
+      "volume": "",
+      "avgVolume": "",
+      "sparklineData": [],
+      "news": [],
+      "earnings": [],
+      "revenue": "",
+      "netIncome": "",
+      "netMargin": "",
+      "revenueGrowth": ""
+    }
+  },
   "stocks": {
     "AAPL": {
       "symbol": "AAPL",
+      "type": "stock",
       "price": 270.17,
       "change": -0.54,
       "changePercent": -0.1995,
@@ -33,13 +126,13 @@
         {
           "headline": "Qualcomm quarterly forecast underwhelms, but signs of market recovery lift shares",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=bae1dc7192f38109768e2824040618e98b1c98cff4c628003d100fb5f76a789f"
         },
         {
           "headline": "AI Efficiency Gains Offset Energy Inflation as Norway Wealth Fund Reports 1.9% Loss",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=4e9b7fa589e570869a404c5d163107ed2afd881c9147bf6da88e3e487eb52d35"
         },
         {
@@ -88,6 +181,7 @@
     },
     "GOOGL": {
       "symbol": "GOOGL",
+      "type": "stock",
       "price": 349.94,
       "change": 0.16,
       "changePercent": 0.0457,
@@ -112,13 +206,13 @@
         {
           "headline": "Google to sell TPU chips to 'select' customers in latest shot at Nvidia",
           "source": "Yahoo",
-          "timeAgo": "53m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=759995b6af8809ee5d9a3f80678edfedbf06973cf3a335fd55cb8a1cb7c2b5bc"
         },
         {
           "headline": "Dow Jones Futures: Google, Amazon, Meta, Microsoft Are Big Earnings Movers After Oil Prices Spike, Fed's Powell Stays",
           "source": "Yahoo",
-          "timeAgo": "58m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=270ea5fe78a3fc33df4ab55755c937fdbf1732ae319ead7f60ee4218b9e21973"
         },
         {
@@ -173,6 +267,7 @@
     },
     "MSFT": {
       "symbol": "MSFT",
+      "type": "stock",
       "price": 424.46,
       "change": -4.79,
       "changePercent": -1.1159,
@@ -197,13 +292,13 @@
         {
           "headline": "LinkedIn's AI hiring agents on track for $450 million in yearly revenue",
           "source": "Yahoo",
-          "timeAgo": "56m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=48af1fbd9d5c9891d4e659b3286273a5cc3df3646e1495b03cfeec5ddbf48abb"
         },
         {
           "headline": "Dow Jones Futures: Google, Amazon, Meta, Microsoft Are Big Earnings Movers After Oil Prices Spike, Fed's Powell Stays",
           "source": "Yahoo",
-          "timeAgo": "58m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=270ea5fe78a3fc33df4ab55755c937fdbf1732ae319ead7f60ee4218b9e21973"
         },
         {
@@ -258,6 +353,7 @@
     },
     "AMZN": {
       "symbol": "AMZN",
+      "type": "stock",
       "price": 263.04,
       "change": 3.34,
       "changePercent": 1.2861,
@@ -282,7 +378,7 @@
         {
           "headline": "Dow Jones Futures: Google, Amazon, Meta, Microsoft Are Big Earnings Movers After Oil Prices Spike, Fed's Powell Stays",
           "source": "Yahoo",
-          "timeAgo": "58m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=270ea5fe78a3fc33df4ab55755c937fdbf1732ae319ead7f60ee4218b9e21973"
         },
         {
@@ -343,6 +439,7 @@
     },
     "TSLA": {
       "symbol": "TSLA",
+      "type": "stock",
       "price": 372.8,
       "change": -3.22,
       "changePercent": -0.8563,
@@ -373,25 +470,25 @@
         {
           "headline": "Market Chatter: SpaceX's Starlink Revenue Per User Falls as Customers Quadrupled",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=f57416347aa67e2229d6ffdbf81daca5b8ac1624a435d1baf5620e4cd5fc5f62"
         },
         {
           "headline": "Opinion: Tesla Is the Priciest Bargain Stock on the Market",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=67fd60dd0c1f60ea7dab996fe983053c9d130cf86c0ba82b11a75e431311cdcb"
         },
         {
           "headline": "Which S&P500 stocks are the most active on Wednesday?",
           "source": "ChartMill",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=88857190ddd81ee06ee1216dac91c5981cf99c34e6aabdb8b98c8092e047d2da"
         },
         {
           "headline": "Musk Testifies Against OpenAI Shift As Trial Could Shape Future IPO",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=17a23a6dd4545fb94a0df84c90673eb0abb9d3410b95b0415ca9634c11e2b74c"
         }
       ],
