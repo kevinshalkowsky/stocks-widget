@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-29T21:53:38.352Z",
+  "updatedAt": "2026-04-29T22:07:57.609Z",
   "marketStatus": "live",
   "data": {
     "aapl.us": {
@@ -10,7 +10,7 @@
       "change": 2.76,
       "changePercent": 1.03,
       "direction": "up",
-      "sparkline": []
+      "enrichment": null
     },
     "googl.us": {
       "symbol": "googl.us",
@@ -20,7 +20,7 @@
       "change": 2.66,
       "changePercent": 0.76,
       "direction": "up",
-      "sparkline": []
+      "enrichment": null
     },
     "msft.us": {
       "symbol": "msft.us",
@@ -30,7 +30,7 @@
       "change": 0.06,
       "changePercent": 0.02,
       "direction": "up",
-      "sparkline": []
+      "enrichment": null
     },
     "amzn.us": {
       "symbol": "amzn.us",
@@ -40,7 +40,7 @@
       "change": 5.05,
       "changePercent": 1.96,
       "direction": "up",
-      "sparkline": []
+      "enrichment": null
     },
     "tsla.us": {
       "symbol": "tsla.us",
@@ -50,7 +50,7 @@
       "change": -2.5,
       "changePercent": -0.67,
       "direction": "down",
-      "sparkline": []
+      "enrichment": null
     },
     "^dji": {
       "symbol": "^dji",
@@ -60,7 +60,43 @@
       "change": -291.1,
       "changePercent": -0.59,
       "direction": "down",
-      "sparkline": []
+      "enrichment": {
+        "fiftyTwoWeek": {
+          "low": null,
+          "high": null
+        },
+        "marketCap": null,
+        "peRatio": null,
+        "revenueTTM": null,
+        "earningsPerShare": null,
+        "news": [
+          {
+            "headline": "April FOMC: Hawks Push Back As Inflation Risks Rise",
+            "url": "https://finnhub.io/api/news?id=e3bb99255f64d6e4093c3172d95ff67922a7e535d100b258525c5cca9b295220",
+            "source": "SeekingAlpha"
+          },
+          {
+            "headline": "Wall Street Lunch Fed Special: Powell Doesn't Go Gently Into That Good Night",
+            "url": "https://finnhub.io/api/news?id=3e9f82f846e9268a3ee7b6f69982b0f5e17716f5469a20255078c1e3bcdab10b",
+            "source": "SeekingAlpha"
+          },
+          {
+            "headline": "Powell's Last Hurrah",
+            "url": "https://finnhub.io/api/news?id=c20f07fe6be769f3aef511b074a417513a58218ef0022b509d90700a86c18d0b",
+            "source": "SeekingAlpha"
+          },
+          {
+            "headline": "The Fed Dissents Signal A Pivot Towards Rate Neutrality",
+            "url": "https://finnhub.io/api/news?id=816c4a61f58a063e44d6c038ba3ebd7c57ef8306c6fd974ba175e09eb87c3293",
+            "source": "SeekingAlpha"
+          },
+          {
+            "headline": "April Fed Meeting: Powell's Final Call, Rates Steady",
+            "url": "https://finnhub.io/api/news?id=281f5d0997612b18af55b67202d847f55b1ba2da63e5f0d419d3f4871ca10b66",
+            "source": "SeekingAlpha"
+          }
+        ]
+      }
     },
     "^spx": {
       "symbol": "^spx",
@@ -70,7 +106,43 @@
       "change": 4.4,
       "changePercent": 0.06,
       "direction": "up",
-      "sparkline": []
+      "enrichment": {
+        "fiftyTwoWeek": {
+          "low": null,
+          "high": null
+        },
+        "marketCap": null,
+        "peRatio": null,
+        "revenueTTM": null,
+        "earningsPerShare": null,
+        "news": [
+          {
+            "headline": "April FOMC: Hawks Push Back As Inflation Risks Rise",
+            "url": "https://finnhub.io/api/news?id=e3bb99255f64d6e4093c3172d95ff67922a7e535d100b258525c5cca9b295220",
+            "source": "SeekingAlpha"
+          },
+          {
+            "headline": "Powell's Last Hurrah",
+            "url": "https://finnhub.io/api/news?id=c20f07fe6be769f3aef511b074a417513a58218ef0022b509d90700a86c18d0b",
+            "source": "SeekingAlpha"
+          },
+          {
+            "headline": "The Fed Dissents Signal A Pivot Towards Rate Neutrality",
+            "url": "https://finnhub.io/api/news?id=816c4a61f58a063e44d6c038ba3ebd7c57ef8306c6fd974ba175e09eb87c3293",
+            "source": "SeekingAlpha"
+          },
+          {
+            "headline": "April Fed Meeting: Powell's Final Call, Rates Steady",
+            "url": "https://finnhub.io/api/news?id=281f5d0997612b18af55b67202d847f55b1ba2da63e5f0d419d3f4871ca10b66",
+            "source": "SeekingAlpha"
+          },
+          {
+            "headline": "How High Can This Technology Rally Go?",
+            "url": "https://finnhub.io/api/news?id=f6ef1fc770d701dff79bf79ef99c216bee2f99c34280c7ec6935ae4a3b5f1d1d",
+            "source": "SeekingAlpha"
+          }
+        ]
+      }
     },
     "^ndq": {
       "symbol": "^ndq",
@@ -80,7 +152,17 @@
       "change": 79.54,
       "changePercent": 0.32,
       "direction": "up",
-      "sparkline": []
+      "enrichment": {
+        "fiftyTwoWeek": {
+          "low": null,
+          "high": null
+        },
+        "marketCap": null,
+        "peRatio": null,
+        "revenueTTM": null,
+        "earningsPerShare": null,
+        "news": []
+      }
     }
   }
 }
