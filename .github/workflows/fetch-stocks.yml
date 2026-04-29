@@ -195,20 +195,28 @@ jobs:
                 // Filter out null/undefined values Yahoo sometimes returns for non-trading days
                 sparklineData = closes.filter(v => v != null)
 
+                // prevClose: Yahoo doesn't reliably return regularMarketPreviousClose for indexes.
+                // Fall back to the second-to-last sparkline value, which is the prior trading day's close.
+                const metaPrevClose  = meta.regularMarketPreviousClose ?? meta.previousClose ?? 0
+                const sparklPrevClose = sparklineData.length >= 2 ? sparklineData[sparklineData.length - 2] : 0
+                const prevClose      = metaPrevClose || sparklPrevClose
+
+                const price         = meta.regularMarketPrice ?? 0
+                const change        = prevClose ? +(price - prevClose).toFixed(2) : 0
+                const changePercent = prevClose ? +((change / prevClose) * 100).toFixed(4) : 0
+
                 q = {
-                  price:         meta.regularMarketPrice          ?? 0,
-                  prevClose:     meta.regularMarketPreviousClose  ?? meta.previousClose ?? 0, // use prior day close, not chart range start
-                  high:          meta.regularMarketDayHigh        ?? 0,
-                  low:           meta.regularMarketDayLow         ?? 0,
-                  open:          meta.regularMarketOpen           ?? 0,
-                  week52High:    meta.fiftyTwoWeekHigh            ?? 0,
-                  week52Low:     meta.fiftyTwoWeekLow             ?? 0,
-                  volume:        formatVolume(meta.regularMarketVolume ?? 0),
+                  price,
+                  prevClose,
+                  change,
+                  changePercent,
+                  high:      meta.regularMarketDayHigh ?? 0,
+                  low:       meta.regularMarketDayLow  ?? 0,
+                  open:      meta.regularMarketOpen    ?? 0,
+                  week52High: meta.fiftyTwoWeekHigh    ?? 0,
+                  week52Low:  meta.fiftyTwoWeekLow     ?? 0,
+                  volume:    formatVolume(meta.regularMarketVolume ?? 0),
                 }
-                q.change        = +(q.price - q.prevClose).toFixed(2)
-                q.changePercent = q.prevClose
-                  ? +((q.change / q.prevClose) * 100).toFixed(4)
-                  : 0
               }
             } catch (err) {
               console.error(`  Yahoo fetch failed for ${sym}: ${err.message}`)
