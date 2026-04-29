@@ -1,328 +1,430 @@
 {
-  "updatedAt": "2026-04-29T22:15:44.490Z",
-  "marketStatus": "live",
-  "data": {
-    "aapl.us": {
-      "symbol": "aapl.us",
+  "updatedAt": "2026-04-29T22:36:20.841Z",
+  "stocks": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "price": 270.17,
+      "change": -0.54,
+      "changePercent": -0.1995,
+      "high": 271.04,
+      "low": 267.04,
+      "open": 267.55,
+      "prevClose": 270.71,
       "name": "Apple Inc",
-      "type": "stock",
-      "price": 270.31,
-      "change": 2.76,
-      "changePercent": 1.03,
-      "direction": "up",
-      "enrichment": {
-        "fiftyTwoWeek": {
-          "low": 193.25,
-          "high": 288.62
+      "sector": "Technology",
+      "marketCap": "$3.97T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
+      "week52High": 288.62,
+      "week52Low": 193.25,
+      "beta": 1.0789168,
+      "peRatio": 35.4819,
+      "eps": 7.465,
+      "dividendYield": "0.38%",
+      "volume": "43.8M",
+      "avgVolume": "46.0M",
+      "sparklineData": [],
+      "news": [
+        {
+          "headline": "All eyes on Big Tech: Meta, Alphabet, Microsoft, Amazon report earnings",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=f70b460b7149f64307b027294ba79d3defd28ca72ad4908e1d66b384f3daea9f"
         },
-        "marketCap": 3974331.1887790007,
-        "peRatio": 33.7445,
-        "revenueTTM": 0,
-        "earningsPerShare": 7.9038,
-        "news": [
-          {
-            "headline": "All eyes on Big Tech: Meta, Alphabet, Microsoft, Amazon report earnings",
-            "url": "https://finnhub.io/api/news?id=f70b460b7149f64307b027294ba79d3defd28ca72ad4908e1d66b384f3daea9f",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Qualcomm quarterly forecast underwhelms, but signs of market recovery lift shares",
-            "url": "https://finnhub.io/api/news?id=bae1dc7192f38109768e2824040618e98b1c98cff4c628003d100fb5f76a789f",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "AI Efficiency Gains Offset Energy Inflation as Norway Wealth Fund Reports 1.9% Loss",
-            "url": "https://finnhub.io/api/news?id=4e9b7fa589e570869a404c5d163107ed2afd881c9147bf6da88e3e487eb52d35",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Will Apple Report Blowout Q2 Results as it Navigates a CEO Succession Plan?",
-            "url": "https://finnhub.io/api/news?id=7ccfbd2381d92390726305b49b39f626c91ea2b09e30d97aa6bea38d4105347b",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Nvidia Could Generate More Cash Than Apple, Microsoft Combined — BofA Says It's Time To Pay Shareholders",
-            "url": "https://finnhub.io/api/news?id=c9339d63532027eee3f68d4a3be2ca12b33b9b7dc40cf9fe2ebec22b577ce6e2",
-            "source": "Yahoo"
-          }
-        ]
-      },
-      "ui": {
-        "hasEnrichment": true,
-        "isIndex": false
-      }
+        {
+          "headline": "Qualcomm quarterly forecast underwhelms, but signs of market recovery lift shares",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=bae1dc7192f38109768e2824040618e98b1c98cff4c628003d100fb5f76a789f"
+        },
+        {
+          "headline": "AI Efficiency Gains Offset Energy Inflation as Norway Wealth Fund Reports 1.9% Loss",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4e9b7fa589e570869a404c5d163107ed2afd881c9147bf6da88e3e487eb52d35"
+        },
+        {
+          "headline": "Will Apple Report Blowout Q2 Results as it Navigates a CEO Succession Plan?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=7ccfbd2381d92390726305b49b39f626c91ea2b09e30d97aa6bea38d4105347b"
+        },
+        {
+          "headline": "Nvidia Could Generate More Cash Than Apple, Microsoft Combined — BofA Says It's Time To Pay Shareholders",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=c9339d63532027eee3f68d4a3be2ca12b33b9b7dc40cf9fe2ebec22b577ce6e2"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2025-12-31",
+          "estimated": 2.7257,
+          "actual": 2.84,
+          "surprise": 4.1934
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 1.8075,
+          "actual": 1.85,
+          "surprise": 2.3513
+        },
+        {
+          "quarter": "2025-06-30",
+          "estimated": 1.4626,
+          "actual": 1.57,
+          "surprise": 7.3431
+        },
+        {
+          "quarter": "2025-03-31",
+          "estimated": 1.6596,
+          "actual": 1.65,
+          "surprise": -0.5785
+        }
+      ],
+      "revenue": "",
+      "netIncome": "$112.01B",
+      "netMargin": "",
+      "revenueGrowth": ""
     },
-    "googl.us": {
-      "symbol": "googl.us",
+    "GOOGL": {
+      "symbol": "GOOGL",
+      "price": 349.94,
+      "change": 0.16,
+      "changePercent": 0.0457,
+      "high": 355.79,
+      "low": 344.21,
+      "open": 347.565,
+      "prevClose": 349.78,
       "name": "Alphabet Inc",
-      "type": "stock",
-      "price": 350.22,
-      "change": 2.66,
-      "changePercent": 0.76,
-      "direction": "up",
-      "enrichment": {
-        "fiftyTwoWeek": {
-          "low": 147.84,
-          "high": 353.18
+      "sector": "Media",
+      "marketCap": "$4.23T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
+      "week52High": 353.18,
+      "week52Low": 147.84,
+      "beta": 1.1832092,
+      "peRatio": 31.9392,
+      "eps": 10.807,
+      "dividendYield": "0.24%",
+      "volume": "23.5M",
+      "avgVolume": "31.4M",
+      "sparklineData": [],
+      "news": [
+        {
+          "headline": "Google to sell TPU chips to 'select' customers in latest shot at Nvidia",
+          "source": "Yahoo",
+          "timeAgo": "47m ago",
+          "url": "https://finnhub.io/api/news?id=759995b6af8809ee5d9a3f80678edfedbf06973cf3a335fd55cb8a1cb7c2b5bc"
         },
-        "marketCap": 4225844.317192,
-        "peRatio": 31.9392,
-        "revenueTTM": 0,
-        "earningsPerShare": 10.8054,
-        "news": [
-          {
-            "headline": "Google to sell TPU chips to 'select' customers in latest shot at Nvidia",
-            "url": "https://finnhub.io/api/news?id=759995b6af8809ee5d9a3f80678edfedbf06973cf3a335fd55cb8a1cb7c2b5bc",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Dow Jones Futures: Google, Amazon, Meta, Microsoft Are Big Earnings Movers After Oil Prices Spike, Fed's Powell Stays",
-            "url": "https://finnhub.io/api/news?id=270ea5fe78a3fc33df4ab55755c937fdbf1732ae319ead7f60ee4218b9e21973",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Tech giants’ results show rosy outlook for AI boom and US stock market",
-            "url": "https://finnhub.io/api/news?id=eb73c9bb0af5a8e6f39f766281a6f7517bcf1a290aaab8955348e87922764599",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Meta's full-year CapEx forecast: The bull vs. bear case",
-            "url": "https://finnhub.io/api/news?id=2249aab1abe80b68d7f833616da67623d50747d27f1d1758a997148913d69f34",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Microsoft's cloud revenue growth disappoints investors, shares drop 2%",
-            "url": "https://finnhub.io/api/news?id=d13908b04ca077a230f301138d63a199577ad8673940a99daaaac30fca48f5ef",
-            "source": "Yahoo"
-          }
-        ]
-      },
-      "ui": {
-        "hasEnrichment": true,
-        "isIndex": false
-      }
+        {
+          "headline": "Dow Jones Futures: Google, Amazon, Meta, Microsoft Are Big Earnings Movers After Oil Prices Spike, Fed's Powell Stays",
+          "source": "Yahoo",
+          "timeAgo": "52m ago",
+          "url": "https://finnhub.io/api/news?id=270ea5fe78a3fc33df4ab55755c937fdbf1732ae319ead7f60ee4218b9e21973"
+        },
+        {
+          "headline": "Tech giants’ results show rosy outlook for AI boom and US stock market",
+          "source": "Yahoo",
+          "timeAgo": "56m ago",
+          "url": "https://finnhub.io/api/news?id=eb73c9bb0af5a8e6f39f766281a6f7517bcf1a290aaab8955348e87922764599"
+        },
+        {
+          "headline": "Meta's full-year CapEx forecast: The bull vs. bear case",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=2249aab1abe80b68d7f833616da67623d50747d27f1d1758a997148913d69f34"
+        },
+        {
+          "headline": "Microsoft's cloud revenue growth disappoints investors, shares drop 2%",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d13908b04ca077a230f301138d63a199577ad8673940a99daaaac30fca48f5ef"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-03-31",
+          "estimated": 2.6976,
+          "actual": 5.11,
+          "surprise": 89.4276
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 2.7063,
+          "actual": 2.82,
+          "surprise": 4.2013
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 2.3954,
+          "actual": 3.1,
+          "surprise": 29.4147
+        },
+        {
+          "quarter": "2025-06-30",
+          "estimated": 2.25,
+          "actual": 2.31,
+          "surprise": 2.6667
+        }
+      ],
+      "revenue": "$402.84B",
+      "netIncome": "$132.17B",
+      "netMargin": "32.8%",
+      "revenueGrowth": ""
     },
-    "msft.us": {
-      "symbol": "msft.us",
+    "MSFT": {
+      "symbol": "MSFT",
+      "price": 424.46,
+      "change": -4.79,
+      "changePercent": -1.1159,
+      "high": 426.82,
+      "low": 420.29,
+      "open": 424.575,
+      "prevClose": 429.25,
       "name": "Microsoft Corp",
-      "type": "stock",
-      "price": 424.64,
-      "change": 0.06,
-      "changePercent": 0.02,
-      "direction": "up",
-      "enrichment": {
-        "fiftyTwoWeek": {
-          "low": 356.28,
-          "high": 555.45
+      "sector": "Technology",
+      "marketCap": "$3.19T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
+      "week52High": 555.45,
+      "week52Low": 356.28,
+      "beta": 1.1456835,
+      "peRatio": 30.9033,
+      "eps": 13.6413,
+      "dividendYield": "0.85%",
+      "volume": "35.1M",
+      "avgVolume": "33.9M",
+      "sparklineData": [],
+      "news": [
+        {
+          "headline": "LinkedIn's AI hiring agents on track for $450 million in yearly revenue",
+          "source": "Yahoo",
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=48af1fbd9d5c9891d4e659b3286273a5cc3df3646e1495b03cfeec5ddbf48abb"
         },
-        "marketCap": 3187451.2080080006,
-        "peRatio": 26.3868,
-        "revenueTTM": 0,
-        "earningsPerShare": 15.9824,
-        "news": [
-          {
-            "headline": "LinkedIn's AI hiring agents on track for $450 million in yearly revenue",
-            "url": "https://finnhub.io/api/news?id=48af1fbd9d5c9891d4e659b3286273a5cc3df3646e1495b03cfeec5ddbf48abb",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Dow Jones Futures: Google, Amazon, Meta, Microsoft Are Big Earnings Movers After Oil Prices Spike, Fed's Powell Stays",
-            "url": "https://finnhub.io/api/news?id=270ea5fe78a3fc33df4ab55755c937fdbf1732ae319ead7f60ee4218b9e21973",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Tech giants’ results show rosy outlook for AI boom and US stock market",
-            "url": "https://finnhub.io/api/news?id=eb73c9bb0af5a8e6f39f766281a6f7517bcf1a290aaab8955348e87922764599",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Microsoft's cloud revenue growth disappoints investors, shares drop 2%",
-            "url": "https://finnhub.io/api/news?id=d13908b04ca077a230f301138d63a199577ad8673940a99daaaac30fca48f5ef",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Amazon Earnings Beat Estimates. A Weak Spot May Still Be Weighing on the Stock.",
-            "url": "https://finnhub.io/api/news?id=8bebf105a495a6ac6c8b1726d4629bcc1bcad07160ce4e610d96b3ae5aa65091",
-            "source": "Yahoo"
-          }
-        ]
-      },
-      "ui": {
-        "hasEnrichment": true,
-        "isIndex": false
-      }
+        {
+          "headline": "Dow Jones Futures: Google, Amazon, Meta, Microsoft Are Big Earnings Movers After Oil Prices Spike, Fed's Powell Stays",
+          "source": "Yahoo",
+          "timeAgo": "52m ago",
+          "url": "https://finnhub.io/api/news?id=270ea5fe78a3fc33df4ab55755c937fdbf1732ae319ead7f60ee4218b9e21973"
+        },
+        {
+          "headline": "Tech giants’ results show rosy outlook for AI boom and US stock market",
+          "source": "Yahoo",
+          "timeAgo": "56m ago",
+          "url": "https://finnhub.io/api/news?id=eb73c9bb0af5a8e6f39f766281a6f7517bcf1a290aaab8955348e87922764599"
+        },
+        {
+          "headline": "Microsoft's cloud revenue growth disappoints investors, shares drop 2%",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d13908b04ca077a230f301138d63a199577ad8673940a99daaaac30fca48f5ef"
+        },
+        {
+          "headline": "Amazon Earnings Beat Estimates. A Weak Spot May Still Be Weighing on the Stock.",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=8bebf105a495a6ac6c8b1726d4629bcc1bcad07160ce4e610d96b3ae5aa65091"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-03-31",
+          "estimated": 4.1432,
+          "actual": 4.27,
+          "surprise": 3.0604
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 4.0345,
+          "actual": 4.14,
+          "surprise": 2.6149
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 3.7391,
+          "actual": 4.13,
+          "surprise": 10.4544
+        },
+        {
+          "quarter": "2025-06-30",
+          "estimated": 3.4368,
+          "actual": 3.65,
+          "surprise": 6.2034
+        }
+      ],
+      "revenue": "$281.72B",
+      "netIncome": "$101.83B",
+      "netMargin": "36.1%",
+      "revenueGrowth": ""
     },
-    "amzn.us": {
-      "symbol": "amzn.us",
-      "name": "Amazon.com Inc",
-      "type": "stock",
+    "AMZN": {
+      "symbol": "AMZN",
       "price": 263.04,
-      "change": 5.05,
-      "changePercent": 1.96,
-      "direction": "up",
-      "enrichment": {
-        "fiftyTwoWeek": {
-          "low": 178.85,
-          "high": 264.5
+      "change": 3.34,
+      "changePercent": 1.2861,
+      "high": 265.91,
+      "low": 257.7,
+      "open": 257.99,
+      "prevClose": 259.7,
+      "name": "Amazon.com Inc",
+      "sector": "Retail",
+      "marketCap": "$2.79T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
+      "week52High": 264.5,
+      "week52Low": 178.85,
+      "beta": 1.4545513,
+      "peRatio": 36.5996,
+      "eps": 7.1737,
+      "dividendYield": "",
+      "volume": "43.5M",
+      "avgVolume": "47.8M",
+      "sparklineData": [],
+      "news": [
+        {
+          "headline": "Dow Jones Futures: Google, Amazon, Meta, Microsoft Are Big Earnings Movers After Oil Prices Spike, Fed's Powell Stays",
+          "source": "Yahoo",
+          "timeAgo": "52m ago",
+          "url": "https://finnhub.io/api/news?id=270ea5fe78a3fc33df4ab55755c937fdbf1732ae319ead7f60ee4218b9e21973"
         },
-        "marketCap": 2792879.3635040005,
-        "peRatio": 36.5996,
-        "revenueTTM": 0,
-        "earningsPerShare": 7.1722,
-        "news": [
-          {
-            "headline": "Dow Jones Futures: Google, Amazon, Meta, Microsoft Are Big Earnings Movers After Oil Prices Spike, Fed's Powell Stays",
-            "url": "https://finnhub.io/api/news?id=270ea5fe78a3fc33df4ab55755c937fdbf1732ae319ead7f60ee4218b9e21973",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Tech giants’ results show rosy outlook for AI boom and US stock market",
-            "url": "https://finnhub.io/api/news?id=eb73c9bb0af5a8e6f39f766281a6f7517bcf1a290aaab8955348e87922764599",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Amazon Earnings Beat Estimates. A Weak Spot May Still Be Weighing on the Stock.",
-            "url": "https://finnhub.io/api/news?id=8bebf105a495a6ac6c8b1726d4629bcc1bcad07160ce4e610d96b3ae5aa65091",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Big Tech AI Capex Tops $650 Billion as Q1 Earnings Beats Pressure Bitcoin Risk Trade",
-            "url": "https://finnhub.io/api/news?id=f6578564cf4bf2581b4a18aefdea067b3c8e08aad5aa9c41c80da39be8dcf0bb",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Amazon Beats Q1 Expectations, Reports Strong Cloud Growth. But Stock Slides.",
-            "url": "https://finnhub.io/api/news?id=316a0df6f08a3f50cd973594a8a1bc9ba614bb4224c86c0ba7ecfb89ff5cc471",
-            "source": "Yahoo"
-          }
-        ]
-      },
-      "ui": {
-        "hasEnrichment": true,
-        "isIndex": false
-      }
+        {
+          "headline": "Tech giants’ results show rosy outlook for AI boom and US stock market",
+          "source": "Yahoo",
+          "timeAgo": "57m ago",
+          "url": "https://finnhub.io/api/news?id=eb73c9bb0af5a8e6f39f766281a6f7517bcf1a290aaab8955348e87922764599"
+        },
+        {
+          "headline": "Amazon Earnings Beat Estimates. A Weak Spot May Still Be Weighing on the Stock.",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=8bebf105a495a6ac6c8b1726d4629bcc1bcad07160ce4e610d96b3ae5aa65091"
+        },
+        {
+          "headline": "Big Tech AI Capex Tops $650 Billion as Q1 Earnings Beats Pressure Bitcoin Risk Trade",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=f6578564cf4bf2581b4a18aefdea067b3c8e08aad5aa9c41c80da39be8dcf0bb"
+        },
+        {
+          "headline": "Amazon Beats Q1 Expectations, Reports Strong Cloud Growth. But Stock Slides.",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=316a0df6f08a3f50cd973594a8a1bc9ba614bb4224c86c0ba7ecfb89ff5cc471"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-03-31",
+          "estimated": 1.667,
+          "actual": 1.56,
+          "surprise": -6.4187
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 2.011,
+          "actual": 1.95,
+          "surprise": -3.0333
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 1.605,
+          "actual": 1.95,
+          "surprise": 21.4953
+        },
+        {
+          "quarter": "2025-06-30",
+          "estimated": 1.3545,
+          "actual": 1.68,
+          "surprise": 24.031
+        }
+      ],
+      "revenue": "",
+      "netIncome": "$77.67B",
+      "netMargin": "",
+      "revenueGrowth": ""
     },
-    "tsla.us": {
-      "symbol": "tsla.us",
+    "TSLA": {
+      "symbol": "TSLA",
+      "price": 372.8,
+      "change": -3.22,
+      "changePercent": -0.8563,
+      "high": 376.4,
+      "low": 370.04,
+      "open": 375.4,
+      "prevClose": 376.02,
       "name": "Tesla Inc",
-      "type": "stock",
-      "price": 372.9,
-      "change": -2.5,
-      "changePercent": -0.67,
-      "direction": "down",
-      "enrichment": {
-        "fiftyTwoWeek": {
-          "low": 270.78,
-          "high": 498.83
+      "sector": "Automobiles",
+      "marketCap": "$1.41T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
+      "week52High": 498.83,
+      "week52Low": 270.78,
+      "beta": 1.799147,
+      "peRatio": 372.2264,
+      "eps": 1.0754,
+      "dividendYield": "",
+      "volume": "72.0M",
+      "avgVolume": "64.5M",
+      "sparklineData": [],
+      "news": [
+        {
+          "headline": "Musk faces harsh grilling under oath in courtroom showdown with Sam Altman",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a61e9c81d00e2a328208436905fffc3eb208fc53a9aeba6b8b3deb9ae6a5c892"
         },
-        "marketCap": 1412227.159149,
-        "peRatio": 365.6725,
-        "revenueTTM": 0,
-        "earningsPerShare": 1.0943,
-        "news": [
-          {
-            "headline": "Musk faces harsh grilling under oath in courtroom showdown with Sam Altman",
-            "url": "https://finnhub.io/api/news?id=a61e9c81d00e2a328208436905fffc3eb208fc53a9aeba6b8b3deb9ae6a5c892",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Market Chatter: SpaceX's Starlink Revenue Per User Falls as Customers Quadrupled",
-            "url": "https://finnhub.io/api/news?id=f57416347aa67e2229d6ffdbf81daca5b8ac1624a435d1baf5620e4cd5fc5f62",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Opinion: Tesla Is the Priciest Bargain Stock on the Market",
-            "url": "https://finnhub.io/api/news?id=67fd60dd0c1f60ea7dab996fe983053c9d130cf86c0ba82b11a75e431311cdcb",
-            "source": "Yahoo"
-          },
-          {
-            "headline": "Which S&P500 stocks are the most active on Wednesday?",
-            "url": "https://finnhub.io/api/news?id=88857190ddd81ee06ee1216dac91c5981cf99c34e6aabdb8b98c8092e047d2da",
-            "source": "ChartMill"
-          },
-          {
-            "headline": "Musk Testifies Against OpenAI Shift As Trial Could Shape Future IPO",
-            "url": "https://finnhub.io/api/news?id=17a23a6dd4545fb94a0df84c90673eb0abb9d3410b95b0415ca9634c11e2b74c",
-            "source": "Yahoo"
-          }
-        ]
-      },
-      "ui": {
-        "hasEnrichment": true,
-        "isIndex": false
-      }
-    },
-    "^dji": {
-      "symbol": "^dji",
-      "name": "Dow Jones",
-      "type": "index",
-      "price": 48861.8,
-      "change": -302,
-      "changePercent": -0.61,
-      "direction": "down",
-      "enrichment": {
-        "fiftyTwoWeek": {
-          "low": 0,
-          "high": 0
+        {
+          "headline": "Market Chatter: SpaceX's Starlink Revenue Per User Falls as Customers Quadrupled",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=f57416347aa67e2229d6ffdbf81daca5b8ac1624a435d1baf5620e4cd5fc5f62"
         },
-        "marketCap": 0,
-        "peRatio": 0,
-        "revenueTTM": 0,
-        "earningsPerShare": 0,
-        "news": []
-      },
-      "ui": {
-        "hasEnrichment": false,
-        "isIndex": true
-      }
-    },
-    "^spx": {
-      "symbol": "^spx",
-      "name": "S&P 500",
-      "type": "index",
-      "price": 7136,
-      "change": 4.4,
-      "changePercent": 0.06,
-      "direction": "up",
-      "enrichment": {
-        "fiftyTwoWeek": {
-          "low": 0,
-          "high": 0
+        {
+          "headline": "Opinion: Tesla Is the Priciest Bargain Stock on the Market",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=67fd60dd0c1f60ea7dab996fe983053c9d130cf86c0ba82b11a75e431311cdcb"
         },
-        "marketCap": 0,
-        "peRatio": 0,
-        "revenueTTM": 0,
-        "earningsPerShare": 0,
-        "news": []
-      },
-      "ui": {
-        "hasEnrichment": false,
-        "isIndex": true
-      }
-    },
-    "^ndq": {
-      "symbol": "^ndq",
-      "name": "Nasdaq",
-      "type": "index",
-      "price": 24673.24,
-      "change": 66.71,
-      "changePercent": 0.27,
-      "direction": "up",
-      "enrichment": {
-        "fiftyTwoWeek": {
-          "low": 0,
-          "high": 0
+        {
+          "headline": "Which S&P500 stocks are the most active on Wednesday?",
+          "source": "ChartMill",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=88857190ddd81ee06ee1216dac91c5981cf99c34e6aabdb8b98c8092e047d2da"
         },
-        "marketCap": 0,
-        "peRatio": 0,
-        "revenueTTM": 0,
-        "earningsPerShare": 0,
-        "news": []
-      },
-      "ui": {
-        "hasEnrichment": false,
-        "isIndex": true
-      }
+        {
+          "headline": "Musk Testifies Against OpenAI Shift As Trial Could Shape Future IPO",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=17a23a6dd4545fb94a0df84c90673eb0abb9d3410b95b0415ca9634c11e2b74c"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-03-31",
+          "estimated": 0.3773,
+          "actual": 0.41,
+          "surprise": 8.6668
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 0.4559,
+          "actual": 0.5,
+          "surprise": 9.6732
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 0.5586,
+          "actual": 0.5,
+          "surprise": -10.4905
+        },
+        {
+          "quarter": "2025-06-30",
+          "estimated": 0.4373,
+          "actual": 0.4,
+          "surprise": -8.5296
+        }
+      ],
+      "revenue": "$94.83B",
+      "netIncome": "$3.85B",
+      "netMargin": "4.1%",
+      "revenueGrowth": ""
     }
   }
 }
