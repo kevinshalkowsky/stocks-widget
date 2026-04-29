@@ -20,107 +20,105 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch stock + index data
-        env:
-          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-          SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA,^DJI,^GSPC,^IXIC"
+      - name: Fetch market data (Stooq)
         run: |
           node << 'EOF'
           const https = require("https")
           const fs = require("fs")
 
-          const API_KEY = process.env.FINNHUB_API_KEY
+          const SYMBOLS = [
+            "aapl.us",
+            "googl.us",
+            "msft.us",
+            "amzn.us",
+            "tsla.us",
+            "^dji",
+            "^spx",
+            "^ndq"
+          ]
 
-          const SYMBOLS = (process.env.SYMBOLS || "")
-            .split(",")
-            .filter(Boolean)
-            .map(s => s.trim().toUpperCase())
+          const NAMES = {
+            "aapl.us": "Apple Inc",
+            "googl.us": "Alphabet Inc",
+            "msft.us": "Microsoft Corp",
+            "amzn.us": "Amazon.com Inc",
+            "tsla.us": "Tesla Inc",
+            "^dji": "Dow Jones Industrial Average",
+            "^spx": "S&P 500",
+            "^ndq": "Nasdaq Composite"
+          }
 
-          const BASE = "https://finnhub.io/api/v1"
+          function getCSV(symbol) {
+            const url = `https://stooq.com/q/l/?s=${symbol}&f=sd2t2ohlc&h&e=csv`
 
-          function get(url) {
             return new Promise((resolve) => {
               https.get(url, (res) => {
                 let data = ""
                 res.on("data", chunk => data += chunk)
-                res.on("end", () => {
-                  try {
-                    resolve(JSON.parse(data))
-                  } catch {
-                    resolve({})
-                  }
-                })
-              }).on("error", () => resolve({}))
+                res.on("end", () => resolve(data))
+              }).on("error", () => resolve(""))
             })
           }
 
-          const INDEX_NAMES = {
-            "^DJI": "Dow Jones Industrial Average",
-            "^GSPC": "S&P 500",
-            "^IXIC": "Nasdaq Composite"
-          }
+          function parseCSV(csv) {
+            const lines = csv.trim().split("\n")
+            if (lines.length < 2) return null
 
-          async function fetchStock(sym) {
-            const [quote, profile] = await Promise.all([
-              get(`${BASE}/quote?symbol=${sym}&token=${API_KEY}`),
-              get(`${BASE}/stock/profile2?symbol=${sym}&token=${API_KEY}`)
-            ])
+            const [header, row] = lines
+            const cols = row.split(",")
 
             return {
-              symbol: sym,
-              type: "stock",
-              name: profile.name || sym,
-              price: quote.c ?? 0,
-              change: quote.d ?? 0,
-              changePercent: quote.dp ?? 0,
-              logo: profile.logo || ""
-            }
-          }
-
-          async function fetchIndex(sym) {
-            const now = Math.floor(Date.now() / 1000)
-            const from = now - 2 * 86400
-
-            const candles = await get(
-              `${BASE}/stock/candle?symbol=${sym}&resolution=D&from=${from}&to=${now}&token=${API_KEY}`
-            )
-
-            const prices = candles.s === "ok" ? candles.c : []
-
-            const latest = prices.length ? prices[prices.length - 1] : 0
-            const prev = prices.length > 1 ? prices[prices.length - 2] : latest
-
-            const change = latest - prev
-            const changePercent = prev ? (change / prev) * 100 : 0
-
-            return {
-              symbol: sym,
-              type: "stock", // keep unified for frontend simplicity
-              name: INDEX_NAMES[sym] || sym,
-              price: latest,
-              change,
-              changePercent,
-              logo: ""
+              open: parseFloat(cols[2]) || 0,
+              high: parseFloat(cols[3]) || 0,
+              low: parseFloat(cols[4]) || 0,
+              close: parseFloat(cols[5]) || 0
             }
           }
 
           ;(async () => {
-            console.log("Fetching market data...")
+            console.log("Fetching Stooq market data...")
 
             const results = {}
 
             for (const sym of SYMBOLS) {
               try {
-                if (sym.startsWith("^")) {
-                  results[sym] = await fetchIndex(sym)
-                } else {
-                  results[sym] = await fetchStock(sym)
+                const csv = await getCSV(sym)
+                const data = parseCSV(csv)
+
+                if (!data) {
+                  results[sym] = {
+                    symbol: sym,
+                    type: "stock",
+                    name: NAMES[sym] || sym,
+                    price: 0,
+                    change: 0,
+                    changePercent: 0
+                  }
+                  continue
                 }
+
+                const prev = data.open
+                const price = data.close
+                const change = price - prev
+                const changePercent = prev ? (change / prev) * 100 : 0
+
+                results[sym] = {
+                  symbol: sym,
+                  type: "stock",
+                  name: NAMES[sym] || sym,
+                  price,
+                  change,
+                  changePercent
+                }
+
               } catch {
                 results[sym] = {
                   symbol: sym,
                   type: "stock",
-                  error: true
+                  name: NAMES[sym] || sym,
+                  price: 0,
+                  change: 0,
+                  changePercent: 0
                 }
               }
             }
@@ -131,8 +129,7 @@ jobs:
             }
 
             fs.writeFileSync("stocks.json", JSON.stringify(output, null, 2))
-
-            console.log("stocks.json updated successfully")
+            console.log("stocks.json updated")
           })()
           EOF
 
