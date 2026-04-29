@@ -1,4 +1,4 @@
-name: Market Data Engine (Stooq + Finnhub)
+name: Market Data Engine (Stooq + Finnhub FIXED)
 
 on:
   schedule:
@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch Market Data (Dual Source)
+      - name: Fetch Market Data (Dual Source FIXED)
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: |
@@ -73,7 +73,17 @@ jobs:
           }
 
           // -----------------------------
-          // STLOOQ PRICE ENGINE
+          // SYMBOL NORMALIZATION (CRITICAL FIX)
+          // -----------------------------
+          function toFinnhubSymbol(sym) {
+            return sym
+              .replace(".us", "")
+              .replace("^", "")
+              .toUpperCase()
+          }
+
+          // -----------------------------
+          // STOOQ PRICE ENGINE
           // -----------------------------
           function getStooqCSV(symbol) {
             const url = `https://stooq.com/q/l/?s=${symbol}&f=sd2t2ohlc&h&e=csv`
@@ -111,7 +121,7 @@ jobs:
               get(`${BASE}/company-news?symbol=${sym}&from=2026-01-01&to=2026-12-31&token=${API_KEY}`)
             ])
 
-            const m = metrics.metric || {}
+            const m = metrics?.metric || {}
 
             return {
               fiftyTwoWeek: {
@@ -144,7 +154,7 @@ jobs:
           // MAIN PIPELINE
           // -----------------------------
           ;(async () => {
-            console.log("Running dual-source market engine...")
+            console.log("Running FIXED dual-source market engine...")
 
             const results = {}
 
@@ -173,15 +183,16 @@ jobs:
                 const change = price - priceData.open
                 const changePercent = priceData.open ? (change / priceData.open) * 100 : 0
 
-                // ---------------- ENRICHMENT (Finnhub)
+                // ---------------- ENRICHMENT (FIXED SYMBOL MAPPING)
                 let enrichment = null
                 try {
-                  enrichment = await getEnrichment(sym.replace("^", ""))
+                  const cleanSymbol = toFinnhubSymbol(sym)
+                  enrichment = await getEnrichment(cleanSymbol)
                 } catch {
                   enrichment = null
                 }
 
-                // ---------------- RESULT
+                // ---------------- OUTPUT
                 results[sym] = {
                   symbol: sym,
                   name: NAMES[sym] || sym,
@@ -216,7 +227,7 @@ jobs:
             }
 
             fs.writeFileSync("stocks.json", JSON.stringify(output, null, 2))
-            console.log("Dual-source market feed updated")
+            console.log("FIXED dual-source market feed complete")
           })()
           EOF
 
@@ -226,5 +237,5 @@ jobs:
           git config user.email "github-actions@users.noreply.github.com"
 
           git add stocks.json
-          git commit -m "chore: dual-source market engine update [skip ci]" || echo "No changes"
+          git commit -m "fix: dual-source enrichment + symbol mapping [skip ci]" || echo "No changes"
           git push
