@@ -1,4 +1,4 @@
-name: Market Data Engine (Final Stable Build)
+name: Fetch Stock Data
 
 on:
   schedule:
@@ -14,230 +14,179 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: Build Market Dataset
+      - name: Fetch stock data and write stocks.json
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA"
         run: |
           node << 'EOF'
           const https = require("https")
-          const fs = require("fs")
-
-          // -----------------------------
-          // CONFIG
-          // -----------------------------
-          const STOCKS = ["aapl.us","googl.us","msft.us","amzn.us","tsla.us"]
-          const INDEXES = ["^dji","^spx","^ndq"]
-
-          const NAMES = {
-            "aapl.us": "Apple Inc",
-            "googl.us": "Alphabet Inc",
-            "msft.us": "Microsoft Corp",
-            "amzn.us": "Amazon.com Inc",
-            "tsla.us": "Tesla Inc",
-            "^dji": "Dow Jones",
-            "^spx": "S&P 500",
-            "^ndq": "Nasdaq"
-          }
 
           const API_KEY = process.env.FINNHUB_API_KEY
+          const SYMBOLS = process.env.SYMBOLS.split(",").map(s => s.trim().toUpperCase())
           const BASE = "https://finnhub.io/api/v1"
 
-          // -----------------------------
-          // HELPERS
-          // -----------------------------
           function get(url) {
-            return new Promise(resolve => {
-              https.get(url, res => {
+            return new Promise((resolve, reject) => {
+              https.get(url, (res) => {
                 let data = ""
-                res.on("data", c => data += c)
+                res.on("data", chunk => data += chunk)
                 res.on("end", () => {
                   try { resolve(JSON.parse(data)) }
-                  catch { resolve({}) }
+                  catch (e) { reject(e) }
                 })
-              }).on("error", () => resolve({}))
+              }).on("error", reject)
             })
           }
 
-          function cleanSymbol(sym) {
-            return sym.replace(".us", "").replace("^", "").toUpperCase()
+          function formatMarketCap(v) {
+            if (!v) return ""
+            if (v >= 1e12) return `$${(v / 1e12).toFixed(2)}T`
+            if (v >= 1e9)  return `$${(v / 1e9).toFixed(2)}B`
+            if (v >= 1e6)  return `$${(v / 1e6).toFixed(2)}M`
+            return `$${v.toLocaleString()}`
           }
 
-          function safe(n) {
-            return (n === null || n === undefined || isNaN(n)) ? 0 : Number(n)
+          function formatVolume(v) {
+            if (!v) return ""
+            if (v >= 1e9) return `${(v / 1e9).toFixed(1)}B`
+            if (v >= 1e6) return `${(v / 1e6).toFixed(1)}M`
+            if (v >= 1e3) return `${(v / 1e3).toFixed(1)}K`
+            return `${v}`
           }
 
-          function direction(change) {
-            if (change > 0) return "up"
-            if (change < 0) return "down"
-            return "flat"
+          function timeAgo(unixSec) {
+            const diffMs = Date.now() - unixSec * 1000
+            const mins = Math.floor(diffMs / 60000)
+            if (mins < 60) return `${mins}m ago`
+            const hrs = Math.floor(mins / 60)
+            if (hrs < 24) return `${hrs}h ago`
+            return `${Math.floor(hrs / 24)}d ago`
           }
 
-          // -----------------------------
-          // STOOQ PRICE ENGINE
-          // -----------------------------
-          function getCSV(symbol) {
-            const url = `https://stooq.com/q/l/?s=${symbol}&f=sd2t2ohlc&h&e=csv`
+          async function fetchSymbol(sym) {
+            const now    = Math.floor(Date.now() / 1000)
+            const ago30d = now - 30 * 24 * 60 * 60
+            const today  = new Date().toISOString().split("T")[0]
+            const week   = new Date(Date.now() - 7 * 86400000).toISOString().split("T")[0]
 
-            return new Promise(resolve => {
-              https.get(url, res => {
-                let data = ""
-                res.on("data", c => data += c)
-                res.on("end", () => resolve(data))
-              }).on("error", () => resolve(""))
-            })
-          }
+            const [quote, profile, metric, news, candles, earnings, financials] =
+              await Promise.allSettled([
+                get(`${BASE}/quote?symbol=${sym}&token=${API_KEY}`),
+                get(`${BASE}/stock/profile2?symbol=${sym}&token=${API_KEY}`),
+                get(`${BASE}/stock/metric?symbol=${sym}&metric=all&token=${API_KEY}`),
+                get(`${BASE}/company-news?symbol=${sym}&from=${week}&to=${today}&token=${API_KEY}`),
+                get(`${BASE}/stock/candle?symbol=${sym}&resolution=D&from=${ago30d}&to=${now}&token=${API_KEY}`),
+                get(`${BASE}/stock/earnings?symbol=${sym}&token=${API_KEY}`),
+                get(`${BASE}/stock/financials-reported?symbol=${sym}&freq=annual&token=${API_KEY}`),
+              ])
 
-          function parseCSV(csv) {
-            const lines = csv.trim().split("\n")
-            if (lines.length < 2) return null
+            const q = quote.status === "fulfilled" ? quote.value : {}
+            const p = profile.status === "fulfilled" ? profile.value : {}
+            const m = (metric.status === "fulfilled" ? metric.value?.metric : null) ?? {}
+            const n = news.status === "fulfilled" && Array.isArray(news.value) ? news.value : []
+            const c = candles.status === "fulfilled" ? candles.value : {}
+            const e = earnings.status === "fulfilled" && Array.isArray(earnings.value) ? earnings.value : []
+            const f = financials.status === "fulfilled" ? financials.value : {}
 
-            const p = lines[1].split(",")
-
-            const open = parseFloat(p[3])
-            const close = parseFloat(p[6])
-
-            if (!open || !close) return null
-
-            return { open, close }
-          }
-
-          // -----------------------------
-          // FINNHUB ENRICHMENT
-          // -----------------------------
-          async function enrich(symbol) {
-            const [profile, metrics, news] = await Promise.all([
-              get(`${BASE}/stock/profile2?symbol=${symbol}&token=${API_KEY}`),
-              get(`${BASE}/stock/metric?symbol=${symbol}&token=${API_KEY}`),
-              get(`${BASE}/company-news?symbol=${symbol}&from=2026-01-01&to=2026-12-31&token=${API_KEY}`)
-            ])
-
-            const m = metrics?.metric || {}
+            const ic = f?.data?.[0]?.report?.ic ?? []
+            const findLine = (label) => ic.find(l => l.label?.toLowerCase().includes(label))
+            const revEntry = findLine("revenue")
+            const niEntry  = findLine("net income")
+            const revenue   = revEntry ? formatMarketCap(revEntry.value) : ""
+            const netIncome = niEntry  ? formatMarketCap(niEntry.value)  : ""
+            const netMargin = revEntry?.value && niEntry?.value
+              ? `${((niEntry.value / revEntry.value) * 100).toFixed(1)}%`
+              : ""
 
             return {
-              fiftyTwoWeek: {
-                low: safe(m["52WeekLow"]),
-                high: safe(m["52WeekHigh"])
-              },
-              marketCap: safe(profile.marketCapitalization),
-              peRatio: safe(m.peBasicExclExtraTTM),
-              revenueTTM: safe(m.revenueTTM),
-              earningsPerShare: safe(m.epsTTM),
-
-              news: (news || []).slice(0, 5).map(n => ({
-                headline: n.headline,
-                url: n.url,
-                source: n.source
-              }))
+              symbol: sym,
+              price:         q.c  ?? 0,
+              change:        q.d  ?? 0,
+              changePercent: q.dp ?? 0,
+              high:          q.h  ?? 0,
+              low:           q.l  ?? 0,
+              open:          q.o  ?? 0,
+              prevClose:     q.pc ?? 0,
+              name:      p.name              ?? sym,
+              sector:    p.finnhubIndustry   ?? "",
+              marketCap: formatMarketCap((p.marketCapitalization ?? 0) * 1e6),
+              logo:      p.logo              ?? "",
+              week52High:    m["52WeekHigh"]               ?? 0,
+              week52Low:     m["52WeekLow"]                ?? 0,
+              beta:          m.beta                        ?? 0,
+              peRatio:       m.peNormalizedAnnual          ?? 0,
+              eps:           m.epsNormalizedAnnual         ?? 0,
+              dividendYield: m.dividendYieldIndicatedAnnual
+                ? `${m.dividendYieldIndicatedAnnual.toFixed(2)}%`
+                : "",
+              volume:    formatVolume((m["10DayAverageTradingVolume"]  ?? 0) * 1e6),
+              avgVolume: formatVolume((m["3MonthAverageTradingVolume"] ?? 0) * 1e6),
+              sparklineData: c.s === "ok" ? (c.c ?? []) : [],
+              news: n.slice(0, 5).map(item => ({
+                headline: item.headline ?? "",
+                source:   item.source   ?? "",
+                timeAgo:  timeAgo(item.datetime),
+                url:      item.url      ?? "",
+              })),
+              earnings: e.slice(0, 4).map(item => ({
+                quarter:   item.period          ?? "",
+                estimated: item.estimate        ?? 0,
+                actual:    item.actual          ?? 0,
+                surprise:  item.surprisePercent ?? 0,
+              })),
+              revenue,
+              netIncome,
+              netMargin,
+              revenueGrowth: "",
             }
           }
 
-          // -----------------------------
-          // MAIN
-          // -----------------------------
           ;(async () => {
-            const output = {}
-
-            const all = [
-              ...STOCKS.map(s => ({ sym: s, type: "stock" })),
-              ...INDEXES.map(s => ({ sym: s, type: "index" }))
-            ]
-
-            for (const item of all) {
+            console.log(`Fetching data for: ${SYMBOLS.join(", ")}`)
+            const results = {}
+            for (const sym of SYMBOLS) {
               try {
-                const csv = await getCSV(item.sym)
-                const priceData = parseCSV(csv)
-
-                if (!priceData) continue
-
-                const price = priceData.close
-                const change = price - priceData.open
-                const changePercent = priceData.open ? (change / priceData.open) * 100 : 0
-
-                let enrichment = null
-
-                // ONLY stocks get enrichment (important fix)
-                if (item.type === "stock") {
-                  try {
-                    enrichment = await enrich(cleanSymbol(item.sym))
-                  } catch {
-                    enrichment = null
-                  }
-                }
-
-                output[item.sym] = {
-                  symbol: item.sym,
-                  name: NAMES[item.sym] || item.sym,
-                  type: item.type,
-
-                  price: Number(price.toFixed(2)),
-                  change: Number(change.toFixed(2)),
-                  changePercent: Number(changePercent.toFixed(2)),
-                  direction: direction(change),
-
-                  // UI SAFE: always exists
-                  enrichment: enrichment || {
-                    fiftyTwoWeek: { low: 0, high: 0 },
-                    marketCap: 0,
-                    peRatio: 0,
-                    revenueTTM: 0,
-                    earningsPerShare: 0,
-                    news: []
-                  },
-
-                  // UI FLAG (important)
-                  ui: {
-                    hasEnrichment: item.type === "stock",
-                    isIndex: item.type === "index"
-                  }
-                }
-
-              } catch {
-                output[item.sym] = {
-                  symbol: item.sym,
-                  name: NAMES[item.sym] || item.sym,
-                  type: item.type,
-                  price: 0,
-                  change: 0,
-                  changePercent: 0,
-                  direction: "flat",
-                  enrichment: {
-                    fiftyTwoWeek: { low: 0, high: 0 },
-                    marketCap: 0,
-                    peRatio: 0,
-                    revenueTTM: 0,
-                    earningsPerShare: 0,
-                    news: []
-                  },
-                  ui: {
-                    hasEnrichment: false,
-                    isIndex: item.type === "index"
-                  }
-                }
+                console.log(`  -> ${sym}`)
+                results[sym] = await fetchSymbol(sym)
+                await new Promise(r => setTimeout(r, 300))
+              } catch (err) {
+                console.error(`  x ${sym}: ${err.message}`)
               }
             }
-
-            const finalOutput = {
+            const output = {
               updatedAt: new Date().toISOString(),
-              marketStatus: "live",
-              data: output
+              stocks: results,
             }
-
-            fs.writeFileSync("stocks.json", JSON.stringify(finalOutput, null, 2))
-            console.log("Market dataset fully rebuilt (stable + UI-ready)")
+            require("fs").writeFileSync("stocks.json", JSON.stringify(output, null, 2))
+            console.log(`Written stocks.json (${SYMBOLS.length} symbols)`)
           })()
           EOF
 
-      - name: Commit updates
+      - name: Push stocks.json via GitHub API
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions@users.noreply.github.com"
-
-          git add stocks.json
-          git commit -m "feat: stable market engine + UI-safe schema [skip ci]" || echo "No changes"
-          git push
+          CONTENT=$(base64 -w 0 stocks.json)
+          SHA=$(gh api repos/${{ github.repository }}/contents/stocks.json --jq '.sha' 2>/dev/null || echo "")
+          if [ -z "$SHA" ]; then
+            gh api repos/${{ github.repository }}/contents/stocks.json \
+              --method PUT \
+              --field message="chore: refresh stock data [skip ci]" \
+              --field content="$CONTENT"
+          else
+            gh api repos/${{ github.repository }}/contents/stocks.json \
+              --method PUT \
+              --field message="chore: refresh stock data [skip ci]" \
+              --field content="$CONTENT" \
+              --field sha="$SHA"
+          fi
