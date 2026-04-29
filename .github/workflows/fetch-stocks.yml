@@ -23,17 +23,28 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch stock data and write stocks.json
+      - name: Fetch stock and index data, write stocks.json
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA"
+          # Finnhub supports major index quotes natively — no extra plan needed.
+          # ^GSPC = S&P 500 | ^DJI = Dow Jones | ^IXIC = Nasdaq Composite
+          INDEX_SYMBOLS: "^GSPC,^DJI,^IXIC"
         run: |
           node << 'EOF'
           const https = require("https")
 
-          const API_KEY = process.env.FINNHUB_API_KEY
-          const SYMBOLS = process.env.SYMBOLS.split(",").map(s => s.trim().toUpperCase())
-          const BASE = "https://finnhub.io/api/v1"
+          const API_KEY  = process.env.FINNHUB_API_KEY
+          const SYMBOLS  = process.env.SYMBOLS.split(",").map(s => s.trim().toUpperCase())
+          const INDEXES  = process.env.INDEX_SYMBOLS.split(",").map(s => s.trim().toUpperCase())
+          const BASE     = "https://finnhub.io/api/v1"
+
+          // Human-readable display names for index symbols
+          const INDEX_NAMES = {
+            "^GSPC": "S&P 500",
+            "^DJI":  "Dow Jones",
+            "^IXIC": "Nasdaq",
+          }
 
           function get(url) {
             return new Promise((resolve, reject) => {
@@ -73,6 +84,7 @@ jobs:
             return `${Math.floor(hrs / 24)}d ago`
           }
 
+          // ─── Fetch a regular stock (full data) ────────────────────────────────────
           async function fetchSymbol(sym) {
             const now    = Math.floor(Date.now() / 1000)
             const ago30d = now - 30 * 24 * 60 * 60
@@ -100,8 +112,8 @@ jobs:
 
             const ic = f?.data?.[0]?.report?.ic ?? []
             const findLine = (label) => ic.find(l => l.label?.toLowerCase().includes(label))
-            const revEntry = findLine("revenue")
-            const niEntry  = findLine("net income")
+            const revEntry  = findLine("revenue")
+            const niEntry   = findLine("net income")
             const revenue   = revEntry ? formatMarketCap(revEntry.value) : ""
             const netIncome = niEntry  ? formatMarketCap(niEntry.value)  : ""
             const netMargin = revEntry?.value && niEntry?.value
@@ -109,7 +121,8 @@ jobs:
               : ""
 
             return {
-              symbol: sym,
+              symbol:        sym,
+              type:          "stock",
               price:         q.c  ?? 0,
               change:        q.d  ?? 0,
               changePercent: q.dp ?? 0,
@@ -117,20 +130,20 @@ jobs:
               low:           q.l  ?? 0,
               open:          q.o  ?? 0,
               prevClose:     q.pc ?? 0,
-              name:      p.name              ?? sym,
-              sector:    p.finnhubIndustry   ?? "",
-              marketCap: formatMarketCap((p.marketCapitalization ?? 0) * 1e6),
-              logo:      p.logo              ?? "",
-              week52High:    m["52WeekHigh"]               ?? 0,
-              week52Low:     m["52WeekLow"]                ?? 0,
-              beta:          m.beta                        ?? 0,
-              peRatio:       m.peNormalizedAnnual          ?? 0,
-              eps:           m.epsNormalizedAnnual         ?? 0,
+              name:          p.name            ?? sym,
+              sector:        p.finnhubIndustry ?? "",
+              marketCap:     formatMarketCap((p.marketCapitalization ?? 0) * 1e6),
+              logo:          p.logo            ?? "",
+              week52High:    m["52WeekHigh"]                  ?? 0,
+              week52Low:     m["52WeekLow"]                   ?? 0,
+              beta:          m.beta                           ?? 0,
+              peRatio:       m.peNormalizedAnnual             ?? 0,
+              eps:           m.epsNormalizedAnnual            ?? 0,
               dividendYield: m.dividendYieldIndicatedAnnual
                 ? `${m.dividendYieldIndicatedAnnual.toFixed(2)}%`
                 : "",
-              volume:    formatVolume((m["10DayAverageTradingVolume"]  ?? 0) * 1e6),
-              avgVolume: formatVolume((m["3MonthAverageTradingVolume"] ?? 0) * 1e6),
+              volume:        formatVolume((m["10DayAverageTradingVolume"]  ?? 0) * 1e6),
+              avgVolume:     formatVolume((m["3MonthAverageTradingVolume"] ?? 0) * 1e6),
               sparklineData: c.s === "ok" ? (c.c ?? []) : [],
               news: n.slice(0, 5).map(item => ({
                 headline: item.headline ?? "",
@@ -151,9 +164,71 @@ jobs:
             }
           }
 
+          // ─── Fetch a market index (quote + 30-day sparkline only) ─────────────────
+          // Indexes have no profile, earnings, or financials on Finnhub's free tier.
+          // We still pull candles for the sparkline so the UI stays consistent.
+          async function fetchIndex(sym) {
+            const now    = Math.floor(Date.now() / 1000)
+            const ago30d = now - 30 * 24 * 60 * 60
+
+            const [quote, candles] = await Promise.allSettled([
+              get(`${BASE}/quote?symbol=${sym}&token=${API_KEY}`),
+              get(`${BASE}/stock/candle?symbol=${sym}&resolution=D&from=${ago30d}&to=${now}&token=${API_KEY}`),
+            ])
+
+            const q = quote.status === "fulfilled" ? quote.value : {}
+            const c = candles.status === "fulfilled" ? candles.value : {}
+
+            return {
+              symbol:        sym,
+              type:          "index",
+              name:          INDEX_NAMES[sym] ?? sym,
+              price:         q.c  ?? 0,
+              change:        q.d  ?? 0,
+              changePercent: q.dp ?? 0,
+              high:          q.h  ?? 0,
+              low:           q.l  ?? 0,
+              open:          q.o  ?? 0,
+              prevClose:     q.pc ?? 0,
+              // Fields not applicable to indexes — kept for schema consistency
+              sector:        "",
+              marketCap:     "",
+              logo:          "",
+              week52High:    0,
+              week52Low:     0,
+              beta:          0,
+              peRatio:       0,
+              eps:           0,
+              dividendYield: "",
+              volume:        "",
+              avgVolume:     "",
+              sparklineData: c.s === "ok" ? (c.c ?? []) : [],
+              news:          [],
+              earnings:      [],
+              revenue:       "",
+              netIncome:     "",
+              netMargin:     "",
+              revenueGrowth: "",
+            }
+          }
+
           ;(async () => {
-            console.log(`Fetching data for: ${SYMBOLS.join(", ")}`)
             const results = {}
+
+            // Fetch indexes first (fewest API calls, good canary for key health)
+            console.log(`Fetching indexes: ${INDEXES.join(", ")}`)
+            for (const sym of INDEXES) {
+              try {
+                console.log(`  -> ${sym}`)
+                results[sym] = await fetchIndex(sym)
+                await new Promise(r => setTimeout(r, 300))
+              } catch (err) {
+                console.error(`  x ${sym}: ${err.message}`)
+              }
+            }
+
+            // Then fetch individual stocks
+            console.log(`Fetching stocks: ${SYMBOLS.join(", ")}`)
             for (const sym of SYMBOLS) {
               try {
                 console.log(`  -> ${sym}`)
@@ -163,12 +238,15 @@ jobs:
                 console.error(`  x ${sym}: ${err.message}`)
               }
             }
+
             const output = {
               updatedAt: new Date().toISOString(),
-              stocks: results,
+              indexes: Object.fromEntries(INDEXES.map(s => [s, results[s]]).filter(([,v]) => v)),
+              stocks:  Object.fromEntries(SYMBOLS.map(s => [s, results[s]]).filter(([,v]) => v)),
             }
+
             require("fs").writeFileSync("stocks.json", JSON.stringify(output, null, 2))
-            console.log(`Written stocks.json (${SYMBOLS.length} symbols)`)
+            console.log(`Written stocks.json (${INDEXES.length} indexes, ${SYMBOLS.length} stocks)`)
           })()
           EOF
 
