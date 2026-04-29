@@ -197,7 +197,7 @@ jobs:
 
                 q = {
                   price:         meta.regularMarketPrice          ?? 0,
-                  prevClose:     meta.chartPreviousClose          ?? meta.previousClose ?? 0,
+                  prevClose:     meta.regularMarketPreviousClose  ?? meta.previousClose ?? 0, // use prior day close, not chart range start
                   high:          meta.regularMarketDayHigh        ?? 0,
                   low:           meta.regularMarketDayLow         ?? 0,
                   open:          meta.regularMarketOpen           ?? 0,
