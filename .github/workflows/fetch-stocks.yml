@@ -1,4 +1,4 @@
-name: Market Data Engine (Stooq + Finnhub FIXED)
+name: Market Data Engine (Final Stable Build)
 
 on:
   schedule:
@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch Market Data (Dual Source FIXED)
+      - name: Build Market Dataset
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: |
@@ -31,16 +31,8 @@ jobs:
           // -----------------------------
           // CONFIG
           // -----------------------------
-          const SYMBOLS = [
-            "aapl.us",
-            "googl.us",
-            "msft.us",
-            "amzn.us",
-            "tsla.us",
-            "^dji",
-            "^spx",
-            "^ndq"
-          ]
+          const STOCKS = ["aapl.us","googl.us","msft.us","amzn.us","tsla.us"]
+          const INDEXES = ["^dji","^spx","^ndq"]
 
           const NAMES = {
             "aapl.us": "Apple Inc",
@@ -57,11 +49,11 @@ jobs:
           const BASE = "https://finnhub.io/api/v1"
 
           // -----------------------------
-          // HTTP helper
+          // HELPERS
           // -----------------------------
           function get(url) {
-            return new Promise((resolve) => {
-              https.get(url, (res) => {
+            return new Promise(resolve => {
+              https.get(url, res => {
                 let data = ""
                 res.on("data", c => data += c)
                 res.on("end", () => {
@@ -72,72 +64,12 @@ jobs:
             })
           }
 
-          // -----------------------------
-          // SYMBOL NORMALIZATION (CRITICAL FIX)
-          // -----------------------------
-          function toFinnhubSymbol(sym) {
-            return sym
-              .replace(".us", "")
-              .replace("^", "")
-              .toUpperCase()
+          function cleanSymbol(sym) {
+            return sym.replace(".us", "").replace("^", "").toUpperCase()
           }
 
-          // -----------------------------
-          // STOOQ PRICE ENGINE
-          // -----------------------------
-          function getStooqCSV(symbol) {
-            const url = `https://stooq.com/q/l/?s=${symbol}&f=sd2t2ohlc&h&e=csv`
-
-            return new Promise((resolve) => {
-              https.get(url, (res) => {
-                let data = ""
-                res.on("data", c => data += c)
-                res.on("end", () => resolve(data))
-              }).on("error", () => resolve(""))
-            })
-          }
-
-          function parseStooq(csv) {
-            const lines = csv.trim().split("\n")
-            if (lines.length < 2) return null
-
-            const c = lines[1].split(",")
-
-            const open = parseFloat(c[3])
-            const close = parseFloat(c[6])
-
-            if (isNaN(open) || isNaN(close)) return null
-
-            return { open, close }
-          }
-
-          // -----------------------------
-          // FINNHUB ENRICHMENT ENGINE
-          // -----------------------------
-          async function getEnrichment(sym) {
-            const [profile, metrics, news] = await Promise.all([
-              get(`${BASE}/stock/profile2?symbol=${sym}&token=${API_KEY}`),
-              get(`${BASE}/stock/metric?symbol=${sym}&token=${API_KEY}`),
-              get(`${BASE}/company-news?symbol=${sym}&from=2026-01-01&to=2026-12-31&token=${API_KEY}`)
-            ])
-
-            const m = metrics?.metric || {}
-
-            return {
-              fiftyTwoWeek: {
-                low: m["52WeekLow"] || null,
-                high: m["52WeekHigh"] || null
-              },
-              marketCap: profile.marketCapitalization || null,
-              peRatio: m.peBasicExclExtraTTM || null,
-              revenueTTM: m.revenueTTM || null,
-              earningsPerShare: m.epsTTM || null,
-              news: (news || []).slice(0, 5).map(n => ({
-                headline: n.headline,
-                url: n.url,
-                source: n.source
-              }))
-            }
+          function safe(n) {
+            return (n === null || n === undefined || isNaN(n)) ? 0 : Number(n)
           }
 
           function direction(change) {
@@ -146,96 +78,166 @@ jobs:
             return "flat"
           }
 
-          function clamp(n) {
-            return Number(n.toFixed(2))
+          // -----------------------------
+          // STOOQ PRICE ENGINE
+          // -----------------------------
+          function getCSV(symbol) {
+            const url = `https://stooq.com/q/l/?s=${symbol}&f=sd2t2ohlc&h&e=csv`
+
+            return new Promise(resolve => {
+              https.get(url, res => {
+                let data = ""
+                res.on("data", c => data += c)
+                res.on("end", () => resolve(data))
+              }).on("error", () => resolve(""))
+            })
+          }
+
+          function parseCSV(csv) {
+            const lines = csv.trim().split("\n")
+            if (lines.length < 2) return null
+
+            const p = lines[1].split(",")
+
+            const open = parseFloat(p[3])
+            const close = parseFloat(p[6])
+
+            if (!open || !close) return null
+
+            return { open, close }
           }
 
           // -----------------------------
-          // MAIN PIPELINE
+          // FINNHUB ENRICHMENT
+          // -----------------------------
+          async function enrich(symbol) {
+            const [profile, metrics, news] = await Promise.all([
+              get(`${BASE}/stock/profile2?symbol=${symbol}&token=${API_KEY}`),
+              get(`${BASE}/stock/metric?symbol=${symbol}&token=${API_KEY}`),
+              get(`${BASE}/company-news?symbol=${symbol}&from=2026-01-01&to=2026-12-31&token=${API_KEY}`)
+            ])
+
+            const m = metrics?.metric || {}
+
+            return {
+              fiftyTwoWeek: {
+                low: safe(m["52WeekLow"]),
+                high: safe(m["52WeekHigh"])
+              },
+              marketCap: safe(profile.marketCapitalization),
+              peRatio: safe(m.peBasicExclExtraTTM),
+              revenueTTM: safe(m.revenueTTM),
+              earningsPerShare: safe(m.epsTTM),
+
+              news: (news || []).slice(0, 5).map(n => ({
+                headline: n.headline,
+                url: n.url,
+                source: n.source
+              }))
+            }
+          }
+
+          // -----------------------------
+          // MAIN
           // -----------------------------
           ;(async () => {
-            console.log("Running FIXED dual-source market engine...")
+            const output = {}
 
-            const results = {}
+            const all = [
+              ...STOCKS.map(s => ({ sym: s, type: "stock" })),
+              ...INDEXES.map(s => ({ sym: s, type: "index" }))
+            ]
 
-            for (const sym of SYMBOLS) {
+            for (const item of all) {
               try {
+                const csv = await getCSV(item.sym)
+                const priceData = parseCSV(csv)
 
-                // ---------------- PRICE (Stooq)
-                const csv = await getStooqCSV(sym)
-                const priceData = parseStooq(csv)
-
-                if (!priceData) {
-                  results[sym] = {
-                    symbol: sym,
-                    name: NAMES[sym] || sym,
-                    type: "stock",
-                    price: 0,
-                    change: 0,
-                    changePercent: 0,
-                    direction: "flat",
-                    enrichment: null
-                  }
-                  continue
-                }
+                if (!priceData) continue
 
                 const price = priceData.close
                 const change = price - priceData.open
                 const changePercent = priceData.open ? (change / priceData.open) * 100 : 0
 
-                // ---------------- ENRICHMENT (FIXED SYMBOL MAPPING)
                 let enrichment = null
-                try {
-                  const cleanSymbol = toFinnhubSymbol(sym)
-                  enrichment = await getEnrichment(cleanSymbol)
-                } catch {
-                  enrichment = null
+
+                // ONLY stocks get enrichment (important fix)
+                if (item.type === "stock") {
+                  try {
+                    enrichment = await enrich(cleanSymbol(item.sym))
+                  } catch {
+                    enrichment = null
+                  }
                 }
 
-                // ---------------- OUTPUT
-                results[sym] = {
-                  symbol: sym,
-                  name: NAMES[sym] || sym,
-                  type: "stock",
+                output[item.sym] = {
+                  symbol: item.sym,
+                  name: NAMES[item.sym] || item.sym,
+                  type: item.type,
 
-                  price: clamp(price),
-                  change: clamp(change),
-                  changePercent: clamp(changePercent),
+                  price: Number(price.toFixed(2)),
+                  change: Number(change.toFixed(2)),
+                  changePercent: Number(changePercent.toFixed(2)),
                   direction: direction(change),
 
-                  enrichment
+                  // UI SAFE: always exists
+                  enrichment: enrichment || {
+                    fiftyTwoWeek: { low: 0, high: 0 },
+                    marketCap: 0,
+                    peRatio: 0,
+                    revenueTTM: 0,
+                    earningsPerShare: 0,
+                    news: []
+                  },
+
+                  // UI FLAG (important)
+                  ui: {
+                    hasEnrichment: item.type === "stock",
+                    isIndex: item.type === "index"
+                  }
                 }
 
               } catch {
-                results[sym] = {
-                  symbol: sym,
-                  name: NAMES[sym] || sym,
-                  type: "stock",
+                output[item.sym] = {
+                  symbol: item.sym,
+                  name: NAMES[item.sym] || item.sym,
+                  type: item.type,
                   price: 0,
                   change: 0,
                   changePercent: 0,
                   direction: "flat",
-                  enrichment: null
+                  enrichment: {
+                    fiftyTwoWeek: { low: 0, high: 0 },
+                    marketCap: 0,
+                    peRatio: 0,
+                    revenueTTM: 0,
+                    earningsPerShare: 0,
+                    news: []
+                  },
+                  ui: {
+                    hasEnrichment: false,
+                    isIndex: item.type === "index"
+                  }
                 }
               }
             }
 
-            const output = {
+            const finalOutput = {
               updatedAt: new Date().toISOString(),
               marketStatus: "live",
-              data: results
+              data: output
             }
 
-            fs.writeFileSync("stocks.json", JSON.stringify(output, null, 2))
-            console.log("FIXED dual-source market feed complete")
+            fs.writeFileSync("stocks.json", JSON.stringify(finalOutput, null, 2))
+            console.log("Market dataset fully rebuilt (stable + UI-ready)")
           })()
           EOF
 
-      - name: Commit updated stocks.json
+      - name: Commit updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions@users.noreply.github.com"
 
           git add stocks.json
-          git commit -m "fix: dual-source enrichment + symbol mapping [skip ci]" || echo "No changes"
+          git commit -m "feat: stable market engine + UI-safe schema [skip ci]" || echo "No changes"
           git push
