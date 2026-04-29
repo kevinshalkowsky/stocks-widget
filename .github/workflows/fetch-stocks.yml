@@ -1,4 +1,4 @@
-name: Fetch Stock Data
+name: Fetch Market Dashboard Data
 
 on:
   schedule:
@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch market data (Stooq)
+      - name: Fetch market data (Stooq + Sparklines)
         run: |
           node << 'EOF'
           const https = require("https")
@@ -43,14 +43,15 @@ jobs:
             "msft.us": "Microsoft Corp",
             "amzn.us": "Amazon.com Inc",
             "tsla.us": "Tesla Inc",
-            "^dji": "Dow Jones Industrial Average",
+            "^dji": "Dow Jones",
             "^spx": "S&P 500",
-            "^ndq": "Nasdaq Composite"
+            "^ndq": "Nasdaq"
           }
 
-          function getCSV(symbol) {
-            const url = `https://stooq.com/q/l/?s=${symbol}&f=sd2t2ohlc&h&e=csv`
+          const INDEX_SET = new Set(["^dji", "^spx", "^ndq"])
 
+          function getCSV(symbol, range = "") {
+            const url = `https://stooq.com/q/d/l/?s=${symbol}&i=d`
             return new Promise((resolve) => {
               https.get(url, (res) => {
                 let data = ""
@@ -60,76 +61,103 @@ jobs:
             })
           }
 
-          function parseCSV(csv) {
+          function parseHistory(csv) {
             const lines = csv.trim().split("\n")
-            if (lines.length < 2) return null
+            if (lines.length < 2) return []
 
-            const [header, row] = lines
-            const cols = row.split(",")
+            const rows = lines.slice(1).map(line => {
+              const cols = line.split(",")
+              return {
+                date: cols[0],
+                close: parseFloat(cols[4])
+              }
+            })
 
-            return {
-              open: parseFloat(cols[2]) || 0,
-              high: parseFloat(cols[3]) || 0,
-              low: parseFloat(cols[4]) || 0,
-              close: parseFloat(cols[5]) || 0
-            }
+            return rows.filter(r => !isNaN(r.close))
+          }
+
+          function buildSparkline(history, points = 30) {
+            return history.slice(-points).map(p => p.close)
+          }
+
+          function calcChange(history) {
+            if (history.length < 2) return { change: 0, changePercent: 0 }
+
+            const latest = history[history.length - 1].close
+            const prev = history[history.length - 2].close
+
+            const change = latest - prev
+            const changePercent = prev ? (change / prev) * 100 : 0
+
+            return { latest, change, changePercent }
+          }
+
+          function direction(change) {
+            if (change > 0) return "up"
+            if (change < 0) return "down"
+            return "flat"
           }
 
           ;(async () => {
-            console.log("Fetching Stooq market data...")
+            console.log("Building market dashboard feed...")
 
             const results = {}
 
             for (const sym of SYMBOLS) {
               try {
                 const csv = await getCSV(sym)
-                const data = parseCSV(csv)
+                const history = parseHistory(csv)
 
-                if (!data) {
+                if (!history.length) {
                   results[sym] = {
                     symbol: sym,
-                    type: "stock",
                     name: NAMES[sym] || sym,
+                    type: "stock",
                     price: 0,
                     change: 0,
-                    changePercent: 0
+                    changePercent: 0,
+                    direction: "flat",
+                    sparkline: []
                   }
                   continue
                 }
 
-                const prev = data.open
-                const price = data.close
-                const change = price - prev
-                const changePercent = prev ? (change / prev) * 100 : 0
+                const { latest, change, changePercent } = calcChange(history)
+                const sparkline = buildSparkline(history, 30)
 
                 results[sym] = {
                   symbol: sym,
-                  type: "stock",
                   name: NAMES[sym] || sym,
-                  price,
-                  change,
-                  changePercent
+                  type: "stock",
+                  price: Number(latest.toFixed(2)),
+                  change: Number(change.toFixed(2)),
+                  changePercent: Number(changePercent.toFixed(2)),
+                  direction: direction(change),
+                  sparkline
                 }
 
               } catch {
                 results[sym] = {
                   symbol: sym,
-                  type: "stock",
                   name: NAMES[sym] || sym,
+                  type: "stock",
                   price: 0,
                   change: 0,
-                  changePercent: 0
+                  changePercent: 0,
+                  direction: "flat",
+                  sparkline: []
                 }
               }
             }
 
             const output = {
               updatedAt: new Date().toISOString(),
+              marketStatus: "live",
               data: results
             }
 
             fs.writeFileSync("stocks.json", JSON.stringify(output, null, 2))
-            console.log("stocks.json updated")
+            console.log("Dashboard feed updated")
           })()
           EOF
 
@@ -139,5 +167,5 @@ jobs:
           git config user.email "github-actions@users.noreply.github.com"
 
           git add stocks.json
-          git commit -m "chore: refresh stock data [skip ci]" || echo "No changes"
+          git commit -m "chore: update market dashboard feed [skip ci]" || echo "No changes"
           git push
