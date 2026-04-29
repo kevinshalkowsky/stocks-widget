@@ -54,13 +54,13 @@ jobs:
             })
           }
 
-          const NAMES = {
+          const INDEX_NAMES = {
             "^DJI": "Dow Jones Industrial Average",
             "^GSPC": "S&P 500",
             "^IXIC": "Nasdaq Composite"
           }
 
-          async function fetchAsset(sym) {
+          async function fetchStock(sym) {
             const [quote, profile] = await Promise.all([
               get(`${BASE}/quote?symbol=${sym}&token=${API_KEY}`),
               get(`${BASE}/stock/profile2?symbol=${sym}&token=${API_KEY}`)
@@ -68,8 +68,8 @@ jobs:
 
             return {
               symbol: sym,
-              type: sym.startsWith("^") ? "index" : "stock",
-              name: profile.name || NAMES[sym] || sym,
+              type: "stock",
+              name: profile.name || sym,
               price: quote.c ?? 0,
               change: quote.d ?? 0,
               changePercent: quote.dp ?? 0,
@@ -77,25 +77,49 @@ jobs:
             }
           }
 
+          async function fetchIndex(sym) {
+            const now = Math.floor(Date.now() / 1000)
+            const from = now - 2 * 86400
+
+            const candles = await get(
+              `${BASE}/stock/candle?symbol=${sym}&resolution=D&from=${from}&to=${now}&token=${API_KEY}`
+            )
+
+            const prices = candles.s === "ok" ? candles.c : []
+
+            const latest = prices.length ? prices[prices.length - 1] : 0
+            const prev = prices.length > 1 ? prices[prices.length - 2] : latest
+
+            const change = latest - prev
+            const changePercent = prev ? (change / prev) * 100 : 0
+
+            return {
+              symbol: sym,
+              type: "stock", // keep unified for frontend simplicity
+              name: INDEX_NAMES[sym] || sym,
+              price: latest,
+              change,
+              changePercent,
+              logo: ""
+            }
+          }
+
           ;(async () => {
-            console.log("Fetching stock + index data...")
+            console.log("Fetching market data...")
 
             const results = {}
 
             for (const sym of SYMBOLS) {
               try {
-                const data = await fetchAsset(sym)
-
-                // safety fallback if index returns 0s
-                if (sym.startsWith("^") && data.price === 0) {
-                  console.warn(`Index ${sym} returned 0 — may be temporarily unavailable`)
+                if (sym.startsWith("^")) {
+                  results[sym] = await fetchIndex(sym)
+                } else {
+                  results[sym] = await fetchStock(sym)
                 }
-
-                results[sym] = data
               } catch {
                 results[sym] = {
                   symbol: sym,
-                  type: sym.startsWith("^") ? "index" : "stock",
+                  type: "stock",
                   error: true
                 }
               }
@@ -107,7 +131,8 @@ jobs:
             }
 
             fs.writeFileSync("stocks.json", JSON.stringify(output, null, 2))
-            console.log("stocks.json updated")
+
+            console.log("stocks.json updated successfully")
           })()
           EOF
 
