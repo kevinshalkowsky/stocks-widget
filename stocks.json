@@ -1,69 +1,86 @@
 {
-  "updatedAt": "2026-04-29T21:49:16.757Z",
+  "updatedAt": "2026-04-29T21:52:07.388Z",
+  "marketStatus": "live",
   "data": {
     "aapl.us": {
       "symbol": "aapl.us",
-      "type": "stock",
       "name": "Apple Inc",
-      "price": 267.05,
-      "change": 245.05,
-      "changePercent": 1113.8636363636363
+      "type": "stock",
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "direction": "flat",
+      "sparkline": []
     },
     "googl.us": {
       "symbol": "googl.us",
-      "type": "stock",
       "name": "Alphabet Inc",
-      "price": 344.23,
-      "change": 322.23,
-      "changePercent": 1464.6818181818182
+      "type": "stock",
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "direction": "flat",
+      "sparkline": []
     },
     "msft.us": {
       "symbol": "msft.us",
-      "type": "stock",
       "name": "Microsoft Corp",
-      "price": 420.29,
-      "change": 398.29,
-      "changePercent": 1810.409090909091
+      "type": "stock",
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "direction": "flat",
+      "sparkline": []
     },
     "amzn.us": {
       "symbol": "amzn.us",
-      "type": "stock",
       "name": "Amazon.com Inc",
-      "price": 257.71,
-      "change": 235.70999999999998,
-      "changePercent": 1071.4090909090908
+      "type": "stock",
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "direction": "flat",
+      "sparkline": []
     },
     "tsla.us": {
       "symbol": "tsla.us",
-      "type": "stock",
       "name": "Tesla Inc",
-      "price": 370.04,
-      "change": 348.04,
-      "changePercent": 1582
+      "type": "stock",
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "direction": "flat",
+      "sparkline": []
     },
     "^dji": {
       "symbol": "^dji",
+      "name": "Dow Jones",
       "type": "stock",
-      "name": "Dow Jones Industrial Average",
-      "price": 48710,
-      "change": 48688,
-      "changePercent": 221309.0909090909
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "direction": "flat",
+      "sparkline": []
     },
     "^spx": {
       "symbol": "^spx",
-      "type": "stock",
       "name": "S&P 500",
-      "price": 7108.2,
-      "change": 7086.2,
-      "changePercent": 32209.999999999996
+      "type": "stock",
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "direction": "flat",
+      "sparkline": []
     },
     "^ndq": {
       "symbol": "^ndq",
+      "name": "Nasdaq",
       "type": "stock",
-      "name": "Nasdaq Composite",
-      "price": 24533.744,
-      "change": 24511.744,
-      "changePercent": 111417.01818181819
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "direction": "flat",
+      "sparkline": []
     }
   }
 }
