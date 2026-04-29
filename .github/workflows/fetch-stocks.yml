@@ -20,10 +20,10 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch stock data
+      - name: Fetch stock + index data
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-          SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA,DJI.INDX,SPX.INDX,IXIC.INDX"
+          SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA,^DJI,^GSPC,^IXIC"
         run: |
           node << 'EOF'
           const https = require("https")
@@ -55,9 +55,9 @@ jobs:
           }
 
           const NAMES = {
-            "DJI.INDX": "Dow Jones Industrial Average",
-            "SPX.INDX": "S&P 500",
-            "IXIC.INDX": "Nasdaq Composite"
+            "^DJI": "Dow Jones Industrial Average",
+            "^GSPC": "S&P 500",
+            "^IXIC": "Nasdaq Composite"
           }
 
           async function fetchAsset(sym) {
@@ -68,7 +68,7 @@ jobs:
 
             return {
               symbol: sym,
-              type: sym.includes(".INDX") ? "stock" : "stock",
+              type: sym.startsWith("^") ? "index" : "stock",
               name: profile.name || NAMES[sym] || sym,
               price: quote.c ?? 0,
               change: quote.d ?? 0,
@@ -84,11 +84,18 @@ jobs:
 
             for (const sym of SYMBOLS) {
               try {
-                results[sym] = await fetchAsset(sym)
+                const data = await fetchAsset(sym)
+
+                // safety fallback if index returns 0s
+                if (sym.startsWith("^") && data.price === 0) {
+                  console.warn(`Index ${sym} returned 0 — may be temporarily unavailable`)
+                }
+
+                results[sym] = data
               } catch {
                 results[sym] = {
                   symbol: sym,
-                  type: "stock",
+                  type: sym.startsWith("^") ? "index" : "stock",
                   error: true
                 }
               }
@@ -100,7 +107,6 @@ jobs:
             }
 
             fs.writeFileSync("stocks.json", JSON.stringify(output, null, 2))
-
             console.log("stocks.json updated")
           })()
           EOF
