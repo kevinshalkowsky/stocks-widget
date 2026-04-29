@@ -26,7 +26,7 @@ jobs:
       - name: Fetch stock data and write stocks.json
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
-          SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA"
+          SYMBOLS: "AAPL,GOOGL,MSFT,AMZN,TSLA,DJI"
         run: |
           node << 'EOF'
           const https = require("https")
