@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-04-30T15:31:29.151Z",
+  "updatedAt": "2026-04-30T17:06:44.378Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7171.03,
-      "change": 35.08,
-      "changePercent": 0.4916,
-      "high": 7171.03,
+      "price": 7172.64,
+      "change": 36.69,
+      "changePercent": 0.5142,
+      "high": 7177.07,
       "low": 7126.15,
       "open": 0,
       "prevClose": 7135.9501953125,
       "week52High": 7178.74,
       "week52Low": 5578.64,
-      "volume": "1.2B",
+      "volume": "1.7B",
       "sparklineData": [
         6528.52001953125,
         6575.31982421875,
@@ -37,7 +37,7 @@
         7173.91015625,
         7138.7998046875,
         7135.9501953125,
-        7171.02978515625
+        7172.64013671875
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 49491,
-      "change": 629.19,
-      "changePercent": 1.2877,
-      "high": 49504.46,
+      "price": 49531.54,
+      "change": 669.73,
+      "changePercent": 1.3707,
+      "high": 49610.43,
       "low": 48762.93,
       "open": 0,
       "prevClose": 48861.80859375,
       "week52High": 50512.79,
       "week52Low": 40705.63,
-      "volume": "251.5M",
+      "volume": "338.9M",
       "sparklineData": [
         46341.51171875,
         46565.73828125,
@@ -90,7 +90,7 @@
         49167.7890625,
         49141.9296875,
         48861.80859375,
-        49491
+        49531.5390625
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 24738.516,
-      "change": 65.28,
-      "changePercent": 0.2646,
+      "price": 24731.498,
+      "change": 58.26,
+      "changePercent": 0.2361,
       "high": 24859.941,
       "low": 24491.834,
       "open": 0,
       "prevClose": 24673.240234375,
       "week52High": 24899.37,
       "week52Low": 17503.01,
-      "volume": "2.7B",
+      "volume": "3.7B",
       "sparklineData": [
         21590.630859375,
         21840.94921875,
@@ -143,7 +143,7 @@
         24887.099609375,
         24663.80078125,
         24673.240234375,
-        24738.515625
+        24731.498046875
       ],
       "sector": "",
       "marketCap": "",
@@ -165,10 +165,10 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 271.57,
-      "change": 1.4,
-      "changePercent": 0.5182,
-      "high": 272.22,
+      "price": 271.9,
+      "change": 1.73,
+      "changePercent": 0.6403,
+      "high": 273.76,
       "low": 268.14,
       "open": 270.47,
       "prevClose": 270.17,
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nasdaq Composite Turns Corner as Tech Earnings and Strong GDP Take the Wheel",
+          "headline": "Apple says India antitrust body overstepping judicial authority as spat intensifies",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c18abadf77937c876f92abae6229f1802d3a172b373dbe45cdfc536c587c4723"
+          "url": "https://finnhub.io/api/news?id=173ba1ddd8cb96b25d1be693163253ca800cdfa652fe2bce2752a2b64a25f70e"
         },
         {
-          "headline": "S&P 500 Rides Tech Earnings Wave Despite Inflation Warning Shot",
+          "headline": "Up 27% in 1 Month, Amazon Is Now the Best-Performing \"Magnificent Seven\" Stock in 2026. 2 Reasons Why It's a Buy in May, and 1 Reason to Avoid.",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4f5a5fd19bf0f1a33354e212f2dcf0666fcb2ff1ac232c86e972392a211689d7"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=af2fcfa53f4035e07c07f39911ce92f700585da4d1da155f0a36c5efafbeaff8"
         },
         {
-          "headline": "Meet the AI-powered fan companion: TGR Haas F1 Team RaceMate powered by Infobip",
+          "headline": "VIX in Whipsaw on Sticky Inflation, Fed Dissent and Lofty AI Capex",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fa8f4c8f5ea1536eb360d0844a206b0abcac208ce5d7421905647c172bf47a27"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=eeda5ff859665a77c9b28264fd1fc8c51162d4868378cec4a0c53f862cc2da82"
         },
         {
-          "headline": "Big Tech Earnings, Fed Rate Decision Lift US Equity Futures Pre-Bell",
+          "headline": "Liftoff Welcomes Former J.D. Power CEO, Dave Habiger and Former Apple Controller, Betsy Rafael to its Board of Directors",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e813854c985dabfc47e31f4a96f23e89c0d82ea9484eb2744de84cf8d6a3f504"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=0c7d0ca48c46e6e9d762d13842b20f7bc18b9ef972a488b2985672fef34f36d2"
         },
         {
-          "headline": "NYSE Content Update: NASA's Jared Isaacman Celebrates Artemis II Success at NYSE",
+          "headline": "Apple to report first earnings since CEO announced departure plans",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=2a447dc0f8ea01aa17d9c76926791972bdc488e6e5812d8edc8df92b6efbd277"
+          "url": "https://finnhub.io/api/news?id=1dd6950fc59d3cfffb9dbd50e56808bab25e9fac2d8aa0d0eb91160aa6dd1bc9"
         }
       ],
       "earnings": [
@@ -251,10 +251,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 376.52,
-      "change": 26.58,
-      "changePercent": 7.5956,
-      "high": 378.24,
+      "price": 380.83,
+      "change": 30.89,
+      "changePercent": 8.8272,
+      "high": 380.93,
       "low": 365.82,
       "open": 374.205,
       "prevClose": 349.94,
@@ -273,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "These S&P500 stocks are gapping in today's session",
+          "headline": "Exploring the top movers within the S&P500 index during today's session.",
           "source": "ChartMill",
-          "timeAgo": "56m ago",
-          "url": "https://finnhub.io/api/news?id=cd6007b0a5e1d1eddf6eb0c85c9378ef827ca4173768a039b1af1b9e2e1e16e2"
+          "timeAgo": "31m ago",
+          "url": "https://finnhub.io/api/news?id=58bbaf8812dbcfd9b458ab484d30d03676bdf94960342bf7130e1197b1542842"
         },
         {
-          "headline": "Alphabet Pops 5% on Q1 Earnings: Is the Full-Stack AI Strategy Finally Paying Off?",
+          "headline": "Stock Market Today: Dow Up 600 Points; Meta Falls But These AI Data Center Names Lead Gains (Live Coverage)",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=d19b91c3a4fa7a8cba1cd4aec116ad43d7e149dc6d5f68cdaaae7ac118a1bfa5"
+          "url": "https://finnhub.io/api/news?id=5e0f3833de7f9927c654735a202e67c77d4a2d9c3c5180000b720620f80206c5"
         },
         {
-          "headline": "Nasdaq Composite Turns Corner as Tech Earnings and Strong GDP Take the Wheel",
+          "headline": "Microsoft Falls 5% Despite Q3 Beat: Why $190 Billion in AI Spending Has Investors Worried",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c18abadf77937c876f92abae6229f1802d3a172b373dbe45cdfc536c587c4723"
+          "url": "https://finnhub.io/api/news?id=fc6f553b8d8e2c34c129c6ece8c46fed56c9f2622906ed1900a8c3241516bf02"
         },
         {
-          "headline": "Stock Market Today: Dow Rises After Inflation Data; Meta Plunges On Earnings (Live Coverage)",
+          "headline": "Up 27% in 1 Month, Amazon Is Now the Best-Performing \"Magnificent Seven\" Stock in 2026. 2 Reasons Why It's a Buy in May, and 1 Reason to Avoid.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e3b2d170a03c43c454cb135cdf3fd5b33c5a3d9b9a09837be53b011a11ec1319"
+          "url": "https://finnhub.io/api/news?id=af2fcfa53f4035e07c07f39911ce92f700585da4d1da155f0a36c5efafbeaff8"
         },
         {
-          "headline": "Fed Inflation Gauge Hits 2-Year High As AI Boosts GDP; S&P 500 Rises (Live Coverage)",
+          "headline": "VIX in Whipsaw on Sticky Inflation, Fed Dissent and Lofty AI Capex",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e0bb5f390b204410c877530b83838bdd622598fa5684a4ee492dc83d913985ee"
+          "url": "https://finnhub.io/api/news?id=eeda5ff859665a77c9b28264fd1fc8c51162d4868378cec4a0c53f862cc2da82"
         }
       ],
       "earnings": [
@@ -337,11 +337,11 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 403.55,
-      "change": -20.91,
-      "changePercent": -4.9263,
+      "price": 399.75,
+      "change": -24.71,
+      "changePercent": -5.8215,
       "high": 415.555,
-      "low": 400.13,
+      "low": 398.01,
       "open": 415.555,
       "prevClose": 424.46,
       "name": "Microsoft Corp",
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "These S&P500 stocks are gapping in today's session",
+          "headline": "Exploring the top movers within the S&P500 index during today's session.",
           "source": "ChartMill",
-          "timeAgo": "56m ago",
-          "url": "https://finnhub.io/api/news?id=cd6007b0a5e1d1eddf6eb0c85c9378ef827ca4173768a039b1af1b9e2e1e16e2"
+          "timeAgo": "31m ago",
+          "url": "https://finnhub.io/api/news?id=58bbaf8812dbcfd9b458ab484d30d03676bdf94960342bf7130e1197b1542842"
         },
         {
-          "headline": "Microsoft Forecasts Strong Azure Growth as AI Spending Rises",
+          "headline": "Stock Market Today: Dow Up 600 Points; Meta Falls But These AI Data Center Names Lead Gains (Live Coverage)",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=5ae8a63b3231f035fe0d2e55079ec2c5933ba1ef06550e9aee829747eb7bf774"
+          "url": "https://finnhub.io/api/news?id=5e0f3833de7f9927c654735a202e67c77d4a2d9c3c5180000b720620f80206c5"
         },
         {
-          "headline": "Nasdaq Composite Turns Corner as Tech Earnings and Strong GDP Take the Wheel",
+          "headline": "Microsoft defended at Goldman after yet another unconvincing print",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c18abadf77937c876f92abae6229f1802d3a172b373dbe45cdfc536c587c4723"
+          "url": "https://finnhub.io/api/news?id=26eea06de58a287651966ee099cd09ab2b7d913f336be898e9004d950ec68ea4"
         },
         {
-          "headline": "Stock Market Today: Dow Rises After Inflation Data; Meta Plunges On Earnings (Live Coverage)",
+          "headline": "Microsoft Falls 5% Despite Q3 Beat: Why $190 Billion in AI Spending Has Investors Worried",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e3b2d170a03c43c454cb135cdf3fd5b33c5a3d9b9a09837be53b011a11ec1319"
+          "url": "https://finnhub.io/api/news?id=fc6f553b8d8e2c34c129c6ece8c46fed56c9f2622906ed1900a8c3241516bf02"
         },
         {
-          "headline": "Fed Inflation Gauge Hits 2-Year High As AI Boosts GDP; S&P 500 Rises (Live Coverage)",
+          "headline": "Up 27% in 1 Month, Amazon Is Now the Best-Performing \"Magnificent Seven\" Stock in 2026. 2 Reasons Why It's a Buy in May, and 1 Reason to Avoid.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e0bb5f390b204410c877530b83838bdd622598fa5684a4ee492dc83d913985ee"
+          "url": "https://finnhub.io/api/news?id=af2fcfa53f4035e07c07f39911ce92f700585da4d1da155f0a36c5efafbeaff8"
         }
       ],
       "earnings": [
@@ -423,11 +423,11 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 258.54,
-      "change": -4.5,
-      "changePercent": -1.7108,
+      "price": 259.78,
+      "change": -3.26,
+      "changePercent": -1.2394,
       "high": 273.88,
-      "low": 257.45,
+      "low": 256.16,
       "open": 270.805,
       "prevClose": 263.04,
       "name": "Amazon.com Inc",
@@ -437,7 +437,7 @@
       "week52High": 265.91,
       "week52Low": 178.85,
       "beta": 1.4658301,
-      "peRatio": 36.5996,
+      "peRatio": 35.5692,
       "eps": 7.1737,
       "dividendYield": "",
       "volume": "46.5M",
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Amazon's $364 billion backlog is the bull case for its AI spending boom",
+          "headline": "Stock Market Today: Dow Up 600 Points; Meta Falls But These AI Data Center Names Lead Gains (Live Coverage)",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=7fb36e8013422373eaa411e67b3cac93dd3d84289762e0d07afadef8a6add77e"
+          "url": "https://finnhub.io/api/news?id=5e0f3833de7f9927c654735a202e67c77d4a2d9c3c5180000b720620f80206c5"
         },
         {
-          "headline": "Amazon Rises as AWS Beats Cloud Expectations",
+          "headline": "Meta Looks to Raise as Much as $25 Billion With Jumbo Bond Sale",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=0492f2e56edebe18d7ac020717f28c8385d20398c13af9693b80571ae4a0f1fa"
+          "url": "https://finnhub.io/api/news?id=3b9c59bb0eecbbc8ae5370642cd5078c438a558bcd4789a5f0f0bfcbc9d6172c"
         },
         {
-          "headline": "Nasdaq Composite Turns Corner as Tech Earnings and Strong GDP Take the Wheel",
+          "headline": "Up 27% in 1 Month, Amazon Is Now the Best-Performing \"Magnificent Seven\" Stock in 2026. 2 Reasons Why It's a Buy in May, and 1 Reason to Avoid.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c18abadf77937c876f92abae6229f1802d3a172b373dbe45cdfc536c587c4723"
+          "url": "https://finnhub.io/api/news?id=af2fcfa53f4035e07c07f39911ce92f700585da4d1da155f0a36c5efafbeaff8"
         },
         {
-          "headline": "Stock Market Today: Dow Rises After Inflation Data; Meta Plunges On Earnings (Live Coverage)",
+          "headline": "VIX in Whipsaw on Sticky Inflation, Fed Dissent and Lofty AI Capex",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e3b2d170a03c43c454cb135cdf3fd5b33c5a3d9b9a09837be53b011a11ec1319"
+          "url": "https://finnhub.io/api/news?id=eeda5ff859665a77c9b28264fd1fc8c51162d4868378cec4a0c53f862cc2da82"
         },
         {
-          "headline": "Fed Inflation Gauge Hits 2-Year High As AI Boosts GDP; S&P 500 Rises (Live Coverage)",
+          "headline": "The AI earnings bonanza is splitting investors",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e0bb5f390b204410c877530b83838bdd622598fa5684a4ee492dc83d913985ee"
+          "url": "https://finnhub.io/api/news?id=b24a754f0d1a94a6e9b065ecc10dace612ea7739a84371446ff8c89fd63582b9"
         }
       ],
       "earnings": [
@@ -509,10 +509,10 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 379.2,
-      "change": 6.4,
-      "changePercent": 1.7167,
-      "high": 379.49,
+      "price": 378.35,
+      "change": 5.55,
+      "changePercent": 1.4887,
+      "high": 380.12,
       "low": 368.17,
       "open": 372.2,
       "prevClose": 372.8,
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Forget Tesla’s Robotaxi Promises — BYD Already Has What Investors Really Want",
+          "headline": "Up 27% in 1 Month, Amazon Is Now the Best-Performing \"Magnificent Seven\" Stock in 2026. 2 Reasons Why It's a Buy in May, and 1 Reason to Avoid.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4cf7aa43b94e18852eefbd368d2d3e4f9194fbd8ed442c43426a2b3b2e25852a"
+          "url": "https://finnhub.io/api/news?id=af2fcfa53f4035e07c07f39911ce92f700585da4d1da155f0a36c5efafbeaff8"
         },
         {
-          "headline": "Tesla Begins Mass Producing Semi Trucks. Stock Dips.",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=9b644d2f2c45f0d07c50b160d0a60e5f871ef96940f51be38b1ca4845b89c77e"
-        },
-        {
-          "headline": "Tesla Begins Semi Truck Mass Production at Nevada Plant",
+          "headline": "Western Union Unveils Timeline For Stablecoin Launch And Plans For A Linked Consumer Card",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a30c028f836a3076e09fd06b723f3cc3238f089a366988396e9239e74eafc613"
+          "url": "https://finnhub.io/api/news?id=f710322e3a9c46592845f52cc99503f6c90decee436ece81e8de114643211e16"
         },
         {
-          "headline": "VVater Awarded $5 Million Dollar Contract to Partner with the City of Bastrop for Next-Generation Municipal Water Treatment Infrastructure",
+          "headline": "Hertz Stock Soars on Uber’s Robo-Taxi Push. This Is a Big Deal.",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=26394752b2b5a60313134143c16b5002e15883c8c875cd8a8f011e46431b72af"
+          "url": "https://finnhub.io/api/news?id=cc6373b457800b2c5b6070a20e4ca5473f3d0acc80286b1254704e0dd563d751"
         },
         {
-          "headline": "Tesla finally gets Semi production moving at scale",
+          "headline": "Nasdaq Turns Lower. Someone's Selling Mag 7 Stocks.",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a8e93f4d0af20945aabf4dd30404441469f9524422aedddeb3fd82347ccb7fd2"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=3d4a484c15add18989aee0038177dbcdb4d2d8ab52a9ec7641a504622040f062"
+        },
+        {
+          "headline": "Humanoid Maker 1X Opens New US Factory, Plans to Build 10,000 Home Robots in First Year",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=c541d7e0770e5aa09ae05cd9b3b1e5a2d4365d3ec0dacd3e6904db03093b08ba"
         }
       ],
       "earnings": [
