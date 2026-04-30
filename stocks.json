@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-04-30T13:14:11.752Z",
+  "updatedAt": "2026-04-30T15:31:29.151Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7135.95,
-      "change": -2.85,
-      "changePercent": -0.0399,
-      "high": 7145.63,
-      "low": 7107.86,
+      "price": 7171.03,
+      "change": 35.08,
+      "changePercent": 0.4916,
+      "high": 7171.03,
+      "low": 7126.15,
       "open": 0,
-      "prevClose": 7138.7998046875,
+      "prevClose": 7135.9501953125,
       "week52High": 7178.74,
       "week52Low": 5578.64,
-      "volume": "3.3B",
+      "volume": "1.2B",
       "sparklineData": [
         6528.52001953125,
         6575.31982421875,
@@ -36,7 +36,8 @@
         7165.080078125,
         7173.91015625,
         7138.7998046875,
-        7135.9501953125
+        7135.9501953125,
+        7171.02978515625
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 48861.81,
-      "change": -280.12,
-      "changePercent": -0.57,
-      "high": 49163.78,
-      "low": 48708.57,
+      "price": 49491,
+      "change": 629.19,
+      "changePercent": 1.2877,
+      "high": 49504.46,
+      "low": 48762.93,
       "open": 0,
-      "prevClose": 49141.9296875,
+      "prevClose": 48861.80859375,
       "week52High": 50512.79,
       "week52Low": 40705.63,
-      "volume": "453.3M",
+      "volume": "251.5M",
       "sparklineData": [
         46341.51171875,
         46565.73828125,
@@ -88,7 +89,8 @@
         49230.7109375,
         49167.7890625,
         49141.9296875,
-        48861.80859375
+        48861.80859375,
+        49491
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 24673.24,
-      "change": 9.44,
-      "changePercent": 0.0383,
-      "high": 24724.105,
-      "low": 24532.703,
+      "price": 24738.516,
+      "change": 65.28,
+      "changePercent": 0.2646,
+      "high": 24859.941,
+      "low": 24491.834,
       "open": 0,
-      "prevClose": 24663.80078125,
+      "prevClose": 24673.240234375,
       "week52High": 24899.37,
       "week52Low": 17503.01,
-      "volume": "7.1B",
+      "volume": "2.7B",
       "sparklineData": [
         21590.630859375,
         21840.94921875,
@@ -140,7 +142,8 @@
         24836.599609375,
         24887.099609375,
         24663.80078125,
-        24673.240234375
+        24673.240234375,
+        24738.515625
       ],
       "sector": "",
       "marketCap": "",
@@ -162,13 +165,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 270.17,
-      "change": -0.54,
-      "changePercent": -0.1995,
-      "high": 271.04,
-      "low": 267.04,
-      "open": 267.55,
-      "prevClose": 270.71,
+      "price": 271.57,
+      "change": 1.4,
+      "changePercent": 0.5182,
+      "high": 272.22,
+      "low": 268.14,
+      "open": 270.47,
+      "prevClose": 270.17,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$3.97T",
@@ -184,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Apple Earnings in Focus as iPhone Demand, AI Strategy Lead Outlook",
-          "source": "Yahoo",
-          "timeAgo": "23m ago",
-          "url": "https://finnhub.io/api/news?id=6767e017bdf598672f8c5d66fbdc17c949e2ca7058f1b7aa5b7df9dc2c6b09b2"
-        },
-        {
-          "headline": "Big Tech Earnings, Fed Rate Decision Nudge US Equity Futures Higher Pre-Bell",
+          "headline": "Nasdaq Composite Turns Corner as Tech Earnings and Strong GDP Take the Wheel",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=7145dad19a6f41386878cc5e2a595bf1ab4ba6a81597d5522e4323f43bb7ed78"
+          "url": "https://finnhub.io/api/news?id=c18abadf77937c876f92abae6229f1802d3a172b373dbe45cdfc536c587c4723"
         },
         {
-          "headline": "Stocks Mostly Up Pre-Bell as Traders Digest Big Tech Earnings, Await Key Inflation Report",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=df25809780ae34b7106b0535fc660c6e318fb1ad7aacd2ed398023ee732b87c1"
-        },
-        {
-          "headline": "Nvidia has powered one-third of the Magnificent 7's bull market gains: Chart of the Day",
+          "headline": "S&P 500 Rides Tech Earnings Wave Despite Inflation Warning Shot",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=970177f01eb6d6ca31830da672fcf8361fc631971d76c5f46fdc2737d01cce0b"
+          "url": "https://finnhub.io/api/news?id=4f5a5fd19bf0f1a33354e212f2dcf0666fcb2ff1ac232c86e972392a211689d7"
         },
         {
-          "headline": "What Apple's new CEO announcement signals ahead of earnings?",
+          "headline": "Meet the AI-powered fan companion: TGR Haas F1 Team RaceMate powered by Infobip",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=08c30935755ab687e42ff1de74df89f5ae098470b6390fa0ef9f706aed53004f"
+          "url": "https://finnhub.io/api/news?id=fa8f4c8f5ea1536eb360d0844a206b0abcac208ce5d7421905647c172bf47a27"
+        },
+        {
+          "headline": "Big Tech Earnings, Fed Rate Decision Lift US Equity Futures Pre-Bell",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=e813854c985dabfc47e31f4a96f23e89c0d82ea9484eb2744de84cf8d6a3f504"
+        },
+        {
+          "headline": "NYSE Content Update: NASA's Jared Isaacman Celebrates Artemis II Success at NYSE",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=2a447dc0f8ea01aa17d9c76926791972bdc488e6e5812d8edc8df92b6efbd277"
         }
       ],
       "earnings": [
@@ -248,13 +251,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 349.94,
-      "change": 0.16,
-      "changePercent": 0.0457,
-      "high": 355.79,
-      "low": 344.21,
-      "open": 347.565,
-      "prevClose": 349.78,
+      "price": 376.52,
+      "change": 26.58,
+      "changePercent": 7.5956,
+      "high": 378.24,
+      "low": 365.82,
+      "open": 374.205,
+      "prevClose": 349.94,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.23T",
@@ -270,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Discover the top S&P500 movers in Thursday's pre-market session.",
+          "headline": "These S&P500 stocks are gapping in today's session",
           "source": "ChartMill",
-          "timeAgo": "39m ago",
-          "url": "https://finnhub.io/api/news?id=1f54f80a180e4e012d363d921f4844b6b6da1d32ca2a43a43d6a00a3bc70a934"
+          "timeAgo": "56m ago",
+          "url": "https://finnhub.io/api/news?id=cd6007b0a5e1d1eddf6eb0c85c9378ef827ca4173768a039b1af1b9e2e1e16e2"
         },
         {
-          "headline": "Alphabet Q1 Earnings: The Undisputed AI Winner",
-          "source": "ChartMill",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f04e4b3b865ef80fdd7efc93e9d9b6b8a2c965e44a660eab1be42a088ceab081"
-        },
-        {
-          "headline": "Dow Jones Futures Rise, Oil Prices Fall; Google, Amazon, Meta, Microsoft, Caterpillar Are Big Earnings Movers",
+          "headline": "Alphabet Pops 5% on Q1 Earnings: Is the Full-Stack AI Strategy Finally Paying Off?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2c498f5c75ceee1bf401453596f19f4c41a21520b82055c979a0254aa63d6ade"
+          "url": "https://finnhub.io/api/news?id=d19b91c3a4fa7a8cba1cd4aec116ad43d7e149dc6d5f68cdaaae7ac118a1bfa5"
         },
         {
-          "headline": "$1 Trillion in AI Capex Is Coming. Here Are 5 Stocks That Will Feast on the Buildout",
+          "headline": "Nasdaq Composite Turns Corner as Tech Earnings and Strong GDP Take the Wheel",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=495f77bd50965eeee3fa7bde0786c99732f20677b562f153d001a4c37432ea7f"
+          "url": "https://finnhub.io/api/news?id=c18abadf77937c876f92abae6229f1802d3a172b373dbe45cdfc536c587c4723"
         },
         {
-          "headline": "Stocks Mostly Up Pre-Bell as Traders Digest Big Tech Earnings, Await Key Inflation Report",
+          "headline": "Stock Market Today: Dow Rises After Inflation Data; Meta Plunges On Earnings (Live Coverage)",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=df25809780ae34b7106b0535fc660c6e318fb1ad7aacd2ed398023ee732b87c1"
+          "url": "https://finnhub.io/api/news?id=e3b2d170a03c43c454cb135cdf3fd5b33c5a3d9b9a09837be53b011a11ec1319"
+        },
+        {
+          "headline": "Fed Inflation Gauge Hits 2-Year High As AI Boosts GDP; S&P 500 Rises (Live Coverage)",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e0bb5f390b204410c877530b83838bdd622598fa5684a4ee492dc83d913985ee"
         }
       ],
       "earnings": [
@@ -334,13 +337,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 424.46,
-      "change": -4.79,
-      "changePercent": -1.1159,
-      "high": 426.82,
-      "low": 420.29,
-      "open": 424.575,
-      "prevClose": 429.25,
+      "price": 403.55,
+      "change": -20.91,
+      "changePercent": -4.9263,
+      "high": 415.555,
+      "low": 400.13,
+      "open": 415.555,
+      "prevClose": 424.46,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.15T",
@@ -356,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Dow Jones Futures Rise, Oil Prices Fall; Google, Amazon, Meta, Microsoft, Caterpillar Are Big Earnings Movers",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2c498f5c75ceee1bf401453596f19f4c41a21520b82055c979a0254aa63d6ade"
-        },
-        {
-          "headline": "Stocks Mostly Up Pre-Bell as Traders Digest Big Tech Earnings, Await Key Inflation Report",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=df25809780ae34b7106b0535fc660c6e318fb1ad7aacd2ed398023ee732b87c1"
-        },
-        {
-          "headline": "Microsoft Q3 Earnings: The AI Engine is Revving",
+          "headline": "These S&P500 stocks are gapping in today's session",
           "source": "ChartMill",
+          "timeAgo": "56m ago",
+          "url": "https://finnhub.io/api/news?id=cd6007b0a5e1d1eddf6eb0c85c9378ef827ca4173768a039b1af1b9e2e1e16e2"
+        },
+        {
+          "headline": "Microsoft Forecasts Strong Azure Growth as AI Spending Rises",
+          "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=95652af6e294756b50ad75df0b57de089106b41896b59384934c49003524616f"
+          "url": "https://finnhub.io/api/news?id=5ae8a63b3231f035fe0d2e55079ec2c5933ba1ef06550e9aee829747eb7bf774"
         },
         {
-          "headline": "Big Tech Takeaways: Google Sees Gains and Meta Loses Trust as AI Spending Rush Accelerates",
+          "headline": "Nasdaq Composite Turns Corner as Tech Earnings and Strong GDP Take the Wheel",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9ab4ebb4de2d70944a77254226b5c2d1e4e7e562f545bca164b6ae37a49f8780"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=c18abadf77937c876f92abae6229f1802d3a172b373dbe45cdfc536c587c4723"
         },
         {
-          "headline": "Nvidia has powered one-third of the Magnificent 7's bull market gains: Chart of the Day",
+          "headline": "Stock Market Today: Dow Rises After Inflation Data; Meta Plunges On Earnings (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=970177f01eb6d6ca31830da672fcf8361fc631971d76c5f46fdc2737d01cce0b"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e3b2d170a03c43c454cb135cdf3fd5b33c5a3d9b9a09837be53b011a11ec1319"
+        },
+        {
+          "headline": "Fed Inflation Gauge Hits 2-Year High As AI Boosts GDP; S&P 500 Rises (Live Coverage)",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e0bb5f390b204410c877530b83838bdd622598fa5684a4ee492dc83d913985ee"
         }
       ],
       "earnings": [
@@ -420,13 +423,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 263.04,
-      "change": 3.34,
-      "changePercent": 1.2861,
-      "high": 265.91,
-      "low": 257.7,
-      "open": 257.99,
-      "prevClose": 259.7,
+      "price": 258.54,
+      "change": -4.5,
+      "changePercent": -1.7108,
+      "high": 273.88,
+      "low": 257.45,
+      "open": 270.805,
+      "prevClose": 263.04,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.83T",
@@ -442,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Dow Jones Futures Rise, Oil Prices Fall; Google, Amazon, Meta, Microsoft, Caterpillar Are Big Earnings Movers",
+          "headline": "Amazon's $364 billion backlog is the bull case for its AI spending boom",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2c498f5c75ceee1bf401453596f19f4c41a21520b82055c979a0254aa63d6ade"
+          "url": "https://finnhub.io/api/news?id=7fb36e8013422373eaa411e67b3cac93dd3d84289762e0d07afadef8a6add77e"
         },
         {
-          "headline": "$1 Trillion in AI Capex Is Coming. Here Are 5 Stocks That Will Feast on the Buildout",
+          "headline": "Amazon Rises as AWS Beats Cloud Expectations",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=495f77bd50965eeee3fa7bde0786c99732f20677b562f153d001a4c37432ea7f"
+          "url": "https://finnhub.io/api/news?id=0492f2e56edebe18d7ac020717f28c8385d20398c13af9693b80571ae4a0f1fa"
         },
         {
-          "headline": "Stocks Mostly Up Pre-Bell as Traders Digest Big Tech Earnings, Await Key Inflation Report",
+          "headline": "Nasdaq Composite Turns Corner as Tech Earnings and Strong GDP Take the Wheel",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=df25809780ae34b7106b0535fc660c6e318fb1ad7aacd2ed398023ee732b87c1"
+          "url": "https://finnhub.io/api/news?id=c18abadf77937c876f92abae6229f1802d3a172b373dbe45cdfc536c587c4723"
         },
         {
-          "headline": "Big Tech Takeaways: Google Sees Gains and Meta Loses Trust as AI Spending Rush Accelerates",
+          "headline": "Stock Market Today: Dow Rises After Inflation Data; Meta Plunges On Earnings (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9ab4ebb4de2d70944a77254226b5c2d1e4e7e562f545bca164b6ae37a49f8780"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e3b2d170a03c43c454cb135cdf3fd5b33c5a3d9b9a09837be53b011a11ec1319"
         },
         {
-          "headline": "Nvidia has powered one-third of the Magnificent 7's bull market gains: Chart of the Day",
+          "headline": "Fed Inflation Gauge Hits 2-Year High As AI Boosts GDP; S&P 500 Rises (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=970177f01eb6d6ca31830da672fcf8361fc631971d76c5f46fdc2737d01cce0b"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e0bb5f390b204410c877530b83838bdd622598fa5684a4ee492dc83d913985ee"
         }
       ],
       "earnings": [
@@ -506,13 +509,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 372.8,
-      "change": -3.22,
-      "changePercent": -0.8563,
-      "high": 376.4,
-      "low": 370.04,
-      "open": 375.4,
-      "prevClose": 376.02,
+      "price": 379.2,
+      "change": 6.4,
+      "changePercent": 1.7167,
+      "high": 379.49,
+      "low": 368.17,
+      "open": 372.2,
+      "prevClose": 372.8,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.40T",
@@ -528,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Energy Transition Today - Expanding Solar Power: A New Era For Sustainable Energy",
+          "headline": "Forget Tesla’s Robotaxi Promises — BYD Already Has What Investors Really Want",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=9f9774776ca05446064ce73f52943f564b1ee20bc2454b500e1adc8432e4c538"
+          "url": "https://finnhub.io/api/news?id=4cf7aa43b94e18852eefbd368d2d3e4f9194fbd8ed442c43426a2b3b2e25852a"
         },
         {
-          "headline": "Nvidia has powered one-third of the Magnificent 7's bull market gains: Chart of the Day",
+          "headline": "Tesla Begins Mass Producing Semi Trucks. Stock Dips.",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=9b644d2f2c45f0d07c50b160d0a60e5f871ef96940f51be38b1ca4845b89c77e"
+        },
+        {
+          "headline": "Tesla Begins Semi Truck Mass Production at Nevada Plant",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=970177f01eb6d6ca31830da672fcf8361fc631971d76c5f46fdc2737d01cce0b"
+          "url": "https://finnhub.io/api/news?id=a30c028f836a3076e09fd06b723f3cc3238f089a366988396e9239e74eafc613"
         },
         {
-          "headline": "Volkswagen Q1 Earnings Call Highlights",
+          "headline": "VVater Awarded $5 Million Dollar Contract to Partner with the City of Bastrop for Next-Generation Municipal Water Treatment Infrastructure",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=844226be9496ff2835bb49508ddfcf078efbf54d05ed370c4a7cb7967f9101fe"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=26394752b2b5a60313134143c16b5002e15883c8c875cd8a8f011e46431b72af"
         },
         {
-          "headline": "‘Not all will survive’: Chinese EV giant delivers reality check to America. Is your portfolio in a dangerous position?",
+          "headline": "Tesla finally gets Semi production moving at scale",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=0496253f1d675eb107282da1b6d16ea333aceb796d35809acc69f77866455d13"
-        },
-        {
-          "headline": "Elon Musk to return to witness stand for cross-examination by OpenAI's lawyer",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=4d0c762d7fea58c835179df4590a0f51e2801644d6190cab1bbd1408364f5220"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a8e93f4d0af20945aabf4dd30404441469f9524422aedddeb3fd82347ccb7fd2"
         }
       ],
       "earnings": [
