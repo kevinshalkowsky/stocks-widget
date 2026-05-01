@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-01T18:52:31.228Z",
+  "updatedAt": "2026-05-01T19:58:11.324Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7233.65,
-      "change": 24.64,
-      "changePercent": 0.3418,
+      "price": 7233.64,
+      "change": 24.63,
+      "changePercent": 0.3417,
       "high": 7272.52,
       "low": 7231.39,
       "open": 0,
       "prevClose": 7209.009765625,
       "week52High": 7272.52,
       "week52Low": 5578.64,
-      "volume": "1.8B",
+      "volume": "2.4B",
       "sparklineData": [
         6575.31982421875,
         6582.68994140625,
@@ -37,7 +37,7 @@
         7138.7998046875,
         7135.9501953125,
         7209.009765625,
-        7233.64990234375
+        7233.64013671875
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 49576.41,
-      "change": -75.73,
-      "changePercent": -0.1525,
+      "price": 49532.94,
+      "change": -119.2,
+      "changePercent": -0.2401,
       "high": 49988.56,
-      "low": 49540.71,
+      "low": 49529.85,
       "open": 0,
       "prevClose": 49652.140625,
       "week52High": 50512.79,
       "week52Low": 40759.41,
-      "volume": "311.2M",
+      "volume": "377.1M",
       "sparklineData": [
         46565.73828125,
         46504.671875,
@@ -90,7 +90,7 @@
         49141.9296875,
         48861.80859375,
         49652.140625,
-        49576.41015625
+        49532.94140625
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25095.414,
-      "change": 203.1,
-      "changePercent": 0.8159,
+      "price": 25116.447,
+      "change": 224.14,
+      "changePercent": 0.9004,
       "high": 25223.121,
       "low": 24967.09,
       "open": 0,
       "prevClose": 24892.310546875,
       "week52High": 25223.121,
       "week52Low": 17503.01,
-      "volume": "4.7B",
+      "volume": "5.6B",
       "sparklineData": [
         21840.94921875,
         21879.1796875,
@@ -143,7 +143,7 @@
         24663.80078125,
         24673.240234375,
         24892.310546875,
-        25095.4140625
+        25116.447265625
       ],
       "sector": "",
       "marketCap": "",
@@ -165,9 +165,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 280.61,
-      "change": 9.26,
-      "changePercent": 3.4126,
+      "price": 279.74,
+      "change": 8.39,
+      "changePercent": 3.0919,
       "high": 287.22,
       "low": 278.37,
       "open": 278.7375,
@@ -189,31 +189,31 @@
         {
           "headline": "Friday's session: most active stock in the S&P500 index",
           "source": "ChartMill",
-          "timeAgo": "47m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=da2ebefac0e2faffa307b5b9eb120f44678d92a9d54655150b509ad457667bf4"
         },
         {
           "headline": "Friday's session: most active stocks",
           "source": "ChartMill",
-          "timeAgo": "52m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=55ad39c1cf7bbe8aab49e15cc85c1b3b7473efb94faab368351a33d239de0ba4"
         },
         {
           "headline": "Apple's Strong Revenue Guidance Came Despite Mac Supply Constraints, Wedbush Says",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=4142f3c8fa3464d54427ce88674abd70c23b145a29e51a914b5f79e8c07e8f99"
         },
         {
           "headline": "Apple Well Positioned for Continued Growth After Strong Fiscal Q2, BofA Securities Says",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=bcd793afd1b1227f4d64ba89f7bf6083157544a2957d24b1a2dc3fd2d40e3617"
         },
         {
           "headline": "Trump raises tariffs on EU vehicles",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=18f0d68b54266188d3a06c1c791995312c7e3d8f84efd5d299feb8445fcfa7db"
         }
       ],
@@ -251,9 +251,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 382.59,
-      "change": -2.21,
-      "changePercent": -0.5743,
+      "price": 385.71,
+      "change": 0.91,
+      "changePercent": 0.2365,
       "high": 386.76,
       "low": 379.05,
       "open": 384.435,
@@ -275,31 +275,31 @@
         {
           "headline": "SanDisk Earnings Didn’t Move the Stock. Why This Analyst Says the Stock Could Double.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=c698b1a634a3127b5c38ee5abb8f6a055641a3bf29ec33713549dbcfa61e4435"
         },
         {
           "headline": "Set It and Forget It: 3 Monster Stocks Worth Holding Through Whatever Comes Next",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=4d40986b9c4d7ceca558d1a8bc99e9605b09a957bb0a453a6ee13f70112198f2"
         },
         {
           "headline": "They Got Their $3,100 Emergency Room Bill Down To $280 Without Even Trying That Hard. 'They Obviously Don't Advertise It'",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=747812cb870e5c2684340fd2deb3ff197edf5d863b532006280a5aaf6a380e5a"
         },
         {
           "headline": "Meta acquires robotics AI company to help build humanoid technology",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=d803c27cf8d608232bb0050437ee70ee9fe597c22458baf38c0ebc8435694ae5"
         },
         {
           "headline": "Apple's iPhone Supercycle, Strong Outlook Drive Momentum, Wedbush Says",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=b6ce8fa9778bcd7f8de4b54c4e71d4034c47666d34c2a32a24d208b68150d9c8"
         }
       ],
@@ -337,9 +337,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 414.59,
-      "change": 6.81,
-      "changePercent": 1.67,
+      "price": 414.64,
+      "change": 6.86,
+      "changePercent": 1.6823,
       "high": 417.11,
       "low": 410.435,
       "open": 411.025,
@@ -361,31 +361,31 @@
         {
           "headline": "Friday's session: most active stock in the S&P500 index",
           "source": "ChartMill",
-          "timeAgo": "47m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=da2ebefac0e2faffa307b5b9eb120f44678d92a9d54655150b509ad457667bf4"
         },
         {
           "headline": "Amazon vs. Microsoft and the Great AI Capex Divergence",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=d64fb8c71242950f3a8107f41fa8de451857ff04612370b07ecb0303c06d0fc7"
         },
         {
           "headline": "The S&P 500 Just Had Its Best Month Since 2020. Don’t Let ‘Sell in May’ Spook You.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=9f295d8e02ac45ba83eee2e25683cca57bf039623043a314c53aa3f710724e1b"
         },
         {
           "headline": "SanDisk Earnings Didn’t Move the Stock. Why This Analyst Says the Stock Could Double.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=c698b1a634a3127b5c38ee5abb8f6a055641a3bf29ec33713549dbcfa61e4435"
         },
         {
           "headline": "Meet the Low-Growth Dow Dividend King That's Outperforming Every \"Magnificent Seven\" Stock in 2026",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=4402abf0c13be4b9a129176d62499362d07fe1a2b0b2f25d308ef3f21e0724f8"
         }
       ],
@@ -423,9 +423,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 268.82,
-      "change": 3.76,
-      "changePercent": 1.4185,
+      "price": 268.17,
+      "change": 3.11,
+      "changePercent": 1.1733,
       "high": 273.315,
       "low": 262.74,
       "open": 265.26,
@@ -447,31 +447,31 @@
         {
           "headline": "Friday's session: most active stock in the S&P500 index",
           "source": "ChartMill",
-          "timeAgo": "47m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=da2ebefac0e2faffa307b5b9eb120f44678d92a9d54655150b509ad457667bf4"
         },
         {
           "headline": "Amazon vs. Microsoft and the Great AI Capex Divergence",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=d64fb8c71242950f3a8107f41fa8de451857ff04612370b07ecb0303c06d0fc7"
         },
         {
           "headline": "SanDisk Earnings Didn’t Move the Stock. Why This Analyst Says the Stock Could Double.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=c698b1a634a3127b5c38ee5abb8f6a055641a3bf29ec33713549dbcfa61e4435"
         },
         {
           "headline": "They Got Their $3,100 Emergency Room Bill Down To $280 Without Even Trying That Hard. 'They Obviously Don't Advertise It'",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=747812cb870e5c2684340fd2deb3ff197edf5d863b532006280a5aaf6a380e5a"
         },
         {
           "headline": "Meta acquires robotics AI company to help build humanoid technology",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=d803c27cf8d608232bb0050437ee70ee9fe597c22458baf38c0ebc8435694ae5"
         }
       ],
@@ -509,9 +509,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 393.99,
-      "change": 12.36,
-      "changePercent": 3.2387,
+      "price": 390.96,
+      "change": 9.33,
+      "changePercent": 2.4448,
       "high": 397.8211,
       "low": 378.8,
       "open": 381.77750000000003,
@@ -533,31 +533,31 @@
         {
           "headline": "Friday's session: most active stock in the S&P500 index",
           "source": "ChartMill",
-          "timeAgo": "47m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=da2ebefac0e2faffa307b5b9eb120f44678d92a9d54655150b509ad457667bf4"
         },
         {
           "headline": "Elon Musk Sides With Viral 'Pokémon Economy' Analogy On Free Markets— 'This Is How...'",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=f4abd18f0484b7f089580045ab38842878dd3b8a5b4f84cd9ad4cd914ff30b8e"
         },
         {
           "headline": "Meta acquires robotics AI company to help build humanoid technology",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=d803c27cf8d608232bb0050437ee70ee9fe597c22458baf38c0ebc8435694ae5"
         },
         {
           "headline": "Meet the Low-Growth Dow Dividend King That's Outperforming Every \"Magnificent Seven\" Stock in 2026",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=4402abf0c13be4b9a129176d62499362d07fe1a2b0b2f25d308ef3f21e0724f8"
         },
         {
           "headline": "'I Don't Have Time For Lazy People': Robert Kiyosaki Says 'I Only Hang Out With Friends Who Are Rich,' Warns About Hanging Around With 'Losers and Poor'",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=4f5881da07a7f3df096be70dd1a6f0eed7a36458a86f68dcab4500f5645b5805"
         }
       ],
