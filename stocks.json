@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-06T17:18:40.994Z",
+  "updatedAt": "2026-05-06T19:16:09.947Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7338.91,
-      "change": 79.69,
-      "changePercent": 1.0978,
-      "high": 7348.35,
+      "price": 7359.62,
+      "change": 100.4,
+      "changePercent": 1.3831,
+      "high": 7361.53,
       "low": 7294.14,
       "open": 0,
       "prevClose": 7259.22021484375,
-      "week52High": 7348.35,
+      "week52High": 7361.53,
       "week52Low": 5578.64,
-      "volume": "1.9B",
+      "volume": "2.4B",
       "sparklineData": [
         6611.830078125,
         6616.85009765625,
@@ -38,7 +38,7 @@
         7230.1201171875,
         7200.75,
         7259.22021484375,
-        7338.91015625
+        7359.6201171875
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 49789.77,
-      "change": 491.52,
-      "changePercent": 0.997,
-      "high": 49967.01,
+      "price": 49966.52,
+      "change": 668.27,
+      "changePercent": 1.3556,
+      "high": 49985.92,
       "low": 49442.19,
       "open": 0,
       "prevClose": 49298.25,
       "week52High": 50512.79,
       "week52Low": 40829.29,
-      "volume": "274.9M",
+      "volume": "353.0M",
       "sparklineData": [
         46669.87890625,
         46584.4609375,
@@ -92,7 +92,7 @@
         49499.26953125,
         48941.8984375,
         49298.25,
-        49789.76953125
+        49966.51953125
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25723.953,
-      "change": 397.82,
-      "changePercent": 1.5708,
-      "high": 25732.643,
+      "price": 25798.582,
+      "change": 472.45,
+      "changePercent": 1.8655,
+      "high": 25803.102,
       "low": 25464.443,
       "open": 0,
       "prevClose": 25326.130859375,
-      "week52High": 25732.643,
+      "week52High": 25803.102,
       "week52Low": 17503.01,
-      "volume": "4.5B",
+      "volume": "5.8B",
       "sparklineData": [
         21996.33984375,
         22017.849609375,
@@ -146,7 +146,7 @@
         25114.439453125,
         25067.80078125,
         25326.130859375,
-        25723.953125
+        25798.58203125
       ],
       "sector": "",
       "marketCap": "",
@@ -168,10 +168,10 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 286.8,
-      "change": 2.62,
-      "changePercent": 0.922,
-      "high": 287.14,
+      "price": 287.63,
+      "change": 3.45,
+      "changePercent": 1.214,
+      "high": 287.85,
       "low": 281.07,
       "open": 281.89750000000004,
       "prevClose": 284.18,
@@ -190,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Apple Explores New Chip Suppliers As Investors Weigh Supply Chain Risks",
+          "headline": "Apple Opens AI Platform To Rivals Across 2 Billion Devices",
           "source": "Yahoo",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=f739ad16b788f1a61e88b125acf3622961e786515494827f846df277cacca8ff"
+        },
+        {
+          "headline": "iPhone owners could get up to $95 from a new Apple settlement",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=319d09c87ec3504d3e9728fe31e57a667e591dd2a3f41fb7c8ae8b68b0214b4d"
+        },
+        {
+          "headline": "Apple class action settlement could pay you money. See who's eligible",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=2fd9e7bff033cd6b7c7d0a26614b5aaf5dad779c2d4506c6c25656cf7c06b06e"
+        },
+        {
+          "headline": "The space ETFs prepping for liftoff ahead of SpaceX IPO",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=61a21a2ac1476b08a296b8449c7da80dbc2ecc4ab49b3c878a8718c9446b526d"
+        },
+        {
+          "headline": "Apple Explores New Chip Suppliers As Investors Weigh Supply Chain Risks",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=b9d81fcea6585582fd64f558c6e08cc4abb6540a0de7ffacb8d365209299fcb2"
-        },
-        {
-          "headline": "Apple to pay $250M to settle lawsuit over Siri’s delayed AI features",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e03382dc3cd212963988c7a2a0395d110981114b9221dc5c953a41c566df54e4"
-        },
-        {
-          "headline": "Samsung Hits $1 Trillion As AI Chip Demand Fuels 14% Surge",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4f4ad9f1ec9db59f0b9b3903d439f7ca6c4011a7ff9c7cd78de8ad8c59a2f0be"
-        },
-        {
-          "headline": "US Supreme Court declines to pause order holding Apple in contempt in Epic Games lawsuit",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=ad7c6a92d45a9d23c4815086a1523c0820a22a91accd3784687496082596780c"
-        },
-        {
-          "headline": "While Big Tech Spends $725 Billion Building AI, Apple Is Letting Them. And That May Be the Smartest Move in Tech",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=6611e50c4724b4af23d65a706b2dc1e1830ff59eeaa89ed09fb1a95e5ad1075f"
         }
       ],
       "earnings": [
@@ -254,9 +254,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 399.16,
-      "change": 10.73,
-      "changePercent": 2.7624,
+      "price": 396.19,
+      "change": 7.76,
+      "changePercent": 1.9978,
       "high": 399.8499,
       "low": 392.76,
       "open": 394.3275,
@@ -276,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Demand Is Soaring for Arista. Why It Isn’t Enough for the Stock.",
+          "headline": "Google moves to avert EU fines with offer in news search case, Bloomberg News reports",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=931da071551031fe97745e118f69e429f539dda205c8bb37176954ccc84e834b"
+          "url": "https://finnhub.io/api/news?id=40007c4fe588df7e3816bbfd2c9ca17ae29b498332aed8b1d9d1a9b76915d499"
         },
         {
-          "headline": "Google Warns EU Search Data Rules Could Threaten User Privacy",
+          "headline": "Owning AI Stocks Doesn't Have to Be Risky -- at Least, Not With Alphabet",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=33cd5536171d7c58d0aec85f1b9cf8989b8e19bbcb789f37a65849c067702dc2"
+          "url": "https://finnhub.io/api/news?id=113d9a21622dd14cd036b4b15036360ccaddbf79361789aa841be79fbedd59e9"
         },
         {
-          "headline": "Google Inks Massive $200 Billion AI Deal With Anthropic",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=28552c796740f2e0ce38949e8249127b43c2a0a349a3225d69bc72f8f19a293e"
-        },
-        {
-          "headline": "If You Want to Beat the Market, Start With These 3 Stocks",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=02199c681de29452793fc5fe9b55ef14624e7b7a81f6a364446b3b7c71494620"
-        },
-        {
-          "headline": "Anthropic’s US$200b Deal Puts Alphabet At Center Of AI Infrastructure",
+          "headline": "Flex Q4 Earnings Call Highlights",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=4693a9d2202b46a5f371a7409d4a774ceec3c48099db0503789ae9b2542f5646"
+          "url": "https://finnhub.io/api/news?id=37d8d6742932c2a03b76b55a4e31a908ab06ed4d691d76596e89bd87bf4bd5be"
+        },
+        {
+          "headline": "What Tesla's Massive $25B+ Capex Means for Investors Now",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=e753200181ad738e68a5df2097013b183e5f8eed76389d6ecf73d72a61ecf12c"
+        },
+        {
+          "headline": "Demand Is Soaring for Arista. Why It Isn’t Enough for the Stock.",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=931da071551031fe97745e118f69e429f539dda205c8bb37176954ccc84e834b"
         }
       ],
       "earnings": [
@@ -340,9 +340,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 412.96,
-      "change": 1.58,
-      "changePercent": 0.3841,
+      "price": 413.96,
+      "change": 2.58,
+      "changePercent": 0.6272,
       "high": 418.4228,
       "low": 405.11,
       "open": 408.01,
@@ -362,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Why Amazon Might Be the Real Winner of the Microsoft and OpenAI Partnership Shakeup",
+          "headline": "Nerdio Announces Annual Partner of the Year Award Winners at NerdioCon 2026",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=58c716ad9fd091e7cf1858574636067f095e0a4bafd121f8d301f7a2f651a0eb"
+          "url": "https://finnhub.io/api/news?id=00ef679b9abe5f8f980621f7701d3a68d8a538df0a59ef7851830a33f4042df4"
         },
         {
-          "headline": "AI Engines Are Giving Wrong, Risky Advice To America's Wealthiest Families",
+          "headline": "Oklo Advances 12% on NRC Aurora Approval: Is This the AI Infrastructure Nuclear Play?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=d9a927bacb8636941869c8cd010324b3789d1cf156ce20762ec7a4e63ecfeb4b"
+          "url": "https://finnhub.io/api/news?id=e105570143970536638d3dc0117a54134ae428f572f67f1ac83eb0c8054a4123"
         },
         {
-          "headline": "'Shark Tank' Investor Kevin O'Leary Wants To Build A Huge AI Datacenter In Utah To Stop China In Its Tracks",
+          "headline": "Should CrowdStrike’s AI-driven OverWatch Expansion to Defender Users Require Action From CrowdStrike Holdings (CRWD) Investors?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ba5c43904c08d2c36f535c37379e3c44fcd1e7c696144968110da97b7d8b9aad"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=7fb4c4750ba80683b9cc73eca83dbbeb8e593b50d5155ad8f337a60f23977744"
         },
         {
-          "headline": "Microsoft Corporation (MSFT) Slid Amid Broad-Based Sell-Off in Software Companies",
+          "headline": "Nscale to invest $812.6m in Portugal AI data centre expansion",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fb34dc649c9c45f2ab81db68252804c98a417f59859048e17a26b3f90c25ef81"
+          "url": "https://finnhub.io/api/news?id=4929673bb25f88b04ed0c2dbbc43c25f0ed64159417fc22718bb5442c900d2e6"
         },
         {
-          "headline": "Coinbase CEO Warns American Workers: Mass Layoffs Are Coming to ‘Every Company’",
+          "headline": "Ownify Launches Colorado Home Fund and Welcomes Boulder-Based Tech Investor Keith Kegley to Advisory Board",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=02bf118cfcb3eef4a6914a302bc3ae6a2225f20f82bfcc321658cde9779892f1"
+          "url": "https://finnhub.io/api/news?id=a1a6679d98969e91127f56e70ac784afe595c266f40f044aeafc6d6e42cad9a4"
         }
       ],
       "earnings": [
@@ -426,10 +426,10 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 276.22,
-      "change": 2.67,
-      "changePercent": 0.9761,
-      "high": 276.58,
+      "price": 276.58,
+      "change": 3.03,
+      "changePercent": 1.1077,
+      "high": 277.8,
       "low": 272.2076,
       "open": 272.945,
       "prevClose": 273.55,
@@ -448,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Why Amazon Might Be the Real Winner of the Microsoft and OpenAI Partnership Shakeup",
+          "headline": "Amazon CEO Andy Jassy Just Made a $200 Billion Bet on AI. Here’s How He’ll Win",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=58c716ad9fd091e7cf1858574636067f095e0a4bafd121f8d301f7a2f651a0eb"
+          "url": "https://finnhub.io/api/news?id=85e3635e66eee77fa3337a07b18f566844f51d046559d6fa4ae8bc81559bbf1a"
         },
         {
-          "headline": "Uber Just Ordered 10,000 Rivian Robotaxis. Here's What It Means for RIVN Stock.",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cd816dce1a0cceaf104716a1fd561c4e20f2067e2d613db998c5a3a78fb3fa48"
-        },
-        {
-          "headline": "GXO raises 2026 outlook, dismisses Amazon logistics threat",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=63ae7615b9ced735e88f66e2ea457573a2274491a235674a40cb07d920210af8"
-        },
-        {
-          "headline": "Google Inks Massive $200 Billion AI Deal With Anthropic",
+          "headline": "ServiceNow hits $1 billion in AWS Marketplace transactions as enterprises rapidly adopt AI at scale",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=28552c796740f2e0ce38949e8249127b43c2a0a349a3225d69bc72f8f19a293e"
+          "url": "https://finnhub.io/api/news?id=7a87a8b9e0f7d72aa493a26c2ad6ee224a2937a2e2f4144fcf50858b121e0961"
         },
         {
-          "headline": "Amazon partner Sun Country Airlines prepares to deploy 2 new cargo jets",
+          "headline": "A Smarter Way To Look At Broadcom Stock",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=1b8a354c9d1dc50e84d2872c71a8741a164a1bbff9b18211d20b4b1559f82767"
+          "url": "https://finnhub.io/api/news?id=c533ccce77f917ea4447452f5a0b2f9697f47d94e946b81d041982a694ee8389"
+        },
+        {
+          "headline": "Amazon's CEO Just Gave Nvidia Investors Great News",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=6a5e26787597f47e6840f9ae03bfdee2c4572934ecd1a67e747204448348dd4b"
+        },
+        {
+          "headline": "Jim Cramer on Amazon: “It’s at the Heart of the Computer-Driven Economy”",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d62c02d84bf9295c96c558d55da61a6a2ea0d84b6977925e1f665adeceb18716"
         }
       ],
       "earnings": [
@@ -512,10 +512,10 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 398.25,
-      "change": 8.88,
-      "changePercent": 2.2806,
-      "high": 399.75,
+      "price": 400.78,
+      "change": 11.41,
+      "changePercent": 2.9304,
+      "high": 401.38,
       "low": 384.02,
       "open": 386.9,
       "prevClose": 389.37,
@@ -534,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Jim Chanos Drops Reality Check On Cathie Wood's ARK Robotaxi Prediction: 'Isn't That 100%…'",
+          "headline": "SpaceX may spend up to $119 billion on ‘Terafab’ chip factory in Texas",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=522ed9a10efbcc62937f0baf95b6aadabca7712014828034b5ff37c05083f3d9"
+          "url": "https://finnhub.io/api/news?id=ae07bb63c70e942c843954c67ff2fc3905b84ea08f511ef7bbfcf868e7d4c40f"
         },
         {
-          "headline": "Elon Musk Calls France Raising Retirement Age From 62 'Difficult But Right'— Says It's Impossible For Workers To Support 'Massive Retirees'",
+          "headline": "Shivon Zilis, mother of Elon Musk’s children, testifies in lawsuit against OpenAI",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=862bee30b5aba07df9900055a1879b1e10ad4a3f90adbee4623523bbacea0dc2"
+        },
+        {
+          "headline": "Tesla-SpaceX File $55 Billion Estimate For Their Joint Semiconductor Factory",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=6addd1a2e0515f158cd4f930ea0be58e3594ccb14692bf98990c0f6d3c032bb7"
+        },
+        {
+          "headline": "What Tesla's Massive $25B+ Capex Means for Investors Now",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e1a56f621e4a3d08304eb6ba4ac5d8cecb5ac2c5d1cfad144816fac378de6b47"
+          "url": "https://finnhub.io/api/news?id=e753200181ad738e68a5df2097013b183e5f8eed76389d6ecf73d72a61ecf12c"
         },
         {
-          "headline": "Musk, SpaceX to invest $55 billion for Terafab chip facility in Texas",
+          "headline": "Why Tesla's Optimus Story Is More Promise Than Progress",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=1254a96e6c214a0592dc0dc72db8a10f2529b37a53ecbe344d1ca112a17948c8"
-        },
-        {
-          "headline": "Tesla Recalls Nearly 219,000 U.S. Vehicles",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=1b6f5b49e73ca18f91d0b0a478178595dadc5b2e79a747ca26d61395ca3f22cd"
-        },
-        {
-          "headline": "Buy, Hold or Sell Tesla Stock Below $400 in May 2026?",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=1161724a0c71604c1a5c166a48072f0f0fd50f88c8a31bfb74c98b1066714f3d"
+          "url": "https://finnhub.io/api/news?id=2c942806d81c8bfa9f600a0cd2d6a6d4e460da2df65b37b9929927acb012ae63"
         }
       ],
       "earnings": [
