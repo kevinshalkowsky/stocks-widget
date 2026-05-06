@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-06T15:18:04.546Z",
+  "updatedAt": "2026-05-06T17:18:40.994Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7343.34,
-      "change": 84.12,
-      "changePercent": 1.1588,
+      "price": 7338.91,
+      "change": 79.69,
+      "changePercent": 1.0978,
       "high": 7348.35,
       "low": 7294.14,
       "open": 0,
       "prevClose": 7259.22021484375,
       "week52High": 7348.35,
       "week52Low": 5578.64,
-      "volume": "1.2B",
+      "volume": "1.9B",
       "sparklineData": [
         6611.830078125,
         6616.85009765625,
@@ -38,7 +38,7 @@
         7230.1201171875,
         7200.75,
         7259.22021484375,
-        7343.33984375
+        7338.91015625
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 49914.36,
-      "change": 616.11,
-      "changePercent": 1.2498,
+      "price": 49789.77,
+      "change": 491.52,
+      "changePercent": 0.997,
       "high": 49967.01,
       "low": 49442.19,
       "open": 0,
       "prevClose": 49298.25,
       "week52High": 50512.79,
       "week52Low": 40829.29,
-      "volume": "186.7M",
+      "volume": "274.9M",
       "sparklineData": [
         46669.87890625,
         46584.4609375,
@@ -92,7 +92,7 @@
         49499.26953125,
         48941.8984375,
         49298.25,
-        49914.359375
+        49789.76953125
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25684.092,
-      "change": 357.96,
-      "changePercent": 1.4134,
-      "high": 25696.102,
+      "price": 25723.953,
+      "change": 397.82,
+      "changePercent": 1.5708,
+      "high": 25732.643,
       "low": 25464.443,
       "open": 0,
       "prevClose": 25326.130859375,
-      "week52High": 25696.102,
+      "week52High": 25732.643,
       "week52Low": 17503.01,
-      "volume": "3.0B",
+      "volume": "4.5B",
       "sparklineData": [
         21996.33984375,
         22017.849609375,
@@ -146,7 +146,7 @@
         25114.439453125,
         25067.80078125,
         25326.130859375,
-        25684.091796875
+        25723.953125
       ],
       "sector": "",
       "marketCap": "",
@@ -168,10 +168,10 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 284.55,
-      "change": 0.37,
-      "changePercent": 0.1302,
-      "high": 286.72,
+      "price": 286.8,
+      "change": 2.62,
+      "changePercent": 0.922,
+      "high": 287.14,
       "low": 281.07,
       "open": 281.89750000000004,
       "prevClose": 284.18,
@@ -190,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Apple settles lawsuit tied to delayed Siri AI features",
+          "headline": "Apple Explores New Chip Suppliers As Investors Weigh Supply Chain Risks",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3425ea45541206f9fdd34c7350dfa99d9e2e3cde499f65b4c3887970050e85a0"
+          "url": "https://finnhub.io/api/news?id=b9d81fcea6585582fd64f558c6e08cc4abb6540a0de7ffacb8d365209299fcb2"
         },
         {
-          "headline": "Arm Is Shifting Its Business Model. Earnings Will Be a Test for the Stock.",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=969a4ab1428e71ad1057305d3296f44b8d853dc877b6dac0f3975d7e52fd8f16"
-        },
-        {
-          "headline": "US device promotions: the subsidy wrapper hiding the real price—service revenue",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4894f08bece0c07239a8c2d9a06a1ce510e7fa04b5380d180fb729451de7fc97"
-        },
-        {
-          "headline": "Apple faces supply strain from strong Mac demand",
+          "headline": "Apple to pay $250M to settle lawsuit over Siri’s delayed AI features",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=20c4d9b45cdad3d9d49c3ffbe2f3d191ae64cf29a3f002c149a541582421f3f0"
+          "url": "https://finnhub.io/api/news?id=e03382dc3cd212963988c7a2a0395d110981114b9221dc5c953a41c566df54e4"
         },
         {
-          "headline": "Apple settles $250 million Siri false advertising lawsuit",
+          "headline": "Samsung Hits $1 Trillion As AI Chip Demand Fuels 14% Surge",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ed7c74b9be8cc8f832a61cefa46086e110a2f51e7a017c26fad8c7d1f6889e69"
+          "url": "https://finnhub.io/api/news?id=4f4ad9f1ec9db59f0b9b3903d439f7ca6c4011a7ff9c7cd78de8ad8c59a2f0be"
+        },
+        {
+          "headline": "US Supreme Court declines to pause order holding Apple in contempt in Epic Games lawsuit",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=ad7c6a92d45a9d23c4815086a1523c0820a22a91accd3784687496082596780c"
+        },
+        {
+          "headline": "While Big Tech Spends $725 Billion Building AI, Apple Is Letting Them. And That May Be the Smartest Move in Tech",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=6611e50c4724b4af23d65a706b2dc1e1830ff59eeaa89ed09fb1a95e5ad1075f"
         }
       ],
       "earnings": [
@@ -254,10 +254,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 395.32,
-      "change": 6.89,
-      "changePercent": 1.7738,
-      "high": 398.48,
+      "price": 399.16,
+      "change": 10.73,
+      "changePercent": 2.7624,
+      "high": 399.8499,
       "low": 392.76,
       "open": 394.3275,
       "prevClose": 388.43,
@@ -276,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Cathie Wood Just Bought Alphabet. Here’s What She Sees That the Rest of the Market Is Missing",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=79fc423828d89991adcf4fc10771348b15d7f65935df7828949a5b6c89222224"
-        },
-        {
-          "headline": "Nvidia Is Facing More Competition and It’s Spooking Investors",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=4dd918c8c490174770c831061fee6e56ebe6acc0901a3b0aa08e43b2131fd520"
-        },
-        {
-          "headline": "Anthropic, Google Deal Highlights Growing AI Compute Demand",
+          "headline": "Demand Is Soaring for Arista. Why It Isn’t Enough for the Stock.",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=858f8646c63051b96fb618b907920e54de37a38e988669c03def39c1995ac516"
+          "url": "https://finnhub.io/api/news?id=931da071551031fe97745e118f69e429f539dda205c8bb37176954ccc84e834b"
         },
         {
-          "headline": "Microsoft may shelve 2030 clean energy target as AI lifts power use, Bloomberg News reports",
+          "headline": "Google Warns EU Search Data Rules Could Threaten User Privacy",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=7dd3db5168a5bf5606efe9d351da8b1fa8d5fdf364e33849039395b69f985494"
+          "url": "https://finnhub.io/api/news?id=33cd5536171d7c58d0aec85f1b9cf8989b8e19bbcb789f37a65849c067702dc2"
         },
         {
-          "headline": "Potential Middle East Peace Agreement, Oil Price Declines Drive US Equity Futures Higher Pre-Bell",
+          "headline": "Google Inks Massive $200 Billion AI Deal With Anthropic",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d7afaa56b966f9f95ef400340792677ff9c523beacc72e62913fc5743ac6ca62"
+          "url": "https://finnhub.io/api/news?id=28552c796740f2e0ce38949e8249127b43c2a0a349a3225d69bc72f8f19a293e"
+        },
+        {
+          "headline": "If You Want to Beat the Market, Start With These 3 Stocks",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=02199c681de29452793fc5fe9b55ef14624e7b7a81f6a364446b3b7c71494620"
+        },
+        {
+          "headline": "Anthropic’s US$200b Deal Puts Alphabet At Center Of AI Infrastructure",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=4693a9d2202b46a5f371a7409d4a774ceec3c48099db0503789ae9b2542f5646"
         }
       ],
       "earnings": [
@@ -340,9 +340,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 414.17,
-      "change": 2.79,
-      "changePercent": 0.6782,
+      "price": 412.96,
+      "change": 1.58,
+      "changePercent": 0.3841,
       "high": 418.4228,
       "low": 405.11,
       "open": 408.01,
@@ -354,7 +354,7 @@
       "week52High": 555.45,
       "week52Low": 356.28,
       "beta": 1.0908401,
-      "peRatio": 29.9663,
+      "peRatio": 29.735,
       "eps": 13.6413,
       "dividendYield": "0.88%",
       "volume": "35.1M",
@@ -362,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nvidia Is Facing More Competition and It’s Spooking Investors",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=4dd918c8c490174770c831061fee6e56ebe6acc0901a3b0aa08e43b2131fd520"
-        },
-        {
-          "headline": "Interactive Game Streaming Strategic Intelligence Report 2026 Featuring Twitch, EA, Epic Games, Microsoft, NetEase, Nintendo, Roblox, Sony, Take-Two Interactive, Tencent, Ubisoft",
+          "headline": "Why Amazon Might Be the Real Winner of the Microsoft and OpenAI Partnership Shakeup",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=db0db1a232a09d32b06415a6b3367557f74534bf8f94af1e21697cac46aa6c13"
+          "url": "https://finnhub.io/api/news?id=58c716ad9fd091e7cf1858574636067f095e0a4bafd121f8d301f7a2f651a0eb"
         },
         {
-          "headline": "Prediction: Trump’s Iran Deal Will Spark a Stock Market Rally Into Midterms",
+          "headline": "AI Engines Are Giving Wrong, Risky Advice To America's Wealthiest Families",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b1b2ab7df49ba88fcdad1c5b673f93fc73dbf117f053ba4104619682563a11ee"
+          "url": "https://finnhub.io/api/news?id=d9a927bacb8636941869c8cd010324b3789d1cf156ce20762ec7a4e63ecfeb4b"
         },
         {
-          "headline": "RedCloud Appoints Former Microsoft Exec as CRO to Expand AI Joint Ventures Across New Global Markets",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=433776bea4016cb2612b3522e1c4a9c1df315131e7b9b7c8a10131f899ffcf82"
-        },
-        {
-          "headline": "Medline (MDLN) Launches AI-Powered Mpower Platform to Enhance Healthcare Supply Chain Resiliency",
+          "headline": "'Shark Tank' Investor Kevin O'Leary Wants To Build A Huge AI Datacenter In Utah To Stop China In Its Tracks",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b5235923c83ddedb0c5a56fcc3f7772a2e3b341db386313d8ba434b75b664966"
+          "url": "https://finnhub.io/api/news?id=ba5c43904c08d2c36f535c37379e3c44fcd1e7c696144968110da97b7d8b9aad"
+        },
+        {
+          "headline": "Microsoft Corporation (MSFT) Slid Amid Broad-Based Sell-Off in Software Companies",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=fb34dc649c9c45f2ab81db68252804c98a417f59859048e17a26b3f90c25ef81"
+        },
+        {
+          "headline": "Coinbase CEO Warns American Workers: Mass Layoffs Are Coming to ‘Every Company’",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=02bf118cfcb3eef4a6914a302bc3ae6a2225f20f82bfcc321658cde9779892f1"
         }
       ],
       "earnings": [
@@ -426,10 +426,10 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 274.07,
-      "change": 0.52,
-      "changePercent": 0.1901,
-      "high": 275.47,
+      "price": 276.22,
+      "change": 2.67,
+      "changePercent": 0.9761,
+      "high": 276.58,
       "low": 272.2076,
       "open": 272.945,
       "prevClose": 273.55,
@@ -440,7 +440,7 @@
       "week52High": 278.56,
       "week52Low": 183.85,
       "beta": 1.4690278,
-      "peRatio": 37.8726,
+      "peRatio": 37.8312,
       "eps": 7.1737,
       "dividendYield": "",
       "volume": "53.1M",
@@ -448,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "60 Out of 65 Wall Street Analysts Say Buy Amazon. Not One Says Sell.",
+          "headline": "Why Amazon Might Be the Real Winner of the Microsoft and OpenAI Partnership Shakeup",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=dcff1d75d168a7dc853685301321a6ccbaadcee7ae349f080d7717e2e5a1601c"
+          "url": "https://finnhub.io/api/news?id=58c716ad9fd091e7cf1858574636067f095e0a4bafd121f8d301f7a2f651a0eb"
         },
         {
-          "headline": "Nvidia Is Facing More Competition and It’s Spooking Investors",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=4dd918c8c490174770c831061fee6e56ebe6acc0901a3b0aa08e43b2131fd520"
-        },
-        {
-          "headline": "Is Amazon’s New End to End Supply Chain Services Platform Altering The Investment Case For Amazon.com (AMZN)?",
+          "headline": "Uber Just Ordered 10,000 Rivian Robotaxis. Here's What It Means for RIVN Stock.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=561fa8ad90f7756ced1d7d83b8386c1a19011169d25272ac9335f44596e71b33"
+          "url": "https://finnhub.io/api/news?id=cd816dce1a0cceaf104716a1fd561c4e20f2067e2d613db998c5a3a78fb3fa48"
         },
         {
-          "headline": "Anthropic, Google Deal Highlights Growing AI Compute Demand",
+          "headline": "GXO raises 2026 outlook, dismisses Amazon logistics threat",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=858f8646c63051b96fb618b907920e54de37a38e988669c03def39c1995ac516"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=63ae7615b9ced735e88f66e2ea457573a2274491a235674a40cb07d920210af8"
         },
         {
-          "headline": "Jeff Bezos Asked Warren Buffett Why People Don't Just Copy His Investing Strategy —'My Approach Is A Get Rich Slowly Scheme…People Don't Like Those'",
+          "headline": "Google Inks Massive $200 Billion AI Deal With Anthropic",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5b2fa7b45fcc68c8a8a0fa333870cf541cd8419f4cc41027bc692af615b139ae"
+          "url": "https://finnhub.io/api/news?id=28552c796740f2e0ce38949e8249127b43c2a0a349a3225d69bc72f8f19a293e"
+        },
+        {
+          "headline": "Amazon partner Sun Country Airlines prepares to deploy 2 new cargo jets",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=1b8a354c9d1dc50e84d2872c71a8741a164a1bbff9b18211d20b4b1559f82767"
         }
       ],
       "earnings": [
@@ -512,10 +512,10 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 393.4,
-      "change": 4.03,
-      "changePercent": 1.035,
-      "high": 394.5172,
+      "price": 398.25,
+      "change": 8.88,
+      "changePercent": 2.2806,
+      "high": 399.75,
       "low": 384.02,
       "open": 386.9,
       "prevClose": 389.37,
@@ -534,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Elon Musk Calls France Raising Retirement Age From 62 'Difficult But Right'— Says It's Impossible For Workers To Support 'Massive Retirees'",
+          "headline": "Jim Chanos Drops Reality Check On Cathie Wood's ARK Robotaxi Prediction: 'Isn't That 100%…'",
           "source": "Yahoo",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=522ed9a10efbcc62937f0baf95b6aadabca7712014828034b5ff37c05083f3d9"
+        },
+        {
+          "headline": "Elon Musk Calls France Raising Retirement Age From 62 'Difficult But Right'— Says It's Impossible For Workers To Support 'Massive Retirees'",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=e1a56f621e4a3d08304eb6ba4ac5d8cecb5ac2c5d1cfad144816fac378de6b47"
         },
         {
           "headline": "Musk, SpaceX to invest $55 billion for Terafab chip facility in Texas",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=1254a96e6c214a0592dc0dc72db8a10f2529b37a53ecbe344d1ca112a17948c8"
         },
         {
           "headline": "Tesla Recalls Nearly 219,000 U.S. Vehicles",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=1b6f5b49e73ca18f91d0b0a478178595dadc5b2e79a747ca26d61395ca3f22cd"
         },
         {
           "headline": "Buy, Hold or Sell Tesla Stock Below $400 in May 2026?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=1161724a0c71604c1a5c166a48072f0f0fd50f88c8a31bfb74c98b1066714f3d"
-        },
-        {
-          "headline": "Tesla-SpaceX Peg $55 Billion For Terafab AI Chip Factory. The Ultimate Cost Could Be Double.",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=03b66d6a60ec732ef544838e0e14449fdf916fa5e62404b403ccd9f4aae308a7"
         }
       ],
       "earnings": [
