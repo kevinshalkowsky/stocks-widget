@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-11T19:22:51.269Z",
+  "updatedAt": "2026-05-11T21:07:07.134Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7403.84,
-      "change": 4.91,
-      "changePercent": 0.0664,
+      "price": 7412.84,
+      "change": 13.91,
+      "changePercent": 0.188,
       "high": 7428.97,
       "low": 7384.2,
       "open": 0,
       "prevClose": 7398.93017578125,
       "week52High": 7428.97,
       "week52Low": 5767.41,
-      "volume": "2.3B",
+      "volume": "3.4B",
       "sparklineData": [
         6886.240234375,
         6967.3798828125,
@@ -36,7 +36,7 @@
         7365.1201171875,
         7337.10986328125,
         7398.93017578125,
-        7403.83984375
+        7412.83984375
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 49616.68,
-      "change": 7.52,
-      "changePercent": 0.0152,
+      "price": 49704.47,
+      "change": 95.31,
+      "changePercent": 0.1921,
       "high": 49771.24,
       "low": 49475.78,
       "open": 0,
       "prevClose": 49609.16015625,
       "week52High": 50512.79,
       "week52Low": 41354.09,
-      "volume": "329.0M",
+      "volume": "493.2M",
       "sparklineData": [
         48218.25,
         48535.98828125,
@@ -88,7 +88,7 @@
         49910.58984375,
         49596.96875,
         49609.16015625,
-        49616.6796875
+        49704.46875
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26245.72,
-      "change": -1.36,
-      "changePercent": -0.0052,
+      "price": 26274.125,
+      "change": 27.04,
+      "changePercent": 0.103,
       "high": 26359.309,
       "low": 26129.828,
       "open": 0,
       "prevClose": 26247.080078125,
       "week52High": 26359.309,
       "week52Low": 18472.71,
-      "volume": "9.0B",
+      "volume": "10.9B",
       "sparklineData": [
         23183.740234375,
         23639.080078125,
@@ -140,7 +140,7 @@
         25838.939453125,
         25806.19921875,
         26247.080078125,
-        26245.720703125
+        26274.125
       ],
       "sector": "",
       "marketCap": "",
@@ -162,12 +162,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 291.03,
-      "change": -2.29,
-      "changePercent": -0.7807,
+      "price": 292.68,
+      "change": -0.64,
+      "changePercent": -0.2182,
       "high": 293.88,
       "low": 290.23,
-      "open": 292.0745,
+      "open": 291.979,
       "prevClose": 293.32,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -176,7 +176,7 @@
       "week52High": 294.76,
       "week52Low": 193.46,
       "beta": 1.0696688,
-      "peRatio": 38.4617,
+      "peRatio": 38.2886,
       "eps": 7.465,
       "dividendYield": "0.37%",
       "volume": "53.6M",
@@ -184,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Musk, Cook Set to Join Trump for Xi Summit, White House Says",
+          "headline": "Sector Update: Tech Stocks Rise Late Afternoon",
           "source": "Yahoo",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=dccb125dcfb13b8b1309dc2609299d798771fcaa0aeb017dea07e91f205b14fa"
+        },
+        {
+          "headline": "Why One Fund Made a $23 Million Bet on This Addiction-Treatment Stock Amid a Staggering Rally",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=05c85df7f4413657199c2f983c5e9f0b8121aa79599fa3521bb16c26c78270bf"
+        },
+        {
+          "headline": "Musk, Cook Set to Join Trump for Xi Summit, White House Says",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=f4a852d5c799f615bbcc3fb4cc01207e346b04efd46521ab3006871de1cba37a"
         },
         {
           "headline": "Apple delivers surprise win in Big Tech’s AI spending war",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=853cc621177a4f1deacdb037f7d3b996d95f40301b2c1847b9e36cffa225681b"
         },
         {
           "headline": "Apple-Intel preliminary chip deal seen as positive for Intel but raises fab questions, says Wedbush",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=c028850821a59553fcac23f93183d12a28479fbac66499d80ba106c5dd460320"
-        },
-        {
-          "headline": "What Makes Apple (AAPL) a New Buy Stock",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=16766638cdc9fcd23e7432d45c7ca374be564e7e05625218760a585f1ba9c707"
-        },
-        {
-          "headline": "Asset Manager Sells 1.2 Million Bond ETF Shares, According to Latest SEC Filing",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=da1ca0b9c8bb5eba68fd7264e9d28b4ebb994fa4acdb90d88dbab14c56da729d"
         }
       ],
       "earnings": [
@@ -248,12 +248,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 390.46,
-      "change": -10.34,
-      "changePercent": -2.5798,
+      "price": 388.64,
+      "change": -12.16,
+      "changePercent": -3.0339,
       "high": 397.44,
-      "low": 390.41,
-      "open": 395.8175,
+      "low": 388.47,
+      "open": 393.645,
       "prevClose": 400.8,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -262,7 +262,7 @@
       "week52High": 402,
       "week52Low": 152.2,
       "beta": 1.2764579,
-      "peRatio": 36.6298,
+      "peRatio": 35.6,
       "eps": 10.807,
       "dividendYield": "0.22%",
       "volume": "32.1M",
@@ -270,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "By the numbers: Corporate profits haven't been this smoking hot in years",
+          "headline": "Big tech earnings reinforce strength of AI demand across chips, cloud and software: Wedbush",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=217325cf384d17bffa7f2ece0bf0e667675b3461940c0809a9aca7ff533a35db"
+          "url": "https://finnhub.io/api/news?id=d6533f88af16ab51e604ceff02a0faa5de57bcb4ab9111adbc453f775205491f"
         },
         {
-          "headline": "Lountzis Asset Management Liquidates SkyWater Technology Stake, According to Recent SEC Filing",
+          "headline": "Why One Fund Made a $23 Million Bet on This Addiction-Treatment Stock Amid a Staggering Rally",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=acb1eb6560d1816a644d5b202fcdfaa7488f27042192d965d79491ff2e665f8c"
+          "url": "https://finnhub.io/api/news?id=05c85df7f4413657199c2f983c5e9f0b8121aa79599fa3521bb16c26c78270bf"
         },
         {
-          "headline": "Apple delivers surprise win in Big Tech’s AI spending war",
+          "headline": "Alphabet Is on the Brink of Beating NVIDIA in Market Value: ETFs to Buy",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=853cc621177a4f1deacdb037f7d3b996d95f40301b2c1847b9e36cffa225681b"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=29c7d1dd5f41abeba1488202617fe3a5d5baeb0ac55539c8b4b350643fbb4003"
         },
         {
-          "headline": "Asset Manager Sells 1.2 Million Bond ETF Shares, According to Latest SEC Filing",
+          "headline": "Alphabet Is Issuing Bonds in Yen. Why Not?",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=da1ca0b9c8bb5eba68fd7264e9d28b4ebb994fa4acdb90d88dbab14c56da729d"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=21b31bae94c31682252f7e39f7ecd5b24da1e5bf20c886cabbfd7bc36b56f85b"
         },
         {
-          "headline": "Top Midday Stories: Moderna Working on Hantavirus Vaccine, Shares Rise; Blackstone, Halliburton to Invest Combined $1 Billion in VoltaGrid",
+          "headline": "By the numbers: Corporate profits haven't been this smoking hot in years",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=4ff9d9f5c9e30659b0a05988ba2df9082ea2b3c3a64c3a4a0e7949147fed4963"
+          "url": "https://finnhub.io/api/news?id=217325cf384d17bffa7f2ece0bf0e667675b3461940c0809a9aca7ff533a35db"
         }
       ],
       "earnings": [
@@ -334,12 +334,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 410.41,
-      "change": -4.71,
-      "changePercent": -1.1346,
-      "high": 412.2091,
+      "price": 412.66,
+      "change": -2.46,
+      "changePercent": -0.5926,
+      "high": 412.69,
       "low": 405.5,
-      "open": 410.83500000000004,
+      "open": 407.87,
       "prevClose": 415.12,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -356,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Sector Update: Tech Stocks Gain Monday Afternoon",
+          "headline": "Microsoft CEO says he was never given 'clarity' on why Altman was fired from OpenAI during Musk trial",
           "source": "Yahoo",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ceebb30c7c76eaad147346152c42d910b06e8eebf39fc2c20dac2903bec96c14"
+        },
+        {
+          "headline": "Big tech earnings reinforce strength of AI demand across chips, cloud and software: Wedbush",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d6533f88af16ab51e604ceff02a0faa5de57bcb4ab9111adbc453f775205491f"
+        },
+        {
+          "headline": "Former OpenAI executive Sutskever discloses nearly $7 billion stake in AI firm",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=64127b0a880a0bfff5b0576ea11e87493ed39c3f4eff021d35371485d2b316be"
+        },
+        {
+          "headline": "Dooap Inc. Launches Dooap Studio: Putting Agentic AP Automation Directly in the Hands of Finance Teams",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=73cfbf3b8ded8e6e88aa084eeb17a0a8288792e88bfd5268b79643b55ba3d766"
+        },
+        {
+          "headline": "Sector Update: Tech Stocks Gain Monday Afternoon",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=23d30c8ffc7522a8aab411a42ad2882a66ec58ed5974b4e21dadb63ff8f9223d"
-        },
-        {
-          "headline": "Satya Nadella testifies in Musk v. OpenAI trial",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d7a64e66c5ed5f2f18d3550e7117c7871c291b36d38665f8718c71e9ac050fb9"
-        },
-        {
-          "headline": "If Trump’s Bull Market Does Cool Off, These Stocks Could Reverse Fast — and These Others Might Keep Powering Higher",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=19afe9214180ff30751fa0489edd36c2f6d87bf00bd7896580706d594c6cf23b"
-        },
-        {
-          "headline": "Nuclear Reactor Leader Constellation Backs Three Mile Island Goal",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=37e9115738f76f24fec76f754a5792f03d38ba80414c08d98aa3b8d3e4c3d6e3"
-        },
-        {
-          "headline": "VestGen Wealth Partners: A Tech Stack Designed for Planning, Efficiency",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=626d6e08f97b081aa48a183b797af3a7c4a21d571ab7bbd5495d17ac7191ffe7"
         }
       ],
       "earnings": [
@@ -420,12 +420,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 269.4,
-      "change": -3.28,
-      "changePercent": -1.2029,
+      "price": 268.99,
+      "change": -3.69,
+      "changePercent": -1.3532,
       "high": 273.63,
-      "low": 269.1569,
-      "open": 270.60249999999996,
+      "low": 268.48,
+      "open": 269.835,
       "prevClose": 272.68,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -442,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "By the numbers: Corporate profits haven't been this smoking hot in years",
+          "headline": "Big tech earnings reinforce strength of AI demand across chips, cloud and software: Wedbush",
           "source": "Yahoo",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d6533f88af16ab51e604ceff02a0faa5de57bcb4ab9111adbc453f775205491f"
+        },
+        {
+          "headline": "Alphabet Is Issuing Bonds in Yen. Why Not?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=21b31bae94c31682252f7e39f7ecd5b24da1e5bf20c886cabbfd7bc36b56f85b"
+        },
+        {
+          "headline": "By the numbers: Corporate profits haven't been this smoking hot in years",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=217325cf384d17bffa7f2ece0bf0e667675b3461940c0809a9aca7ff533a35db"
         },
         {
           "headline": "Before You Invest in SpaceX, Consider This Top Competitor",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=e995ebbe0cd736cd8b6d4062983bb70458f93a847dca385605c253b5332694b7"
         },
         {
-          "headline": "Apple delivers surprise win in Big Tech’s AI spending war",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=853cc621177a4f1deacdb037f7d3b996d95f40301b2c1847b9e36cffa225681b"
-        },
-        {
-          "headline": "AI Chipmaker Cerebras Could Raise Up To $5.52 Billion in Upsized IPO",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=cd2461827ec11c31fec689a74eeb1581b9d55a5d6ffa16a49e00250efce04a9d"
-        },
-        {
-          "headline": "Why Companies Are Racing to Put Satellites in Low Earth Orbit",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=0aa0349b1f9dcd96f519dbbb37cc90bd2f5f75a693e0ec7e5cb0fa864b8e8796"
+          "headline": "TRADING DAY-AI beats Iran impasse",
+          "source": "Finnhub",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=77f1fa824352377ef07848fd94ab922ae893219926ba4558b5175d2cb4d97d79"
         }
       ],
       "earnings": [
@@ -506,12 +506,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 447.75,
-      "change": 19.4,
-      "changePercent": 4.529,
+      "price": 445,
+      "change": 16.65,
+      "changePercent": 3.887,
       "high": 449.16,
       "low": 416.8,
-      "open": 425.08000000000004,
+      "open": 422.16,
       "prevClose": 428.35,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -530,31 +530,31 @@
         {
           "headline": "Which S&P500 stocks are the most active on Monday?",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=11bde6e11142beafbc733e4b84ae00b51ce05d69bd458fb9f792209e302f5876"
         },
         {
           "headline": "Musk, Cook Set to Join Trump for Xi Summit, White House Says",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=f4a852d5c799f615bbcc3fb4cc01207e346b04efd46521ab3006871de1cba37a"
         },
         {
           "headline": "Tesla Robotaxi Rollout And Korea EV Growth Test Market Optimism",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=b8e553f40deb7af185be87a9f2d3a97813c14e4ad4c2f68c48c87a98d0ed5194"
         },
         {
           "headline": "These Stocks Are Today’s Movers: Moderna, Micron, Intel, Apollo Global, and More",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=445b4605f379411d9c7beb18234d6cdeedc40bcd4e1f62933eef88c18da1414d"
         },
         {
           "headline": "‘Too early’ to talk IPO, Redwood Materials’ incoming CFO says",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=1018a8c9def03a4413aea73630879e231a09ff396eeb27910d9051fb6d5b3c18"
         }
       ],
