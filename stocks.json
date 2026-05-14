@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-14T13:22:15.258Z",
+  "updatedAt": "2026-05-14T16:03:24.077Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7444.25,
-      "change": 43.29,
-      "changePercent": 0.5849,
-      "high": 7460.04,
-      "low": 7375.13,
+      "price": 7514.39,
+      "change": 70.14,
+      "changePercent": 0.9422,
+      "high": 7515.65,
+      "low": 7454.4,
       "open": 0,
-      "prevClose": 7400.9599609375,
-      "week52High": 7460.04,
+      "prevClose": 7444.25,
+      "week52High": 7515.65,
       "week52Low": 5767.41,
-      "volume": "3.3B",
+      "volume": "1.2B",
       "sparklineData": [
         6967.3798828125,
         7022.9501953125,
@@ -37,7 +37,8 @@
         7398.93017578125,
         7412.83984375,
         7400.9599609375,
-        7444.25
+        7444.25,
+        7514.39013671875
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 49693.2,
-      "change": -67.36,
-      "changePercent": -0.1354,
-      "high": 49747.61,
-      "low": 49451,
+      "price": 50168.63,
+      "change": 475.43,
+      "changePercent": 0.9567,
+      "high": 50185.09,
+      "low": 49843.58,
       "open": 0,
-      "prevClose": 49760.55859375,
+      "prevClose": 49693.19921875,
       "week52High": 50512.79,
       "week52Low": 41354.09,
-      "volume": "492.0M",
+      "volume": "240.0M",
       "sparklineData": [
         48535.98828125,
         48463.71875,
@@ -90,7 +91,8 @@
         49609.16015625,
         49704.46875,
         49760.55859375,
-        49693.19921875
+        49693.19921875,
+        50168.62890625
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26402.344,
-      "change": 314.14,
-      "changePercent": 1.2041,
-      "high": 26474.184,
-      "low": 25990.158,
+      "price": 26689.373,
+      "change": 287.03,
+      "changePercent": 1.0871,
+      "high": 26693.34,
+      "low": 26423.207,
       "open": 0,
-      "prevClose": 26088.19921875,
-      "week52High": 26474.184,
+      "prevClose": 26402.33984375,
+      "week52High": 26693.34,
       "week52Low": 18599.69,
-      "volume": "8.7B",
+      "volume": "4.3B",
       "sparklineData": [
         23639.080078125,
         24016.01953125,
@@ -143,7 +145,8 @@
         26247.080078125,
         26274.130859375,
         26088.19921875,
-        26402.33984375
+        26402.33984375,
+        26689.373046875
       ],
       "sector": "",
       "marketCap": "",
@@ -165,13 +168,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 298.87,
-      "change": 4.07,
-      "changePercent": 1.3806,
-      "high": 300.92,
-      "low": 293.5,
-      "open": 293.5,
-      "prevClose": 294.8,
+      "price": 298.83,
+      "change": -0.04,
+      "changePercent": -0.0134,
+      "high": 300.45,
+      "low": 296.32,
+      "open": 298.895,
+      "prevClose": 298.87,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.39T",
@@ -187,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Xi Jinping tells CEOs that 'China's door will only open wider' as Trump's two-day visit gets underway",
+          "headline": "Netflix Just Raised Guidance. The Market Sold It Off. We See 283% Upside",
+          "source": "Yahoo",
+          "timeAgo": "26m ago",
+          "url": "https://finnhub.io/api/news?id=572a6c3dd136a4f4c0aae3d443beaed37ecc1cc1260d3fdb4e603e5390987079"
+        },
+        {
+          "headline": "Evercore ISI Hikes Apple Price Target to $365: Bull Case Now $500 on Services Compounding",
+          "source": "Yahoo",
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=96270efbc28f08283fcbe0ef4135a5ad5dc764bdb79649b3f816bfad45ab10f4"
+        },
+        {
+          "headline": "Just How Important Is Taiwan? About $30 Trillion Important.",
+          "source": "Yahoo",
+          "timeAgo": "56m ago",
+          "url": "https://finnhub.io/api/news?id=bffbb09b64b00d249ebe32ed5f9a6db427adc7e9edb7678e51474536d7d64092"
+        },
+        {
+          "headline": "KeyBanc turns ’more cautious’ on Apple stock amid ’stretched’ valuation",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b8c19a305836f3d7fc3059df26f0d26c0fcf5d4479e3876fdae51727d2cf36b7"
+          "url": "https://finnhub.io/api/news?id=721e655d94366cf0a9ce4bda28b9550e3ea1829d9cc18d6296ecc424566b9d38"
         },
         {
-          "headline": "Assessing Apple (AAPL) Valuation As Tariffs And AI Ambitions Shape Market Expectations",
+          "headline": "Apple Names New CEO as Tim Cook to Step Down in September",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=344467b140afb1bd3a5929132b4ba804c8483b2c631c4fc4bd665e08202f1680"
-        },
-        {
-          "headline": "Apple Stock Hits Record Peak as iPhone Demand Stays Strong",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=0652f5203d15cf289e44e882f3fa5de11584f435af1fc44138562c1adf0f7626"
-        },
-        {
-          "headline": "Xi Jinping tells Nvidia, Tesla and Apple CEOs that China will ‘open wider’",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a8a20d5b16206c78a82ec1397587b333e8e59a2cfb636189dc39cfc18938141a"
-        },
-        {
-          "headline": "Peter Navarro Once Slammed Tesla Over China Reliance—Now Xi Jinping Says Beijing Will Open Wider To US Companies Amid Trump Visit",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5a24121f141b50e94283bee167ea78351e4dd0ebafc1a3ec61b83a3827e6b2e6"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e4cb998a66803743a85466827b955a22eb4bffbd2fb126b9079c0bd88dc942db"
         }
       ],
       "earnings": [
@@ -251,13 +254,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 402.62,
-      "change": 15.27,
-      "changePercent": 3.9422,
-      "high": 403.7,
-      "low": 385,
-      "open": 385.595,
-      "prevClose": 387.35,
+      "price": 401.66,
+      "change": -0.96,
+      "changePercent": -0.2384,
+      "high": 402.1099,
+      "low": 395.84,
+      "open": 400.22,
+      "prevClose": 402.62,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.87T",
@@ -273,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "GridCARE Raises $64 Million Series A from Leading AI and Energy Investors to Create a New Category: Power Acceleration for AI",
+          "headline": "Netflix Just Raised Guidance. The Market Sold It Off. We See 283% Upside",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3fc177878411eda3ff5e109514d4d80fe32557481240b648277929d9de066917"
+          "timeAgo": "26m ago",
+          "url": "https://finnhub.io/api/news?id=572a6c3dd136a4f4c0aae3d443beaed37ecc1cc1260d3fdb4e603e5390987079"
         },
         {
-          "headline": "Latin America Data Center Construction Industry Outlook 2026-2031 with ABB, Alfa Laval, ASSA ABLOY, Axis Communications, Bosch, Bruno Generators, Caterpillar, Cummins Leading",
+          "headline": "Alphabet vs. Micron Technology: Which Is the Best AI Play Right Now?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=02bb4fff891847a7825b1f5fa8bbdbb3321599d856431c801d35dd26dd4069e2"
+          "timeAgo": "32m ago",
+          "url": "https://finnhub.io/api/news?id=c50af81ecdb42c66d31248b1af5ea058f611148782fd4d90041aa7baf411625d"
         },
         {
-          "headline": "Zacks Earnings Trends Highlights: Alphabet, Amazon, Microsoft, Meta and Nvidia",
+          "headline": "Wells Fargo Just Hiked Broadcom Price Target to $545: AI Semi Revenue Running 30-40% Higher Than Expected",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b2b3979e12eb784538ef097909537911d6187974a8a86cfb94b77353712c38b9"
+          "timeAgo": "41m ago",
+          "url": "https://finnhub.io/api/news?id=d947b8d041eaa4936fa4bedde1203247874e43ede4c8ce49e765857eeb6df39f"
         },
         {
-          "headline": "The Profit Margins for These 3 AI Infrastructure Stocks Are Off the Charts",
+          "headline": "Cerebras Looks Set to Open at $330 a Share, Nearly Double Its IPO Price",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=f1c1ef25ed53f8fc5e6ebe59565996295b38603367d92fd74b804343f58c234a"
+          "timeAgo": "47m ago",
+          "url": "https://finnhub.io/api/news?id=d56803306bb4a9c3fdd6815cf686fc0bb4dee9da953420d4f05bc721ede1bf92"
         },
         {
-          "headline": "Alphabet Lifts Fanuc to Record High",
+          "headline": "AI Causes Another 4,000 Layoffs",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=d5000e89dac13f55fe7e3dfa054eb521beb05c542539f56a514b4e2370e7ad02"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=10b78b1c0c0a7fc16c0183592bca97c6661bd1cc5fc350a01613f947169280ba"
         }
       ],
       "earnings": [
@@ -337,13 +340,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 405.21,
-      "change": -2.56,
-      "changePercent": -0.6278,
-      "high": 406.31,
-      "low": 401.03,
-      "open": 403.2,
-      "prevClose": 407.77,
+      "price": 409.28,
+      "change": 4.07,
+      "changePercent": 1.0044,
+      "high": 411.84,
+      "low": 400.88,
+      "open": 404.14,
+      "prevClose": 405.21,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.01T",
@@ -359,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Denmark Data Center Market Investment Analysis Report 2026-2031: $3.19 Bn Growth Opportunities Across 33 Existing, 11 Upcoming Facilities, and 14+ Locations",
+          "headline": "Retail investors make a surprising move on Palantir, Microsoft, and other software stocks",
+          "source": "Yahoo",
+          "timeAgo": "16m ago",
+          "url": "https://finnhub.io/api/news?id=96f349de85fb345dd9e811f4950539580f14ca835e29c420a3f1a5eda25c0bd2"
+        },
+        {
+          "headline": "Microsoft Is Down 25% From Its High While the Nasdaq Blasts Off. Burry and Ives Say That Is the Opportunity",
+          "source": "Yahoo",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=7d471b806542bd0f561dbc359182bb35b74d927ea47c037e74381c095486ac9d"
+        },
+        {
+          "headline": "Jeremy Grantham's Strategic Moves: A Closer Look at Wells Fargo & Co",
+          "source": "Yahoo",
+          "timeAgo": "59m ago",
+          "url": "https://finnhub.io/api/news?id=7f188d750ef735c2fee10cdf6aa583ad1ed94421a7f11c67b74d1c2e356cedc2"
+        },
+        {
+          "headline": "AI Investors Sitting on Big Gains Face a Choice: Let Winners Ride or Heed Michael Burry’s Bubble Warning",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=9491a7ff88f3a4910fed526ae72e95c672d6e4dd6b3a721fc08d5cd991725fe6"
+          "url": "https://finnhub.io/api/news?id=98a62827487211319b7aebfb27e3046af9cd8ce2bde866de839f9d40e730ade4"
         },
         {
-          "headline": "Microsoft Explores AI Deals Beyond OpenAI",
+          "headline": "Adobe (ADBE) Integrates Agentic AI With Major Tech Platforms to Automate Customer Workflows",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8b201ce84d9774d7c7bd44fc24fc96b7afb01f65b851b6f7f989fe387088138b"
-        },
-        {
-          "headline": "ESW Launches Microsoft 365 AI Readiness Audits and Roadmaps to Help Companies Move Faster With AI",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=648037dd1cb127d706f566900caeb583e84989c42afe49335560403c5bd83ce3"
-        },
-        {
-          "headline": "Southeast Asia Data Center Construction Industry Outlook Report 2026: Investments are Expected to Grow at a CAGR of 17.83% During 2025-2031, Driven by Attraction from Major Operators",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f5a0a4f87878c5354d8356a93e2ff8cdab31b110174815ac8803984740c3c36c"
-        },
-        {
-          "headline": "UK opens antitrust probe into Microsoft's business software",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=cb1271a355f9fbba64437dff2afec6a897e4838659a3d9fe1a1e306fac3dd6a7"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=85ba0aeaaaaa065e09031d5e3ec9387943e3fbca228ffc513660f2d8e9af3ede"
         }
       ],
       "earnings": [
@@ -423,13 +426,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 270.13,
-      "change": 4.31,
-      "changePercent": 1.6214,
-      "high": 270.72,
-      "low": 263.2,
-      "open": 264.43,
-      "prevClose": 265.82,
+      "price": 268.57,
+      "change": -1.56,
+      "changePercent": -0.5775,
+      "high": 270.7799,
+      "low": 267.03,
+      "open": 269.53499999999997,
+      "prevClose": 270.13,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.91T",
@@ -445,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "GridCARE Raises $64 Million Series A from Leading AI and Energy Investors to Create a New Category: Power Acceleration for AI",
+          "headline": "Netflix Just Raised Guidance. The Market Sold It Off. We See 283% Upside",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3fc177878411eda3ff5e109514d4d80fe32557481240b648277929d9de066917"
+          "timeAgo": "26m ago",
+          "url": "https://finnhub.io/api/news?id=572a6c3dd136a4f4c0aae3d443beaed37ecc1cc1260d3fdb4e603e5390987079"
         },
         {
-          "headline": "Zacks Earnings Trends Highlights: Alphabet, Amazon, Microsoft, Meta and Nvidia",
+          "headline": "JPMorgan Doubles Down on Netflix: $118 Price Target on Path to Becoming Global TV",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b2b3979e12eb784538ef097909537911d6187974a8a86cfb94b77353712c38b9"
+          "timeAgo": "58m ago",
+          "url": "https://finnhub.io/api/news?id=c1655ed99f8ad7b93c02c02d34c93126796ea5679def854140219f31fd41f6b9"
         },
         {
-          "headline": "The Zacks Analyst Blog Netflix, Amazon's, Disney's  and Apple's",
+          "headline": "Former Amazon, Meta Scientists Unveil Graphon AI, the First Pre-Model Intelligence Layer, with $8.3M in Seed Funding",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=ff3bb68ad965bb770e8f07bdddc1563b6af701b4e2d5b8c613c66fde4e35f709"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=8e33f643d99d56a304ecfeeac551dcee7bab9b256b0acf2f69ce2fe6c90578e5"
         },
         {
-          "headline": "French court rejects Amazon book fee challenge – report",
+          "headline": "Forget GameStop: This Stock Is A Much Better Buy",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=7413ea80e357f2a8d9f7ad34ae2ff0d74c5379b0cb10e8c4938318b268b78445"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=27e2ee18eea95c1339c1e99dfe33d118a3236fb3b9b7cfa4b26ed9ed3efda7d9"
         },
         {
-          "headline": "The Profit Margins for These 3 AI Infrastructure Stocks Are Off the Charts",
+          "headline": "How Low Can Lowe’s Stock Go?",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=f1c1ef25ed53f8fc5e6ebe59565996295b38603367d92fd74b804343f58c234a"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ed4850d2c25605a421154b5361dc435cf62f0d1b1d2e8b9cd20f9710bc108d6c"
         }
       ],
       "earnings": [
@@ -509,13 +512,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 445.27,
-      "change": 11.82,
-      "changePercent": 2.727,
-      "high": 453.4,
-      "low": 430.21,
-      "open": 436.665,
-      "prevClose": 433.45,
+      "price": 450.02,
+      "change": 4.75,
+      "changePercent": 1.0668,
+      "high": 450.1299,
+      "low": 441.16,
+      "open": 447.315,
+      "prevClose": 445.27,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.67T",
@@ -531,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Xi Jinping tells CEOs that 'China's door will only open wider' as Trump's two-day visit gets underway",
+          "headline": "Retail investors make a surprising move on Palantir, Microsoft, and other software stocks",
+          "source": "Yahoo",
+          "timeAgo": "17m ago",
+          "url": "https://finnhub.io/api/news?id=96f349de85fb345dd9e811f4950539580f14ca835e29c420a3f1a5eda25c0bd2"
+        },
+        {
+          "headline": "Ford Stock Is Ripping Again. Suddenly, It’s a AI Data Center Stock.",
+          "source": "Yahoo",
+          "timeAgo": "41m ago",
+          "url": "https://finnhub.io/api/news?id=dea95c63b238d20dd5040116a16bcfaf0d7327021bfa1795268ea48e6502be93"
+        },
+        {
+          "headline": "Ford Zooms 8% Higher, Easily Outpaces General Motors and Tesla",
+          "source": "Yahoo",
+          "timeAgo": "48m ago",
+          "url": "https://finnhub.io/api/news?id=8737ce4cc1e42f89a054ba0b60ca4a66e310ecb6ab5134d78a620e16623ce073"
+        },
+        {
+          "headline": "Trump Brought 17 CEOs to China. Only Two Got Seats on Air Force One: Elon Musk and Jensen Huang",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b8c19a305836f3d7fc3059df26f0d26c0fcf5d4479e3876fdae51727d2cf36b7"
+          "url": "https://finnhub.io/api/news?id=5b1cf760ed935c3c45b180da52eebac0e3c9fe24ad7bf893ca18947ae09b28d3"
         },
         {
-          "headline": "CEOs worth nearly $1 trillion accompany Trump to China",
+          "headline": "Are retail investors leaning away from software amid tech rally?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=7e90855ddcea8cc07bb004182c3e7964450435e5d998ac784c0f2eb0e4799d83"
-        },
-        {
-          "headline": "Latest News In Energy Transition - SunPower Navigates Challenges with Strategic Changes and Growth",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=49e7a0015fac00ae8a0db371dbda3bc0c61cd45cac43bf99c9723d4af8ac14ac"
-        },
-        {
-          "headline": "Tesla Faces Mixed China Reception",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3ba3b621ee533a837ddf0397b56af8ab5f4612e700b135a93480c26d2109a23c"
-        },
-        {
-          "headline": "Xi Jinping tells Nvidia, Tesla and Apple CEOs that China will ‘open wider’",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a8a20d5b16206c78a82ec1397587b333e8e59a2cfb636189dc39cfc18938141a"
+          "url": "https://finnhub.io/api/news?id=9834e71e41e17bea9ec01bfe42b1ee8a62b050a6d9baf886f6c1a3764399c3a6"
         }
       ],
       "earnings": [
