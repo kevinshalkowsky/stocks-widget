@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-15T17:17:59.974Z",
+  "updatedAt": "2026-05-15T19:10:55.622Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7434.04,
-      "change": -67.2,
-      "changePercent": -0.8959,
-      "high": 7447.25,
+      "price": 7424.63,
+      "change": -76.61,
+      "changePercent": -1.0213,
+      "high": 7454.85,
       "low": 7397.5,
       "open": 0,
       "prevClose": 7501.240234375,
       "week52High": 7517.12,
       "week52Low": 5767.41,
-      "volume": "1.5B",
+      "volume": "2.0B",
       "sparklineData": [
         7022.9501953125,
         7041.27978515625,
@@ -38,7 +38,7 @@
         7400.9599609375,
         7444.25,
         7501.240234375,
-        7434.0400390625
+        7424.6298828125
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 49631.91,
-      "change": -431.55,
-      "changePercent": -0.862,
+      "price": 49577.79,
+      "change": -485.67,
+      "changePercent": -0.9701,
       "high": 49930.26,
       "low": 49503.57,
       "open": 0,
       "prevClose": 50063.4609375,
       "week52High": 50512.79,
       "week52Low": 41354.09,
-      "volume": "294.4M",
+      "volume": "379.3M",
       "sparklineData": [
         48463.71875,
         48578.71875,
@@ -92,7 +92,7 @@
         49760.55859375,
         49693.19921875,
         50063.4609375,
-        49631.91015625
+        49577.7890625
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26337.074,
-      "change": -298.15,
-      "changePercent": -1.1194,
-      "high": 26364.04,
+      "price": 26308.506,
+      "change": -326.71,
+      "changePercent": -1.2266,
+      "high": 26460.758,
       "low": 26097.537,
       "open": 0,
       "prevClose": 26635.220703125,
       "week52High": 26707.14,
       "week52Low": 18599.69,
-      "volume": "5.1B",
+      "volume": "6.5B",
       "sparklineData": [
         24016.01953125,
         24102.69921875,
@@ -146,7 +146,7 @@
         26088.19921875,
         26402.33984375,
         26635.220703125,
-        26337.07421875
+        26308.505859375
       ],
       "sector": "",
       "marketCap": "",
@@ -168,10 +168,10 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 302.51,
-      "change": 4.3,
-      "changePercent": 1.4419,
-      "high": 302.79,
+      "price": 300.99,
+      "change": 2.78,
+      "changePercent": 0.9322,
+      "high": 303.2,
       "low": 296.52,
       "open": 297.7,
       "prevClose": 298.21,
@@ -190,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "These S&P500 stocks are the most active in today's session",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=fb9a553d3c10b3fa1e873b652142dc2222c1ab4fe7b436ec52ccafd4424771c5"
+        },
+        {
+          "headline": "Apple Stock Rises After Surprise iPhone 17 Price Cuts in China",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=be554c4f7fc2b7cef1d4c355bf50f7ca1c93a7fab0dee1e2320eddf3201046d4"
+        },
+        {
+          "headline": "Intel Climbs 15% on Apple Chip Deal as Trader Warns on Upcoming Cisco Earnings",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=dd63a08fb7b8a3e13e09babfb9d04eafda6b8464dfb0c3c2139d0862b576ad44"
+        },
+        {
           "headline": "Liberty All-Star® Growth Fund, Inc. April 2026 Monthly Update",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=72716a8060066322f16192bea3b64b6aab0b32f3e4822683c5cc0df7ce0984d0"
         },
         {
           "headline": "OpenAI reportedly considering legal action over Apple ChatGPT deal, citing weak user growth",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=82b2adc2f5e1c4a93cf597ef2a900e4e632732f4b8db846b358f7e20be399919"
-        },
-        {
-          "headline": "The AI Chip Rally Is Masking a Dangerous Truth. Half the S&P 500 Is Being Left Behind",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4ac6c9a7118e6e7ad8f09ee6f97a0be56ec18cb1d4d3042e65253a98216ae16b"
-        },
-        {
-          "headline": "President Trump’s Stock Broker Was the Busiest Person in America in Q1",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b0386a8683b5d3d224e340a0d12a83d0fa3b09a2e0f2e0b97b0c5608c30b1a58"
-        },
-        {
-          "headline": "Chip Stocks Slide After U.S.-China Summit Ends Without Major Tech Deals",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=aef879c45879a959c548bc4b8cfd185f2e1ba0623e0cc33bd183e6bec542234f"
         }
       ],
       "earnings": [
@@ -254,9 +254,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 397.12,
-      "change": -3.95,
-      "changePercent": -0.9849,
+      "price": 396.16,
+      "change": -4.91,
+      "changePercent": -1.2242,
       "high": 399.5399,
       "low": 393.18,
       "open": 395.77750000000003,
@@ -276,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Liberty All-Star® Growth Fund, Inc. April 2026 Monthly Update",
+          "headline": "Sector Update: Tech Stocks Fall in Afternoon Trading",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=72716a8060066322f16192bea3b64b6aab0b32f3e4822683c5cc0df7ce0984d0"
+          "url": "https://finnhub.io/api/news?id=2f0f690013d4ef266838658490e15148c3d3bedfd05d26b4a8c6e739a0f7932c"
         },
         {
-          "headline": "Liberty All-Star® Equity Fund April 2026 Monthly Update",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a496a979256ded9bbd23f17bee23397ef9f60288a8db7f213fde7d75a3052321"
-        },
-        {
-          "headline": "Cerebras IPO in focus as Nvidia earnings loom",
+          "headline": "Up Over 25% This Year, Is Alphabet Stock Still a Buy?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=02d3f649480a104c647338a328140c23e7adc82ab6a1d45b0088b796ac839456"
+          "url": "https://finnhub.io/api/news?id=f036133710a5b3295df06a882cbc51cdc2bbd06807a0c7eff09817343deed9c1"
         },
         {
-          "headline": "Microsoft, Meta, Amazon and Google. Is Ackman’s Hedge Fund Just a Mag 7 Play?",
+          "headline": "The Best Growth ETF to Invest $1,000 in During Q2 2026",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d824f1e751c0d5eebcdd8cbe72a25e11cd78079b9ff0241ccf3b2316b91b5967"
+          "url": "https://finnhub.io/api/news?id=c273c302f2fac2b9ed3d568db2bbc3500b8d3b1fd4fbe3543d5a0e0b156d85e7"
         },
         {
-          "headline": "Sandisk Insiders Cash In on the AI Stock’s Tremendous Surge",
+          "headline": "Why Microsoft Stock Is Surging Today",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=751db2a9ebfc35d4714257e99fcf962a88d1c7f55c1eece698503e2925231fca"
+          "url": "https://finnhub.io/api/news?id=bb6f7a0d7930f91780b8604286975380e25809d09ca1f510a868d7bfc5bed33a"
+        },
+        {
+          "headline": "Tesla Robotaxi Concerns Grow: Is TSLA Stock Still Worth Holding?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=76b6319d32935f018980d64de71eb7660bb0be3ea1839957734fc0722b351c08"
         }
       ],
       "earnings": [
@@ -340,10 +340,10 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 424.69,
-      "change": 15.26,
-      "changePercent": 3.7271,
-      "high": 426.44,
+      "price": 425.04,
+      "change": 15.61,
+      "changePercent": 3.8126,
+      "high": 428.17,
       "low": 410.44,
       "open": 410.44,
       "prevClose": 409.43,
@@ -362,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Uncover the latest developments among S&P500 stocks in today's session.",
+          "headline": "These S&P500 stocks are the most active in today's session",
           "source": "ChartMill",
-          "timeAgo": "42m ago",
-          "url": "https://finnhub.io/api/news?id=d9edb990eae184b6dc3226ce324f6c607fb378fc1c5977fed1b7962d6430671e"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=fb9a553d3c10b3fa1e873b652142dc2222c1ab4fe7b436ec52ccafd4424771c5"
         },
         {
-          "headline": "Liberty All-Star® Growth Fund, Inc. April 2026 Monthly Update",
+          "headline": "Sector Update: Tech Stocks Fall in Afternoon Trading",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=72716a8060066322f16192bea3b64b6aab0b32f3e4822683c5cc0df7ce0984d0"
+          "url": "https://finnhub.io/api/news?id=2f0f690013d4ef266838658490e15148c3d3bedfd05d26b4a8c6e739a0f7932c"
         },
         {
-          "headline": "Liberty All-Star® Equity Fund April 2026 Monthly Update",
+          "headline": "Microsoft Rises 4%, Resists NASDAQ Downtrend",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a496a979256ded9bbd23f17bee23397ef9f60288a8db7f213fde7d75a3052321"
+          "url": "https://finnhub.io/api/news?id=e6dffdf1471a973a1f69aa7ad42c8ac449bbab1ef3d4f057123e0d4f69bb613a"
         },
         {
-          "headline": "Mel Robbins responds to backlash after telling women to upload all their financial documents to Microsoft Copilot",
+          "headline": "Microsoft Stock Jumps After Bill Ackman Reveals New Position",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b7d1666e9a9afdcad136a6a9fbea588037bf9f1203a2729d7bdf63595a51c555"
+          "url": "https://finnhub.io/api/news?id=7351428ec22e2b4ce4547ced1249617da6eae5fa820e74b2e7f2032ce21d959d"
         },
         {
-          "headline": "Microsoft, Meta, Amazon and Google. Is Ackman’s Hedge Fund Just a Mag 7 Play?",
+          "headline": "The Best Growth ETF to Invest $1,000 in During Q2 2026",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d824f1e751c0d5eebcdd8cbe72a25e11cd78079b9ff0241ccf3b2316b91b5967"
+          "url": "https://finnhub.io/api/news?id=c273c302f2fac2b9ed3d568db2bbc3500b8d3b1fd4fbe3543d5a0e0b156d85e7"
         }
       ],
       "earnings": [
@@ -426,9 +426,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 262.28,
-      "change": -4.94,
-      "changePercent": -1.8487,
+      "price": 263.16,
+      "change": -4.06,
+      "changePercent": -1.5193,
       "high": 264.05,
       "low": 260.8901,
       "open": 263.245,
@@ -448,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Liberty All-Star® Growth Fund, Inc. April 2026 Monthly Update",
+          "headline": "These S&P500 stocks are the most active in today's session",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=fb9a553d3c10b3fa1e873b652142dc2222c1ab4fe7b436ec52ccafd4424771c5"
+        },
+        {
+          "headline": "Sector Update: Tech Stocks Fall in Afternoon Trading",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=72716a8060066322f16192bea3b64b6aab0b32f3e4822683c5cc0df7ce0984d0"
+          "url": "https://finnhub.io/api/news?id=2f0f690013d4ef266838658490e15148c3d3bedfd05d26b4a8c6e739a0f7932c"
         },
         {
-          "headline": "Liberty All-Star® Equity Fund April 2026 Monthly Update",
+          "headline": "Delta Isn’t Going With SpaceX for in Flight Wi-Fi, And Elon Musk Isn’t Happy.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a496a979256ded9bbd23f17bee23397ef9f60288a8db7f213fde7d75a3052321"
+          "url": "https://finnhub.io/api/news?id=01c732a312a5bee73ef24d8ad2e313623821cb1ce5416c48e913003ae9887cf6"
         },
         {
-          "headline": "Cerebras IPO in focus as Nvidia earnings loom",
+          "headline": "Amazon Holds Breakout Above $252",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=02d3f649480a104c647338a328140c23e7adc82ab6a1d45b0088b796ac839456"
+          "url": "https://finnhub.io/api/news?id=677f779a4124ec8a8b5c7d95e6d66bc222718a90e34498688543ad526549b01e"
         },
         {
-          "headline": "Microsoft, Meta, Amazon and Google. Is Ackman’s Hedge Fund Just a Mag 7 Play?",
+          "headline": "Stock Market Today, May 15: High Yields and Inflation Fears Weigh on Stocks at Midday",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d824f1e751c0d5eebcdd8cbe72a25e11cd78079b9ff0241ccf3b2316b91b5967"
-        },
-        {
-          "headline": "Delta Passed on Starlink. Should Investors Care?",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=33ccf956bb2e07990d265ee1b3be6cfdc05e76a862a6c83c2fa2f2c6f8cccaf5"
+          "url": "https://finnhub.io/api/news?id=1b3e7be3c15a2b37cc68e92b5e4448395e2dbc76f744751e35eb58b80867dd2a"
         }
       ],
       "earnings": [
@@ -512,9 +512,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 426.87,
-      "change": -16.43,
-      "changePercent": -3.7063,
+      "price": 424.62,
+      "change": -18.68,
+      "changePercent": -4.2139,
       "high": 434.66,
       "low": 423.43,
       "open": 434.355,
@@ -534,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "I Made $18,000 in ‘Free Money’ Selling Call Options on 200 Tesla Shares: Here’s How the Strategy Works",
-          "source": "Yahoo",
+          "headline": "These S&P500 stocks are the most active in today's session",
+          "source": "ChartMill",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=68c3badb66c5cd26b5148b268e2557f1e01cdf2d65f979035bf03836a4485b87"
+          "url": "https://finnhub.io/api/news?id=fb9a553d3c10b3fa1e873b652142dc2222c1ab4fe7b436ec52ccafd4424771c5"
         },
         {
-          "headline": "Car Wreck: Ford Falls 7%, Tesla Slides 4%",
+          "headline": "Tesla Slips After China Trip Disappoints",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=561d0795bb44242385247220fb6e78e70fe5fe9af6f6bc6e7c77e0b10349aeeb"
+          "url": "https://finnhub.io/api/news?id=ddb3c0737cd014187fd7ed81cf232111f5bd0120bbbb4953f159c19771039845"
         },
         {
-          "headline": "Chip Stocks Slide After U.S.-China Summit Ends Without Major Tech Deals",
+          "headline": "What Baron Capital Plans to Do in the ETF Space",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=aef879c45879a959c548bc4b8cfd185f2e1ba0623e0cc33bd183e6bec542234f"
+          "url": "https://finnhub.io/api/news?id=0206f63a5a056cf883bebc805ef91409639dc47893a64517cc4f4f3c87e8b030"
         },
         {
-          "headline": "SpaceX Has a Huge Week Ahead",
+          "headline": "Trump Traded Nvidia, Boeing, Intel in Flurry of Transactions",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5066860775c120fcc92c1e1ee824c6c63389dec0587656018b153f551447003c"
+          "timeAgo": "16h ago",
+          "url": "https://finnhub.io/api/news?id=4951272c879a7f23c82afbedeb2eec82a159cfa4fc19e6a75341de199c3f3bb2"
         },
         {
-          "headline": "Market Chatter: Twitter Investors' Stake in SpaceX Could Be Worth $100 Billion",
+          "headline": "Tesla Robotaxi Concerns Grow: Is TSLA Stock Still Worth Holding?",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=a65c0635573f6606f91a881cb785f4405a55e308be36ce38dc4a5e50032cfc7a"
+          "url": "https://finnhub.io/api/news?id=76b6319d32935f018980d64de71eb7660bb0be3ea1839957734fc0722b351c08"
         }
       ],
       "earnings": [
