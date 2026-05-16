@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-16T19:53:54.283Z",
+  "updatedAt": "2026-05-16T20:35:20.884Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
@@ -165,12 +165,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 300.25,
-      "change": 2.04,
-      "changePercent": 0.6841,
+      "price": 300.23,
+      "change": 2.02,
+      "changePercent": 0.6774,
       "high": 303.2,
       "low": 296.52,
-      "open": 297.90999999999997,
+      "open": 297.9,
       "prevClose": 298.21,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Apple Intel Foundry Link Puts ASML Growth And Valuation In Focus",
+          "headline": "Under Greg Abel, Apple Stock Looks Like It's Here to Stay in Berkshire Hathaway's Portfolio",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=850d86f7b67ef5f0e31af2a408bfe79c389e8ca5d46af517bc4b90246ee29a3b"
+        },
+        {
+          "headline": "Peter Navarro Once Slammed Tesla Over China Reliance—Now Xi Jinping Says Beijing Will Open Wider To US Companies Amid Trump Visit",
           "source": "Yahoo",
           "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4d780fd1bb3d590bc894c569b0cc00af81bb392438629208e3e30a67626b3811"
+        },
+        {
+          "headline": "NANC Traders Beat the Crowd by 33 Points and the Difference Keeps Growing",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=20c4f971b842228949339acad7fad77dda5ff05f37b3ea8be36fba7f1a2062c3"
+        },
+        {
+          "headline": "Apple Intel Foundry Link Puts ASML Growth And Valuation In Focus",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=dddecbc616213b7d5fbc8f73ca5af756c019377fb2880e1656e7a0b8ad174f70"
         },
         {
           "headline": "Apple Settlement Over ‘Apple Intelligence’ Claims And What It Means For AAPL",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=94f1ffe0922b3db835e2ed0e999a4e66ff7c1ec14a555aa5adb1652b38289308"
-        },
-        {
-          "headline": "Berkshire's new CEO overhauls portfolio, dumping a slate of stocks",
-          "source": "CNBC",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=0c2005bb7a9bd0cd9ed124d9905fd51ce41ad26849f30a5f77286d1a2f2e34d7"
-        },
-        {
-          "headline": "We traded our smartphones for flip phones for 4 days—and learned that ditching modern technology is harder than it sounds",
-          "source": "CNBC",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=59c108dc17ff3a422a34dfc8d9a3684be5cc80a14865b99d74da20e95df5d989"
-        },
-        {
-          "headline": "A state banquet, selfies with Musk and Huang's noodle run: The spectacle of Trump's Beijing visit",
-          "source": "CNBC",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=f3d699cbe013a8bb54e6eecaa80d8ce5f5cffabfc331a4acd94bc5359f6efb71"
         }
       ],
       "earnings": [
@@ -251,12 +251,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 396.8,
-      "change": -4.27,
-      "changePercent": -1.0647,
+      "price": 396.78,
+      "change": -4.29,
+      "changePercent": -1.0696,
       "high": 399.5399,
       "low": 393.18,
-      "open": 396.325,
+      "open": 396.315,
       "prevClose": 401.07,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -273,15 +273,27 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "$800B in AI spending is juicing GDP and stocks — while real wages fall and Americans cut back on goods",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e9b9121a80b62a37bf6f609edba82f8cb34df268686bad1d4b6f097e8adfbf80"
+        },
+        {
+          "headline": "Under Greg Abel, Apple Stock Looks Like It's Here to Stay in Berkshire Hathaway's Portfolio",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=850d86f7b67ef5f0e31af2a408bfe79c389e8ca5d46af517bc4b90246ee29a3b"
+        },
+        {
           "headline": "5-star analysts reset Broadcom stock price target",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=d63622ec208263d26fdce338540387723b77ca91811e8574ea91e516564b94ef"
         },
         {
           "headline": "NANC Traders Beat the Crowd by 33 Points and the Difference Keeps Growing",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=20c4f971b842228949339acad7fad77dda5ff05f37b3ea8be36fba7f1a2062c3"
         },
         {
@@ -289,18 +301,6 @@
           "source": "Yahoo",
           "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=c8904b8ab1f54abf948bcd1b600140c9a18fba0119322fbf48b2ecf6e7cbd265"
-        },
-        {
-          "headline": "Nvidia Overtakes Silver To Become World's Second-Largest Asset At $5.52 Trillion, Market Commentator Calls It 'Historic Technological Revolution'",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f78c5c84c2f208e62a0cd38ab2fd98fbdb284086277640730dba352c933e177d"
-        },
-        {
-          "headline": "Retail Euphoria Turns Six-Week Fund Into Record-Busting AI Trade",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=108778aec239b8a1c9e60e225fc0c63565ad88ceb377a9f65be6902913359179"
         }
       ],
       "earnings": [
@@ -337,12 +337,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 421.94,
-      "change": 12.51,
-      "changePercent": 3.0555,
+      "price": 421.92,
+      "change": 12.49,
+      "changePercent": 3.0506,
       "high": 428.17,
       "low": 412.91,
-      "open": 414.28,
+      "open": 414.27,
       "prevClose": 409.43,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -359,9 +359,15 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "$800B in AI spending is juicing GDP and stocks — while real wages fall and Americans cut back on goods",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e9b9121a80b62a37bf6f609edba82f8cb34df268686bad1d4b6f097e8adfbf80"
+        },
+        {
           "headline": "NANC Traders Beat the Crowd by 33 Points and the Difference Keeps Growing",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=20c4f971b842228949339acad7fad77dda5ff05f37b3ea8be36fba7f1a2062c3"
         },
         {
@@ -373,20 +379,14 @@
         {
           "headline": "Pershing Square Backs Microsoft As AI Expansion Divides Major Investors",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=2f58ce964d2fd9cbdb958ca7a09b490d89bee4f303317f2b3114314faaca7450"
         },
         {
-          "headline": "NVIDIA Earnings Preview: Wall Street Pros Boost Stock Targets Amid AI Boom",
+          "headline": "SCHD ETF Stock C&H Pattern Points To A Rebound As Inflows Hit $8.2B",
           "source": "Benzinga",
           "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=dd8e202e6b5df4f1d9acf7c4203cb497194e569c500d33dfb6e9f95e21acdd18"
-        },
-        {
-          "headline": "Microsoft’s (MSFT) African Data Center Struggles with Payment Requests, Bloomberg News Reports",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=e696149004799e6afdd9474ff84812555e84c93bc09248cde88107d747706f31"
+          "url": "https://finnhub.io/api/news?id=59c12537ef78743276d927802bc23681685a1a2bed3eb3b6255050da0cbce75d"
         }
       ],
       "earnings": [
@@ -423,12 +423,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 264.16,
-      "change": -3.06,
-      "changePercent": -1.1451,
+      "price": 264.14,
+      "change": -3.08,
+      "changePercent": -1.1526,
       "high": 264.355,
       "low": 260.8901,
-      "open": 262.51,
+      "open": 262.5,
       "prevClose": 267.22,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -445,6 +445,24 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "$800B in AI spending is juicing GDP and stocks — while real wages fall and Americans cut back on goods",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e9b9121a80b62a37bf6f609edba82f8cb34df268686bad1d4b6f097e8adfbf80"
+        },
+        {
+          "headline": "NANC Traders Beat the Crowd by 33 Points and the Difference Keeps Growing",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=20c4f971b842228949339acad7fad77dda5ff05f37b3ea8be36fba7f1a2062c3"
+        },
+        {
+          "headline": "'Equal Opportunity. Not Equal Outcomes.' Anthony Scaramucci Says People Who Work Harder Deserve More, But Every Child Also Deserves A Fair Shot",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=8abf7c67d859995cea27013cb42bbf5564b61a1e13eb900f9024009671418e85"
+        },
+        {
           "headline": "The Staggering Number Jensen Huang Just Revealed Changes Everything About AI",
           "source": "Yahoo",
           "timeAgo": "3h ago",
@@ -453,26 +471,8 @@
         {
           "headline": "NVIDIA Earnings Preview: Wall Street Pros Boost Stock Targets Amid AI Boom",
           "source": "Benzinga",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=dd8e202e6b5df4f1d9acf7c4203cb497194e569c500d33dfb6e9f95e21acdd18"
-        },
-        {
-          "headline": "Wall Street Billionaires Make Amazon Their Top AI Trade",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=754813b1e328a364b88f90d03b5720a45036c0c3784297b52490a64d8d8bb334"
-        },
-        {
-          "headline": "How The Globalstar (GSAT) Story Is Evolving With The Amazon Deal And Spectrum Rethink",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=1b122bd360170896e8194efc9ad114dfb7fd9384673240f8900c4dea05647d0f"
-        },
-        {
-          "headline": "Here is why Amazon (AMZN) Is Among the Top Stocks to Benefit From AI",
-          "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=9260457eda41ae5fb7c9c87b0c4aafc575c838911dba14be687b868f8deae411"
         }
       ],
       "earnings": [
@@ -509,12 +509,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 422.26,
-      "change": -21.04,
-      "changePercent": -4.7462,
+      "price": 422.24,
+      "change": -21.06,
+      "changePercent": -4.7507,
       "high": 434.66,
       "low": 422,
-      "open": 433.99,
+      "open": 433.98,
       "prevClose": 443.3,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "A Long-Term Investor Says They Feel 'A Weird Mix Of Jealousy, FOMO, And Frustration' Watching People Around Them Make Fast Money On Options",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=41c45502864c9abbde37b338f47558cf33bf30f4990d97a02e5a27ddcceb3bd9"
+        },
+        {
+          "headline": "Peter Navarro Once Slammed Tesla Over China Reliance—Now Xi Jinping Says Beijing Will Open Wider To US Companies Amid Trump Visit",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4d780fd1bb3d590bc894c569b0cc00af81bb392438629208e3e30a67626b3811"
+        },
+        {
           "headline": "Tesla Raises U.S. Model Y Prices. Its Stock Just Forged A Lower Buy Point.",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=988cc14d9cd689315ad1eab966b1f9b52c39c5e4a35d282ee492105742179294"
         },
         {
           "headline": "Elon Musk Chimes In As Delta Picks Amazon Leo Over Starlink: They Wanted To Make It 'Painful, Difficult And Expensive'",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=69a2b4367c5e4a0577a78fdb11a9f640b46a3c6cd6c435e6e461e0cfedecf574"
         },
         {
           "headline": "Tesla raises price of Model Y performance AWD to $57,990 from $57,490 in US - website",
           "source": "Finnhub",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=64d2ced0891e9e9c0db04aa59672b962c72c082552c874e2f130d89ad2c4f512"
-        },
-        {
-          "headline": "Tesla raises prices of Model Y cars in the US for the first time in two years",
-          "source": "Finnhub",
           "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=644911ca6308cfd76dcf3dd2d0effb378eb9955188c42ab7ce618bd98a9040c8"
-        },
-        {
-          "headline": "Tesla raises prices of Model Y cars in the US",
-          "source": "Finnhub",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=acdbd10662a2a37efee207961d3fdca1158a12dd41ecd54e3027267dba6f2ed1"
+          "url": "https://finnhub.io/api/news?id=64d2ced0891e9e9c0db04aa59672b962c72c082552c874e2f130d89ad2c4f512"
         }
       ],
       "earnings": [
