@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-18T19:19:33.476Z",
+  "updatedAt": "2026-05-18T20:59:22.271Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7377.77,
-      "change": -30.73,
-      "changePercent": -0.4148,
+      "price": 7403.05,
+      "change": -5.45,
+      "changePercent": -0.0736,
       "high": 7434.06,
       "low": 7353.17,
       "open": 0,
       "prevClose": 7408.5,
       "week52High": 7517.12,
       "week52Low": 5767.41,
-      "volume": "2.1B",
+      "volume": "3.1B",
       "sparklineData": [
         7109.14013671875,
         7064.009765625,
@@ -36,7 +36,7 @@
         7444.25,
         7501.240234375,
         7408.5,
-        7377.77001953125
+        7403.0498046875
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 49546.29,
-      "change": 20.12,
-      "changePercent": 0.0406,
+      "price": 49686.12,
+      "change": 159.95,
+      "changePercent": 0.323,
       "high": 49761.16,
       "low": 49352.56,
       "open": 0,
       "prevClose": 49526.171875,
       "week52High": 50512.79,
       "week52Low": 41354.09,
-      "volume": "322.0M",
+      "volume": "461.5M",
       "sparklineData": [
         49442.55859375,
         49149.37890625,
@@ -88,7 +88,7 @@
         49693.19921875,
         50063.4609375,
         49526.171875,
-        49546.2890625
+        49686.12109375
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25979.68,
-      "change": -245.46,
-      "changePercent": -0.936,
+      "price": 26090.734,
+      "change": -134.41,
+      "changePercent": -0.5125,
       "high": 26310.836,
       "low": 25867.299,
       "open": 0,
       "prevClose": 26225.140625,
       "week52High": 26707.14,
       "week52Low": 18599.69,
-      "volume": "7.5B",
+      "volume": "9.1B",
       "sparklineData": [
         24404.390625,
         24259.9609375,
@@ -140,7 +140,7 @@
         26402.33984375,
         26635.220703125,
         26225.140625,
-        25979.6796875
+        26090.734375
       ],
       "sector": "",
       "marketCap": "",
@@ -162,12 +162,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 296.69,
-      "change": -3.54,
-      "changePercent": -1.1791,
+      "price": 297.84,
+      "change": -2.39,
+      "changePercent": -0.7961,
       "high": 300.66,
       "low": 294.91,
-      "open": 299.795,
+      "open": 300.24,
       "prevClose": 300.23,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -184,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "I want to pay my late 60s parents $1,000 monthly for babysitting. They refuse the money: should I invest it for them instead?",
+          "headline": "What Is an ETF? Everything Beginners Need to Know in 2026",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=98c2386b679d651abb07e96b03a15f948621e49e3041c77d809ea0c252d08c92"
+        },
+        {
+          "headline": "Market Chatter: Apple Working on AI Writing Tools, Shortcuts for iOS 27",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=50a4d31a1cb63981b3f4c6e9de2ba6934a00535cb2cf70fff412899436f69197"
+          "url": "https://finnhub.io/api/news?id=30129b869fa4fbe2da923151d95285e51dd38925bcb6f7f22621b49173a6c1c4"
         },
         {
-          "headline": "Intel Apple Chip Pact Tests Valuation As U.S. Foundry Ambitions Grow",
+          "headline": "Pepsi, Apple, and 9 More AI Momentum Trade Winners. Plus 4 Losers to Dump.",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=834103180915af08225b50b9ad281e69e50970d8d5b9f9971fbd231f158640ec"
+        },
+        {
+          "headline": "Apple Readies AI Writing Help, App Shortcuts and Wallpapers for iOS 27",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=2fbb65abe57824ac2f71486378c46262fc4088fc83d0bab49db61cf1a3f734bd"
+          "url": "https://finnhub.io/api/news?id=a3a05e67ca80c0d2d1705f98b957bec4e8726e3d57894c051c04bc02c2ab4051"
         },
         {
-          "headline": "Alphabet’s $5 Trillion Milestone: How AI Ambitions Are Fueling Google’s Record Run.",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=6b154cee2cc53acd4b5445a2a09876660e159f32432f1b4cdd231cfb6243865b"
-        },
-        {
-          "headline": "Big Tech Stocks Are Dragging Down the S&P 500",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=925489b219f70b00d8bc4825bf87cbd757fa741cf942f7f2e61d04a5f14ae9ee"
-        },
-        {
-          "headline": "Jim Cramer Shares Key Insights About Apple (AAPL)",
+          "headline": "I want to pay my late 60s parents $1,000 monthly for babysitting. They refuse the money: should I invest it for them instead?",
           "source": "Yahoo",
           "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=feb8cf62297102a6a602d6b2c1525d6df78ed5dfe4d2c2a33c4734840d8dead1"
+          "url": "https://finnhub.io/api/news?id=50a4d31a1cb63981b3f4c6e9de2ba6934a00535cb2cf70fff412899436f69197"
         }
       ],
       "earnings": [
@@ -248,12 +248,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 397.89,
-      "change": 1.11,
-      "changePercent": 0.2798,
+      "price": 396.94,
+      "change": 0.16,
+      "changePercent": 0.0403,
       "high": 408.61,
       "low": 394.53,
-      "open": 395.2425,
+      "open": 395.685,
       "prevClose": 396.78,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -262,7 +262,7 @@
       "week52High": 403.7,
       "week52Low": 162,
       "beta": 1.2744441,
-      "peRatio": 36.3157,
+      "peRatio": 36.4136,
       "eps": 10.807,
       "dividendYield": "0.22%",
       "volume": "25.4M",
@@ -270,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Deal Creates One Of World's Largest Utilities, Major Power Provider For AI Data Centers",
+          "headline": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e079dc68339c5c46551f0ba5109facf601187dc6b504117474fec386ab989e17"
+          "url": "https://finnhub.io/api/news?id=0a76698eea1b7e7d4614beab3f92916eaaf921cfe309d72563920fade4014afc"
         },
         {
-          "headline": "Prediction: This Beaten-Down Tech Stock Will Outperform the S&P 500 by 2027",
+          "headline": "Meta Platforms Is Down 11% in a Month While Alphabet Is Up 16%. What’s Going On?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=9b606a82c4143272e1471f14ee339028897dbd68eeeff9ad7c4fcc517d185596"
+          "url": "https://finnhub.io/api/news?id=e36834df57bc10d2e00b3e0d64cab8e0926cc082fe3648c95836a2eabc743318"
         },
         {
-          "headline": "Forget Hyperscalers, These Stocks Are The New AI Plays",
+          "headline": "SpaceX IPO Adds Second Musk Stock. It’s a Problem for Tesla",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=2c8b26022b39881081204d38b0aa0ec259270b627c53d05fd8141678d7132b0e"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=8d1b4a6b0149ff6c57685558232d3a713985d69cbeb58a03b084bf1e93a715ec"
         },
         {
-          "headline": "Alphabet Balances Youth Safety Settlement With New AI Growth Plans",
+          "headline": "CEBA Announces New Board Leadership and Board Members",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3b94fa941a3756d1d514277c68848bf7a1e9bb68b986e15a86c37d1bbb031b11"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b53cbe17dcedb75fb9d435efc16287dec888267aa7720eb0b343df9a24eabdfd"
         },
         {
-          "headline": "Dell Technologies Closes the Gap Between AI Ambition and AI Outcomes",
+          "headline": "NextEra to buy Dominion for $67 billion, betting on AI power demand",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e1fa716b2ac74815904e1d92d5f3f1eea2277cefd40e3362d8ecf2ca847beac2"
+          "url": "https://finnhub.io/api/news?id=fea96873dcfcbed6af112ffe68fe6dfdf7386172aee84ca873f7f42e8182ce59"
         }
       ],
       "earnings": [
@@ -334,12 +334,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 422.51,
-      "change": 0.59,
-      "changePercent": 0.1398,
+      "price": 423.54,
+      "change": 1.62,
+      "changePercent": 0.384,
       "high": 425.12,
       "low": 415.61,
-      "open": 418.435,
+      "open": 416.62,
       "prevClose": 421.92,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -356,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Elon Musk loses court battle against OpenAI",
+          "headline": "Key moments in the Musk vs OpenAI trial",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6df712edd5309e9c71e460bddb350dccda22390e5a8644a289a74d09a70c6ae0"
+          "url": "https://finnhub.io/api/news?id=cc86bdedcb20a270ec87e2ddee3487b16c5da061847cfdd87d085f2a94b7961c"
         },
         {
-          "headline": "Musk v. Altman verdict: jury clears OpenAI of all claims",
+          "headline": "Musk loses blockbuster OpenAI suit as jury says too late",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6e725ea57d81be93777181de8c9ccdaec65c64a28a5fb26336b6534454e81eb2"
+          "url": "https://finnhub.io/api/news?id=47b298225c0dc4d28c03b98eff760f96afb871fb9a447aad5bf2c9e72d64b83c"
         },
         {
-          "headline": "Nvidia Earnings Face High Expectations",
+          "headline": "NextEra to buy Dominion for $67 billion, betting on AI power demand",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f117e03d8f5e394c559328dae225bfd236e4feefc4ac80b5f05514d5248e0ea8"
+          "url": "https://finnhub.io/api/news?id=fea96873dcfcbed6af112ffe68fe6dfdf7386172aee84ca873f7f42e8182ce59"
         },
         {
-          "headline": "I want to pay my late 60s parents $1,000 monthly for babysitting. They refuse the money: should I invest it for them instead?",
+          "headline": "Elon Musk loses legal fight against OpenAI",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=50a4d31a1cb63981b3f4c6e9de2ba6934a00535cb2cf70fff412899436f69197"
+          "url": "https://finnhub.io/api/news?id=ddf3081082201a832f8508f345ba1b7cd05654f0b961f9ff7c2198cf03308f6f"
         },
         {
-          "headline": "Big Tech Stocks Are Dragging Down the S&P 500",
+          "headline": "Elon Musk loses lawsuit against OpenAI and Sam Altman",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=925489b219f70b00d8bc4825bf87cbd757fa741cf942f7f2e61d04a5f14ae9ee"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=caaa42482e306ec7a166ef2c91ee6cfc1696f8cd9cd919fa97f4fd0f5ae4f397"
         }
       ],
       "earnings": [
@@ -420,12 +420,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 263.98,
-      "change": -0.16,
-      "changePercent": -0.0606,
+      "price": 264.86,
+      "change": 0.72,
+      "changePercent": 0.2726,
       "high": 268.85,
       "low": 262.53,
-      "open": 263.1825,
+      "open": 263.865,
       "prevClose": 264.14,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -442,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
-          "source": "ChartMill",
+          "headline": "TEAMSTERS DENOUNCE SHAM SETTLEMENT IN AMAZON JOINT EMPLOYER CASE",
+          "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c4a0a8a9e91e36ace0cdac051ab085abbf440017e58be824330b6e3dab438de3"
+          "url": "https://finnhub.io/api/news?id=3c8b79d78422d201e5a42762d8e194d88b1e3eb51aeb48eaf796392da41f46dc"
         },
         {
-          "headline": "Amazon Faces Consumer Lawsuit Over Tariff-Related Price Hikes",
+          "headline": "What Is an ETF? Everything Beginners Need to Know in 2026",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=73e0bbe6fcac781c15a891a10e570569f45019f796f6ac0f96c9b88e2594422f"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=98c2386b679d651abb07e96b03a15f948621e49e3041c77d809ea0c252d08c92"
         },
         {
-          "headline": "UnitedHealth Stock Falls After Berkshire Hathaway Shakes Up Portfolio",
+          "headline": "Tesla’s 18.97% Weight in XLY Explains Why It Beat VCR by 9 Points in Five Years",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=0fbfc37a592494da3492ce0dbe33ed516d10893e054b360db95613d9713486b4"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=73ce1055773e71d30e1d0d26572c8965eca237d2cc885c114bac72ecdac05e42"
         },
         {
-          "headline": "Amazon, IBD's Stock Of The Day, Named 'Franchise Pick' As $3 Trillion Milestone Nears",
+          "headline": "NextEra to buy Dominion for $67 billion, betting on AI power demand",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=915ac78a45f524f77e6679b763d3c3268e771a6d06415f0178fdc1704556488a"
+          "url": "https://finnhub.io/api/news?id=fea96873dcfcbed6af112ffe68fe6dfdf7386172aee84ca873f7f42e8182ce59"
         },
         {
-          "headline": "Market Chatter: Anthropic to Brief Global Finance Officials on Cyber Risks Found by Latest AI Model",
+          "headline": "Pepsi, Apple, and 9 More AI Momentum Trade Winners. Plus 4 Losers to Dump.",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=70accef6b7984cf9d61d0c7a4620923de34b50d2f8a450aaee2abb72d23dac44"
+          "url": "https://finnhub.io/api/news?id=834103180915af08225b50b9ad281e69e50970d8d5b9f9971fbd231f158640ec"
         }
       ],
       "earnings": [
@@ -506,12 +506,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 408.98,
-      "change": -13.26,
-      "changePercent": -3.1404,
+      "price": 409.99,
+      "change": -12.25,
+      "changePercent": -2.9012,
       "high": 421.13,
       "low": 405.33,
-      "open": 417.82,
+      "open": 419.27,
       "prevClose": 422.24,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -528,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "SpaceX IPO Adds Second Musk Stock. It’s a Problem for Tesla",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=8d1b4a6b0149ff6c57685558232d3a713985d69cbeb58a03b084bf1e93a715ec"
+        },
+        {
+          "headline": "Tesla’s 18.97% Weight in XLY Explains Why It Beat VCR by 9 Points in Five Years",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=73ce1055773e71d30e1d0d26572c8965eca237d2cc885c114bac72ecdac05e42"
+        },
+        {
+          "headline": "Sam Altman and OpenAI Notch Jury Victory Against Elon Musk's Lawsuit",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=50416b4bcb95447d485d6db133468790d11d93103279208a5dbfd4d83418b5f0"
+        },
+        {
+          "headline": "Elon Musk loses legal fight against OpenAI",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=ddf3081082201a832f8508f345ba1b7cd05654f0b961f9ff7c2198cf03308f6f"
+        },
+        {
           "headline": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=c4a0a8a9e91e36ace0cdac051ab085abbf440017e58be824330b6e3dab438de3"
-        },
-        {
-          "headline": "Elon Musk loses court battle against OpenAI",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6df712edd5309e9c71e460bddb350dccda22390e5a8644a289a74d09a70c6ae0"
-        },
-        {
-          "headline": "Tesla Rival Becomes First Chinese EV Company To Make Robotaxis. Both Stocks Fall.",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=7d30896353cfc7385c5d26c580cadb3537b0a38a88ee8c36580c460c8451e893"
-        },
-        {
-          "headline": "Big Tech Stocks Are Dragging Down the S&P 500",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=925489b219f70b00d8bc4825bf87cbd757fa741cf942f7f2e61d04a5f14ae9ee"
-        },
-        {
-          "headline": "For Tesla Robotics, the Bar Just Keeps Getting Higher",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=3fa6bba55d594f36bc9b46cb080c0c221e35f2390561d8f968a7065cc6c183f5"
         }
       ],
       "earnings": [
