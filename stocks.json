@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-19T11:58:40.595Z",
+  "updatedAt": "2026-05-19T14:53:32.998Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7403.05,
-      "change": -5.45,
-      "changePercent": -0.0736,
-      "high": 7434.06,
-      "low": 7353.17,
+      "price": 7338.78,
+      "change": -64.27,
+      "changePercent": -0.8682,
+      "high": 7381.64,
+      "low": 7333.68,
       "open": 0,
-      "prevClose": 7408.5,
+      "prevClose": 7403.0498046875,
       "week52High": 7517.12,
       "week52Low": 5767.41,
-      "volume": "3.1B",
+      "volume": "804.1M",
       "sparklineData": [
         7109.14013671875,
         7064.009765625,
@@ -36,7 +36,8 @@
         7444.25,
         7501.240234375,
         7408.5,
-        7403.0498046875
+        7403.0498046875,
+        7338.77978515625
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 49686.12,
-      "change": 159.95,
-      "changePercent": 0.323,
-      "high": 49761.16,
-      "low": 49352.56,
+      "price": 49425.83,
+      "change": -260.29,
+      "changePercent": -0.5239,
+      "high": 49696.53,
+      "low": 49245.11,
       "open": 0,
-      "prevClose": 49526.171875,
+      "prevClose": 49686.12109375,
       "week52High": 50512.79,
       "week52Low": 41354.09,
-      "volume": "461.5M",
+      "volume": "137.8M",
       "sparklineData": [
         49442.55859375,
         49149.37890625,
@@ -88,7 +89,8 @@
         49693.19921875,
         50063.4609375,
         49526.171875,
-        49686.12109375
+        49686.12109375,
+        49425.828125
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26090.734,
-      "change": -134.41,
-      "changePercent": -0.5125,
-      "high": 26310.836,
-      "low": 25867.299,
+      "price": 25758.742,
+      "change": -331.99,
+      "changePercent": -1.2724,
+      "high": 26026.174,
+      "low": 25701.44,
       "open": 0,
-      "prevClose": 26225.140625,
+      "prevClose": 26090.73046875,
       "week52High": 26707.14,
       "week52Low": 18599.69,
-      "volume": "9.2B",
+      "volume": "3.8B",
       "sparklineData": [
         24404.390625,
         24259.9609375,
@@ -140,7 +142,8 @@
         26402.33984375,
         26635.220703125,
         26225.140625,
-        26090.73046875
+        26090.73046875,
+        25758.7421875
       ],
       "sector": "",
       "marketCap": "",
@@ -162,13 +165,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 297.84,
-      "change": -2.39,
-      "changePercent": -0.7961,
-      "high": 300.66,
-      "low": 294.91,
-      "open": 300.24,
-      "prevClose": 300.23,
+      "price": 297.18,
+      "change": -0.66,
+      "changePercent": -0.2216,
+      "high": 300.51,
+      "low": 296.35,
+      "open": 297.255,
+      "prevClose": 297.84,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.37T",
@@ -184,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Best Virtual Machine for Mac (2026): Parallels Recognized for Windows Performance and Compatibility by Software Experts",
+          "headline": "Fortnite returns to Apple App Store worldwide amid Supreme Court fight",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=5ea351bca566a46216d899c9f309884af35e11bbca67e14cc463eb018cd9340d"
+        },
+        {
+          "headline": "Prediction: Apple Will Be First to Hit a $6T Valuation. AI is a Massive Reason Why",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c70a89286e59b4b6c9486d29204cd58c745425f1f4d901850d971671a5656db0"
+          "url": "https://finnhub.io/api/news?id=eeb99f4c4a2d6c67c1783d513158e0615276dc392d78ce4ac9e1bfe36417e84c"
         },
         {
-          "headline": "Chinese Blockade Risks Put TSMC’s Central Chip Role Under Scrutiny",
+          "headline": "Latest News In Cloud AI - LaunchDarkly's AgentControl Revolutionizes AI Agent Management",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=761f75151bf2fd4597dc4a7bbb8bd9507fcb7db1eafb4ef70bc51c4bcb12f613"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=25494faaa89bcb7b763b80b397e984dc538556d678a7598f5e6708517a35714d"
         },
         {
-          "headline": "Apple’s Gemini Siri Overhaul Puts AI Privacy And Valuation In Focus",
+          "headline": "Trump's Kura Sushi Bet Sends Japan Shares Up 5.4%",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=54b29b143c1894d8603e9b8a045f1f71118468c8cb3c94012ef5ec7853d60372"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=72775ff9a3d2aeb62d271f791227c17de0cc76889435162a99db41b049b5e686"
         },
         {
-          "headline": "Many Trends Within The Same Market - Weekly Blog # 941",
-          "source": "SeekingAlpha",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=a5002febb93ce70fe435d2b7bd52fb6c24f53b7d02ba69311ef8879433c301e1"
-        },
-        {
-          "headline": "Don't Go Apple Shopping Now (Rating Downgrade)",
-          "source": "SeekingAlpha",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=2682d9fcf337ec6ef4473ab84d0e3cf6fcc7cc63cc6f4c4465c7535503a240f9"
+          "headline": "Arm Falls on Reported US Antitrust Probe",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=3bf6c726faaf71c11658cdb5c78ecb2e78a8a94c1711a4eebd526388d8486eff"
         }
       ],
       "earnings": [
@@ -248,13 +251,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 396.94,
-      "change": 0.16,
-      "changePercent": 0.0403,
-      "high": 408.61,
-      "low": 394.53,
-      "open": 395.685,
-      "prevClose": 396.78,
+      "price": 388.5,
+      "change": -8.44,
+      "changePercent": -2.1263,
+      "high": 399.235,
+      "low": 387.73,
+      "open": 399.235,
+      "prevClose": 396.94,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.80T",
@@ -270,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Billionaire Stanley Druckenmiller Dumped Google Parent Alphabet and Piled Into a Trio of Skyrocketing Memory and Storage Stocks",
+          "headline": "Trump’s Economy Is Worse Than It Looks — Key Economic Indicator Sinks to Pandemic-Era Levels",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=7a94233dd3b68baaec93234e370988263f838737277de438f856fcab1df854a5"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ae41137046080b7b7b46d1c31ee662686d10edb27b8f2d48feb6088cd6d53753"
         },
         {
-          "headline": "Is It Too Late to Buy Cerebras Systems After the Stock Soared Following Its IPO?",
+          "headline": "What’s Better: SpaceX At $2T Or Google At $5T?",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=a2afeb98f9696f2e18d1a766558411d0ccf0a6a658e8b37c28084d04f323ef0d"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ad9bcbd35a419fb0c69c6489085601c1bb72c6e436293bc7bf4213283b6a0fd8"
         },
         {
-          "headline": "New Research: Google's AI Overviews Now Cost Websites 58% of Their Clicks",
+          "headline": "Finland Data Center Investment Analysis Report 2026: A $5.8 Billion Market by 2031, Growing at a CAGR of 35.18% Featuring Major DC Investors - atNorth, Borealis, Elisa, Equinix, Google, Telia, Verne",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e79a6d03fb6f75738fd8ace1af0a385a7197f35faab2c5faeb0203ef5c2f0db8"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=dd07b17e9cf280f962a6215dc52595e1cf035cc3fe01203479e49fdf9c1019a4"
         },
         {
-          "headline": "Berkshire Hathaway Bought 7 Stocks in Its First Quarter Without Warren Buffett as CEO: Here's the Best of the Bunch.",
+          "headline": "Stock Market Today: Dow, Nasdaq Futures Fall As Micron, Sandisk Extend Slide; Home Depot, Google I/O In Focus",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=07743228e4bdb0579cdf78dc398b6ee405bab41cd513e11d1def6918666e5138"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=56f0ed117f1a8a9ce85f6d55a653a02361457f7e4ad593eb66a4b0b5235a36d8"
         },
         {
-          "headline": "Omdia: Amazon, Netflix and Google to Capture Half of $81 Billion CTV Advertising Market by 2030",
+          "headline": "Sweden Data Center Market Investment Analysis Report 2026-2031 Featuring Major Colocation Operators - atNorth, Equinix, Bahnhof, Conapto, Digital Realty, EcoDataCenter, GleSYS, Kolo DC, Vaultica",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=a01a699438a124fba3beae22fa37597ea183db52d108c312dd7758ef6d7fffa5"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a843ff7d84c9ff04b1f02e00df3285b9fc435c999b743c5d58ca6cefbc869319"
         }
       ],
       "earnings": [
@@ -334,13 +337,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 423.54,
-      "change": 1.62,
-      "changePercent": 0.384,
-      "high": 425.12,
-      "low": 415.61,
-      "open": 416.62,
-      "prevClose": 421.92,
+      "price": 423.05,
+      "change": -0.49,
+      "changePercent": -0.1157,
+      "high": 432.7,
+      "low": 422.55,
+      "open": 427.04499999999996,
+      "prevClose": 423.54,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.15T",
@@ -356,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Best Virtual Machine for Mac (2026): Parallels Recognized for Windows Performance and Compatibility by Software Experts",
+          "headline": "Ireland Data Center Investment Analysis Report 2026: A $4+ Billion Market by 2031 with Opportunities in IT, Electrical, Mechanical Infrastructure, Cooling Systems, General Construction, Tier Standards",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c70a89286e59b4b6c9486d29204cd58c745425f1f4d901850d971671a5656db0"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a8333691eea1de3ffdd44fb95df80fc95c8e084fc604c359b9ba925e1d08ee94"
         },
         {
-          "headline": "Holding(s) in Company - Replacement",
+          "headline": "Trump’s Economy Is Worse Than It Looks — Key Economic Indicator Sinks to Pandemic-Era Levels",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ae841fd873a79ea95649e9a4733d819ee13bf45153a6459aa9b26c5b05a9aee9"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ae41137046080b7b7b46d1c31ee662686d10edb27b8f2d48feb6088cd6d53753"
         },
         {
-          "headline": "Solvares Group to Expand Scheduling Optimization Options for Microsoft Dynamics 365 Field Service Customers",
+          "headline": "What’s Better: SpaceX At $2T Or Google At $5T?",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=27777a611f84b575ccb5b7dccbefc4df222da71736c70f2077cf4cfeca5fa30e"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ad9bcbd35a419fb0c69c6489085601c1bb72c6e436293bc7bf4213283b6a0fd8"
         },
         {
-          "headline": "NextEra Energy: Buying The Dominion Deal",
-          "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=91632058d513f05153e521eb514b50b70c20ffd3a6e2dc4754dd605c6d738395"
+          "headline": "Only 14% of businesses have fully adopted AI — and Mark Cuban says that gap gives college grads 'a unique opportunity'",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=80893c5470f88e09af5f343d565a683219de8882c3d4595d521b0fd93d20e283"
         },
         {
-          "headline": "Wall Street Breakfast Podcast: Markets Eye Iran Pause",
-          "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=dfd40e64179ef692c8f639469215f99c39b0e8b419cb60b2238dca8e31b0e0f4"
+          "headline": "Sweden Data Center Market Investment Analysis Report 2026-2031 Featuring Major Colocation Operators - atNorth, Equinix, Bahnhof, Conapto, Digital Realty, EcoDataCenter, GleSYS, Kolo DC, Vaultica",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a843ff7d84c9ff04b1f02e00df3285b9fc435c999b743c5d58ca6cefbc869319"
         }
       ],
       "earnings": [
@@ -420,13 +423,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 264.86,
-      "change": 0.72,
-      "changePercent": 0.2726,
-      "high": 268.85,
-      "low": 262.53,
-      "open": 263.865,
-      "prevClose": 264.14,
+      "price": 257.01,
+      "change": -7.85,
+      "changePercent": -2.9638,
+      "high": 263.33500000000004,
+      "low": 256.29,
+      "open": 263.33500000000004,
+      "prevClose": 264.86,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.85T",
@@ -442,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Update: Market Chatter: Anthropic to Brief Global Finance Officials on Cyber Risks Found by Latest AI Model",
+          "headline": "Trump’s Economy Is Worse Than It Looks — Key Economic Indicator Sinks to Pandemic-Era Levels",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ae41137046080b7b7b46d1c31ee662686d10edb27b8f2d48feb6088cd6d53753"
+        },
+        {
+          "headline": "What’s Better: SpaceX At $2T Or Google At $5T?",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ad9bcbd35a419fb0c69c6489085601c1bb72c6e436293bc7bf4213283b6a0fd8"
+        },
+        {
+          "headline": "A $10,000 Investment in This AI Stock Today Could Be Worth $20,000 by 2030",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a1be415f2e22b04fa4314dee4aca7a57b1721f32c38205e7035b371661ae7751"
+        },
+        {
+          "headline": "Microsoft's biggest India data center on track to go live in mid-2026, executive says",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a63fd94e644b034bf2faf097f217d5314bc428162d248a18573e624062952341"
+          "url": "https://finnhub.io/api/news?id=aa6329d0c9198e36fbd1bb970bbd13d2fde56574ba610d9530befebee4e489c3"
         },
         {
-          "headline": "Market Chatter: Anthropic Begins Allowing Mythos Users to Share Cyber Security Threats",
+          "headline": "Geekplus Wins 2026 RBR50 Innovation Award for Robot Arm Picking Station",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c7f72ea3fdf1452f29cf3120f5114750ce824b1c492d2294ea3ddb2afd418336"
-        },
-        {
-          "headline": "Greg Abel Just Dumped Amazon. David Tepper Nearly Doubled His Stake. One of Them Is About to Look Very Smart.",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3d883f22ae48186601d1e935db655ec6f4b35f20cf7a78d28562094838e17db9"
-        },
-        {
-          "headline": "Is It Too Late to Buy Cerebras Systems After the Stock Soared Following Its IPO?",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=a2afeb98f9696f2e18d1a766558411d0ccf0a6a658e8b37c28084d04f323ef0d"
-        },
-        {
-          "headline": "NextEra Energy: Buying The Dominion Deal",
-          "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=91632058d513f05153e521eb514b50b70c20ffd3a6e2dc4754dd605c6d738395"
+          "url": "https://finnhub.io/api/news?id=5127345d938ccaa1b8354291762ea6b5c8d9cbe8bc3af8a56fbbbe0a293ac910"
         }
       ],
       "earnings": [
@@ -506,13 +509,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 409.99,
-      "change": -12.25,
-      "changePercent": -2.9012,
-      "high": 421.13,
-      "low": 405.33,
-      "open": 419.27,
-      "prevClose": 422.24,
+      "price": 395.91,
+      "change": -14.08,
+      "changePercent": -3.4342,
+      "high": 406.5,
+      "low": 393.63,
+      "open": 406.5,
+      "prevClose": 409.99,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.54T",
@@ -528,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "This EV Stock Could Soar By 79%, According to a Wall Street Analyst (Hint: Not Tesla)",
+          "headline": "3 Reasons to Sell TSLA and 1 Stock to Buy Instead",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=dc9c3943be83e834ab9a67a064c773b6ed62190a0f1da26965315fbba720cc08"
+        },
+        {
+          "headline": "If You Invested $10,000 In Tesla 10 Years Ago, This Is How Rich You Would Be Today",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=9b6876ac9cd0e4c5088bbf4d5045908098518435b4a63ab3bbd295824aac6b5b"
+        },
+        {
+          "headline": "Nissan To Follow Tesla By Possibly Exporting EVs From China To Canada, Report",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=31dc82ab2725b60a1d5bd2660fd35cb75518127a5cf07e071a501f59a063cb92"
+          "url": "https://finnhub.io/api/news?id=c29bbd09a81ab5823e96b1057d6a99831599f3d36a58265d14c806679b89cb1c"
         },
         {
-          "headline": "Dexterous Robotic Hand Maker Linkerbot Is Said to Consider Hong Kong IPO",
+          "headline": "Tesla Hikes Prices, and the Stock Takes a Hit",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=2c30d1f1d4e3542f24d2cc8bb38f0cde645a540629ca87cdc7d9ba9abea7a6e9"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=bdf791296c46a1b641eae286443bebf40760a1d305ee8b31496fd7eabf2cd9e1"
         },
         {
-          "headline": "SpaceX IPO Reshapes Tesla Investor Choices And Musk Ecosystem Exposure",
+          "headline": "GraniteShares Expands Autocallable ETF Lineup with Launch of PLTR and HOOD ETFs",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=6f5aba0a75237cea4203a885cc3d2b3a5ed4f8cce7c6d27f3a4a81ea78638855"
-        },
-        {
-          "headline": "Tesla makes necessary change fans are going to hate",
-          "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=9ddeef9656430368d71d25ae270190286b9159d98278c203f41d476f46c9a405"
-        },
-        {
-          "headline": "Planet Fitness, Gray Television, and Smith & Wesson Shares Skyrocket, What You Need To Know",
-          "source": "Yahoo",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=a2cf1baae1054942f69516c3f95585d8050e0466a239009b118933d7ee34678e"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=8fd1f3a0ba12bddd3b7e06d0cb6f8502e3ca100885dde1650582ee6112fcb33e"
         }
       ],
       "earnings": [
