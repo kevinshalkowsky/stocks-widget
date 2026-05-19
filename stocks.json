@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-19T19:30:34.225Z",
+  "updatedAt": "2026-05-19T21:09:04.791Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7364.2,
-      "change": -38.85,
-      "changePercent": -0.5248,
+      "price": 7353.61,
+      "change": -49.44,
+      "changePercent": -0.6678,
       "high": 7395.32,
       "low": 7333.68,
       "open": 0,
       "prevClose": 7403.0498046875,
       "week52High": 7517.12,
       "week52Low": 5767.41,
-      "volume": "2.1B",
+      "volume": "3.2B",
       "sparklineData": [
         7109.14013671875,
         7064.009765625,
@@ -37,7 +37,7 @@
         7501.240234375,
         7408.5,
         7403.0498046875,
-        7364.2001953125
+        7353.60986328125
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 49441.91,
-      "change": -244.21,
-      "changePercent": -0.4915,
+      "price": 49363.88,
+      "change": -322.24,
+      "changePercent": -0.6486,
       "high": 49696.53,
       "low": 49245.11,
       "open": 0,
       "prevClose": 49686.12109375,
       "week52High": 50512.79,
       "week52Low": 41354.09,
-      "volume": "322.8M",
+      "volume": "494.8M",
       "sparklineData": [
         49442.55859375,
         49149.37890625,
@@ -90,7 +90,7 @@
         50063.4609375,
         49526.171875,
         49686.12109375,
-        49441.91015625
+        49363.87890625
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25918.049,
-      "change": -172.68,
-      "changePercent": -0.6618,
+      "price": 25870.709,
+      "change": -220.02,
+      "changePercent": -0.8433,
       "high": 26050.293,
       "low": 25701.44,
       "open": 0,
       "prevClose": 26090.73046875,
       "week52High": 26707.14,
       "week52Low": 18599.69,
-      "volume": "7.2B",
+      "volume": "8.8B",
       "sparklineData": [
         24404.390625,
         24259.9609375,
@@ -143,7 +143,7 @@
         26635.220703125,
         26225.140625,
         26090.73046875,
-        25918.048828125
+        25870.708984375
       ],
       "sector": "",
       "marketCap": "",
@@ -165,12 +165,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 298.42,
-      "change": 0.58,
-      "changePercent": 0.1947,
+      "price": 298.97,
+      "change": 1.13,
+      "changePercent": 0.3794,
       "high": 300.51,
       "low": 296.35,
-      "open": 297.255,
+      "open": 296.97,
       "prevClose": 297.84,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -179,7 +179,7 @@
       "week52High": 303.2,
       "week52Low": 193.46,
       "beta": 1.0724132,
-      "peRatio": 38.8433,
+      "peRatio": 39.0872,
       "eps": 7.465,
       "dividendYield": "0.36%",
       "volume": "47.1M",
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Sector Update: Tech Stocks Mixed Late Afternoon",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d89271d705a31b62aea3926b1bec1ff32230416061f00c415fb7f1ae80fd0e19"
+        },
+        {
+          "headline": "5-star analyst drops eye-popping Intel stock price target",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=006905b9bb29d7b7c0953ad3316e220eefa155d099cbc4342a721c1cfcecb27e"
+        },
+        {
+          "headline": "AlphaSpace gives investors a new AI-powered edge",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=06e6cba4ade4e0b8309f4f1ddda94247ee529a29b099e35a39be5a21dc1f6643"
+        },
+        {
+          "headline": "Motor racing-After U.S. deal, Apple's global F1 push may take time",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=682ab6b37afae8cd2a21df8c356e55deecfaccd510e86cc65d8a017cc339cb1e"
+        },
+        {
           "headline": "Most Income Investors Have Never Heard of These 3 ETFs. One Pays 14% Monthly",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=cb3a1b8b764221e8694c414a933de36558a28a700ac10c5a42690ae3bc4ac33c"
-        },
-        {
-          "headline": "Samsung and Google detail AI smart glasses, putting pressure on Meta as Apple preps rival eyewear",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f8140758b21863ddf7e7ac45ada89ee3946137bf4dfa9bc916ade966d820983a"
-        },
-        {
-          "headline": "Apple Faces Renewed App Store Fight as Fortnite Returns",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3be81ddf479213a966df3b599b35edad410051b741fe432c8fb64caa032d5f82"
-        },
-        {
-          "headline": "Why This Vanguard ETF May Be a Safer Option for Long-Term Investors Than Tracking the S&P 500 Right Now",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=84abb7a5dadd7f0e7739c1a3a9bcf5c27324c4adcd73fde80dc8f322ee3eba4c"
-        },
-        {
-          "headline": "Investors want tokenized Apple stock on the blockchain",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=81839d92f95ca1f27886530f60d03d44ac9daaaeb0df0ffda728c35f175138d8"
         }
       ],
       "earnings": [
@@ -251,12 +251,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 389.64,
-      "change": -7.3,
-      "changePercent": -1.8391,
-      "high": 399.235,
+      "price": 387.66,
+      "change": -9.28,
+      "changePercent": -2.3379,
+      "high": 397.15,
       "low": 386.11,
-      "open": 399.235,
+      "open": 396.96,
       "prevClose": 396.94,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -265,7 +265,7 @@
       "week52High": 408.61,
       "week52Low": 162,
       "beta": 1.2747276,
-      "peRatio": 36.4136,
+      "peRatio": 35.5615,
       "eps": 10.807,
       "dividendYield": "0.22%",
       "volume": "25.4M",
@@ -273,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Google I/O: Alphabet Flexes Muscles In AI Model Pricing Vs. Rivals",
+          "headline": "5-star analyst drops eye-popping Intel stock price target",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=16f1310d7c3a3f465c283344b31145c26c389fbbfe3c1d463fae96380ccc1a20"
+          "url": "https://finnhub.io/api/news?id=006905b9bb29d7b7c0953ad3316e220eefa155d099cbc4342a721c1cfcecb27e"
         },
         {
-          "headline": "Most Income Investors Have Never Heard of These 3 ETFs. One Pays 14% Monthly",
+          "headline": "Google DeepMind hires staff from Contextual AI in licensing deal, Bloomberg News reports",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cb3a1b8b764221e8694c414a933de36558a28a700ac10c5a42690ae3bc4ac33c"
+          "url": "https://finnhub.io/api/news?id=abe4c9e0d6ff86aaac6c630081db55770348ef7c8647cacd81b1d6b0aa092db8"
         },
         {
-          "headline": "Samsung and Google detail AI smart glasses, putting pressure on Meta as Apple preps rival eyewear",
+          "headline": "Stock Market Today: Nasdaq In The Red Amid Trump-Iran Threat; Energy Stock In Buy Zone",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f8140758b21863ddf7e7ac45ada89ee3946137bf4dfa9bc916ade966d820983a"
+          "url": "https://finnhub.io/api/news?id=63367b6a26b2c6b91695de0d4ed914d60fae42c55022563316629be1931d9a64"
         },
         {
-          "headline": "Google debuts Gemini 3.5 AI model family at I/O conference",
+          "headline": "Bitcoin Miners Emerge as Unlikely Power Brokers in AI Infrastructure Race, Says Bernstein",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f4d84610f62bc49b9cc0efe9a53b22de7c76fb763fcc605a0fd922d207680c01"
+          "url": "https://finnhub.io/api/news?id=2ecc07acc60a5422a3512600b7d791b9529b0a159f1490ca8e9675caac6dadf7"
         },
         {
-          "headline": "Warby Parker Unveils First Intelligent Eyewear Design",
+          "headline": "The SpaceX IPO Could Be Weeks Away. Here Are the 2 Tech Stocks That Will Benefit Most.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4b8344da7bae78d574a3e1ef5468fa3786e4f84e2e5175ebf44f56a1aad1b6d8"
+          "url": "https://finnhub.io/api/news?id=00bc6a3d5402c8a1653ac746f6466efcb63e3dd377e64004cc2adf6305959290"
         }
       ],
       "earnings": [
@@ -337,12 +337,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 418.23,
-      "change": -5.31,
-      "changePercent": -1.2537,
+      "price": 417.42,
+      "change": -6.12,
+      "changePercent": -1.445,
       "high": 432.7,
-      "low": 417.1,
-      "open": 427.04499999999996,
+      "low": 416.49,
+      "open": 429.9,
       "prevClose": 423.54,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Most Income Investors Have Never Heard of These 3 ETFs. One Pays 14% Monthly",
+          "headline": "Amazon, Microsoft, Google power AI behind 49,000 finance layoffs",
           "source": "Yahoo",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=41121480d243a139fa4e2a58bd3f72f87ccd700691d4273a758a313f30ec4632"
+        },
+        {
+          "headline": "Why Microsoft (MSFT) Stock Is Trading Up Today",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=0c2cf78ec4b9901b63a2c809774f0f0795e4ac907110dd201f1c36bd7d249c7d"
+        },
+        {
+          "headline": "Most Income Investors Have Never Heard of These 3 ETFs. One Pays 14% Monthly",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=cb3a1b8b764221e8694c414a933de36558a28a700ac10c5a42690ae3bc4ac33c"
         },
         {
           "headline": "Microsoft at $420: Buy, Sell or Hold?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=cd178b604011002da2e3ff02664339dcd82bbe8b242f88c042dfc3330a5fd8c3"
         },
         {
           "headline": "Dell Technologies Reimagines the Modern Data Center for the AI Era",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=74b40028376bff78d0de5c358fccda517581a6579d2f5f6383fea1f7f0304a5d"
-        },
-        {
-          "headline": "Why This Vanguard ETF May Be a Safer Option for Long-Term Investors Than Tracking the S&P 500 Right Now",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=84abb7a5dadd7f0e7739c1a3a9bcf5c27324c4adcd73fde80dc8f322ee3eba4c"
-        },
-        {
-          "headline": "Apple Trades Close to 52-Week High: Buy, Sell or Hold the Stock?",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=4b1205c990a7a0a08f8c045331f4aa32eba4fdb695d57c7788cc00f438ef81fa"
         }
       ],
       "earnings": [
@@ -423,12 +423,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 259.23,
-      "change": -5.63,
-      "changePercent": -2.1257,
-      "high": 263.33500000000004,
+      "price": 259.34,
+      "change": -5.52,
+      "changePercent": -2.0841,
+      "high": 262.25,
       "low": 255.19,
-      "open": 263.33500000000004,
+      "open": 262.04,
       "prevClose": 264.86,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Most active S&P500 stocks in Tuesday's session",
-          "source": "ChartMill",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e592b65c2e13840efb0ef053aac4e0c113c47348c6f939f72c8ccc4c50680940"
-        },
-        {
-          "headline": "Most Income Investors Have Never Heard of These 3 ETFs. One Pays 14% Monthly",
+          "headline": "Is CoreWeave a Safe Stock to Buy Right Now?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cb3a1b8b764221e8694c414a933de36558a28a700ac10c5a42690ae3bc4ac33c"
+          "url": "https://finnhub.io/api/news?id=b7e3333bd5f896837f8d69d430c61ea8657a72df72988da8f27908e0531aebd0"
         },
         {
-          "headline": "AIHA Announces Star Sponsors for AIHA Connect 2026 Conference",
+          "headline": "Amazon, Microsoft, Google power AI behind 49,000 finance layoffs",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=170e70be230d840b994c14b09575abbe7a0436bf1a7b81d97de09b7a159c636f"
+          "url": "https://finnhub.io/api/news?id=41121480d243a139fa4e2a58bd3f72f87ccd700691d4273a758a313f30ec4632"
         },
         {
-          "headline": "Home Depot Q1: The Big Shift Everyone is Missing",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4bf8777596cc16d8cc160e1afe3edc43dee396f01f59384ecfeb4411b98097cd"
-        },
-        {
-          "headline": "Shopify vs Amazon. One Just Beat Earnings by 60% at a Third of the Multiple. The Choice Is Clear",
+          "headline": "Billionaire David Tepper Just Made a Big Bet. Should You Follow His Lead?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3108fb308475a943a552feb97c6c2cc21d1ab374f8ab44b3cd47e6fcca101ca9"
+          "url": "https://finnhub.io/api/news?id=b93d38e22d8b90ff997aabe32d6dc806d3529ba34485bfe4f00706dbd48d07f9"
+        },
+        {
+          "headline": "X-Energy Breaks Out of Post-IPO Slump. Why Analysts Say the Nuclear Stock Can Surge.",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=0642c8bbb50b6b3bb944144a267513a54e3e2e0dd8125fdfefe33b578c603e20"
+        },
+        {
+          "headline": "Most active S&P500 stocks in Tuesday's session",
+          "source": "ChartMill",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=e592b65c2e13840efb0ef053aac4e0c113c47348c6f939f72c8ccc4c50680940"
         }
       ],
       "earnings": [
@@ -509,12 +509,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 404.13,
-      "change": -5.86,
-      "changePercent": -1.4293,
-      "high": 406.5,
+      "price": 404.11,
+      "change": -5.88,
+      "changePercent": -1.4342,
+      "high": 405.63,
       "low": 393.63,
-      "open": 406.5,
+      "open": 403.16,
       "prevClose": 409.99,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -533,32 +533,32 @@
         {
           "headline": "Most active S&P500 stocks in Tuesday's session",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=e592b65c2e13840efb0ef053aac4e0c113c47348c6f939f72c8ccc4c50680940"
         },
         {
           "headline": "Most Income Investors Have Never Heard of These 3 ETFs. One Pays 14% Monthly",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=cb3a1b8b764221e8694c414a933de36558a28a700ac10c5a42690ae3bc4ac33c"
         },
         {
           "headline": "House Lawmakers Propose $130 Annual EV Fee Under New Infrastructure Bill",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=9c14f0847b24ee0639aecbeb0547e9acd8a83230831bd8060683ec2ad202f720"
         },
         {
           "headline": "Tesla drops as mounting headwinds test lofty valuation",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=78608f5c076a01b5fefa58946a72c9d5c32a906e1f09c649519edffeed93bcd1"
         },
         {
-          "headline": "What the Musk–Altman legal battle means for OpenAI, SpaceX IPOs",
+          "headline": "Ex-Tesla AI Director Joins Anthropic: How Andrej Karpathy Switched Sides",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=bb0b92d799c8064e000e792f7db3341fcd2c85803dc8ed5398a79aef44d02484"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=7cc322dc00d2c7253688860e1dd0bb2b0276eade8e3488a6bf5616870812e393"
         }
       ],
       "earnings": [
