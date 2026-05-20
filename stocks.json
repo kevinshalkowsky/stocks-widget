@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-20T11:39:45.522Z",
+  "updatedAt": "2026-05-20T14:26:33.080Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7353.61,
-      "change": -49.44,
-      "changePercent": -0.6678,
-      "high": 7395.32,
-      "low": 7333.68,
+      "price": 7395.42,
+      "change": 41.81,
+      "changePercent": 0.5686,
+      "high": 7402.18,
+      "low": 7357.46,
       "open": 0,
-      "prevClose": 7403.0498046875,
+      "prevClose": 7353.60986328125,
       "week52High": 7517.12,
       "week52Low": 5767.41,
-      "volume": "3.2B",
+      "volume": "603.4M",
       "sparklineData": [
         7109.14013671875,
         7064.009765625,
@@ -37,7 +37,8 @@
         7501.240234375,
         7408.5,
         7403.0498046875,
-        7353.60986328125
+        7353.60986328125,
+        7395.419921875
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 49363.88,
-      "change": -322.24,
-      "changePercent": -0.6486,
-      "high": 49696.53,
-      "low": 49245.11,
+      "price": 49585.96,
+      "change": 222.08,
+      "changePercent": 0.4499,
+      "high": 49597.75,
+      "low": 49235.74,
       "open": 0,
-      "prevClose": 49686.12109375,
+      "prevClose": 49363.87890625,
       "week52High": 50512.79,
       "week52Low": 41354.09,
-      "volume": "494.8M",
+      "volume": "97.4M",
       "sparklineData": [
         49442.55859375,
         49149.37890625,
@@ -90,7 +91,8 @@
         50063.4609375,
         49526.171875,
         49686.12109375,
-        49363.87890625
+        49363.87890625,
+        49585.9609375
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25870.709,
-      "change": -220.02,
-      "changePercent": -0.8433,
-      "high": 26050.293,
-      "low": 25701.44,
+      "price": 26074.54,
+      "change": 203.83,
+      "changePercent": 0.7879,
+      "high": 26118.94,
+      "low": 25928.33,
       "open": 0,
-      "prevClose": 26090.73046875,
+      "prevClose": 25870.7109375,
       "week52High": 26707.14,
       "week52Low": 18599.69,
-      "volume": "8.8B",
+      "volume": "2.9B",
       "sparklineData": [
         24404.390625,
         24259.9609375,
@@ -143,7 +145,8 @@
         26635.220703125,
         26225.140625,
         26090.73046875,
-        25870.7109375
+        25870.7109375,
+        26074.5390625
       ],
       "sector": "",
       "marketCap": "",
@@ -165,13 +168,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 298.97,
-      "change": 1.13,
-      "changePercent": 0.3794,
-      "high": 300.51,
-      "low": 296.35,
-      "open": 296.97,
-      "prevClose": 297.84,
+      "price": 299.33,
+      "change": 0.36,
+      "changePercent": 0.1204,
+      "high": 302.37,
+      "low": 298.08,
+      "open": 298.19,
+      "prevClose": 298.97,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.39T",
@@ -187,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "XLK’s quiet edge over FTEC comes from a cap limit most investors never notice",
+          "headline": "Healthcare API Strategic Business Research Report 2026, Competitive Analysis of Apple, Athenahealth, eClinical Works, Google, Greenway Health, Microsoft, Oracle, Postman, Practice Fusion, Salesforce",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=78211fd106cda28f5e30d5aee077df4d440076ad854f0ff6d5bca7294d66cca8"
+        },
+        {
+          "headline": "Intel Is Up 5% Today: Here’s Why",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=9523c0740bbdfe3af29ac4317dd87df792e41d048f5cc1d947f138d353db29b1"
+        },
+        {
+          "headline": "Application Processor Market Size to Grow USD 62.3 Billion by 2035 | Research by SNS Insider",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=279d2dc2a8996469412a926348beeee2fe5854ac4610e7e6684258cc19d73ce2"
+        },
+        {
+          "headline": "Apple TV Series Launch Ties Services Growth To Valuation Questions",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e98ab7e7db0981409e5f23f3d871ad8c3f8365e0c670a7f1ded8f39e63684d7b"
+          "url": "https://finnhub.io/api/news?id=76ecd5a0f5bf768b2c0583d28bb86e927d94485c77d17963fb1363311e393f8b"
         },
         {
-          "headline": "Windows Apps That Don't Run on macOS (2026): Parallels Recognized as Top Solution for Running PC-Exclusive Software on Mac by Expert Consumers",
+          "headline": "Jamf Names Beth Tschida as Chief Executive Officer",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=bdb9c7bebd6373df5ee1b4994df03684f2acb878639889f18e04521013881903"
-        },
-        {
-          "headline": "The Global PFAS-Free Battery Market 2026-2036: Technologies, Regulation, and Forecasts - Profiles of 94 Companies Across Cells, Processes and Pack-level Systems Value Chain",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=cd42f2fe4b9bc0d92a04218f783e450d2339f2baee77ca0911bd2988caf63b80"
-        },
-        {
-          "headline": "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=9e16347a3c4eaa489f3ceaef5df31a116cd875912c8ac2a4daed12709f3dfcdb"
-        },
-        {
-          "headline": "Anthropic to withhold most powerful AI from British companies",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=196fdaae0d5c207cbb901084144bd57d637eefe373dd68b1657bdae4a12ec26b"
+          "url": "https://finnhub.io/api/news?id=9d0cb36e9e583fe00a0ceab8330ebf7ebffd9500f32006d7809a59b319c9f2c6"
         }
       ],
       "earnings": [
@@ -251,13 +254,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 387.66,
-      "change": -9.28,
-      "changePercent": -2.3379,
-      "high": 397.15,
-      "low": 386.11,
-      "open": 396.96,
-      "prevClose": 396.94,
+      "price": 385.45,
+      "change": -2.21,
+      "changePercent": -0.5701,
+      "high": 393.8599,
+      "low": 382.9,
+      "open": 388.07,
+      "prevClose": 387.66,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.69T",
@@ -273,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Global Materials Informatics Market 2026-2036: Microsoft, Google DeepMind, Meta FAIR, IBM Research, and NVIDIA Have Entered the Field As Direct Competitors and Infrastructure Providers",
+          "headline": "Elon Musk’s Terafab Could Ultimately Cost $119 Billion — Why That Might Be Money Well Spent",
+          "source": "Yahoo",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=f30cdd2b414e95e4e5173625c1e856b28459d067714551cffc418e5f8b324094"
+        },
+        {
+          "headline": "Healthcare API Strategic Business Research Report 2026, Competitive Analysis of Apple, Athenahealth, eClinical Works, Google, Greenway Health, Microsoft, Oracle, Postman, Practice Fusion, Salesforce",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=78211fd106cda28f5e30d5aee077df4d440076ad854f0ff6d5bca7294d66cca8"
+        },
+        {
+          "headline": "Intel Is Up 5% Today: Here’s Why",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=9523c0740bbdfe3af29ac4317dd87df792e41d048f5cc1d947f138d353db29b1"
+        },
+        {
+          "headline": "How META Stock Rises To $1,000",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=7fecfe28ae21fbae7de079c13291c6807847c657c01088d2b7f0eadf99536c63"
+        },
+        {
+          "headline": "Why End of Earnings Season Leaves the Stock Market Vulnerable",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ad37f56ec394db8300d832d6311a1b388f6e5d40fc9891e1ecb2e7c9685938f2"
-        },
-        {
-          "headline": "Mexico Data Center Market Investment & Growth Report 2026-2031 Featuring Key DC Investors - AWS, Ascenty, Equinix, Google, HostDime, KIO, Mexico Telecom Partners, Microsoft, ODATA, Scala",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=80489b4d21c657e3a8ff071d881b159979a70169f3f565f94d1ad4e46b2c8c23"
-        },
-        {
-          "headline": "Bill Ackman Dumped Most of His Alphabet Stock to Buy Microsoft Instead. Here's the Pattern Every Investor Should Study.",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=ce99ac5ad92fe4dcdca8bb848286f650be827e66f8e629675057dc55856500b9"
-        },
-        {
-          "headline": "A 5.18% Warning and a Trillion-Dollar Earnings Call Tonight",
-          "source": "ChartMill",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=83b1ce4898398172b3cb5efd0ec3cde39523a2c93eb1ceaaaafa343f66c8b3ba"
-        },
-        {
-          "headline": "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=9e16347a3c4eaa489f3ceaef5df31a116cd875912c8ac2a4daed12709f3dfcdb"
+          "url": "https://finnhub.io/api/news?id=6f1bda2da7079d27c6bee6fdc63fef35649d27bb547075a491b7481546211308"
         }
       ],
       "earnings": [
@@ -337,13 +340,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 417.42,
-      "change": -6.12,
-      "changePercent": -1.445,
-      "high": 432.7,
-      "low": 416.49,
-      "open": 429.9,
-      "prevClose": 423.54,
+      "price": 412.75,
+      "change": -4.67,
+      "changePercent": -1.1188,
+      "high": 416.05,
+      "low": 411.3001,
+      "open": 415.8225,
+      "prevClose": 417.42,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.10T",
@@ -359,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Global Materials Informatics Market 2026-2036: Microsoft, Google DeepMind, Meta FAIR, IBM Research, and NVIDIA Have Entered the Field As Direct Competitors and Infrastructure Providers",
+          "headline": "Healthcare API Strategic Business Research Report 2026, Competitive Analysis of Apple, Athenahealth, eClinical Works, Google, Greenway Health, Microsoft, Oracle, Postman, Practice Fusion, Salesforce",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ad37f56ec394db8300d832d6311a1b388f6e5d40fc9891e1ecb2e7c9685938f2"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=78211fd106cda28f5e30d5aee077df4d440076ad854f0ff6d5bca7294d66cca8"
         },
         {
-          "headline": "XLK’s quiet edge over FTEC comes from a cap limit most investors never notice",
+          "headline": "CAI Advances Multicloud and Secure AI Strategy with AWS and Microsoft",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e98ab7e7db0981409e5f23f3d871ad8c3f8365e0c670a7f1ded8f39e63684d7b"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=112fe82fe9bfe158dc521c09465627bbf60fbdf8682fab0457f6b553c5bf6c70"
         },
         {
-          "headline": "KPMG partners with Anthropic to embed Claude in Digital Gateway",
+          "headline": "Corsica Technologies Recognized with Microsoft Verified Managed XDR Solution Status",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=74ff4adc6072b9776fea0bfcf99d2fc8607c8a3fc23887209fe5a8b2dc9103bc"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d1a206039e4ddfc0619e82181648b30bb500ecba7a37b1f01ad6ec48a6196f18"
         },
         {
-          "headline": "Why AI Still Needs the Hacker's Mind: DEVCORE Pwns Four Microsoft Products to Win Pwn2Own Berlin 2026",
+          "headline": "How META Stock Rises To $1,000",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=befc6f7e492e935223bd45518b704a49c637e1596938a4f962c9ce3535062d02"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=7fecfe28ae21fbae7de079c13291c6807847c657c01088d2b7f0eadf99536c63"
         },
         {
-          "headline": "UiPath Alliances With Microsoft And Google Cloud Test Valuation Gap",
+          "headline": "APLD vs. MSFT: Which AI Hosting and Hyperscale Stock Has More Upside?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8d8e1c90fba2c23090aa474cb9b6d46d7d2b30337ae03791f139ef2b2b3c38a4"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=2db8083978196674cecf51cf9dc45090d374c79e4ce07f06844df671c08a1426"
         }
       ],
       "earnings": [
@@ -423,13 +426,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 259.34,
-      "change": -5.52,
-      "changePercent": -2.0841,
-      "high": 262.25,
-      "low": 255.19,
-      "open": 262.04,
-      "prevClose": 264.86,
+      "price": 261.86,
+      "change": 2.52,
+      "changePercent": 0.9717,
+      "high": 263.12,
+      "low": 259.533,
+      "open": 260.06,
+      "prevClose": 259.34,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.79T",
@@ -445,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Billionaire David Tepper of Appaloosa Is Piling Into the AI Revolution With These 3 Big Purchases",
+          "headline": "Jeff Bezos dismisses AI bubble fears on CNBC",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c44748975644f639436c9a6b23afcf39e491d7dcaf8b696885ae87fc83ba85fc"
+          "timeAgo": "40m ago",
+          "url": "https://finnhub.io/api/news?id=07fe40f710aae7339f62c951264407515379766387112409be81e19a1cc7499a"
         },
         {
-          "headline": "Tech leaders favoured by hedge funds last month, Hazeltree says",
+          "headline": "Class action accuses Amazon of keeping 'hundreds of millions' in tariff refunds from customers to curry favor with Trump",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=a90e4c38e68a01773814640d936d6efad374c50de133e865169f357fcd7d6af7"
+          "timeAgo": "41m ago",
+          "url": "https://finnhub.io/api/news?id=e1d10650cc6efdbfcfef716762c6a2df2e51dce0f72597652eba4aa1dc8dd17b"
         },
         {
-          "headline": "Analysts Express Optimism on Amazon (AMZN) Amid AWS and AI Growth",
+          "headline": "Exclusive-Intuit to cut 17% of global jobs to streamline operations, memo shows",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=bc2ec52dddd539ebb82aad46b8691942328bf49c8b22bde66cb2679bcf4cf448"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=eee2ca0f4250348cd95e7f6a709f0e7c92d8d748a75ef282f60e7d1a945721db"
         },
         {
-          "headline": "Nvidia Earnings Likely to Shine Even as Stock Underperforms",
+          "headline": "Hedge Funds Followed the April Equity Rally by Increasing Exposure to Technology Leaders, Hazeltree Finds",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=42cc7c135fa6682190a53f375510af98c4874b35caf11152216eb0297f8aa0dc"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=99131d7c3492afc51378247b3bcd481822d92856254e354236a6720b2c5f3cb6"
         },
         {
-          "headline": "Warren Buffett's Successor Greg Abel Just Dumped Amazon Stock: 2 AI Stocks He Is Still Bullish On",
+          "headline": "How META Stock Rises To $1,000",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=42785f560842d0adf34f7a8f776a2ab2680a5ad39ab7efbdae61e8914c50ccce"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=7fecfe28ae21fbae7de079c13291c6807847c657c01088d2b7f0eadf99536c63"
         }
       ],
       "earnings": [
@@ -509,13 +512,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 404.11,
-      "change": -5.88,
-      "changePercent": -1.4342,
-      "high": 405.63,
-      "low": 393.63,
-      "open": 403.16,
-      "prevClose": 409.99,
+      "price": 407.23,
+      "change": 3.12,
+      "changePercent": 0.7721,
+      "high": 413.9,
+      "low": 406.39,
+      "open": 406.605,
+      "prevClose": 404.11,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.52T",
@@ -531,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Tesla FSD makes dangerous mistake in unfamiliar territory",
+          "headline": "Tesla Stock Rises. This Rival Wants to Fill Its Model S Void.",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ae69bbac08f199f7d80c99753c556be09d8fb7ae4607bd6266b037343b33bfea"
+          "timeAgo": "38m ago",
+          "url": "https://finnhub.io/api/news?id=dffd66c78b2315d362de1f613c242d2ad2a9ed75c12c081413efb88e1300e040"
         },
         {
-          "headline": "The Global PFAS-Free Battery Market 2026-2036: Technologies, Regulation, and Forecasts - Profiles of 94 Companies Across Cells, Processes and Pack-level Systems Value Chain",
+          "headline": "Elon Musk’s Terafab Could Ultimately Cost $119 Billion — Why That Might Be Money Well Spent",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=cd42f2fe4b9bc0d92a04218f783e450d2339f2baee77ca0911bd2988caf63b80"
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=f30cdd2b414e95e4e5173625c1e856b28459d067714551cffc418e5f8b324094"
         },
         {
-          "headline": "Most People Won't Lose Jobs To AI, Nvidia CEO Jensen Huang Says — But 'Will Lose Their Job To Somebody Who Uses AI'",
+          "headline": "Why Boeing Has the Most to Lose If Tesla and SpaceX Ever Combine",
           "source": "Yahoo",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=3876fcffa525a621db41f4370aa8a568874be6b3cb1fa7a06e60e9650f05559f"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=6750f8557931318607689866b99df40c59e58d32c1c21e76df47547e747f5f0c"
         },
         {
-          "headline": "1 S&P 500 Stock to Research Further and 2 Facing Challenges",
+          "headline": "Exchange-Traded Funds, Equity Futures Advance Pre-Bell Wednesday Ahead of Nvidia Earnings Report",
           "source": "Yahoo",
-          "timeAgo": "13h ago",
-          "url": "https://finnhub.io/api/news?id=4d701a1c278fc0c05bfdc319172aeec350da7780b2e3e365bb4a98f2014aa7d3"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=16f512214cb5e9cd04118edf1f347fd7d906ed5a880755e1d6e0ccf0b18b7a34"
         },
         {
-          "headline": "Why Would Anyone Buy SCHB Instead of MAGS?",
+          "headline": "Hedge Funds Followed the April Equity Rally by Increasing Exposure to Technology Leaders, Hazeltree Finds",
           "source": "Yahoo",
-          "timeAgo": "14h ago",
-          "url": "https://finnhub.io/api/news?id=cea70f646b4b19b36cffec7a401fc2ae715f060e8406879ec4a9fa9c3c5e29e3"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=99131d7c3492afc51378247b3bcd481822d92856254e354236a6720b2c5f3cb6"
         }
       ],
       "earnings": [
