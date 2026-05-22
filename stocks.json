@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-22T17:00:43.251Z",
+  "updatedAt": "2026-05-22T19:19:08.053Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7491.6,
-      "change": 45.88,
-      "changePercent": 0.6162,
-      "high": 7499.46,
+      "price": 7481.38,
+      "change": 35.66,
+      "changePercent": 0.4789,
+      "high": 7506.32,
       "low": 7463.29,
       "open": 0,
       "prevClose": 7445.72021484375,
       "week52High": 7517.12,
       "week52Low": 5767.41,
-      "volume": "1.2B",
+      "volume": "1.8B",
       "sparklineData": [
         7137.89990234375,
         7108.39990234375,
@@ -38,7 +38,7 @@
         7353.60986328125,
         7432.97021484375,
         7445.72021484375,
-        7491.60009765625
+        7481.3798828125
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 50704.53,
-      "change": 418.87,
-      "changePercent": 0.833,
-      "high": 50755.6,
+      "price": 50667.25,
+      "change": 381.59,
+      "changePercent": 0.7588,
+      "high": 50830.24,
       "low": 50434.65,
       "open": 0,
       "prevClose": 50285.66015625,
-      "week52High": 50755.6,
+      "week52High": 50830.24,
       "week52Low": 41354.09,
-      "volume": "229.4M",
+      "volume": "325.9M",
       "sparklineData": [
         49490.03125,
         49310.3203125,
@@ -92,7 +92,7 @@
         49363.87890625,
         50009.3515625,
         50285.66015625,
-        50704.53125
+        50667.25
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26436.27,
-      "change": 143.17,
-      "changePercent": 0.5445,
+      "price": 26359.969,
+      "change": 66.87,
+      "changePercent": 0.2543,
       "high": 26504.55,
       "low": 26309.8,
       "open": 0,
       "prevClose": 26293.099609375,
       "week52High": 26707.14,
       "week52Low": 18599.69,
-      "volume": "5.0B",
+      "volume": "6.6B",
       "sparklineData": [
         24657.5703125,
         24438.5,
@@ -146,7 +146,7 @@
         25870.7109375,
         26270.359375,
         26293.099609375,
-        26436.26953125
+        26359.96875
       ],
       "sector": "",
       "marketCap": "",
@@ -168,16 +168,16 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 309.05,
-      "change": 4.06,
-      "changePercent": 1.3312,
+      "price": 309.17,
+      "change": 4.18,
+      "changePercent": 1.3705,
       "high": 311.4,
       "low": 305.81,
       "open": 305.81,
       "prevClose": 304.99,
       "name": "Apple Inc",
       "sector": "Technology",
-      "marketCap": "$4.52T",
+      "marketCap": "$4.55T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
       "week52High": 305.54,
       "week52Low": 193.46,
@@ -190,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "These S&P500 stocks are the most active in today's session",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=486a37ae765a2e27a9b9b34c9d6ba4dbfc9d9ff197ee3f39d63508626634c988"
+        },
+        {
+          "headline": "One Problem for the SpaceX IPO",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a3de0b1cf19da9e3d084882e38419197f96538ba3f82cb240535fe087a0b58ae"
+        },
+        {
+          "headline": "Vanguard’s VIG Quietly Returned 247% While Investors Chased Higher Yields",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=ab65a0e79a5fa212076af582bff43b835f0bbe275de933105f6fb609ce2172d8"
+        },
+        {
           "headline": "Best Buy Poised for In-Line First-Quarter Comparable Sales, Wedbush Says",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=ccce9f453d72854ac3ff9b9833b76600bae81bbbc228679ee2d16cfa05e54e0d"
         },
         {
           "headline": "Fortnite’s App Store Return Puts Apple’s Services Model Under Spotlight",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=24e765a5f9ab2610a4d8b2fe9e18a7756ba90eb68f50dce8a9c16c342331e91d"
-        },
-        {
-          "headline": "Imax's Potential Acquirers Include Private Equity Firms, Netflix, Apple, Sony, Wedbush Says",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=254ea535a2d5c40fed2dccbca164d02e0b36b9ce2639016789a03c4fa17ed441"
-        },
-        {
-          "headline": "Apple Stock at 52-Week High: Buy, Sell or Hold?",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=eb2f48a01048d2f3ba81fa2387a1740af17bbaf626601b9506d7787ef0dcd88f"
-        },
-        {
-          "headline": "Smart ring maker Oura files to go public",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=666630788344fcd20947bb18296e0f917fb38cf9d3140c6f379883e01751d1f2"
         }
       ],
       "earnings": [
@@ -254,11 +254,11 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 385.93,
-      "change": -1.73,
-      "changePercent": -0.4463,
+      "price": 383.49,
+      "change": -4.17,
+      "changePercent": -1.0757,
       "high": 388.74,
-      "low": 383.98,
+      "low": 383,
       "open": 388.5375,
       "prevClose": 387.66,
       "name": "Alphabet Inc",
@@ -276,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Semtech's AI Business Ramp Likely to Lift Fiscal Q1 Results, Oppenheimer Says",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=1099e904a8c892528652efcca0a123fed7b529a37d83c3c3d4c6ea1fe688f5f2"
-        },
-        {
-          "headline": "Meta Settles As $400 Billion School Lawsuit Risk Looms",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e8fac1576aeba3f9a500caa2b6eab9330577897cd208db259b4d5b7d0b3d4acf"
-        },
-        {
-          "headline": "Maybe investors can wait to buy SpaceX after IPO: Lee Munson",
+          "headline": "Datadog, SK Hynix added to AI 30 List as Wedbush sees ‘third inning” of AI revolution",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5cd9cd037c49a21b34993b0452c379f4df0345158845b8a60c96ed27bcb1cddd"
+          "url": "https://finnhub.io/api/news?id=38f26756a0e0ab792499ff90032d9292d85d408c9f4e36eba847f5fed40cf3d7"
         },
         {
-          "headline": "This Alphabet‑Heavy Fund Has a Front‑Row Seat to the AI Boom — and the Market Can See Why It’s Suddenly a Top Performer",
+          "headline": "Rising US Borrowing Costs Won't Slow Massive AI Data-Center Buildout as Potential Profit Outweighs Spending",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=76994dceec52263f405db4869b2f6906e15d78e0495761655dcede5d63f971d0"
+          "url": "https://finnhub.io/api/news?id=1160810d6d0660fa177be61a8955ad358b814ff3e29604f25126f11aa7e462be"
         },
         {
-          "headline": "What's Happening With IBM Stock?",
+          "headline": "One Problem for the SpaceX IPO",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=867bc10d5952fe465e9ae3a96e4d921887e06f1dc0d5aa206a908f190f030daa"
+          "url": "https://finnhub.io/api/news?id=a3de0b1cf19da9e3d084882e38419197f96538ba3f82cb240535fe087a0b58ae"
+        },
+        {
+          "headline": "Google's AI Ad Tools Could Expand Budget Share, Ease AI Competition Fears, UBS Says",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=20147666d17ecc6a379d9a9d3d903c44893d20538e11977d3d47e6e8c5fab958"
+        },
+        {
+          "headline": "The AI Data Center Buildout Is Accelerating, and Nuclear Could Be the Most Underowned Piece of the Puzzle",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=4bb81126c4ff908f785b8da8efeeb42bf6820fbeb7f6acdead96b4aafe62597f"
         }
       ],
       "earnings": [
@@ -340,16 +340,16 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 418.72,
-      "change": -0.37,
-      "changePercent": -0.0883,
+      "price": 418.87,
+      "change": -0.22,
+      "changePercent": -0.0525,
       "high": 424.4,
       "low": 416.33,
       "open": 420.25750000000005,
       "prevClose": 419.09,
       "name": "Microsoft Corp",
       "sector": "Technology",
-      "marketCap": "$3.14T",
+      "marketCap": "$3.11T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
       "week52High": 555.45,
       "week52Low": 356.28,
@@ -362,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "SpaceX, OpenAI, Anthropic: Investors are 'better off' waiting for IPOs",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e8c461749c4e4e5a307cf81b651ba829f78145a184bdd25f4bf35b4997f1dc2d"
-        },
-        {
-          "headline": "DocuSign AI-Backed Platform Increasingly Addressing Enterprise Needs, RBC Says",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3d5bd66d5a9a10874d423ccec36a3035cfebd1dc00d0688615929a95da6a903a"
-        },
-        {
-          "headline": "Grok Could Undermine SpaceX IPO",
+          "headline": "Datadog, SK Hynix added to AI 30 List as Wedbush sees ‘third inning” of AI revolution",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=909129ed683368662c6ab1a2c6183a1290eb30f0d5e86dd59a40a3d65446cfb6"
+          "url": "https://finnhub.io/api/news?id=38f26756a0e0ab792499ff90032d9292d85d408c9f4e36eba847f5fed40cf3d7"
         },
         {
-          "headline": "What's Happening With IBM Stock?",
+          "headline": "Rising US Borrowing Costs Won't Slow Massive AI Data-Center Buildout as Potential Profit Outweighs Spending",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=867bc10d5952fe465e9ae3a96e4d921887e06f1dc0d5aa206a908f190f030daa"
+          "url": "https://finnhub.io/api/news?id=1160810d6d0660fa177be61a8955ad358b814ff3e29604f25126f11aa7e462be"
         },
         {
-          "headline": "Why SoundHound's Pipeline Growth Matters for the SOUN Stock",
+          "headline": "Activision shareholders reach $250 million settlement over Microsoft buyout",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=af305e8f60508bf402700ee4a36fa912b68fa35e79f857a5fcf9ca885f06c340"
+          "url": "https://finnhub.io/api/news?id=2845e2a168b392351f9dcd8309e2e10c273264cc19d820a44b3b5118699df732"
+        },
+        {
+          "headline": "One Problem for the SpaceX IPO",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a3de0b1cf19da9e3d084882e38419197f96538ba3f82cb240535fe087a0b58ae"
+        },
+        {
+          "headline": "Vanguard’s VIG Quietly Returned 247% While Investors Chased Higher Yields",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=ab65a0e79a5fa212076af582bff43b835f0bbe275de933105f6fb609ce2172d8"
         }
       ],
       "earnings": [
@@ -426,16 +426,16 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 267.66,
-      "change": -0.8,
-      "changePercent": -0.298,
+      "price": 266.97,
+      "change": -1.49,
+      "changePercent": -0.555,
       "high": 269.785,
-      "low": 267.48,
+      "low": 266.82,
       "open": 268.8825,
       "prevClose": 268.46,
       "name": "Amazon.com Inc",
       "sector": "Retail",
-      "marketCap": "$2.90T",
+      "marketCap": "$2.89T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 278.56,
       "week52Low": 196,
@@ -448,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Datadog, SK Hynix added to AI 30 List as Wedbush sees ‘third inning” of AI revolution",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=38f26756a0e0ab792499ff90032d9292d85d408c9f4e36eba847f5fed40cf3d7"
+        },
+        {
+          "headline": "Amazon allegedly made millions from this now illegal policy",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=448de3da9989d56e11470fd61dfcb631191872be20840258811e6271c6d2481e"
+        },
+        {
+          "headline": "Rising US Borrowing Costs Won't Slow Massive AI Data-Center Buildout as Potential Profit Outweighs Spending",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=1160810d6d0660fa177be61a8955ad358b814ff3e29604f25126f11aa7e462be"
+        },
+        {
+          "headline": "One Problem for the SpaceX IPO",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a3de0b1cf19da9e3d084882e38419197f96538ba3f82cb240535fe087a0b58ae"
+        },
+        {
           "headline": "Stock Market Week Ahead: Marvell, Dell And The Fed's Inflation Gauge",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=296d0f1cfd057ad718ce563837713f68a813cb9bc954a40e751a569270a6bb04"
-        },
-        {
-          "headline": "Canada Raises Streaming Content Requirement to 15% for Netflix, Disney, Amazon",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=0669cfd90e62eefa4625af096c2aa0b558a6eca93f967cf89f7503430c261613"
-        },
-        {
-          "headline": "Maybe investors can wait to buy SpaceX after IPO: Lee Munson",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5cd9cd037c49a21b34993b0452c379f4df0345158845b8a60c96ed27bcb1cddd"
-        },
-        {
-          "headline": "What's Happening With IBM Stock?",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=867bc10d5952fe465e9ae3a96e4d921887e06f1dc0d5aa206a908f190f030daa"
-        },
-        {
-          "headline": "Jeff Bezos argues billionaire tax hikes won’t help Americans — but here's why advocates for wealth taxes disagree",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=500e775f2278296031b11f6fdd3c78015293721ffaac112a7762e6e96434156c"
         }
       ],
       "earnings": [
@@ -512,16 +512,16 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 427.67,
-      "change": 9.82,
-      "changePercent": 2.3501,
-      "high": 431.07,
+      "price": 427.52,
+      "change": 9.67,
+      "changePercent": 2.3142,
+      "high": 431.51,
       "low": 420.51,
       "open": 421.7425,
       "prevClose": 417.85,
       "name": "Tesla Inc",
       "sector": "Automobiles",
-      "marketCap": "$1.59T",
+      "marketCap": "$1.62T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
       "week52High": 498.83,
       "week52Low": 273.21,
@@ -534,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "SpaceX Targets $75 Billion IPO at Up to $2 Trillion Valuation",
-          "source": "Yahoo",
+          "headline": "These S&P500 stocks are the most active in today's session",
+          "source": "ChartMill",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f760bbeb7b2373cbc9734f061483e0938f9ed7e1031872f3f462c8e50ef83e24"
+          "url": "https://finnhub.io/api/news?id=486a37ae765a2e27a9b9b34c9d6ba4dbfc9d9ff197ee3f39d63508626634c988"
         },
         {
-          "headline": "12 Zeros and 1 Musk: The Trillionaire Era Officially Begins.",
+          "headline": "The Federal Government Ghosts Grok",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3d7502698b4cb59d83f6ba83d045ad6525ef7460fa4c0acf3c2c20f5752a16a0"
+          "url": "https://finnhub.io/api/news?id=2a7a4592ffadc6f56c8a36a323fde9004fa11a8a482813be1e52abb9acf0f306"
         },
         {
-          "headline": "AI mania is fueling bubble-like concentration in the S&P 500",
+          "headline": "One Problem for the SpaceX IPO",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=4f0335b417da0e77c772b41d9796f79ef68192f7fe3a11483f3157cfe8ee434c"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a3de0b1cf19da9e3d084882e38419197f96538ba3f82cb240535fe087a0b58ae"
         },
         {
-          "headline": "NIO Drops 6% on First-Ever Profit, Tesla Moves Up 2%: The Two-Speed EV Trade in Action",
+          "headline": "Tesla (TSLA) Up 11.8% Since Last Earnings Report: Can It Continue?",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=dcef50292fce7886ea7f268c218efa0d28cd511e20c7a455c87611464532dcea"
+          "url": "https://finnhub.io/api/news?id=803a32e5f7e269a004015f7c1a7f6a7e564bb8ae0f53f4b35dd6552dee45ab1a"
         },
         {
-          "headline": "Tesla Recalls Model Y SUVs Over Missing Weight Labels",
+          "headline": "SpaceX Targets $75 Billion IPO at Up to $2 Trillion Valuation",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=cbb7ea971f7476441c986157bfb5ccd28f675547dba79076e1d428eb74061728"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=f760bbeb7b2373cbc9734f061483e0938f9ed7e1031872f3f462c8e50ef83e24"
         }
       ],
       "earnings": [
