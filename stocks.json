@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-26T10:38:36.045Z",
+  "updatedAt": "2026-05-26T13:44:05.446Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7473.47,
-      "change": 27.75,
-      "changePercent": 0.3727,
-      "high": 7506.32,
-      "low": 7463.29,
+      "price": 7520.31,
+      "change": 46.84,
+      "changePercent": 0.6268,
+      "high": 7522.7,
+      "low": 7508.39,
       "open": 0,
-      "prevClose": 7445.72021484375,
-      "week52High": 7517.12,
+      "prevClose": 7473.47021484375,
+      "week52High": 7522.7,
       "week52Low": 5843.66,
-      "volume": "2.7B",
+      "volume": "283.0M",
       "sparklineData": [
         7173.91015625,
         7138.7998046875,
@@ -35,7 +35,8 @@
         7353.60986328125,
         7432.97021484375,
         7445.72021484375,
-        7473.47021484375
+        7473.47021484375,
+        7520.31005859375
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 50579.7,
-      "change": 294.04,
-      "changePercent": 0.5847,
-      "high": 50830.24,
-      "low": 50434.65,
+      "price": 50722.36,
+      "change": 142.66,
+      "changePercent": 0.282,
+      "high": 50764.52,
+      "low": 50615.56,
       "open": 0,
-      "prevClose": 50285.66015625,
+      "prevClose": 50579.69921875,
       "week52High": 50830.24,
       "week52Low": 41828.35,
-      "volume": "463.5M",
+      "volume": "58.0M",
       "sparklineData": [
         49167.7890625,
         49141.9296875,
@@ -86,7 +87,8 @@
         49363.87890625,
         50009.3515625,
         50285.66015625,
-        50579.69921875
+        50579.69921875,
+        50722.359375
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26343.97,
-      "change": 50.87,
-      "changePercent": 0.1935,
-      "high": 26504.55,
-      "low": 26309.8,
+      "price": 26574.857,
+      "change": 230.89,
+      "changePercent": 0.8764,
+      "high": 26602.559,
+      "low": 26533.85,
       "open": 0,
-      "prevClose": 26293.099609375,
+      "prevClose": 26343.970703125,
       "week52High": 26707.14,
       "week52Low": 18847.74,
-      "volume": "8.2B",
+      "volume": "1.8B",
       "sparklineData": [
         24887.099609375,
         24663.80078125,
@@ -137,7 +139,8 @@
         25870.7109375,
         26270.359375,
         26293.099609375,
-        26343.970703125
+        26343.970703125,
+        26574.857421875
       ],
       "sector": "",
       "marketCap": "",
@@ -159,13 +162,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 308.82,
-      "change": 3.83,
-      "changePercent": 1.2558,
-      "high": 311.4,
-      "low": 305.84,
-      "open": 306.12,
-      "prevClose": 304.99,
+      "price": 310.75,
+      "change": 1.93,
+      "changePercent": 0.625,
+      "high": 311.49,
+      "low": 309.35,
+      "open": 309.58000000000004,
+      "prevClose": 308.82,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.54T",
@@ -181,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "April shipments of foreign-branded phones in China up 1.8% Y/Y, CAICT data shows",
+          "headline": "VIG Calls Itself a Dividend Appreciation Fund, But Its 1.5 Percent Yield Reveals What That Really Means",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=bf682679c477d3dc736c93297bb8624f7b9673b5a492fd6e1994b4f4d6dbb036"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=0eaa62caecace9ccad0a44d2ee46457fee4731a1f08420450a5db12c80698183"
         },
         {
-          "headline": "Ferrari launches first fully electric car with Jony Ive’s ‘polarising’ design",
+          "headline": "Walmart Got Kicked Out of the $1 Trillion Club. Is the Dividend King Stock a No-Brainer Buy Before the End of May?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=dd3a82af37fca3ed8bd8a53664e30fa5a59d8a57f404b4f8f1c6005957503f33"
+        },
+        {
+          "headline": "Omdia: European Smartphone Market Grows 2% in 1Q26 as Prices Hit Record High",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=cc612774e5f7fec429a7e4633b9ded1bfd2c86ec0bbcc28882e4743cb4d698eb"
+          "url": "https://finnhub.io/api/news?id=a03912210cc15f6568c7f3f6c30a8fc986ca8b2391c2bf5355f23c72c80c13ae"
         },
         {
-          "headline": "Jony Ive Designed Ferrari Luce Debuts With A $640,000 Price Tag And Interiors That Drift Apart From Tesla's Screen-Heavy Approach",
+          "headline": "Ferrari Stock Drops After the Supercar Maker Reveals Its First EV",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=45423aca42e8c0d8473ae03921cafb72e29bd6aa0024691f5f25e75e97b775ef"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=d464e91e93365f268fcd57652a16dce1c659c5628daa79243bf0ce12055d768d"
         },
         {
-          "headline": "Ferrari bets on generational tech shift with Luce five-seat EV",
+          "headline": "April shipments of foreign-branded phones in China up 1.8% Y/Y, CAICT data shows",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=bee8db6da43026e2212444846587276a8562024748d1b2f763edd1eac4ca1149"
-        },
-        {
-          "headline": "RACE Stock Slips: Ferrari's New EV Supercar Luce Fails To Impress Retail Traders",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=37a42f9360ddf8aa6b9409ee7c776bb2656ad29785c4ec9e6fee3442ff0cde4a"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=bf682679c477d3dc736c93297bb8624f7b9673b5a492fd6e1994b4f4d6dbb036"
         }
       ],
       "earnings": [
@@ -245,13 +248,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 382.97,
-      "change": -4.69,
-      "changePercent": -1.2098,
-      "high": 388.74,
-      "low": 381.7716,
-      "open": 387.345,
-      "prevClose": 387.66,
+      "price": 384.71,
+      "change": 1.74,
+      "changePercent": 0.4543,
+      "high": 386.11,
+      "low": 382.6,
+      "open": 385.195,
+      "prevClose": 382.97,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.64T",
@@ -269,32 +272,32 @@
         {
           "headline": "Update: Market Chatter: Alphabet's Google Nears Record European Union Fine Over Alleged Search Monopoly",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f6631acb51d36e00e08315992f7587f3dad281024260c453f64deb08a98799dc"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7141823806270b41418ecd9c714600e5957d2cb45403eea941ce2612376d0a2c"
         },
         {
-          "headline": "Market Chatter: Alphabet's Google Nears Record European Union Fine Over Alleged Search Monopoly",
+          "headline": "Walmart Got Kicked Out of the $1 Trillion Club. Is the Dividend King Stock a No-Brainer Buy Before the End of May?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=22129deeee7ea93ed7795e42153f513672350857065e2218b4f205b07733704e"
+          "url": "https://finnhub.io/api/news?id=dd3a82af37fca3ed8bd8a53664e30fa5a59d8a57f404b4f8f1c6005957503f33"
         },
         {
-          "headline": "The 25-year-old founder, who recently acquired South Korea's Alquimista Media, is building a billion-dollar next-generation AI film studio.",
+          "headline": "Schneider Electric progresses phased-delivery of over $290M in AI Infrastructure Solutions, including Motivair technologies, at TeraWulf's Google-Backed Lake Mariner Campus",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=7f4517b085e6b9f9a274780fef6874d64d10f45d3f9f01b3488446dbc701f28e"
+          "url": "https://finnhub.io/api/news?id=70a88a8f2d239dd13d1834254647c2183a5aec02644ade930617d76a944aaea1"
         },
         {
-          "headline": "Zacks Market Edge Highlights: MSFT, GOOGL and NVDA",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=874441287c882e0dd9313e8bd53439ac69db8c72c66c03065809e96ca387382b"
-        },
-        {
-          "headline": "Alphabet Ties AI Hardware Cloud And Ads As EU Scrutiny Rises",
-          "source": "Yahoo",
+          "headline": "Amazon: The 20% Rally Is Just The Beginning",
+          "source": "SeekingAlpha",
           "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=a24df8fb7173fa1084853d2a6398bdde1571bff007fd91bd67a020f6b739b17b"
+          "url": "https://finnhub.io/api/news?id=4d9d7e4b7a98bc5fdeebaaf3e90663318d8a0725fbb9a19fe18df462b506bafc"
+        },
+        {
+          "headline": "Nvidia's $81 Billion Blowout Hides A Major Warning",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=a7ddabe15458aa159ffdcd0882f6dc3c3229f4d8f97faa6801728874f3f14c5e"
         }
       ],
       "earnings": [
@@ -331,13 +334,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 418.57,
-      "change": -0.52,
-      "changePercent": -0.1241,
-      "high": 424.4,
-      "low": 416.33,
-      "open": 419.535,
-      "prevClose": 419.09,
+      "price": 416.25,
+      "change": -2.32,
+      "changePercent": -0.5543,
+      "high": 417.755,
+      "low": 413.12,
+      "open": 417.755,
+      "prevClose": 418.57,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.11T",
@@ -353,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Zacks Market Edge Highlights: MSFT, GOOGL and NVDA",
+          "headline": "Near-term Concerns Open Door for Diamond Hill Large Cap Strategy’s Microsoft (MSFT) Purchase",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=bf6ccd71a8bcd3baad8196c9188f37dfb072d215f268c218960411437bbced9e"
+        },
+        {
+          "headline": "VIG Calls Itself a Dividend Appreciation Fund, But Its 1.5 Percent Yield Reveals What That Really Means",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=0eaa62caecace9ccad0a44d2ee46457fee4731a1f08420450a5db12c80698183"
+        },
+        {
+          "headline": "Walmart Got Kicked Out of the $1 Trillion Club. Is the Dividend King Stock a No-Brainer Buy Before the End of May?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=dd3a82af37fca3ed8bd8a53664e30fa5a59d8a57f404b4f8f1c6005957503f33"
+        },
+        {
+          "headline": "Nokia’s 140% Rally Turns AI Comeback Into Valuation Puzzle",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a97562cfabda67de1a42c417edcbaa24a11f44df6662c3f389e60191a86110e7"
+        },
+        {
+          "headline": "Saudi Arabia Green Data Center Market Forecast and Competitive Analysis Report 2025-2030 Featuring Oracle, Amazon Web Services, Microsoft Azure, and Google Cloud",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=874441287c882e0dd9313e8bd53439ac69db8c72c66c03065809e96ca387382b"
-        },
-        {
-          "headline": "Is Nvidia the Most Underrated Dividend Growth Stock to Own?",
-          "source": "Yahoo",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=8d638fc481b69aad712bd4385966e4294df1d672abaaeefd684f6f306843d827"
-        },
-        {
-          "headline": "Ashton Kutcher Invested In OpenAI Early: $30 Million Bet Could Be Worth Billions At $1.5 Trillion IPO",
-          "source": "Yahoo",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=bdea24883c43ada55e2640696f5c9b6d78b21a096c2428bba5817e38f98651e1"
-        },
-        {
-          "headline": "Why Microsoft's Split With OpenAI May Be Great for the Stock in the Long Run",
-          "source": "Yahoo",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=f01476cf5367cb8c0bc6b069896204ccb68f6cafba09426359dfd2181e6563c2"
-        },
-        {
-          "headline": "Billionaire Bill Ackman Just Made a Massive Bet on Microsoft. Here's Why.",
-          "source": "Yahoo",
-          "timeAgo": "14h ago",
-          "url": "https://finnhub.io/api/news?id=3ce26b3f9ab3774be97b27ce022c5cebb5723fb380b93e24c9d98d78918b2a6f"
+          "url": "https://finnhub.io/api/news?id=7ef9d8abeb667d906c5d2cd8869fe694df5573aac4a494374766a2f9b98cf6cf"
         }
       ],
       "earnings": [
@@ -417,13 +420,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 266.32,
-      "change": -2.14,
-      "changePercent": -0.7971,
-      "high": 269.785,
-      "low": 266.235,
-      "open": 268.655,
-      "prevClose": 268.46,
+      "price": 267.09,
+      "change": 0.77,
+      "changePercent": 0.2891,
+      "high": 269.3,
+      "low": 266.92,
+      "open": 268.15,
+      "prevClose": 266.32,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.86T",
@@ -439,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "This Is the Quantum Computing Stock I'd Buy Before Any Other Right Now",
+          "headline": "Walmart Got Kicked Out of the $1 Trillion Club. Is the Dividend King Stock a No-Brainer Buy Before the End of May?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=7c13c81aa1790956648021a3831b645760a6b69c61ee35c7d49dc17fddd885c6"
+          "url": "https://finnhub.io/api/news?id=dd3a82af37fca3ed8bd8a53664e30fa5a59d8a57f404b4f8f1c6005957503f33"
         },
         {
-          "headline": "Uber Moves for DoorDash Rival With $11.6 Billion Offer",
+          "headline": "Promino Announces Multi-Platform E-Commerce Growth with \"Drink Rej(TM)\" Launch as Initial Rejuvenate Muscle Health(TM) Inventory Arrives",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=cead8fdac16d853a14b295ef52577bb41bd4d1add6987f96ba9fbcda77ea3fef"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=1fe774d836fdd31d992a7ee3d3d94442c91a64fab8820cb40c0575ee7c6a114f"
         },
         {
-          "headline": "3 Blue Chip Dividend Stocks to Buy in June as the Dow Jones Industrial Average Turns 130",
+          "headline": "What Uber’s $11.6 Billion Bid for DoorDash Rival Is Really About",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=033ee5053bd5fcab3275af378c0f026c1f9286457cd796789afc4b094a0db26a"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=ea0339d1f93e34435f0611fc632afcfc70b2db869262eb6ff8599cea0b0cc1d4"
         },
         {
-          "headline": "Walmart, Target and Amazon are part of Zacks Earnings Preview",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=b74cac552c88d9bace87a2e1484ddce2e8c32f6e47229d3cc326ff903dab85a1"
+          "headline": "Amazon: The 20% Rally Is Just The Beginning",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=4d9d7e4b7a98bc5fdeebaaf3e90663318d8a0725fbb9a19fe18df462b506bafc"
         },
         {
-          "headline": "YipitData Looks at Holistic Beauty and Supplements Driving Overall Market Growth",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=b1f62c8e9b339d64ea747bbaee26f7d5b413281870de7d465bf00d947eefe3d8"
+          "headline": "Amazon: Why The Investment Case Is All About Margins",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=c95fe8fa77b32e4ddeb3ddbb40d31930b7e400270e0994e65a3d41854724e3a0"
         }
       ],
       "earnings": [
@@ -503,13 +506,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 426.01,
-      "change": 8.16,
-      "changePercent": 1.9529,
-      "high": 431.51,
-      "low": 420.51,
-      "open": 422.665,
-      "prevClose": 417.85,
+      "price": 429.02,
+      "change": 3.01,
+      "changePercent": 0.7066,
+      "high": 433.67,
+      "low": 427.64,
+      "open": 428.7,
+      "prevClose": 426.01,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.60T",
@@ -525,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Honestly, the SpaceX Prospectus Is Far Worse Than I Imagined",
+          "headline": "Latest News In Energy Transition - Revolutionizing Wind Turbine Blade Recycling: A Billion-Dollar Opportunity",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4c3e918e9625b497187821b62d593f9371293d4f43db3bc199983962a5333071"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=425fdf7d8f8c924d9eb825fa04ea6d32bb27f24b734ca61bdad6a02074fcd20d"
         },
         {
-          "headline": "Ferrari Rolls Out Five-Seat Fully Electric Car in Brand First",
+          "headline": "The Question About Elon Musk That SpaceX Refuses to Answer Before Its IPO",
           "source": "Yahoo",
-          "timeAgo": "14h ago",
-          "url": "https://finnhub.io/api/news?id=1564fa50fff86c8de8570700ed44c4478a4e0c295bfbb707326462bc0d77d9cf"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a38effd944a0e52b1e525855d778c588e697620a67d132bbce3d569fd6b065ba"
         },
         {
-          "headline": "SpaceX Just Filed for the Biggest IPO in History -- and One Number Has Wall Street Buzzing",
+          "headline": "Walmart Got Kicked Out of the $1 Trillion Club. Is the Dividend King Stock a No-Brainer Buy Before the End of May?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e01779e6072331026622c6c74a1fb86ac4c0508c4e148ff4e8a1abda6bb63b2b"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=dd3a82af37fca3ed8bd8a53664e30fa5a59d8a57f404b4f8f1c6005957503f33"
         },
         {
-          "headline": "Meet the Company Taking on SpaceX and Tesla -- It Could Be Worth More Than Both Combined by 2027",
+          "headline": "Move Over, Tesla. Another Robo-Taxi Stock Is Making Progress.",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=802c37c20ccc7d010baac83d82d16605527accd7c176790418f9e93b41030e99"
+        },
+        {
+          "headline": "Tesla Stock Trades Higher as Investors Remain Focused on SpaceX",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f178da44e7a43aa824fe676944b227785656ba7cde6b96f0a4f168aa7557726a"
-        },
-        {
-          "headline": "Tesla's Own Auditors Say The Growth Narrative Is Currently 'Not Probable'",
-          "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=5ce6398113e44fa4ea738cec96782ca520140f9213c6db43536c8fbf0cb3920e"
+          "url": "https://finnhub.io/api/news?id=eb965bb1dbd2739872a1f12928708d2e5cf3a3c928728c31a1180341abeab1a2"
         }
       ],
       "earnings": [
