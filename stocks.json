@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-27T16:29:56.075Z",
+  "updatedAt": "2026-05-27T19:10:44.337Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7513.64,
-      "change": -5.48,
-      "changePercent": -0.0729,
+      "price": 7527.25,
+      "change": 8.13,
+      "changePercent": 0.1081,
       "high": 7530.72,
-      "low": 7500.86,
+      "low": 7499.72,
       "open": 0,
       "prevClose": 7519.1201171875,
       "week52High": 7539.09,
       "week52Low": 5843.66,
-      "volume": "1.4B",
+      "volume": "2.0B",
       "sparklineData": [
         7173.91015625,
         7138.7998046875,
@@ -37,7 +37,7 @@
         7445.72021484375,
         7473.47021484375,
         7519.1201171875,
-        7513.64013671875
+        7527.25
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 50670.73,
-      "change": 209.05,
-      "changePercent": 0.4143,
+      "price": 50705.81,
+      "change": 244.13,
+      "changePercent": 0.4838,
       "high": 50830.41,
       "low": 50487.16,
       "open": 0,
       "prevClose": 50461.6796875,
       "week52High": 50830.41,
       "week52Low": 41828.35,
-      "volume": "240.7M",
+      "volume": "340.9M",
       "sparklineData": [
         49167.7890625,
         49141.9296875,
@@ -90,7 +90,7 @@
         50285.66015625,
         50579.69921875,
         50461.6796875,
-        50670.73046875
+        50705.80859375
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26624.662,
-      "change": -31.52,
-      "changePercent": -0.1182,
+      "price": 26678.889,
+      "change": 22.71,
+      "changePercent": 0.0852,
       "high": 26715.309,
       "low": 26538.312,
       "open": 0,
       "prevClose": 26656.1796875,
       "week52High": 26725.29,
       "week52Low": 18847.74,
-      "volume": "4.6B",
+      "volume": "6.4B",
       "sparklineData": [
         24887.099609375,
         24663.80078125,
@@ -143,7 +143,7 @@
         26293.099609375,
         26343.970703125,
         26656.1796875,
-        26624.662109375
+        26678.888671875
       ],
       "sector": "",
       "marketCap": "",
@@ -165,9 +165,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 311.03,
-      "change": 2.7,
-      "changePercent": 0.8757,
+      "price": 310.36,
+      "change": 2.03,
+      "changePercent": 0.6584,
       "high": 313.26,
       "low": 308.3,
       "open": 308.53499999999997,
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Bank of America tweaks Apple stock price target on AI growth",
-          "source": "Yahoo",
+          "headline": "These S&P500 stocks are the most active in today's session",
+          "source": "ChartMill",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3f1fe8ed7f8d6d6ed764da8989897e640e684d65f10c12005c06546e51c21ebb"
+          "url": "https://finnhub.io/api/news?id=ac8cd87ee5529afa7465da4b635b01d3cd771f8ceed03704fa080d4c4dc482b6"
         },
         {
-          "headline": "Netflix vs. Apple: Which Streaming Giant Is the Better Buy Right Now?",
+          "headline": "Prediction: These 5 Companies Will Be Worth More Than $10 Trillion By 2030",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=21c887bdec7a965e3e1a893476768dc5a7c547ee2809358e00f66e1ce95add2b"
+          "url": "https://finnhub.io/api/news?id=d13536dfb2e59d8bdd4ec94f359489cf8a74cc6df826a76e0eaf2cd03245b4c8"
         },
         {
-          "headline": "14 Companies Now Worth Over $1 Trillion",
+          "headline": "$1.29B bitcoin dark pool trade: What to know",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=747eba176133216294a50aaffc8edffad8ea7fdaa94986d30490e9fc9ed55041"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=fddd6ce699a7878fbfd8ecc6c15cf1c01f665301b19e37c1885dd2b2de7e8e57"
         },
         {
-          "headline": "IMAX: Price Surge In Line With Buyout Expectations, But It's Not Pure Roses",
-          "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=4421fc7b1b425604ae42c50646c03bbcaa8786ef1c834349a8dd44bdce66b52c"
-        },
-        {
-          "headline": "Why Is TSMC Stock Rising In Premarket Today?",
+          "headline": "PodcastOne (Nasdaq: PODC) Raises FY2026 Guidance to $68M–$75M Revenue and $7M–$10M Adjusted EBITDA*",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=25f8b6cca739f597ee662c7ce25c2501c9ed8c0919424403c3137b4ffe9266c7"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4d2177af4f9bc745331b50c283e1ccc71c27331c927bb23c6364a21e5ea91960"
+        },
+        {
+          "headline": "$1.29 billion of BlackRock's bitcoin ETF sold in dark pool trade",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=dd30e3b48c6e249c2f89b5b8971c6139c71aa923f5c85a18fce0854d083a8548"
         }
       ],
       "earnings": [
@@ -251,10 +251,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 391.35,
-      "change": 2.47,
-      "changePercent": 0.6352,
-      "high": 392.85,
+      "price": 391.25,
+      "change": 2.37,
+      "changePercent": 0.6094,
+      "high": 393.88,
       "low": 385.9,
       "open": 387.5825,
       "prevClose": 388.88,
@@ -273,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Anti-AI sentiment among graduates is well-founded",
-          "source": "Yahoo",
-          "timeAgo": "57m ago",
-          "url": "https://finnhub.io/api/news?id=484b6056289c74496b82695d8e497798d4dea7ec6f4c40a9c78115d91c20b160"
-        },
-        {
-          "headline": "Montera Infrastructure Promotes Tricia Arneson to Chief Operating Officer",
-          "source": "Yahoo",
-          "timeAgo": "57m ago",
-          "url": "https://finnhub.io/api/news?id=53a78e8245a7a3d762e954a3d9858db5cfc5b53334d2b91f83cc6e7f2db43aee"
-        },
-        {
-          "headline": "$20+ Bn AI Voice Generator Market by Voice Generation Platform, Technology, Application - Global Forecast to 2031 with Google, Microsoft, IBM, AWS, Adobe, NVIDIA, Meta, OpenAI Leading",
+          "headline": "Amazon, Google, Meta, Microsoft back data center clean-tech fund",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=dcdc21aca346481d38eab64d400e826284435446cd67c0db339b51c80c694f96"
+          "url": "https://finnhub.io/api/news?id=56caf6d6d833a6c1abf11034573a19752a82245e36c63f7c29a4bd5038408085"
         },
         {
-          "headline": "Google Gemini 3.5 Looks Like a Legit Flex, Yet Alphabet Stock Keeps Slipping — Is This a Glorious Buying Opportunity?",
+          "headline": "Prediction: These 5 Companies Will Be Worth More Than $10 Trillion By 2030",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ec9509c905f7c5cf6de66cf5da4d4b9cb29c023ae0d2f06a2881243c863c585c"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d13536dfb2e59d8bdd4ec94f359489cf8a74cc6df826a76e0eaf2cd03245b4c8"
         },
         {
-          "headline": "IYW vs. VGT: Is Alphabet Worth Paying Four Times More in Fees?",
+          "headline": "AMZN Stock Is Rising Today — Could Its New AI Shopping Push Be The Reason?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=1f971391196865e048fc88bff891a71c549a7a2bb772c52f7f109f3dd83f49dc"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=ce08855a9b664cb9576372f1245fec1c44b471a3f67fbefbb8ff611c52337be2"
+        },
+        {
+          "headline": "Broadcom Stock Is Ready To Buy, But There's A Catch",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=827b2c6fa864c225ac72fc55b9c39f0a75b72ffb0b46d63b7b68bccde5250269"
+        },
+        {
+          "headline": "An Upcoming IPO Could Soon Surpass NVIDIA As The World’s Most Valuable Company (It’s Not SpaceX)",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=af6b1a2cb92656409aaca00813dfdb89f086f46f688df46862f461936fd6eb75"
         }
       ],
       "earnings": [
@@ -337,9 +337,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 412.88,
-      "change": -3.15,
-      "changePercent": -0.7572,
+      "price": 411.82,
+      "change": -4.21,
+      "changePercent": -1.0119,
       "high": 415.94,
       "low": 409.58,
       "open": 412.76,
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Amazon, Google, Meta, Microsoft back data center clean-tech fund",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=56caf6d6d833a6c1abf11034573a19752a82245e36c63f7c29a4bd5038408085"
+        },
+        {
+          "headline": "The Street Just Said Micron Can Double From Here. History Says Targets Like This Are Either Genius or Generational Top-Ticks",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=879a45f177b6ae0adeceb5c592e2e4a6c1a5e59c7404536867b2e4a170982854"
+        },
+        {
+          "headline": "What's going on in today's session: dow jones movers",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=c08d34dc20931643fd4927ed58699ea2440af03f5955215948f371c2f3538879"
+        },
+        {
           "headline": "iSolutions Recognized Across G2 Summer 2026 Reports for AR Automation and ERP Excellence",
           "source": "Yahoo",
-          "timeAgo": "45m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=da3a40f9930749b5a877d31f18519d8e18ae1a9a10882b7f01e1977d8c144ae5"
         },
         {
           "headline": "$20+ Bn AI Voice Generator Market by Voice Generation Platform, Technology, Application - Global Forecast to 2031 with Google, Microsoft, IBM, AWS, Adobe, NVIDIA, Meta, OpenAI Leading",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=dcdc21aca346481d38eab64d400e826284435446cd67c0db339b51c80c694f96"
-        },
-        {
-          "headline": "ESET enters a strategic partnership with NATO alongside leading industry partners",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=9ea9ce4cbeb3e79d50dfc0f6a016a10228fc4170cdeb816443f63f0fd0e7271c"
-        },
-        {
-          "headline": "Is Wall Street underestimating MSFT AI revenue potential? Morgan Stanley weighs in",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=901282ee7d4e4e6a370ab986b6ad122ddb9569ddcf4aad77d3362b5a9de006c0"
-        },
-        {
-          "headline": "Stock Market Today: Dow Rises As Oil Prices Extend Their Losses; Micron Continues To Surge (Live Coverage)",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=723c0e02523f5638a88479d13f8289c2584019c040aba09f92153d223ce27f51"
         }
       ],
       "earnings": [
@@ -423,10 +423,10 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 270.47,
-      "change": 5.18,
-      "changePercent": 1.9526,
-      "high": 271.44,
+      "price": 271.3,
+      "change": 6.01,
+      "changePercent": 2.2654,
+      "high": 272.41,
       "low": 265.7001,
       "open": 265.72,
       "prevClose": 265.29,
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Several Billionaires Just Loaded Up on Amazon Stock",
-          "source": "Yahoo",
-          "timeAgo": "54m ago",
-          "url": "https://finnhub.io/api/news?id=8da9f4f8ba6cb8c6671adf144ba33055a1cff8f3ebbcd002c7b08bdb8818dbf0"
+          "headline": "These S&P500 stocks are the most active in today's session",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ac8cd87ee5529afa7465da4b635b01d3cd771f8ceed03704fa080d4c4dc482b6"
         },
         {
-          "headline": "Why a sleeper sofa from Amazon, Walmart, or Target is a practical buy with member benefits",
-          "source": "Yahoo",
-          "timeAgo": "59m ago",
-          "url": "https://finnhub.io/api/news?id=a8dd0d38b4526955c9d5e3f03ac96f6cfff4a382c3065975a6115c9c2f2aa30a"
-        },
-        {
-          "headline": "American Airlines to use SpaceX's Starlink, joining United & JetBlue",
+          "headline": "Amazon, Google, Meta, Microsoft back data center clean-tech fund",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b96c5038223a2882a0687af506bc3acdaca7f0a4014e69b048d57913d03f36e8"
+          "url": "https://finnhub.io/api/news?id=56caf6d6d833a6c1abf11034573a19752a82245e36c63f7c29a4bd5038408085"
         },
         {
-          "headline": "International Peace Stamp Issued",
+          "headline": "Why Walmart’s Post-Earnings Dip Is A Diversification Play",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=08ae6d189d9bc3acd7409870d9c9a089771b714a3fa2a7e5d156a78a22559414"
+          "url": "https://finnhub.io/api/news?id=1fdfead8094929b20ddf22f24aa8c61f675c07374e06ff19ea186e2f69bfccbc"
         },
         {
-          "headline": "2 Reasons to Buy FedEx Stock Now, According to J.P. Morgan",
+          "headline": "3 Growth Stocks to Buy and Hold Forever",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4e735ec5c1ce4e254e0fe848439e5416a2b633faee80321926e7e65d0f881147"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=745946b2a943c0783d156af8bbbf7d029e6a28ea6bf436c165bccacabf038acc"
+        },
+        {
+          "headline": "The Street Just Said Micron Can Double From Here. History Says Targets Like This Are Either Genius or Generational Top-Ticks",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=879a45f177b6ae0adeceb5c592e2e4a6c1a5e59c7404536867b2e4a170982854"
         }
       ],
       "earnings": [
@@ -509,9 +509,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 441.98,
-      "change": 8.39,
-      "changePercent": 1.935,
+      "price": 440.48,
+      "change": 6.89,
+      "changePercent": 1.5891,
       "high": 445.6,
       "low": 435.52,
       "open": 438.54999999999995,
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Billionaire Phillipe Laffont Recently Sold Oracle, Tesla, and Nvidia and Purchased a Stock Down 94% Since Its IPO in 2020",
-          "source": "Yahoo",
-          "timeAgo": "34m ago",
-          "url": "https://finnhub.io/api/news?id=171c935abaddf6129946e81af9b12ca07c85059c54acea2d8b3ac44fa2436b26"
+          "headline": "These S&P500 stocks are the most active in today's session",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ac8cd87ee5529afa7465da4b635b01d3cd771f8ceed03704fa080d4c4dc482b6"
         },
         {
-          "headline": "Tesla Gains as Europe EV Sales Rise",
+          "headline": "Stock Market Today: Dow Higher As Oil Falls To $90; Zscaler Tumbles On Outlook (Live Coverage)",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=00da72e2a75a1ad157ede930bdbef8e2f2145b9d4b4f185937c35f3bf924a367"
+        },
+        {
+          "headline": "AI Jobs Fallout May Trigger Token Taxes, Big Safety Net Changes As Political Risks Mount",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=7de2c49d77d62cbaab94d85f7ca879d007814a14dc0dd466fcc4b09075a04055"
+          "url": "https://finnhub.io/api/news?id=d11af5b766841eefc8c9262dbe3bd5737e5201cd0a39fdf9c3b3ed51354faac7"
         },
         {
-          "headline": "Tesla Stock Rises After Europe Deliveries Soar 46%",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=7e4e086159d0c54d9eee1fba9212f3a6de2e080a83f986857321b6d9b6d491b9"
-        },
-        {
-          "headline": "Prediction: Elon Musk Will Become the World’s First Trillionaire on June 12th",
+          "headline": "$1.29B bitcoin dark pool trade: What to know",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f1051bab9ef79ccd8ac9c99dc8be1ea016e9977ff98802cfc59f9ede778a64e4"
+          "url": "https://finnhub.io/api/news?id=fddd6ce699a7878fbfd8ecc6c15cf1c01f665301b19e37c1885dd2b2de7e8e57"
         },
         {
-          "headline": "Elon Musk’s SpaceX Bitcoin Holdings Could Eclipse Public Companies After IPO Despite Tiny Valuation Share, Grayscale Says",
+          "headline": "$1.29 billion of BlackRock's bitcoin ETF sold in dark pool trade",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d5361b889f52fc0c3d29254fd10f0ab4087a033a59c6f56a5ea3d9f23aab6634"
+          "url": "https://finnhub.io/api/news?id=dd30e3b48c6e249c2f89b5b8971c6139c71aa923f5c85a18fce0854d083a8548"
         }
       ],
       "earnings": [
