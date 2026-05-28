@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-28T16:50:45.758Z",
+  "updatedAt": "2026-05-28T19:31:21.744Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7560.92,
-      "change": 40.56,
-      "changePercent": 0.5393,
-      "high": 7565.59,
+      "price": 7565.45,
+      "change": 45.09,
+      "changePercent": 0.5996,
+      "high": 7566.91,
       "low": 7508.04,
       "open": 0,
       "prevClose": 7520.35986328125,
-      "week52High": 7565.59,
+      "week52High": 7566.91,
       "week52Low": 5843.66,
-      "volume": "1.4B",
+      "volume": "2.1B",
       "sparklineData": [
         7138.7998046875,
         7135.9501953125,
@@ -37,7 +37,7 @@
         7473.47021484375,
         7519.1201171875,
         7520.35986328125,
-        7560.919921875
+        7565.4501953125
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 50676.69,
-      "change": 32.41,
-      "changePercent": 0.064,
+      "price": 50664.34,
+      "change": 20.06,
+      "changePercent": 0.0396,
       "high": 50764.04,
       "low": 50314.34,
       "open": 0,
       "prevClose": 50644.28125,
       "week52High": 50830.41,
       "week52Low": 41828.35,
-      "volume": "216.5M",
+      "volume": "337.4M",
       "sparklineData": [
         49141.9296875,
         48861.80859375,
@@ -90,7 +90,7 @@
         50579.69921875,
         50461.6796875,
         50644.28125,
-        50676.69140625
+        50664.33984375
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26869.06,
-      "change": 194.33,
-      "changePercent": 0.7285,
-      "high": 26887.977,
+      "price": 26919.582,
+      "change": 244.85,
+      "changePercent": 0.9179,
+      "high": 26931.916,
       "low": 26588.52,
       "open": 0,
       "prevClose": 26674.73046875,
-      "week52High": 26887.977,
+      "week52High": 26931.916,
       "week52Low": 18847.74,
-      "volume": "4.4B",
+      "volume": "6.3B",
       "sparklineData": [
         24663.80078125,
         24673.240234375,
@@ -143,7 +143,7 @@
         26343.970703125,
         26656.1796875,
         26674.73046875,
-        26869.060546875
+        26919.58203125
       ],
       "sector": "",
       "marketCap": "",
@@ -165,9 +165,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 310,
-      "change": -0.85,
-      "changePercent": -0.2734,
+      "price": 311.33,
+      "change": 0.48,
+      "changePercent": 0.1544,
       "high": 312.8,
       "low": 309.57,
       "open": 310.69,
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Anthropic to roll out Claude Mythos in coming weeks, launches Opus 4.8",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=24cd4ed786663fc4ead36c4a74e00642bea4ebb7f1eae85be669a774778e6de4"
+        },
+        {
+          "headline": "Wall Street’s Laziest Fund Is Outperforming Against SPY – Time to Switch to VTI?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=0ac09d7747895344e4a355d193e4434980266d9a75d21f13f97fea64a4aa5efb"
+        },
+        {
+          "headline": "Apple Intelligence Drives Up iPhone & Mac Sales: More Upside Ahead?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=60ac0140e93b16fc557bdc9eb52c49915a3659055e20653f3fa3ec778312b86f"
+        },
+        {
+          "headline": "‘It’s insulting’: Ferrari fans have given their verdict on its first electric car, and it’s not good",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=e8905007f60d8324e69d40e609f53dd2cc2627b6eceec705e42138859d38c9e8"
+        },
+        {
           "headline": "ETFs Were Built to Make Investing Easier. They May Also Make Crashes Faster",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=8838be5a89652cfc122078e443146dd324edf410bfeb0cf2360c1ce8b1e088a8"
-        },
-        {
-          "headline": "Forget Apple: This Unstoppable Digital Infrastructure Monopoly Is Begging to Be Bought Hand Over Fist Instead",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=053ee565a87947e48998d567fd15b6146a088bfd8ac3ff5981512ce4709014d9"
-        },
-        {
-          "headline": "Is Nvidia the Next Apple?",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b89f7cad55608d2ddea2577489672b630caf2b4d37d65a1f7c9e8d8d80d2fea7"
-        },
-        {
-          "headline": "Microsoft’s AI Spending Won’t Derail Dividend Safety Inside Vanguard’s VIG",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=0f50004312d571e1057d95736aea778aa03168c24e78ca006c3e727dd7087200"
-        },
-        {
-          "headline": "Trump Accounts app launches ahead of July 4 start date",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4b3d2b76c1233cf548bb9b76577cc47738494db44baac433a72c2cad0420e4eb"
         }
       ],
       "earnings": [
@@ -251,9 +251,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 388.77,
-      "change": -0.06,
-      "changePercent": -0.0154,
+      "price": 391.05,
+      "change": 2.22,
+      "changePercent": 0.5709,
       "high": 391.505,
       "low": 385.16,
       "open": 387.97,
@@ -273,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "ETFs Were Built to Make Investing Easier. They May Also Make Crashes Faster",
+          "headline": "Google engineer busted for insider trading on Polymarket",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=8838be5a89652cfc122078e443146dd324edf410bfeb0cf2360c1ce8b1e088a8"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=138ee7050407726bb6fc5d17c04bc3a3dccc7d8abb0d71b467941dc33a0acab7"
         },
         {
-          "headline": "Forget Apple: This Unstoppable Digital Infrastructure Monopoly Is Begging to Be Bought Hand Over Fist Instead",
+          "headline": "Anthropic debuts flagship Claude Opus 4.8 AI model as IPO race with OpenAI heats up",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=053ee565a87947e48998d567fd15b6146a088bfd8ac3ff5981512ce4709014d9"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d3d5294a4fe17f5a97322191ab9dc8fa5af8212bfc1c25a9ab800d0eea62a635"
         },
         {
-          "headline": "Winmill Loads Up Qualys, Inc. Stock With 88,000 Shares in A New Position",
+          "headline": "Google Engineer Charged Over $2.75 Million in Alleged Polymarket Insider Trading Bets",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=eeda1c4e08eb2946757dd8ea1ae99eaabe8dbf22c2e83a186588e880422b7058"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=0feccd8738ec8371bbc8634bb7403cb6ae17f5de0ef5cb1339daac2b7719d8e1"
         },
         {
-          "headline": "Google worker charged with insider trading after winning $1.2m",
+          "headline": "Apple Intelligence Drives Up iPhone & Mac Sales: More Upside Ahead?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e94bf708657cff8db7eaa6cb96abc745bfa9209b188034cb94ec02935f027d44"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=60ac0140e93b16fc557bdc9eb52c49915a3659055e20653f3fa3ec778312b86f"
         },
         {
-          "headline": "Despite Hitting a $1 Trillion Valuation, Micron Remains My Favorite Stock for 2026",
+          "headline": "After Comparing Every Generative AI ETF These 3 Capture the Software Layer Most Investors Miss",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a811b73cad1385f3a175e0f22021d360874b4533abfb8c2d992d5c1ff395d825"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=c8ab3c9639e97f12da4030a3cf45120bde78bb9d06044910e90f9706d039b2b4"
         }
       ],
       "earnings": [
@@ -337,9 +337,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 424.14,
-      "change": 11.47,
-      "changePercent": 2.7795,
+      "price": 426,
+      "change": 13.33,
+      "changePercent": 3.2302,
       "high": 429.49,
       "low": 412.67,
       "open": 413.4225,
@@ -351,7 +351,7 @@
       "week52High": 555.45,
       "week52Low": 356.28,
       "beta": 1.0815674,
-      "peRatio": 30.025,
+      "peRatio": 31.1282,
       "eps": 13.6413,
       "dividendYield": "0.88%",
       "volume": "31.4M",
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "ETFs Were Built to Make Investing Easier. They May Also Make Crashes Faster",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=8838be5a89652cfc122078e443146dd324edf410bfeb0cf2360c1ce8b1e088a8"
+          "headline": "Which dow jones stocks are moving on Thursday?",
+          "source": "ChartMill",
+          "timeAgo": "21m ago",
+          "url": "https://finnhub.io/api/news?id=4e959268b546a480c9dc58c2443ad6da142670e2a07dea404bce21c542f0c5ce"
         },
         {
-          "headline": "Billionaire Bill Ackman Just Loaded Up on Microsoft Stock. Should You Follow?",
-          "source": "Yahoo",
+          "headline": "Curious about the most active S&P500 stocks in today's session?",
+          "source": "ChartMill",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=33238c7e4ddb2214e92bbfc77317a5829fbac7cd05168acd1a286cac220bbb0c"
+          "url": "https://finnhub.io/api/news?id=75897942d40dc3819e1468571c1c6caad726c6aeef95c68d8733fdf64f47b5a9"
         },
         {
-          "headline": "EC-Council Launches ADG AI Framework and Self-Assessment Tool to Help Organizations Secure and Govern AI at Scale",
+          "headline": "Dell awarded $9.7B Department of Defense deal, shares gain",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=baacee990bee449f9e17aac98b49a331599ef0799411b2e89bdf47adae0ad251"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=1e9315f0c0f592e110d66e2f86cb40afa4faf00a21950359ee1b63937132c989"
         },
         {
-          "headline": "Despite Hitting a $1 Trillion Valuation, Micron Remains My Favorite Stock for 2026",
+          "headline": "Anthropic to roll out Claude Mythos in coming weeks, launches Opus 4.8",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a811b73cad1385f3a175e0f22021d360874b4533abfb8c2d992d5c1ff395d825"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=24cd4ed786663fc4ead36c4a74e00642bea4ebb7f1eae85be669a774778e6de4"
         },
         {
-          "headline": "OpenAI and Anthropic Dominate AI Revenue -- and Communicate Very Differently",
+          "headline": "Wall Street’s Laziest Fund Is Outperforming Against SPY – Time to Switch to VTI?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b0656ef43ae80065b595dbcdfb410e4f1d3218f6fbb81a59e9ceef45bff1c8f3"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=0ac09d7747895344e4a355d193e4434980266d9a75d21f13f97fea64a4aa5efb"
         }
       ],
       "earnings": [
@@ -423,10 +423,10 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 269.91,
-      "change": -1.94,
-      "changePercent": -0.7136,
-      "high": 272.33,
+      "price": 274.02,
+      "change": 2.17,
+      "changePercent": 0.7982,
+      "high": 274.19,
       "low": 267.44,
       "open": 272.28,
       "prevClose": 271.85,
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Standard Chartered Reaffirms $40K Ethereum Price Target Due to DeFi Dominance",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=d8933352957cbffdb501d15a0bfc583d3c6fff82827e26c06bc09b048ad5669b"
+          "headline": "Which dow jones stocks are moving on Thursday?",
+          "source": "ChartMill",
+          "timeAgo": "21m ago",
+          "url": "https://finnhub.io/api/news?id=4e959268b546a480c9dc58c2443ad6da142670e2a07dea404bce21c542f0c5ce"
         },
         {
-          "headline": "Top Bank Says Ethereum’s Slump May Be Masking Major Upside",
+          "headline": "USPS, DHL partner in a $10 billion 'last-mile' delivery agreement",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b1ffdb6e4695f3c97125203d9370d6a30ebabb27f4b6ddc6178c5c3f271f4820"
+          "url": "https://finnhub.io/api/news?id=968153b57bcf9289a738b71d47a42fb62cffe8f6093b51ee05a7a3377c0880c0"
         },
         {
-          "headline": "ETFs Were Built to Make Investing Easier. They May Also Make Crashes Faster",
+          "headline": "Best Buy Surges on Earnings. Its 5% Yield Looks Even Better",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=8838be5a89652cfc122078e443146dd324edf410bfeb0cf2360c1ce8b1e088a8"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=eab3e49902244529c1912858a286602c6092c6b615279bbda4479b1866e23090"
         },
         {
-          "headline": "Amazon.com vs. eBay: Which Consumer Stock Is a Better Buy in 2026?",
+          "headline": "Bath & Body Works Faces Long-Term Margin Headwinds Amid Business Revamp, UBS Says",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=bf4b9ab6024a7e7ee0fa3444924e7cb1587243f50167de6b99b9c7ac9ff0626e"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=1a1d1a9cfe2e5d055898cb924b8568648e5c3cfb2159c1fbba4c9e2dbe54e0b8"
         },
         {
-          "headline": "Amazon Will Join The $3 Trillion Club on This Date",
+          "headline": "Anthropic to roll out Claude Mythos in coming weeks, launches Opus 4.8",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ef94f7463e6b71e899e886f55fb660029250f5bfd5d2c57afd65d6fa93da083d"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=24cd4ed786663fc4ead36c4a74e00642bea4ebb7f1eae85be669a774778e6de4"
         }
       ],
       "earnings": [
@@ -509,10 +509,10 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 441.8,
-      "change": 1.44,
-      "changePercent": 0.327,
-      "high": 443.14,
+      "price": 443.89,
+      "change": 3.53,
+      "changePercent": 0.8016,
+      "high": 443.96,
       "low": 435.8575,
       "open": 435.8575,
       "prevClose": 440.36,
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Three Humanoid Robotics ETFs Built for the Tesla Optimus and Figure AI Era Most Investors Have Never Heard Of",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=517a7ee4aa87269f76ab89ba0d7311b2aa22efb325c28b832723314e2caddc33"
+        },
+        {
+          "headline": "Car Sales Stink. Why GM and Ford Are Soaring.",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=b5d9c2d800511f361ed0d8c276aff63f3fd7c251fe9c80ea5c4f52a43268b46d"
+        },
+        {
           "headline": "Will SpaceX Merge With Tesla? Elon Musk’s Combined Company Would Own Over 30,000 BTC",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=a395a56148c472e5e51db95c24111ece4afd98f9fc337e6b387ab8ee755130c5"
+        },
+        {
+          "headline": "SEC Crypto: US Agency Hits Pause on Tokenized Stocks Plan",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=6409b37a74e1ed6930456dffa9bed8653152a5d2ecb4f62aaa6f93a0a36add65"
         },
         {
           "headline": "Elon Musk Clarifies SpaceX, Anthropic AI Deal. It's Not As Big As Expected.",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=0fcc2fea6789b5fbe36b34fb828bfad4e9585d74dd7be5c691f793191469d3f1"
-        },
-        {
-          "headline": "Will Tesla Stock Hit $600 This Year?",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=cd32db8c554f14a5f8476289f3f68361bc79199042076716100eb3009e07bed4"
-        },
-        {
-          "headline": "Could a SpaceX-Tesla Merger Happen Earlier Than Expected?",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=071bdceabc95a60d6ceeaeeb83aa9c43867b6cae803219b805f9d9a154a08525"
-        },
-        {
-          "headline": "Tesla and SpaceX Merger Would Make Elon Musk A Major Bitcoin Holder",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e6ccb020cc341c86ae59d594dcdb5395991f99656c0e31d368dac9b7f3b624ba"
         }
       ],
       "earnings": [
