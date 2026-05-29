@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-29T17:23:55.522Z",
+  "updatedAt": "2026-05-29T20:03:06.519Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7580.46,
-      "change": 16.83,
-      "changePercent": 0.2225,
+      "price": 7580.06,
+      "change": 16.43,
+      "changePercent": 0.2172,
       "high": 7599.38,
       "low": 7563.55,
       "open": 0,
       "prevClose": 7563.6298828125,
       "week52High": 7599.38,
       "week52Low": 5843.66,
-      "volume": "1.7B",
+      "volume": "4.9B",
       "sparklineData": [
         7135.9501953125,
         7209.009765625,
@@ -37,7 +37,7 @@
         7519.1201171875,
         7520.35986328125,
         7563.6298828125,
-        7580.4599609375
+        7580.06005859375
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 51004.07,
-      "change": 335.1,
-      "changePercent": 0.6614,
-      "high": 51085.54,
+      "price": 51032.46,
+      "change": 363.49,
+      "changePercent": 0.7174,
+      "high": 51094.18,
       "low": 50698.27,
       "open": 0,
       "prevClose": 50668.96875,
-      "week52High": 51085.54,
+      "week52High": 51094.18,
       "week52Low": 41853.62,
-      "volume": "270.3M",
+      "volume": "810.7M",
       "sparklineData": [
         48861.80859375,
         49652.140625,
@@ -90,7 +90,7 @@
         50461.6796875,
         50644.28125,
         50668.96875,
-        51004.0703125
+        51032.4609375
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26966.146,
-      "change": 48.68,
-      "changePercent": 0.1808,
+      "price": 26972.62,
+      "change": 55.15,
+      "changePercent": 0.2049,
       "high": 27094.803,
       "low": 26859.264,
       "open": 0,
       "prevClose": 26917.470703125,
       "week52High": 27094.803,
       "week52Low": 18847.74,
-      "volume": "6.3B",
+      "volume": "8.7B",
       "sparklineData": [
         24673.240234375,
         24892.310546875,
@@ -143,7 +143,7 @@
         26656.1796875,
         26674.73046875,
         26917.470703125,
-        26966.146484375
+        26972.619140625
       ],
       "sector": "",
       "marketCap": "",
@@ -165,12 +165,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 310.37,
-      "change": -2.14,
-      "changePercent": -0.6848,
+      "price": 312.221,
+      "change": -0.289,
+      "changePercent": -0.0925,
       "high": 315,
-      "low": 310.19,
-      "open": 311.49249999999995,
+      "low": 309.53,
+      "open": 311.775,
       "prevClose": 312.51,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Which dow jones stocks are moving on Friday?",
+          "source": "ChartMill",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=307ca33b28586ceb0be655c992ec7e9352d21a9719102052a442a9830ce0b7d8"
+        },
+        {
+          "headline": "Sell in May? You Would’ve Missed One of the S&P 500’s Best Mays Since the ‘50s.",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=d20785a014d189667ede86657aa3a62ff4452dd6cbf6424fb6ad52f2a12535d9"
+        },
+        {
+          "headline": "RPG Investment Advisory Reduces Peabody Energy Stake, According to Recent SEC Filing",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=ef970c7e61f2bbd8e5fabefb1395d47e68afd6b9a2f8ca86da7b13ef8a525818"
+        },
+        {
+          "headline": "Apple (AAPL) is a Great Momentum Stock: Should You Buy?",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=02816779f7ae859b0487eca2bd5707da911488466bbe66ee176f1af1c1486f51"
+        },
+        {
           "headline": "3 Dow Jones Stocks to Consider Right Now",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=42affa4195f1cbbb11436f5a89fa6c7ab734fbff886307c583fc50b8e186d697"
-        },
-        {
-          "headline": "TikTok Pushes Deeper Into Music as Label Relationships Shift",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=4dfa91f9fee9ae5eab7a7f7dde1d63b58c0eded4e0e2514271eb9f17e9ae1d46"
-        },
-        {
-          "headline": "Hershey Bull Sees World Cup, America 250 Lifting Sales",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e84344f894a5bc01910e51890e7c32c98a3d5156058d500a9de803bf7c4ecb5e"
-        },
-        {
-          "headline": "Apple’s In-House Modem Chips Threaten Qualcomm’s (QCOM) Major Customer Base.",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=2a6b6111a0a41370d40d8c284efd5478e3bb447ea279da15a4d677db0fdb8a7f"
-        },
-        {
-          "headline": "Navigating the New Era of Physician Affiliation: AAPL Launches a Comprehensive Guide on Private Equity, PSAs, and Modern Partnership Models",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=ef19df5c5fc2f45650eebf14e32da8fd76f4743d1f538976629cf45b09213a8f"
         }
       ],
       "earnings": [
@@ -251,12 +251,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 381.95,
-      "change": -8.18,
-      "changePercent": -2.0967,
-      "high": 387.065,
-      "low": 380.35,
-      "open": 387.065,
+      "price": 380.34,
+      "change": -9.79,
+      "changePercent": -2.5094,
+      "high": 385.24,
+      "low": 378.46,
+      "open": 385.24,
       "prevClose": 390.13,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -273,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Is Big Tech Creating a National Security Crisis? Pentagon Says U.S. Troops Were Targeted Using Ad Data",
+          "headline": "Eli Lilly Breaks Out Amid Vaccine Push; Three More Stocks At Highs",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=85f6223cea2d6a67e6fc5d081abe9217dbcc2249fad3a86f39c002967d93de8f"
+          "timeAgo": "26m ago",
+          "url": "https://finnhub.io/api/news?id=6d34be96fec2fea0d3e277e81a209dbe87ca5724aff1df8276f55a60f3beac8a"
         },
         {
-          "headline": "The difference between on-prem AI vs. data centers",
+          "headline": "Lenovo Stock Doubles in May on AI Server Boom—Best Month in 27 Years",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3a2f1d12d49ef48720dad66a9a5ba1d5e32e78eb945c1653942ffa5c3412c9e3"
+          "timeAgo": "28m ago",
+          "url": "https://finnhub.io/api/news?id=f51b5c1518723001b0594fb21bbdff5439cd467905cac2bfcbcc14048e90c555"
         },
         {
-          "headline": "AMZN Deepens Its AI-Powered Shopping Push: Where Is the Stock Headed?",
+          "headline": "Waymo Unveils Ojai Robotaxi As Driverless Race Heats Up",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=aefdea12ed8c94253bd567b23dbdb18bf5e2acbf57e1dc92a3304e49501c6f02"
+          "timeAgo": "40m ago",
+          "url": "https://finnhub.io/api/news?id=5d4f4b091ca1174ffd085468f5b615b4fd221a7ab84aea2325ae905cac3b7c0f"
         },
         {
-          "headline": "Meta Platforms Could Open Up a Massive New Revenue Stream",
+          "headline": "Anthropic's $36 Billion AI Chip Deal Draws Apollo, Blackstone",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5a8479565ac7dfb097ee0cb3154ddb135bc669bb8d9407f26caea7548d41895d"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=cebbe34a17c35359fb7332581a15db1fe5d98d1449c9bff1bd14d2a54a8c76f3"
         },
         {
-          "headline": "Tesla Prepares To Use Cybercabs As Robotaxis. Here's How Big Its Fleet Is.",
+          "headline": "1 Small-Cap Stock Worth Investigating and 2 We Question",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=ce8f6a9ddfe644c7217633fb0d5b13843cd842c35fc1f8b229eea0f5f06454c4"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ab48460c23212162e484dd89945cf854afc9e7031b654f92fa6da1a79c1d39f3"
         }
       ],
       "earnings": [
@@ -337,12 +337,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 442.9,
-      "change": 15.91,
-      "changePercent": 3.7261,
-      "high": 445.64,
-      "low": 430.63750000000005,
-      "open": 430.63750000000005,
+      "price": 447.14,
+      "change": 20.15,
+      "changePercent": 4.7191,
+      "high": 447.52,
+      "low": 432.36,
+      "open": 432.545,
       "prevClose": 426.99,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+          "headline": "Lenovo Stock Doubles in May on AI Server Boom—Best Month in 27 Years",
+          "source": "Yahoo",
+          "timeAgo": "28m ago",
+          "url": "https://finnhub.io/api/news?id=f51b5c1518723001b0594fb21bbdff5439cd467905cac2bfcbcc14048e90c555"
+        },
+        {
+          "headline": "Snowflake, Oracle, ServiceNow Stocks Rally As AI Trade Heats Up Again",
+          "source": "Yahoo",
+          "timeAgo": "31m ago",
+          "url": "https://finnhub.io/api/news?id=9e96b2f425743e0dd9914b51dc57271ace4f1262606e561ae12e54700cd9b9d4"
+        },
+        {
+          "headline": "Which dow jones stocks are moving on Friday?",
           "source": "ChartMill",
-          "timeAgo": "43m ago",
-          "url": "https://finnhub.io/api/news?id=22f3e9ef1a2169ce514dbb7c7454e2bae9ccf3d3f8337352f134252bbd9d5406"
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=307ca33b28586ceb0be655c992ec7e9352d21a9719102052a442a9830ce0b7d8"
         },
         {
-          "headline": "If You're Only Going to Buy 1 Tech Stock Before the Next Earnings Season, Make It This One",
+          "headline": "1 Small-Cap Stock Worth Investigating and 2 We Question",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=76bb9a92a5510449a209b81d97677a4264e735aceb5994cde08cc023276c029b"
+          "url": "https://finnhub.io/api/news?id=ab48460c23212162e484dd89945cf854afc9e7031b654f92fa6da1a79c1d39f3"
         },
         {
-          "headline": "3 Dow Jones Stocks to Consider Right Now",
+          "headline": "Assessing Microsoft (MSFT) Valuation As Shares Show Mixed Returns And AI Narratives Collide",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=42affa4195f1cbbb11436f5a89fa6c7ab734fbff886307c583fc50b8e186d697"
-        },
-        {
-          "headline": "Palidye Holdings Initiates PENN Entertainment Position, According to Recent SEC Filing",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=90e874904ad672a16a256e85b091cd4d22a1ec5f75840cfbcc545983a9c00860"
-        },
-        {
-          "headline": "AI spending boom now bigger than the dotcom bubble but cracks are beginning to show, leading bank warns",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3a516daddfbd104ae2bdbcf48ae14afd84922bd6ff54fd4672ff266fef2cd9ae"
+          "url": "https://finnhub.io/api/news?id=aa797a68a1f7903805e659f49423f0d94ecd516338f54177e95174636a1f78fd"
         }
       ],
       "earnings": [
@@ -423,12 +423,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 271.02,
-      "change": -2.98,
-      "changePercent": -1.0876,
+      "price": 270.47,
+      "change": -3.53,
+      "changePercent": -1.2883,
       "high": 274.75,
-      "low": 270.61,
-      "open": 271.28499999999997,
+      "low": 269.64,
+      "open": 271.29,
       "prevClose": 274,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "AST SpaceMobile Plunges 17%, Planet Labs Drops 8% on Blue Origin Explosion, While Virgin Galactic Surges 11%",
+          "headline": "Lenovo Stock Doubles in May on AI Server Boom—Best Month in 27 Years",
+          "source": "Yahoo",
+          "timeAgo": "28m ago",
+          "url": "https://finnhub.io/api/news?id=f51b5c1518723001b0594fb21bbdff5439cd467905cac2bfcbcc14048e90c555"
+        },
+        {
+          "headline": "Waymo Unveils Ojai Robotaxi As Driverless Race Heats Up",
+          "source": "Yahoo",
+          "timeAgo": "40m ago",
+          "url": "https://finnhub.io/api/news?id=5d4f4b091ca1174ffd085468f5b615b4fd221a7ab84aea2325ae905cac3b7c0f"
+        },
+        {
+          "headline": "Which dow jones stocks are moving on Friday?",
+          "source": "ChartMill",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=307ca33b28586ceb0be655c992ec7e9352d21a9719102052a442a9830ce0b7d8"
+        },
+        {
+          "headline": "Update: Market Chatter: Amazon Shuts Internal AI Leaderboard After Employees Inflated Usage Scores",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f4f63a620afb48f2572ed4531b5123cfe6393790d3e32a771e7f52f5a7696055"
+          "url": "https://finnhub.io/api/news?id=44b587cb89da2ededad44c646dd0e5794fcd60caeeaa03c8db3032139c49a8fd"
         },
         {
-          "headline": "Top Midday Stories: Dell Q1 Earnings Results, Guidance Top Estimates; Autodesk to Acquire MaintainX in $3.6 Billion All-Cash Deal",
+          "headline": "Palantir Stock Is Having Its Best Day in a Year. Software Looks Like a Buy Again.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cffb544c7a2e1a33e5b3bbcd4053ba226d8fb5bf019a67ebb931bf63c76fcc37"
-        },
-        {
-          "headline": "Nuclear Stock Face-Off: Is Oklo or NuScale Power the Better Buy Right Now?",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ea9a14b629abf3eec04ff135b2e53cc76f94ffb0213234bcd0063f47237f350d"
-        },
-        {
-          "headline": "AMZN Deepens Its AI-Powered Shopping Push: Where Is the Stock Headed?",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=aefdea12ed8c94253bd567b23dbdb18bf5e2acbf57e1dc92a3304e49501c6f02"
-        },
-        {
-          "headline": "Investor Goes 70% Into Amazon With Leveraged Options, Calls Amazon ‘Ultimate Beneficiary’ of AI",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3c1898d01bd1d1d6ce17d4ae16c672220b6329baa5fed6ef03fd8d100bf19f3d"
+          "url": "https://finnhub.io/api/news?id=7025918d07bbaf9360da16272d977a4f81d0ab446cc1867dbc54563665554481"
         }
       ],
       "earnings": [
@@ -509,12 +509,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 438.7,
-      "change": -3.4,
-      "changePercent": -0.7691,
+      "price": 435.78,
+      "change": -6.32,
+      "changePercent": -1.4295,
       "high": 441.07,
       "low": 428.14,
-      "open": 440.8525,
+      "open": 439.845,
       "prevClose": 442.1,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Waymo Unveils Ojai Robotaxi As Driverless Race Heats Up",
+          "source": "Yahoo",
+          "timeAgo": "40m ago",
+          "url": "https://finnhub.io/api/news?id=5d4f4b091ca1174ffd085468f5b615b4fd221a7ab84aea2325ae905cac3b7c0f"
+        },
+        {
+          "headline": "Rivian Rallies 8% as Tesla, Nio Stall: R2 Launch and Software Growth in Focus",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=76222ad83f7844e8cea6b9eedab55f9c0fd6a8631ab358563ca2e22c96343b30"
+        },
+        {
+          "headline": "Sell in May? You Would’ve Missed One of the S&P 500’s Best Mays Since the ‘50s.",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=d20785a014d189667ede86657aa3a62ff4452dd6cbf6424fb6ad52f2a12535d9"
+        },
+        {
           "headline": "Raydium Tops $1 Trillion in Volume as RAY Token Lists Robinhood and Revolut",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=68157bb9c209f7e3e99bbcf42d8c1b2de0fa1a09baf4e02ecf75ff56b09e76e1"
         },
         {
-          "headline": "Tesla Prepares To Use Cybercabs As Robotaxis. Here's How Big Its Fleet Is.",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=ce8f6a9ddfe644c7217633fb0d5b13843cd842c35fc1f8b229eea0f5f06454c4"
-        },
-        {
-          "headline": "Tesla Robotaxi Fleet Trails Waymo in Texas",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=7dcc48d53c994cfa603a27a5f9c678c85fa358e092c16a075c5f21d63cbb1b89"
-        },
-        {
-          "headline": "Tesla Stock Fans Just Got Worrying News From Texas",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=56c0132de99887629d9b16c37f69aa17f7e59e0672d4535bb7499d728ef0f60d"
-        },
-        {
-          "headline": "Hershey Bull Sees World Cup, America 250 Lifting Sales",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e84344f894a5bc01910e51890e7c32c98a3d5156058d500a9de803bf7c4ecb5e"
+          "headline": "Baron Technology ETF Q1 2026 Portfolio Activity",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=84a58b98bd8cda69b0c3e84dcd2648abf6a111c15adb37dd7bc4d3adf309caef"
         }
       ],
       "earnings": [
