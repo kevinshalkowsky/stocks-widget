@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-06-05T00:06:24.628Z",
+  "updatedAt": "2026-06-05T05:06:09.747Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
       "price": 7584.31,
-      "change": 30.63,
-      "changePercent": 0.4055,
+      "change": -25.47,
+      "changePercent": -0.3347,
       "high": 7598.19,
       "low": 7516.54,
       "open": 0,
-      "prevClose": 7553.68017578125,
+      "prevClose": 7609.77978515625,
       "week52High": 7620.9,
       "week52Low": 5921.2,
       "volume": "3.2B",
@@ -35,8 +35,7 @@
         7580.06005859375,
         7599.9599609375,
         7609.77978515625,
-        7553.68017578125,
-        7584.31005859375
+        7553.68017578125
       ],
       "sector": "",
       "marketCap": "",
@@ -58,12 +57,12 @@
       "type": "index",
       "name": "Dow Jones",
       "price": 51561.93,
-      "change": 874.86,
-      "changePercent": 1.726,
+      "change": 254.14,
+      "changePercent": 0.4953,
       "high": 51657.89,
       "low": 50986.1,
       "open": 0,
-      "prevClose": 50687.0703125,
+      "prevClose": 51307.7890625,
       "week52High": 51657.89,
       "week52Low": 41981.14,
       "volume": "520.7M",
@@ -87,8 +86,7 @@
         51032.4609375,
         51078.87890625,
         51307.7890625,
-        50687.0703125,
-        51561.9296875
+        50687.0703125
       ],
       "sector": "",
       "marketCap": "",
@@ -110,12 +108,12 @@
       "type": "index",
       "name": "Nasdaq",
       "price": 26830.957,
-      "change": -23.02,
-      "changePercent": -0.0857,
+      "change": -262.94,
+      "changePercent": -0.9705,
       "high": 26923.701,
       "low": 26554.238,
       "open": 0,
-      "prevClose": 26853.98046875,
+      "prevClose": 27093.900390625,
       "week52High": 27190.21,
       "week52Low": 19226.22,
       "volume": "8.0B",
@@ -139,8 +137,7 @@
         26972.619140625,
         27086.810546875,
         27093.900390625,
-        26853.98046875,
-        26830.95703125
+        26853.98046875
       ],
       "sector": "",
       "marketCap": "",
@@ -175,14 +172,45 @@
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
       "week52High": 316.94,
       "week52Low": 195.07,
-      "beta": 1.0910524,
+      "beta": 1.0909144,
       "peRatio": 40.8705,
       "eps": 7.465,
       "dividendYield": "0.35%",
-      "volume": "48.6M",
-      "avgVolume": "47.0M",
+      "volume": "49.2M",
+      "avgVolume": "46.9M",
       "sparklineData": [],
-      "news": [],
+      "news": [
+        {
+          "headline": "NVIDIA Could Seal a Major Alliance With Apple After Launching Nemotron 3 Ultra AI model",
+          "source": "Yahoo",
+          "timeAgo": "8h ago",
+          "url": "https://finnhub.io/api/news?id=cdc159bf079470f04d87463a497a53af097f6aa5ba26ebac71165c292ecd5697"
+        },
+        {
+          "headline": "Liftoff Mobile IPO: Why investors are comparing it to AppLovin",
+          "source": "Yahoo",
+          "timeAgo": "8h ago",
+          "url": "https://finnhub.io/api/news?id=e74de98a010db9e1fd9297ea3feff851b7ad0151448f174563516a0f3a461bb6"
+        },
+        {
+          "headline": "Huge News For Apple and Nvidia Stock Investors",
+          "source": "Yahoo",
+          "timeAgo": "9h ago",
+          "url": "https://finnhub.io/api/news?id=0e6325bd757c9ad1c69f084cea9169fbe8bde18b9bfcfc863e52026c761780cc"
+        },
+        {
+          "headline": "Investing In The Most Valuable Firms: The MANGOS",
+          "source": "SeekingAlpha",
+          "timeAgo": "10h ago",
+          "url": "https://finnhub.io/api/news?id=a524682ed8f7801d22786d110e27945c1aa7397dcb7081ae9056553dde1b1ecf"
+        },
+        {
+          "headline": "Apple Stock And The Intelligence Test",
+          "source": "Yahoo",
+          "timeAgo": "10h ago",
+          "url": "https://finnhub.io/api/news?id=004605f92b4d930a7b64613d34a4574b995a891d7fc75397407121c9e0cd2e81"
+        }
+      ],
       "earnings": [
         {
           "quarter": "2026-03-31",
@@ -230,43 +258,43 @@
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
       "week52High": 408.61,
       "week52Low": 162,
-      "beta": 1.2461098,
+      "beta": 1.2419232,
       "peRatio": 34.1067,
       "eps": 10.807,
       "dividendYield": "0.25%",
-      "volume": "33.1M",
-      "avgVolume": "31.9M",
+      "volume": "34.3M",
+      "avgVolume": "32.1M",
       "sparklineData": [],
       "news": [
         {
+          "headline": "Why Are Reddit (RDDT) Shares Soaring Today",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=33f636591b0702692f103c6c2c198d3ce5373cbaf84ebf74462789fdb7335b12"
+        },
+        {
+          "headline": "How Xcel’s Google Data Center and EV Grid Projects Will Impact Xcel Energy (XEL) Investors",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=aa2da51ec7fba2d350b84fea8b3b6c0874875a99a8a4fa67525745a9a76e8b05"
+        },
+        {
+          "headline": "Microsoft's AI Chief Says Company Is 'Less Concerned' About Google, Meta And OpenAI As Anthropic Battle Heats Up— 'We've Closed An Enormous Gap...'",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=ea0266c2deb154f42122247a2bed36996a2d9db86dfa93d7dc5b15215995491f"
+        },
+        {
           "headline": "Dow Jones Futures: Techs Fall After Dow Hits High, AI Shrugs Off Broadcom, Ciena; Jobs Report Looms",
           "source": "Yahoo",
-          "timeAgo": "16m ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=6326752a75cb20d60ea3724261f432aa54c031c1402e6cb92d216a9dbf218fc1"
         },
         {
           "headline": "Should You Buy Leading AI Stocks Today -- Or Wait to Invest in SpaceX, Anthropic, and OpenAI's Supersized IPOs?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=3b04628e77109dc84afd5cc8d5575457ead30722cb121f0eef8490d0f77ec8fe"
-        },
-        {
-          "headline": "Stock Market Today, June 4: Dow Hits Record as Tech Stocks Falter",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c6d76ce04864949e5bfdf2e1c1778085ebad6de6b6eefa2b210076784138998e"
-        },
-        {
-          "headline": "Dow Jones Hits High, AI Stocks Shrug Off Broadcom, Ciena Sell-Offs; Jobs Report Looms",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=03d03f0f811a0bc7b709f4673c6b70577ada081168a64b2edb08d539114be0b7"
-        },
-        {
-          "headline": "Alphabet Will Soon Be Berkshire Hathaway's Fourth-Biggest Holding. I've Got a Problem With How and Why.",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=523e1acfb2f9f31d2a9dd2c6536fc6c850522e05822f189480f9036274d14373"
         }
       ],
       "earnings": [
@@ -325,34 +353,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "QBIX Becomes Northbank Technology Group, Marking a New Chapter in ERP Modernization for Northern California Businesses",
+          "headline": "Microsoft Held Up as AI Chips Sold Off. Is It the Safer Megacap Bet Now?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=dcffac7093120b9b282a4b9d5a44d5388e4b15c3b6356b29d0a9527856c28e6d"
+        },
+        {
+          "headline": "Microsoft's AI Chief Says Company Is 'Less Concerned' About Google, Meta And OpenAI As Anthropic Battle Heats Up— 'We've Closed An Enormous Gap...'",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=ea0266c2deb154f42122247a2bed36996a2d9db86dfa93d7dc5b15215995491f"
+        },
+        {
+          "headline": "QBIX Becomes Northbank Technology Group, Marking a New Chapter in ERP Modernization for Northern California Businesses",
+          "source": "Yahoo",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=23b5c55db771db946ddb61adb4c15696137ca53ea3c03cb3ab8f695abcde1cf3"
         },
         {
           "headline": "Could SpaceX Be Worth More Than Microsoft On Its IPO Day? Some Traders Are Betting On It",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=621b19e4dd13a18bbfe985eed7174dede01595ec1498fc181a58d5a7c9ac5e13"
         },
         {
           "headline": "How Microsoft, OpenAI went from partnership to 'situationship'",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=2178056a3c271a3a3d13c5f12e5659ead9feea4cdaaee6b092085d0ff50633ce"
-        },
-        {
-          "headline": "Microsoft debuts in-house MAI-Thinking-1 model",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=76da904464e3fcb50dfd4990f0eac62ba42b5165733902d1793388f06aed56cb"
-        },
-        {
-          "headline": "Sorcero CEO Dipanwita Das Among Only 3 Founders in Life Sciences AI Recognized on 2026 100 Women in AI",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=7c939e84c68fe790b127bd857bd278fff4305d7d38f67cf35598c2a11f5701de"
         }
       ],
       "earnings": [
@@ -402,43 +430,43 @@
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 278.56,
       "week52Low": 196,
-      "beta": 1.4665543,
+      "beta": 1.4638025,
       "peRatio": 35.0863,
       "eps": 7.1737,
       "dividendYield": "",
-      "volume": "41.9M",
+      "volume": "42.0M",
       "avgVolume": "49.4M",
       "sparklineData": [],
       "news": [
         {
+          "headline": "The $200 Billion Reason Amazon Could Be an Overlooked AI Winner",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7e8ab8bd645304b38b148078dcd23578e9ce40d30a2517a8b8af6b5b8b8f7d87"
+        },
+        {
+          "headline": "Walmart Investors Reject Proposal To Disclose AI Impact On Workers’ Safety And Well-Being: Report",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=95b50ee8d107c05097d297dffae38c6f3af0c64189c4cdaf46260d12de10bcac"
+        },
+        {
           "headline": "3 Mega-Cap Stocks with Exciting Potential",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=8fbba632d5408021f3ed5b54e47620fc53469f0b6bbea7f2d1d4a275b65ee217"
         },
         {
-          "headline": "AI Power Boom Revives Natural Gas as Infrastructure Bet",
+          "headline": "Snowflake Stock Jumps Over 40% on Strong Earnings and Amazon Deal. Its AI Strategy Is at an Inflection Point.",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=7c169b2ca929945602c22c25f0a7ca882d6cdeaab5dc45f51c947dfaaf7ee7d5"
+          "timeAgo": "8h ago",
+          "url": "https://finnhub.io/api/news?id=164039a984de7cde7293eb187504ea0962c640bd8be144318d5efd2ed3e17c8d"
         },
         {
-          "headline": "Pinterest and IBM Just Struck Massive AI Deals. Amazon and Google Are the Big Winners.",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=ab6468fd3641dc445c0a2cdc94a009fe64d830e3c6dcb715bfcbad4df26bbcd1"
-        },
-        {
-          "headline": "After Layoffs, Pinterest Plans to Invest $4 Billion in Amazon’s AI chips",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=4f44c93f3cd593f3d6aa5c9bf05f75bce0ae69cf805e145ca778fe2279303217"
-        },
-        {
-          "headline": "Investing In The Most Valuable Firms: The MANGOS",
+          "headline": "Virtus SGA U.S. Large Cap Growth Portfolio Q1 2026: Fundamentals And Execution Remains Strong",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=a524682ed8f7801d22786d110e27945c1aa7397dcb7081ae9056553dde1b1ecf"
+          "timeAgo": "9h ago",
+          "url": "https://finnhub.io/api/news?id=5dc5d5c035e4c898d031fd6d724e2e57215723c84703044709d2fda58fc7d5d0"
         }
       ],
       "earnings": [
@@ -497,34 +525,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Wall Street Sees SpaceX’s AI Revenue 100 Times Higher by 2030",
+          "headline": "Where Will Tesla Stock Be in 3 Years?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=13cbf35639e89ccf91f8dee615efd1528e304670e858fae483660fb3f51bd915"
+        },
+        {
+          "headline": "Tesla Robotaxi Expansion And Global Sales Rebound Test Long Term Thesis",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=f27b96ae23bba6705760b90c7a5e63ac85a003101411910ee16bbc45d37ee687"
+        },
+        {
+          "headline": "Nomura Climate Solutions Fund Q1 2026 Strategic Positioning",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=16daba6616dc797786895a9dc569bd8cfc972c4ed9750faef3abf25bb755327e"
+        },
+        {
+          "headline": "Wall Street Sees SpaceX’s AI Revenue 100 Times Higher by 2030",
+          "source": "Yahoo",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=07f8678f3863ce743441cb40c5c52bf2e7d3b7a8a68f56b7f49cc22cb4aebe83"
         },
         {
           "headline": "SpaceX and Anthropic: The Most Exciting IPOs Ever?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=2fcabe219f3ad813090329f5b6157489449badb9d57b3668b0257883024905a8"
-        },
-        {
-          "headline": "Tesla (TSLA) Stock Sinks As Market Gains: What You Should Know",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ed4850794ae5835a4dab04ed2f71f0c3e0fd12e206c4b405ec04965f128f8541"
-        },
-        {
-          "headline": "SpaceX IPO: rockets, AI losses and Musk in control",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=b71c09d61bc682f9a1b13ad3389f6b69403b8a6b0ef513e5877acea327407b87"
-        },
-        {
-          "headline": "Sector Update: Tech Stocks Fall Late Afternoon",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=72ac31cb1d9e2e7a59fde6d7c75e331a7f53f7c761ef8f0e4cf73de06a5c88b8"
         }
       ],
       "earnings": [
