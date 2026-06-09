@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-06-09T15:47:09.485Z",
+  "updatedAt": "2026-06-09T17:49:15.379Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7332.61,
-      "change": -73.12,
-      "changePercent": -0.9873,
+      "price": 7325.47,
+      "change": -80.26,
+      "changePercent": -1.0838,
       "high": 7483.15,
-      "low": 7317.54,
+      "low": 7237.85,
       "open": 0,
       "prevClose": 7405.72998046875,
       "week52High": 7620.9,
       "week52Low": 5943.23,
-      "volume": "1.1B",
+      "volume": "1.9B",
       "sparklineData": [
         7412.83984375,
         7400.9599609375,
@@ -36,7 +36,7 @@
         7584.31005859375,
         7383.740234375,
         7405.72998046875,
-        7332.60986328125
+        7325.47021484375
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 50543.92,
-      "change": -242.09,
-      "changePercent": -0.4767,
+      "price": 50668.17,
+      "change": -117.84,
+      "changePercent": -0.232,
       "high": 51260.92,
-      "low": 50441.88,
+      "low": 50211.12,
       "open": 0,
       "prevClose": 50786.01171875,
       "week52High": 51660.4,
       "week52Low": 41981.14,
-      "volume": "186.9M",
+      "volume": "326.2M",
       "sparklineData": [
         49704.46875,
         49760.55859375,
@@ -88,7 +88,7 @@
         51561.9296875,
         50866.78125,
         50786.01171875,
-        50543.921875
+        50668.171875
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25485.92,
-      "change": -443.74,
-      "changePercent": -1.7113,
+      "price": 25398.154,
+      "change": -531.51,
+      "changePercent": -2.0498,
       "high": 26259.922,
-      "low": 25408.242,
+      "low": 24980.377,
       "open": 0,
       "prevClose": 25929.66015625,
       "week52High": 27190.21,
       "week52Low": 19334.98,
-      "volume": "5.7B",
+      "volume": "7.8B",
       "sparklineData": [
         26274.130859375,
         26088.19921875,
@@ -140,7 +140,7 @@
         26830.9609375,
         25709.4296875,
         25929.66015625,
-        25485.919921875
+        25398.154296875
       ],
       "sector": "",
       "marketCap": "",
@@ -162,11 +162,11 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 291.15,
-      "change": -10.39,
-      "changePercent": -3.4456,
+      "price": 289.97,
+      "change": -11.57,
+      "changePercent": -3.837,
       "high": 300.75,
-      "low": 291.05,
+      "low": 287.78,
       "open": 300.5375,
       "prevClose": 301.54,
       "name": "Apple Inc",
@@ -184,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Siri Didn’t  Rescue Apple",
-          "source": "Yahoo",
+          "headline": "Stay informed with the top movers within the dow jones index on Tuesday.",
+          "source": "ChartMill",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=46df794ca980bc47360436a100d36040665c46583ec09a5247fbbdd635e39862"
+          "url": "https://finnhub.io/api/news?id=a42f628a93dc75f3e17052b515f94d3c527d61005ac81f3a1d1e07a3e661dda4"
         },
         {
-          "headline": "Apple Just Delivered Its $75 Per Share AI Moment at WWDC. Wall Street Says the Stock Could Hit $440 by Year-End.",
+          "headline": "Qualcomm Drops 8% on ByteDance ASIC Deal, Marvell Falls 10% as Custom-Silicon Stocks Slide",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=566fe282a8470568c2c6d11c0eb9d59255ecc7bdefe0f7e69fbab2b5e57b9554"
+          "url": "https://finnhub.io/api/news?id=297d6eeea102c02bb567e23be112d5987d516a9dadca76a063ed2f1004236d82"
         },
         {
-          "headline": "Tampa Bay Wave Launches 9th Tech|X Accelerator Powered by the Nielsen Foundation, Welcoming 15 Purpose-Driven Founders",
+          "headline": "Top Midday Stories: GSK to Acquire Nuvalent for $10.6 Billion in Cash; Apple Introduces Siri AI, But EU Launch to be Delayed",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5478ebbc5306cd5e80bdc2dc134685f3b9eea17fb7b8f5515096bc0628b45692"
+          "url": "https://finnhub.io/api/news?id=ec2c2edf41a7f9677bb886da0f115fa5562a8a2d9ce67bdb11eb526b646b11aa"
         },
         {
-          "headline": "Apple Delays Siri AI Rollout in EU Following Regulatory Compliance Challenges (AAPL)",
+          "headline": "Apple is bringing a more 'mainstream' AI to its customers: Analyst",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=7e7c23052f8c1b79a9defea322ff4ad5b1ff1bf898902763fd652c0589c1c872"
+          "url": "https://finnhub.io/api/news?id=ad84af757551a6feea024e61c6729d2fd16b00b85af79d7a4007761517e19847"
         },
         {
-          "headline": "Stock Market Today: Dow Rises On Trump Comments; Micron, Sandisk Continue To Rebound (Live Coverage)",
+          "headline": "Apple's AI News Underwhelms. Siri AI Release Concerns Persist.",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=ff453183de35dbd3e177e17aeae5069c0a3afea5bf69d0914e6e6481af24f0d2"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=58de39e60106718d814fc6fdbc2307087344a33a9128659d1bd64f289e989df2"
         }
       ],
       "earnings": [
@@ -248,11 +248,11 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 360.35,
-      "change": -2.96,
-      "changePercent": -0.8147,
+      "price": 364.2,
+      "change": 0.89,
+      "changePercent": 0.245,
       "high": 372.08,
-      "low": 359.45,
+      "low": 357.3,
       "open": 365.59,
       "prevClose": 363.31,
       "name": "Alphabet Inc",
@@ -270,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Siri Didn’t  Rescue Apple",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=46df794ca980bc47360436a100d36040665c46583ec09a5247fbbdd635e39862"
-        },
-        {
-          "headline": "Alphabet Inc. (GOOGL) Reports Doubling of Gemini App Monthly Users to 900 Million",
+          "headline": "Apple's AI News Underwhelms. Siri AI Release Concerns Persist.",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c4c062d0af8beebad7d9e12b0374c264b03e52f111ef05db0ddb6889bfb891cb"
+          "url": "https://finnhub.io/api/news?id=58de39e60106718d814fc6fdbc2307087344a33a9128659d1bd64f289e989df2"
         },
         {
-          "headline": "This Top Artificial Intelligence (AI) Stock Is Benefiting From the Next Infrastructure Bottleneck, and It Just Became an Attractive Buy",
+          "headline": "The bull and bear cases for SpaceX",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9eecb2e405fa07ccc2be3f66e9ec7f3fd8207aa9f670af26fd556b4fbad369a9"
+          "url": "https://finnhub.io/api/news?id=0c9db3e0b4d1b70185339d8ff74573539fc9dba979ff774dfb9d1ab869919650"
         },
         {
-          "headline": "Blockspace: Datacenter deals, SpaceX IPO, and Saylor didn’t sell",
+          "headline": "Google Is Paying SpaceX Over $900 Million a Month for AI Compute",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=df696ecf0ad5cbbb22b0ca3ee9ff6d2333846e0aefdf80555371aa2437c66333"
+          "url": "https://finnhub.io/api/news?id=d0fcbf27a19b886de7c54fa833529a65072162929f055a4aa584effccbe32293"
         },
         {
-          "headline": "Oracle's Trillion-Dollar Ghostwriter",
+          "headline": "Wolfe raises estimates for hyperscalers, says growth is underpreciated",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=af6b9d8b9e3985228fa3c1493598bf49f6b7ffba16f56f89e1a56485abf42ee5"
+          "url": "https://finnhub.io/api/news?id=9ead02b20b829dc287fbe5b3e5763542b3383abd05c7a15ab5bb7b6368e88379"
+        },
+        {
+          "headline": "Broadcom Teams Up With Apollo and Blackstone on AI Infrastructure Push",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=498e9435024ff7a4ca0dbb81b35ab2b833aa0f92b7ddb14829059980bb54311b"
         }
       ],
       "earnings": [
@@ -334,11 +334,11 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 402.78,
-      "change": -8.96,
-      "changePercent": -2.1761,
+      "price": 402.55,
+      "change": -9.19,
+      "changePercent": -2.232,
       "high": 411.98,
-      "low": 402.67,
+      "low": 398.48,
       "open": 409.955,
       "prevClose": 411.74,
       "name": "Microsoft Corp",
@@ -348,7 +348,7 @@
       "week52High": 555.45,
       "week52Low": 356.28,
       "beta": 1.1203623,
-      "peRatio": 30.0947,
+      "peRatio": 29.9283,
       "eps": 13.6413,
       "dividendYield": "0.88%",
       "volume": "41.0M",
@@ -356,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Is Microsoft (MSFT) One of the Best AI Stocks to Buy in June?",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=482c60847ae5768c4959014a90e6aa0f8252b5a048845c80c72d67d21fb89e59"
+          "headline": "Stay informed with the top movers within the dow jones index on Tuesday.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a42f628a93dc75f3e17052b515f94d3c527d61005ac81f3a1d1e07a3e661dda4"
         },
         {
-          "headline": "Microsoft Copilot Gets Massive NHS Rollout",
+          "headline": "Qualcomm Drops 8% on ByteDance ASIC Deal, Marvell Falls 10% as Custom-Silicon Stocks Slide",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=7a7739ba90b5b0ef4769f9b8cd22b8a8440e1f46981555419685dfdeae74e55c"
+          "url": "https://finnhub.io/api/news?id=297d6eeea102c02bb567e23be112d5987d516a9dadca76a063ed2f1004236d82"
         },
         {
-          "headline": "This Top Artificial Intelligence (AI) Stock Is Benefiting From the Next Infrastructure Bottleneck, and It Just Became an Attractive Buy",
+          "headline": "The Dividend Strategy That Beats the 4% Rule by $400,000 Over 20 Years on a $1 Million Portfolio",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9eecb2e405fa07ccc2be3f66e9ec7f3fd8207aa9f670af26fd556b4fbad369a9"
+          "url": "https://finnhub.io/api/news?id=f79ae9a858709f0f1c6a6b96aaea9a3fc1ce93aaa4a5d751b5c047522b07151d"
         },
         {
-          "headline": "project44 names Vinay Mathur as Chief Technology Officer",
+          "headline": "Western Computer and Microsoft to Host Navigate Forward: Business Central & The AI Advantage Event in Downers Grove, IL",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=80cc5aec31fda2c5017a4c6dd682aa9ad57b4ef3e9e60a00d38bcbceb07c26d2"
+          "url": "https://finnhub.io/api/news?id=f65ccb9a689078ebf08c8074c0574962d5e30c5e74aba57650533a12e29144b7"
         },
         {
-          "headline": "Oracle's Trillion-Dollar Ghostwriter",
+          "headline": "Unrealized Potential of Microsoft Corporation’s (MSFT) Role in Advancing Agentic AI",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=af6b9d8b9e3985228fa3c1493598bf49f6b7ffba16f56f89e1a56485abf42ee5"
+          "url": "https://finnhub.io/api/news?id=7fe54a8bb3473c09ceaf1c44b9ccecff8c8ed45ffb104d4c9d9b9d414b8cad45"
         }
       ],
       "earnings": [
@@ -420,9 +420,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 242.38,
-      "change": -2.84,
-      "changePercent": -1.1581,
+      "price": 244.24,
+      "change": -0.98,
+      "changePercent": -0.3996,
       "high": 250.43,
       "low": 237,
       "open": 246.665,
@@ -434,7 +434,7 @@
       "week52High": 278.56,
       "week52Low": 196,
       "beta": 1.4746246,
-      "peRatio": 34.3142,
+      "peRatio": 34.4664,
       "eps": 7.1737,
       "dividendYield": "",
       "volume": "44.5M",
@@ -442,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stock Market Today: Dow Rises On Trump Comments; Micron, Sandisk Continue To Rebound (Live Coverage)",
+          "headline": "Qualcomm Drops 8% on ByteDance ASIC Deal, Marvell Falls 10% as Custom-Silicon Stocks Slide",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=297d6eeea102c02bb567e23be112d5987d516a9dadca76a063ed2f1004236d82"
+        },
+        {
+          "headline": "Wolfe raises estimates for hyperscalers, says growth is underpreciated",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9ead02b20b829dc287fbe5b3e5763542b3383abd05c7a15ab5bb7b6368e88379"
+        },
+        {
+          "headline": "How Much Upside Can ORCL Stock Deliver?",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=ff453183de35dbd3e177e17aeae5069c0a3afea5bf69d0914e6e6481af24f0d2"
+          "url": "https://finnhub.io/api/news?id=b63d3f2a8ded17883ea01e32ce416daf38dcbd6ae16fba8acd8aa6135aa9a499"
         },
         {
-          "headline": "Is Microsoft (MSFT) One of the Best AI Stocks to Buy in June?",
+          "headline": "Will Oracle's AI Gamble Pay Off This Quarter?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=482c60847ae5768c4959014a90e6aa0f8252b5a048845c80c72d67d21fb89e59"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=59b9133d9f2966cf8bff736c0e28333cf010af843c2a55e325d504f45b19a7ab"
         },
         {
-          "headline": "Amazon.com Inc. (AMZN) Buy Rating Reiterated by BofA Securities",
+          "headline": "Jeff Bezos Is Chasing Elon Musk Into Africa to Build a Starlink Competitor",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8adfd731caf1e800c85f07451044821ce6584fd53365f477b5265c6630289f5c"
-        },
-        {
-          "headline": "The Man Who Built Amazon Dynamo and Apache Cassandra Is Now Solving AI's Accountability Crisis",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=316022689226564f8fb3879a74f3608035096b7be91d6631f563576c44481d14"
-        },
-        {
-          "headline": "Water.org and Founding Partners Launch Get Blue™ to Bring Water Home™ Through Everyday Actions",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=90cdf763eae87212ee4e0ddac3678a27ba0c02f659567e4092c515c980f7a640"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=0e97fdae94c481469ef97474fa01e935c9c9f6b0eab04e3f1e10aff998500208"
         }
       ],
       "earnings": [
@@ -506,11 +506,11 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 394.52,
-      "change": -14.43,
-      "changePercent": -3.5285,
+      "price": 392.28,
+      "change": -16.67,
+      "changePercent": -4.0763,
       "high": 418.5,
-      "low": 393.02,
+      "low": 384.24,
       "open": 410.84,
       "prevClose": 408.95,
       "name": "Tesla Inc",
@@ -528,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Tesla Just Lost One of Its Biggest Bears, but Is the Stock a Buy?",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=611fa858c2a08772534d826684f4d09f1e021dd1726a57266ebf72bfedaabef5"
-        },
-        {
-          "headline": "Potential implications from SpaceX IPO for Tesla?",
+          "headline": "The Model 3 Era at Rivian Begins. Its Lower-Price EV Is Here.",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3a47c5e5dca6dff9a0f011c8ebc99182174a187ea079de54aea1fd43ce12ec48"
+          "url": "https://finnhub.io/api/news?id=e38e75d16205673605604db444bd593d771290a5194fdd767dfee634e44796ba"
         },
         {
-          "headline": "Wall Street Pounds the Table: Tesla’s Future Is Not in Cars — It’s Robotics",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8ce1b50497ac09232301203d1fa783362967e9cb38b0d4c9ee5dbc7c4c53e9e5"
-        },
-        {
-          "headline": "How Dutch Safety Data Could Open Europe for Tesla",
+          "headline": "SpaceX IPO: A Tesla-Like Opportunity or a $1.75 Trillion Trap?",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=bbc00d4c8fb8a1564c3c1454930839daf91a1a5480ce9c246f2075e3eff3a670"
+          "url": "https://finnhub.io/api/news?id=b0ed00b1ee987bdff977b8a3a77a911b72cfdb8162c1649316be33a92d5ea58f"
         },
         {
-          "headline": "Energy Transition Update - CIP Boosts Energy Transition With Battery Storage Project",
+          "headline": "Solidion Strengthens Battery Moat with 7 New Patents",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=e44bf8b2f704c5a1a8008a4e6190a754f6741f072718784ea03c46437bac706a"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=1c36d9ccd8ff46b359b941d30422e53ede0a400e5e103e4d28159c89ae56fcd0"
+        },
+        {
+          "headline": "Elon Musk Reveals Insane Plan to Double American Chip Production in a Single Plant",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=e46e316a728b09ebf275516bc71cde6888f5e1b2eecde2ba2be448292ce7f36c"
+        },
+        {
+          "headline": "Elon Musk Reveals Details For SpaceX-Tesla Orbiting Data Center",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=45755cc503f3c4f977479adf27193294aa3192e32fce0389d958051763faa667"
         }
       ],
       "earnings": [
