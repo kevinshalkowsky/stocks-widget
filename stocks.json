@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-06-12T12:45:54.319Z",
+  "updatedAt": "2026-06-12T16:02:02.754Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7394.3,
-      "change": 127.31,
-      "changePercent": 1.7519,
-      "high": 7412.68,
-      "low": 7257.33,
+      "price": 7405.36,
+      "change": 11.06,
+      "changePercent": 0.1496,
+      "high": 7456.4,
+      "low": 7363.01,
       "open": 0,
-      "prevClose": 7266.990234375,
+      "prevClose": 7394.2998046875,
       "week52High": 7620.9,
       "week52Low": 5943.23,
-      "volume": "3.5B",
+      "volume": "1.2B",
       "sparklineData": [
         7444.25,
         7501.240234375,
@@ -36,7 +36,8 @@
         7405.72998046875,
         7386.64990234375,
         7266.990234375,
-        7394.2998046875
+        7394.2998046875,
+        7405.35986328125
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 50848.75,
-      "change": 929.97,
-      "changePercent": 1.863,
-      "high": 50968.95,
-      "low": 49972.07,
+      "price": 51100.37,
+      "change": 251.62,
+      "changePercent": 0.4948,
+      "high": 51409.7,
+      "low": 50827.84,
       "open": 0,
-      "prevClose": 49918.78125,
+      "prevClose": 50848.75,
       "week52High": 51660.4,
       "week52Low": 41981.14,
-      "volume": "518.7M",
+      "volume": "180.8M",
       "sparklineData": [
         49693.19921875,
         50063.4609375,
@@ -88,7 +89,8 @@
         50786.01171875,
         50872.109375,
         49918.78125,
-        50848.75
+        50848.75,
+        51100.37109375
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25809.66,
-      "change": 640.16,
-      "changePercent": 2.5434,
-      "high": 25846.564,
-      "low": 25109.395,
+      "price": 25756.049,
+      "change": -53.61,
+      "changePercent": -0.2077,
+      "high": 26010.314,
+      "low": 25599.94,
       "open": 0,
-      "prevClose": 25169.5,
+      "prevClose": 25809.66015625,
       "week52High": 27190.21,
       "week52Low": 19334.98,
-      "volume": "8.9B",
+      "volume": "4.8B",
       "sparklineData": [
         26402.33984375,
         26635.220703125,
@@ -140,7 +142,8 @@
         25929.66015625,
         25678.8203125,
         25169.5,
-        25809.66015625
+        25809.66015625,
+        25756.048828125
       ],
       "sector": "",
       "marketCap": "",
@@ -162,13 +165,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 295.63,
-      "change": 4.05,
-      "changePercent": 1.389,
-      "high": 297,
-      "low": 289.59,
-      "open": 293.72,
-      "prevClose": 291.58,
+      "price": 291.25,
+      "change": -4.38,
+      "changePercent": -1.4816,
+      "high": 297.14,
+      "low": 290.01,
+      "open": 296.19,
+      "prevClose": 295.63,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.34T",
@@ -184,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Hedge funds sold broader tech ahead of SpaceX IPO, JPMorgan data shows",
+          "headline": "What Stripping the Weakest Stocks From the S&P 500 Actually Does for Your Portfolio",
+          "source": "Yahoo",
+          "timeAgo": "44m ago",
+          "url": "https://finnhub.io/api/news?id=80601092f795bbdbdac0f71ab6b3c3dd76854ab2cd8acb2269e7d4826bae7e65"
+        },
+        {
+          "headline": "The Tariff Threat To Apple Stock Vanished. Its Replacement Is A Bigger Worry.",
+          "source": "Yahoo",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=3f4bfcdf354a9d2916a93665aaec474fa1b4092653a8b4021a46209e672d8d84"
+        },
+        {
+          "headline": "Stock Market Whipsaws; SpaceX IPO Rockets, Oracle Dives: Weekly Review",
+          "source": "Yahoo",
+          "timeAgo": "59m ago",
+          "url": "https://finnhub.io/api/news?id=091e325f99dd20135859dd2288195f6e01929fafd573aa10db17bf7b3b77f5d3"
+        },
+        {
+          "headline": "Jim Cramer on Apple: “It Still Has Products We All Love”",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6b6c27e897099ea65650644fd4c17037b2f39b344a630dd1f7be575c7bfb2d50"
+          "url": "https://finnhub.io/api/news?id=1b8cb41fe45b0bbcfd2e3b11e3e237e530eacca0a37063c48fbc03f1ccda53a2"
         },
         {
-          "headline": "AI Integration and iPhone Growth Assert Apple Inc. (AAPL) as One of the Best Forever Stocks to Buy",
+          "headline": "Jim Cramer Says He Can “Make a Case” That Companies Like Meta “Might Want to Sell Some Equity”",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=dd0917b30e0bd4c086123764fd8fcb8aac7440c24047e8d1ded24be5471099fc"
-        },
-        {
-          "headline": "Meta's AI Spending Looks Insane Until You See What It Is Building",
-          "source": "SeekingAlpha",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=5a2a6b6cd5305b803da841371e832f4b731684ad75beedcc396afa4a9e572810"
-        },
-        {
-          "headline": "Does Apple Stock Have More Upside?",
-          "source": "Yahoo",
-          "timeAgo": "13h ago",
-          "url": "https://finnhub.io/api/news?id=0f78feceb308d23199d945ef2743a33c5442207214659ca824fbf8dc1995e532"
-        },
-        {
-          "headline": "Here's Why Apple (AAPL) Gained But Lagged the Market Today",
-          "source": "Yahoo",
-          "timeAgo": "15h ago",
-          "url": "https://finnhub.io/api/news?id=4413795342297aef9ecd62757af9f7327e0b80c5d60c4d1220bce1ef95564e97"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=dd84801d1ac340ebe92172bb93cf7158519e8bac48eecfa3a0d2112c1755c4f4"
         }
       ],
       "earnings": [
@@ -248,13 +251,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 357.77,
-      "change": 1.39,
-      "changePercent": 0.39,
-      "high": 358.8,
-      "low": 346.36,
-      "open": 355.925,
-      "prevClose": 356.38,
+      "price": 361.23,
+      "change": 3.46,
+      "changePercent": 0.9671,
+      "high": 366.57,
+      "low": 354.94,
+      "open": 360.87,
+      "prevClose": 357.77,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.33T",
@@ -270,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Dan Ives’ Own ETF Is Up 27% YTD. The AI Revolution Trade Is Real.",
+          "headline": "2 Best AI Stocks to Buy Now as the Market Looks for Real Growth",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=1078b3f74412f807b07962a4132fddd120b0793b727a0559c7d6be9302f7a956"
+          "timeAgo": "41m ago",
+          "url": "https://finnhub.io/api/news?id=b480d458a99c7b01c311e18234a91f834a74d17159611b50901fe58f54a3ca2a"
         },
         {
-          "headline": "Lucid Group (LCID) Is Down 9.0% After Gravity OTA Upgrade Highlights Innovation Amid Securities Lawsuits",
+          "headline": "Tech Stocks' 'Big Tobacco Moment': What Battles Over Key Legal Shield Mean For Meta, Google",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6722752961e9979aa6f3a59c61cbca548142c78884a4f34d18ac9b8ed3b2f18e"
+          "timeAgo": "45m ago",
+          "url": "https://finnhub.io/api/news?id=274f0e8c202df49ffdba014a68068d1e2ca491540c09d33d80be434fd6eece17"
         },
         {
-          "headline": "NECA Applauds Google.org for Support of the electrical training ALLIANCE and Skilled Trades Growth",
+          "headline": "The Tariff Threat To Apple Stock Vanished. Its Replacement Is A Bigger Worry.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=5025e17fc197263cdc3bbaf91ca57d872992edefa4bfcfb0d0febd4787f889b7"
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=3f4bfcdf354a9d2916a93665aaec474fa1b4092653a8b4021a46209e672d8d84"
         },
         {
-          "headline": "Hedge funds sold broader tech ahead of SpaceX IPO, JPMorgan data shows",
+          "headline": "Jim Cramer on Apple: “It Still Has Products We All Love”",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6b6c27e897099ea65650644fd4c17037b2f39b344a630dd1f7be575c7bfb2d50"
+          "url": "https://finnhub.io/api/news?id=1b8cb41fe45b0bbcfd2e3b11e3e237e530eacca0a37063c48fbc03f1ccda53a2"
         },
         {
-          "headline": "1 Stock Prime to Cash In on $1 Trillion in Data Center Spending During 2027",
+          "headline": "Jim Cramer Says He Can “Make a Case” That Companies Like Meta “Might Want to Sell Some Equity”",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ec390cfbc589eea124f27f177edcbd7ff46269b3a309d2857ae11e7566dbec48"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=dd84801d1ac340ebe92172bb93cf7158519e8bac48eecfa3a0d2112c1755c4f4"
         }
       ],
       "earnings": [
@@ -334,13 +337,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 390.34,
-      "change": -7.02,
-      "changePercent": -1.7667,
-      "high": 396.85,
-      "low": 384,
-      "open": 395.205,
-      "prevClose": 397.36,
+      "price": 387.14,
+      "change": -3.2,
+      "changePercent": -0.8198,
+      "high": 392.03999999999996,
+      "low": 382.27,
+      "open": 392.03999999999996,
+      "prevClose": 390.34,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$2.90T",
@@ -356,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Exclusive-South Korea's SK Hynix to opt for Nasdaq for planned US listing, sources say",
+          "headline": "David Tepper Cuts Microsoft 82%, Billionaire Bill Ackman Buys $2 Billion of It. Who’s Winning?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=891d9d583ed9d546d375591cf44fecda17bee9449031651e3460aaee3251271a"
+          "timeAgo": "23m ago",
+          "url": "https://finnhub.io/api/news?id=95762f2f9f6be7bd1e3a363886528fc0d3fc1724c42c1c5e423d4cab03d05b21"
         },
         {
-          "headline": "Constellation Energy Taps Nuclear Restart And Tech Giants For AI Power",
+          "headline": "2 Best AI Stocks to Buy Now as the Market Looks for Real Growth",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=0b9212d4f7ada092def1708016288bae9ad6f1f97ef9b77c1df27984ed5a1f7e"
+          "timeAgo": "41m ago",
+          "url": "https://finnhub.io/api/news?id=b480d458a99c7b01c311e18234a91f834a74d17159611b50901fe58f54a3ca2a"
         },
         {
-          "headline": "Microsoft Xbox Overhaul Tests Gaming Margins And Broader Investment Story",
+          "headline": "What Stripping the Weakest Stocks From the S&P 500 Actually Does for Your Portfolio",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e1b3012ed0938979ff7ccd3fad65b6875b1588df56f093b118195e29492296ce"
+          "timeAgo": "44m ago",
+          "url": "https://finnhub.io/api/news?id=80601092f795bbdbdac0f71ab6b3c3dd76854ab2cd8acb2269e7d4826bae7e65"
         },
         {
-          "headline": "Hedge funds sold broader tech ahead of SpaceX IPO, JPMorgan data shows",
+          "headline": "The Tariff Threat To Apple Stock Vanished. Its Replacement Is A Bigger Worry.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6b6c27e897099ea65650644fd4c17037b2f39b344a630dd1f7be575c7bfb2d50"
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=3f4bfcdf354a9d2916a93665aaec474fa1b4092653a8b4021a46209e672d8d84"
         },
         {
-          "headline": "Microsoft Corp (NASDAQ:MSFT) Tops Dividend Screen with Strong Ratings and Growth Potential",
-          "source": "ChartMill",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fb85c923de3f6cf04e1995ca5cd8bba90a81f8399a2f855c5ebf5deeee21a233"
+          "headline": "Jim Cramer Says He Can “Make a Case” That Companies Like Meta “Might Want to Sell Some Equity”",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=dd84801d1ac340ebe92172bb93cf7158519e8bac48eecfa3a0d2112c1755c4f4"
         }
       ],
       "earnings": [
@@ -420,13 +423,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 241.51,
-      "change": 3.51,
-      "changePercent": 1.4748,
-      "high": 242.14,
-      "low": 235.18,
-      "open": 237.93,
-      "prevClose": 238,
+      "price": 236.12,
+      "change": -5.39,
+      "changePercent": -2.2318,
+      "high": 243.36,
+      "low": 233.59,
+      "open": 242.515,
+      "prevClose": 241.51,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.60T",
@@ -442,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "SellerSprite Launches 2026 Amazon Growth Intelligence Toolkit for Sellers Facing Higher Costs",
+          "headline": "Top Midday Stories: SpaceX Shares Indicated to Open 29% Above IPO Price at $174 Each; Adobe CFO Leaves Company",
+          "source": "Yahoo",
+          "timeAgo": "19m ago",
+          "url": "https://finnhub.io/api/news?id=f9d8f973e96d0c76f2752f6f1178d3309e8f34dce2c2d03e245cb510e1ef5522"
+        },
+        {
+          "headline": "The Tariff Threat To Apple Stock Vanished. Its Replacement Is A Bigger Worry.",
+          "source": "Yahoo",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=3f4bfcdf354a9d2916a93665aaec474fa1b4092653a8b4021a46209e672d8d84"
+        },
+        {
+          "headline": "What SpaceX's IPO means for investors and the future of innovation",
+          "source": "Yahoo",
+          "timeAgo": "56m ago",
+          "url": "https://finnhub.io/api/news?id=874b17cbed542240cf247d1280d2bdcea26a4501ad7c6c2ad3cd27da9a3945d2"
+        },
+        {
+          "headline": "Jim Cramer Says He Can “Make a Case” That Companies Like Meta “Might Want to Sell Some Equity”",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a550acc9fdbf95c2ce65f05c2b6f1d0068e9071a712b9d39fbb61918dcab7c35"
+          "url": "https://finnhub.io/api/news?id=dd84801d1ac340ebe92172bb93cf7158519e8bac48eecfa3a0d2112c1755c4f4"
         },
         {
-          "headline": "Hedge funds sold broader tech ahead of SpaceX IPO, JPMorgan data shows",
+          "headline": "Anthropic’s Priciest AI Model Yet Is Here. Why Alphabet and Amazon Stock Will Benefit.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6b6c27e897099ea65650644fd4c17037b2f39b344a630dd1f7be575c7bfb2d50"
-        },
-        {
-          "headline": "How Backlash Against Data Centers Could Start Showing Up in Hyperscalers' Earnings Reports",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=2afb8033e50f146e79c87bb02e2f6059f82322bd88fc7dc1603c2669c7676795"
-        },
-        {
-          "headline": "Jeff Bezos Contradicts Every AI Jobs Headline You’ve Read This Year",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=cd128f1729a789e683b1c069e97345bb41f2514bb377ce880897880fd36c0fd8"
-        },
-        {
-          "headline": "Amazon.com, Inc. (AMZN) Plots €10B Investment To Bolster Growth in Europe",
-          "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=48dbd1ceb0c0d4eb7c4b706148646b6a55a428e2dfeab7a6f6922d00575e3304"
+          "url": "https://finnhub.io/api/news?id=95a2a09f55b3ba6fa752f5fcc4bd684647d020f49382ef9bd26d334e1398bf26"
         }
       ],
       "earnings": [
@@ -506,13 +509,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 399.15,
-      "change": 17.56,
-      "changePercent": 4.6018,
-      "high": 399.54,
-      "low": 380.66,
-      "open": 388.28,
-      "prevClose": 381.59,
+      "price": 389.96,
+      "change": -9.19,
+      "changePercent": -2.3024,
+      "high": 404.3,
+      "low": 388.5975,
+      "open": 398.27,
+      "prevClose": 399.15,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.50T",
@@ -528,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stocks Rise Pre-Bell Amid Media Reports of US-Iran Peace Deal Progress",
+          "headline": "SpaceX Stock Is Now Trading. Should You Buy SPCX Today?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=feb37f801f7a43730db6df6f3b44813b4ff66b783bfdbde774d02e6cefff9326"
+          "timeAgo": "37m ago",
+          "url": "https://finnhub.io/api/news?id=5ec52ddfdffcdf4d16dc23f632c427e330d5fa5da945cf0f1b068d7ed40c090d"
         },
         {
-          "headline": "Is Tesla Stock More Valuable Than SpaceX?",
+          "headline": "If You Missed The Korean AI ETF Boom There Are The 2 Taiwanese Options With Direct Exposure To The Supply Chain",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=086df8a408f1120639e8e335b6551bd9bc353a4454bd4ac07d400a92acf2b7c5"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=66b30c94acd1098a474135a9ba59238d1fce54011af3de07f483021697d00d0a"
         },
         {
-          "headline": "Tesla (TSLA) Stock And Robotaxi Progress Put Lofty Valuation In The Spotlight",
+          "headline": "General Motors' 'Underappreciated' Energy Storage Business Offers Upside, RBC Says",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3bb69ed3b3b833cc410ff4fa9a8f31d6bf1a38ce4694b523a699cd5e333be181"
+          "timeAgo": "52m ago",
+          "url": "https://finnhub.io/api/news?id=922b9e5e05ce199fed4c7e5827dc4459a878ad859023547505cd9e9f13e331ba"
         },
         {
-          "headline": "Hedge funds sold broader tech ahead of SpaceX IPO, JPMorgan data shows",
+          "headline": "What SpaceX's IPO means for investors and the future of innovation",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6b6c27e897099ea65650644fd4c17037b2f39b344a630dd1f7be575c7bfb2d50"
+          "timeAgo": "56m ago",
+          "url": "https://finnhub.io/api/news?id=874b17cbed542240cf247d1280d2bdcea26a4501ad7c6c2ad3cd27da9a3945d2"
         },
         {
-          "headline": "What's at Stake for the Market",
+          "headline": "Why SpaceX's IPO sets Elon Musk to become the world's first trillionaire",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=990bb426f72f680e2c4e11fdc0f4b8f5339425f947954d4caada986eb5ff9946"
+          "url": "https://finnhub.io/api/news?id=f003a076b4aed307648dba49846273cafe4056b2ad7ea834f9cfdd3eddb63b81"
         }
       ],
       "earnings": [
