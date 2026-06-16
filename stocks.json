@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-06-16T11:58:14.948Z",
+  "updatedAt": "2026-06-16T16:41:00.069Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7554.29,
-      "change": 159.99,
-      "changePercent": 2.1637,
-      "high": 7577.92,
-      "low": 7516.75,
+      "price": 7536.85,
+      "change": 105.39,
+      "changePercent": 1.4182,
+      "high": 7564.96,
+      "low": 7527.4,
       "open": 0,
-      "prevClose": 7394.2998046875,
+      "prevClose": 7431.4599609375,
       "week52High": 7620.9,
       "week52Low": 5943.23,
-      "volume": "3.4B",
+      "volume": "1.2B",
       "sparklineData": [
         7403.0498046875,
         7353.60986328125,
@@ -34,7 +34,8 @@
         7386.64990234375,
         7266.990234375,
         7394.2998046875,
-        7431.4599609375
+        7431.4599609375,
+        7536.85009765625
       ],
       "sector": "",
       "marketCap": "",
@@ -55,16 +56,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 51671.03,
-      "change": 822.28,
-      "changePercent": 1.6171,
-      "high": 51945.89,
-      "low": 51364.55,
+      "price": 52169.16,
+      "change": 966.9,
+      "changePercent": 1.8884,
+      "high": 52190.29,
+      "low": 51712.63,
       "open": 0,
-      "prevClose": 50848.75,
-      "week52High": 51945.89,
+      "prevClose": 51202.26171875,
+      "week52High": 52190.29,
       "week52Low": 41981.14,
-      "volume": "509.7M",
+      "volume": "187.7M",
       "sparklineData": [
         49686.12109375,
         49363.87890625,
@@ -84,7 +85,8 @@
         50872.109375,
         49918.78125,
         50848.75,
-        51202.26171875
+        51202.26171875,
+        52169.16015625
       ],
       "sector": "",
       "marketCap": "",
@@ -105,16 +107,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26683.941,
-      "change": 874.28,
-      "changePercent": 3.3874,
-      "high": 26687.557,
-      "low": 26438.768,
+      "price": 26529.707,
+      "change": 640.87,
+      "changePercent": 2.4755,
+      "high": 26788.617,
+      "low": 26471.912,
       "open": 0,
-      "prevClose": 25809.66015625,
+      "prevClose": 25888.83984375,
       "week52High": 27190.21,
       "week52Low": 19334.98,
-      "volume": "9.6B",
+      "volume": "6.1B",
       "sparklineData": [
         26090.73046875,
         25870.7109375,
@@ -134,7 +136,8 @@
         25678.8203125,
         25169.5,
         25809.66015625,
-        25888.83984375
+        25888.83984375,
+        26529.70703125
       ],
       "sector": "",
       "marketCap": "",
@@ -156,13 +159,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 296.42,
-      "change": 5.29,
-      "changePercent": 1.8171,
-      "high": 297.78,
-      "low": 291.7,
-      "open": 294.12,
-      "prevClose": 291.13,
+      "price": 299.14,
+      "change": 2.72,
+      "changePercent": 0.9176,
+      "high": 299.275,
+      "low": 293.97,
+      "open": 295.5925,
+      "prevClose": 296.42,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.35T",
@@ -178,34 +181,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "SpaceX Valuation Set to Top Amazon on Third Trading Day",
+          "headline": "Is Vanguard’s S&P 500 Value ETF A Buy, Sell, Or Hold? | VOOV",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=84aa59c7d2f84fe46bbb54d8b3e1438a261fc87e5b6bd506c48f42954a82cb90"
+          "timeAgo": "58m ago",
+          "url": "https://finnhub.io/api/news?id=03950eb9cff2193186a87489c0c0d30a1c857e466e9b3270c04f5480f1742217"
         },
         {
-          "headline": "STMicro Eyes $1.5 Billion Convertible Bonds After AI-Fueled Jump",
+          "headline": "Apple's iCloud Advantage Gets Scrutiny",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=b6ec62d701133056a81080733da0da59a9854c193641df1fa91fd5fbb9f77a10"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e5ea62e97e3dbd4b4f77fc552591f75534cb2d0023c2ba29e3428f3681cb0ff9"
         },
         {
-          "headline": "TD Cowen, Maxim Reiterate Bullish Outlook on Apple Inc. (AAPL) Following WWDC26",
+          "headline": "SpaceX market cap tops Microsoft, fourth-largest U.S. company",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=18414fe21c744d03adb0aee790df816e32729e57d852e9224adfd78ece48356a"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=cc096b6e943e9ddcc874f8d8614476d2951a304a5a40b3dd64ff05d33c71207f"
         },
         {
-          "headline": "Italy's antitrust regulator probes Apple over cloud services under Digital Market rules",
+          "headline": "Peer To Peer Network (OTC:PTOP) Announces Release of MOBICARD(TM) 1.8 on Apple App Store and Google Play - New App Out - Download it Today!",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=08ff079495395a532931a23e3efcdbfbfe51518c64f94acede6f97be639025dd"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=798efdde7e8dc9b79247e906f4bd6754cd640e1dd70d5ff5995d13d84b96360e"
         },
         {
-          "headline": "T-Mobile warns customers that a key service will double in price",
+          "headline": "SpaceX Jumps 14% Past $2.9 Trillion, Closes In on Microsoft, Apple After $60 Billion Cursor Deal",
           "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=c9226621799c87f700b113fe6df8148190dd5d283b42b2d3e4c5c24844daa6ac"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=910a30c76f1ad665292301e038862c8dad2cac50ab85289b6f5bbdf6e9675e52"
         }
       ],
       "earnings": [
@@ -242,13 +245,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 369.35,
-      "change": 9.67,
-      "changePercent": 2.6885,
-      "high": 372.99,
-      "low": 366.55,
-      "open": 367.93,
-      "prevClose": 359.68,
+      "price": 372.18,
+      "change": 2.83,
+      "changePercent": 0.7662,
+      "high": 376,
+      "low": 367.06,
+      "open": 369.385,
+      "prevClose": 369.35,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.48T",
@@ -264,34 +267,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "SpaceX Valuation Set to Top Amazon on Third Trading Day",
+          "headline": "Nvidia Latest Big Borrower: AI Data Centers, Suppliers Racking Up Debt",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=84aa59c7d2f84fe46bbb54d8b3e1438a261fc87e5b6bd506c48f42954a82cb90"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=7bc0c8487d248951cd7e98a5e090cdeb223f8cddb69dcc38a00c3744c02f441d"
         },
         {
-          "headline": "The Zacks Analyst Blog Highlights Lenovo Group, Alphabet, Salesforce, Visa and NVIDIA",
+          "headline": "SpaceX’s 20% IPO Pop Signals Strong Demand Ahead of Megacap Listings",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=087c21ad02e1cfe950dbb1d22c603ba8e3eb370adfca68eb6ade1f9e88774da4"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=f292d51d4f1f63cfc4f9fe8e2cc447c3c8adc9350511ad7f2496a6a495c0bf79"
         },
         {
-          "headline": "Peace Deal Lights the Fuse - Dow Hits Record, Chips Go Vertical",
-          "source": "ChartMill",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=7b69d98eaf269113e3fc2315241adb19a5a9cd239e2b9fb01a35042bf8bb8d8e"
-        },
-        {
-          "headline": "Alphabet: Still A Big Tech Pick To 'Buy' Now",
-          "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=79be869a3a72209217da91a9ac815949867f87f1f1663c74d6dbb7d6143fb7c4"
-        },
-        {
-          "headline": "Ineffable Intelligence Selects Google Cloud To Power Its Superintelligence Mission",
+          "headline": "DTE Energy Emerges as a Top AI Infrastructure Beneficiary",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=c222a9f98064d60acb919fc8bbe3f1d9ab2938d6fe65896663756560a2d1ed12"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=0a9f7876d4ec620c3c49af31698bd0bee0383861ffe509d2acc2b8a8d9a3c47e"
+        },
+        {
+          "headline": "Amazon's AI Buildout Gets a Missouri Boost",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=be960b04d9bb78e7ac3ef7637868557187a43c7f79735be25ff3c8ff5a898324"
+        },
+        {
+          "headline": "Google to spend $1.5 billion on Alabama data center expansion",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=5a413cdca2050ea01eab76cc306c2124fa69036ad88e79a2851e18ec3666bb5c"
         }
       ],
       "earnings": [
@@ -328,13 +331,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 399.76,
-      "change": 9.02,
-      "changePercent": 2.3084,
-      "high": 401.75,
-      "low": 392.845,
-      "open": 396.795,
-      "prevClose": 390.74,
+      "price": 391.92,
+      "change": -7.84,
+      "changePercent": -1.9612,
+      "high": 398.05,
+      "low": 390.93,
+      "open": 398.05,
+      "prevClose": 399.76,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$2.97T",
@@ -350,34 +353,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Will The Fed Kill The S&P 500's Relief Rally?",
+          "headline": "SGA Global Growth Holds Firm on Microsoft’s (MSFT) Long-Term Advantages",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=93e1edee4ea058e3b3ddbb76a0849017bc24f0ca403fcf58a775386fd6534c42"
+          "timeAgo": "55m ago",
+          "url": "https://finnhub.io/api/news?id=2f8d0663e379cd29f95de4fb015aae8720b1608475ac211d695ab09557d92d82"
         },
         {
-          "headline": "SpaceX Valuation Set to Top Amazon on Third Trading Day",
+          "headline": "Top Midday Stories: SpaceX Surpasses Amazon in Market Cap; Yum! Brands to Sell Pizza Hut for $2.7 Billion",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=84aa59c7d2f84fe46bbb54d8b3e1438a261fc87e5b6bd506c48f42954a82cb90"
+          "timeAgo": "58m ago",
+          "url": "https://finnhub.io/api/news?id=17e79d40c55ebbf335fb05afb00ec8d7d6a4e0cb569a00fadafaea0a637d1a0b"
         },
         {
-          "headline": "Dun & Bradstreet Becomes the Trusted Partner for Global Agentic Workflows Through Integrations with Anthropic, OpenAI and Microsoft",
+          "headline": "Nvidia Latest Big Borrower: AI Data Centers, Suppliers Racking Up Debt",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=ffeb0ba5d13b47193a1556eda000f7ad28a5c90a1dd36a974d9afd9de09f6ec8"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=7bc0c8487d248951cd7e98a5e090cdeb223f8cddb69dcc38a00c3744c02f441d"
         },
         {
-          "headline": "Peace Deal Lights the Fuse - Dow Hits Record, Chips Go Vertical",
-          "source": "ChartMill",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=7b69d98eaf269113e3fc2315241adb19a5a9cd239e2b9fb01a35042bf8bb8d8e"
+          "headline": "Microsoft Corporation (MSFT) Fell on Heavy AI Capex and Softer Azure Growth",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=827f850ead338938bcc9acd10a7403ac7ffea4aa296176e3e8698a64631de4c8"
         },
         {
-          "headline": "Pending Mega IPOs Could Curb Passive Positive Feedback Loop",
-          "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=002b7226c8d17b7bc8934b3e9054713ea163effca90a6bbd60d35e0672340541"
+          "headline": "Yum! Brands Is Selling Pizza Hut for $2.7 Billion. Proceeds Will Fund Its AI Strategy.",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=27fd3f0befc9387975714f006d24d408a336cb07fbb7d78cdc25726715e82efe"
         }
       ],
       "earnings": [
@@ -414,13 +417,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 246.02,
-      "change": 7.47,
-      "changePercent": 3.1314,
-      "high": 247.805,
-      "low": 244.73,
-      "open": 245.02,
-      "prevClose": 238.55,
+      "price": 247.31,
+      "change": 1.29,
+      "changePercent": 0.5243,
+      "high": 249.51,
+      "low": 245.4511,
+      "open": 247.885,
+      "prevClose": 246.02,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.65T",
@@ -436,34 +439,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "SpaceX Valuation Set to Top Amazon on Third Trading Day",
+          "headline": "Top Midday Stories: SpaceX Surpasses Amazon in Market Cap; Yum! Brands to Sell Pizza Hut for $2.7 Billion",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=84aa59c7d2f84fe46bbb54d8b3e1438a261fc87e5b6bd506c48f42954a82cb90"
+          "timeAgo": "58m ago",
+          "url": "https://finnhub.io/api/news?id=17e79d40c55ebbf335fb05afb00ec8d7d6a4e0cb569a00fadafaea0a637d1a0b"
         },
         {
-          "headline": "Amazon Unveils Multibillion-Dollar Missouri Data Center Investment",
+          "headline": "Nvidia Latest Big Borrower: AI Data Centers, Suppliers Racking Up Debt",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=871f80fc2903becc57534825011222520e7d3ca58a7a6182a218e2e46949a495"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=7bc0c8487d248951cd7e98a5e090cdeb223f8cddb69dcc38a00c3744c02f441d"
         },
         {
-          "headline": "SpaceX set to surpass Amazon's market cap as post-IPO rally continues",
+          "headline": "Amazon's AI Buildout Gets a Missouri Boost",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=70649b9a98a00663e16c884f1ac9a6940e1f5fda2f37459aba394cf303e64f24"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=be960b04d9bb78e7ac3ef7637868557187a43c7f79735be25ff3c8ff5a898324"
         },
         {
-          "headline": "Cerebras (CBRS) Lands OpenAI Deal And Amazon Partnership In AI Infrastructure",
+          "headline": "Yum! Brands Is Selling Pizza Hut for $2.7 Billion. Proceeds Will Fund Its AI Strategy.",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=522f3b3768417ab2377f6b1166010f74cc6c9750a796e75850dd2755c3c42420"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=27fd3f0befc9387975714f006d24d408a336cb07fbb7d78cdc25726715e82efe"
         },
         {
-          "headline": "STMicro Eyes $1.5 Billion Convertible Bonds After AI-Fueled Jump",
+          "headline": "SpaceX market cap tops Microsoft, fourth-largest U.S. company",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=b6ec62d701133056a81080733da0da59a9854c193641df1fa91fd5fbb9f77a10"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=cc096b6e943e9ddcc874f8d8614476d2951a304a5a40b3dd64ff05d33c71207f"
         }
       ],
       "earnings": [
@@ -500,13 +503,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 411.15,
-      "change": 4.72,
-      "changePercent": 1.1613,
-      "high": 416,
-      "low": 407.1,
-      "open": 412.37,
-      "prevClose": 406.43,
+      "price": 404.27,
+      "change": -6.88,
+      "changePercent": -1.6734,
+      "high": 412.42,
+      "low": 400.54,
+      "open": 405.04,
+      "prevClose": 411.15,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.54T",
@@ -522,34 +525,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Global Electric Vehicle Outlook Weaker Than Previously Expected, BloombergNEF Says",
+          "headline": "Paying 50x Earnings Can Still Be Cheap — If You Know This One Thing",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=66775fdd19ce6eee5b043c9e6a45e1678769bec37d15679e7e973969a6e9d99d"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b76644c566196d74038076402b78e107ca6a74713eacb1329cf8bbb83305b223"
         },
         {
-          "headline": "That Didn't Take Long: SpaceX Earned Its First Wall Street Sell Rating Less Than an Hour After Trading Began",
+          "headline": "Tesla (TSLA) Stock Gets Fair Value Bump As Analysts Debate AI And Demand",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=01517ffef3d5b7f08c1f053f9caa63dda3ef8adc22006c97b9e1622ee444f293"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=8de5000fc23ddefeb3478cd72db1583425506280fedcc2da9dd521270530182f"
         },
         {
-          "headline": "Elon Musk Says He's Building a Chip '2-3x Better Than Nvidia' at 10% the Cost. Should Nvidia Investors Be Worried?",
+          "headline": "The Mag 7 plus these three AI companies make up the new Fab 10",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9a9a95007a118d82d5a198900de0527eb8cffedb30710f9adbf67b92696978f6"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=21680e73e9de0b98cb3eed123715d7ba459c26207acbac5277b20a4297c3e7c3"
         },
         {
-          "headline": "Nasdaq, S&P 500 Futures Catch Breath Ahead Of First Warsh-Led Fed Decision: Why SPCX, TSLA, RKLB, BABA, NVO, HOOD, STI Are Keeping Traders Hooked",
+          "headline": "SpaceX  Launches Start of Acquisition Spree with Cursor After Historic IPO",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=9127d147df0639a62472a6655edac4b0bb2222fb85995324ec49a5aa0e6ee4e6"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e4e3451c1cb0355db4ed58492940bb5e743698e0663bcb82289e23a7cd6de5f8"
         },
         {
-          "headline": "STMicro Eyes $1.5 Billion Convertible Bonds After AI-Fueled Jump",
+          "headline": "Why Rivian's R2 model is 'almost mass marketable,' but not quite",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=b6ec62d701133056a81080733da0da59a9854c193641df1fa91fd5fbb9f77a10"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=45a24e794937e0a147a7735e04452efb7a558c13908034dcec71bdaf8662db45"
         }
       ],
       "earnings": [
