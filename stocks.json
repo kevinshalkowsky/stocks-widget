@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-06-19T06:03:43.537Z",
+  "updatedAt": "2026-06-19T11:09:35.778Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
       "price": 7500.58,
-      "change": -10.77,
-      "changePercent": -0.1434,
+      "change": 80.48,
+      "changePercent": 1.0846,
       "high": 7511.07,
       "low": 7468.32,
       "open": 0,
-      "prevClose": 7511.35009765625,
+      "prevClose": 7420.10009765625,
       "week52High": 7620.9,
       "week52Low": 5943.23,
       "volume": "6.3B",
@@ -35,7 +35,8 @@
         7431.4599609375,
         7554.2900390625,
         7511.35009765625,
-        7420.10009765625
+        7420.10009765625,
+        7500.580078125
       ],
       "sector": "",
       "marketCap": "",
@@ -57,12 +58,12 @@
       "type": "index",
       "name": "Dow Jones",
       "price": 51564.7,
-      "change": -434.97,
-      "changePercent": -0.8365,
+      "change": 72.15,
+      "changePercent": 0.1401,
       "high": 51949.26,
       "low": 51554.53,
       "open": 0,
-      "prevClose": 51999.671875,
+      "prevClose": 51492.55078125,
       "week52High": 52281.19,
       "week52Low": 41981.14,
       "volume": "985.4M",
@@ -86,7 +87,8 @@
         51202.26171875,
         51671.03125,
         51999.671875,
-        51492.55078125
+        51492.55078125,
+        51564.69921875
       ],
       "sector": "",
       "marketCap": "",
@@ -108,12 +110,12 @@
       "type": "index",
       "name": "Nasdaq",
       "price": 26517.932,
-      "change": 141.59,
-      "changePercent": 0.5368,
+      "change": 496.27,
+      "changePercent": 1.9071,
       "high": 26559.742,
       "low": 26188.688,
       "open": 0,
-      "prevClose": 26376.33984375,
+      "prevClose": 26021.66015625,
       "week52High": 27190.21,
       "week52Low": 19334.98,
       "volume": "17.8B",
@@ -137,7 +139,8 @@
         25888.83984375,
         26683.939453125,
         26376.33984375,
-        26021.66015625
+        26021.66015625,
+        26517.9296875
       ],
       "sector": "",
       "marketCap": "",
@@ -181,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Intel Stock Soared After Trump Said Apple Will Build Chips With It. Is It a Buy?",
+          "headline": "Apple's Price Warning Sends Memory Chips To A Record, Accenture Cracks 18%",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=301f2345c23f938eec305d50352b197a2b7d65b5d344fca4e44aa3db1120717d"
+        },
+        {
+          "headline": "US Tells ASML It’s Concerned China May Have Top Chip Tool",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=62e173fd9fa18062bce3ad746a03996fd38a3ca15f63b08cdb18ec4079a7c1d0"
+          "url": "https://finnhub.io/api/news?id=7fab18ff6fce85ff23f79d5308cd0a5fdcb9db7d1f788780837de0bb829f45f2"
         },
         {
-          "headline": "Google Has The Best Problem Money Can’t Quite Buy",
+          "headline": "3 Reasons to Buy Apple Stock",
           "source": "Yahoo",
           "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=71c88cf88c73b802721b63e2fd4ce2e04bed7a71d5acd3e2053a75a050775cb5"
+          "url": "https://finnhub.io/api/news?id=88e85b86ea0309f5738c4be901ba1e3acfa3ed09f43c9a437dc8741f26b36137"
         },
         {
-          "headline": "Why TQQQ’s 112% Gain Masks a Structural Cost That Compounds Every Single Day",
+          "headline": "Apple to work with Intel on US chip design and production, Trump says",
           "source": "Yahoo",
           "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=1174b583de11d7facdad668f3c2b6a93eb7247ca430abe0aabdf05c0d2a90ba3"
+          "url": "https://finnhub.io/api/news?id=df39f17f304a5661b749002c157c1cef80fce4b6cbd6bdd9c27df60b5641f95d"
         },
         {
-          "headline": "Sandisk (SNDK) Stock Jumps 11% After Apple Flags Unavoidable Memory Price Hikes",
+          "headline": "Under Tim Cook, Apple’s Stock Soared More Than 2,000%. Investors Will Miss Him.",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=9f50c19f3b5d4374d5b4cc1fad66efbe4a2f0b6777744d93fabf0011532299b3"
-        },
-        {
-          "headline": "This Week's Market Wrap: Oil Collapse, Fed Reset, And AI's Growing Reach",
-          "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=af6392f7bfcf445d62e554b22a926fce6972c106cf9ff37ef10ed13cb69f096d"
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=2d213719d03148fbd4198748f8e20b19e85948ef05d6d0a90f69f7dd7a87688d"
         }
       ],
       "earnings": [
@@ -267,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Seoul record leads most Asian markets higher, crude extends losses",
+          "headline": "SpaceX (SPCX) Is Up 14.9% After Record IPO And $60 Billion Cursor AI Deal - What's Changed",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3b6d4eae9c849fb9447e7896e63018f91d00722ee5527d474180273200650e29"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a85efb8e51f69fec6c78f611f25301cb8783ae11e5075a531e4eb9931d30930e"
         },
         {
-          "headline": "JPMorgan latest Broadcom outlook sends key signal",
+          "headline": "Amazon points to water conservation steps in India amid data centre scrutiny",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=33f4c43eea6128e23dc4cf909f903c5f28ac0046cd36f036d8ed3843926a7478"
+          "url": "https://finnhub.io/api/news?id=aca874447e8f245d5578d6c0035169d46f9a93ec10d7ce302bb3da62f8aa129e"
         },
         {
-          "headline": "Google Has The Best Problem Money Can’t Quite Buy",
+          "headline": "Better Quantum Computing Stock to Buy: IonQ vs. Rigetti",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=901d1818f879fe6f591263521e094b77f653ef77383f2b0d33ca589c709133ee"
+        },
+        {
+          "headline": "Gemini Co-Lead Noam Shazeer Quits Google, Joins OpenAI Before IPO",
           "source": "Yahoo",
           "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=71c88cf88c73b802721b63e2fd4ce2e04bed7a71d5acd3e2053a75a050775cb5"
+          "url": "https://finnhub.io/api/news?id=1b63c68cb8227319682311a16201fbb1155fc9dea5ecc6108a20caff0f47e95d"
         },
         {
-          "headline": "The 1 Tech Stock I'd Buy With My Eyes Closed at Today's Prices",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=63d3ff7bd4eafeca8a4b19d2fe360e480313c2232448996f43660ed92cea1513"
-        },
-        {
-          "headline": "PLTR Stock: The Math Hidden In Its Price",
-          "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=f3a3d99dceca6f8f0a01effff176682165a54abb55fdedf756d7033946046629"
+          "headline": "Alphabet: Google Cloud Is Outperforming Azure And AWS; $462 Billion Backlog Requires More AI Investments",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=a09a74e164841dd955dd91e9c7204cf5b8094e37c77b6f98fe7803148932297e"
         }
       ],
       "earnings": [
@@ -353,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Amazon points to water conservation steps in India amid data centre scrutiny",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=aca874447e8f245d5578d6c0035169d46f9a93ec10d7ce302bb3da62f8aa129e"
+        },
+        {
+          "headline": "Alphabet: Google Cloud Is Outperforming Azure And AWS; $462 Billion Backlog Requires More AI Investments",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=a09a74e164841dd955dd91e9c7204cf5b8094e37c77b6f98fe7803148932297e"
+        },
+        {
+          "headline": "Satya Nadella Has Positioned Microsoft to Grow. Investors Are Missing the Point.",
+          "source": "Yahoo",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=f9d45bbaaa2b437f823595491192cbad7e489e552e3612ab15331c353998d58e"
+        },
+        {
+          "headline": "AI is turning Nintendo and Sony products into accidental luxury goods",
+          "source": "Yahoo",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=3852fd9551c1cd2a4ee0cc32204ef6e7d350df709426f926eb542b7ce7be2601"
+        },
+        {
           "headline": "Jim Cramer sends a stern message to SpaceX buyers",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=3007f6899dadd3c3a17ba7d9e646b8d40386ded48c6ae638565420a57a145bcc"
-        },
-        {
-          "headline": "Google Has The Best Problem Money Can’t Quite Buy",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=71c88cf88c73b802721b63e2fd4ce2e04bed7a71d5acd3e2053a75a050775cb5"
-        },
-        {
-          "headline": "Microsoft (MSFT) Is Building A Billion Dollar AI Business In China",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=842111d43fac5bfe7b5f41b4fd8dad031bed9be206b75608cb9c46d74bffa083"
-        },
-        {
-          "headline": "Why TQQQ’s 112% Gain Masks a Structural Cost That Compounds Every Single Day",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=1174b583de11d7facdad668f3c2b6a93eb7247ca430abe0aabdf05c0d2a90ba3"
-        },
-        {
-          "headline": "Who Really Powered VGT's Climb This Year?",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=1522a958e1b59b0c85d965f04402d7af4160fbae221117f698e51c690e7ec4dc"
         }
       ],
       "earnings": [
@@ -439,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Seoul record leads most Asian markets higher, crude extends losses",
+          "headline": "Here's what's open (and closed) on Juneteenth 2026",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=eb124d90b4f39001ca57b92a0becfca42a45e0ee71c8d1cc82f49d56fb550e08"
+        },
+        {
+          "headline": "AI-generated ads should be exempt from EU transparency rules, retail association says",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ea343496717f11828cff03e97ae7b0ded81812aae8ac5bc89df8a321dad654fb"
+        },
+        {
+          "headline": "Amazon points to water conservation steps in India amid data centre scrutiny",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3b6d4eae9c849fb9447e7896e63018f91d00722ee5527d474180273200650e29"
+          "url": "https://finnhub.io/api/news?id=aca874447e8f245d5578d6c0035169d46f9a93ec10d7ce302bb3da62f8aa129e"
         },
         {
-          "headline": "Google Has The Best Problem Money Can’t Quite Buy",
+          "headline": "SentinelOne (S) Stock Could Be 36% Below Fair Value After Purple AI Update",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=71c88cf88c73b802721b63e2fd4ce2e04bed7a71d5acd3e2053a75a050775cb5"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=b43152273e7a7567ca81e29dbe3be6df73e11fc49e153af24e1606babd82e269"
         },
         {
-          "headline": "Amazon May Start Selling Its Custom AI Chips to Outside Companies. Should Nvidia Investors Be Worried?",
+          "headline": "90% of Amazon's Portfolio Is Invested in This EV Stock (Hint: It's Not Tesla)",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=7dc5992d5065dbb0fa2b6c34e67afd898a5e4bbef0441088efdb48d3fc473694"
-        },
-        {
-          "headline": "The week that changed AI: Inside Trump’s Anthropic crackdown, and how a phone call from Amazon CEO Andy Jassy triggered the chaos",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=3fbc0d7153f6e82ac59d513e16a43d6fc6c1662cbb8d341e14a8e9fb9806500f"
-        },
-        {
-          "headline": "SpaceX Just Identified a $22.7 Trillion Enterprise AI Market. These 2 AI Stocks Are Already Inside the Empire.",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=391e6ab9d79a34fb3a89358a201a6565cfaecb38fc783f2233845f42f597eff0"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=a28fa65cd87d9cc99182fed81b5286a5fd0147daa5974f2fa696f6d6a54e6c58"
         }
       ],
       "earnings": [
@@ -516,43 +519,43 @@
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
       "week52High": 498.83,
       "week52Low": 288.77,
-      "beta": 1.8127191,
+      "beta": 1.809815,
       "peRatio": 396.4496,
       "eps": 1.0754,
       "dividendYield": "",
-      "volume": "49.7M",
+      "volume": "52.0M",
       "avgVolume": "58.4M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Goldman Sachs Just Upgraded Its Tesla EV Delivery Forecast: Here's What Really Matters",
+          "headline": "SpaceX lands investment-grade credit ratings as shares tumble from record high",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=0c4d7d80a2219a756d45b9d0c9400e77b5cb9e81bb91da1eaca268e009a04312"
+        },
+        {
+          "headline": "Nestlé’s Brands, Products, and Prices",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=c0b8969c0285ede0a46be0687c1f67fdb0cab199872cab239bf4d0cb313337cc"
+          "url": "https://finnhub.io/api/news?id=87804d9dbf9cb6a1c18cd9b8bd6df27675c4d5328c4347a66f56edbb7d5557ca"
         },
         {
-          "headline": "Does a SpaceX and Tesla Merger Make Sense? Here's What Investors Should Know",
+          "headline": "90% of Amazon's Portfolio Is Invested in This EV Stock (Hint: It's Not Tesla)",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=a28fa65cd87d9cc99182fed81b5286a5fd0147daa5974f2fa696f6d6a54e6c58"
+        },
+        {
+          "headline": "Elon Musk says he is adding a voice interface to full self-driving while regulators investigate it for missed hazards",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=6ca45df2e9c96c7d757b2a45a74cac8cbb4c6f7df4cb5bfcd54d068efd826b31"
+        },
+        {
+          "headline": "Tim Draper Says Elon Musk Made The World See SpaceX Differently Just Like He Did With Tesla And PayPal: 'Opened Our Minds…'",
           "source": "Yahoo",
           "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=2e59b913d5c124f2fa20c6e595c47f1b0b425c5731c483ceecf12db42aa59a42"
-        },
-        {
-          "headline": "RIVN Stock: Rivian Reportedly Hit With Class-Action Lawsuit Over False Gen 1 Vehicle Autonomy Claims",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=f500c1033d79a52b4b1df5d532ed55d66e00f43468048731efe4ef5500aa1958"
-        },
-        {
-          "headline": "Elon Musk's Robotaxi Goals Get A Boost As Texas DOT Official Hails Tesla Cybercab",
-          "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=950c13065926b1c9cfbb8a9e6aa78f9d48e2e17c568907ca88d4a18f93e1b38b"
-        },
-        {
-          "headline": "SpaceX Shares Are Hot. This Looming Event Could Derail Them.",
-          "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=f79abc1ae353abe1222d88c6d896bc66a1e43d84f7fc6c35b3df1ec32ef37e64"
+          "url": "https://finnhub.io/api/news?id=4a0eace006fe41fcac330b9e549c3d59e80c49dc1d4e2198c3b1a291bc6df0c3"
         }
       ],
       "earnings": [
