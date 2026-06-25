@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-06-25T18:58:58.984Z",
+  "updatedAt": "2026-06-25T20:53:47.093Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7365.43,
-      "change": 7.21,
-      "changePercent": 0.098,
+      "price": 7357.49,
+      "change": -0.73,
+      "changePercent": -0.0099,
       "high": 7419.08,
       "low": 7323.5,
       "open": 0,
       "prevClose": 7358.22021484375,
       "week52High": 7620.9,
       "week52Low": 6107.27,
-      "volume": "2.2B",
+      "volume": "3.6B",
       "sparklineData": [
         7519.1201171875,
         7520.35986328125,
@@ -37,7 +37,7 @@
         7472.7900390625,
         7365.4599609375,
         7358.22021484375,
-        7365.43017578125
+        7357.490234375
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 51964.21,
-      "change": 115.31,
-      "changePercent": 0.2224,
+      "price": 51920.62,
+      "change": 71.72,
+      "changePercent": 0.1383,
       "high": 52655.66,
-      "low": 51892.02,
+      "low": 51857.78,
       "open": 0,
       "prevClose": 51848.8984375,
       "week52High": 52655.66,
       "week52Low": 43084.07,
-      "volume": "390.6M",
+      "volume": "639.2M",
       "sparklineData": [
         50461.6796875,
         50644.28125,
@@ -90,7 +90,7 @@
         51712.7109375,
         51666.83984375,
         51848.8984375,
-        51964.2109375
+        51920.62109375
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25383.951,
-      "change": -92.69,
-      "changePercent": -0.3638,
+      "price": 25358.604,
+      "change": -118.04,
+      "changePercent": -0.4633,
       "high": 25724.78,
       "low": 25123.426,
       "open": 0,
       "prevClose": 25476.640625,
       "week52High": 27190.21,
       "week52Low": 19982.48,
-      "volume": "6.5B",
+      "volume": "8.7B",
       "sparklineData": [
         26656.1796875,
         26674.73046875,
@@ -143,7 +143,7 @@
         26166.599609375,
         25587.0390625,
         25476.640625,
-        25383.951171875
+        25358.603515625
       ],
       "sector": "",
       "marketCap": "",
@@ -165,12 +165,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 279.53,
-      "change": -13.55,
-      "changePercent": -4.6233,
-      "high": 289.93,
+      "price": 275.15,
+      "change": -17.93,
+      "changePercent": -6.1178,
+      "high": 288.8,
       "low": 273.75,
-      "open": 289.93,
+      "open": 287.4,
       "prevClose": 293.08,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "These S&P500 stocks are the most active in today's session",
+          "headline": "Micron’s Blowout Sparked a Chip Rally, but the Smart Money Is Already Rotating Into Defense and Space",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=3540363f35e3c16ca7cc41c2ba3b5fbf0b0c2ab857fefa9f9f262b1dba1b6f30"
+        },
+        {
+          "headline": "Apple and Microsoft are raising their prices as chip costs soar",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=2bf12780798375821014f657aa05cc4a8fe39f9d81ad7725912cccc74f6efe29"
+        },
+        {
+          "headline": "Update: US Equity Indexes Mixed as Micron's Blockbuster Results Fail to Trigger Tech Rally While Apple Weighs",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d03de0b8b02681eabf3a463d55703a7b980e8089b1c7d87890fed1488f604d12"
+        },
+        {
+          "headline": "Big Tech stocks tumble while Micron continues to gain on Q3 earnings",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=6156b9c7e94fbc96f2c772f6ca588b01f30909829d24a93ad278d456696ed7ee"
+        },
+        {
+          "headline": "Stay informed with the top movers within the dow jones index on Thursday.",
           "source": "ChartMill",
-          "timeAgo": "53m ago",
-          "url": "https://finnhub.io/api/news?id=316fa7dc272a60bf1c88b51330b35f32850d3a5c31fb4457e23b5646931dd7f4"
-        },
-        {
-          "headline": "'A hundred-year flood': Tim Cook's worst nightmare just came true, forcing Apple to raise prices amid 'RAMageddon'",
-          "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=39ec8b13f1cbc58a45a76d18ca719a182c7f59274aac3e81c8e890732c83a9e1"
-        },
-        {
-          "headline": "AAPL Stock Slides Over 6% On Mac And iPad Price Hikes — Why Gene Munster Calls It An ‘Overreaction’",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cf4cff35381ecd726ed404fdba609dc17a7444dc4624cb37b0322c1f90ef1308"
-        },
-        {
-          "headline": "Apple Hikes Prices to Counter Memory Shortages",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=93d4bccfb29428c4aeb9ff955bb6a3dc393c5d06bf3d16963ade989febc56950"
-        },
-        {
-          "headline": "Microsoft Raises Xbox Console Prices for Third Time in 13 Months",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=29109293082b575c793f7a65fdfcb51f992ffcb0e636454bfeac161f132dca82"
+          "url": "https://finnhub.io/api/news?id=8812f369e1c746da48a498d89ecec0b3727d6002df6251389f0d5edede169eb4"
         }
       ],
       "earnings": [
@@ -251,12 +251,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 343.02,
-      "change": -2.27,
-      "changePercent": -0.6574,
-      "high": 343.64,
+      "price": 343.71,
+      "change": -1.58,
+      "changePercent": -0.4576,
+      "high": 345.57,
       "low": 335.84,
-      "open": 339.255,
+      "open": 336.73,
       "prevClose": 345.29,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -273,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Why the Alphabet Stock Dip Looks Like a Golden Buying Opportunity",
+          "headline": "Micron earnings beat fuels hopes for Tech rally rebound",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b9bcdae545d0122ee81e0b03b1a2e839826d626e205afbe947046dd2b1e98b35"
+          "url": "https://finnhub.io/api/news?id=af56997307ffdd2a6bc8f0f6fdaa0428a7224c7dcbc3b295dcb7a22ad81a33b2"
         },
         {
-          "headline": "Amazon Stock Slips Below Key Level. Why It's A Rough Day For Cloud Hyperscaler Stocks.",
+          "headline": "Netflix Stock Craters To Lowest Level In 20 Months",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f277aa4479daae2e566e11e0fd3a1e70d9788bef1b0675800bf8787874ba480c"
+          "url": "https://finnhub.io/api/news?id=7d481611260b1e37df21dbc64436986f7eb25a08cd0018b8c4fea897955d7689"
         },
         {
-          "headline": "Sector Update: Tech Shares Rise Thursday Afternoon",
+          "headline": "Nvidia’s CEO Says the Next Millionaires Will Be Plumbers and Electricians, Not Coders",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=24fad71ed3d5dce4b220ba19538f760e179fcb6f1c0b482d979b3ee87ee4977b"
+          "url": "https://finnhub.io/api/news?id=77f09ba64b5fb3d64c512663b1104f5ca063cedcf6d1eac962cb62455cc23f5b"
         },
         {
-          "headline": "Tech’s Multi-Trillion-Dollar Opportunity: Pax8 CFO Craig Foster, Live from Pax8 Beyond 2026",
+          "headline": "Linux Foundation and Industry Leaders Launch Akrites to Defend Critical Open Source Software Against AI-Enabled Cyber Threats",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=d0d32c235a00f92a634005500a182917d7f9497bee93419675ea2a0df38e7271"
+          "url": "https://finnhub.io/api/news?id=6499e14df1a0fdbbdc1b510f5786bcf239539925a1e227dfc11efd89129bdf62"
         },
         {
-          "headline": "Tesla, Waymo Get Robotaxi Rule Boost",
+          "headline": "5 Top Google AI Brains Bolted in 7 Days as Gemini Falls Behind, and Alphabet Stock Is Feeling It",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c8fc4f26488b978ca66083658234f33315930dfa4d2d26f0afa653d7d71c129d"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b8d9eb7b4df6bce6b4223cae2f0a036a3eb8f3dff6ff3645cd60d1d91961232a"
         }
       ],
       "earnings": [
@@ -337,12 +337,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 355.33,
-      "change": -10.13,
-      "changePercent": -2.7718,
+      "price": 352.83,
+      "change": -12.63,
+      "changePercent": -3.4559,
       "high": 364.23,
       "low": 349.2,
-      "open": 363.915,
+      "open": 362.77,
       "prevClose": 365.46,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "These S&P500 stocks are the most active in today's session",
+          "headline": "Apple and Microsoft are raising their prices as chip costs soar",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=2bf12780798375821014f657aa05cc4a8fe39f9d81ad7725912cccc74f6efe29"
+        },
+        {
+          "headline": "Micron earnings beat fuels hopes for Tech rally rebound",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=af56997307ffdd2a6bc8f0f6fdaa0428a7224c7dcbc3b295dcb7a22ad81a33b2"
+        },
+        {
+          "headline": "Microsoft stock tumbles, Micron sparks memory chip rally, Qualcomm's data center venture",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=420efa81785b31cbfeb2b4e334b6996f403223c2c3b669a35a7d01d66d024f78"
+        },
+        {
+          "headline": "Stay informed with the top movers within the dow jones index on Thursday.",
           "source": "ChartMill",
-          "timeAgo": "53m ago",
-          "url": "https://finnhub.io/api/news?id=316fa7dc272a60bf1c88b51330b35f32850d3a5c31fb4457e23b5646931dd7f4"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=8812f369e1c746da48a498d89ecec0b3727d6002df6251389f0d5edede169eb4"
         },
         {
-          "headline": "Amazon Stock Slips Below Key Level. Why It's A Rough Day For Cloud Hyperscaler Stocks.",
+          "headline": "Why Microsoft Stock Just Dropped",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f277aa4479daae2e566e11e0fd3a1e70d9788bef1b0675800bf8787874ba480c"
-        },
-        {
-          "headline": "Microsoft Raises Xbox Console Prices for Third Time in 13 Months",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=29109293082b575c793f7a65fdfcb51f992ffcb0e636454bfeac161f132dca82"
-        },
-        {
-          "headline": "Tech’s Multi-Trillion-Dollar Opportunity: Pax8 CFO Craig Foster, Live from Pax8 Beyond 2026",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=d0d32c235a00f92a634005500a182917d7f9497bee93419675ea2a0df38e7271"
-        },
-        {
-          "headline": "Janus Henderson Global Sustainable Equity Fund Trimmed Microsoft (MSFT) in Q1",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f708ab3b3a981a93914ff45ba4ba56f84a9f539e39651465f28215e8cee74f12"
+          "url": "https://finnhub.io/api/news?id=238276d181e13e7c57e1dd2e98adb3e71bcd3f5fbd0cf18bb173b8a86877e1b6"
         }
       ],
       "earnings": [
@@ -423,12 +423,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 229.16,
-      "change": -5.11,
-      "changePercent": -2.1812,
-      "high": 233.095,
-      "low": 226.05,
-      "open": 233.095,
+      "price": 227.01,
+      "change": -7.26,
+      "changePercent": -3.099,
+      "high": 232.32,
+      "low": 225.55,
+      "open": 232.02,
       "prevClose": 234.27,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "These S&P500 stocks are the most active in today's session",
+          "headline": "Stay informed with the top movers within the dow jones index on Thursday.",
           "source": "ChartMill",
-          "timeAgo": "53m ago",
-          "url": "https://finnhub.io/api/news?id=316fa7dc272a60bf1c88b51330b35f32850d3a5c31fb4457e23b5646931dd7f4"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=8812f369e1c746da48a498d89ecec0b3727d6002df6251389f0d5edede169eb4"
         },
         {
-          "headline": "Amazon Stock Slips Below Key Level. Why It's A Rough Day For Cloud Hyperscaler Stocks.",
+          "headline": "5 Top Google AI Brains Bolted in 7 Days as Gemini Falls Behind, and Alphabet Stock Is Feeling It",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f277aa4479daae2e566e11e0fd3a1e70d9788bef1b0675800bf8787874ba480c"
+          "url": "https://finnhub.io/api/news?id=b8d9eb7b4df6bce6b4223cae2f0a036a3eb8f3dff6ff3645cd60d1d91961232a"
         },
         {
-          "headline": "Amazon Expands Cloud and Logistics in India",
+          "headline": "OpenAI, Amazon, Anthropic, others team up to prep workers for AI upheaval",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3b61b137146646d4d83b9ad719bc524480e34cc9bdb198caf86c65dfecf19a00"
+          "url": "https://finnhub.io/api/news?id=b7bdb3dec9665128b593719752f69f48c5524a244ee75e7a6c0b2a2aa350bce5"
         },
         {
-          "headline": "Tesla, Waymo Get Robotaxi Rule Boost",
+          "headline": "The Secret Chipmaker Inside Amazon Stock",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c8fc4f26488b978ca66083658234f33315930dfa4d2d26f0afa653d7d71c129d"
+          "url": "https://finnhub.io/api/news?id=8028bf81aa7341747a548025e1d4047869d3cc7e15a1c33652feb8ca05a0c6fd"
         },
         {
-          "headline": "Qualcomm raises data center outlook on AI demand",
-          "source": "Yahoo",
+          "headline": "These S&P500 stocks are the most active in today's session",
+          "source": "ChartMill",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e8c5b56b5cd847ed483cccc1a8d5d04d56058573d5bcc299ee59b7c502c97687"
+          "url": "https://finnhub.io/api/news?id=316fa7dc272a60bf1c88b51330b35f32850d3a5c31fb4457e23b5646931dd7f4"
         }
       ],
       "earnings": [
@@ -509,12 +509,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 374,
-      "change": -1.53,
-      "changePercent": -0.4074,
+      "price": 375.12,
+      "change": -0.41,
+      "changePercent": -0.1092,
       "high": 379.117,
       "low": 371.221,
-      "open": 376.885,
+      "open": 375.27,
       "prevClose": 375.53,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Tesla faces lawsuit from family of victim killed in Texas home crash",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=eb54dd6f5a1d330c01c86122364a55d5e6fb06219deb9a0ff7599d837649f31d"
+        },
+        {
+          "headline": "Tesla Stock Price Prediction: Why The EV Maker Is Sitting Right at Fair Value",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a821e8749323917d8505db9c4640a1ea0f4105dc46be65016257fa63699c86b4"
+        },
+        {
+          "headline": "Micron overtakes Meta, Tesla in market value amid AI-driven demand",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=94d24a7b6fd0f9c5879d99adbc0ad48c1dfafb98be4d7b2fa878508b4f60a06d"
+        },
+        {
+          "headline": "601W’s bad week gets worse with $43M foreclosure on Tesla-leased Chicago building",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=66ff32a492f3d4052956508606854b2948201ce9a4f0c36fefcb8e7a23ca9e48"
+        },
+        {
           "headline": "Tesla, Waymo Get Robotaxi Rule Boost",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=c8fc4f26488b978ca66083658234f33315930dfa4d2d26f0afa653d7d71c129d"
-        },
-        {
-          "headline": "Tesla Bulls Push Wild Robotaxi Theory, But Gary Black Says The SpaceX Merger Talk Makes No Sense At All",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=0fb038792b15bc0abd7254c88ff476e5385fdaef520f27fe6bc2a1dd5e7b2313"
-        },
-        {
-          "headline": "SpaceX vs. Tesla: Which Will Grow More Over the Next 12 Months?",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=da846d1675c767346f67412fe6bee2fd216dfd3f526d79ea95f4264888b1f0f1"
-        },
-        {
-          "headline": "Tesla's Optimus Could Become A Bigger Memory Customer Than Its Cars, If Micron Is Right",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=bab3189a2c61c8eb81f4d528f7a5a2f9c58635c22b58b57daee736121fb2dd48"
-        },
-        {
-          "headline": "Elon Musk Just Lost His Trillionaire Status, as SpaceX and Tesla Stocks Plummet. Should Investors Buy the Dip?",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=fe76f289dd790a524bae7c4c99dc3511b4f84f0ff9cb66363aa90c6082a5e98d"
         }
       ],
       "earnings": [
