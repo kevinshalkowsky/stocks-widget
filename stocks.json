@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-06-26T11:35:39.276Z",
+  "updatedAt": "2026-06-26T13:53:24.329Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7357.49,
-      "change": -0.73,
-      "changePercent": -0.0099,
-      "high": 7419.08,
-      "low": 7323.5,
+      "price": 7315.02,
+      "change": -42.47,
+      "changePercent": -0.5772,
+      "high": 7324.93,
+      "low": 7294.18,
       "open": 0,
-      "prevClose": 7358.22021484375,
+      "prevClose": 7357.490234375,
       "week52High": 7620.9,
-      "week52Low": 6107.27,
-      "volume": "3.6B",
+      "week52Low": 6132.35,
+      "volume": "341.5M",
       "sparklineData": [
         7520.35986328125,
         7563.6298828125,
@@ -36,7 +36,8 @@
         7472.7900390625,
         7365.4599609375,
         7358.22021484375,
-        7357.490234375
+        7357.490234375,
+        7315.02001953125
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 51920.62,
-      "change": 71.72,
-      "changePercent": 0.1383,
-      "high": 52655.66,
-      "low": 51857.78,
+      "price": 51704.74,
+      "change": -215.88,
+      "changePercent": -0.4158,
+      "high": 51823.17,
+      "low": 51614.74,
       "open": 0,
-      "prevClose": 51848.8984375,
+      "prevClose": 51920.62109375,
       "week52High": 52655.66,
       "week52Low": 43340.68,
-      "volume": "639.2M",
+      "volume": "72.0M",
       "sparklineData": [
         50644.28125,
         50668.96875,
@@ -88,7 +89,8 @@
         51712.7109375,
         51666.83984375,
         51848.8984375,
-        51920.62109375
+        51920.62109375,
+        51704.73828125
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25358.604,
-      "change": -118.04,
-      "changePercent": -0.4633,
-      "high": 25724.78,
-      "low": 25123.426,
+      "price": 25095.672,
+      "change": -262.93,
+      "changePercent": -1.0368,
+      "high": 25168.4,
+      "low": 25014.959,
       "open": 0,
-      "prevClose": 25476.640625,
+      "prevClose": 25358.599609375,
       "week52High": 27190.21,
-      "week52Low": 19982.48,
-      "volume": "8.8B",
+      "week52Low": 20095.05,
+      "volume": "2.9B",
       "sparklineData": [
         26674.73046875,
         26917.470703125,
@@ -140,7 +142,8 @@
         26166.599609375,
         25587.0390625,
         25476.640625,
-        25358.599609375
+        25358.599609375,
+        25095.671875
       ],
       "sector": "",
       "marketCap": "",
@@ -162,13 +165,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 275.15,
-      "change": -17.93,
-      "changePercent": -6.1178,
-      "high": 288.8,
-      "low": 273.75,
-      "open": 287.4,
-      "prevClose": 293.08,
+      "price": 276.14,
+      "change": 0.99,
+      "changePercent": 0.3598,
+      "high": 278.2,
+      "low": 274.21,
+      "open": 275.08,
+      "prevClose": 275.15,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.04T",
@@ -184,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Chips Throw a Party, Apple Sends the Bill, and Hormuz Closes the Tap",
-          "source": "ChartMill",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=80e5b454222dcfcffa7eeeecfaed412c9fba83988139dbb957eacb456d4baba0"
-        },
-        {
-          "headline": "U.S. chip stocks retreat after Apple price hikes stoke fears over AI trade",
+          "headline": "Stocks Fall Pre-Bell as Tech Weakness Persists",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=24b425f265c0ff0db21829cf86747428ae83ee3f4f0e6fb0616b8fe1795360e5"
+          "url": "https://finnhub.io/api/news?id=547ef03fb5debcb3f282909d11963e686723e29190348bcbf3d8614bb13667e1"
         },
         {
-          "headline": "Nasdaq, S&P 500 Futures Slip As Memory Chip Selloff Hits Tech Stocks: Why SPCX, MU, QCOM, BB, ILLR, TII Are In Focus",
+          "headline": "Here's Why Taiwan Semiconductor (TSM) May Be the Smartest AI Infrastructure Buy Right Now",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5e494c5930f11add75403399b46d459342b74e4c06078b0cac6a2c245c79dc00"
+          "url": "https://finnhub.io/api/news?id=69fa5bce4cf936fdb5d0c14d75f12efd5b59cff20e9fc029d72f7394bdf695c5"
         },
         {
-          "headline": "Apple Is Paying Google $1 Billion a Year for AI. Here's Who the Real Winner Is.",
+          "headline": "Dow Jones Futures: S&P 500 Set To Break Key Level As Techs Tumble; What To Do Now",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f50c696254bfdf9ce6064e20e206395a5691b9ddc9dacc61a72f7fd45bdf3bde"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=2354f67860768a77109d4ea1fda3904b044ed0df38ae7c027c54f49a132a401e"
         },
         {
-          "headline": "The AI price shock is here: Apple, Microsoft hike prices",
+          "headline": "Ranking the FAANG Stocks From Most to Least Attractive, Based on Future Cash Flow",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=0191ec1bbc293296b16b219bb7b0f144c546fc2a628b15971496f441b418be5a"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=684fd2161cd22030b91fb2cbced74da83b4f8757c42e9a8dbdf3c9f584396821"
+        },
+        {
+          "headline": "Kospi Plunges 8% as AI Rally Faces Fresh Stress",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=3c8eec08131e791764a4c06897f2d576724d7bf3ce361b3b9f84c2085afa4235"
         }
       ],
       "earnings": [
@@ -248,13 +251,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 343.71,
-      "change": -1.58,
-      "changePercent": -0.4576,
-      "high": 345.57,
-      "low": 335.84,
-      "open": 336.73,
-      "prevClose": 345.29,
+      "price": 337.51,
+      "change": -6.2,
+      "changePercent": -1.8038,
+      "high": 342.75,
+      "low": 336.5,
+      "open": 342.265,
+      "prevClose": 343.71,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.18T",
@@ -270,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Update: Amazon's AWS, Microsoft Azure Should Be Classified as EU Gatekeepers, European Commission Says",
+          "headline": "Ranking the FAANG Stocks From Most to Least Attractive, Based on Future Cash Flow",
           "source": "Yahoo",
           "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=684fd2161cd22030b91fb2cbced74da83b4f8757c42e9a8dbdf3c9f584396821"
+        },
+        {
+          "headline": "Meta and Snap Face Australia Youth Crackdown",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7bf2ee738f2f39a3ffdba0a6c6cb9863d482883470da4488d4967ea5e9323ff4"
+        },
+        {
+          "headline": "The AI boom now has a price tag — and Micron just sent the bill: Chart of the Day",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=5402d5e41cb78da91642b7dfd6d188d1f78691acd9ca352e81102d81fb66f3f3"
+        },
+        {
+          "headline": "How Low Can Microsoft Stock Go?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=7df2d0b4dd31db81a0d427d2c3e3a1926c276364247e6b10ede95729d2d62400"
+        },
+        {
+          "headline": "Update: Amazon's AWS, Microsoft Azure Should Be Classified as EU Gatekeepers, European Commission Says",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=42412b3305db9c5ee64dac88ae36c8b71afe35e8a736f2d1177475bc42fc8c52"
-        },
-        {
-          "headline": "Apple Is Paying Google $1 Billion a Year for AI. Here's Who the Real Winner Is.",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f50c696254bfdf9ce6064e20e206395a5691b9ddc9dacc61a72f7fd45bdf3bde"
-        },
-        {
-          "headline": "Google Play Store Fee Adjustments Projected to Deliver DKK 3 Million in Direct Cost Savings for Trophy Games",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=6fa99829f09e3b3c6122aa2071eb8099544c93061f49d05c9f0e1836d9f1af9b"
-        },
-        {
-          "headline": "Google (GOOGL), Energy Dome Announce 200MWh CO2 Battery Project in Ireland",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=d735c4feb7525df1509ea9a6d3b996b3982c728ca0c2bd8fa2071c71f2fe3b3c"
-        },
-        {
-          "headline": "QCOM Stock Eyes Worst Month In 7 Years: Analyst Says MSFT, GOOG May Be Behind Qualcomm’s AI Momentum",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=0bb6034fb8c6143ab75a9c508afaa5d2c2b83173b62a8c5274d4c77d8109a7a1"
         }
       ],
       "earnings": [
@@ -334,13 +337,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 352.83,
-      "change": -12.63,
-      "changePercent": -3.4559,
-      "high": 364.23,
-      "low": 349.2,
-      "open": 362.77,
-      "prevClose": 365.46,
+      "price": 362.67,
+      "change": 9.84,
+      "changePercent": 2.7889,
+      "high": 364.2,
+      "low": 355.43,
+      "open": 357.405,
+      "prevClose": 352.83,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$2.62T",
@@ -356,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "The next big AI titan could be the company that makes your TV and smartphone",
+          "headline": "Microsoft Corp (NASDAQ:MSFT) Shines as a Quality Investment Through Caviar Cruise Screening",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a8cfc4542446a78eb8a6770f2f3450ee5696792fb45250fd1156caaef2b4c43b"
+        },
+        {
+          "headline": "Dow Jones Futures: S&P 500 Set To Break Key Level As Techs Tumble; What To Do Now",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=0ab9b0bf0ddf36bd67bd6fb2c8e5ca92e1bc92dca4bab62f3c6a3a91fe643d0f"
+          "url": "https://finnhub.io/api/news?id=2354f67860768a77109d4ea1fda3904b044ed0df38ae7c027c54f49a132a401e"
         },
         {
-          "headline": "Nasdaq, S&P 500 Futures Slip As Memory Chip Selloff Hits Tech Stocks: Why SPCX, MU, QCOM, BB, ILLR, TII Are In Focus",
+          "headline": "Veteran Bank Cuts Microsoft Stock Price Target on AI Spending Concerns",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5e494c5930f11add75403399b46d459342b74e4c06078b0cac6a2c245c79dc00"
+          "url": "https://finnhub.io/api/news?id=87990aac3bf3f6913074732f0ef9cf2cbea9ed373afb7238d78896b375a4f954"
         },
         {
-          "headline": "Update: Amazon's AWS, Microsoft Azure Should Be Classified as EU Gatekeepers, European Commission Says",
+          "headline": "Microsoft Faces Italy Probe Over AI Pricing",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=42412b3305db9c5ee64dac88ae36c8b71afe35e8a736f2d1177475bc42fc8c52"
+          "url": "https://finnhub.io/api/news?id=6e8b189480092c81d26d8fe415e3ae3bdea454cdc601f0ac6f6140ac558568c9"
         },
         {
-          "headline": "The AI price shock is here: Apple, Microsoft hike prices",
+          "headline": "Asian stocks suffer fresh rout as rollercoaster week draws to close",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=0191ec1bbc293296b16b219bb7b0f144c546fc2a628b15971496f441b418be5a"
-        },
-        {
-          "headline": "KOSPI Trading Halted as Micron Rivals SK Hynix, Samsung Dive on Memory Fears",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=fbd58751c8f06beb3bc6a7c4b39e56f8fcb70df6098f7218be8af912941aa1bd"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7829e853fdba0592df509b39d260eda42b1bf61090d3284c68f0402fe993aa74"
         }
       ],
       "earnings": [
@@ -420,13 +423,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 227.01,
-      "change": -7.26,
-      "changePercent": -3.099,
-      "high": 232.32,
-      "low": 225.55,
-      "open": 232.02,
-      "prevClose": 234.27,
+      "price": 226.75,
+      "change": -0.26,
+      "changePercent": -0.1145,
+      "high": 228.97,
+      "low": 226.125,
+      "open": 227.4075,
+      "prevClose": 227.01,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.44T",
@@ -442,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Update: Amazon's AWS, Microsoft Azure Should Be Classified as EU Gatekeepers, European Commission Says",
+          "headline": "Ranking the FAANG Stocks From Most to Least Attractive, Based on Future Cash Flow",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=42412b3305db9c5ee64dac88ae36c8b71afe35e8a736f2d1177475bc42fc8c52"
+          "url": "https://finnhub.io/api/news?id=684fd2161cd22030b91fb2cbced74da83b4f8757c42e9a8dbdf3c9f584396821"
         },
         {
-          "headline": "Amazon Is Now the Worst Performer Among the \"Magnificent Seven\" Over the Last 5 Years. Is Amazon a No-Brainer Buy, or Is There More Room to Fall?",
+          "headline": "Ross Gerber Says Slate Auto Is What Happens When 'Top Tesla And Amazon' Execs Build An EV, Predicts Buyers Will ‘Love’ Its $25,000 Pickup",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e3c4dfc2d39f5760aee96419762e265183fa903d350f39179d3393d57b0ea2a3"
+          "url": "https://finnhub.io/api/news?id=0452bf92de73b60387ff8fec87e15afb3425bb0c9545bbd41f5b4a82c8106c90"
         },
         {
-          "headline": "NVIDIA (NVDA), AWS (AMZN) Partner to Boost Production-Scale AI with Blackwell-Powered Instances",
+          "headline": "The AI boom now has a price tag — and Micron just sent the bill: Chart of the Day",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=49855358c4e106863f4c4857c12d5f8dd3964eecfb61a78b76e1550107261c57"
+          "url": "https://finnhub.io/api/news?id=5402d5e41cb78da91642b7dfd6d188d1f78691acd9ca352e81102d81fb66f3f3"
         },
         {
-          "headline": "Lululemon Went From Darling Stock to Disaster. How to Fix It.",
+          "headline": "How Low Can Microsoft Stock Go?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=7df2d0b4dd31db81a0d427d2c3e3a1926c276364247e6b10ede95729d2d62400"
+        },
+        {
+          "headline": "Update: Amazon's AWS, Microsoft Azure Should Be Classified as EU Gatekeepers, European Commission Says",
           "source": "Yahoo",
           "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=37c97d3b4360fce795b1b6f2180951b168afdce41967c4f9f2184410e16073d1"
-        },
-        {
-          "headline": "Alphabet Joined the Dow—and It Didn’t Help. What to Do With the Stock Now.",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=82ca4a60062c59a63ea71b63cfc9f1ae3a3266f0a10283face572ad1d8bd6f8a"
+          "url": "https://finnhub.io/api/news?id=42412b3305db9c5ee64dac88ae36c8b71afe35e8a736f2d1177475bc42fc8c52"
         }
       ],
       "earnings": [
@@ -506,13 +509,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 375.12,
-      "change": -0.41,
-      "changePercent": -0.1092,
-      "high": 379.117,
-      "low": 371.221,
-      "open": 375.27,
-      "prevClose": 375.53,
+      "price": 372.81,
+      "change": -2.31,
+      "changePercent": -0.6158,
+      "high": 373.98,
+      "low": 368.6,
+      "open": 370.585,
+      "prevClose": 375.12,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.41T",
@@ -528,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Here is Why Tesla (TSLA) is One of the Best Stocks For Beginners to Buy Now",
+          "headline": "The Week in Numbers: Micron climbs high, Apple raises prices",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9eaa90b5fdb195f62a20d039dc6b8e7c8fa627e78e8dab4bfa00886a4440e808"
+        },
+        {
+          "headline": "Ross Gerber Says Slate Auto Is What Happens When 'Top Tesla And Amazon' Execs Build An EV, Predicts Buyers Will ‘Love’ Its $25,000 Pickup",
           "source": "Yahoo",
           "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=0452bf92de73b60387ff8fec87e15afb3425bb0c9545bbd41f5b4a82c8106c90"
+        },
+        {
+          "headline": "Latest News In Electric Vehicles - Blue Cloud Drives Innovation with Strategic Tech Integrations",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=ae70cc1ca7aefe0a8af9b9775109ac35a3aac2c0bcb81e2ff0d2d22c09ad1690"
+        },
+        {
+          "headline": "Exclusive-Apple supplier Tata tightens internal controls after data breach, sources say",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=d899aa09fcf978dfe7f70190c1663a7347a2b60bdb3944d4208b5f51f4f305e6"
+        },
+        {
+          "headline": "Here is Why Tesla (TSLA) is One of the Best Stocks For Beginners to Buy Now",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=53b5a497042f74e1e6a5d9a3f493e25e00f079d01570fddb80216005aac53fed"
-        },
-        {
-          "headline": "3 Profitable Stocks We Keep Off Our Radar",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=e6abebbc312e72a5e88a3b37d03c1db7b47d2044c052bfe429abe958ef4f1cf7"
-        },
-        {
-          "headline": "Here's How Much You'd Have Today If You Had Invested $10,000 in Tesla the Day Before It Completed Its Last 3-for-1 Stock Split.",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=a432b1719698f8ea63dd4d4519fdd436ac59e6540489777ee67c8bfaf3f7a734"
-        },
-        {
-          "headline": "Micron Beats Meta in Market Cap: Can It Catch Nvidia Next?",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=cb1dcd497d3b446ea6257597a9f5e7e77b9e05167c107d25764d10aa655a51f2"
-        },
-        {
-          "headline": "SpaceX May Be Eyeing US Mobile Market – Even As Musk Says ‘Star’ Branding Has Gone Too Far",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=34327113f1a146c9991114d76a32b6ca88aa7010c0f47fbe895c5a34f05ec95e"
         }
       ],
       "earnings": [
