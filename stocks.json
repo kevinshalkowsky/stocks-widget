@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-06-29T16:30:09.195Z",
+  "updatedAt": "2026-06-29T18:55:10.077Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7413.2,
-      "change": 59.18,
-      "changePercent": 0.8047,
-      "high": 7427.8,
+      "price": 7437.99,
+      "change": 83.97,
+      "changePercent": 1.1418,
+      "high": 7440.64,
       "low": 7348.88,
       "open": 0,
       "prevClose": 7354.02001953125,
       "week52High": 7620.9,
       "week52Low": 6174.97,
-      "volume": "1.4B",
+      "volume": "2.1B",
       "sparklineData": [
         7599.9599609375,
         7609.77978515625,
@@ -35,7 +35,7 @@
         7358.22021484375,
         7357.490234375,
         7354.02001953125,
-        7413.2001953125
+        7437.990234375
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +56,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52109.81,
-      "change": 233.7,
-      "changePercent": 0.4505,
+      "price": 52231.55,
+      "change": 355.44,
+      "changePercent": 0.6852,
       "high": 52311.63,
       "low": 51949.54,
       "open": 0,
       "prevClose": 51876.109375,
       "week52High": 52655.66,
       "week52Low": 43340.68,
-      "volume": "258.9M",
+      "volume": "359.5M",
       "sparklineData": [
         51078.87890625,
         51307.7890625,
@@ -86,7 +86,7 @@
         51848.8984375,
         51920.62109375,
         51876.109375,
-        52109.80859375
+        52231.55078125
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +107,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25640.494,
-      "change": 342.87,
-      "changePercent": 1.3553,
-      "high": 25697.225,
+      "price": 25794.836,
+      "change": 497.22,
+      "changePercent": 1.9655,
+      "high": 25804.17,
       "low": 25289.764,
       "open": 0,
       "prevClose": 25297.619140625,
       "week52High": 27190.21,
       "week52Low": 20105.41,
-      "volume": "4.6B",
+      "volume": "6.3B",
       "sparklineData": [
         27086.810546875,
         27093.900390625,
@@ -137,7 +137,7 @@
         25476.640625,
         25358.599609375,
         25297.619140625,
-        25640.494140625
+        25794.8359375
       ],
       "sector": "",
       "marketCap": "",
@@ -159,11 +159,11 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 280.65,
-      "change": -3.13,
-      "changePercent": -1.103,
+      "price": 281.68,
+      "change": -2.1,
+      "changePercent": -0.74,
       "high": 288.3697,
-      "low": 280.22,
+      "low": 279.85,
       "open": 285.505,
       "prevClose": 283.78,
       "name": "Apple Inc",
@@ -181,34 +181,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Alphabet debuts in Dow Jones Industrial Average as index tilts toward tech",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=aac797d1562359441c68ea7904a1f8811c4b997bdba2987c8ccae4eab704a3f4"
+          "headline": "Monday's session: most active stock in the S&P500 index",
+          "source": "ChartMill",
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=53e4d9e23f7f3b59e9ad0b83e0fab948ad849b9beea2c4278bb192408fb69dae"
         },
         {
-          "headline": "Amazon Stock's Climb Leads Strong Day For Magnificent Seven",
+          "headline": "STMicro Rises on Barclays Upgrade",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b8ea2798e5bcf7e685fc5f94476272f4b35b9759975ae17aa6229844f2ce7468"
+          "timeAgo": "57m ago",
+          "url": "https://finnhub.io/api/news?id=2c9322668abb405360b2c2dc5c86cc72cfad4db2028481ba81e52835dbd7dc1a"
         },
         {
-          "headline": "Apple says India 'copy-pasted' rivals' claims in antitrust probe",
+          "headline": "Apple Eyes China Memory Option",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=986c247cdcfc56c121fd3f8fd47fc0842fffb10450356cd64eec3083f6a8bf0b"
+          "url": "https://finnhub.io/api/news?id=3c4cf5e03f80dca9591a20b36f27d3fd0665e1f569bcb17f2377f0c48d7be040"
         },
         {
-          "headline": "Tech stocks today: Tech stocks halt slide, Google rises after joining the Dow",
+          "headline": "Sector Update: Tech Stocks Rise Monday Afternoon",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=693eeea11ccb3e31201da940183c8c241466759ade439b99ca06bb5ec06d50cb"
+          "url": "https://finnhub.io/api/news?id=06eaea86267a90e5fd70ad65e2db5c605eaca826b74a3ffdea145b40ce73cdbd"
         },
         {
-          "headline": "Why Samsung & SK Hynix are investing so much in South Korea's AI build-out",
+          "headline": "Why Micron Stock Just Dropped",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=29745504a0710356fb2ff8120cc05dc2352c400901c4cb001aa92d75a1bf6042"
+          "url": "https://finnhub.io/api/news?id=5a69a4328ce4366b6bf165fcd466844316dcf3c3445c38a3a416f2a48a80aa19"
         }
       ],
       "earnings": [
@@ -245,10 +245,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 351.89,
-      "change": 14.5,
-      "changePercent": 4.2977,
-      "high": 352.765,
+      "price": 352.9,
+      "change": 15.51,
+      "changePercent": 4.5971,
+      "high": 353.75,
       "low": 340.67,
       "open": 341.2975,
       "prevClose": 337.39,
@@ -259,7 +259,7 @@
       "week52High": 408.61,
       "week52Low": 169.94,
       "beta": 1.2681154,
-      "peRatio": 31.078,
+      "peRatio": 32.5628,
       "eps": 10.807,
       "dividendYield": "0.26%",
       "volume": "43.7M",
@@ -267,34 +267,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "From Vision to Action: GECC Launches the Global Energy Circular Economy Coalition and Circular Battery Design Guidelines",
-          "source": "Yahoo",
-          "timeAgo": "45m ago",
-          "url": "https://finnhub.io/api/news?id=e433e6106d671af1bcb5bcd9410f7e8b795a11f50ffc3cfd6c9f02376b08d805"
-        },
-        {
-          "headline": "Stock Market Today: Dow Pops As Trump Fed Firing Is Blocked; Google Parent, Amazon Shine (Live Coverage)",
+          "headline": "Wall Street Just Supersized Its Price Target on Intel. Is the Stock Still Too Cheap?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=d547706f90bbec345d9f0d6953d1b68bc517905632f192f3c39dedf4b436e68b"
+          "url": "https://finnhub.io/api/news?id=c51f7fcc7af7e8eadccab718c1a6f44757941f237df009d3630973db4e521267"
         },
         {
-          "headline": "Alphabet debuts in Dow Jones Industrial Average as index tilts toward tech",
+          "headline": "Alphabet shares jump after joining Dow Jones Industrial Average",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=aac797d1562359441c68ea7904a1f8811c4b997bdba2987c8ccae4eab704a3f4"
+          "url": "https://finnhub.io/api/news?id=b5584c17f9453941dbdc0954fe7620ddfbe5250d15dad36b57436cfb636a7667"
         },
         {
-          "headline": "Amazon Stock's Climb Leads Strong Day For Magnificent Seven",
+          "headline": "Sector Update: Tech Stocks Rise Monday Afternoon",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b8ea2798e5bcf7e685fc5f94476272f4b35b9759975ae17aa6229844f2ce7468"
+          "url": "https://finnhub.io/api/news?id=06eaea86267a90e5fd70ad65e2db5c605eaca826b74a3ffdea145b40ce73cdbd"
         },
         {
-          "headline": "Tech stocks today: Tech stocks halt slide, Google rises after joining the Dow",
+          "headline": "Update: US Equity Indexes Rise as Communication Services Tops Sector Charts, Trump Sends Envoys to Qatar for Iran Talks",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=693eeea11ccb3e31201da940183c8c241466759ade439b99ca06bb5ec06d50cb"
+          "url": "https://finnhub.io/api/news?id=7a27c72931e5001ac58b5d7c42e2490937bf9020bdf4aa121d2ca948ef60f47f"
+        },
+        {
+          "headline": "New AI Cold War?! Did Google Really ‘Throttle’ Zuckerberg’s AI Access?",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=bb458c8d4e78b8ee4b6321ae0dab8406cafbbba2d945f5cd11a7e535b1fdbf52"
         }
       ],
       "earnings": [
@@ -331,11 +331,11 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 368.16,
-      "change": -4.81,
-      "changePercent": -1.2896,
+      "price": 368.17,
+      "change": -4.8,
+      "changePercent": -1.287,
       "high": 380.5,
-      "low": 367.74,
+      "low": 359.9,
       "open": 377.515,
       "prevClose": 372.97,
       "name": "Microsoft Corp",
@@ -353,34 +353,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Piper Sandler CIO survey finds AI spending ’beyond experimental’",
+          "headline": "Tech giants are not going to slash their AI spending plans, bullish tech analyst says",
           "source": "Yahoo",
-          "timeAgo": "40m ago",
-          "url": "https://finnhub.io/api/news?id=640a8a6c521852fba047737ccf760ecbf84295acc54cf12d4819cd283a8acabd"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7b7a8e45d87bf51f8f77577d9998b1a8eaeec59dc94fb69c902f9d8d23f3bbd8"
         },
         {
-          "headline": "Alphabet debuts in Dow Jones Industrial Average as index tilts toward tech",
+          "headline": "Alphabet joins Dow Jones Industrial Average, shares rise 3.7%",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=aac797d1562359441c68ea7904a1f8811c4b997bdba2987c8ccae4eab704a3f4"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=415b9858857209c518751e1e13baa4f5d6586be6ed99ca392bb370637b8f1abf"
         },
         {
-          "headline": "Amazon Stock's Climb Leads Strong Day For Magnificent Seven",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b8ea2798e5bcf7e685fc5f94476272f4b35b9759975ae17aa6229844f2ce7468"
+          "headline": "Stay informed with the top movers within the dow jones index on Monday.",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=c58f87f519bedc86a770597cfc7adc8b085161030ab75d342efee5f9f6a17bb1"
         },
         {
-          "headline": "Tech stocks today: Tech stocks halt slide, Google rises after joining the Dow",
+          "headline": "Apple vs. Microsoft: The Enterprise Capex Bubble vs. The Asset-Light Consumer Fortress",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=693eeea11ccb3e31201da940183c8c241466759ade439b99ca06bb5ec06d50cb"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=18e9fc209950e5f46e1a9f76b7f38256722aebd60e5a3d55d684ec70f1a1713e"
         },
         {
-          "headline": "Why Samsung & SK Hynix are investing so much in South Korea's AI build-out",
+          "headline": "What Could Push META Stock Higher From Here?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=29745504a0710356fb2ff8120cc05dc2352c400901c4cb001aa92d75a1bf6042"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=8a05e0e6fb9bb95d367460d35d00d397ddad97cf84a3104dfc50bbee81afb7dc"
         }
       ],
       "earnings": [
@@ -417,9 +417,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 240.39,
-      "change": 7.7,
-      "changePercent": 3.3091,
+      "price": 240.59,
+      "change": 7.9,
+      "changePercent": 3.3951,
       "high": 252.525,
       "low": 233.8,
       "open": 234.1075,
@@ -439,34 +439,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Piper Sandler CIO survey finds AI spending ’beyond experimental’",
-          "source": "Yahoo",
-          "timeAgo": "40m ago",
-          "url": "https://finnhub.io/api/news?id=640a8a6c521852fba047737ccf760ecbf84295acc54cf12d4819cd283a8acabd"
+          "headline": "Monday's session: most active stock in the S&P500 index",
+          "source": "ChartMill",
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=53e4d9e23f7f3b59e9ad0b83e0fab948ad849b9beea2c4278bb192408fb69dae"
         },
         {
-          "headline": "Top Midday Stories: Comcast Plans to Separate Into Two Publicly Traded Companies; Rocket Lab to Acquire Iridium in $8 Billion Deal",
-          "source": "Yahoo",
-          "timeAgo": "45m ago",
-          "url": "https://finnhub.io/api/news?id=a4d3ad1d5d38193a8e22f45bdf6849ed93f00b60ba7c99b79e179b2a1ffb5ee6"
-        },
-        {
-          "headline": "Stock Market Today: Dow Pops As Trump Fed Firing Is Blocked; Google Parent, Amazon Shine (Live Coverage)",
+          "headline": "Talen Energy, Stock Of The Day, Delivers For Amazon, AI Data Centers",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=d547706f90bbec345d9f0d6953d1b68bc517905632f192f3c39dedf4b436e68b"
+          "url": "https://finnhub.io/api/news?id=2aeef826412b0862e6c8dade399753a3cf71490bb0f1df2154456d5c067eb047"
         },
         {
-          "headline": "Alphabet debuts in Dow Jones Industrial Average as index tilts toward tech",
+          "headline": "Sector Update: Consumer Stocks Mixed Monday Afternoon",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=aac797d1562359441c68ea7904a1f8811c4b997bdba2987c8ccae4eab704a3f4"
+          "url": "https://finnhub.io/api/news?id=beb8881a237074335dde59e46134378477bedde9cb802d732a3176d12fc156a2"
         },
         {
-          "headline": "Amazon Stock's Climb Leads Strong Day For Magnificent Seven",
+          "headline": "Amazon climbs as Adobe data points to stronger-than-expected Prime Day demand",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b8ea2798e5bcf7e685fc5f94476272f4b35b9759975ae17aa6229844f2ce7468"
+          "url": "https://finnhub.io/api/news?id=3f9cf9ed6966faaf33dfeea5c414d894d6d5f9fe4e382f07e9a6ce766bcbba66"
+        },
+        {
+          "headline": "Update: Market Chatter: Amazon Could Face Higher Costs Under Renegotiated Anthropic Deal",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=53e1e222d755621bbda92a573c2d763fd3cb501187fe4dfcde4c7b7a48f8b5cf"
         }
       ],
       "earnings": [
@@ -503,10 +503,10 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 403.95,
-      "change": 24.24,
-      "changePercent": 6.3838,
-      "high": 404.34,
+      "price": 410.41,
+      "change": 30.7,
+      "changePercent": 8.0851,
+      "high": 410.78,
       "low": 379.3,
       "open": 382.165,
       "prevClose": 379.71,
@@ -525,34 +525,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Amazon Stock's Climb Leads Strong Day For Magnificent Seven",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b8ea2798e5bcf7e685fc5f94476272f4b35b9759975ae17aa6229844f2ce7468"
+          "headline": "Monday's session: most active stock in the S&P500 index",
+          "source": "ChartMill",
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=53e4d9e23f7f3b59e9ad0b83e0fab948ad849b9beea2c4278bb192408fb69dae"
         },
         {
-          "headline": "Invesco’s SPHD Pays 4.57% While the S&P 500 Pays 0.98%, And It Is Up This Year Without the Tech Bubble Risk",
+          "headline": "Update: US Equity Indexes Rise as Communication Services Tops Sector Charts, Trump Sends Envoys to Qatar for Iran Talks",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=1aa792bcddbe4e6b84b2eb85fa475ff10b3f70668de52c483085bfa53257170d"
+          "url": "https://finnhub.io/api/news?id=7a27c72931e5001ac58b5d7c42e2490937bf9020bdf4aa121d2ca948ef60f47f"
         },
         {
-          "headline": "Tesla Recovers Alongside Magnificent Seven, Analysts Chime In On Deliveries",
+          "headline": "Rivian Posts Worst Scores On Quality Study (Maybe)",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a599c8bb442aa624db717ad51a417ff101b0c587b6fa3044602c251be59ba220"
+          "url": "https://finnhub.io/api/news?id=b0e4c43f0b7b52a821115da04bb37389f2c83f0d2cf958cc87cd8562153692b5"
         },
         {
-          "headline": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
+          "headline": "Tesla Faces Fierce New Rival in Self-Driving Race",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fcc7e4381e756837890cf5b93b7153d0981ee58414765d73d45d2fb7a2257ea9"
+          "url": "https://finnhub.io/api/news?id=ccf6f82c8d441058883c99f681e092c0eb2aaece9672101d683712f9ba6c1dc6"
         },
         {
-          "headline": "Tesla Stock Rises as Musk’s EV Maker Deepens Ties With SpaceX",
+          "headline": "Why Charter Communications Is Today’s Top S&P 500 Stock",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=20ed2a0c492715ee4b7961cd6b1b98c6b10089f0d35c794ac31885150984c189"
+          "url": "https://finnhub.io/api/news?id=8f14fdb06f49e76e1b3a746bd5ed3ed06d640964461a58a1b2c12d036a7c1ae7"
         }
       ],
       "earnings": [
