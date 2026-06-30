@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-06-30T12:59:45.599Z",
+  "updatedAt": "2026-06-30T15:26:41.630Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7440.43,
-      "change": 86.41,
-      "changePercent": 1.175,
-      "high": 7444.32,
-      "low": 7348.88,
+      "price": 7479.67,
+      "change": 39.24,
+      "changePercent": 0.5274,
+      "high": 7480.71,
+      "low": 7438.04,
       "open": 0,
-      "prevClose": 7354.02001953125,
+      "prevClose": 7440.43017578125,
       "week52High": 7620.9,
       "week52Low": 6177.97,
-      "volume": "3.7B",
+      "volume": "899.0M",
       "sparklineData": [
         7599.9599609375,
         7609.77978515625,
@@ -35,7 +35,8 @@
         7358.22021484375,
         7357.490234375,
         7354.02001953125,
-        7440.43017578125
+        7440.43017578125,
+        7479.669921875
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52182.74,
-      "change": 306.63,
-      "changePercent": 0.5911,
-      "high": 52311.63,
-      "low": 51949.54,
+      "price": 52325.93,
+      "change": 143.19,
+      "changePercent": 0.2744,
+      "high": 52349.19,
+      "low": 52033.13,
       "open": 0,
-      "prevClose": 51876.109375,
+      "prevClose": 52182.73828125,
       "week52High": 52655.66,
       "week52Low": 43340.68,
-      "volume": "592.8M",
+      "volume": "147.6M",
       "sparklineData": [
         51078.87890625,
         51307.7890625,
@@ -86,7 +87,8 @@
         51848.8984375,
         51920.62109375,
         51876.109375,
-        52182.73828125
+        52182.73828125,
+        52325.9296875
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25820.145,
-      "change": 522.53,
-      "changePercent": 2.0655,
-      "high": 25834.355,
-      "low": 25289.764,
+      "price": 26097.34,
+      "change": 277.2,
+      "changePercent": 1.0736,
+      "high": 26097.596,
+      "low": 25808.059,
       "open": 0,
-      "prevClose": 25297.619140625,
+      "prevClose": 25820.140625,
       "week52High": 27190.21,
       "week52Low": 20105.41,
-      "volume": "8.6B",
+      "volume": "3.5B",
       "sparklineData": [
         27086.810546875,
         27093.900390625,
@@ -137,7 +139,8 @@
         25476.640625,
         25358.599609375,
         25297.619140625,
-        25820.140625
+        25820.140625,
+        26097.33984375
       ],
       "sector": "",
       "marketCap": "",
@@ -159,13 +162,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 281.74,
-      "change": -2.04,
-      "changePercent": -0.7189,
-      "high": 288.3697,
-      "low": 279.85,
-      "open": 286.73,
-      "prevClose": 283.78,
+      "price": 288.49,
+      "change": 6.75,
+      "changePercent": 2.3958,
+      "high": 288.66,
+      "low": 280.695,
+      "open": 281.085,
+      "prevClose": 281.74,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.14T",
@@ -181,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "This Stock is My Biggest Bet For July",
+          "headline": "Luxshare Precision launches $3.1 billion Hong Kong IPO",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f585b053ff043628cf858daa639ccc68f27f70c35a20f5d39793a5f73ed46715"
+          "url": "https://finnhub.io/api/news?id=6e9fbc3b280c1aa03844d458d14cf9c364834ab7fa4f86ecf710b148e1e0a36a"
         },
         {
-          "headline": "Jensen Huang Says an AI Supercomputer Could Become Common in the Home — The Implications for Consumer‑Side Compute are Huge",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=5049f71d795c4be76e8273a9fe57de32103d5706c1fa00dd9d7f960924181866"
-        },
-        {
-          "headline": "Loop Says Apple (AAPL) Is Looking to China for Memory Supply Relief",
+          "headline": "Magnificent Seven shed $2.3 trillion in June as AI spending comes under closer scrutiny (MSFT)",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a533f23182543c831b74313ac413285e727614a2c8723ab2135fb736f67b83b7"
+          "url": "https://finnhub.io/api/news?id=1bc5b4ddf2fd8a8b2b7434fc66ad8cacb9cc352b81a0e02ca63c1d2d84ae2f5d"
         },
         {
-          "headline": "Trump Threatens 100% Tariffs Over Digital Taxes. These 5 Tech Stocks Are Most at Risk",
+          "headline": "EP Wealth Advisors Expands Northern California Presence with the Acquisition of Opes Wealth Management",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=20c80505785dce65355116e89b13d0f9c4f3bb399a321f2fd67fb6d912104b15"
+          "url": "https://finnhub.io/api/news?id=12e40529aa35a865650a1c040df89ecce3e0ed7d687c6fc94d6da9be8dd2dda5"
         },
         {
-          "headline": "High Memory Costs Are Increasing AI Development Costs. Time to Sell AI Stocks?",
+          "headline": "AXS Names Sweta Patel Chief Marketing Officer",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=3c4ab94a590347e9b38703ad2f2ba693b8550e32d63b44ddb79a8fd7b5d15e16"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=f27315386ac9996dec5ffe91dffb1383ee1a88ede4ca8917bb323c10d663c44c"
+        },
+        {
+          "headline": "Wolfe sees higher memory prices adding to U.S. inflation pressures",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=1995ac5a15733a96e7eed9b358103e9aad9bff2d4e610e51a8d9d42caf17648c"
         }
       ],
       "earnings": [
@@ -245,13 +248,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 353.65,
-      "change": 16.26,
-      "changePercent": 4.8193,
-      "high": 354.35,
-      "low": 340.67,
-      "open": 341.825,
-      "prevClose": 337.39,
+      "price": 356.37,
+      "change": 2.72,
+      "changePercent": 0.7691,
+      "high": 356.8644,
+      "low": 350.4,
+      "open": 353.6775,
+      "prevClose": 353.65,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.31T",
@@ -267,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "FactSet Announces Strategic Partnership with Google Cloud to Bring Advanced AI to Financial Intelligence",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e345b2d6f158d8bee18cc81ec42cd43114554b56019690f28a900ec42d5fa7e2"
-        },
-        {
-          "headline": "Alphabet Just Joined the Dow Jones Industrial Average. 3 Dow Dividend Stocks to Buy Now.",
+          "headline": "Why Split With Waymo In Phoenix Could 'Weigh On' Uber Stock",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3791404eb95fb94ba4fea4b9fe9a7ecaebc60426c9a687ab1366526f048c7dc7"
+          "url": "https://finnhub.io/api/news?id=dd62827e72f5de4bf3a0349b96f6c0e6042cbb284466cab4d72585b88e039b08"
         },
         {
-          "headline": "Trump Threatens 100% Tariffs Over Digital Taxes. These 5 Tech Stocks Are Most at Risk",
+          "headline": "U.S. approach to regulation of AI is problematic, Sixth Street's Chavez says",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=20c80505785dce65355116e89b13d0f9c4f3bb399a321f2fd67fb6d912104b15"
+          "url": "https://finnhub.io/api/news?id=954c5254eaa9f310159c9714dfc92cd8d99f153de50a559799fb975901d36c62"
         },
         {
-          "headline": "Tech stocks on pace for best 6 months since 2023 — even with much of the 'Magnificent 7' in the 'penalty box': Chart of the Day",
+          "headline": "Magnificent Seven shed $2.3 trillion in June as AI spending comes under closer scrutiny (MSFT)",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c8f0228e8ee6ac332d67782f4a0f3c2481d419519b1d6e99daf45426630afb4e"
+          "url": "https://finnhub.io/api/news?id=1bc5b4ddf2fd8a8b2b7434fc66ad8cacb9cc352b81a0e02ca63c1d2d84ae2f5d"
         },
         {
-          "headline": "UK watchdog proposes changes to Apple and Google’s app stores payment rules",
+          "headline": "Google’s AI Overviews Didn’t Hurt Search Performance, New Incrementality Data Reveals",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e8af85f2783c693d48d808895be8de6114a62da1b20aba4f7f98f823c6c10b34"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4ded19cf6e85236dd4e8b0eaf4e9207ed9f5c8ade3aed04359e624e3bf1b37b4"
+        },
+        {
+          "headline": "EP Wealth Advisors Expands Northern California Presence with the Acquisition of Opes Wealth Management",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=12e40529aa35a865650a1c040df89ecce3e0ed7d687c6fc94d6da9be8dd2dda5"
         }
       ],
       "earnings": [
@@ -331,13 +334,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 368.57,
-      "change": -4.4,
-      "changePercent": -1.1797,
-      "high": 380.5,
-      "low": 359.9,
-      "open": 377.5,
-      "prevClose": 372.97,
+      "price": 370.24,
+      "change": 1.67,
+      "changePercent": 0.4531,
+      "high": 372.6,
+      "low": 367.45,
+      "open": 370.92,
+      "prevClose": 368.57,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$2.74T",
@@ -345,7 +348,7 @@
       "week52High": 555.45,
       "week52Low": 349.2,
       "beta": 1.1434377,
-      "peRatio": 27.5375,
+      "peRatio": 27.0557,
       "eps": 13.6413,
       "dividendYield": "0.99%",
       "volume": "60.0M",
@@ -353,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "GenNx360 Capital Partners Appoints Welela Dawit as Operating Partner",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a71d4d03add4a2883258b365559da0be40a25494172b3a777f5663798020dc5e"
-        },
-        {
-          "headline": "CGI earns the Solutions Partner with certified software designation for cloud and AI delivery within the Microsoft AI Cloud Partner Program",
+          "headline": "Level Access Now Available in the Microsoft Marketplace",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9789dfd65ffbda240c94415550e8e4201b6aa3e4433f9c8bf9bd324d7f840ba2"
+          "url": "https://finnhub.io/api/news?id=8496f9901137b5c563a82b1c6074000bcc2e436799a4d38e0b3bb5cb5a7cb4a1"
         },
         {
-          "headline": "Microsoft (MSFT) AI Story Gains Momentum with Deutsche Bank Call and CIO Survey",
+          "headline": "Despite Dropping 26% This Year, Microsoft is a No-Brainer Buy",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=337ed4e00520adb2454c3fd33de21e7e03fff8d8a0adf7dc52829e808d7f46ba"
+          "url": "https://finnhub.io/api/news?id=e75543a81950f80f4e69946fcf8e1288da600a7927614df66d2b0513c7d1764d"
         },
         {
-          "headline": "Trump Threatens 100% Tariffs Over Digital Taxes. These 5 Tech Stocks Are Most at Risk",
+          "headline": "Magnificent Seven shed $2.3 trillion in June as AI spending comes under closer scrutiny (MSFT)",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=20c80505785dce65355116e89b13d0f9c4f3bb399a321f2fd67fb6d912104b15"
+          "url": "https://finnhub.io/api/news?id=1bc5b4ddf2fd8a8b2b7434fc66ad8cacb9cc352b81a0e02ca63c1d2d84ae2f5d"
         },
         {
-          "headline": "Tech stocks on pace for best 6 months since 2023 — even with much of the 'Magnificent 7' in the 'penalty box': Chart of the Day",
+          "headline": "BlackBerry AtHoc Strengthens Enterprise Readiness as Cyber, Climate, and Geopolitical Uncertainty Rises",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c8f0228e8ee6ac332d67782f4a0f3c2481d419519b1d6e99daf45426630afb4e"
+          "url": "https://finnhub.io/api/news?id=2e21a2e0ebbb999e68ac38641931808d20c9aff10a6333695ccb5ca6ffe7f505"
+        },
+        {
+          "headline": "DailyPay Announces Appointment of Inbal Shani to its Board of Directors",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=06e81c8e2c09876499e0e0879b185b24404db6a135240500c095861d9f47ccec"
         }
       ],
       "earnings": [
@@ -417,13 +420,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 240.14,
-      "change": 7.45,
-      "changePercent": 3.2017,
-      "high": 252.525,
-      "low": 233.8,
-      "open": 234.215,
-      "prevClose": 232.69,
+      "price": 238.85,
+      "change": -1.29,
+      "changePercent": -0.5372,
+      "high": 240.725,
+      "low": 237.171,
+      "open": 238.975,
+      "prevClose": 240.14,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.58T",
@@ -439,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Trump Threatens 100% Tariffs Over Digital Taxes. These 5 Tech Stocks Are Most at Risk",
+          "headline": "Here is Why SentinelOne (S) is One of the AI Stocks on Wall Street’s Radar",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=cc1a68b196724f447daaf2f79dd5e2aa6e9ac1bd736c2cb20b2d25718abe4b55"
+        },
+        {
+          "headline": "Magnificent Seven shed $2.3 trillion in June as AI spending comes under closer scrutiny (MSFT)",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=20c80505785dce65355116e89b13d0f9c4f3bb399a321f2fd67fb6d912104b15"
+          "url": "https://finnhub.io/api/news?id=1bc5b4ddf2fd8a8b2b7434fc66ad8cacb9cc352b81a0e02ca63c1d2d84ae2f5d"
         },
         {
-          "headline": "From the Gas Pump to the Grill: Prime Introduces Summer Savings Just in Time for the Fourth of July",
+          "headline": "NLRB Judge Rules Against Amazon in San Francisco Union Fight",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=95060de42b8ca94604904e55284150cb1df32027eb476ad02becd450530b897c"
+          "url": "https://finnhub.io/api/news?id=a7ffd7158a9f749af61ad2b30924352c37878eaa1e543e712699ee771729143f"
         },
         {
-          "headline": "Ranking Wall Street's Trillion-Dollar Stocks From Most to Least Attractive, Based on Future Cash Flow",
+          "headline": "SPS Commerce Announces Agreement to Sell 3P Revenue Recovery Business",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=d8e6ea6dd654285e0ca52c6944967cec4789c50c9480c2976e57d14b3057a9e8"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=6df932e7d7892fa7407fb25983ec1ce89cc5ca98cc02fafc5247fc4964ef6d6a"
         },
         {
-          "headline": "Chip Stocks’ Best Quarter Ever Is Ending With Some Wild Swings",
+          "headline": "CME Group to Launch Single Stock Futures on July 27",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=506a26c5904c2bb453d14487adbd96ee4b458131d0af12ced34e1dae1f0121e9"
-        },
-        {
-          "headline": "Wolfson Group Acquires Portfolio of Wellness Brands to Accelerate U.S. Expansion",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=b9f1e82160a2b05000823751561fd02b2fd90a196cb8031fd7aa3a1f9456db30"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=84f8021f337f7a84cf7d57f253ff3f4f7deb98fb5c5cabaf5460b0797c8467dc"
         }
       ],
       "earnings": [
@@ -503,13 +506,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 411.84,
-      "change": 32.13,
-      "changePercent": 8.4617,
-      "high": 413.27,
-      "low": 379.3,
-      "open": 381.79,
-      "prevClose": 379.71,
+      "price": 415.47,
+      "change": 3.63,
+      "changePercent": 0.8814,
+      "high": 416.38,
+      "low": 406,
+      "open": 407.86,
+      "prevClose": 411.84,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.55T",
@@ -525,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Energy Transition Update - Statkraft Powers Up: Major Norwegian Hydropower Upgrade Planned",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=fcb8d657ca1e279173db10e828089ed9e96518fad3898ceb041c647cf8dfaef6"
-        },
-        {
-          "headline": "Does Elon Musk's Recent $1 Trillion SpaceX Comment Heavily Hint That a Tesla Merger Is Coming?",
+          "headline": "Where Will Tesla Stock Be in 5 Years?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4920383d874177fcdb276cf7e9eb29ff1fb630a740c1be1ea494792baf2b7377"
+          "url": "https://finnhub.io/api/news?id=a3c39b7fe9f85949b804033434530ec8659c72917758587c2b1e316c8d489d12"
         },
         {
-          "headline": "Panasonic to localise its US data centre battery production, CEO says",
+          "headline": "Magnificent Seven shed $2.3 trillion in June as AI spending comes under closer scrutiny (MSFT)",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=78e586cc28efad32b31b8517b5782fb6220e8a1b6cc6ff29530e81bd66745cb5"
+          "url": "https://finnhub.io/api/news?id=1bc5b4ddf2fd8a8b2b7434fc66ad8cacb9cc352b81a0e02ca63c1d2d84ae2f5d"
         },
         {
-          "headline": "Tesla (TSLA) Delivery Outlook Improves as Morgan Stanley Keeps Equal Weight Rating",
+          "headline": "Magnificent 7 stocks lose $2.3 trillion in June",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=811c57a622bc9795ae057b32759b9670fd2b8700b558947fbcc17034dbc90ddd"
+          "url": "https://finnhub.io/api/news?id=45ae29641062ee38e9160a149e20958cf2a077f54f0351060ba0773e1af1818d"
         },
         {
-          "headline": "Tesla's Robotaxi Math Doesn't Work With Human Safety Drivers, Gary Black Says",
+          "headline": "Tesla Faces New Autonomy Challenger",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=8fda98c75d06c8f149107e1b1254af8daa6233335e8464b7edbd2e4485172313"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=c46d09724f223fc477884d29006617a152230d03834aadefd72fbb510d900b0c"
+        },
+        {
+          "headline": "Three Roundhill ETFs Built for Investors Who Want a Paycheck Every Single Weekday",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=3664bd33375ac6d7d8db20a092e2cb2e43a76d47b74f15170b44e144962ae7e7"
         }
       ],
       "earnings": [
