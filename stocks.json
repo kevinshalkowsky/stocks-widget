@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-02T11:59:28.632Z",
+  "updatedAt": "2026-07-02T13:55:33.122Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7483.23,
-      "change": -16.13,
-      "changePercent": -0.2151,
-      "high": 7521.81,
-      "low": 7449.63,
+      "price": 7531.57,
+      "change": 48.34,
+      "changePercent": 0.646,
+      "high": 7540.45,
+      "low": 7495.14,
       "open": 0,
-      "prevClose": 7499.35986328125,
+      "prevClose": 7483.22998046875,
       "week52High": 7620.9,
       "week52Low": 6201,
-      "volume": "3.7B",
+      "volume": "328.1M",
       "sparklineData": [
         7609.77978515625,
         7553.68017578125,
@@ -36,7 +36,8 @@
         7354.02001953125,
         7440.43017578125,
         7499.35986328125,
-        7483.22998046875
+        7483.22998046875,
+        7531.56982421875
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52305.24,
-      "change": -13.96,
-      "changePercent": -0.0267,
-      "high": 52742.66,
-      "low": 52026.64,
+      "price": 52711.76,
+      "change": 406.52,
+      "changePercent": 0.7772,
+      "high": 52802.97,
+      "low": 52395.22,
       "open": 0,
-      "prevClose": 52319.19921875,
-      "week52High": 52742.66,
+      "prevClose": 52305.23828125,
+      "week52High": 52802.97,
       "week52Low": 43340.68,
-      "volume": "627.3M",
+      "volume": "57.0M",
       "sparklineData": [
         51307.7890625,
         50687.0703125,
@@ -88,7 +89,8 @@
         51876.109375,
         52182.73828125,
         52319.19921875,
-        52305.23828125
+        52305.23828125,
+        52711.76171875
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26040.031,
-      "change": -173.69,
-      "changePercent": -0.6626,
-      "high": 26238.059,
-      "low": 25954.455,
+      "price": 26206.846,
+      "change": 166.82,
+      "changePercent": 0.6406,
+      "high": 26230.6,
+      "low": 26040.426,
       "open": 0,
-      "prevClose": 26213.720703125,
+      "prevClose": 26040.029296875,
       "week52High": 27190.21,
       "week52Low": 20323.02,
-      "volume": "7.9B",
+      "volume": "1.7B",
       "sparklineData": [
         27093.900390625,
         26853.98046875,
@@ -140,7 +142,8 @@
         25297.619140625,
         25820.140625,
         26213.720703125,
-        26040.029296875
+        26040.029296875,
+        26206.845703125
       ],
       "sector": "",
       "marketCap": "",
@@ -162,13 +165,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 294.38,
-      "change": 5.02,
-      "changePercent": 1.7349,
-      "high": 296.59,
-      "low": 289.195,
-      "open": 293.44,
-      "prevClose": 289.36,
+      "price": 301.82,
+      "change": 7.44,
+      "changePercent": 2.5273,
+      "high": 302.68,
+      "low": 293.68,
+      "open": 295.44,
+      "prevClose": 294.38,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.32T",
@@ -184,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Apple reportedly plans major iPhone expansion with five new models through 2027 (AAPL)",
+          "headline": "FOMO Vs. FOMU: What Do Apple, Nvidia And These IPOs Reveal?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=ec5a2f58a891d050993db4fce848b33bb02fd95da387cd954220f1dd0e0f9220"
+        },
+        {
+          "headline": "This Market Rotation From Tech Could Be a Longer-Term Adjustment",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=ec4c7bc6dd1588d0926b0cf5d3347d0d247bbff61857c8b8fbd63cb4600dfce0"
+        },
+        {
+          "headline": "Market Chatter: Apple Plans Five New iPhone Models",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=a2988ab5ffe0621e3912d478f4b15539a87d0452ae5134887bcc2bde6174dec4"
+        },
+        {
+          "headline": "Apple reportedly plans major iPhone expansion with five new models through 2027 (AAPL)",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=f77fd487435249fef35a1a26333a5d670ca0352e80b64484ea2e21ecbd749501"
         },
         {
           "headline": "SpaceX Analyst Debut Set to Test $2.2 Trillion Valuation",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=e5fb1814d6b0250eba25b54819ffcc107b428b6a8303a727cd4345fea3b4ce1b"
-        },
-        {
-          "headline": "Why has Wall Street fallen out of love with the 'Magnificent Seven'?",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=2cb88a81b146a7298332e3e04c8a8dcc02c72799fb5505194a755703c5ccfea4"
-        },
-        {
-          "headline": "Apple’s India supply-chain bet has hidden risk",
-          "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=084eb90fcbd9c10a04fd3cbb3a3f2ddb83822f53cb8466d4b67155c523f4f61b"
-        },
-        {
-          "headline": "Apple Is Best Positioned To Face Memory Shock: Reiterate Buy",
-          "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=91f338ca2adc60e9238948dc126b24b0694013d1510037881e40dc662006a35c"
         }
       ],
       "earnings": [
@@ -248,13 +251,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 361.21,
-      "change": 3.84,
-      "changePercent": 1.0745,
-      "high": 362.97,
-      "low": 356.43,
-      "open": 358.37,
-      "prevClose": 357.37,
+      "price": 364.01,
+      "change": 2.8,
+      "changePercent": 0.7752,
+      "high": 364.07,
+      "low": 358.22,
+      "open": 358.715,
+      "prevClose": 361.21,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.40T",
@@ -270,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Dow Jones Futures Rise With Tesla, Jobs Report Ahead",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=b829776ed5ec6a8c1552a895f4faa5941838c56e2b8d3ae138057cff98129588"
+        },
+        {
+          "headline": "OpenAI proposes 5% stake to U.S. government for AI wealth fund",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=c80a8c346bdde4809e3aff77adec22b0e7dc82b053961c2d49bb38689edbef94"
+        },
+        {
           "headline": "Meta Declares War on the Cloud Giants, and Chip Stocks Pay the Price",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=49532cfe16e8c9309455af64d6022e870335c2dc1e5b85b0eadbd2b6be344bb1"
+        },
+        {
+          "headline": "How Axon is replacing guns with tech",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=e274e95068d5ea4ef721fec1cfaa429932256421fee2a451f9e05b0a4922c680"
         },
         {
           "headline": "EU top court dismisses Google fight against record €4.1 billion EU fine",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=992955cb00381307cd8836916aec109f140fd0c948ce9ba6cb8a50cd664f67b8"
-        },
-        {
-          "headline": "Alphabet, Google Face $4.71 Billion Fine After Losing EU Antirust Battle",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=16af63f3b521847f0ca1690b78819b0771a43ca1e2583605dec5c3ae109a5367"
-        },
-        {
-          "headline": "SpaceX Analyst Debut Set to Test $2.2 Trillion Valuation",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e5fb1814d6b0250eba25b54819ffcc107b428b6a8303a727cd4345fea3b4ce1b"
-        },
-        {
-          "headline": "EU top court dismisses Google fight against record €4.1 billion EU antitrust fine",
-          "source": "Yahoo",
           "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=4734fa5f1cb41578c9e5451c4d52b883a75e2a08cde3b2ce71ec8ab385791009"
+          "url": "https://finnhub.io/api/news?id=992955cb00381307cd8836916aec109f140fd0c948ce9ba6cb8a50cd664f67b8"
         }
       ],
       "earnings": [
@@ -334,13 +337,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 384.28,
-      "change": 11.26,
-      "changePercent": 3.0186,
-      "high": 388.83,
-      "low": 374.89,
-      "open": 380.825,
-      "prevClose": 373.02,
+      "price": 385.83,
+      "change": 1.55,
+      "changePercent": 0.4034,
+      "high": 387.33,
+      "low": 383.7,
+      "open": 385.14,
+      "prevClose": 384.28,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$2.85T",
@@ -356,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Dow Jones Futures Rise With Tesla, Jobs Report Ahead",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=b829776ed5ec6a8c1552a895f4faa5941838c56e2b8d3ae138057cff98129588"
+        },
+        {
+          "headline": "Is Microsoft Corporation (MSFT) the Most Profitable Software Stock to Buy Right Now?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9c9b0d031c94844db7f215bec9e8f769f65e37ac0414d12896c52ee4a054ec84"
+        },
+        {
           "headline": "Meta Declares War on the Cloud Giants, and Chip Stocks Pay the Price",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=49532cfe16e8c9309455af64d6022e870335c2dc1e5b85b0eadbd2b6be344bb1"
         },
         {
-          "headline": "SpaceX Analyst Debut Set to Test $2.2 Trillion Valuation",
+          "headline": "Microsoft Stock Defies Tech Slump as Its Biggest Weakness Becomes Its Strength",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e5fb1814d6b0250eba25b54819ffcc107b428b6a8303a727cd4345fea3b4ce1b"
+          "url": "https://finnhub.io/api/news?id=b6937c15bc9f17ce1f2ab0884cad93228c68ee93e09af2f64f2714016410c898"
         },
         {
-          "headline": "SoftBank Plans AI Cloud Services in US to Tap Surging Demand",
+          "headline": "Update: Microsoft Joins Asian Firms to Build Undersea Cable Linking India With Singapore, Malaysia to Support AI Payloads",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=64825ba0ce8ee209c80405527d3e23bcd9c7847384ecf7e92fb0f5955702bba9"
-        },
-        {
-          "headline": "The Pricing Crisis Clouding the AI Trade",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=f3059ba874f8e84fbfb2ccb2bdc6028f8ceaada5c9a5b6065983bd6427bf5f79"
-        },
-        {
-          "headline": "archTIS secures A$3.2M defence contract",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=1395d913a27a451a1c4bf2bb7e4b237d4ac79907ac59371f1564aa96ceb85b19"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=12b7d48cbcac2f7168f1897cbc8aef93ee6fab59941614e91f17ee338a6f8ac1"
         }
       ],
       "earnings": [
@@ -420,13 +423,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 241.7,
-      "change": 3.36,
-      "changePercent": 1.4098,
-      "high": 244.9,
-      "low": 234.9,
-      "open": 239.75,
-      "prevClose": 238.34,
+      "price": 242.72,
+      "change": 1.02,
+      "changePercent": 0.422,
+      "high": 244.6995,
+      "low": 241.08,
+      "open": 242.1825,
+      "prevClose": 241.7,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.60T",
@@ -442,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Dow Jones Futures Rise With Tesla, Jobs Report Ahead",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=b829776ed5ec6a8c1552a895f4faa5941838c56e2b8d3ae138057cff98129588"
+        },
+        {
+          "headline": "Why Amazon Stock Lost 12% in June",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9e9082b31fe4bc09365c50543821cf5333c2345deff70dc16b8f155df05d754f"
+        },
+        {
           "headline": "Meta Declares War on the Cloud Giants, and Chip Stocks Pay the Price",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=49532cfe16e8c9309455af64d6022e870335c2dc1e5b85b0eadbd2b6be344bb1"
+        },
+        {
+          "headline": "Palantir: You Might Not Find A Better Chance To Double Down Now",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=cb184b89341b21de076212a9b2c9b4599405f26b95ee95b548032e4b0513684b"
         },
         {
           "headline": "SpaceX Analyst Debut Set to Test $2.2 Trillion Valuation",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=e5fb1814d6b0250eba25b54819ffcc107b428b6a8303a727cd4345fea3b4ce1b"
-        },
-        {
-          "headline": "Amazon Reportedly Plans In-House Processors For Consumer Devices In Major Shift, Analyst Says",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=47127f47b38cde6ed5ebcfdba7210e6474f84b203a73d17389009f04472a151f"
-        },
-        {
-          "headline": "Growth Stock Showdown: Is Costco or Amazon the Better Buy Right Now?",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=6848e0a5e5cf575dbe110fc89d49d66a40df467b1ccf9b666fd0a0b718f24d72"
-        },
-        {
-          "headline": "SoftBank Plans AI Cloud Services in US to Tap Surging Demand",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=64825ba0ce8ee209c80405527d3e23bcd9c7847384ecf7e92fb0f5955702bba9"
         }
       ],
       "earnings": [
@@ -506,13 +509,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 425.3,
-      "change": 4.7,
-      "changePercent": 1.1175,
-      "high": 432.8599,
-      "low": 418.0901,
-      "open": 421.46,
-      "prevClose": 420.6,
+      "price": 412.84,
+      "change": -12.46,
+      "changePercent": -2.9297,
+      "high": 432.35,
+      "low": 412,
+      "open": 425.64,
+      "prevClose": 425.3,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.60T",
@@ -528,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Dow Jones Futures Rise With Tesla, Jobs Report Ahead",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=b829776ed5ec6a8c1552a895f4faa5941838c56e2b8d3ae138057cff98129588"
+        },
+        {
+          "headline": "Energy Transition Today - Driving Grid Stability With Vehicle-To-Grid Innovation",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=b8595d9261b05a38ecbaae357c48815a98b852f6659b18825024d758d25ffd29"
+        },
+        {
           "headline": "Meta Declares War on the Cloud Giants, and Chip Stocks Pay the Price",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=49532cfe16e8c9309455af64d6022e870335c2dc1e5b85b0eadbd2b6be344bb1"
         },
         {
-          "headline": "Nasdaq, S&P 500, Dow Futures Subdued Ahead Of June Jobs Report: Why TSLA, MU, NBIS, NVDA, SMCI, IREN Are In Focus",
+          "headline": "5 Things to Know Before the Stock Market Opens on Thursday",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=1ce19940664ffa25eca78a511f077112cd1155aa31e0780d34daf90025919211"
+          "url": "https://finnhub.io/api/news?id=a4b58e76ff06a45136ea3a8f139c54e9823336bdf5427d284887238c51132ef7"
         },
         {
-          "headline": "TSLA Stock Slips Overnight: Tesla Model Y L Rumors Heat Up After ‘Long Weekend’ Tease As Investors Await Q2 Deliveries",
+          "headline": "Market Chatter: Tesla Vehicles Cleared as US Regulator Closes Deceleration Probe",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=1a51a4c809f846b2690b959e3a711738fa1fd16d7f349741e66d66c4d91babe0"
-        },
-        {
-          "headline": "Top Robotics Companies Transforming The Industry In 2026",
-          "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=d7f05b3fda70e8fa5211d2478bcfeaf3f27c9dbd1c19d33665c7a1363ff569b2"
-        },
-        {
-          "headline": "Why has Wall Street fallen out of love with the 'Magnificent Seven'?",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=2cb88a81b146a7298332e3e04c8a8dcc02c72799fb5505194a755703c5ccfea4"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=5594e81bd2dbe8b042f7088fa75faaec89b3484c5258aa393a3ce548d83b4e7f"
         }
       ],
       "earnings": [
