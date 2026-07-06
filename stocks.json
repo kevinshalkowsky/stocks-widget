@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-06T17:31:44.396Z",
+  "updatedAt": "2026-07-06T19:26:25.973Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7532.96,
-      "change": 49.72,
-      "changePercent": 0.6644,
-      "high": 7542.37,
+      "price": 7550.55,
+      "change": 67.31,
+      "changePercent": 0.8995,
+      "high": 7551.31,
       "low": 7500.97,
       "open": 0,
       "prevClose": 7483.240234375,
       "week52High": 7620.9,
       "week52Low": 6201,
-      "volume": "1.4B",
+      "volume": "1.8B",
       "sparklineData": [
         7405.72998046875,
         7386.64990234375,
@@ -34,7 +34,7 @@
         7499.35986328125,
         7483.22998046875,
         7483.240234375,
-        7532.9599609375
+        7550.5498046875
       ],
       "sector": "",
       "marketCap": "",
@@ -55,16 +55,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52928.59,
-      "change": 28.52,
-      "changePercent": 0.0539,
+      "price": 52994.08,
+      "change": 94.01,
+      "changePercent": 0.1777,
       "high": 53052.7,
       "low": 52648.69,
       "open": 0,
       "prevClose": 52900.0703125,
       "week52High": 53052.7,
       "week52Low": 43340.68,
-      "volume": "221.9M",
+      "volume": "284.9M",
       "sparklineData": [
         50786.01171875,
         50872.109375,
@@ -84,7 +84,7 @@
         52319.19921875,
         52305.23828125,
         52900.0703125,
-        52928.58984375
+        52994.078125
       ],
       "sector": "",
       "marketCap": "",
@@ -105,16 +105,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26117.746,
-      "change": 285.08,
-      "changePercent": 1.1036,
+      "price": 26184.355,
+      "change": 351.69,
+      "changePercent": 1.3614,
       "high": 26209.762,
       "low": 25963.44,
       "open": 0,
       "prevClose": 25832.669921875,
       "week52High": 27190.21,
       "week52Low": 20323.02,
-      "volume": "4.1B",
+      "volume": "5.1B",
       "sparklineData": [
         25929.66015625,
         25678.8203125,
@@ -134,7 +134,7 @@
         26213.720703125,
         26040.029296875,
         25832.669921875,
-        26117.74609375
+        26184.35546875
       ],
       "sector": "",
       "marketCap": "",
@@ -156,9 +156,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 312.2,
-      "change": 3.57,
-      "changePercent": 1.1567,
+      "price": 313.5,
+      "change": 4.87,
+      "changePercent": 1.5779,
       "high": 314.2,
       "low": 306.815,
       "open": 306.815,
@@ -170,7 +170,7 @@
       "week52High": 317.4,
       "week52Low": 201.5,
       "beta": 1.0946059,
-      "peRatio": 40.4692,
+      "peRatio": 41.1871,
       "eps": 7.465,
       "dividendYield": "0.35%",
       "volume": "86.2M",
@@ -178,34 +178,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Explore the S&P500 index on Monday and find out which stocks are the most active in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=7f6dadda73094a707158c540764e15eb0531a6e697ba7ba97279949834966388"
+        },
+        {
+          "headline": "Omni Ventures Closes Oversubscribed Fund I to Advance Digitization of Manufacturing Technology",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=7bd5dc1a61461d506ae3da92b9687f8142f1905aa740cc35692e56fe786dc173"
+        },
+        {
+          "headline": "These Were the 3 Best-Performing \"Magnificent Seven\" Stocks of the First Half. Only 1 of Them Outperformed the S&P 500",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7df51bbdea5e11cff644ab5ccab15297ada831ee7564ef2ec75e5e41569fa9a6"
+        },
+        {
+          "headline": "Broadcom shares jump after surprise five-year Apple chip deal",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=f286410526b0a115bbb9dfb485e578b05a76ce5d6653499af0b7628223158c8a"
+        },
+        {
           "headline": "What's going on in today's session: dow jones movers",
           "source": "ChartMill",
-          "timeAgo": "51m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=705c0a2f4a216a00cce19ed452014bd2bec7b538e1145bf06f19f6e6e90e0d93"
-        },
-        {
-          "headline": "Why Broadcom Stock Is Rising Today",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f8ed6d682327837fc1014351b9de19af3c42b149fad3c7ce2566f407b3c04c96"
-        },
-        {
-          "headline": "Top Midday Stories: Solstice to Acquire Element Solutions for About $14.5 Billion; Anthropic Enters 20-Year Lease Agreement for TeraWulf Data Center",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=0366aee7493fcf718569f0d301205b51eba1772d95e5118b7fbf8aeca8361318"
-        },
-        {
-          "headline": "Broadcom extends Apple chip supply deal through 2031",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=99dcddd5bdb5e6a73f8245c6488c4e317d5726550ab7843f793c9ecc8930195d"
-        },
-        {
-          "headline": "Apple Foldable iPhone May See Tight Launch",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=0276c661e8386d5727b0c196447ad7fb78df679eb3d25d450398c2d2d1dced06"
         }
       ],
       "earnings": [
@@ -242,10 +242,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 365.13,
-      "change": 5.22,
-      "changePercent": 1.4504,
-      "high": 365.14,
+      "price": 367.38,
+      "change": 7.47,
+      "changePercent": 2.0755,
+      "high": 367.43,
       "low": 357.3805,
       "open": 360.79,
       "prevClose": 359.91,
@@ -256,7 +256,7 @@
       "week52High": 408.61,
       "week52Low": 172.77,
       "beta": 1.2445093,
-      "peRatio": 33.1523,
+      "peRatio": 33.5724,
       "eps": 10.807,
       "dividendYield": "0.24%",
       "volume": "45.8M",
@@ -264,34 +264,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "What's going on in today's session: dow jones movers",
-          "source": "ChartMill",
-          "timeAgo": "51m ago",
-          "url": "https://finnhub.io/api/news?id=705c0a2f4a216a00cce19ed452014bd2bec7b538e1145bf06f19f6e6e90e0d93"
+          "headline": "Tesla Stock Climbs as Robotaxi Expansion Reaches Miami",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=72b62db765816d45770ddf9b7849a27b302c4f3971c5268585db99f49584ca36"
         },
         {
-          "headline": "Open AI Should “Strike While The Iron Is Hot”",
+          "headline": "The S&P 500 Looks Pricey at 22x Earnings. On Cash Flow, It’s a Terrifying 32x.",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=4a04d7702f5aaa62669c93d932bbf42a305e404b0122672648718029968e6f7d"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d81c722f367c50aeb2c9550417da5a768a2574a5bd656bc360399835bde70926"
         },
         {
-          "headline": "Why Wall Street Is Quietly Dumping Meta Stock for Google",
+          "headline": "Meta Stock Surged 9% to $612.91 on July 1 After Reports That Mark Zuckerberg Is Building a Cloud Business to Compete With Amazon, Microsoft, and Alphabet",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f0949ce3ea5dafe3c4ce90a05ce5ebf35b74333ae4e1f7836bb7afdca99cef10"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=829057a9c81d2ecefdf391e4da00a0366d802492e955ea720c28589995601913"
         },
         {
-          "headline": "SpaceX Stock Jumps After It Reveals Starmind AI Satellite Constellation Plan",
+          "headline": "Nvidia’s Biggest Threat Is This: Everyone Is Desperate to Stop Paying Nvidia Prices.",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=290a0fdec53bd7928aee6ae0cabad70dc26ab1619edc2f5880e0701f4476a0fd"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4d1b1ca014068fb532f116b385673e93d2bac460f7ac551150db758d77ff3665"
         },
         {
-          "headline": "Ranking the Best \"Magnificent Seven\" Stocks to Buy Right Now",
+          "headline": "Software's strongest pocket is back near records: Chart of the Day",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=88fab612f359470ecf02c019b7b4248c07103321ba02901663d2817ada58a2f6"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=b2c59036bda076dcb93a19740d8a2d2e4db701633911a978a69334d3e16407b0"
         }
       ],
       "earnings": [
@@ -328,9 +328,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 385.6,
-      "change": -4.89,
-      "changePercent": -1.2523,
+      "price": 386.47,
+      "change": -4.02,
+      "changePercent": -1.0295,
       "high": 389.655,
       "low": 381.22,
       "open": 389.655,
@@ -350,34 +350,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Microsoft cuts 4,800 jobs as it revamps Xbox",
+          "headline": "Microsoft cuts 4,800 jobs with Xbox facing its biggest shake-up",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ba62a50e4163b3b6c68c49b119675cacdfe39299aee9f9ed6d81f695d232f21c"
+          "url": "https://finnhub.io/api/news?id=343b25941facfd61c4efdd1b62e18e872da4213630c95ad7a26653f18c298e5d"
         },
         {
-          "headline": "Top Midday Stories: Solstice to Acquire Element Solutions for About $14.5 Billion; Anthropic Enters 20-Year Lease Agreement for TeraWulf Data Center",
+          "headline": "Meta Stock Surged 9% to $612.91 on July 1 After Reports That Mark Zuckerberg Is Building a Cloud Business to Compete With Amazon, Microsoft, and Alphabet",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=0366aee7493fcf718569f0d301205b51eba1772d95e5118b7fbf8aeca8361318"
+          "url": "https://finnhub.io/api/news?id=829057a9c81d2ecefdf391e4da00a0366d802492e955ea720c28589995601913"
         },
         {
-          "headline": "Microsoft to cut more than 3,000 jobs from ailing Xbox unit",
+          "headline": "MSFT's Xbox Business Has Become 'Almost Irrelevant', Says Analyst — ‘Every Investment Dollar Now Is Going To AI’",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4f5bf2c9e756140d9479ce12b1534d040ec904e06521a738d295666b32ea4a2b"
+          "url": "https://finnhub.io/api/news?id=f5511251f65f8f740abee12100597217a2cc0af4141409e14b6b397c25f2fe0b"
         },
         {
-          "headline": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=563e1c87cddaa9d35633975a9a2e4d1c35f4623fb2270f4f48a76dbab61a0a35"
-        },
-        {
-          "headline": "Factbox-Companies cutting jobs as investments shift toward AI",
+          "headline": "Nvidia’s Biggest Threat Is This: Everyone Is Desperate to Stop Paying Nvidia Prices.",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fdc1593e3e061b8f7544fa9dd99f08865450ec027079acefbe2458debe0dcbcf"
+          "url": "https://finnhub.io/api/news?id=4d1b1ca014068fb532f116b385673e93d2bac460f7ac551150db758d77ff3665"
+        },
+        {
+          "headline": "Microsoft to Cut Workforce by 4,800 as Xbox Announces Revamp",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=b96a88520f0a63383aac1ffd5f7454a1c5e644f851b65d7c60d071f4dfcef5f5"
         }
       ],
       "earnings": [
@@ -414,9 +414,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 245.46,
-      "change": 2.79,
-      "changePercent": 1.1497,
+      "price": 245.6,
+      "change": 2.93,
+      "changePercent": 1.2074,
       "high": 246.04,
       "low": 240.88,
       "open": 243.9775,
@@ -436,34 +436,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "What's going on in today's session: dow jones movers",
-          "source": "ChartMill",
-          "timeAgo": "51m ago",
-          "url": "https://finnhub.io/api/news?id=705c0a2f4a216a00cce19ed452014bd2bec7b538e1145bf06f19f6e6e90e0d93"
+          "headline": "Meta Stock Surged 9% to $612.91 on July 1 After Reports That Mark Zuckerberg Is Building a Cloud Business to Compete With Amazon, Microsoft, and Alphabet",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=829057a9c81d2ecefdf391e4da00a0366d802492e955ea720c28589995601913"
         },
         {
-          "headline": "Why Wall Street Is Quietly Dumping Meta Stock for Google",
+          "headline": "Nvidia’s Biggest Threat Is This: Everyone Is Desperate to Stop Paying Nvidia Prices.",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f0949ce3ea5dafe3c4ce90a05ce5ebf35b74333ae4e1f7836bb7afdca99cef10"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4d1b1ca014068fb532f116b385673e93d2bac460f7ac551150db758d77ff3665"
         },
         {
-          "headline": "The Commercial Space Economy Just Crossed $500 Billion in Backlog and These 3 ETFs Own the Pure Play Names",
+          "headline": "CypherBlk, Powered By Apkudo, Launches Phoneshield™, Free For Life For The Small Businesses Powering The Circular Economy",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=48ce97abc20c7f445001d0b6665df84fbe0d2a57a3ecca57dac6739dfacd5653"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=6fc42b701ca428d45f6e47673180d0cb47ed0f1c89d75453eb13d20d58581ef6"
         },
         {
-          "headline": "SpaceX Stock Jumps After It Reveals Starmind AI Satellite Constellation Plan",
+          "headline": "The New Rules of Biotech Now Available in Hardcover and Audiobook",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=290a0fdec53bd7928aee6ae0cabad70dc26ab1619edc2f5880e0701f4476a0fd"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=2a9ce74c2ea732ee1a2e8b150e21b9e2e1f58ead3b72f06dd8523f4f366ded82"
         },
         {
-          "headline": "Ranking the Best \"Magnificent Seven\" Stocks to Buy Right Now",
+          "headline": "These Were the 3 Best-Performing \"Magnificent Seven\" Stocks of the First Half. Only 1 of Them Outperformed the S&P 500",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=88fab612f359470ecf02c019b7b4248c07103321ba02901663d2817ada58a2f6"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7df51bbdea5e11cff644ab5ccab15297ada831ee7564ef2ec75e5e41569fa9a6"
         }
       ],
       "earnings": [
@@ -500,9 +500,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 416.52,
-      "change": 23.07,
-      "changePercent": 5.8635,
+      "price": 417.28,
+      "change": 23.83,
+      "changePercent": 6.0567,
       "high": 419.55,
       "low": 390.5,
       "open": 398.3,
@@ -522,34 +522,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stay informed with the top movers within the S&P500 index on Monday.",
+          "headline": "Explore the S&P500 index on Monday and find out which stocks are the most active in today's session.",
           "source": "ChartMill",
-          "timeAgo": "56m ago",
-          "url": "https://finnhub.io/api/news?id=e417f0bbb48196563d43efb3e0c4a5727402b839a8324a731be011c44b54bd6a"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=7f6dadda73094a707158c540764e15eb0531a6e697ba7ba97279949834966388"
         },
         {
-          "headline": "Lucid Is on Sale. Could This Be the Buy That Sets You Up for Life?",
+          "headline": "Tesla Stock Climbs as Robotaxi Expansion Reaches Miami",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=be71081dfa2a27ce9373803468871b94c75116f1a24ddef54a4947b93406b50e"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=72b62db765816d45770ddf9b7849a27b302c4f3971c5268585db99f49584ca36"
         },
         {
-          "headline": "Ranking the Best \"Magnificent Seven\" Stocks to Buy Right Now",
+          "headline": "SpaceX-Tesla Merger Could Create Nearly $4 Trillion Giant",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=88fab612f359470ecf02c019b7b4248c07103321ba02901663d2817ada58a2f6"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=faf277610cf5fbf93c3652ad06215e44d22c30263ca28a86cf5e422bf1debc54"
         },
         {
-          "headline": "Tesla Robotaxi Expands To Miami As Slow Rollout Continues. Stock Ticks Up.",
+          "headline": "Tesla's Delivery Strength Forces Wall Street to Reassess",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=ea228d71edc9aa6b9c2203cbb1e31edb56eb1e8791f85cdc586cf251cd59017a"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=c5ae12d6846103993175e2dae20fe25c158a2a23be03b5f126518d6e8cce9f12"
         },
         {
-          "headline": "Tesla: Only Priced For Bad News",
-          "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=b283a0aae6fc44500bb3bba2e61a033b479ab34a85c69d68aa5d3675264756f5"
+          "headline": "Cathie Wood Doubles Down on Tesla and SoFi With Fresh Million-Dollar Buys",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=bb8d03946db50be02c76841ffeb68f1403283d5ec2ea2d37816ceb2baf0de01b"
         }
       ],
       "earnings": [
