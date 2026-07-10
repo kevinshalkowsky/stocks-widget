@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-10T18:14:18.208Z",
+  "updatedAt": "2026-07-10T20:09:59.915Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7569.49,
-      "change": 25.85,
-      "changePercent": 0.3427,
-      "high": 7571.05,
+      "price": 7575.39,
+      "change": 31.75,
+      "changePercent": 0.4209,
+      "high": 7579.93,
       "low": 7508.16,
       "open": 0,
       "prevClose": 7543.64013671875,
       "week52High": 7620.9,
       "week52Low": 6201.59,
-      "volume": "1.3B",
+      "volume": "2.3B",
       "sparklineData": [
         7266.990234375,
         7394.2998046875,
@@ -36,7 +36,7 @@
         7503.85009765625,
         7482.7099609375,
         7543.64013671875,
-        7569.490234375
+        7575.39013671875
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52642.95,
-      "change": 155.54,
-      "changePercent": 0.2963,
-      "high": 52664.26,
+      "price": 52637.01,
+      "change": 149.6,
+      "changePercent": 0.285,
+      "high": 52709.75,
       "low": 52266.81,
       "open": 0,
       "prevClose": 52487.41015625,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "237.9M",
+      "volume": "407.6M",
       "sparklineData": [
         49918.78125,
         50848.75,
@@ -88,7 +88,7 @@
         52925.1484375,
         52348.390625,
         52487.41015625,
-        52642.94921875
+        52637.01171875
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26280.914,
-      "change": 74.02,
-      "changePercent": 0.2824,
-      "high": 26287.025,
+      "price": 26281.607,
+      "change": 74.72,
+      "changePercent": 0.2851,
+      "high": 26301.54,
       "low": 26009.492,
       "open": 0,
       "prevClose": 26206.890625,
       "week52High": 27190.21,
       "week52Low": 20492.63,
-      "volume": "4.2B",
+      "volume": "6.0B",
       "sparklineData": [
         25169.5,
         25809.66015625,
@@ -140,7 +140,7 @@
         25818.689453125,
         25870.650390625,
         26206.890625,
-        26280.9140625
+        26281.607421875
       ],
       "sector": "",
       "marketCap": "",
@@ -162,12 +162,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 314.17,
-      "change": -2.05,
-      "changePercent": -0.6483,
-      "high": 316.4,
+      "price": 315.32,
+      "change": -0.9,
+      "changePercent": -0.2846,
+      "high": 316.91,
       "low": 312.17,
-      "open": 314.965,
+      "open": 314.72,
       "prevClose": 316.22,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -184,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Top dow jones movers in Friday's session",
+          "source": "ChartMill",
+          "timeAgo": "59m ago",
+          "url": "https://finnhub.io/api/news?id=da214c6fd8d23b4dd37c80c7d483172cf970e4a98b72e72eb896b08e27b9522a"
+        },
+        {
           "headline": "Jim Cramer Says Google Could Win the Entire AI War: The 2.5 Billion Apple Devices Behind It Are Why",
           "source": "Yahoo",
-          "timeAgo": "30m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=5fb6e41c7234cee517eae3b0db3dcdb77871d27094849c9fe5f096beeb11efe5"
         },
         {
           "headline": "What Google Stock Was Telling You Before It Doubled",
           "source": "Yahoo",
-          "timeAgo": "36m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=2afe8df4e3b70df7236868a9101a9151b5950de34015c42d59f2eb29bb35daba"
         },
         {
           "headline": "How Apple Became the Most Defensive Stock in the Market",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=58cc50f0b94d4624ccb45d836229fdf5df641885341495b2facc53e7522a79aa"
         },
         {
           "headline": "Two Big Tech Names Are Giving Stocks a Boost",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=c7c76f01c3858eb584fa54b600176e06b1e1ebc39bc4f4eda3e22a8f2fed01aa"
-        },
-        {
-          "headline": "Exploring the top movers within the dow jones index during today's session.",
-          "source": "ChartMill",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f1b2c2cebd6715831501571f2e0eaa6df6e4dbd5dd50cb7f5e5c18fd5cf66369"
         }
       ],
       "earnings": [
@@ -248,12 +248,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 355.4,
-      "change": -3.49,
-      "changePercent": -0.9724,
+      "price": 357.18,
+      "change": -1.71,
+      "changePercent": -0.4765,
       "high": 357.82,
       "low": 352.75,
-      "open": 357.2075,
+      "open": 357.525,
       "prevClose": 358.89,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -262,7 +262,7 @@
       "week52High": 408.61,
       "week52Low": 172.77,
       "beta": 1.2450606,
-      "peRatio": 32.7646,
+      "peRatio": 32.5997,
       "eps": 10.807,
       "dividendYield": "0.25%",
       "volume": "37.9M",
@@ -270,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Top dow jones movers in Friday's session",
+          "source": "ChartMill",
+          "timeAgo": "59m ago",
+          "url": "https://finnhub.io/api/news?id=da214c6fd8d23b4dd37c80c7d483172cf970e4a98b72e72eb896b08e27b9522a"
+        },
+        {
           "headline": "Google, Amazon Increase Data-Center Capacity Plans",
           "source": "Yahoo",
-          "timeAgo": "25m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=60659715bcf8a1185dca31d7232bd7d8708ff501aab449b58241cfbe0dada75f"
         },
         {
           "headline": "Jim Cramer Says Google Could Win the Entire AI War: The 2.5 Billion Apple Devices Behind It Are Why",
           "source": "Yahoo",
-          "timeAgo": "30m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=5fb6e41c7234cee517eae3b0db3dcdb77871d27094849c9fe5f096beeb11efe5"
         },
         {
           "headline": "What Google Stock Was Telling You Before It Doubled",
           "source": "Yahoo",
-          "timeAgo": "36m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=2afe8df4e3b70df7236868a9101a9151b5950de34015c42d59f2eb29bb35daba"
         },
         {
           "headline": "Meta Stock: Are You Buckled In For A $500 Swing?",
           "source": "Yahoo",
-          "timeAgo": "46m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=17dff0683ba832d9ef87c040daf8b548a0e4ab80f34f44b2541ee2bde81ce2d9"
-        },
-        {
-          "headline": "Microsoft, Google Face UK Cloud Oversight",
-          "source": "Yahoo",
-          "timeAgo": "51m ago",
-          "url": "https://finnhub.io/api/news?id=54044fccdf9f41c2442c2c17ba1ab5cd8d126888678ff6f35d4973853bde2073"
         }
       ],
       "earnings": [
@@ -334,12 +334,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 384.04,
-      "change": -0.32,
-      "changePercent": -0.0833,
+      "price": 385.1,
+      "change": 0.74,
+      "changePercent": 0.1925,
       "high": 391.91,
       "low": 381.5,
-      "open": 386.46,
+      "open": 387.8,
       "prevClose": 384.36,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -358,31 +358,31 @@
         {
           "headline": "What Google Stock Was Telling You Before It Doubled",
           "source": "Yahoo",
-          "timeAgo": "36m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=2afe8df4e3b70df7236868a9101a9151b5950de34015c42d59f2eb29bb35daba"
         },
         {
           "headline": "Stagwell CEO Mark Penn tells James Heckman AI will make marketing more personal",
           "source": "Yahoo",
-          "timeAgo": "39m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=6e59c3955e04a53bb7397f305e57465c44c67e2b99ae2620f4c3400272664ed7"
         },
         {
           "headline": "Meta Stock: Are You Buckled In For A $500 Swing?",
           "source": "Yahoo",
-          "timeAgo": "46m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=17dff0683ba832d9ef87c040daf8b548a0e4ab80f34f44b2541ee2bde81ce2d9"
         },
         {
           "headline": "Microsoft, Google Face UK Cloud Oversight",
           "source": "Yahoo",
-          "timeAgo": "51m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=54044fccdf9f41c2442c2c17ba1ab5cd8d126888678ff6f35d4973853bde2073"
         },
         {
           "headline": "INTU Stock: Where Compounding Could Take The Price",
           "source": "Yahoo",
-          "timeAgo": "58m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=ccad1f1addcf3445d5bb610fe75f350b1c18f58246564921af7e55b30cdb80a1"
         }
       ],
@@ -420,12 +420,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 245.36,
-      "change": -1.68,
-      "changePercent": -0.6801,
+      "price": 245.34,
+      "change": -1.7,
+      "changePercent": -0.6881,
       "high": 251.03,
       "low": 244.41,
-      "open": 248.175,
+      "open": 249.55,
       "prevClose": 247.04,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -442,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Top dow jones movers in Friday's session",
+          "source": "ChartMill",
+          "timeAgo": "59m ago",
+          "url": "https://finnhub.io/api/news?id=da214c6fd8d23b4dd37c80c7d483172cf970e4a98b72e72eb896b08e27b9522a"
+        },
+        {
           "headline": "Google, Amazon Increase Data-Center Capacity Plans",
           "source": "Yahoo",
-          "timeAgo": "25m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=60659715bcf8a1185dca31d7232bd7d8708ff501aab449b58241cfbe0dada75f"
         },
         {
           "headline": "Meta stock turns positive on the year on data center plans, new AI model pricing",
           "source": "Yahoo",
-          "timeAgo": "32m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=189c7aa56dbaf74227ea1eba0c4c40f30b0e87c272c05308cf9984695cc1c742"
         },
         {
           "headline": "What Google Stock Was Telling You Before It Doubled",
           "source": "Yahoo",
-          "timeAgo": "36m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=2afe8df4e3b70df7236868a9101a9151b5950de34015c42d59f2eb29bb35daba"
         },
         {
           "headline": "Price Prediction: Amazon Stock Will End The Year at This Price",
           "source": "Yahoo",
-          "timeAgo": "43m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=d004a72e8c6177bc82d701a62e7c638151e2b8710a699eee2dba54f4785a0866"
-        },
-        {
-          "headline": "Meta Stock: Are You Buckled In For A $500 Swing?",
-          "source": "Yahoo",
-          "timeAgo": "46m ago",
-          "url": "https://finnhub.io/api/news?id=17dff0683ba832d9ef87c040daf8b548a0e4ab80f34f44b2541ee2bde81ce2d9"
         }
       ],
       "earnings": [
@@ -506,12 +506,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 410.67,
-      "change": 4.12,
-      "changePercent": 1.0134,
+      "price": 407.76,
+      "change": 1.21,
+      "changePercent": 0.2976,
       "high": 413.16,
       "low": 402.8101,
-      "open": 407.495,
+      "open": 410.49,
       "prevClose": 406.55,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -528,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Stay informed about the most active stocks in the S&P500 index on Friday's session.",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=ab4e34b3c9fc5b75adbcf3e7cbd40cb4e8f31cd28cbad3dd3dba4ac3cbd786bc"
+        },
+        {
+          "headline": "Elon Musk SEC settlement raises 'red flags,' judge says",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=f149aa67c6f010fa2107351497945ee220095bb9d179c48de9b9659e8fda20d4"
+        },
+        {
+          "headline": "Elon Musk Has Mojo Back, As Tesla Quarterly Deliveries Skyrocket",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=76a18ed0e231962375ca8e48e1b9ac8463a6ff371a468d660df747bbd21a139e"
+        },
+        {
           "headline": "Intel’s $200 Billion Turnaround Plan Is Under the Microscope",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=974c1e22025e81e43d6c367a6fc206d3bb1ba10b1876625a029413b435759e1f"
         },
         {
-          "headline": "Tesla Robotaxi Success Endangered By Regulators",
+          "headline": "Why Is Tesla Bringing the Long-Wheelbase Model Y to the US?",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e6d50675d5a0163e9e43b1bf21ace98e99af26b5300e4ea1f6dfbe68e77dd000"
-        },
-        {
-          "headline": "Prediction: Tesla Stock Will Surprise Investors Over the Next 5 Years",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=7ccb7f71aeed0f8ed709a023140c4881ffa21142792378a5f6d5c4361984adec"
-        },
-        {
-          "headline": "Why Tesla Stock Can’t Get Out of Its Own Way",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=fbe43cda2259a96007a8af2708225f5bc284ab053164740ace99f31a754d1a0b"
-        },
-        {
-          "headline": "Rivian Is Getting a Boost From California. Could Other States Follow Suit?",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=ee2f0045f239e3cdcb3021ca45661d2cf1fed365c1836ed2c9ff41a66dfad09a"
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=3f9b8da053cd5922588c4635d13502cd42c74adda21a90ec90d94720e4929665"
         }
       ],
       "earnings": [
