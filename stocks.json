@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-13T13:53:15.729Z",
+  "updatedAt": "2026-07-13T16:16:36.638Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7550.22,
-      "change": -25.17,
-      "changePercent": -0.3323,
+      "price": 7535.7,
+      "change": -39.69,
+      "changePercent": -0.5239,
       "high": 7565.37,
-      "low": 7544.18,
+      "low": 7529.33,
       "open": 0,
       "prevClose": 7575.39013671875,
       "week52High": 7620.9,
       "week52Low": 6201.59,
-      "volume": "259.3M",
+      "volume": "970.8M",
       "sparklineData": [
         7554.2900390625,
         7511.35009765625,
@@ -34,7 +34,7 @@
         7482.7099609375,
         7543.64013671875,
         7575.39013671875,
-        7550.22021484375
+        7535.7001953125
       ],
       "sector": "",
       "marketCap": "",
@@ -55,16 +55,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52791.39,
-      "change": 154.38,
-      "changePercent": 0.2933,
-      "high": 52804.8,
-      "low": 52590.8,
+      "price": 52459.59,
+      "change": -177.42,
+      "changePercent": -0.3371,
+      "high": 52846.51,
+      "low": 52459.59,
       "open": 0,
       "prevClose": 52637.01171875,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "50.5M",
+      "volume": "154.6M",
       "sparklineData": [
         51671.03125,
         51999.671875,
@@ -84,7 +84,7 @@
         52348.390625,
         52487.41015625,
         52637.01171875,
-        52791.390625
+        52459.58984375
       ],
       "sector": "",
       "marketCap": "",
@@ -105,16 +105,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26008.496,
-      "change": -273.11,
-      "changePercent": -1.0392,
+      "price": 25991.893,
+      "change": -289.72,
+      "changePercent": -1.1024,
       "high": 26139.37,
-      "low": 25984.963,
+      "low": 25934.146,
       "open": 0,
       "prevClose": 26281.609375,
       "week52High": 27190.21,
       "week52Low": 20492.63,
-      "volume": "946.5M",
+      "volume": "2.8B",
       "sparklineData": [
         26683.939453125,
         26376.33984375,
@@ -134,7 +134,7 @@
         25870.650390625,
         26206.890625,
         26281.609375,
-        26008.49609375
+        25991.892578125
       ],
       "sector": "",
       "marketCap": "",
@@ -156,11 +156,11 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 322.81,
-      "change": 7.49,
-      "changePercent": 2.3754,
+      "price": 317.57,
+      "change": 2.25,
+      "changePercent": 0.7136,
       "high": 323.45,
-      "low": 316.45,
+      "low": 316.09,
       "open": 316.4975,
       "prevClose": 315.32,
       "name": "Apple Inc",
@@ -178,34 +178,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Apple Stock Gets Price Target Hike as IPhone 18’s Launch Seen as ‘Important Catalyst’",
+          "headline": "This Stock is My Biggest Bet For 2026",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=db055b01b2da2aee2a5fd4f5159e6d44765a3b97cbab2e8c57fdd34838c55fc7"
+          "timeAgo": "45m ago",
+          "url": "https://finnhub.io/api/news?id=e47431b901daf5d93911d90b701edb811cba4c9b4888bf987c68d733def16004"
         },
         {
-          "headline": "TSMC Delivers Record Second-Quarter Revenue as AI Chip Demand Accelerates (TSM)",
+          "headline": "Jim Cramer Says “Don’t Sell Apple”",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=20f8e012371cb04b9b26f935eabb8799bcd573b48f33d23609375a3fbec15d0d"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=9f87cd589a9872efa32657a33a5459340e42b437e1415ce2c32d6eac3ed19fbd"
         },
         {
-          "headline": "TSMC posts record revenue in second quarter on AI demand",
+          "headline": "Apple Hits New All-Time High. Here’s Why It Will Top $5 Trillion and Nvidia",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=4ed4063c450ef1c6ca0b63a603ccc9992dfcb4b41dc76e68b4a8497758552b8b"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=63a739158001b646d58f04dab6d07f119f7be9f07d369a62f29077ecafa574e2"
         },
         {
-          "headline": "Apple’s $600 Billion Rally Fueled by Traders Fleeing AI Selloff",
+          "headline": "Apple sues OpenAI, former employees over alleged trade secret theft tied to AI hardware",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=78811c0f71ddef6c20d7af907cc18a06cfb75c66ac984a86b1833ca1ed2c59be"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=8536e4181e7acc186d299b5aa2fb514d47bdb2b6c14c8d45deb7970510701b29"
         },
         {
-          "headline": "Ranking the \"Magnificent 7\" Stocks by Free-Cash-Flow Yield",
+          "headline": "SK Hynix, Sandisk, Apple, Meta, and More Stocks That Explain Today’s Market",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=a455756fcf49cc351f2e4c2ca395272206ccb37a6d19b1a932823cf0ae9face9"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=586e8588a44f92cb7f321b1f956de95dae9c5dbf0b2188f884d47df9251d4159"
         }
       ],
       "earnings": [
@@ -242,11 +242,11 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 354.61,
-      "change": -2.57,
-      "changePercent": -0.7195,
+      "price": 356.31,
+      "change": -0.87,
+      "changePercent": -0.2436,
       "high": 358.13,
-      "low": 354.2,
+      "low": 354.11,
       "open": 356.235,
       "prevClose": 357.18,
       "name": "Alphabet Inc",
@@ -264,34 +264,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Does Berkshire Hathaway CEO Greg Abel's New Favorite Stock, Alphabet, Achieve the Rule of 40?",
+          "headline": "European Equities Mixed in Monday Trading; Eni to Fuel BMW Corporate Fleets With Renewable Diesel",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=285d2dd904dcae1d15de0dfb1778a8f993340b4e13a738fd5005ac07bd0d660e"
+          "timeAgo": "26m ago",
+          "url": "https://finnhub.io/api/news?id=295240b390fbcd2980dda163a0bed032ba1aea83cec61bf4c8b03dbdfd2fb521"
         },
         {
-          "headline": "Over 200 experts call for urgent action to tackle AI's economic impact",
+          "headline": "SpaceX & Google will boost big bank earnings, but can the AI-driven supercycle really last?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=be66c9aeb33e77ce2b140f77d9886e0490dd38f555d073c8b1406c305328a1c7"
+          "timeAgo": "44m ago",
+          "url": "https://finnhub.io/api/news?id=c15605a42b726a1f7c51bef8509a385e013b67e41b8aa21df86d208c70c254dd"
         },
         {
-          "headline": "Elon Musk Says He Was \"Clearly Wrong\" About Anthropic's Artificial Intelligence (AI) Models. Here's Why That's Outstanding News for Amazon and Alphabet Investors.",
+          "headline": "Jim Cramer Says “Don’t Sell Apple”",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f73879b8b08b153c556e87f88458f4868fe1ba51a148613c48681e2d9332bc59"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=9f87cd589a9872efa32657a33a5459340e42b437e1415ce2c32d6eac3ed19fbd"
         },
         {
-          "headline": "Apple’s $600 Billion Rally Fueled by Traders Fleeing AI Selloff",
+          "headline": "Jim Cramer Explains Why He Thinks Google Can Defeat Competitors in AI",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=78811c0f71ddef6c20d7af907cc18a06cfb75c66ac984a86b1833ca1ed2c59be"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=08b536e53271c320e1deeee969c0b9647b4cc13780104e17392993f88d7f50db"
         },
         {
-          "headline": "‘Portfolios are becoming much riskier’: How to make defensive investments before the AI bubble pops",
+          "headline": "Jim Cramer on Meta: “Zuckerberg’s Not a Bozo, You Can Quote Me on That”",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=7c15580e7c758f1f697968d145ebe433cd39e77c02eb31f99aa34f10121be49f"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=8d9ccff30c741a1b1c46e2a5de384772074b91ff36d1966bd70b5b7b4ee189f5"
         }
       ],
       "earnings": [
@@ -328,11 +328,11 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 386.18,
-      "change": 1.08,
-      "changePercent": 0.2804,
-      "high": 391.07,
-      "low": 386.14,
+      "price": 391.29,
+      "change": 6.19,
+      "changePercent": 1.6074,
+      "high": 391.365,
+      "low": 384.15,
       "open": 387.1025,
       "prevClose": 385.1,
       "name": "Microsoft Corp",
@@ -342,7 +342,7 @@
       "week52High": 555.45,
       "week52Low": 349.2,
       "beta": 1.1289786,
-      "peRatio": 28.0922,
+      "peRatio": 28.4034,
       "eps": 13.6413,
       "dividendYield": "0.95%",
       "volume": "51.8M",
@@ -350,34 +350,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Jeff Bezos Backed Grail Before It Lost Half Its Value. Here's Whether He Was Early -- or Just Wrong.",
+          "headline": "Why I Can’t Stop Buying Amazon Stock",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=90e0e66755494ed0410222990f94a2c2a247faec8c05db0a956b5a7206bae5a5"
+          "timeAgo": "30m ago",
+          "url": "https://finnhub.io/api/news?id=c7e8a32c91016cd9d09899d907cf257c4f029492d8f08380fa53195be771abeb"
         },
         {
-          "headline": "Elon Musk Says He Was \"Clearly Wrong\" About Anthropic's Artificial Intelligence (AI) Models. Here's Why That's Outstanding News for Amazon and Alphabet Investors.",
+          "headline": "Wall Street’s Bar for Big Tech Is on the Floor, and That Could Spark the Next Rally",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f73879b8b08b153c556e87f88458f4868fe1ba51a148613c48681e2d9332bc59"
+          "timeAgo": "31m ago",
+          "url": "https://finnhub.io/api/news?id=93c1e4fd22bc08ec1dd6fcdb14b96431ef6b10bfb02197469439ccbfe6ab48c8"
         },
         {
-          "headline": "Apple’s $600 Billion Rally Fueled by Traders Fleeing AI Selloff",
+          "headline": "Starbucks Wants to Cut $400 Million in Software Costs. Toast Investors Should Pay Attention.",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=78811c0f71ddef6c20d7af907cc18a06cfb75c66ac984a86b1833ca1ed2c59be"
+          "timeAgo": "43m ago",
+          "url": "https://finnhub.io/api/news?id=f4b4a30532608ef8b362265bbfbc2a6c248f2efeb5cb70310e2afdea54a27c6d"
         },
         {
-          "headline": "‘Portfolios are becoming much riskier’: How to make defensive investments before the AI bubble pops",
+          "headline": "Jim Cramer on Meta: “Zuckerberg’s Not a Bozo, You Can Quote Me on That”",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=7c15580e7c758f1f697968d145ebe433cd39e77c02eb31f99aa34f10121be49f"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=8d9ccff30c741a1b1c46e2a5de384772074b91ff36d1966bd70b5b7b4ee189f5"
         },
         {
-          "headline": "Ranking the \"Magnificent 7\" Stocks by Free-Cash-Flow Yield",
+          "headline": "Nvidia, Micron, and other chip players are poised to become cash-producing machines",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=a455756fcf49cc351f2e4c2ca395272206ccb37a6d19b1a932823cf0ae9face9"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=651787bdd01e7d4809925eeb1e95c1b3609221087f45b49985fb5b262b744e23"
         }
       ],
       "earnings": [
@@ -414,10 +414,10 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 245.93,
-      "change": 0.59,
-      "changePercent": 0.2405,
-      "high": 248.6,
+      "price": 248.06,
+      "change": 2.72,
+      "changePercent": 1.1087,
+      "high": 249.35,
       "low": 244.18,
       "open": 244.78,
       "prevClose": 245.34,
@@ -436,34 +436,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Jeff Bezos Backed Grail Before It Lost Half Its Value. Here's Whether He Was Early -- or Just Wrong.",
+          "headline": "Jim Cramer Says “Buy the Stock of CVS, I Sure Wish I’d Done It for My Trust”",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=90e0e66755494ed0410222990f94a2c2a247faec8c05db0a956b5a7206bae5a5"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=ed5adf651f473be28d7fff45440ecb8e44467ae4fb062f0f9154d6b5ca4e8ffe"
         },
         {
-          "headline": "Elon Musk Says He Was \"Clearly Wrong\" About Anthropic's Artificial Intelligence (AI) Models. Here's Why That's Outstanding News for Amazon and Alphabet Investors.",
+          "headline": "Jim Cramer on Meta: “Zuckerberg’s Not a Bozo, You Can Quote Me on That”",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f73879b8b08b153c556e87f88458f4868fe1ba51a148613c48681e2d9332bc59"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=8d9ccff30c741a1b1c46e2a5de384772074b91ff36d1966bd70b5b7b4ee189f5"
         },
         {
-          "headline": "Apple’s $600 Billion Rally Fueled by Traders Fleeing AI Selloff",
+          "headline": "EBAY Showered Owners With Cash. The Stock Did Not Cooperate",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=78811c0f71ddef6c20d7af907cc18a06cfb75c66ac984a86b1833ca1ed2c59be"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ff90dfbaa460d3d1a77902aeabcb901ee9567ac027160d8c96110e8d45a6e4f4"
         },
         {
-          "headline": "‘Portfolios are becoming much riskier’: How to make defensive investments before the AI bubble pops",
+          "headline": "Nvidia, Micron, and other chip players are poised to become cash-producing machines",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=7c15580e7c758f1f697968d145ebe433cd39e77c02eb31f99aa34f10121be49f"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=651787bdd01e7d4809925eeb1e95c1b3609221087f45b49985fb5b262b744e23"
         },
         {
-          "headline": "Ranking the \"Magnificent 7\" Stocks by Free-Cash-Flow Yield",
+          "headline": "Tech Sell-Off: How investors should navigate the market",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=a455756fcf49cc351f2e4c2ca395272206ccb37a6d19b1a932823cf0ae9face9"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=8435df224924bad4944dc0a5aef0ec056b6d0b638902ab7f23030a7cf0bf2e08"
         }
       ],
       "earnings": [
@@ -500,11 +500,11 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 395.07,
-      "change": -12.69,
-      "changePercent": -3.1121,
+      "price": 394.9,
+      "change": -12.86,
+      "changePercent": -3.1538,
       "high": 405.57,
-      "low": 394.6,
+      "low": 392.7401,
       "open": 402.705,
       "prevClose": 407.76,
       "name": "Tesla Inc",
@@ -522,34 +522,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "SpaceX is So Complex, It Took 3 Analysts to Call It a ‘Buy’",
+          "headline": "Musk and Altman Clash Again",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=0b9f7825c93723aac465b9b554351ca726b2df813495a3e5193fdfc5372e8926"
+          "url": "https://finnhub.io/api/news?id=4b9cd6ea5bc7ae0be926cfd4397e402dd98f864697d2f8d4d0d35e4dc5267d99"
         },
         {
-          "headline": "Apple’s $600 Billion Rally Fueled by Traders Fleeing AI Selloff",
+          "headline": "Prediction: This Is How Tesla Stock Will Do After July 22",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=b0e0193cb1707bc03b40b16d4f888661341f3f821161332a406136eb2c362bfe"
+        },
+        {
+          "headline": "Tesla Stock Is Falling. Can Robots Arrive Soon Enough to Save It?",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=78811c0f71ddef6c20d7af907cc18a06cfb75c66ac984a86b1833ca1ed2c59be"
+          "url": "https://finnhub.io/api/news?id=7c54289946b36276f77a102496c8397f29d4e45ecd57f6df1e58768756fdc8fd"
         },
         {
-          "headline": "Ranking the \"Magnificent 7\" Stocks by Free-Cash-Flow Yield",
+          "headline": "The Real Price of Tesla Stock Is Three Years Away",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=5f76ce6b80610aab6e185e2662c085add1d0e193c537df9f7520dd89acf61abf"
+        },
+        {
+          "headline": "Apex Fintech Solutions Releases Q2 2026 Investor Pulse Report: SpaceX IPO Draws Universal Demand as Retail Rotates Into the AI Buildout",
           "source": "Yahoo",
           "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=a455756fcf49cc351f2e4c2ca395272206ccb37a6d19b1a932823cf0ae9face9"
-        },
-        {
-          "headline": "South Korean vehicle import sales surge 37% in June",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=72dcd1f0711e7c7b5a7b37c4528ad0af4b0186a53c91c96c1db24d295d91947e"
-        },
-        {
-          "headline": "Nasdaq, S&P 500 Futures Slip As Iran Tensions Rattle Markets Again: Why MU, TSLA, BATL, SKHYV, MSFT, TSM, SLS Are In Focus",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=e8eb63f4c558c3df1a1f66c01c0777ba6eabea843318b51bc5921cf1bf8d021b"
+          "url": "https://finnhub.io/api/news?id=ff3e1d3d456cc847f3fe4328e8d8c86849e3374b81e2a56356f5e0053ed84a69"
         }
       ],
       "earnings": [
