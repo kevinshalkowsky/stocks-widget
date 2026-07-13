@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-13T18:23:47.403Z",
+  "updatedAt": "2026-07-13T20:04:24.424Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7518.42,
-      "change": -56.97,
-      "changePercent": -0.752,
+      "price": 7515.44,
+      "change": -59.95,
+      "changePercent": -0.7914,
       "high": 7565.37,
-      "low": 7514.66,
+      "low": 7506.41,
       "open": 0,
       "prevClose": 7575.39013671875,
       "week52High": 7620.9,
       "week52Low": 6201.59,
-      "volume": "1.5B",
+      "volume": "2.7B",
       "sparklineData": [
         7554.2900390625,
         7511.35009765625,
@@ -34,7 +34,7 @@
         7482.7099609375,
         7543.64013671875,
         7575.39013671875,
-        7518.419921875
+        7515.43994140625
       ],
       "sector": "",
       "marketCap": "",
@@ -55,16 +55,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52456.98,
-      "change": -180.03,
-      "changePercent": -0.342,
+      "price": 52498.64,
+      "change": -138.37,
+      "changePercent": -0.2629,
       "high": 52846.51,
       "low": 52351.12,
       "open": 0,
       "prevClose": 52637.01171875,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "225.2M",
+      "volume": "397.7M",
       "sparklineData": [
         51671.03125,
         51999.671875,
@@ -84,7 +84,7 @@
         52348.390625,
         52487.41015625,
         52637.01171875,
-        52456.98046875
+        52498.640625
       ],
       "sector": "",
       "marketCap": "",
@@ -105,16 +105,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25891.549,
-      "change": -390.06,
-      "changePercent": -1.4842,
+      "price": 25873.176,
+      "change": -408.43,
+      "changePercent": -1.5541,
       "high": 26139.37,
-      "low": 25877.82,
+      "low": 25822.096,
       "open": 0,
       "prevClose": 26281.609375,
       "week52High": 27190.21,
       "week52Low": 20492.63,
-      "volume": "4.1B",
+      "volume": "6.2B",
       "sparklineData": [
         26683.939453125,
         26376.33984375,
@@ -134,7 +134,7 @@
         25870.650390625,
         26206.890625,
         26281.609375,
-        25891.548828125
+        25873.17578125
       ],
       "sector": "",
       "marketCap": "",
@@ -156,12 +156,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 316.34,
-      "change": 1.02,
-      "changePercent": 0.3235,
+      "price": 317.31,
+      "change": 1.99,
+      "changePercent": 0.6311,
       "high": 323.45,
       "low": 315.78,
-      "open": 316.4975,
+      "open": 317.015,
       "prevClose": 315.32,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -178,34 +178,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=2688322ca92f5d3c1483ed79195c577694d4737e96ae3a9fb8e5d3ea5d3e792a"
+        },
+        {
           "headline": "The Vanguard S&P 500 ETF Is Unstoppable, but This 1 Investment Could Be Safer Right Now",
           "source": "Yahoo",
-          "timeAgo": "33m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=6b78ee3d2e6a897c80c72ae5748bf557d649b5142135e7ca9f9552a9aa09f391"
         },
         {
           "headline": "Broadcom Insiders Dump $10 Million in Stock -- Here's Why",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=662f8740988c84c2c71bb4313c7ce779d1428478b5523f09ea6c3a6bed598ed6"
         },
         {
           "headline": "TSMC Revenue Tops Forecasts on AI Strength",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=6756bc5530cb851d6301adadda33bd8f6239179445506f905405a6289ae47040"
         },
         {
           "headline": "TSMC Reports 36% Sales Growth as AI Demand Stays Strong",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=dcb35c4f03d83fd8b86037451e34aad16ce57c33b0727dc9735cf91c7fd2c9e8"
-        },
-        {
-          "headline": "Apple, Samsung Gain as Smartphone Market Falls",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b6795115173da816299bb151ff65955c7eabd0e3d07ff866ad6b0e874ba28bc2"
         }
       ],
       "earnings": [
@@ -242,12 +242,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 355.57,
-      "change": -1.61,
-      "changePercent": -0.4508,
+      "price": 352.51,
+      "change": -4.67,
+      "changePercent": -1.3075,
       "high": 358.13,
-      "low": 354.11,
-      "open": 356.235,
+      "low": 351.75,
+      "open": 356.19,
       "prevClose": 357.18,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -256,7 +256,7 @@
       "week52High": 408.61,
       "week52Low": 174.38,
       "beta": 1.2445651,
-      "peRatio": 32.9009,
+      "peRatio": 32.7669,
       "eps": 10.807,
       "dividendYield": "0.25%",
       "volume": "35.3M",
@@ -266,31 +266,31 @@
         {
           "headline": "A Generational Transfer Is Happening: Amazon, Google, Microsoft Are the Losers. NVIDIA and Micron the Winners.",
           "source": "Yahoo",
-          "timeAgo": "45m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=db342a0be2bc2e470676a6afdb55918020024f1959d2c7840ad222b36da82e30"
         },
         {
           "headline": "GOOGL Reportedly Expands TPU Sales To Battle Nvidia Amid Wall Street Price Target Cuts On Big Tech Ahead Of Q2 Earnings",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=f9b9be7d95fc4a8ee06d7bc4e4a05dcdb4faf789958d49dd4ae5e00e8f6564a2"
         },
         {
           "headline": "AI Costs Keep Rising As Morgan Stanley Ups CapEx Estimates For Amazon, Meta",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=7f54995b88e7acfc794d9408f84dd1470fa5c632a158469920fc17feff479053"
         },
         {
           "headline": "How hyperscalers are financing the AI boom",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=3b90d40abc63cef08052163c1bc416855ffe0e1c0553366cad05029aa4b34a7b"
         },
         {
           "headline": "3 Dividend Stocks Built for Long-Term Buy-and-Hold Investors",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=385645e6497815d7063744d222615c9715c3288fbcc2b02e174ed275af001c85"
         }
       ],
@@ -328,12 +328,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 392.28,
-      "change": 7.18,
-      "changePercent": 1.8645,
-      "high": 393.57,
+      "price": 390.99,
+      "change": 5.89,
+      "changePercent": 1.5295,
+      "high": 393.65,
       "low": 384.15,
-      "open": 387.1025,
+      "open": 387.745,
       "prevClose": 385.1,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -350,34 +350,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "54m ago",
+          "url": "https://finnhub.io/api/news?id=f13399f677cd7c71aafcdc84abe74809c39d947570bc4629e20caf0d44034b59"
+        },
+        {
           "headline": "The Vanguard S&P 500 ETF Is Unstoppable, but This 1 Investment Could Be Safer Right Now",
           "source": "Yahoo",
-          "timeAgo": "33m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=6b78ee3d2e6a897c80c72ae5748bf557d649b5142135e7ca9f9552a9aa09f391"
         },
         {
           "headline": "A Generational Transfer Is Happening: Amazon, Google, Microsoft Are the Losers. NVIDIA and Micron the Winners.",
           "source": "Yahoo",
-          "timeAgo": "45m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=db342a0be2bc2e470676a6afdb55918020024f1959d2c7840ad222b36da82e30"
         },
         {
           "headline": "Global Unified Communication as a Service (UCaaS) Market Size to Reach USD 605.5 Billion by 2035 | Growing at 20.4% CAGR | Industry Trends, Market Share & Forecast – Custom Market Insights",
           "source": "Yahoo",
-          "timeAgo": "53m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=2009882b5535a8753f6564165f541aedfa0591621f80c22169db8b3d7d4d9438"
         },
         {
           "headline": "Should You Buy Microsoft Stock Before July 29?",
           "source": "Yahoo",
-          "timeAgo": "58m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=ed3cd66c0bca3358861fc5007787df70b8f798ba0a1e09e394f92cfbf5401ecf"
-        },
-        {
-          "headline": "Microsoft’s CEO Lays Out the Next Massive AI Trade",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e89c6087110076e55f23c8c055f2c41cc43c25ef51dca6bc306c737675174a84"
         }
       ],
       "earnings": [
@@ -414,12 +414,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 248.21,
-      "change": 2.87,
-      "changePercent": 1.1698,
-      "high": 249.35,
+      "price": 247.31,
+      "change": 1.97,
+      "changePercent": 0.803,
+      "high": 249.65,
       "low": 244.18,
-      "open": 244.78,
+      "open": 244.68,
       "prevClose": 245.34,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -436,34 +436,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "54m ago",
+          "url": "https://finnhub.io/api/news?id=f13399f677cd7c71aafcdc84abe74809c39d947570bc4629e20caf0d44034b59"
+        },
+        {
           "headline": "A Generational Transfer Is Happening: Amazon, Google, Microsoft Are the Losers. NVIDIA and Micron the Winners.",
           "source": "Yahoo",
-          "timeAgo": "45m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=db342a0be2bc2e470676a6afdb55918020024f1959d2c7840ad222b36da82e30"
         },
         {
           "headline": "Amazon Stock Hasn't Been This Cheap in Over a Decade. Has the Sell-Off Gone Too Far?",
           "source": "Yahoo",
-          "timeAgo": "48m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=c26f278aa42aa55d1f19537416a3640c8252c1efe49fe6b9fb63d9f279f9bdb1"
         },
         {
           "headline": "GOOGL Reportedly Expands TPU Sales To Battle Nvidia Amid Wall Street Price Target Cuts On Big Tech Ahead Of Q2 Earnings",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=f9b9be7d95fc4a8ee06d7bc4e4a05dcdb4faf789958d49dd4ae5e00e8f6564a2"
         },
         {
           "headline": "AI Costs Keep Rising As Morgan Stanley Ups CapEx Estimates For Amazon, Meta",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=7f54995b88e7acfc794d9408f84dd1470fa5c632a158469920fc17feff479053"
-        },
-        {
-          "headline": "Discover which dow jones stocks are making waves on Monday.",
-          "source": "ChartMill",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=125afec3135f0eabea38274af6bc3b39ef8f893650eb6807f2ca927064936ff0"
         }
       ],
       "earnings": [
@@ -500,12 +500,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 393.14,
-      "change": -14.62,
-      "changePercent": -3.5854,
+      "price": 394.76,
+      "change": -13,
+      "changePercent": -3.1881,
       "high": 405.57,
-      "low": 392.5,
-      "open": 402.705,
+      "low": 391.37,
+      "open": 404.61,
       "prevClose": 407.76,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -524,31 +524,31 @@
         {
           "headline": "Rivian Vs. Tesla: Buy Rivian to Exploit California’s Protectionist Subsidy That Snubbed Tesla",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=4840419555bb74bdaee1d5394cdaed225890df23d526f2db121c076dd447e5d0"
         },
         {
           "headline": "Retail investors are cashing out of Apple, Tesla, and chip stocks: Chart of the Day",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=da468894f2ff2dab6984da8eff68e602aee15e6c6c3301ae4a7d3e76ec51f518"
         },
         {
           "headline": "Price Prediction: The AI Momentum Basket: Nvidia, Palantir, AMD & Tesla. Our 2027–2029 Targets",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=301b0738dab6ca32e88b019a851dd2a5f5fb5d4dc34db4ee43f2c6071594eeca"
         },
         {
           "headline": "New Study Reveals Strongest State Economies, Only 1 State Was Better Than Texas",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=7d420c816dbd0ca60c63c87b0db6a2badae8d89bed18798b5b200cd4dd2335b1"
         },
         {
           "headline": "SpaceX Stock Is So Complex It Took 3 Analysts to Call It a Buy",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=1ebb8f7feb43ae0c55a38273b4b33c636ec516206ba7c5846e3afc2eea27a2dd"
         }
       ],
