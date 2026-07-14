@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-14T18:55:54.297Z",
+  "updatedAt": "2026-07-14T20:03:43.131Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7548.27,
-      "change": 32.93,
-      "changePercent": 0.4382,
+      "price": 7543.89,
+      "change": 28.55,
+      "changePercent": 0.3799,
       "high": 7557.44,
       "low": 7513.23,
       "open": 0,
       "prevClose": 7515.33984375,
       "week52High": 7620.9,
       "week52Low": 6201.59,
-      "volume": "1.6B",
+      "volume": "2.7B",
       "sparklineData": [
         7554.2900390625,
         7511.35009765625,
@@ -35,7 +35,7 @@
         7543.64013671875,
         7575.39013671875,
         7515.33984375,
-        7548.27001953125
+        7543.89013671875
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +56,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52489.34,
-      "change": -9.3,
-      "changePercent": -0.0177,
+      "price": 52508.48,
+      "change": 9.84,
+      "changePercent": 0.0187,
       "high": 52695.06,
       "low": 52046.36,
       "open": 0,
       "prevClose": 52498.640625,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "295.7M",
+      "volume": "451.1M",
       "sparklineData": [
         51671.03125,
         51999.671875,
@@ -86,7 +86,7 @@
         52487.41015625,
         52637.01171875,
         52498.640625,
-        52489.33984375
+        52508.48046875
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +107,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26137.85,
-      "change": 264.67,
-      "changePercent": 1.023,
+      "price": 26107.008,
+      "change": 233.83,
+      "changePercent": 0.9038,
       "high": 26168.805,
       "low": 25912.402,
       "open": 0,
       "prevClose": 25873.1796875,
       "week52High": 27190.21,
       "week52Low": 20507.06,
-      "volume": "4.4B",
+      "volume": "6.0B",
       "sparklineData": [
         26683.939453125,
         26376.33984375,
@@ -137,7 +137,7 @@
         26206.890625,
         26281.609375,
         25873.1796875,
-        26137.849609375
+        26107.0078125
       ],
       "sector": "",
       "marketCap": "",
@@ -159,12 +159,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 315.33,
-      "change": -1.98,
-      "changePercent": -0.624,
+      "price": 314.86,
+      "change": -2.45,
+      "changePercent": -0.7721,
       "high": 316.19,
       "low": 311.91,
-      "open": 313.92,
+      "open": 313.76,
       "prevClose": 317.31,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -183,31 +183,31 @@
         {
           "headline": "AAPL Stock Slips — Why This Analyst Turned Bearish On Apple After The iPhone Maker Hit An All-Time High",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=b3cc2a24f3b64b2c31aad756e6287901e6ba3e199f79b85bd1396f5ea8915e01"
         },
         {
           "headline": "Apple Widens China Smartphone Lead",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=285831a659c66039530d994d491f85b9aa8cd39ea9b1dbdb9d98ba8b6c354010"
         },
         {
           "headline": "Good News For Apple Stock Fans",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=1bdef67bb0e68cfee7d88c0e2d017ab0d926b8afd3acd7168236f855ccf63b9f"
         },
         {
           "headline": "Top dow jones movers in Tuesday's session",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=cabe65425881223e34efd5bb71098208aeb614bd56b2e75936131543a3ffbdda"
         },
         {
           "headline": "Nvidia Vs. Apple: Nvidia Will Edge Out Apple in Market Cap To End July, but Apple is Growing Faster",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=ac8a489e54fbb1b85a1c7a2cef3bd5084eaec1e7c2958a8e788ab23ac8e1d381"
         }
       ],
@@ -245,12 +245,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 358.68,
-      "change": 6.17,
-      "changePercent": 1.7503,
-      "high": 359.24,
+      "price": 359.51,
+      "change": 7,
+      "changePercent": 1.9858,
+      "high": 360.16,
       "low": 351.09,
-      "open": 351.2775,
+      "open": 351.195,
       "prevClose": 352.51,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -259,7 +259,7 @@
       "week52High": 408.61,
       "week52Low": 176.48,
       "beta": 1.2460933,
-      "peRatio": 32.7669,
+      "peRatio": 33.016,
       "eps": 10.807,
       "dividendYield": "0.25%",
       "volume": "25.4M",
@@ -267,33 +267,33 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Top dow jones movers in Tuesday's session",
+          "source": "ChartMill",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=a418695849289d29baabb02fccad0cc1323fa81f759a05f46d8ec554e1e50864"
+        },
+        {
           "headline": "Google Faces Swiss Search Probe",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=64a23fc5ff26d2dfb111337288a44928ad1de6c30b2190c291cac6994c846d17"
         },
         {
           "headline": "Goldman Sachs, IBD Stock Of The Day, Flashes Buy Signals On AI-Fueled Earnings Surge",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=29d96b3dc93717ced72a3b5f300187f5d549824f7a035fd399b50d8cbd3350d3"
         },
         {
           "headline": "The Most Obvious AI Company Nobody's Talking About",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=9c223daed8911ca9f75ae214a3af42cfb557fb2394c2aa31c3387ccf642f397d"
-        },
-        {
-          "headline": "Top dow jones movers in Tuesday's session",
-          "source": "ChartMill",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=cabe65425881223e34efd5bb71098208aeb614bd56b2e75936131543a3ffbdda"
         },
         {
           "headline": "Apple Avoided the AI CapEx Trap — It Could Create the Biggest iPhone Upgrade Cycle Ever",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=afbc4de2dc8c4052821db06a13a50c60f6adda397924ae04ed2a699c207b07c9"
         }
       ],
@@ -331,12 +331,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 385.38,
-      "change": -5.61,
-      "changePercent": -1.4348,
+      "price": 384.93,
+      "change": -6.06,
+      "changePercent": -1.5499,
       "high": 388.19,
       "low": 378.65,
-      "open": 385.43,
+      "open": 382.82,
       "prevClose": 390.99,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -353,33 +353,33 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Top dow jones movers in Tuesday's session",
+          "source": "ChartMill",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=a418695849289d29baabb02fccad0cc1323fa81f759a05f46d8ec554e1e50864"
+        },
+        {
           "headline": "Is CRM Stock Really Broken Or Just On Sale?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=a90379245880126d7cabe3a3c7a66b00e60164a7ed0c1a1de821cd0637cc7199"
         },
         {
           "headline": "The Most Obvious AI Company Nobody's Talking About",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=9c223daed8911ca9f75ae214a3af42cfb557fb2394c2aa31c3387ccf642f397d"
         },
         {
           "headline": "Update: Market Chatter: Oaktree-Backed Pure DC Builds Finland AI data Center, Microsoft to Be Customer",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=3fa78dc3c261bd60eb77afa904910c9805db9797b26cbce0a58bd08f3b364331"
-        },
-        {
-          "headline": "Top dow jones movers in Tuesday's session",
-          "source": "ChartMill",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=cabe65425881223e34efd5bb71098208aeb614bd56b2e75936131543a3ffbdda"
         },
         {
           "headline": "IBM loses quarter of its value as tech giant’s shares plunge and profits falter",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=1eefa485048392f5a226b10ba503a0d9f13560d8bfa475b985feac08a5a94430"
         }
       ],
@@ -417,12 +417,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 246.45,
-      "change": -0.86,
-      "changePercent": -0.3477,
-      "high": 247.58,
+      "price": 247.49,
+      "change": 0.18,
+      "changePercent": 0.0728,
+      "high": 248.56,
       "low": 243.8,
-      "open": 245.785,
+      "open": 245.55,
       "prevClose": 247.31,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -441,31 +441,31 @@
         {
           "headline": "Apple Avoided the AI CapEx Trap — It Could Create the Biggest iPhone Upgrade Cycle Ever",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=afbc4de2dc8c4052821db06a13a50c60f6adda397924ae04ed2a699c207b07c9"
         },
         {
           "headline": "What Could Power The Next Rally In META Stock",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=9e7ebc357240455e6e55a9a903db00b21fce46bf6f2101bbe4e9afbcf279c728"
         },
         {
           "headline": "The Ultimate Stock to Buy And Hold For A Decade",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=e41211b4132d99a08ada65b264a54f41a4cee13049de96315628655a0b243145"
         },
         {
           "headline": "Shopify Plunges 23% YTD: Buy, Sell or Hold the Stock on the Dip?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=e2a8d0754bd2022ac3eefb30679d373869931ef338657bbc4606262e4234dbc5"
         },
         {
           "headline": "Meta Platforms is Overvalued at 5.92X PS: Buy, Sell or Hold the Stock?",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=d4c7be628b951e334b97de223669c2cf01cc505ed1e4c515bf9139579be78687"
         }
       ],
@@ -503,12 +503,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 396.84,
-      "change": 2.08,
-      "changePercent": 0.5269,
+      "price": 396.101,
+      "change": 1.341,
+      "changePercent": 0.3397,
       "high": 402.22,
       "low": 394.76,
-      "open": 399.06,
+      "open": 399.05,
       "prevClose": 394.76,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -527,32 +527,32 @@
         {
           "headline": "TSLA Stock Remains Volatile Ahead Of Q2 Earnings: Analysts Raise Price Targets With Cautious Optimism",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=e85b6b0e4794431ec8a398c5acc3ffc96fc7502821c06ae2cd974de8a49e120b"
         },
         {
           "headline": "OGBC Group Announces Global Hardware Accelerator in San Francisco",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=6730069f41d5304764fda869e6fa11a0f4766360a5658c6593f3d048cd1ae379"
         },
         {
           "headline": "What If the Car Is No Longer the Point For Tesla Stock?",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=386cc1201a7319eeb23e507abedf0a96e669057f4cebeeb85a7fb0d0b5758115"
         },
         {
           "headline": "Tesla's Strong Auto, Energy Deliveries Position it for Solid Q2, Morgan Stanley Says",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=2b5ee8ddb539138ad976464cc509c8c6945c5068ea1153aa89039825c5d58088"
         },
         {
-          "headline": "Tesla and Meta Are Worth Almost the Same. Which Stock Is the Better Buy?",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=f386c1dbceccd0548e5f5298bcdf9531c5fdc2da6f453c44262d86e92e20d598"
+          "headline": "Why Is AMC Entertainment Stock Surging on Tuesday?",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=2a6a3d5921d5fe70dc37f5d2097141fc09263d26ad0510b0ce51f9c457814dfb"
         }
       ],
       "earnings": [
