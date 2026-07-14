@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-14T14:45:08.194Z",
+  "updatedAt": "2026-07-14T16:05:44.371Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7537.44,
-      "change": 22.1,
-      "changePercent": 0.2941,
+      "price": 7530.75,
+      "change": 15.41,
+      "changePercent": 0.205,
       "high": 7557.44,
       "low": 7513.23,
       "open": 0,
       "prevClose": 7515.33984375,
       "week52High": 7620.9,
       "week52Low": 6201.59,
-      "volume": "635.6M",
+      "volume": "1.0B",
       "sparklineData": [
         7554.2900390625,
         7511.35009765625,
@@ -35,7 +35,7 @@
         7543.64013671875,
         7575.39013671875,
         7515.33984375,
-        7537.43994140625
+        7530.75
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +56,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52551.42,
-      "change": 52.78,
-      "changePercent": 0.1005,
+      "price": 52408.56,
+      "change": -90.08,
+      "changePercent": -0.1716,
       "high": 52695.06,
       "low": 52046.36,
       "open": 0,
       "prevClose": 52498.640625,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "123.4M",
+      "volume": "188.1M",
       "sparklineData": [
         51671.03125,
         51999.671875,
@@ -86,7 +86,7 @@
         52487.41015625,
         52637.01171875,
         52498.640625,
-        52551.421875
+        52408.55859375
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +107,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26047.3,
-      "change": 174.12,
-      "changePercent": 0.673,
-      "high": 26120.418,
+      "price": 26049.057,
+      "change": 175.88,
+      "changePercent": 0.6798,
+      "high": 26164.545,
       "low": 25912.402,
       "open": 0,
       "prevClose": 25873.1796875,
       "week52High": 27190.21,
       "week52Low": 20507.06,
-      "volume": "1.9B",
+      "volume": "2.8B",
       "sparklineData": [
         26683.939453125,
         26376.33984375,
@@ -137,7 +137,7 @@
         26206.890625,
         26281.609375,
         25873.1796875,
-        26047.30078125
+        26049.056640625
       ],
       "sector": "",
       "marketCap": "",
@@ -159,9 +159,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 315.59,
-      "change": -1.72,
-      "changePercent": -0.5421,
+      "price": 313.22,
+      "change": -4.09,
+      "changePercent": -1.289,
       "high": 316.19,
       "low": 311.91,
       "open": 313.92,
@@ -183,31 +183,31 @@
         {
           "headline": "Apple Stock Downgraded To Sell. Here's Why.",
           "source": "Yahoo",
-          "timeAgo": "54m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=6ec8a5143c0adc8a56340bda09201f5af8070e0e5ea1f3cb379d7552ef75a1c1"
         },
         {
           "headline": "Apple, IBM downgraded: Wall Street's top analyst calls",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=dabea42d44b757b3059eccf57dfdc1f7204f893df8aba72ca3dc34d260329a10"
         },
         {
           "headline": "What Could Push GOOGL Stock Higher From Here?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=7d5ac8d80a2f6bc1f07dab34c1c90164d36a27e1bfbd43f312741775f9e11e1b"
         },
         {
           "headline": "AMKR Trades Cheaper Than Industry at 2.06X P/S: Is the Stock a Buy?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=22aaf46ac61a24f07d0db5dc47ab765c179885dc62dda282d82b7edb1995a4e9"
         },
         {
           "headline": "KeyBanc cuts Apple to Underweight, cites slowing hardware demand",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=fda4afb988c658b518eac6bcab481b935ac8bcc78c470314da5a95615ec9a9fa"
         }
       ],
@@ -245,10 +245,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 357.17,
-      "change": 4.66,
-      "changePercent": 1.3219,
-      "high": 357.74,
+      "price": 355.5,
+      "change": 2.99,
+      "changePercent": 0.8482,
+      "high": 358.68,
       "low": 351.09,
       "open": 351.2775,
       "prevClose": 352.51,
@@ -269,31 +269,31 @@
         {
           "headline": "This chipmaker \"remains a core AI winner and a close #2 behind NVDA\": MS",
           "source": "Yahoo",
-          "timeAgo": "56m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=53c48b739e05ba3a3029fe1c8e6e096b723c0f7755001b42e88de06bdfcc98cb"
         },
         {
           "headline": "Accelerating Search Revenue Growth Powered Alphabet’s (GOOG) Rally",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=aa37d4d178d7afb3b437015c0bb915f2502399958f6968d72932fda9b8f4e566"
         },
         {
           "headline": "Alphabet (GOOGL) Stock Looks Fairly Valued Despite Strong AI Hopes",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=7ffc8514ddbed103c694be09068426cc2a75de86db134c360e58fc93ab084c10"
         },
         {
           "headline": "How Deep Can Oracle Stock Fall?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=97b18419ecb056f19c21ed2e1759fa60980515a14050ec3fbfc8bac0d102dadc"
         },
         {
           "headline": "The Free Cash Flow Silence That Reshapes The Amazon Stock Bull Case",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=698e007633b1655930a805be5b672dd7ba4504bb629d0652eb7c70d935f18d82"
         }
       ],
@@ -331,10 +331,10 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 386.03,
-      "change": -4.96,
-      "changePercent": -1.2686,
-      "high": 386.52,
+      "price": 384.3,
+      "change": -6.69,
+      "changePercent": -1.711,
+      "high": 387.7499,
       "low": 378.65,
       "open": 385.43,
       "prevClose": 390.99,
@@ -345,7 +345,7 @@
       "week52High": 555.45,
       "week52Low": 349.2,
       "beta": 1.1261702,
-      "peRatio": 28.4034,
+      "peRatio": 27.9398,
       "eps": 13.6413,
       "dividendYield": "0.93%",
       "volume": "36.1M",
@@ -355,31 +355,31 @@
         {
           "headline": "Stock Market Today: Dow Rises Amid Surprise CPI Inflation Report; IBM Plunges 23% On Earnings (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "58m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=34081a6601a97210f594df6f34bec82b71a053a49e7704aa71e26b9a8aad5039"
         },
         {
           "headline": "Portugal seeks high-value data centres, not to become Europe's dumping ground",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=e55e0cafb9c1ce516b3c8e59d4817540d9d9b97803e5889f67b79c7cafe1636c"
         },
         {
           "headline": "Software Stocks, IT Services Firms Pummeled Amid IBM's Q2 Earnings Miss",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=29fd9e93ecf18eb2d14b8f5b3a63c71217b42e55c6615df5e6d79bfc85ada1e1"
         },
         {
           "headline": "Climate Tech Market to Reach $312.74 Billion by 2035 as Clean Energy Investments and Carbon Removal Technologies Accelerate | Research by SNS Insider",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=59165970538a306f12fb309b14a3dcf2ba8ddd24678ddccd5ccf77eed9f7c311"
         },
         {
           "headline": "How Deep Can Oracle Stock Fall?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=97b18419ecb056f19c21ed2e1759fa60980515a14050ec3fbfc8bac0d102dadc"
         }
       ],
@@ -417,9 +417,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 245.66,
-      "change": -1.65,
-      "changePercent": -0.6672,
+      "price": 244.74,
+      "change": -2.57,
+      "changePercent": -1.0392,
       "high": 247.25,
       "low": 243.8,
       "open": 245.785,
@@ -431,7 +431,7 @@
       "week52High": 278.56,
       "week52Low": 196,
       "beta": 1.4748222,
-      "peRatio": 33.979,
+      "peRatio": 34.0561,
       "eps": 7.1737,
       "dividendYield": "",
       "volume": "46.1M",
@@ -441,31 +441,31 @@
         {
           "headline": "SpaceX Stock Down 30%. Can Starship Flight 13 Turn It Around?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=0328ebfe1e76126fca071dc7ba39d7ce8a9e52637943d7ad00b52971e877f368"
         },
         {
           "headline": "How Deep Can Oracle Stock Fall?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=97b18419ecb056f19c21ed2e1759fa60980515a14050ec3fbfc8bac0d102dadc"
         },
         {
           "headline": "Frontier joins airlines betting on Starlink to lure travelers",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=308a4fa65a450ee76d7e03ff52e3841328dda6467a9397c7b71adcecf23ac998"
         },
         {
           "headline": "Data: Fuel price shocks ripple through freight markets",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=c6608f0d87a877411a1b3e815a246c2e3beb273d352c85dc73a6af29b1d80a87"
         },
         {
           "headline": "The Free Cash Flow Silence That Reshapes The Amazon Stock Bull Case",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=698e007633b1655930a805be5b672dd7ba4504bb629d0652eb7c70d935f18d82"
         }
       ],
@@ -503,10 +503,10 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 397.66,
-      "change": 2.9,
-      "changePercent": 0.7346,
-      "high": 400.82,
+      "price": 396.09,
+      "change": 1.33,
+      "changePercent": 0.3369,
+      "high": 402.22,
       "low": 395.202,
       "open": 399.06,
       "prevClose": 394.76,
@@ -527,31 +527,31 @@
         {
           "headline": "Tesla and Meta Are Worth Almost the Same. Which Stock Is the Better Buy?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=f386c1dbceccd0548e5f5298bcdf9531c5fdc2da6f453c44262d86e92e20d598"
         },
         {
           "headline": "Hyperliquid HIP-3 Volume Nears 50% as Onchain Stock Trading Accelerates",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=84083cad7f7b2382e0c9f12740a310607c093ddc4070a3933888370ca2703b17"
         },
         {
           "headline": "The Massive Reason to Buy Tesla Before July 22 Earnings",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=cf2ad885d51de630f260d3635529d13fce2eeddfc333590f307f892e88e4dd87"
         },
         {
           "headline": "Is This Dip In ARKQ A Gift Or A Trap?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=213aaf158181fc0cccbd88f86fb937de96b5efc3ea76964994c90efb21788329"
         },
         {
           "headline": "Better Elon Musk Buy: SpaceX’s Ascent or Tesla’s Robotics Revolution?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=9d9d77bb8c09b0d823605e98e1ed911fcd31ebe444ac7bdd72152f71c521e1d4"
         }
       ],
