@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-15T17:00:33.459Z",
+  "updatedAt": "2026-07-15T18:49:26.272Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7544.02,
-      "change": 0.43,
-      "changePercent": 0.0057,
+      "price": 7562.94,
+      "change": 19.35,
+      "changePercent": 0.2565,
       "high": 7581.5,
       "low": 7526.95,
       "open": 0,
       "prevClose": 7543.58984375,
       "week52High": 7620.9,
       "week52Low": 6201.59,
-      "volume": "1.4B",
+      "volume": "1.8B",
       "sparklineData": [
         7554.2900390625,
         7511.35009765625,
@@ -36,7 +36,7 @@
         7575.39013671875,
         7515.33984375,
         7543.58984375,
-        7544.02001953125
+        7562.93994140625
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52542.36,
-      "change": 34.09,
-      "changePercent": 0.0649,
+      "price": 52614.21,
+      "change": 105.94,
+      "changePercent": 0.2018,
       "high": 52823.95,
       "low": 52428.54,
       "open": 0,
       "prevClose": 52508.26953125,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "242.5M",
+      "volume": "313.5M",
       "sparklineData": [
         51671.03125,
         51999.671875,
@@ -88,7 +88,7 @@
         52637.01171875,
         52498.640625,
         52508.26953125,
-        52542.359375
+        52614.2109375
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26128.555,
-      "change": 21.55,
-      "changePercent": 0.0825,
+      "price": 26219.852,
+      "change": 112.84,
+      "changePercent": 0.4322,
       "high": 26316.814,
       "low": 26041.127,
       "open": 0,
       "prevClose": 26107.009765625,
       "week52High": 27190.21,
       "week52Low": 20507.06,
-      "volume": "3.5B",
+      "volume": "4.5B",
       "sparklineData": [
         26683.939453125,
         26376.33984375,
@@ -140,7 +140,7 @@
         26281.609375,
         25873.1796875,
         26107.009765625,
-        26128.5546875
+        26219.8515625
       ],
       "sector": "",
       "marketCap": "",
@@ -162,9 +162,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 328.02,
-      "change": 13.16,
-      "changePercent": 4.1796,
+      "price": 327.44,
+      "change": 12.58,
+      "changePercent": 3.9954,
       "high": 328.53,
       "low": 316.2325,
       "open": 316.2325,
@@ -184,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Apple chasing AI chip company deals, The Information reports",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a72508bd6701c2bf0a7eb78ffad02ff070767e8ccd470672c200654c3a35cddb"
+          "headline": "Most active S&P500 stocks in Wednesday's session",
+          "source": "ChartMill",
+          "timeAgo": "44m ago",
+          "url": "https://finnhub.io/api/news?id=ee6ae2fd3553375659113e147b0c292ea1e77bceec44111b0bc3e6fa0c57cc9a"
         },
         {
-          "headline": "OpenAI Rejects Apple Trade-Secret Lawsuit Claims",
+          "headline": "Sector Update: Tech Stocks Decline in Afternoon Trading",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b2ecaf58ea6477cf0aab57464e428789da8e2318d2da37f79ab0a8478d3c3f04"
+          "url": "https://finnhub.io/api/news?id=3fbe564c51034e5e4a4d54d39cc4ca988f61cbbcb490300154b74728d2680a23"
         },
         {
-          "headline": "Warren Buffett’s 3 Favorite Stocks: Buy, Sell or Hold?",
+          "headline": "This Growth ETF Costs 3 Cents and Has Beaten the S&P 500 in 95% of 5-Year Windows",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cf5318bb484ba35b5dcb52fc52a31c2a4069a967a8ae8a79f75605857a637496"
+          "url": "https://finnhub.io/api/news?id=fb33b6746357e02eb65c9a9700e36c78efe9baa9255d5bf3c858abc8ac8848ac"
         },
         {
-          "headline": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
+          "headline": "Apple Goes Shopping For AI Chip Startups Amid Struggles With Performance Of In-House Server Chips: Report",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e226705cbb01fb905d30b33738bf4fb522e9ef84a05a6a837ef2d95a69bdeabe"
+          "url": "https://finnhub.io/api/news?id=681818018f0a2b9d8d9719808a3b07818ee2f4181c2ed2b9b2bec7c873fd48e6"
         },
         {
-          "headline": "Apple explores chip acquisitions to bolster AI server capabilities",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ec1e21e35bbab9b585fd6eb65d2f2e2e7b97614da739f5b20116bd6313310b54"
+          "headline": "Stay informed with the top movers within the dow jones index on Wednesday.",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d3f52428a05de534ed0291c48948492f6aadc30b433f1701d5322f7b8d1fb595"
         }
       ],
       "earnings": [
@@ -248,9 +248,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 372.47,
-      "change": 12.96,
-      "changePercent": 3.6049,
+      "price": 371.19,
+      "change": 11.68,
+      "changePercent": 3.2489,
       "high": 373.65,
       "low": 357.76,
       "open": 358.74,
@@ -270,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Oracle Leads Japan Secure Cloud Talks",
+          "headline": "This Growth ETF Costs 3 Cents and Has Beaten the S&P 500 in 95% of 5-Year Windows",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c2a74bf867bfd9b3768e9664dc1921a5d298423ca13f1ae1f5859699bda55ec1"
+          "url": "https://finnhub.io/api/news?id=fb33b6746357e02eb65c9a9700e36c78efe9baa9255d5bf3c858abc8ac8848ac"
         },
         {
-          "headline": "Apple chasing AI chip company deals, The Information reports",
+          "headline": "Morgan Stanley: Broadcom bears are wrong about Google TPU",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a72508bd6701c2bf0a7eb78ffad02ff070767e8ccd470672c200654c3a35cddb"
+          "url": "https://finnhub.io/api/news?id=ff32cea25d4064eeba79ce3aefda76edd28c0c196f4e46468fd2d81fb4d359b5"
         },
         {
-          "headline": "Warren Buffett’s 3 Favorite Stocks: Buy, Sell or Hold?",
+          "headline": "Booking, Alphabet, and 7 Other Stocks to Buy Ahead of Earnings",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cf5318bb484ba35b5dcb52fc52a31c2a4069a967a8ae8a79f75605857a637496"
+          "url": "https://finnhub.io/api/news?id=1659c81aaae2b2cfcad14d25ffa52593b01323268ebf5c965c654ea6fe19efa8"
         },
         {
-          "headline": "Apple explores chip acquisitions to bolster AI server capabilities",
+          "headline": "Update: Market Chatter: Google to Allow Third-Party Stores in Google Play Next Week",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ec1e21e35bbab9b585fd6eb65d2f2e2e7b97614da739f5b20116bd6313310b54"
+          "url": "https://finnhub.io/api/news?id=9646fc103352b011cd48bc8bdb25848be619f117c48fcc34288bcc56bcf5041d"
         },
         {
-          "headline": "Global Data Center Market Investment to Reach USD 959.19 Billion by 2031- Exclusive Insight by Arizton",
+          "headline": "Apple Goes Shopping For AI Chip Startups Amid Struggles With Performance Of In-House Server Chips: Report",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=427a95db445adcbf9b58a0ebe7c98cc1576e252ec75895728a365fc673371000"
+          "url": "https://finnhub.io/api/news?id=681818018f0a2b9d8d9719808a3b07818ee2f4181c2ed2b9b2bec7c873fd48e6"
         }
       ],
       "earnings": [
@@ -334,9 +334,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 394.56,
-      "change": 9.63,
-      "changePercent": 2.5018,
+      "price": 396.22,
+      "change": 11.29,
+      "changePercent": 2.933,
       "high": 398.96,
       "low": 386.18,
       "open": 386.18,
@@ -356,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Oracle Leads Japan Secure Cloud Talks",
+          "headline": "This Growth ETF Costs 3 Cents and Has Beaten the S&P 500 in 95% of 5-Year Windows",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c2a74bf867bfd9b3768e9664dc1921a5d298423ca13f1ae1f5859699bda55ec1"
+          "url": "https://finnhub.io/api/news?id=fb33b6746357e02eb65c9a9700e36c78efe9baa9255d5bf3c858abc8ac8848ac"
         },
         {
-          "headline": "Which Is the Better Value Stock: Microsoft or Nvidia?",
+          "headline": "Dow Jones Stock 3M Nears Buy Point On AI Data Center Win",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b76188f005128ad3f40242b0b18291d57d28123368b2ebeedbf0d5902c2d7014"
+          "url": "https://finnhub.io/api/news?id=441d2ce687b5ae1c51f4f7ffd6ecbb715132a99cc963f739c16bbc803d39297d"
         },
         {
-          "headline": "Global Data Center Market Investment to Reach USD 959.19 Billion by 2031- Exclusive Insight by Arizton",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=427a95db445adcbf9b58a0ebe7c98cc1576e252ec75895728a365fc673371000"
+          "headline": "Stay informed with the top movers within the dow jones index on Wednesday.",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d3f52428a05de534ed0291c48948492f6aadc30b433f1701d5322f7b8d1fb595"
         },
         {
-          "headline": "VUG vs. SCHG: The Growth-ETF Showdown That Could Quietly Cost You Thousands",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=30f0a19d888c90186ad11bad92bb2ab98c9f3d0821eff168398d475b51b16eef"
-        },
-        {
-          "headline": "Citi Finds Microsoft (MSFT) as One of the Top AI Vendors",
+          "headline": "I Keep Backing Up the Truck and Buying Amazon Because Of This Silicon Secret",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e57683aa1186232628795de6f95a30ebfea7d91c07c572a34d6398d1a8cc6a39"
+          "url": "https://finnhub.io/api/news?id=2f3aff98d85681dc50c20a238717c6cdd48c48ebe3097c2926b7871bd8eab1e5"
+        },
+        {
+          "headline": "Apple Sues OpenAI, Here's What It Means for Oracle and Microsoft Investors",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7c7b6c279580a6dea2fe79777032fc226438b805fa64adaf3429368010ab1dad"
         }
       ],
       "earnings": [
@@ -420,9 +420,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 255.58,
-      "change": 8.09,
-      "changePercent": 3.2688,
+      "price": 254.57,
+      "change": 7.08,
+      "changePercent": 2.8607,
       "high": 256.48,
       "low": 248.73,
       "open": 248.73,
@@ -442,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Oracle Leads Japan Secure Cloud Talks",
+          "headline": "Most active S&P500 stocks in Wednesday's session",
+          "source": "ChartMill",
+          "timeAgo": "44m ago",
+          "url": "https://finnhub.io/api/news?id=ee6ae2fd3553375659113e147b0c292ea1e77bceec44111b0bc3e6fa0c57cc9a"
+        },
+        {
+          "headline": "Amazon AWS executive and CEO advisor Dave Brown to leave after 19 years",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c2a74bf867bfd9b3768e9664dc1921a5d298423ca13f1ae1f5859699bda55ec1"
+          "url": "https://finnhub.io/api/news?id=fa80649b6eeafed7cd05d586a4fdd3cef781eaddaf8ee286d558d8981c632e95"
         },
         {
-          "headline": "Amazon to launch its satellite internet in South Africa, seemingly beating out Musk in his homeland",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=8eb324d4ab486b70fce2200ce99457518039d99dacbc551de9471ab1a43545a5"
-        },
-        {
-          "headline": "DoorDash teams with Shopify on delivery for small retailers",
+          "headline": "Amazon Leo to bring satellite internet to South Africa in 2027",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=78a104c1a453d25775f9d6b82a86ec4f279c651b92714f220454ee1d73319104"
+          "url": "https://finnhub.io/api/news?id=7816c50618f879c0322063eb77a76af518210a0e6c2d98aa5f71361b2d1e4764"
         },
         {
-          "headline": "ELVA Stock Rocketed 40% Today – What’s The Pact With Amazon?",
-          "source": "Yahoo",
+          "headline": "Stay informed with the top movers within the dow jones index on Wednesday.",
+          "source": "ChartMill",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e12d7378f3331bf8855d9bfaa7c94b5aed1b5574b99cb8bd16a49fc411959919"
+          "url": "https://finnhub.io/api/news?id=d3f52428a05de534ed0291c48948492f6aadc30b433f1701d5322f7b8d1fb595"
         },
         {
-          "headline": "Andy Jassy Says This Could Be a $50 Billion Business for Amazon",
+          "headline": "I Keep Backing Up the Truck and Buying Amazon Because Of This Silicon Secret",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=df9b5c363a4399b50c407ca1d724c9444985137a747535eebefbfe1eda669c52"
+          "url": "https://finnhub.io/api/news?id=2f3aff98d85681dc50c20a238717c6cdd48c48ebe3097c2926b7871bd8eab1e5"
         }
       ],
       "earnings": [
@@ -506,9 +506,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 393.54,
-      "change": -2.64,
-      "changePercent": -0.6664,
+      "price": 396.11,
+      "change": -0.07,
+      "changePercent": -0.0177,
       "high": 406.5895,
       "low": 390.66,
       "open": 398.3925,
@@ -528,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Liberty All-Star® Equity Fund June 2026 Monthly Update",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=f352dfd1cd7f9488bfb4925ca880cfd934e9049c458baa00d8d326da135828b8"
+        },
+        {
+          "headline": "Tesla, Paper Transport partner on electric semi evaluation in Chicago",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=b1bc4922f23221dfa09ea82400aef5413c05d4370eaca3b4151edb7411f3f63a"
+        },
+        {
           "headline": "Tesla Stock And The Growth Question Mark",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=c32aae0430c92ba89bfa5f4761bf39d7e15ea65281a3fd5127f279d78be817eb"
         },
         {
           "headline": "TSLA Q2 Earnings Beat Likely: Why the Stock Still Isn't a Buy",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=6d2bce755164bbda5f3e1cb9f5be7b245e00e147740ac6b0d3a0fddca48070c3"
         },
         {
           "headline": "Wells Fargo Raised Its Tesla Stock Target, but Still Sees a 67% Drop",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=2d7a69efc2505253a364aa45c1927573c2cd471d6631df6539a54b26c8eb47b0"
-        },
-        {
-          "headline": "Is SpaceX Replacing Tesla as Elon Musk's Biggest Value Creator?",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ff973ef019aab7f45d195b00c856ab2805f6ef33b8d3a80986094c315737970b"
-        },
-        {
-          "headline": "California sends Tesla a message with its new EV rebate",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=08ece9752416020c682860857b1bfd52899d6ea2135d101e4dbb8e58c96318bc"
         }
       ],
       "earnings": [
