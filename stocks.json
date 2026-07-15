@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-15T15:14:32.116Z",
+  "updatedAt": "2026-07-15T17:00:33.459Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7558.26,
-      "change": 42.92,
-      "changePercent": 0.5711,
+      "price": 7544.02,
+      "change": 0.43,
+      "changePercent": 0.0057,
       "high": 7581.5,
-      "low": 7552.96,
+      "low": 7526.95,
       "open": 0,
-      "prevClose": 7515.33984375,
+      "prevClose": 7543.58984375,
       "week52High": 7620.9,
       "week52Low": 6201.59,
-      "volume": "828.9M",
+      "volume": "1.4B",
       "sparklineData": [
         7554.2900390625,
         7511.35009765625,
@@ -35,7 +35,8 @@
         7543.64013671875,
         7575.39013671875,
         7515.33984375,
-        7558.259765625
+        7543.58984375,
+        7544.02001953125
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52674.82,
-      "change": 176.18,
-      "changePercent": 0.3356,
+      "price": 52542.36,
+      "change": 34.09,
+      "changePercent": 0.0649,
       "high": 52823.95,
-      "low": 52501.55,
+      "low": 52428.54,
       "open": 0,
-      "prevClose": 52498.640625,
+      "prevClose": 52508.26953125,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "146.6M",
+      "volume": "242.5M",
       "sparklineData": [
         51671.03125,
         51999.671875,
@@ -86,7 +87,8 @@
         52487.41015625,
         52637.01171875,
         52498.640625,
-        52674.8203125
+        52508.26953125,
+        52542.359375
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26174.094,
-      "change": 300.91,
-      "changePercent": 1.163,
+      "price": 26128.555,
+      "change": 21.55,
+      "changePercent": 0.0825,
       "high": 26316.814,
-      "low": 26129.076,
+      "low": 26041.127,
       "open": 0,
-      "prevClose": 25873.1796875,
+      "prevClose": 26107.009765625,
       "week52High": 27190.21,
       "week52Low": 20507.06,
-      "volume": "2.2B",
+      "volume": "3.5B",
       "sparklineData": [
         26683.939453125,
         26376.33984375,
@@ -137,7 +139,8 @@
         26206.890625,
         26281.609375,
         25873.1796875,
-        26174.09375
+        26107.009765625,
+        26128.5546875
       ],
       "sector": "",
       "marketCap": "",
@@ -159,10 +162,10 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 324.19,
-      "change": 9.33,
-      "changePercent": 2.9632,
-      "high": 325.68,
+      "price": 328.02,
+      "change": 13.16,
+      "changePercent": 4.1796,
+      "high": 328.53,
       "low": 316.2325,
       "open": 316.2325,
       "prevClose": 314.86,
@@ -181,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Apple Intelligence approved in China with Alibaba Qwen AI model",
+          "headline": "Apple chasing AI chip company deals, The Information reports",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e26de3a3915584417f7cbffd640011335287b416c558886d6b9a564827ec03ba"
+          "url": "https://finnhub.io/api/news?id=a72508bd6701c2bf0a7eb78ffad02ff070767e8ccd470672c200654c3a35cddb"
         },
         {
-          "headline": "PayPal Soars 19% on a Reported $53B Stripe-Advent Takeover Offer: What It Means for Visa, Mastercard, and American Express",
+          "headline": "OpenAI Rejects Apple Trade-Secret Lawsuit Claims",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e18fbe9ddfb0e2940000726173b795492ff13465648c72e80e81ca1f509694cd"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b2ecaf58ea6477cf0aab57464e428789da8e2318d2da37f79ab0a8478d3c3f04"
         },
         {
-          "headline": "Update: US Equity Futures Higher Pre-Bell Amid Inflation Data, Middle East Tensions",
+          "headline": "Warren Buffett’s 3 Favorite Stocks: Buy, Sell or Hold?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=480ecd1efdac3a227829eb7883cc5a86f40c88e0b34b3e5bcfe8c909920a0c06"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=cf5318bb484ba35b5dcb52fc52a31c2a4069a967a8ae8a79f75605857a637496"
         },
         {
-          "headline": "Xsolla Releases New Industry Report Highlighting the Shift Toward Direct-to-Consumer Models as the New Baseline for Monetization",
+          "headline": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c21c30659cbdce8365e640936aece1de2d41cd6b37c84f1d5a8d676bb8185cf7"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e226705cbb01fb905d30b33738bf4fb522e9ef84a05a6a837ef2d95a69bdeabe"
         },
         {
-          "headline": "Hazeltree: A Tale of Two Stories Defined the First Half of 2026 for Global Hedge Funds",
+          "headline": "Apple explores chip acquisitions to bolster AI server capabilities",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c95228c967fb40b20f8ded0bc8c1a667a3075aef9bbd6c4bdd5665f32be4dbe4"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ec1e21e35bbab9b585fd6eb65d2f2e2e7b97614da739f5b20116bd6313310b54"
         }
       ],
       "earnings": [
@@ -245,10 +248,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 369.39,
-      "change": 9.88,
-      "changePercent": 2.7482,
-      "high": 369.71,
+      "price": 372.47,
+      "change": 12.96,
+      "changePercent": 3.6049,
+      "high": 373.65,
       "low": 357.76,
       "open": 358.74,
       "prevClose": 359.51,
@@ -270,31 +273,31 @@
           "headline": "Oracle Leads Japan Secure Cloud Talks",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c84435dd86c5ab94b3d374d69a76b6c60ee9c0062c3b9bd9f5a8b6bcac0f45dc"
+          "url": "https://finnhub.io/api/news?id=c2a74bf867bfd9b3768e9664dc1921a5d298423ca13f1ae1f5859699bda55ec1"
         },
         {
-          "headline": "One chart reveals why investors are concerned about earnings from Microsoft, Amazon, and other hyperscalers",
+          "headline": "Apple chasing AI chip company deals, The Information reports",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ea4afa192b967d14cfa4e83043438229efad14194f4627cf83bffd0547c0cd49"
+          "url": "https://finnhub.io/api/news?id=a72508bd6701c2bf0a7eb78ffad02ff070767e8ccd470672c200654c3a35cddb"
         },
         {
-          "headline": "Xsolla Releases New Industry Report Highlighting the Shift Toward Direct-to-Consumer Models as the New Baseline for Monetization",
+          "headline": "Warren Buffett’s 3 Favorite Stocks: Buy, Sell or Hold?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c21c30659cbdce8365e640936aece1de2d41cd6b37c84f1d5a8d676bb8185cf7"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=cf5318bb484ba35b5dcb52fc52a31c2a4069a967a8ae8a79f75605857a637496"
         },
         {
-          "headline": "Hazeltree: A Tale of Two Stories Defined the First Half of 2026 for Global Hedge Funds",
+          "headline": "Apple explores chip acquisitions to bolster AI server capabilities",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c95228c967fb40b20f8ded0bc8c1a667a3075aef9bbd6c4bdd5665f32be4dbe4"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ec1e21e35bbab9b585fd6eb65d2f2e2e7b97614da739f5b20116bd6313310b54"
         },
         {
-          "headline": "Google Defends EU Fine Reversal",
+          "headline": "Global Data Center Market Investment to Reach USD 959.19 Billion by 2031- Exclusive Insight by Arizton",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=bde79f2f5c5f842d238a2eb1e26a97caac4c3c4608ac901a048a5fbc17178244"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=427a95db445adcbf9b58a0ebe7c98cc1576e252ec75895728a365fc673371000"
         }
       ],
       "earnings": [
@@ -331,10 +334,10 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 395.58,
-      "change": 10.65,
-      "changePercent": 2.7667,
-      "high": 397.79,
+      "price": 394.56,
+      "change": 9.63,
+      "changePercent": 2.5018,
+      "high": 398.96,
       "low": 386.18,
       "open": 386.18,
       "prevClose": 384.93,
@@ -356,31 +359,31 @@
           "headline": "Oracle Leads Japan Secure Cloud Talks",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c84435dd86c5ab94b3d374d69a76b6c60ee9c0062c3b9bd9f5a8b6bcac0f45dc"
+          "url": "https://finnhub.io/api/news?id=c2a74bf867bfd9b3768e9664dc1921a5d298423ca13f1ae1f5859699bda55ec1"
         },
         {
-          "headline": "One chart reveals why investors are concerned about earnings from Microsoft, Amazon, and other hyperscalers",
+          "headline": "Which Is the Better Value Stock: Microsoft or Nvidia?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ea4afa192b967d14cfa4e83043438229efad14194f4627cf83bffd0547c0cd49"
+          "url": "https://finnhub.io/api/news?id=b76188f005128ad3f40242b0b18291d57d28123368b2ebeedbf0d5902c2d7014"
         },
         {
-          "headline": "3M and Microsoft announce strategic partnership to advance AI data center infrastructure and enterprise transformation",
+          "headline": "Global Data Center Market Investment to Reach USD 959.19 Billion by 2031- Exclusive Insight by Arizton",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5a4ddf6067bf804ed951b67bdc4805e4b17c595e0d804f99db99714af623312b"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=427a95db445adcbf9b58a0ebe7c98cc1576e252ec75895728a365fc673371000"
         },
         {
-          "headline": "Hazeltree: A Tale of Two Stories Defined the First Half of 2026 for Global Hedge Funds",
+          "headline": "VUG vs. SCHG: The Growth-ETF Showdown That Could Quietly Cost You Thousands",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c95228c967fb40b20f8ded0bc8c1a667a3075aef9bbd6c4bdd5665f32be4dbe4"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=30f0a19d888c90186ad11bad92bb2ab98c9f3d0821eff168398d475b51b16eef"
         },
         {
-          "headline": "MSFT Sees Fresh Price Target Cuts Days Before Quarterly Report – Citi Sees Strong Q4 But Expects Higher Capex Spend In Q1",
+          "headline": "Citi Finds Microsoft (MSFT) as One of the Top AI Vendors",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=6dd0d7b6b6d7f70b87436f6ecc63923c90e5062582da233c8b821964eadbdfc5"
+          "url": "https://finnhub.io/api/news?id=e57683aa1186232628795de6f95a30ebfea7d91c07c572a34d6398d1a8cc6a39"
         }
       ],
       "earnings": [
@@ -417,10 +420,10 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 255.24,
-      "change": 7.75,
-      "changePercent": 3.1314,
-      "high": 256.05,
+      "price": 255.58,
+      "change": 8.09,
+      "changePercent": 3.2688,
+      "high": 256.48,
       "low": 248.73,
       "open": 248.73,
       "prevClose": 247.49,
@@ -439,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Bernstein’s mid-year CIO survey calls for strong IT budget growth in 2026",
+          "headline": "Oracle Leads Japan Secure Cloud Talks",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2c7c7a830ad0dcb153a51104f2f89ec3a620d7de7f9c089615748c358efa7466"
+          "url": "https://finnhub.io/api/news?id=c2a74bf867bfd9b3768e9664dc1921a5d298423ca13f1ae1f5859699bda55ec1"
         },
         {
-          "headline": "One chart reveals why investors are concerned about earnings from Microsoft, Amazon, and other hyperscalers",
+          "headline": "Amazon to launch its satellite internet in South Africa, seemingly beating out Musk in his homeland",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ea4afa192b967d14cfa4e83043438229efad14194f4627cf83bffd0547c0cd49"
+          "url": "https://finnhub.io/api/news?id=8eb324d4ab486b70fce2200ce99457518039d99dacbc551de9471ab1a43545a5"
         },
         {
-          "headline": "NDT Pharmaceuticals, Inc.’s Wholly Owned Subsidiary Good Salt Life, Inc. Reports Strong Online Retail Growth in First Half of 2026",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c1d9da91009a1068b807f73c473a8588482eab499193d959f3feb3c2395e4b50"
-        },
-        {
-          "headline": "Hazeltree: A Tale of Two Stories Defined the First Half of 2026 for Global Hedge Funds",
+          "headline": "DoorDash teams with Shopify on delivery for small retailers",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c95228c967fb40b20f8ded0bc8c1a667a3075aef9bbd6c4bdd5665f32be4dbe4"
+          "url": "https://finnhub.io/api/news?id=78a104c1a453d25775f9d6b82a86ec4f279c651b92714f220454ee1d73319104"
         },
         {
-          "headline": "Electrovaya Announces Commercial Relationship with Amazon",
+          "headline": "ELVA Stock Rocketed 40% Today – What’s The Pact With Amazon?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=95c928f16485920ae4d7f823a5c439f19a783e17f2db635154ba0560960c4db2"
+          "url": "https://finnhub.io/api/news?id=e12d7378f3331bf8855d9bfaa7c94b5aed1b5574b99cb8bd16a49fc411959919"
+        },
+        {
+          "headline": "Andy Jassy Says This Could Be a $50 Billion Business for Amazon",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=df9b5c363a4399b50c407ca1d724c9444985137a747535eebefbfe1eda669c52"
         }
       ],
       "earnings": [
@@ -503,11 +506,11 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 396.79,
-      "change": 0.61,
-      "changePercent": 0.154,
+      "price": 393.54,
+      "change": -2.64,
+      "changePercent": -0.6664,
       "high": 406.5895,
-      "low": 393.236,
+      "low": 390.66,
       "open": 398.3925,
       "prevClose": 396.18,
       "name": "Tesla Inc",
@@ -525,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "PayPal co-founder and Affirm CEO details his 'very high bar' for M&A",
+          "headline": "Tesla Stock And The Growth Question Mark",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=edfe3f13342094c3f50efdbb4ac9e49008bd82ea95f5e5c2e1ef487ea13757dd"
+          "url": "https://finnhub.io/api/news?id=c32aae0430c92ba89bfa5f4761bf39d7e15ea65281a3fd5127f279d78be817eb"
         },
         {
-          "headline": "Ford Should Stop Selling EVs",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=02f35ec2e3b0a858d1d9f08c2a6fc088c934f50eb9d2fd3afe9a834847f83722"
-        },
-        {
-          "headline": "This Week In Electric Vehicles - Global Market Shifts Shape Future Growth and Strategies",
+          "headline": "TSLA Q2 Earnings Beat Likely: Why the Stock Still Isn't a Buy",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e897a8c36837f69cec9d902737dcfe7d219b1a11d83ad650b7a1c9cecf9afc72"
+          "url": "https://finnhub.io/api/news?id=6d2bce755164bbda5f3e1cb9f5be7b245e00e147740ac6b0d3a0fddca48070c3"
         },
         {
-          "headline": "Tesla Stock Is in the Calm Before the Storm",
+          "headline": "Wells Fargo Raised Its Tesla Stock Target, but Still Sees a 67% Drop",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=64affd346224a63d482721d5b59ea2f88eee0bc8e7db4d043c8eae7b1de1584b"
+          "url": "https://finnhub.io/api/news?id=2d7a69efc2505253a364aa45c1927573c2cd471d6631df6539a54b26c8eb47b0"
         },
         {
-          "headline": "If a Stock Market Crash Is Coming, 100 Years of History Says This Is the Best Move Investors Can Make",
+          "headline": "Is SpaceX Replacing Tesla as Elon Musk's Biggest Value Creator?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=2b84aefd8908820cc98e9d56127a8d69f2a54b28ef46947aa4f794a3d3f681d2"
+          "url": "https://finnhub.io/api/news?id=ff973ef019aab7f45d195b00c856ab2805f6ef33b8d3a80986094c315737970b"
+        },
+        {
+          "headline": "California sends Tesla a message with its new EV rebate",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=08ece9752416020c682860857b1bfd52899d6ea2135d101e4dbb8e58c96318bc"
         }
       ],
       "earnings": [
