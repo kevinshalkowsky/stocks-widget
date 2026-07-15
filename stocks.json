@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-15T19:58:47.933Z",
+  "updatedAt": "2026-07-15T20:56:26.938Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7571.66,
-      "change": 28.07,
-      "changePercent": 0.3721,
+      "price": 7572.4,
+      "change": 28.81,
+      "changePercent": 0.3819,
       "high": 7581.5,
       "low": 7526.95,
       "open": 0,
       "prevClose": 7543.58984375,
       "week52High": 7620.9,
       "week52Low": 6201.59,
-      "volume": "2.4B",
+      "volume": "3.1B",
       "sparklineData": [
         7554.2900390625,
         7511.35009765625,
@@ -36,7 +36,7 @@
         7575.39013671875,
         7515.33984375,
         7543.58984375,
-        7571.66015625
+        7572.39990234375
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52650.3,
-      "change": 142.03,
-      "changePercent": 0.2705,
+      "price": 52658.64,
+      "change": 150.37,
+      "changePercent": 0.2864,
       "high": 52823.95,
       "low": 52428.54,
       "open": 0,
       "prevClose": 52508.26953125,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "392.4M",
+      "volume": "506.0M",
       "sparklineData": [
         51671.03125,
         51999.671875,
@@ -88,7 +88,7 @@
         52637.01171875,
         52498.640625,
         52508.26953125,
-        52650.30078125
+        52658.640625
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26267.012,
-      "change": 160,
-      "changePercent": 0.6129,
+      "price": 26269.227,
+      "change": 162.22,
+      "changePercent": 0.6214,
       "high": 26316.814,
       "low": 26041.127,
       "open": 0,
       "prevClose": 26107.009765625,
       "week52High": 27190.21,
       "week52Low": 20507.06,
-      "volume": "5.4B",
+      "volume": "6.3B",
       "sparklineData": [
         26683.939453125,
         26376.33984375,
@@ -140,7 +140,7 @@
         26281.609375,
         25873.1796875,
         26107.009765625,
-        26267.01171875
+        26269.2265625
       ],
       "sector": "",
       "marketCap": "",
@@ -162,12 +162,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 327.6,
-      "change": 12.74,
-      "changePercent": 4.0462,
+      "price": 327.5,
+      "change": 12.64,
+      "changePercent": 4.0145,
       "high": 328.73,
-      "low": 316.2325,
-      "open": 316.2325,
+      "low": 317.32,
+      "open": 317.615,
       "prevClose": 314.86,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -184,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Sector Update: Tech Stocks Fall Late Afternoon",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a0a5385b3d686719bb8cf38c26362b65cd84b767feccf18df30680187884acf3"
+        },
+        {
+          "headline": "Apple Is Up 20% in 2026. What Will It Take for AAPL Stock to Hit $350?",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=0d54a759762010027016fe1fd017621119a1a5e8ffb4db17f4928364da1dc44d"
+        },
+        {
           "headline": "What's going on in today's session: dow jones movers",
           "source": "ChartMill",
-          "timeAgo": "48m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=6750508196e401c3e7147c7d16e101bbbf6a7f4a57e20206b50542adf6290ea5"
         },
         {
           "headline": "Which S&P500 stocks are moving on Wednesday?",
           "source": "ChartMill",
-          "timeAgo": "53m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=d213a7bc45e61de090c471914ad23104be342b21d7fdfd1d103000c412ff81b2"
         },
         {
-          "headline": "Most active S&P500 stocks in Wednesday's session",
-          "source": "ChartMill",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ee6ae2fd3553375659113e147b0c292ea1e77bceec44111b0bc3e6fa0c57cc9a"
-        },
-        {
-          "headline": "Sector Update: Tech Stocks Decline in Afternoon Trading",
+          "headline": "Alibaba Stock Is Jumping -- Apple Picks Qwen AI for China iPhones",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3fbe564c51034e5e4a4d54d39cc4ca988f61cbbcb490300154b74728d2680a23"
-        },
-        {
-          "headline": "This Growth ETF Costs 3 Cents and Has Beaten the S&P 500 in 95% of 5-Year Windows",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fb33b6746357e02eb65c9a9700e36c78efe9baa9255d5bf3c858abc8ac8848ac"
+          "url": "https://finnhub.io/api/news?id=15d556f3793859cec0ff94da64cc293873bbd4686e35b26305699f5e45fe3e64"
         }
       ],
       "earnings": [
@@ -248,12 +248,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 371.09,
-      "change": 11.58,
-      "changePercent": 3.2211,
+      "price": 370.92,
+      "change": 11.41,
+      "changePercent": 3.1738,
       "high": 373.65,
       "low": 357.76,
-      "open": 358.74,
+      "open": 357.97,
       "prevClose": 359.51,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -270,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Better Artificial Intelligence (AI) Stock: Alphabet Versus Meta Platforms",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=1748d9325c1cb842870aae696ae31821fdd4bc2dc8347800468a90e120bd2f40"
+        },
+        {
           "headline": "What's going on in today's session: dow jones movers",
           "source": "ChartMill",
-          "timeAgo": "48m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=6750508196e401c3e7147c7d16e101bbbf6a7f4a57e20206b50542adf6290ea5"
         },
         {
-          "headline": "This Growth ETF Costs 3 Cents and Has Beaten the S&P 500 in 95% of 5-Year Windows",
+          "headline": "Why Shoals (SHLS) Stock Is Trading Up Today",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fb33b6746357e02eb65c9a9700e36c78efe9baa9255d5bf3c858abc8ac8848ac"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=58deaabf6bafd561f806b7e3c90f54925c910ab717780ba74764627e126efc5a"
         },
         {
-          "headline": "Morgan Stanley: Broadcom bears are wrong about Google TPU",
+          "headline": "Oracle Leads Race for Japan's Classified Cloud",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ff32cea25d4064eeba79ce3aefda76edd28c0c196f4e46468fd2d81fb4d359b5"
+          "url": "https://finnhub.io/api/news?id=f33ad103105ea9d12c52948e4f2796415727c72d66520bc7f4786e1bd592da96"
         },
         {
-          "headline": "Booking, Alphabet, and 7 Other Stocks to Buy Ahead of Earnings",
+          "headline": "Data Center Backlash Will Help These REITs, Wall Street Says",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=1659c81aaae2b2cfcad14d25ffa52593b01323268ebf5c965c654ea6fe19efa8"
-        },
-        {
-          "headline": "Update: Market Chatter: Google to Allow Third-Party Stores in Google Play Next Week",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9646fc103352b011cd48bc8bdb25848be619f117c48fcc34288bcc56bcf5041d"
+          "url": "https://finnhub.io/api/news?id=26004fb0abcbdd1c67c7fb8a9a3f6834a82bbe8985bd21af7b76fc92c041bddd"
         }
       ],
       "earnings": [
@@ -334,12 +334,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 395.26,
-      "change": 10.33,
-      "changePercent": 2.6836,
+      "price": 395.63,
+      "change": 10.7,
+      "changePercent": 2.7797,
       "high": 398.96,
-      "low": 386.18,
-      "open": 386.18,
+      "low": 386.4,
+      "open": 387.8,
       "prevClose": 384.93,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -356,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Sector Update: Tech Stocks Fall Late Afternoon",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a0a5385b3d686719bb8cf38c26362b65cd84b767feccf18df30680187884acf3"
+        },
+        {
+          "headline": "Market Chatter: Microsoft Overhauls Security Business to Capture AI Demand",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=c27634b490d529ed7d459fe438c7edbd6f96b95f39d287fa968e282928a3b388"
+        },
+        {
+          "headline": "Apple Is Up 20% in 2026. What Will It Take for AAPL Stock to Hit $350?",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=0d54a759762010027016fe1fd017621119a1a5e8ffb4db17f4928364da1dc44d"
+        },
+        {
           "headline": "What's going on in today's session: dow jones movers",
           "source": "ChartMill",
-          "timeAgo": "48m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=6750508196e401c3e7147c7d16e101bbbf6a7f4a57e20206b50542adf6290ea5"
         },
         {
-          "headline": "This Growth ETF Costs 3 Cents and Has Beaten the S&P 500 in 95% of 5-Year Windows",
+          "headline": "Prediction: Microsoft Stock Will Skyrocket After July 29",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fb33b6746357e02eb65c9a9700e36c78efe9baa9255d5bf3c858abc8ac8848ac"
-        },
-        {
-          "headline": "Dow Jones Stock 3M Nears Buy Point On AI Data Center Win",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=441d2ce687b5ae1c51f4f7ffd6ecbb715132a99cc963f739c16bbc803d39297d"
-        },
-        {
-          "headline": "Stay informed with the top movers within the dow jones index on Wednesday.",
-          "source": "ChartMill",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=d3f52428a05de534ed0291c48948492f6aadc30b433f1701d5322f7b8d1fb595"
-        },
-        {
-          "headline": "I Keep Backing Up the Truck and Buying Amazon Because Of This Silicon Secret",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=2f3aff98d85681dc50c20a238717c6cdd48c48ebe3097c2926b7871bd8eab1e5"
+          "url": "https://finnhub.io/api/news?id=18d7981ba47a26cbf6790dbb29fff9373b297e82dd1391891cb4124a23e14d9f"
         }
       ],
       "earnings": [
@@ -420,12 +420,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 254.85,
-      "change": 7.36,
-      "changePercent": 2.9739,
+      "price": 254.96,
+      "change": 7.47,
+      "changePercent": 3.0183,
       "high": 256.48,
-      "low": 248.73,
-      "open": 248.73,
+      "low": 249.75,
+      "open": 249.75,
       "prevClose": 247.49,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -442,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Apple Is Up 20% in 2026. What Will It Take for AAPL Stock to Hit $350?",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=0d54a759762010027016fe1fd017621119a1a5e8ffb4db17f4928364da1dc44d"
+        },
+        {
           "headline": "What's going on in today's session: dow jones movers",
           "source": "ChartMill",
-          "timeAgo": "48m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=6750508196e401c3e7147c7d16e101bbbf6a7f4a57e20206b50542adf6290ea5"
         },
         {
-          "headline": "Most active S&P500 stocks in Wednesday's session",
-          "source": "ChartMill",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ee6ae2fd3553375659113e147b0c292ea1e77bceec44111b0bc3e6fa0c57cc9a"
-        },
-        {
-          "headline": "Amazon AWS executive and CEO advisor Dave Brown to leave after 19 years",
+          "headline": "Amazon Stock Rises After CEO Says AI Chip Demand Is Booming",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fa80649b6eeafed7cd05d586a4fdd3cef781eaddaf8ee286d558d8981c632e95"
+          "url": "https://finnhub.io/api/news?id=6b8a98be62c146113d3fa13a689b69f56f7c87b889ed895aa552135613eb3b96"
         },
         {
-          "headline": "Amazon Leo to bring satellite internet to South Africa in 2027",
+          "headline": "Oracle Leads Race for Japan's Classified Cloud",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=7816c50618f879c0322063eb77a76af518210a0e6c2d98aa5f71361b2d1e4764"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=f33ad103105ea9d12c52948e4f2796415727c72d66520bc7f4786e1bd592da96"
         },
         {
-          "headline": "Stay informed with the top movers within the dow jones index on Wednesday.",
-          "source": "ChartMill",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=d3f52428a05de534ed0291c48948492f6aadc30b433f1701d5322f7b8d1fb595"
+          "headline": "AMZN Stock Rallies Over 3% — Amazon Reshuffles AWS Leadership As Veteran Dave Brown Exits, Dave Treadwell Takes Over",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=00401ed33d9fc18da5f01790f84e1d303b4842be63e4749264958a26c56570b0"
         }
       ],
       "earnings": [
@@ -506,12 +506,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 394.2,
-      "change": -1.98,
-      "changePercent": -0.4998,
+      "price": 394.46,
+      "change": -1.72,
+      "changePercent": -0.4341,
       "high": 406.5895,
       "low": 390.66,
-      "open": 398.3925,
+      "open": 399.395,
       "prevClose": 396.18,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -530,31 +530,31 @@
         {
           "headline": "Liberty All-Star® Equity Fund June 2026 Monthly Update",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=f352dfd1cd7f9488bfb4925ca880cfd934e9049c458baa00d8d326da135828b8"
         },
         {
           "headline": "Tesla, Paper Transport partner on electric semi evaluation in Chicago",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=b1bc4922f23221dfa09ea82400aef5413c05d4370eaca3b4151edb7411f3f63a"
         },
         {
           "headline": "Tesla Stock And The Growth Question Mark",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=c32aae0430c92ba89bfa5f4761bf39d7e15ea65281a3fd5127f279d78be817eb"
         },
         {
           "headline": "TSLA Q2 Earnings Beat Likely: Why the Stock Still Isn't a Buy",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=6d2bce755164bbda5f3e1cb9f5be7b245e00e147740ac6b0d3a0fddca48070c3"
         },
         {
           "headline": "Wells Fargo Raised Its Tesla Stock Target, but Still Sees a 67% Drop",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=2d7a69efc2505253a364aa45c1927573c2cd471d6631df6539a54b26c8eb47b0"
         }
       ],
