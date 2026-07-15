@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-15T18:49:26.272Z",
+  "updatedAt": "2026-07-15T19:58:47.933Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7562.94,
-      "change": 19.35,
-      "changePercent": 0.2565,
+      "price": 7571.66,
+      "change": 28.07,
+      "changePercent": 0.3721,
       "high": 7581.5,
       "low": 7526.95,
       "open": 0,
       "prevClose": 7543.58984375,
       "week52High": 7620.9,
       "week52Low": 6201.59,
-      "volume": "1.8B",
+      "volume": "2.4B",
       "sparklineData": [
         7554.2900390625,
         7511.35009765625,
@@ -36,7 +36,7 @@
         7575.39013671875,
         7515.33984375,
         7543.58984375,
-        7562.93994140625
+        7571.66015625
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52614.21,
-      "change": 105.94,
-      "changePercent": 0.2018,
+      "price": 52650.3,
+      "change": 142.03,
+      "changePercent": 0.2705,
       "high": 52823.95,
       "low": 52428.54,
       "open": 0,
       "prevClose": 52508.26953125,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "313.5M",
+      "volume": "392.4M",
       "sparklineData": [
         51671.03125,
         51999.671875,
@@ -88,7 +88,7 @@
         52637.01171875,
         52498.640625,
         52508.26953125,
-        52614.2109375
+        52650.30078125
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26219.852,
-      "change": 112.84,
-      "changePercent": 0.4322,
+      "price": 26267.012,
+      "change": 160,
+      "changePercent": 0.6129,
       "high": 26316.814,
       "low": 26041.127,
       "open": 0,
       "prevClose": 26107.009765625,
       "week52High": 27190.21,
       "week52Low": 20507.06,
-      "volume": "4.5B",
+      "volume": "5.4B",
       "sparklineData": [
         26683.939453125,
         26376.33984375,
@@ -140,7 +140,7 @@
         26281.609375,
         25873.1796875,
         26107.009765625,
-        26219.8515625
+        26267.01171875
       ],
       "sector": "",
       "marketCap": "",
@@ -162,10 +162,10 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 327.44,
-      "change": 12.58,
-      "changePercent": 3.9954,
-      "high": 328.53,
+      "price": 327.6,
+      "change": 12.74,
+      "changePercent": 4.0462,
+      "high": 328.73,
       "low": 316.2325,
       "open": 316.2325,
       "prevClose": 314.86,
@@ -176,7 +176,7 @@
       "week52High": 323.45,
       "week52Low": 201.5,
       "beta": 1.0993193,
-      "peRatio": 41.2743,
+      "peRatio": 42.9121,
       "eps": 7.465,
       "dividendYield": "0.34%",
       "volume": "49.0M",
@@ -184,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "What's going on in today's session: dow jones movers",
+          "source": "ChartMill",
+          "timeAgo": "48m ago",
+          "url": "https://finnhub.io/api/news?id=6750508196e401c3e7147c7d16e101bbbf6a7f4a57e20206b50542adf6290ea5"
+        },
+        {
+          "headline": "Which S&P500 stocks are moving on Wednesday?",
+          "source": "ChartMill",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=d213a7bc45e61de090c471914ad23104be342b21d7fdfd1d103000c412ff81b2"
+        },
+        {
           "headline": "Most active S&P500 stocks in Wednesday's session",
           "source": "ChartMill",
-          "timeAgo": "44m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=ee6ae2fd3553375659113e147b0c292ea1e77bceec44111b0bc3e6fa0c57cc9a"
         },
         {
           "headline": "Sector Update: Tech Stocks Decline in Afternoon Trading",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=3fbe564c51034e5e4a4d54d39cc4ca988f61cbbcb490300154b74728d2680a23"
         },
         {
           "headline": "This Growth ETF Costs 3 Cents and Has Beaten the S&P 500 in 95% of 5-Year Windows",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=fb33b6746357e02eb65c9a9700e36c78efe9baa9255d5bf3c858abc8ac8848ac"
-        },
-        {
-          "headline": "Apple Goes Shopping For AI Chip Startups Amid Struggles With Performance Of In-House Server Chips: Report",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=681818018f0a2b9d8d9719808a3b07818ee2f4181c2ed2b9b2bec7c873fd48e6"
-        },
-        {
-          "headline": "Stay informed with the top movers within the dow jones index on Wednesday.",
-          "source": "ChartMill",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d3f52428a05de534ed0291c48948492f6aadc30b433f1701d5322f7b8d1fb595"
+          "url": "https://finnhub.io/api/news?id=fb33b6746357e02eb65c9a9700e36c78efe9baa9255d5bf3c858abc8ac8848ac"
         }
       ],
       "earnings": [
@@ -248,9 +248,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 371.19,
-      "change": 11.68,
-      "changePercent": 3.2489,
+      "price": 371.09,
+      "change": 11.58,
+      "changePercent": 3.2211,
       "high": 373.65,
       "low": 357.76,
       "open": 358.74,
@@ -262,7 +262,7 @@
       "week52High": 408.61,
       "week52Low": 179.68,
       "beta": 1.2450087,
-      "peRatio": 33.016,
+      "peRatio": 34.1435,
       "eps": 10.807,
       "dividendYield": "0.24%",
       "volume": "23.8M",
@@ -270,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "What's going on in today's session: dow jones movers",
+          "source": "ChartMill",
+          "timeAgo": "48m ago",
+          "url": "https://finnhub.io/api/news?id=6750508196e401c3e7147c7d16e101bbbf6a7f4a57e20206b50542adf6290ea5"
+        },
+        {
           "headline": "This Growth ETF Costs 3 Cents and Has Beaten the S&P 500 in 95% of 5-Year Windows",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=fb33b6746357e02eb65c9a9700e36c78efe9baa9255d5bf3c858abc8ac8848ac"
         },
         {
           "headline": "Morgan Stanley: Broadcom bears are wrong about Google TPU",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=ff32cea25d4064eeba79ce3aefda76edd28c0c196f4e46468fd2d81fb4d359b5"
         },
         {
           "headline": "Booking, Alphabet, and 7 Other Stocks to Buy Ahead of Earnings",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=1659c81aaae2b2cfcad14d25ffa52593b01323268ebf5c965c654ea6fe19efa8"
         },
         {
           "headline": "Update: Market Chatter: Google to Allow Third-Party Stores in Google Play Next Week",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=9646fc103352b011cd48bc8bdb25848be619f117c48fcc34288bcc56bcf5041d"
-        },
-        {
-          "headline": "Apple Goes Shopping For AI Chip Startups Amid Struggles With Performance Of In-House Server Chips: Report",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=681818018f0a2b9d8d9719808a3b07818ee2f4181c2ed2b9b2bec7c873fd48e6"
         }
       ],
       "earnings": [
@@ -334,9 +334,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 396.22,
-      "change": 11.29,
-      "changePercent": 2.933,
+      "price": 395.26,
+      "change": 10.33,
+      "changePercent": 2.6836,
       "high": 398.96,
       "low": 386.18,
       "open": 386.18,
@@ -356,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "What's going on in today's session: dow jones movers",
+          "source": "ChartMill",
+          "timeAgo": "48m ago",
+          "url": "https://finnhub.io/api/news?id=6750508196e401c3e7147c7d16e101bbbf6a7f4a57e20206b50542adf6290ea5"
+        },
+        {
           "headline": "This Growth ETF Costs 3 Cents and Has Beaten the S&P 500 in 95% of 5-Year Windows",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=fb33b6746357e02eb65c9a9700e36c78efe9baa9255d5bf3c858abc8ac8848ac"
         },
         {
           "headline": "Dow Jones Stock 3M Nears Buy Point On AI Data Center Win",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=441d2ce687b5ae1c51f4f7ffd6ecbb715132a99cc963f739c16bbc803d39297d"
         },
         {
           "headline": "Stay informed with the top movers within the dow jones index on Wednesday.",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=d3f52428a05de534ed0291c48948492f6aadc30b433f1701d5322f7b8d1fb595"
         },
         {
           "headline": "I Keep Backing Up the Truck and Buying Amazon Because Of This Silicon Secret",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=2f3aff98d85681dc50c20a238717c6cdd48c48ebe3097c2926b7871bd8eab1e5"
-        },
-        {
-          "headline": "Apple Sues OpenAI, Here's What It Means for Oracle and Microsoft Investors",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=7c7b6c279580a6dea2fe79777032fc226438b805fa64adaf3429368010ab1dad"
         }
       ],
       "earnings": [
@@ -420,9 +420,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 254.57,
-      "change": 7.08,
-      "changePercent": 2.8607,
+      "price": 254.85,
+      "change": 7.36,
+      "changePercent": 2.9739,
       "high": 256.48,
       "low": 248.73,
       "open": 248.73,
@@ -442,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "What's going on in today's session: dow jones movers",
+          "source": "ChartMill",
+          "timeAgo": "48m ago",
+          "url": "https://finnhub.io/api/news?id=6750508196e401c3e7147c7d16e101bbbf6a7f4a57e20206b50542adf6290ea5"
+        },
+        {
           "headline": "Most active S&P500 stocks in Wednesday's session",
           "source": "ChartMill",
-          "timeAgo": "44m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=ee6ae2fd3553375659113e147b0c292ea1e77bceec44111b0bc3e6fa0c57cc9a"
         },
         {
           "headline": "Amazon AWS executive and CEO advisor Dave Brown to leave after 19 years",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=fa80649b6eeafed7cd05d586a4fdd3cef781eaddaf8ee286d558d8981c632e95"
         },
         {
           "headline": "Amazon Leo to bring satellite internet to South Africa in 2027",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=7816c50618f879c0322063eb77a76af518210a0e6c2d98aa5f71361b2d1e4764"
         },
         {
           "headline": "Stay informed with the top movers within the dow jones index on Wednesday.",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=d3f52428a05de534ed0291c48948492f6aadc30b433f1701d5322f7b8d1fb595"
-        },
-        {
-          "headline": "I Keep Backing Up the Truck and Buying Amazon Because Of This Silicon Secret",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=2f3aff98d85681dc50c20a238717c6cdd48c48ebe3097c2926b7871bd8eab1e5"
         }
       ],
       "earnings": [
@@ -506,9 +506,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 396.11,
-      "change": -0.07,
-      "changePercent": -0.0177,
+      "price": 394.2,
+      "change": -1.98,
+      "changePercent": -0.4998,
       "high": 406.5895,
       "low": 390.66,
       "open": 398.3925,
@@ -530,31 +530,31 @@
         {
           "headline": "Liberty All-Star® Equity Fund June 2026 Monthly Update",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=f352dfd1cd7f9488bfb4925ca880cfd934e9049c458baa00d8d326da135828b8"
         },
         {
           "headline": "Tesla, Paper Transport partner on electric semi evaluation in Chicago",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=b1bc4922f23221dfa09ea82400aef5413c05d4370eaca3b4151edb7411f3f63a"
         },
         {
           "headline": "Tesla Stock And The Growth Question Mark",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=c32aae0430c92ba89bfa5f4761bf39d7e15ea65281a3fd5127f279d78be817eb"
         },
         {
           "headline": "TSLA Q2 Earnings Beat Likely: Why the Stock Still Isn't a Buy",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=6d2bce755164bbda5f3e1cb9f5be7b245e00e147740ac6b0d3a0fddca48070c3"
         },
         {
           "headline": "Wells Fargo Raised Its Tesla Stock Target, but Still Sees a 67% Drop",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=2d7a69efc2505253a364aa45c1927573c2cd471d6631df6539a54b26c8eb47b0"
         }
       ],
