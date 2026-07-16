@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-16T13:09:13.475Z",
+  "updatedAt": "2026-07-16T15:22:24.661Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7572.4,
-      "change": 28.81,
-      "changePercent": 0.3819,
-      "high": 7581.5,
-      "low": 7526.95,
+      "price": 7556.86,
+      "change": -15.54,
+      "changePercent": -0.2052,
+      "high": 7570.74,
+      "low": 7531.72,
       "open": 0,
-      "prevClose": 7543.58984375,
+      "prevClose": 7572.39990234375,
       "week52High": 7620.9,
       "week52Low": 6212.69,
-      "volume": "3.1B",
+      "volume": "827.2M",
       "sparklineData": [
         7511.35009765625,
         7420.10009765625,
@@ -35,7 +35,8 @@
         7575.39013671875,
         7515.33984375,
         7543.58984375,
-        7572.39990234375
+        7572.39990234375,
+        7556.85986328125
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52658.64,
-      "change": 150.37,
-      "changePercent": 0.2864,
-      "high": 52823.95,
-      "low": 52428.54,
+      "price": 52778.45,
+      "change": 119.81,
+      "changePercent": 0.2275,
+      "high": 52924.86,
+      "low": 52610.22,
       "open": 0,
-      "prevClose": 52508.26953125,
+      "prevClose": 52658.640625,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "508.4M",
+      "volume": "149.1M",
       "sparklineData": [
         51999.671875,
         51492.55078125,
@@ -86,7 +87,8 @@
         52637.01171875,
         52498.640625,
         52508.26953125,
-        52658.640625
+        52658.640625,
+        52778.44921875
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26269.227,
-      "change": 162.22,
-      "changePercent": 0.6214,
-      "high": 26316.814,
-      "low": 26041.127,
+      "price": 26046.955,
+      "change": -222.28,
+      "changePercent": -0.8462,
+      "high": 26165.373,
+      "low": 25968.443,
       "open": 0,
-      "prevClose": 26107.009765625,
+      "prevClose": 26269.23046875,
       "week52High": 27190.21,
       "week52Low": 20560.17,
-      "volume": "6.3B",
+      "volume": "2.5B",
       "sparklineData": [
         26376.33984375,
         26021.66015625,
@@ -137,7 +139,8 @@
         26281.609375,
         25873.1796875,
         26107.009765625,
-        26269.23046875
+        26269.23046875,
+        26046.955078125
       ],
       "sector": "",
       "marketCap": "",
@@ -159,13 +162,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 327.5,
-      "change": 12.64,
-      "changePercent": 4.0145,
-      "high": 328.73,
-      "low": 317.32,
-      "open": 317.615,
-      "prevClose": 314.86,
+      "price": 329.91,
+      "change": 2.41,
+      "changePercent": 0.7359,
+      "high": 331.41,
+      "low": 326.79,
+      "open": 327.8025,
+      "prevClose": 327.5,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.81T",
@@ -183,31 +186,31 @@
         {
           "headline": "Dow Jones Futures Rise But AI Woes Continue; Taiwan Semi, GE, UnitedHealth Are Key Earnings Movers",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=759627f5149f28b6538283c3bf9a71edb694c1f7d5a2529b6c8f3576feb62f51"
         },
         {
           "headline": "Why the Mag 7 Stocks Can Save the Stock Market Rally",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=9a62a1ca365c83c975885250446ec2b3f8a1cc382f01fe9f4d8ef2d2272bca86"
         },
         {
           "headline": "illumynt Appoints Anthony Giannetti as Senior Vice President of Global Operations",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=0f5156c153e7e78eefeb82b8ca812fad7725e1548b17dbccdc16e51a789e1ea9"
         },
         {
           "headline": "AI Weekly: SK Hynix shares jump up and down, Apple sues OpenAI",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=bdb2734335ef49385df2f01e4079b601c8215dc6d4263952da2fbd1f22a6f8f7"
         },
         {
           "headline": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as chip stocks slide after TSMC earnings",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=ca75d383949ef6451b2ebbcaddcd1f4c4e3b40fce6cd5222f13b8e1c2d595bfd"
         }
       ],
@@ -245,13 +248,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 370.92,
-      "change": 11.41,
-      "changePercent": 3.1738,
-      "high": 373.65,
-      "low": 357.76,
-      "open": 357.97,
-      "prevClose": 359.51,
+      "price": 372.05,
+      "change": 1.13,
+      "changePercent": 0.3046,
+      "high": 375.27,
+      "low": 369.2,
+      "open": 372.69,
+      "prevClose": 370.92,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.52T",
@@ -267,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Dow Jones Futures Rise But AI Woes Continue; Taiwan Semi, GE, UnitedHealth Are Key Earnings Movers",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=759627f5149f28b6538283c3bf9a71edb694c1f7d5a2529b6c8f3576feb62f51"
-        },
-        {
-          "headline": "8 Small Stocks Soar So Explosively You'll Forget About The 'Mag 7'",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=be16c1968c9b1f5b3888422a5ed772254c33190dc5eec46860c188ab7f9b964e"
-        },
-        {
-          "headline": "‘Portfolios are becoming much riskier’: How to make defensive investments before the AI bubble pops",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=48438dd7ff92dfe8e9cae2b83931a9ca1b0bc465168a2e938f9a897b5ab502b7"
-        },
-        {
-          "headline": "Why the Mag 7 Stocks Can Save the Stock Market Rally",
+          "headline": "Alphabet's Google Receives EU Binding Specifications on AI Interoperability, Search Data",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9a62a1ca365c83c975885250446ec2b3f8a1cc382f01fe9f4d8ef2d2272bca86"
+          "url": "https://finnhub.io/api/news?id=6ecc4e45120896e56845c64e694d3e15d47fc0713495a59cd9c92e2a4de1a9e0"
         },
         {
-          "headline": "Warren Buffett Says He Now Likes “Four or Five” Businesses Berkshire Owns More than Alphabet. What Are They?",
+          "headline": "The Biggest Reason I’m Buying Nvidia Over and Over Right Now",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b188e930cb40fbf49591b7398acff42ded30154c7e75b8ff98d6dd17e3cd4b89"
+          "url": "https://finnhub.io/api/news?id=2b5982d17c88b8e7433e1e15261a10053292880030258926e15f34ea5b2df4e4"
+        },
+        {
+          "headline": "Alphabet (GOOGL) Price Prediction: How Much a $7,500 Investment Could Be Worth by 2027",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=8726e4ab39cd7e8cb02c286cd9f44b6200859b8772da17e307df17dda5f51f4d"
+        },
+        {
+          "headline": "EU orders Google to open Android, search data to OpenAI and AI rivals",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7bee83f217a26fac78c6d0abf99ebce9a55f243b17d3e2d051793d8ee59beb03"
+        },
+        {
+          "headline": "The Trade Desk Appoints Vinny Rinaldi as Vice President of Client Strategy & Growth",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=bbf723e4fa5114eef504229325a4437503857c284b5bc571007be8ac35b4651c"
         }
       ],
       "earnings": [
@@ -331,13 +334,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 395.63,
-      "change": 10.7,
-      "changePercent": 2.7797,
-      "high": 398.96,
-      "low": 386.4,
-      "open": 387.8,
-      "prevClose": 384.93,
+      "price": 398.39,
+      "change": 2.76,
+      "changePercent": 0.6976,
+      "high": 398.8,
+      "low": 392.0501,
+      "open": 398.095,
+      "prevClose": 395.63,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$2.94T",
@@ -345,7 +348,7 @@
       "week52High": 555.45,
       "week52Low": 349.2,
       "beta": 1.1291623,
-      "peRatio": 28.3312,
+      "peRatio": 28.6576,
       "eps": 13.6413,
       "dividendYield": "0.92%",
       "volume": "32.8M",
@@ -353,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Soluna Appoints Microsoft Hyperscale Executive Ryan Carver to Lead Soluna’s AI",
+          "headline": "National Grid plc (NGG) Targets Soaring US Power Demand with $1.75B Joulent Investment",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=9aee6a8192bbecdd9a68658b52bd6ecd8bc805703ada15911aea38ed38ad125a"
+          "url": "https://finnhub.io/api/news?id=12cc7d96a5e909ecf13c3e898ee890cdce341855d0bb6e56d63b32f1dca0419d"
         },
         {
-          "headline": "‘Portfolios are becoming much riskier’: How to make defensive investments before the AI bubble pops",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=48438dd7ff92dfe8e9cae2b83931a9ca1b0bc465168a2e938f9a897b5ab502b7"
-        },
-        {
-          "headline": "Why the Mag 7 Stocks Can Save the Stock Market Rally",
+          "headline": "BlackRock, Vanguard and JPMorgan Join DTCC's Tokenization Pilot: Which Crypto Could Benefit?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9a62a1ca365c83c975885250446ec2b3f8a1cc382f01fe9f4d8ef2d2272bca86"
+          "url": "https://finnhub.io/api/news?id=9fe1eb50a24f40d804b8a065d1eedcc477dda4e86f0bd34906018057ad6dd1bc"
         },
         {
-          "headline": "illumynt Appoints Anthony Giannetti as Senior Vice President of Global Operations",
+          "headline": "INTU: Priced Like A Decline, Paying Like A Machine",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=0f5156c153e7e78eefeb82b8ca812fad7725e1548b17dbccdc16e51a789e1ea9"
+          "url": "https://finnhub.io/api/news?id=0f1645042c3e807f9568aff4ff7ec6b09f5c0af5f077ded28050f34137b85317"
         },
         {
-          "headline": "Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell Thursday; AST SpaceMobile, Sandisk to Open Lower",
+          "headline": "AI startup taps former Grammarly CTO for next growth phase",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5c25cdae0e0954202e1216d1a7ddfaddf1b331a5ca2d0667dc78affd7ad953c6"
+          "url": "https://finnhub.io/api/news?id=85d63fd55edc8740f514cbc45b21dbebf5f15445db5c605425f6f2cd05863350"
+        },
+        {
+          "headline": "Why ZM Stock Hands You So Much Cash Right Now",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=f8a2f62574cc0b7e666b6ed732dc4622885bda36bb8cc2aa5a77da4e6f0d13b9"
         }
       ],
       "earnings": [
@@ -417,13 +420,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 254.96,
-      "change": 7.47,
-      "changePercent": 3.0183,
-      "high": 256.48,
-      "low": 249.75,
-      "open": 249.75,
-      "prevClose": 247.49,
+      "price": 255.44,
+      "change": 0.48,
+      "changePercent": 0.1883,
+      "high": 258.0825,
+      "low": 252.62,
+      "open": 255.22,
+      "prevClose": 254.96,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.74T",
@@ -431,7 +434,7 @@
       "week52High": 278.56,
       "week52Low": 196,
       "beta": 1.4769748,
-      "peRatio": 34.7809,
+      "peRatio": 35.1805,
       "eps": 7.1737,
       "dividendYield": "",
       "volume": "41.3M",
@@ -439,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "‘Portfolios are becoming much riskier’: How to make defensive investments before the AI bubble pops",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=48438dd7ff92dfe8e9cae2b83931a9ca1b0bc465168a2e938f9a897b5ab502b7"
-        },
-        {
-          "headline": "Why the Mag 7 Stocks Can Save the Stock Market Rally",
+          "headline": "The Biggest Reason I’m Buying Nvidia Over and Over Right Now",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9a62a1ca365c83c975885250446ec2b3f8a1cc382f01fe9f4d8ef2d2272bca86"
+          "url": "https://finnhub.io/api/news?id=2b5982d17c88b8e7433e1e15261a10053292880030258926e15f34ea5b2df4e4"
         },
         {
-          "headline": "Citi sees Google, Meta and Amazon capex spending at over $800 billion in 2027",
+          "headline": "AI startup taps former Grammarly CTO for next growth phase",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d5ebac9307de244b51af22b60b3b3f4a8184953a3f37f182e57288be590b6f01"
+          "url": "https://finnhub.io/api/news?id=85d63fd55edc8740f514cbc45b21dbebf5f15445db5c605425f6f2cd05863350"
         },
         {
-          "headline": "Investors Are Growing Wary of AI-Related Debt",
+          "headline": "The Trade Desk Appoints Vinny Rinaldi as Vice President of Client Strategy & Growth",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=76e031dca503d64bd0c6fd33bfaf75072b65e1ffacffbc29bbbab548df5767f1"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=bbf723e4fa5114eef504229325a4437503857c284b5bc571007be8ac35b4651c"
         },
         {
-          "headline": "Global Full-Stack Observability Services Market Size/Share Worth USD 35 Billion by 2034 at a 22.5% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth, Growth Rate, Value)",
+          "headline": "GOOGL, UBER, RDDT, XMTR Stocks Top Wedbush's Internet Picks – AI Called 'Single Most Impactful Swing Factor'",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=cced5ec5ba244b2120ab74a551d29596ff5a097779a3d9b1272cae076515af47"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a041217433cb8fefc7de765f6d0765b2eaee35c1b58c89db2e734704c1fe3490"
+        },
+        {
+          "headline": "Retail Sales Rise Just 0.2% in June",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=c6dcf4bf9bb1e46cd2b571328b82a7cf7c9626a398bcb61b7ee1f49f34947492"
         }
       ],
       "earnings": [
@@ -503,13 +506,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 394.46,
-      "change": -1.72,
-      "changePercent": -0.4341,
-      "high": 406.5895,
-      "low": 390.66,
-      "open": 399.395,
-      "prevClose": 396.18,
+      "price": 392.64,
+      "change": -1.82,
+      "changePercent": -0.4614,
+      "high": 395.31,
+      "low": 385.32,
+      "open": 393.125,
+      "prevClose": 394.46,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.48T",
@@ -525,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "8 Small Stocks Soar So Explosively You'll Forget About The 'Mag 7'",
+          "headline": "Tesla Stock: Here's What Retail Investors Want To Know Ahead Of Earnings",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=be16c1968c9b1f5b3888422a5ed772254c33190dc5eec46860c188ab7f9b964e"
+          "url": "https://finnhub.io/api/news?id=2b76725172bff6866c3d278729ddad9abf79f524596408e7198915d6e6fee352"
         },
         {
-          "headline": "SpaceX IPO & why oil could hit $150: Robinhood Exec",
+          "headline": "Does LIT's History Justify Buying This Dip?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4e904b65d75b71836e0289d6c491334507d0579cf4cfea6468d24401a1796f07"
+        },
+        {
+          "headline": "Tesla Cleared in Recent Texas Crash. Why the Stock Is Down Anyway.",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=04cf7883b804a304c350fa5724918324d0a7a0a9510eac6ababe0a8c5515ae63"
+        },
+        {
+          "headline": "Chamath Palihapitiya Sees ‘Very Obvious Industrial Logic’ in SpaceX Acquiring Tesla to Fund Elon Musk’s Broad Swath Of Projects",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=1a8e6d7e0b8194e7054cddeee15e7555248fabd247b83ffef12a822ec7c0c2e8"
+        },
+        {
+          "headline": "Morgan Stanley Resets Tesla Stock Price Target for 2027",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=bdd4fe1a4e647763b3613adb2ee1728a0fc4785157d2525a62ee13538d276730"
-        },
-        {
-          "headline": "Traders cool on Tesla-SpaceX merger as Polymarket odds slide",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=7f6eccf57a5b473da0d95852c1f9e58091f91b41c7f6051ffc434056b226b764"
-        },
-        {
-          "headline": "TSLA Stock Eyes Weekly Loss: Retail Investors Grill Musk On Missed Robotaxi Targets Ahead Of Q2 Earnings",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=d0c0e73a30f9b200764dea1e7f081e14ddc164584c9d20bd4b31ac53c2f94a5a"
-        },
-        {
-          "headline": "Tesla Q2 Earnings: Elon Musk's Pay Package, Cybercab and Optimus Lead Top Investor Questions",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=a7d49acfb409b38c736bc11ce2078952225df82d58c0ca2915da43c982207276"
+          "url": "https://finnhub.io/api/news?id=404e956667c5f560c8ae731cb02a1c92822e915df9b765f15fb520c89a01477a"
         }
       ],
       "earnings": [
