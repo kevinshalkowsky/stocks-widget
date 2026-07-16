@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-16T19:52:34.820Z",
+  "updatedAt": "2026-07-16T20:40:49.165Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7520.11,
-      "change": -52.29,
-      "changePercent": -0.6905,
+      "price": 7533.77,
+      "change": -38.63,
+      "changePercent": -0.5101,
       "high": 7570.74,
       "low": 7504.02,
       "open": 0,
       "prevClose": 7572.39990234375,
       "week52High": 7620.9,
       "week52Low": 6212.69,
-      "volume": "2.3B",
+      "volume": "3.2B",
       "sparklineData": [
         7511.35009765625,
         7420.10009765625,
@@ -36,7 +36,7 @@
         7515.33984375,
         7543.58984375,
         7572.39990234375,
-        7520.10986328125
+        7533.77001953125
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52461.17,
-      "change": -197.47,
-      "changePercent": -0.375,
+      "price": 52552.97,
+      "change": -105.67,
+      "changePercent": -0.2007,
       "high": 52924.86,
       "low": 52367.42,
       "open": 0,
       "prevClose": 52658.640625,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "387.9M",
+      "volume": "528.3M",
       "sparklineData": [
         51999.671875,
         51492.55078125,
@@ -88,7 +88,7 @@
         52498.640625,
         52508.26953125,
         52658.640625,
-        52461.171875
+        52552.96875
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25830.639,
-      "change": -438.59,
-      "changePercent": -1.6696,
+      "price": 25881.947,
+      "change": -387.28,
+      "changePercent": -1.4743,
       "high": 26165.373,
       "low": 25765.453,
       "open": 0,
       "prevClose": 26269.23046875,
       "week52High": 27190.21,
       "week52Low": 20560.17,
-      "volume": "5.9B",
+      "volume": "7.1B",
       "sparklineData": [
         26376.33984375,
         26021.66015625,
@@ -140,7 +140,7 @@
         25873.1796875,
         26107.009765625,
         26269.23046875,
-        25830.638671875
+        25881.947265625
       ],
       "sector": "",
       "marketCap": "",
@@ -162,12 +162,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 331.12,
-      "change": 3.62,
-      "changePercent": 1.1053,
+      "price": 333.26,
+      "change": 5.76,
+      "changePercent": 1.7588,
       "high": 334.68,
       "low": 326.79,
-      "open": 327.8025,
+      "open": 328.005,
       "prevClose": 327.5,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -184,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Explore the S&P500 index on Thursday and find out which stocks are the most active in today's session.",
-          "source": "ChartMill",
+          "headline": "Sector Update: Tech Stocks Fall Late Afternoon",
+          "source": "Yahoo",
+          "timeAgo": "54m ago",
+          "url": "https://finnhub.io/api/news?id=fd20c02b301905a60ac4c57b7e085711227bd9c179ea378195c4b1ece6553618"
+        },
+        {
+          "headline": "Alibaba Jumps 7.9% as Apple Intelligence Approval Revives China Tech Rally",
+          "source": "Yahoo",
+          "timeAgo": "59m ago",
+          "url": "https://finnhub.io/api/news?id=0ede483afbb0f2986982a3bac725414d3b2512609458ce50157941d2eb47c0f5"
+        },
+        {
+          "headline": "Apple Raises AppleCare+ Prices Again Ahead of Expected iPhone Price Increases",
+          "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=687d76e8755cf2f32604a790184741ca6968641065313a652129ba98ee9e72f8"
+          "url": "https://finnhub.io/api/news?id=2eac5b70404fb00140755c73cb209ab2ef2969bd33d1f4c3d4ca8bc64e821f9b"
         },
         {
-          "headline": "The Debates That Matter For AAPL Stock",
+          "headline": "TSMC Adds $100 Billion to U.S. Expansion",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=293a4ed7cbb136b9a0671beac6bc6619217abc27061ac91ee65c6ed710657a51"
+        },
+        {
+          "headline": "Apple’s China Approval For Apple Intelligence Might Change The Case For Investing In Apple (AAPL)",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f0def1c9795ee7fdca5e5302c9b647c42c39ecc4520923df7d8bc9a3690d806d"
-        },
-        {
-          "headline": "Sector Update: Tech Stocks Fall Thursday Afternoon",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=520783d705b8a1686f1ced735f8ed08f80a51a2d79e15e7cdf7e532518f30601"
-        },
-        {
-          "headline": "Apple's June iPhone, Total Revenue Expected In-Line With Forecasts Despite Challenging Backdrop, UBS Says",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=d438642649874b8b9b8b5f7c2426258a05caaa18915a46fbca1a4dc1eb1bfc64"
-        },
-        {
-          "headline": "Big Tech Isn’t Doing Its Part to Offset Chip Weakness",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=395061fd7a6e98dc8b9c3c435307460f8bb85b1f93f782dfd7bc91d685184a27"
+          "url": "https://finnhub.io/api/news?id=6c8dece4808dab267a0459661738658745d10692fb8b5fb46d24937404bd3609"
         }
       ],
       "earnings": [
@@ -248,12 +248,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 354.65,
-      "change": -16.27,
-      "changePercent": -4.3864,
+      "price": 354.46,
+      "change": -16.46,
+      "changePercent": -4.4376,
       "high": 375.27,
       "low": 352.3001,
-      "open": 372.69,
+      "open": 373.06,
       "prevClose": 370.92,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -270,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Which dow jones stocks are moving on Thursday?",
-          "source": "ChartMill",
-          "timeAgo": "42m ago",
-          "url": "https://finnhub.io/api/news?id=0599a730d1c9c8a1c033764e0e99b20ef3fc7cc5b00c7e3e5a714468a2ea583b"
+          "headline": "Anthropic just made a move that changes the AI investing story",
+          "source": "Yahoo",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=2277aeebaff0d7dd84edcd7e9b2ab23f61c204a2cd3f30b45c7077410606b047"
         },
         {
-          "headline": "Prediction: This AI Stock Will Double by 2031 -- Here's the Math",
+          "headline": "Sector Update: Tech Stocks Fall Late Afternoon",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=6ee323e287e02913a27bb36fd5eb7d6fbf46546ad57e1e1c8b4c372eb8abffd4"
+          "timeAgo": "54m ago",
+          "url": "https://finnhub.io/api/news?id=fd20c02b301905a60ac4c57b7e085711227bd9c179ea378195c4b1ece6553618"
         },
         {
-          "headline": "The Debates That Matter For AAPL Stock",
+          "headline": "Alphabet could crush estimates on Cloud strength, Anthropic windfall: BofA",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f0def1c9795ee7fdca5e5302c9b647c42c39ecc4520923df7d8bc9a3690d806d"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=43ede31cd7eeb4d59f714214c5e08b7bfcd7aa724bb5f8e75ff27ad73679f1da"
         },
         {
-          "headline": "Sector Update: Tech Stocks Fall Thursday Afternoon",
+          "headline": "Goldman's Equity Underwriting Revenue Jumps 130% on SpaceX, AI Deal Boom",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=520783d705b8a1686f1ced735f8ed08f80a51a2d79e15e7cdf7e532518f30601"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=2629a58870b4fce6bf1d9b481860a896e829d987e138f445869d7c36f9914fc3"
         },
         {
-          "headline": "Alphabet Set for Solid Quarterly Results on Cloud Strength, BofA Says",
+          "headline": "Supercuts Launches \"Confidence Without Compromise\" Campaign",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=19ad83bfa1c0df74671c492b6a87fcf40cfc22177f882c51dbc10c3a72730d75"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e953b5d8f1b6dbf028ebf6793715e5438db637d9450ab293982ed93bba935e97"
         }
       ],
       "earnings": [
@@ -334,12 +334,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 400.74,
-      "change": 5.11,
-      "changePercent": 1.2916,
+      "price": 401.1,
+      "change": 5.47,
+      "changePercent": 1.3826,
       "high": 405.99,
       "low": 392.0501,
-      "open": 398.095,
+      "open": 398.31,
       "prevClose": 395.63,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -356,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Anthropic just made a move that changes the AI investing story",
+          "source": "Yahoo",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=2277aeebaff0d7dd84edcd7e9b2ab23f61c204a2cd3f30b45c7077410606b047"
+        },
+        {
+          "headline": "Microsoft Sees Paid-Search Ad Media Buys Rise",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=bc9c30a186a4fe5f0dc8ace7f96aca9a6950e3415fbe3ee5a4d98549b39c34f2"
+        },
+        {
           "headline": "Which dow jones stocks are moving on Thursday?",
           "source": "ChartMill",
-          "timeAgo": "42m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=0599a730d1c9c8a1c033764e0e99b20ef3fc7cc5b00c7e3e5a714468a2ea583b"
         },
         {
-          "headline": "The Debates That Matter For AAPL Stock",
+          "headline": "Microsoft Stock Rises 2.9% as AI Sales Push Targets OpenAI and Anthropic",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f0def1c9795ee7fdca5e5302c9b647c42c39ecc4520923df7d8bc9a3690d806d"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=90db8bff4f26aa5fcce2522d1eaf97c4e6ad9655a23475eb5e3d18a749ad96eb"
         },
         {
-          "headline": "Arm (ARM) CEO Flags China Export Hurdles As AGI CPU Demand Builds",
+          "headline": "Microsoft Stock Rises. Why It's Taking On OpenAI, Google, and Anthropic",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=6f2c655c0ecbb9c7c9c1e9d3e36f22eef7e78307d0a5e5d928684306d6a673bb"
-        },
-        {
-          "headline": "Wall Street explores tokenization of assets",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d276d5e9d9c6bd48b9515487c7e395a21100c10eb35ff156c59f15b38f341015"
-        },
-        {
-          "headline": "Big Tech earnings will put focus on AI spending",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=c9d79ed9c7651abedf788aca06b40f13892752673470882effa7ca6f8688de89"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=5291c789370aef2b6d8e42fab64e1468d8d0b9c62f7900e6c6a009350884d11d"
         }
       ],
       "earnings": [
@@ -420,12 +420,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 249.21,
-      "change": -5.75,
-      "changePercent": -2.2553,
+      "price": 249.89,
+      "change": -5.07,
+      "changePercent": -1.9885,
       "high": 258.0825,
       "low": 248,
-      "open": 255.22,
+      "open": 255.12,
       "prevClose": 254.96,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -442,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Anthropic just made a move that changes the AI investing story",
+          "source": "Yahoo",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=2277aeebaff0d7dd84edcd7e9b2ab23f61c204a2cd3f30b45c7077410606b047"
+        },
+        {
+          "headline": "Microsoft Sees Paid-Search Ad Media Buys Rise",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=bc9c30a186a4fe5f0dc8ace7f96aca9a6950e3415fbe3ee5a4d98549b39c34f2"
+        },
+        {
           "headline": "Which dow jones stocks are moving on Thursday?",
           "source": "ChartMill",
-          "timeAgo": "42m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=0599a730d1c9c8a1c033764e0e99b20ef3fc7cc5b00c7e3e5a714468a2ea583b"
         },
         {
-          "headline": "Explore the S&P500 index on Thursday and find out which stocks are the most active in today's session.",
-          "source": "ChartMill",
+          "headline": "UBS Raises AMD Target on Stronger AI Outlook",
+          "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=687d76e8755cf2f32604a790184741ca6968641065313a652129ba98ee9e72f8"
+          "url": "https://finnhub.io/api/news?id=d8458e067a8dadf7e35b7bf371f8a81fc50b3e34f4b8aff82c7448c55c02ec7a"
         },
         {
-          "headline": "The Debates That Matter For AAPL Stock",
+          "headline": "In the AI Data Center Buildout, Amazon.com Inc (AMZN) Has a Cost Advantage",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f0def1c9795ee7fdca5e5302c9b647c42c39ecc4520923df7d8bc9a3690d806d"
-        },
-        {
-          "headline": "Purchase of investment bank gave US Bank a rapid boost",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ec6ceea261a3249ab2a13aa8a360bbf6e543ca015c3d285a59a6a43d740ae799"
-        },
-        {
-          "headline": "Alphabet Set for Solid Quarterly Results on Cloud Strength, BofA Says",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=19ad83bfa1c0df74671c492b6a87fcf40cfc22177f882c51dbc10c3a72730d75"
+          "url": "https://finnhub.io/api/news?id=bc19f3a2cc0cfeab767b394b6746ca4482fe27fb1d5aca06184ddbb57f84fb0a"
         }
       ],
       "earnings": [
@@ -506,12 +506,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 391.15,
-      "change": -3.31,
-      "changePercent": -0.8391,
+      "price": 391.06,
+      "change": -3.4,
+      "changePercent": -0.8619,
       "high": 395.31,
       "low": 385.32,
-      "open": 393.125,
+      "open": 392.35,
       "prevClose": 394.46,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -528,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Is Ford Stock A New Engine For Your Portfolio?",
+          "headline": "Tesla Earnings Loom After Surprise Delivery Beat Stuns Wall Street",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9f9d707585c2ca15b839c80d194412da5dbac49332f1d21baaeff3b9c931b902"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=bfcdfd643c698f5f7e1c9d775567f92972ea955cdcdfff716b123772c9849868"
         },
         {
-          "headline": "EV adoption is slowly regaining traction — but affordability concerns are rising",
+          "headline": "Elon Musk's Net Worth Is Plummeting -- Here's What That Means for SpaceX Stock",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=e6dfe27b7ccc0fccebc76471f24cc9d22a5708d11d59bb02b31ca06129eb106a"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=bbe8035db79a0742fd0fa768266ad149ddc1c9ae5366426734c73a684d16054d"
         },
         {
-          "headline": "Elon Musk Says Government-Issued Universal High Income Checks Are Best Fix for AI Job Loss — ‘Everyone Can Have a Penthouse if They Want’",
+          "headline": "Elon Musk's Political Spending Hits $90 Million With New $5 Million Donation",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=5352a596eb62dccdcf46750065b87d06c33e3030b45daf6fbc70b8cd4ca98cd2"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=601d6ee0686658b9d0cf2f34d95dc416521dfa945b9d508156748cf9fb0da14c"
         },
         {
-          "headline": "Piper cautious on SpaceX, points to near-term headwinds",
+          "headline": "SpaceX Bears Gain as Stock Drops",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=c5273d84c4723d840f65cb379c23446cf2cfa5a49ae8ff871d1588255d19d5fb"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b7e5a3e641cc2dc92650bc591bb7c4556d580a55232099befaa03e1fc71873ce"
         },
         {
-          "headline": "SpaceX Stock Falls Below $135 IPO Price—and Cathie Wood Keeps Buying the Dip",
+          "headline": "Tesla Delivered 480,126 Vehicles Last Quarter. Here's Why the Stock Didn't Rally.",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=0c4c5b0070b30c178ded800e54a4b97013452ddc40e54c7a3ed5244df16d0848"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=8f507b42cbddb7dca8d4673da83c798f908ac71a2eaa2a36579e1d7b690a6e91"
         }
       ],
       "earnings": [
