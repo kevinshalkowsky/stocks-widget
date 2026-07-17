@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-17T14:22:04.493Z",
+  "updatedAt": "2026-07-17T16:04:59.547Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7491.77,
-      "change": -42,
-      "changePercent": -0.5575,
+      "price": 7479.84,
+      "change": -53.93,
+      "changePercent": -0.7158,
       "high": 7498.43,
       "low": 7431.26,
       "open": 0,
       "prevClose": 7533.77001953125,
       "week52High": 7620.9,
       "week52Low": 6212.69,
-      "volume": "772.2M",
+      "volume": "1.4B",
       "sparklineData": [
         7420.10009765625,
         7500.580078125,
@@ -36,7 +36,7 @@
         7543.58984375,
         7572.39990234375,
         7533.77001953125,
-        7491.77001953125
+        7479.83984375
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52570.8,
-      "change": 17.83,
-      "changePercent": 0.0339,
+      "price": 52421.67,
+      "change": -131.3,
+      "changePercent": -0.2498,
       "high": 52610.97,
       "low": 51986.74,
       "open": 0,
       "prevClose": 52552.96875,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "150.3M",
+      "volume": "245.1M",
       "sparklineData": [
         51492.55078125,
         51564.69921875,
@@ -88,7 +88,7 @@
         52508.26953125,
         52658.640625,
         52552.96875,
-        52570.80078125
+        52421.671875
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25574.816,
-      "change": -307.13,
-      "changePercent": -1.1867,
-      "high": 25602.88,
+      "price": 25557.268,
+      "change": -324.68,
+      "changePercent": -1.2545,
+      "high": 25627.771,
       "low": 25250.629,
       "open": 0,
       "prevClose": 25881.94921875,
       "week52High": 27190.21,
       "week52Low": 20560.17,
-      "volume": "1.6B",
+      "volume": "2.9B",
       "sparklineData": [
         26021.66015625,
         26517.9296875,
@@ -140,7 +140,7 @@
         26107.009765625,
         26269.23046875,
         25881.94921875,
-        25574.81640625
+        25557.267578125
       ],
       "sector": "",
       "marketCap": "",
@@ -162,9 +162,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 330.58,
-      "change": -2.68,
-      "changePercent": -0.8042,
+      "price": 331.22,
+      "change": -2.04,
+      "changePercent": -0.6121,
       "high": 334.99,
       "low": 329.0006,
       "open": 333.95,
@@ -186,31 +186,31 @@
         {
           "headline": "Apple upgraded, Brinker initiated: Wall Street's top analyst calls",
           "source": "Yahoo",
-          "timeAgo": "40m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=65b561ef37ba28ee61a1b7339b24ddf877256f970fba3bc9ca38b938a6e8771a"
         },
         {
           "headline": "Apple Faces Extreme Drop in Global Smartphone Sales",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=e83db6f811563b053e2d1eb796fe3b3d995db03d5bcc0b99eba85df2fa8454fb"
         },
         {
           "headline": "Apple unseats Nvidia to become world's most valuable company as AI bets shift",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=0d2cce32cca66220e44f1214d08b73868e4482dcfe65edc30d874ea34f45b16b"
         },
         {
           "headline": "Apple Upgraded to Buy by HSBC on Agentic AI, Hardware Pipeline",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=c10e935536e004d1fe04247a4bd045d26fd483eac6c5a40afd7356f502985773"
         },
         {
           "headline": "Apple Briefly Overtakes Nvidia as World’s Most Valuable Company — Can It Hold the Crown?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=3e0d56f5ae69cef98e4252383beff139d92d3f2a2a59d56b1ad85aec7d770633"
         }
       ],
@@ -248,10 +248,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 344.83,
-      "change": -9.63,
-      "changePercent": -2.7168,
-      "high": 348.5,
+      "price": 346.48,
+      "change": -7.98,
+      "changePercent": -2.2513,
+      "high": 348.52,
       "low": 341.36,
       "open": 348.045,
       "prevClose": 354.46,
@@ -272,31 +272,31 @@
         {
           "headline": "Warren Buffett Drops a Bombshell: He Was Responsible for Berkshire’s Push Into AI",
           "source": "Yahoo",
-          "timeAgo": "30m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=11c1592e233033e71bcf59ee84278ac6de8c6d47073917954c36338ac1140fdc"
         },
         {
           "headline": "Accelerated Growth in Google Search and Cloud Strengthens Alphabet’s (GOOG) Rally",
           "source": "Yahoo",
-          "timeAgo": "37m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=57391594ba1f2aa9e8be779e79c408bd1c83fadfc6f09ac9dd86eec0d9e2b774"
         },
         {
           "headline": "Netflix Sinks 11% on Soft Q3 Guidance as Analysts Warn It’s “Losing Narrative Control”",
           "source": "Yahoo",
-          "timeAgo": "47m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=c9f1e12fbdea2935be17bfae9a03c6c2ef40ff3b88605573620c2261020435c9"
         },
         {
           "headline": "Greg Abel Sees AI-Powered Growth Ahead for This Berkshire Hathaway Subsidiary. Can This Catalyst Help the Conglomerate Outperform in the AI Era?",
           "source": "Yahoo",
-          "timeAgo": "58m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=53f579d06fc01a23b62d631415e8a4c6ba1dc17ba79bbd7ed8506554ee0514e6"
         },
         {
           "headline": "Meta Plans To Hire AWS Executive As It Explores Cloud Push: Report",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=f1c2df8da19173ad58590e1f2b0157198d08066ebfc2634ce91a81b5750b6b53"
         }
       ],
@@ -334,11 +334,11 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 393.16,
-      "change": -7.94,
-      "changePercent": -1.9796,
+      "price": 391.93,
+      "change": -9.17,
+      "changePercent": -2.2862,
       "high": 398.39,
-      "low": 391.22,
+      "low": 389.39,
       "open": 395.6425,
       "prevClose": 401.1,
       "name": "Microsoft Corp",
@@ -348,7 +348,7 @@
       "week52High": 555.45,
       "week52Low": 349.2,
       "beta": 1.1260933,
-      "peRatio": 28.6576,
+      "peRatio": 28.8334,
       "eps": 13.6413,
       "dividendYield": "0.91%",
       "volume": "31.7M",
@@ -358,31 +358,31 @@
         {
           "headline": "Wedgewood Partners’ Views on Microsoft’s (MSFT) Capital Expenditure",
           "source": "Yahoo",
-          "timeAgo": "32m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=9e7d002c04018e732f99ec0e9202cae4e9288568535b93552ed8f39ea484c2db"
         },
         {
           "headline": "Meta Plans To Hire AWS Executive As It Explores Cloud Push: Report",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=f1c2df8da19173ad58590e1f2b0157198d08066ebfc2634ce91a81b5750b6b53"
         },
         {
           "headline": "Oracle's stock crash looks embarrassing for billionaire founder Larry Ellison",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=2474377026aecabe5012a27a44460d7577388f8536ac3d3fa858cbd410d89e99"
         },
         {
           "headline": "Apple Faces Extreme Drop in Global Smartphone Sales",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=e83db6f811563b053e2d1eb796fe3b3d995db03d5bcc0b99eba85df2fa8454fb"
         },
         {
           "headline": "China Wants To Cripple Anthropic",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=25eeaaf227392987899f9e11c62eb1564df6463f1e72dcbe3253c5c8de0e1d0b"
         }
       ],
@@ -420,10 +420,10 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 248.14,
-      "change": -1.75,
-      "changePercent": -0.7003,
-      "high": 248.86,
+      "price": 247.91,
+      "change": -1.98,
+      "changePercent": -0.7923,
+      "high": 250.24,
       "low": 243.59,
       "open": 245.485,
       "prevClose": 249.89,
@@ -444,31 +444,31 @@
         {
           "headline": "Stocks slide, oil prices jump as tech, Mideast war in focus",
           "source": "Yahoo",
-          "timeAgo": "36m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=7836e0d450870ca7f221d9a50653913bb66646bece447452f2a9175bb5b591f7"
         },
         {
           "headline": "Meta Plans To Hire AWS Executive As It Explores Cloud Push: Report",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=f1c2df8da19173ad58590e1f2b0157198d08066ebfc2634ce91a81b5750b6b53"
         },
         {
           "headline": "The Trade Desk Appoints Ron Lamprecht as Chief Business Development Officer, Senior Vice President",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=01066d8b684a1c49de6aaf89e2ce56f0cfb7c2890b313f81416771c66ddc7b4a"
         },
         {
           "headline": "Why Electrovaya Stock Is Soaring This Week",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=9c638cc687187c523ab7176a5a7cd9051d1e5e9320447095b37fc0635bf8cabf"
         },
         {
           "headline": "Kimi K3 AI breakthrough: What Wall Street analysts say about China’s OpenAI threat",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=2be1dbb33935fbdd9aa629ccbfedb841218212a857e8116c7de2399932537815"
         }
       ],
@@ -506,9 +506,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 381.59,
-      "change": -9.47,
-      "changePercent": -2.4216,
+      "price": 382.35,
+      "change": -8.71,
+      "changePercent": -2.2273,
       "high": 383.465,
       "low": 377.22,
       "open": 383.465,
@@ -530,31 +530,31 @@
         {
           "headline": "SpaceX Aborts Starship Test Flight 13, Completes SDA Mission",
           "source": "Yahoo",
-          "timeAgo": "39m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=062e0ec1b135ceab6b4098a265767d75eb8781f8181a183d501610778d8bfd0e"
         },
         {
           "headline": "3 EV Stocks Worth the Risk to Buy in July",
           "source": "Yahoo",
-          "timeAgo": "51m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=1a3d56ae85c74b8f311c42dd9b5bdda64ff9b6b47adf6356ddd5bae19fc1a078"
         },
         {
           "headline": "1 Unpopular Stock That Deserves a Second Chance and 2 We Avoid",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=66ee1c47e8e98d44bda9b7b15dd997478b435910176e9d91099bf86a26f40b9e"
         },
         {
           "headline": "Should You Buy Tesla Stock Before Earnings on July 22?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=e16a42d3bdd0ef8f102b74ae1186be4784a4cea6dc2b2060aa5c65fec704968c"
         },
         {
           "headline": "Alphabet's Waymo, Baidu Ahead of Competitors in Robotaxi Space, Wedbush Says",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=b41e03ac91e662896f25aab664f64440e05caa7b46267684a932f179f74c7717"
         }
       ],
