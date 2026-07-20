@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-20T11:31:20.600Z",
+  "updatedAt": "2026-07-20T13:40:19.959Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7457.69,
-      "change": -76.08,
-      "changePercent": -1.0099,
-      "high": 7498.47,
-      "low": 7431.26,
+      "price": 7509.1,
+      "change": 51.41,
+      "changePercent": 0.6894,
+      "high": 7513.23,
+      "low": 7489.18,
       "open": 0,
-      "prevClose": 7533.77001953125,
+      "prevClose": 7457.68994140625,
       "week52High": 7620.9,
       "week52Low": 6212.69,
-      "volume": "3.4B",
+      "volume": "149.9M",
       "sparklineData": [
         7472.7900390625,
         7365.4599609375,
@@ -34,7 +34,8 @@
         7543.58984375,
         7572.39990234375,
         7533.77001953125,
-        7457.68994140625
+        7457.68994140625,
+        7509.10009765625
       ],
       "sector": "",
       "marketCap": "",
@@ -55,16 +56,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52146.42,
-      "change": -406.55,
-      "changePercent": -0.7736,
-      "high": 52610.97,
-      "low": 51986.74,
+      "price": 52295.68,
+      "change": 149.26,
+      "changePercent": 0.2862,
+      "high": 52411.9,
+      "low": 52154.57,
       "open": 0,
-      "prevClose": 52552.96875,
+      "prevClose": 52146.421875,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "549.7M",
+      "volume": "29.6M",
       "sparklineData": [
         51712.7109375,
         51666.83984375,
@@ -84,7 +85,8 @@
         52508.26953125,
         52658.640625,
         52552.96875,
-        52146.421875
+        52146.421875,
+        52295.6796875
       ],
       "sector": "",
       "marketCap": "",
@@ -105,16 +107,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25520.244,
-      "change": -361.71,
-      "changePercent": -1.3975,
-      "high": 25703.008,
-      "low": 25250.629,
+      "price": 25787.367,
+      "change": 267.13,
+      "changePercent": 1.0467,
+      "high": 25810.535,
+      "low": 25711.885,
       "open": 0,
-      "prevClose": 25881.94921875,
+      "prevClose": 25520.240234375,
       "week52High": 27190.21,
       "week52Low": 20560.17,
-      "volume": "6.6B",
+      "volume": "778.5M",
       "sparklineData": [
         26166.599609375,
         25587.0390625,
@@ -134,7 +136,8 @@
         26107.009765625,
         26269.23046875,
         25881.94921875,
-        25520.240234375
+        25520.240234375,
+        25787.3671875
       ],
       "sector": "",
       "marketCap": "",
@@ -156,13 +159,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 333.74,
-      "change": 0.48,
-      "changePercent": 0.144,
-      "high": 334.99,
-      "low": 329.0006,
-      "open": 331.98,
-      "prevClose": 333.26,
+      "price": 331.44,
+      "change": -2.3,
+      "changePercent": -0.6892,
+      "high": 333.71,
+      "low": 330.77,
+      "open": 333.4475,
+      "prevClose": 333.74,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.90T",
@@ -178,34 +181,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Here's How Much Apple Stock Has to Gain to Overtake Nvidia as the Most Valuable Company in the World. Hint: It Could Happen by the Time You Read This.",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=85c89d4907cdc927827840c7d44d18a5320194684af560637bf4a2cbf226cdae"
+        },
+        {
           "headline": "Wall Street Breakfast Podcast: FDA's Lettuce U-Turn",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=12e895a3c675facb79d45929e7b604cf80c39f6a281f8238edd43e181059134f"
         },
         {
           "headline": "Bezos Backs AI Startup to Discover New Materials for Chipmaking",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=eaaf5387d263593f650214183c8cd927eeadcf1243fd8e67803478156cda52d6"
         },
         {
           "headline": "Apple’s stunning Nvidia flip reveals where AI money is moving",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=2e0a83be1a0050842ba81942bb5431d6e961a5a9d5199e783af1d7f1d072c185"
         },
         {
           "headline": "Alibaba Stock Just Got Apple’s Biggest AI Endorsement. This Could Be a Game Changer for BABA.",
           "source": "Yahoo",
-          "timeAgo": "16h ago",
+          "timeAgo": "18h ago",
           "url": "https://finnhub.io/api/news?id=1768720f190ac4d857f528bca6e58a60b888f54ea69649cee622e5255f9b1085"
-        },
-        {
-          "headline": "Elon Musk's Tesla Remains One of the Last Great Founder-Led Tech Giants. Is the Stock a Buy Before July 22?",
-          "source": "Yahoo",
-          "timeAgo": "16h ago",
-          "url": "https://finnhub.io/api/news?id=1bdef07d5a9b11eb87543cc89126f7c1d666122a313fd070b3b78fce34c63a66"
         }
       ],
       "earnings": [
@@ -242,13 +245,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 346.77,
-      "change": -7.69,
-      "changePercent": -2.1695,
-      "high": 348.52,
-      "low": 341.36,
-      "open": 346,
-      "prevClose": 354.46,
+      "price": 356.98,
+      "change": 10.21,
+      "changePercent": 2.9443,
+      "high": 357.345,
+      "low": 349.44,
+      "open": 349.44,
+      "prevClose": 346.77,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.22T",
@@ -264,34 +267,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Will Alphabet Soar After July 22? Here's What History Says.",
+          "headline": "Earnings live: Google, Tesla to kick off 'Magnificent Seven' quarterly results",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=a0a0952a86aa83842ed3f8ffef8bfb6de6ba5897629f5d7b454ef2f58bfa66ac"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=3cbe5c2fb994164c044959c3e71b3ff33b531f3586b7a8cf7244dafd5e7105c2"
         },
         {
-          "headline": "Could AI chip boom make ASML Europe's first trillion-dollar firm?",
+          "headline": "Futures point higher as Wall Street eyes Big Tech earnings and oil retreats from $90",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=3628136e4de20c1b3e3c2c1df31ea987eb160fb0ccb3635e2872ee6a9d8b681b"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=31801234b006290fa35f71580e11489d7ecad6cde171b6d604789e48bc770836"
         },
         {
-          "headline": "Google is going toe-to-toe with Nvidia as AI chip war cranks up",
+          "headline": "Stocks Rise Pre-Bell as Traders Await Latest Batch of Earnings, Monitor Middle East Developments",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=0c5196521271ac6c63793239a95f1be4d07d3bb3246973620090b3eac28a167e"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=af0eefe623728133d968514928c5da7ed088a5f129ee5531a1091007c7fef8ca"
         },
         {
-          "headline": "SPCX Stock Rises Overnight Even As Elon Musk Shoots Down Report Of $52B Foxconn-Nvidia Order As 'Fake News'",
+          "headline": "Billionaire Stanley Druckenmiller Dumped Google Parent Alphabet in Favor of the Hottest Stock in the Benchmark S&P 500",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=4efda3853631dfaaab1e570ebe2346faae8e9842321f5f66415794272d0be7d0"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=8674ecceb383743e5bab5bb9489ded81d21a2b4956fbbe3ace0ee821848ecc48"
         },
         {
-          "headline": "Analysis-Could AI chip boom make ASML Europe's first trillion-dollar firm?",
+          "headline": "Stock market today: Dow, S&P 500, Nasdaq futures edge up as oil turns lower in wait for Big Tech earnings",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=39be6269bd33e24d1b062d8ebd0a38c627a4e229fcc141c8595a3aec218828db"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=5344337e2a8d9b9a327fd1af3d498f1a0be02ad50fa2ce9e76967f06c81c89de"
         }
       ],
       "earnings": [
@@ -328,13 +331,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 393.82,
-      "change": -7.28,
-      "changePercent": -1.815,
-      "high": 398.39,
-      "low": 389.39,
-      "open": 394.855,
-      "prevClose": 401.1,
+      "price": 392.9,
+      "change": -0.92,
+      "changePercent": -0.2336,
+      "high": 392.99,
+      "low": 389.65,
+      "open": 392.855,
+      "prevClose": 393.82,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$2.93T",
@@ -350,34 +353,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Microsoft CEO’s Anthropic criticism reveals bigger AI power struggle",
+          "headline": "Satya Nadella Maps Out the Future of Enterprise AI as Server Backlogs Hit $57 Billion",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f451d8d16c0a6b570f4cbb9ef0ca2d9d6084f8511d7c67eb7dfc7a5b21571ddd"
+          "url": "https://finnhub.io/api/news?id=fa1255b05d4e635800ae406200c2e0edc010e12309bbe52252721a6446477fba"
         },
         {
-          "headline": "One Date Nvidia Investors Should Not Overlook This July",
+          "headline": "Here's How Much Apple Stock Has to Gain to Overtake Nvidia as the Most Valuable Company in the World. Hint: It Could Happen by the Time You Read This.",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=85c89d4907cdc927827840c7d44d18a5320194684af560637bf4a2cbf226cdae"
+        },
+        {
+          "headline": "Here’s When Amazon’s ROI Will Pull Ahead of Microsoft’s in the AI Cloud Spend War",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=be5daff6f2a5787aa502eb76583b8cfd9eafefaffa6592790e0c9fb0ad1d9a7b"
+        },
+        {
+          "headline": "Is Microsoft Stock Too Cheap to Ignore?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=34dee6737b2f2447f2c4b6164b6b8dd010764cd2582612a917b5843192868083"
+        },
+        {
+          "headline": "GOOGL, MSFT, AMZN Stocks Rise Premarket: Analyst Says China’s Kimi K3 AI Fears ‘Misplaced’",
           "source": "Yahoo",
           "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=c0068a2d11cb07c2ff6cf5170ab02c6bb8c3c5206de2cca6fcccd952d7d7bd56"
-        },
-        {
-          "headline": "Microsoft (MSFT) Criticizes Anthropic Fable AI While Azure Ties Deepen",
-          "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=4e2fcb41c5af92f8927aef80855861488ed0b8068e62469585f50f150bf67a2d"
-        },
-        {
-          "headline": "Microsoft's Earnings Should Change The Narrative And Send Shares Back Over $500",
-          "source": "SeekingAlpha",
-          "timeAgo": "13h ago",
-          "url": "https://finnhub.io/api/news?id=746d4f9d5f57aa62b26bee550c7a4d96b7712577dffd88d99916a2e8ff243d23"
-        },
-        {
-          "headline": "Microsoft Earnings: The One Key Commentary I Am Looking For",
-          "source": "SeekingAlpha",
-          "timeAgo": "15h ago",
-          "url": "https://finnhub.io/api/news?id=a5a93cae588b0d1e3f0880061ad4544d003099f85ff2c428fb3114bfe4d3b2aa"
+          "url": "https://finnhub.io/api/news?id=f1fab2d2a783d966f92affc8bbf9d9b0df88089618f9e3fc3986ea46f9f5ee6c"
         }
       ],
       "earnings": [
@@ -414,13 +417,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 247.23,
-      "change": -2.66,
-      "changePercent": -1.0645,
-      "high": 250.24,
-      "low": 243.59,
-      "open": 244.46,
-      "prevClose": 249.89,
+      "price": 249.85,
+      "change": 2.62,
+      "changePercent": 1.0597,
+      "high": 250.1,
+      "low": 248,
+      "open": 248.16,
+      "prevClose": 247.23,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.66T",
@@ -436,34 +439,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Could AI chip boom make ASML Europe's first trillion-dollar firm?",
+          "headline": "Here’s When Amazon’s ROI Will Pull Ahead of Microsoft’s in the AI Cloud Spend War",
           "source": "Yahoo",
           "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=be5daff6f2a5787aa502eb76583b8cfd9eafefaffa6592790e0c9fb0ad1d9a7b"
+        },
+        {
+          "headline": "GOOGL, MSFT, AMZN Stocks Rise Premarket: Analyst Says China’s Kimi K3 AI Fears ‘Misplaced’",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=f1fab2d2a783d966f92affc8bbf9d9b0df88089618f9e3fc3986ea46f9f5ee6c"
+        },
+        {
+          "headline": "Could AI chip boom make ASML Europe's first trillion-dollar firm?",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=3628136e4de20c1b3e3c2c1df31ea987eb160fb0ccb3635e2872ee6a9d8b681b"
         },
         {
           "headline": "Analysis-Could AI chip boom make ASML Europe's first trillion-dollar firm?",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=39be6269bd33e24d1b062d8ebd0a38c627a4e229fcc141c8595a3aec218828db"
         },
         {
           "headline": "Anthropic's Potential $1.2 Trillion IPO Could Make This Stock a Major Beneficiary",
           "source": "Yahoo",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=53325a2ad4f0ed7a4ff404f670b6d6de71c4895d5aad481e74a83ca9b1b030a5"
-        },
-        {
-          "headline": "AI Expectations Hit a Fever Pitch",
-          "source": "Yahoo",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=5e2392f8716fb494dd860f67e7f3b4b432e21f2a5c28261ccafd3a0ebb0149a0"
-        },
-        {
-          "headline": "Amazon closes another major facility, nearly 500 workers affected",
-          "source": "Yahoo",
           "timeAgo": "13h ago",
-          "url": "https://finnhub.io/api/news?id=964a3dea91ae6d8bafaad85a15705797f55ad28037224dc868067de12e4a165a"
+          "url": "https://finnhub.io/api/news?id=53325a2ad4f0ed7a4ff404f670b6d6de71c4895d5aad481e74a83ca9b1b030a5"
         }
       ],
       "earnings": [
@@ -500,13 +503,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 380.84,
-      "change": -10.22,
-      "changePercent": -2.6134,
-      "high": 385.6899,
-      "low": 377.22,
-      "open": 381.78,
-      "prevClose": 391.06,
+      "price": 381.7,
+      "change": 0.86,
+      "changePercent": 0.2258,
+      "high": 386.61,
+      "low": 380.55,
+      "open": 383.7725,
+      "prevClose": 380.84,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.43T",
@@ -522,34 +525,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Elon Musk's Tesla Releases Wall Street Estimates Ahead of Q2 Earnings: Here's What Analysts Expect",
+          "headline": "Earnings live: Google, Tesla to kick off 'Magnificent Seven' quarterly results",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=5ef832a0014fc9c67fdd37385e31e22049f42153bc50987b5dfff39448efbdce"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=3cbe5c2fb994164c044959c3e71b3ff33b531f3586b7a8cf7244dafd5e7105c2"
         },
         {
-          "headline": "TSLA Stock Rises Overnight On Germany Ramp Ahead Of Q2: Analyst Sees 10% Delivery Jump This Year, Improving Margins",
+          "headline": "Futures point higher as Wall Street eyes Big Tech earnings and oil retreats from $90",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=981d051cb59391a4edfc9dcc87a1b24ad91fa3b9865297e464264573bd168b40"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=31801234b006290fa35f71580e11489d7ecad6cde171b6d604789e48bc770836"
         },
         {
-          "headline": "Dow Jones Futures: Oil Prices Rise Amid Iran News; Google, Tesla Ahead",
+          "headline": "Stocks Rise Pre-Bell as Traders Await Latest Batch of Earnings, Monitor Middle East Developments",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=0efcb791f58bb00b23994409c35e33358d1573ce691b9726439795718ac904ae"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=af0eefe623728133d968514928c5da7ed088a5f129ee5531a1091007c7fef8ca"
         },
         {
-          "headline": "Tesla, Alphabet, Intel, GM: Earnings to watch this week",
+          "headline": "Stock market today: Dow, S&P 500, Nasdaq futures edge up as oil turns lower in wait for Big Tech earnings",
           "source": "Yahoo",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=ae3fae3ebabe31efb78ea2250610796607c5122ded777f3241b7a2e35f081a6d"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=5344337e2a8d9b9a327fd1af3d498f1a0be02ad50fa2ce9e76967f06c81c89de"
         },
         {
-          "headline": "Dow Jones Futures Fall, Oil Prices Jump As U.S.-Iran Attacks Escalate; Google, Tesla Ahead",
+          "headline": "Tech, Earnings Outlooks Undergird Wall Street Pre-Bell; Asia Mixed, Europe Steady",
           "source": "Yahoo",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=381b96e3e8a157353670cdb29b9c4285ded5af32c0e5163c6da0492e9eac4140"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=339ed6f6ecd69523e2d4ff61e0f658fc93933bcd1dbc669a388e0b04deef5116"
         }
       ],
       "earnings": [
