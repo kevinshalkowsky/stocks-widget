@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-22T14:50:41.695Z",
+  "updatedAt": "2026-07-22T16:10:32.813Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7498.01,
-      "change": -11.19,
-      "changePercent": -0.149,
-      "high": 7519.22,
+      "price": 7522.46,
+      "change": 13.26,
+      "changePercent": 0.1766,
+      "high": 7524.78,
       "low": 7485.85,
       "open": 0,
       "prevClose": 7509.2001953125,
       "week52High": 7620.9,
       "week52Low": 6212.69,
-      "volume": "666.0M",
+      "volume": "1.1B",
       "sparklineData": [
         7472.7900390625,
         7365.4599609375,
@@ -37,7 +37,7 @@
         7457.68994140625,
         7443.27978515625,
         7509.2001953125,
-        7498.009765625
+        7522.4599609375
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52287.48,
-      "change": 62.84,
-      "changePercent": 0.1203,
+      "price": 52414.92,
+      "change": 190.28,
+      "changePercent": 0.3643,
       "high": 52511.21,
       "low": 52148.87,
       "open": 0,
       "prevClose": 52224.640625,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "90.8M",
+      "volume": "162.4M",
       "sparklineData": [
         51712.7109375,
         51666.83984375,
@@ -90,7 +90,7 @@
         52146.421875,
         51839.26171875,
         52224.640625,
-        52287.48046875
+        52414.921875
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25717.402,
-      "change": -119.81,
-      "changePercent": -0.4637,
-      "high": 25802.092,
+      "price": 25828.867,
+      "change": -8.34,
+      "changePercent": -0.0323,
+      "high": 25841.307,
       "low": 25681.324,
       "open": 0,
       "prevClose": 25837.2109375,
       "week52High": 27190.21,
       "week52Low": 20560.17,
-      "volume": "1.9B",
+      "volume": "3.0B",
       "sparklineData": [
         26166.599609375,
         25587.0390625,
@@ -143,7 +143,7 @@
         25520.240234375,
         25508.0703125,
         25837.2109375,
-        25717.40234375
+        25828.8671875
       ],
       "sector": "",
       "marketCap": "",
@@ -165,9 +165,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 325.12,
-      "change": -2.62,
-      "changePercent": -0.7994,
+      "price": 324.69,
+      "change": -3.05,
+      "changePercent": -0.9306,
       "high": 328.9995,
       "low": 324.07,
       "open": 327.325,
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Apple Stumbles in Court as $634 Million Apple Watch Judgment Survives",
+          "headline": "AAPL Plans Major MacBook, iMac Overhaul To Capitalize On AI-Fueled Demand For High-Performance Devices",
+          "source": "Yahoo",
+          "timeAgo": "34m ago",
+          "url": "https://finnhub.io/api/news?id=9fc9c43b0fb1df500eea0b8b37e64f08e34c9f2a7b999c6ea2aa0a6759ca73cd"
+        },
+        {
+          "headline": "What Wall Street Pushed NFLX To Explain",
+          "source": "Yahoo",
+          "timeAgo": "36m ago",
+          "url": "https://finnhub.io/api/news?id=a83cf0e7880eb093a96f480069657576b06a006573d6e773beb04971742d4650"
+        },
+        {
+          "headline": "Jim Cramer Says Own These 2 Stocks and Never Trade Them",
+          "source": "Yahoo",
+          "timeAgo": "42m ago",
+          "url": "https://finnhub.io/api/news?id=01024fc66d4a81b369080e82c209ddfbe6e9bc18302a11c46a4719d615b14d1d"
+        },
+        {
+          "headline": "Vanguard’s VIG Dividend ETF’s Top Stock Is… Broadcom? Here’s Why",
+          "source": "Yahoo",
+          "timeAgo": "49m ago",
+          "url": "https://finnhub.io/api/news?id=f6db7a9679fc826e97789ff722e2a6de9683245257dcdf1fc17f510c2a7a654d"
+        },
+        {
+          "headline": "Apple-OpenAI lawsuit won’t derail IPO, but hangs over io Products — lawyer",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=eb46a5e34641428add077553c4238dc647d4d35d742ba507b318d0f94fcf7c79"
-        },
-        {
-          "headline": "Samsung unveils wider foldable phone, hikes prices as chip costs rise",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=d95af0792d496aab55c18e3cc813ecd986172c68b3d88f3d4cdb6ef3fb29cd43"
-        },
-        {
-          "headline": "Samsung debuts 3 new foldable phones as Apple readies its own",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=d369ccaeebede8b3d2b09f92d6e4ce673262a240743513801bc6bca4f87ef02c"
-        },
-        {
-          "headline": "Alphabet earnings offer a moment of truth in this tech stock battle",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=450678b733309e15b76b4367d7d6d7975120f166ceb4f9065b9846159f210ed1"
-        },
-        {
-          "headline": "OpenAI IPO delayed by Apple threat?",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f2b9fc03d764d30218fc708d024bf76641b72320d712b9d93893e85d72444a79"
+          "url": "https://finnhub.io/api/news?id=f02a4867d0cf5817934061cc16390b74e1003be8916ff7aa10ce1b18bc20efd4"
         }
       ],
       "earnings": [
@@ -251,9 +251,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 347.93,
-      "change": 0.78,
-      "changePercent": 0.2247,
+      "price": 347.86,
+      "change": 0.71,
+      "changePercent": 0.2045,
       "high": 349.94,
       "low": 346.19,
       "open": 348.1125,
@@ -275,31 +275,31 @@
         {
           "headline": "Stock Market Today: Dow Wavers As Oil Jumps; SMCI Surges With Alphabet, Tesla Earnings Next (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=7f0e1dcddeb9f935695a553ebabef48c39162bad9f9afecfeb1fc7ce9e489fec"
         },
         {
           "headline": "AI isn't 'the whole game' for Alphabet: Strategist previews Q2 earnings",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=146fc2035aa0a35291c78d50a144a0baaf17df0c9f4efbe553b4045e59f68b6f"
         },
         {
           "headline": "Reddit May Block Google AI Access as $60 Million Deal Nears Expiry: Will RDDT Stock Crash?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=526570a5b227d3c82b8deb2ba4e17a2f3c917e726ad7c502fa9d6536f5599430"
         },
         {
           "headline": "Elon Musk doesn’t really buy stocks — but says these 2 picks will be ‘pretty valuable’ in the future. Build wealth now",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=5a85e6f9496cd19c7f0e584ee871e119dac61e756914cd3c8782ce4bbc5225a0"
         },
         {
           "headline": "Alphabet Earnings Put Big Tech AI Spending Under Scrutiny",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=ca20ef8eb0243fa005723f396abd2416dfef548171386485c6506425ad5e20f8"
         }
       ],
@@ -337,11 +337,11 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 388.66,
-      "change": -9.09,
-      "changePercent": -2.2854,
+      "price": 389.07,
+      "change": -8.68,
+      "changePercent": -2.1823,
       "high": 401,
-      "low": 388.2001,
+      "low": 388.09,
       "open": 399.295,
       "prevClose": 397.75,
       "name": "Microsoft Corp",
@@ -361,31 +361,31 @@
         {
           "headline": "OpenAI plans $30B Georgia data center mega-project",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=b860d4026c14fe23755d4bfec14c812b41ca4b3d5107cf2eac34eecffd9ecb2d"
         },
         {
           "headline": "AI Is Eating Big Tech’s Free Cash Flow: Why Microsoft and Oracle Face Different Risks",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=5113dfe8c91dd2c62f8cc34f4f28887249a40548ebd0301804fc8fa820ec3e47"
         },
         {
           "headline": "Alphabet Earnings Put Big Tech AI Spending Under Scrutiny",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=ca20ef8eb0243fa005723f396abd2416dfef548171386485c6506425ad5e20f8"
         },
         {
           "headline": "How retirees are earning $0.18 monthly per share without options risk",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=d73b8658c4448b35fd4a7380769b5eedbe275248128d315f8585dc7b2ee0b428"
         },
         {
           "headline": "OKLO Lands Key Nuclear Initiative: What Investors Should Know",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=1ba9eb1ec39511f1319a857bb5a7ac46e42eba1574de24e96d9da7c38ff89420"
         }
       ],
@@ -423,11 +423,11 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 244.05,
-      "change": -3.5,
-      "changePercent": -1.4139,
+      "price": 243.69,
+      "change": -3.86,
+      "changePercent": -1.5593,
       "high": 248.45,
-      "low": 243.61,
+      "low": 243.27,
       "open": 247.8825,
       "prevClose": 247.55,
       "name": "Amazon.com Inc",
@@ -447,31 +447,31 @@
         {
           "headline": "Alphabet Earnings Put Big Tech AI Spending Under Scrutiny",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=ca20ef8eb0243fa005723f396abd2416dfef548171386485c6506425ad5e20f8"
         },
         {
           "headline": "How Wide Is the Road Ahead for eBay Stock?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=34c5f116262ce8c343bec7b1199b4d328a61e13747196b867bd75d1031cc8701"
         },
         {
           "headline": "The Boldest Bets on Wall Street Right Now Are in the Same Handful of Stocks",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=e5f798fe2f007e55db59875ea58cb305255df7938f68c08dc8bd767a4860c95c"
         },
         {
           "headline": "AMD and Anthropic Sign Major Chips-and-Investment Deal",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=e0c1c21134955d3aefa085241df0860f6d452abff19129e2f816008192c08432"
         },
         {
           "headline": "Alphabet earnings offer a moment of truth in this tech stock battle",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=450678b733309e15b76b4367d7d6d7975120f166ceb4f9065b9846159f210ed1"
         }
       ],
@@ -509,9 +509,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 377.68,
-      "change": -1.25,
-      "changePercent": -0.3299,
+      "price": 378.41,
+      "change": -0.52,
+      "changePercent": -0.1372,
       "high": 380.17,
       "low": 374.93,
       "open": 376.655,
@@ -533,31 +533,31 @@
         {
           "headline": "Stock Market Today: Dow Wavers As Oil Jumps; SMCI Surges With Alphabet, Tesla Earnings Next (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=7f0e1dcddeb9f935695a553ebabef48c39162bad9f9afecfeb1fc7ce9e489fec"
         },
         {
           "headline": "AI isn't 'the whole game' for Alphabet: Strategist previews Q2 earnings",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=146fc2035aa0a35291c78d50a144a0baaf17df0c9f4efbe553b4045e59f68b6f"
         },
         {
           "headline": "Elon Musk doesn’t really buy stocks — but says these 2 picks will be ‘pretty valuable’ in the future. Build wealth now",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=5a85e6f9496cd19c7f0e584ee871e119dac61e756914cd3c8782ce4bbc5225a0"
         },
         {
           "headline": "Tesla Faces Crowded Short Bets Before Earnings",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=b13c92a45ea33a5f1c77daa35688ea6b467441282db92115e04c51c1c127fe62"
         },
         {
           "headline": "Tesla Short Interest Builds Before Earnings",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=a700673359be08b5e1a886a14a3627dddf5c3b73c67e8c12df0c445f6a4cd02f"
         }
       ],
