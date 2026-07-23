@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-23T16:20:41.306Z",
+  "updatedAt": "2026-07-23T18:04:29.754Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7413.18,
-      "change": -85.78,
-      "changePercent": -1.1439,
+      "price": 7394.98,
+      "change": -103.98,
+      "changePercent": -1.3866,
       "high": 7450.12,
       "low": 7376,
       "open": 0,
       "prevClose": 7498.9599609375,
       "week52High": 7620.9,
       "week52Low": 6212.69,
-      "volume": "1.3B",
+      "volume": "1.8B",
       "sparklineData": [
         7365.4599609375,
         7358.22021484375,
@@ -37,7 +37,7 @@
         7443.27978515625,
         7509.2001953125,
         7498.9599609375,
-        7413.18017578125
+        7394.97998046875
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 51767.09,
-      "change": -451.49,
-      "changePercent": -0.8646,
+      "price": 51605,
+      "change": -613.58,
+      "changePercent": -1.175,
       "high": 51885.14,
       "low": 51542.06,
       "open": 0,
       "prevClose": 52218.578125,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "221.1M",
+      "volume": "282.6M",
       "sparklineData": [
         51666.83984375,
         51848.8984375,
@@ -90,7 +90,7 @@
         51839.26171875,
         52224.640625,
         52218.578125,
-        51767.08984375
+        51605
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25159.672,
-      "change": -531.23,
-      "changePercent": -2.0678,
+      "price": 25103.402,
+      "change": -587.5,
+      "changePercent": -2.2868,
       "high": 25358.281,
       "low": 24954.773,
       "open": 0,
       "prevClose": 25690.900390625,
       "week52High": 27190.21,
       "week52Low": 20560.17,
-      "volume": "3.3B",
+      "volume": "4.2B",
       "sparklineData": [
         25587.0390625,
         25476.640625,
@@ -143,7 +143,7 @@
         25508.0703125,
         25837.2109375,
         25690.900390625,
-        25159.671875
+        25103.40234375
       ],
       "sector": "",
       "marketCap": "",
@@ -165,9 +165,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 321.08,
-      "change": -4.81,
-      "changePercent": -1.476,
+      "price": 320.56,
+      "change": -5.33,
+      "changePercent": -1.6355,
       "high": 323.3,
       "low": 319.35,
       "open": 323.165,
@@ -189,31 +189,31 @@
         {
           "headline": "Forget the Other Five: These 2 Mag7 Stocks Deserve Your Attention",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=b5418707502a5b71d4c15e2230b8d7d42c29b76f2a18960409824c0291b99131"
         },
         {
           "headline": "OpenSearchCon North America 2026 to Showcase Five Years of Innovation Powering Enterprise Search, Observability and Analytics",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=6827364237b8a04e6e9dd84623a8b28f70587df3e1269b42d32cb8243d83dfac"
         },
         {
           "headline": "Apple (AAPL) Earnings Expected to Grow: Should You Buy?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=cdfda6156b323fb26da261892bd4522fd6c1fe41b8ef1b4eeef3c2a5b115aa86"
         },
         {
           "headline": "Goldman Sachs Trust’s $2.4 Billion Portfolio: What 724 Positions Tell Us About Where Wall Street Is Betting",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=05d6b5e1616890d1dcb46227381ab874e448cfd16ad9552dedf270cde7e9d74d"
         },
         {
           "headline": "The Big Question Hanging Over Netflix Stock",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=bc7b3970636d32afb37d60b3180b52d50666454eb0bf56c84d4c4a51fbb277d0"
         }
       ],
@@ -251,9 +251,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 321.02,
-      "change": -21.07,
-      "changePercent": -6.1592,
+      "price": 319.89,
+      "change": -22.2,
+      "changePercent": -6.4895,
       "high": 326.57,
       "low": 314.9,
       "open": 326.57,
@@ -273,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Let's take a look at the S&P500 stocks that are experiencing unusual volume in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "59m ago",
+          "url": "https://finnhub.io/api/news?id=44e41ed78fcf0cbec34961ce765001922373f26b941224a650dc205af432bd18"
+        },
+        {
+          "headline": "What's going on in today's session: dow jones movers",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=2b1f0452b3a057ed6a9cc36b34e4ba342fc311f608df0b5acc4cf4ca752eee72"
+        },
+        {
+          "headline": "What's going on in today's session: S&P500 movers",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=0d581184e5e01d71f61aa1aa4b02b4855f5e970e7c9d56e912ce6311d9d7cbfd"
+        },
+        {
           "headline": "Cash Squeeze at Tesla and Alphabet: Same Issue But Not The Same at All",
           "source": "Yahoo",
-          "timeAgo": "24m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=ae758e8b0c1a1f126e3bb3673cbf83a27a0f98e944e9afdb1128d98d386fac6b"
         },
         {
           "headline": "Reddit Seen Benefiting From User Growth, Ad Momentum, AI Deals, Wedbush Says",
           "source": "Yahoo",
-          "timeAgo": "35m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=2ee2e6ed0dbba645e28df5cc0979b0dfccea1c3df8713c15e66e262ee3c64ff3"
-        },
-        {
-          "headline": "Alphabet Just Posted a Monster Quarter. The Stock Dropped Anyway. Time to Buy the Stock?",
-          "source": "Yahoo",
-          "timeAgo": "39m ago",
-          "url": "https://finnhub.io/api/news?id=46ef7643cc3b145757351f85dc19eecfd357fe5681a30e8c2038c474998e414b"
-        },
-        {
-          "headline": "Google Stock Falls 7% Amid Questions Over AI Leadership, Gemini 4 Roadmap",
-          "source": "Yahoo",
-          "timeAgo": "41m ago",
-          "url": "https://finnhub.io/api/news?id=9c0ab22d598e4938f81c2dfe67bc3fd2ec76c3b38402980294dc71b5e10649e6"
-        },
-        {
-          "headline": "Stock Market Today: Dow Slammed 600 Points, But Micron, Chip Gear Stocks Rise; Alphabet Slides (Live Coverage)",
-          "source": "Yahoo",
-          "timeAgo": "49m ago",
-          "url": "https://finnhub.io/api/news?id=5145ad84f0964dabb04e4868bbf368270b45305623c34da1827275da35bb3a0d"
         }
       ],
       "earnings": [
@@ -337,9 +337,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 380.57,
-      "change": -9.77,
-      "changePercent": -2.5029,
+      "price": 381.04,
+      "change": -9.3,
+      "changePercent": -2.3825,
       "high": 391.78,
       "low": 377.39,
       "open": 388.5375,
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "What's going on in today's session: dow jones movers",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=2b1f0452b3a057ed6a9cc36b34e4ba342fc311f608df0b5acc4cf4ca752eee72"
+        },
+        {
           "headline": "I Can’t Stop Buying Microsoft Because It’s Turning This AI Bottleneck Into a Moat",
           "source": "Yahoo",
-          "timeAgo": "31m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=dd4d6befbebbfb172bf61d274e65280c465f19855bd4c6618e23b498ca5b2bec"
         },
         {
           "headline": "Top exec at $1.7 trillion Wall Street giant makes bold crypto call",
           "source": "Yahoo",
-          "timeAgo": "39m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=3cfc870b6067d5447fc9536c468a286c3c89cc71dda03ee6bba3de63dd591ed5"
         },
         {
           "headline": "The Market Is Paying You To Own PATH. Why?",
           "source": "Yahoo",
-          "timeAgo": "40m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=98cbd81400582927c88c67d6bd4a4a6266f8f09472edc9cc7f10fe9dbb0749e2"
         },
         {
           "headline": "History Has An Opinion On This INTU Price Level",
           "source": "Yahoo",
-          "timeAgo": "52m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=571e24eec704e04cb80831d17ebd1fbcd8d5959fbac47fdac96f7a8e2445049b"
-        },
-        {
-          "headline": "F9Analytics and Microsoft, a Partnership to Transform Multifamily Pricing Operations",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=809fd3d397942b72bb634c566138849c8efaa7a72640084adfecc500681591f9"
         }
       ],
       "earnings": [
@@ -423,9 +423,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 234.55,
-      "change": -10.3,
-      "changePercent": -4.2067,
+      "price": 234.31,
+      "change": -10.54,
+      "changePercent": -4.3047,
       "high": 239.03,
       "low": 223.6795,
       "open": 239.03,
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "What's going on in today's session: dow jones movers",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=2b1f0452b3a057ed6a9cc36b34e4ba342fc311f608df0b5acc4cf4ca752eee72"
+        },
+        {
           "headline": "The Best Stocks to Invest $500 in Right Now",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=995931550aa19c684751c28846bd17317fc009cb5385bce3dfb07f4fa13c39b5"
         },
         {
           "headline": "IBM may be caught up in latest bout of AI volatility: 'Don't concentrate in any one theme'",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=570b0b979794d30a2912c9f77f7ba06caa62d02d1893f36834fd8a663d201f86"
         },
         {
           "headline": "Alphabet Stock Is Falling as AI Spending Continues to Mount",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=3184d88998bc8e339249f324e06e1d4051cf945c0c76789e37a5300d9726a303"
         },
         {
           "headline": "ControlMonkey Signs Strategic Collaboration Agreement with AWS to Advance Cyber Resilience and Cloud Disaster Recovery Readiness",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=6380dcec8c08ef1a80107f8a2b55e8c0d7569dce350c99b0c49b973cb915f520"
-        },
-        {
-          "headline": "MercadoLibre is Down 10% This Year But Its Relentless Growth Has One Analyst Predicting 55% Gains",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=fe9e3c832c3745e3772999b38b4d83708c37aa77ac8a17c0db184fe43f164798"
         }
       ],
       "earnings": [
@@ -509,9 +509,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 324.84,
-      "change": -49.17,
-      "changePercent": -13.1467,
+      "price": 321.05,
+      "change": -52.96,
+      "changePercent": -14.16,
       "high": 348.55,
       "low": 318.55,
       "open": 348.55,
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "What's going on in today's session: S&P500 movers",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=0d581184e5e01d71f61aa1aa4b02b4855f5e970e7c9d56e912ce6311d9d7cbfd"
+        },
+        {
           "headline": "Cash Squeeze at Tesla and Alphabet: Same Issue But Not The Same at All",
           "source": "Yahoo",
-          "timeAgo": "25m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=ae758e8b0c1a1f126e3bb3673cbf83a27a0f98e944e9afdb1128d98d386fac6b"
         },
         {
           "headline": "Elon Musk and Tesla's next big engineering challenge? Thumbs.",
           "source": "Yahoo",
-          "timeAgo": "27m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=931e14b1dbfbceedb5dab08a0bde7822aa932cc416124652949d990b014ab402"
         },
         {
           "headline": "Tesla's FSD, Robotaxi Expansion Seen as Key Growth Drivers After Q2 Miss, BofA Says",
           "source": "Yahoo",
-          "timeAgo": "35m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=18707c805a039aadea5f716304bd97f408fd81ee71632fc5aaa02019575ccb3e"
         },
         {
           "headline": "Tesla Stock Plunges 14% as Weak Earnings Override AI Hype",
           "source": "Yahoo",
-          "timeAgo": "38m ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=0c56a4135f602b52889468ffb9d69fbd4ae2a7b6ca016c9c3ceadfbd9edaebed"
-        },
-        {
-          "headline": "Stock Market Today: Dow Slammed 600 Points, But Micron, Chip Gear Stocks Rise; Alphabet Slides (Live Coverage)",
-          "source": "Yahoo",
-          "timeAgo": "49m ago",
-          "url": "https://finnhub.io/api/news?id=5145ad84f0964dabb04e4868bbf368270b45305623c34da1827275da35bb3a0d"
         }
       ],
       "earnings": [
