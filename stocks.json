@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-23T14:57:02.878Z",
+  "updatedAt": "2026-07-23T16:20:41.306Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7407.03,
-      "change": -91.93,
-      "changePercent": -1.2259,
+      "price": 7413.18,
+      "change": -85.78,
+      "changePercent": -1.1439,
       "high": 7450.12,
-      "low": 7404.06,
+      "low": 7376,
       "open": 0,
       "prevClose": 7498.9599609375,
       "week52High": 7620.9,
       "week52Low": 6212.69,
-      "volume": "832.7M",
+      "volume": "1.3B",
       "sparklineData": [
         7365.4599609375,
         7358.22021484375,
@@ -37,7 +37,7 @@
         7443.27978515625,
         7509.2001953125,
         7498.9599609375,
-        7407.02978515625
+        7413.18017578125
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 51710.19,
-      "change": -508.39,
-      "changePercent": -0.9736,
+      "price": 51767.09,
+      "change": -451.49,
+      "changePercent": -0.8646,
       "high": 51885.14,
-      "low": 51557.68,
+      "low": 51542.06,
       "open": 0,
       "prevClose": 52218.578125,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "145.6M",
+      "volume": "221.1M",
       "sparklineData": [
         51666.83984375,
         51848.8984375,
@@ -90,7 +90,7 @@
         51839.26171875,
         52224.640625,
         52218.578125,
-        51710.19140625
+        51767.08984375
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25089.666,
-      "change": -601.23,
-      "changePercent": -2.3402,
+      "price": 25159.672,
+      "change": -531.23,
+      "changePercent": -2.0678,
       "high": 25358.281,
-      "low": 25071.697,
+      "low": 24954.773,
       "open": 0,
       "prevClose": 25690.900390625,
       "week52High": 27190.21,
       "week52Low": 20560.17,
-      "volume": "2.2B",
+      "volume": "3.3B",
       "sparklineData": [
         25587.0390625,
         25476.640625,
@@ -143,7 +143,7 @@
         25508.0703125,
         25837.2109375,
         25690.900390625,
-        25089.666015625
+        25159.671875
       ],
       "sector": "",
       "marketCap": "",
@@ -165,9 +165,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 321.26,
-      "change": -4.63,
-      "changePercent": -1.4207,
+      "price": 321.08,
+      "change": -4.81,
+      "changePercent": -1.476,
       "high": 323.3,
       "low": 319.35,
       "open": 323.165,
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "The Big Question Hanging Over Netflix Stock",
+          "headline": "Forget the Other Five: These 2 Mag7 Stocks Deserve Your Attention",
           "source": "Yahoo",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b5418707502a5b71d4c15e2230b8d7d42c29b76f2a18960409824c0291b99131"
+        },
+        {
+          "headline": "OpenSearchCon North America 2026 to Showcase Five Years of Innovation Powering Enterprise Search, Observability and Analytics",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=6827364237b8a04e6e9dd84623a8b28f70587df3e1269b42d32cb8243d83dfac"
+        },
+        {
+          "headline": "Apple (AAPL) Earnings Expected to Grow: Should You Buy?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=cdfda6156b323fb26da261892bd4522fd6c1fe41b8ef1b4eeef3c2a5b115aa86"
+        },
+        {
+          "headline": "Goldman Sachs Trust’s $2.4 Billion Portfolio: What 724 Positions Tell Us About Where Wall Street Is Betting",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=05d6b5e1616890d1dcb46227381ab874e448cfd16ad9552dedf270cde7e9d74d"
+        },
+        {
+          "headline": "The Big Question Hanging Over Netflix Stock",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=bc7b3970636d32afb37d60b3180b52d50666454eb0bf56c84d4c4a51fbb277d0"
-        },
-        {
-          "headline": "Europe just fined Google $1 billion, the day before Trump is expected to announce tariffs",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=755c90af2eaa478798f868c04a049e7fb8bbcd2028ef1c37742deae266d67a1b"
-        },
-        {
-          "headline": "Verizon Was Booted From the Dow – 5 Dividend Giants Got the Same Treatment and Eventually Soared",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e8df886607e7a4a48f8e5a5e691c2c2675b250e7843487a9c35b5aae584e5e0b"
-        },
-        {
-          "headline": "What Could Keep Apple Stock Climbing?",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3e89f83578fdc6be3f498cee66931ea76d82a593c8462b80eac59728e32c7831"
-        },
-        {
-          "headline": "Apple is 'standing out' from the pack: Does it represent the anti-AI trade?",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=57367869375b1b974dc94ab644ebfe738eba828c66190437118e45b459b899f2"
         }
       ],
       "earnings": [
@@ -251,11 +251,11 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 317.68,
-      "change": -24.41,
-      "changePercent": -7.1355,
+      "price": 321.02,
+      "change": -21.07,
+      "changePercent": -6.1592,
       "high": 326.57,
-      "low": 316.93,
+      "low": 314.9,
       "open": 326.57,
       "prevClose": 342.09,
       "name": "Alphabet Inc",
@@ -273,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Warren Buffett’s Primary Reason for Buying Alphabet is Mine and Should Be Yours",
+          "headline": "Cash Squeeze at Tesla and Alphabet: Same Issue But Not The Same at All",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=fd02bafcbbabf03377a86ad3e1253e968b98368123f62e928a32de8c7b815a9d"
+          "timeAgo": "24m ago",
+          "url": "https://finnhub.io/api/news?id=ae758e8b0c1a1f126e3bb3673cbf83a27a0f98e944e9afdb1128d98d386fac6b"
         },
         {
-          "headline": "Stock Market Today: Dow Jones Index Falls 400 Points As Alphabet, Tesla Dive On Earnings News (Live Coverage)",
+          "headline": "Reddit Seen Benefiting From User Growth, Ad Momentum, AI Deals, Wedbush Says",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e311ba64294a27ba5bbef739bcfeb19f14efee24fc04b3ea88ce04e7bb8c2c98"
+          "timeAgo": "35m ago",
+          "url": "https://finnhub.io/api/news?id=2ee2e6ed0dbba645e28df5cc0979b0dfccea1c3df8713c15e66e262ee3c64ff3"
         },
         {
-          "headline": "JPMorgan: Google 2027 Capital Spending Could Boom Near $400 Billion",
+          "headline": "Alphabet Just Posted a Monster Quarter. The Stock Dropped Anyway. Time to Buy the Stock?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=5ca82ad6019674dee250fce96d7a79939e308baf96652d3235f0acba0334d036"
+          "timeAgo": "39m ago",
+          "url": "https://finnhub.io/api/news?id=46ef7643cc3b145757351f85dc19eecfd357fe5681a30e8c2038c474998e414b"
         },
         {
-          "headline": "EU risks Donald Trump backlash with $1bn fine on Google",
+          "headline": "Google Stock Falls 7% Amid Questions Over AI Leadership, Gemini 4 Roadmap",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ffd997a4702d38cb7838871e009123bc46c8aa249a0e6966367358c8d9e8e281"
+          "timeAgo": "41m ago",
+          "url": "https://finnhub.io/api/news?id=9c0ab22d598e4938f81c2dfe67bc3fd2ec76c3b38402980294dc71b5e10649e6"
         },
         {
-          "headline": "Wall Street set for lower open as Alphabet and Tesla disappoint while oil prices climb: Dow Jones, S&P, Nasdaq, Futures",
+          "headline": "Stock Market Today: Dow Slammed 600 Points, But Micron, Chip Gear Stocks Rise; Alphabet Slides (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=09e2771bf635135b3936f0bedb9052b467e6b633e3f703effb6ed28dde25b5f1"
+          "timeAgo": "49m ago",
+          "url": "https://finnhub.io/api/news?id=5145ad84f0964dabb04e4868bbf368270b45305623c34da1827275da35bb3a0d"
         }
       ],
       "earnings": [
@@ -337,11 +337,11 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 379.89,
-      "change": -10.45,
-      "changePercent": -2.6772,
+      "price": 380.57,
+      "change": -9.77,
+      "changePercent": -2.5029,
       "high": 391.78,
-      "low": 379.12,
+      "low": 377.39,
       "open": 388.5375,
       "prevClose": 390.34,
       "name": "Microsoft Corp",
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Warren Buffett’s Primary Reason for Buying Alphabet is Mine and Should Be Yours",
+          "headline": "I Can’t Stop Buying Microsoft Because It’s Turning This AI Bottleneck Into a Moat",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=fd02bafcbbabf03377a86ad3e1253e968b98368123f62e928a32de8c7b815a9d"
+          "timeAgo": "31m ago",
+          "url": "https://finnhub.io/api/news?id=dd4d6befbebbfb172bf61d274e65280c465f19855bd4c6618e23b498ca5b2bec"
         },
         {
-          "headline": "Bank of America Gives AMD Investors a New Reason to Watch",
+          "headline": "Top exec at $1.7 trillion Wall Street giant makes bold crypto call",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=def857b0c065d2a1730b57b81af9e8e72f61bc6845d4c8f79d29fdb223d18355"
+          "timeAgo": "39m ago",
+          "url": "https://finnhub.io/api/news?id=3cfc870b6067d5447fc9536c468a286c3c89cc71dda03ee6bba3de63dd591ed5"
         },
         {
-          "headline": "Microsoft at $390: Irrational AI Capex Fear Is Your Opportunity",
+          "headline": "The Market Is Paying You To Own PATH. Why?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=1829afdea8e265c54da6f949888e480d364a79a02eb821017b705fae44ab194e"
+          "timeAgo": "40m ago",
+          "url": "https://finnhub.io/api/news?id=98cbd81400582927c88c67d6bd4a4a6266f8f09472edc9cc7f10fe9dbb0749e2"
         },
         {
-          "headline": "Darrow Now Available in the Microsoft Marketplace",
+          "headline": "History Has An Opinion On This INTU Price Level",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=de286dd96e3d5826dbeda1da5eac78bf5a007e94d287511d991aa4304b387436"
+          "timeAgo": "52m ago",
+          "url": "https://finnhub.io/api/news?id=571e24eec704e04cb80831d17ebd1fbcd8d5959fbac47fdac96f7a8e2445049b"
         },
         {
-          "headline": "What Could Keep Apple Stock Climbing?",
+          "headline": "F9Analytics and Microsoft, a Partnership to Transform Multifamily Pricing Operations",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3e89f83578fdc6be3f498cee66931ea76d82a593c8462b80eac59728e32c7831"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=809fd3d397942b72bb634c566138849c8efaa7a72640084adfecc500681591f9"
         }
       ],
       "earnings": [
@@ -423,11 +423,11 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 232.74,
-      "change": -12.11,
-      "changePercent": -4.9459,
+      "price": 234.55,
+      "change": -10.3,
+      "changePercent": -4.2067,
       "high": 239.03,
-      "low": 232.48,
+      "low": 223.6795,
       "open": 239.03,
       "prevClose": 244.85,
       "name": "Amazon.com Inc",
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Why Nvidia Stock Isn’t Rallying as It Should After Alphabet Earnings",
+          "headline": "The Best Stocks to Invest $500 in Right Now",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=217a9b50f4cbcfb2ce8c250d78ec893bba0035e312b72caac9997dd817d2efdb"
+          "url": "https://finnhub.io/api/news?id=995931550aa19c684751c28846bd17317fc009cb5385bce3dfb07f4fa13c39b5"
         },
         {
-          "headline": "The Big Question Hanging Over Netflix Stock",
+          "headline": "IBM may be caught up in latest bout of AI volatility: 'Don't concentrate in any one theme'",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=bc7b3970636d32afb37d60b3180b52d50666454eb0bf56c84d4c4a51fbb277d0"
+          "url": "https://finnhub.io/api/news?id=570b0b979794d30a2912c9f77f7ba06caa62d02d1893f36834fd8a663d201f86"
         },
         {
-          "headline": "India relaxes e-commerce investment rules for exports in win for Amazon",
+          "headline": "Alphabet Stock Is Falling as AI Spending Continues to Mount",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=189efc570751cf416358e05803f62d138a3680f94ceadc44c4fb54f2cc04c071"
+          "url": "https://finnhub.io/api/news?id=3184d88998bc8e339249f324e06e1d4051cf945c0c76789e37a5300d9726a303"
         },
         {
-          "headline": "Guild’s Marketplace Has Been Selected by Amazon as a Partner for Amazon’s Career Choice Program",
+          "headline": "ControlMonkey Signs Strategic Collaboration Agreement with AWS to Advance Cyber Resilience and Cloud Disaster Recovery Readiness",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a75a49958b4de8ce865ab0b39c9dcf60f7ae279b661680a2d96e2b450107ac8b"
+          "url": "https://finnhub.io/api/news?id=6380dcec8c08ef1a80107f8a2b55e8c0d7569dce350c99b0c49b973cb915f520"
         },
         {
-          "headline": "E-Commerce Update - Accelerating Growth Transforming Global Fulfillment Services",
+          "headline": "MercadoLibre is Down 10% This Year But Its Relentless Growth Has One Analyst Predicting 55% Gains",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e5bf0008390ca033bf1ddc2267a3b055e6d45fd31c713a5da3dba3ef733dcdf6"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=fe9e3c832c3745e3772999b38b4d83708c37aa77ac8a17c0db184fe43f164798"
         }
       ],
       "earnings": [
@@ -509,11 +509,11 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 322.92,
-      "change": -51.09,
-      "changePercent": -13.6601,
+      "price": 324.84,
+      "change": -49.17,
+      "changePercent": -13.1467,
       "high": 348.55,
-      "low": 321.5801,
+      "low": 318.55,
       "open": 348.55,
       "prevClose": 374.01,
       "name": "Tesla Inc",
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Tesla Should Break Itself Into Two Companies",
+          "headline": "Cash Squeeze at Tesla and Alphabet: Same Issue But Not The Same at All",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c662e90f4b19a48262a77b05da000b6cd510824faba195a9aad9830533271f91"
+          "timeAgo": "25m ago",
+          "url": "https://finnhub.io/api/news?id=ae758e8b0c1a1f126e3bb3673cbf83a27a0f98e944e9afdb1128d98d386fac6b"
         },
         {
-          "headline": "Stock Market Today: Dow Jones Index Falls 400 Points As Alphabet, Tesla Dive On Earnings News (Live Coverage)",
+          "headline": "Elon Musk and Tesla's next big engineering challenge? Thumbs.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e311ba64294a27ba5bbef739bcfeb19f14efee24fc04b3ea88ce04e7bb8c2c98"
+          "timeAgo": "27m ago",
+          "url": "https://finnhub.io/api/news?id=931e14b1dbfbceedb5dab08a0bde7822aa932cc416124652949d990b014ab402"
         },
         {
-          "headline": "Update: Tesla Shares Fall After Q2 Adjusted Earnings Decline, Truist Cuts Price Target",
+          "headline": "Tesla's FSD, Robotaxi Expansion Seen as Key Growth Drivers After Q2 Miss, BofA Says",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=394205b3d9a023cd9a8ee195184897132b9929a744c00894b5db9a427555f231"
+          "timeAgo": "35m ago",
+          "url": "https://finnhub.io/api/news?id=18707c805a039aadea5f716304bd97f408fd81ee71632fc5aaa02019575ccb3e"
         },
         {
-          "headline": "Wall Street set for lower open as Alphabet and Tesla disappoint while oil prices climb: Dow Jones, S&P, Nasdaq, Futures",
+          "headline": "Tesla Stock Plunges 14% as Weak Earnings Override AI Hype",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=09e2771bf635135b3936f0bedb9052b467e6b633e3f703effb6ed28dde25b5f1"
+          "timeAgo": "38m ago",
+          "url": "https://finnhub.io/api/news?id=0c56a4135f602b52889468ffb9d69fbd4ae2a7b6ca016c9c3ceadfbd9edaebed"
         },
         {
-          "headline": "Tesla Slides 10% on Earnings Miss Despite Record Deliveries; Rivian, Lucid Slip",
+          "headline": "Stock Market Today: Dow Slammed 600 Points, But Micron, Chip Gear Stocks Rise; Alphabet Slides (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=33b3814c2cda101c1be51128515a75192fbd45e3bf633f52e6431bc029202114"
+          "timeAgo": "49m ago",
+          "url": "https://finnhub.io/api/news?id=5145ad84f0964dabb04e4868bbf368270b45305623c34da1827275da35bb3a0d"
         }
       ],
       "earnings": [
