@@ -1,21 +1,44 @@
 {
-  "updatedAt": "2026-07-31T15:51:34.813Z",
+  "updatedAt": "2026-07-31T17:15:12.093Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
+      "price": 7475.54,
+      "change": 37.91,
+      "changePercent": 0.5097,
+      "high": 7489.52,
+      "low": 7399.83,
       "open": 0,
-      "prevClose": 0,
-      "week52High": 0,
-      "week52Low": 0,
-      "volume": "",
-      "sparklineData": [],
+      "prevClose": 7437.6298828125,
+      "week52High": 7620.9,
+      "week52Low": 6212.69,
+      "volume": "1.5B",
+      "sparklineData": [
+        7483.22998046875,
+        7483.240234375,
+        7537.43017578125,
+        7503.85009765625,
+        7482.7099609375,
+        7543.64013671875,
+        7575.39013671875,
+        7515.33984375,
+        7543.58984375,
+        7572.39990234375,
+        7533.77001953125,
+        7457.68994140625,
+        7443.27978515625,
+        7509.2001953125,
+        7498.9599609375,
+        7408.2998046875,
+        7411.97998046875,
+        7413.18017578125,
+        7428.77978515625,
+        7316.14990234375,
+        7437.6298828125,
+        7475.5400390625
+      ],
       "sector": "",
       "marketCap": "",
       "logo": "",
@@ -35,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52332.2,
-      "change": 124.14,
-      "changePercent": 0.2378,
+      "price": 52471.78,
+      "change": 263.72,
+      "changePercent": 0.5051,
       "high": 52477.96,
       "low": 51996.32,
       "open": 0,
       "prevClose": 52208.05859375,
       "week52High": 53289.3,
       "week52Low": 43340.68,
-      "volume": "281.3M",
+      "volume": "347.6M",
       "sparklineData": [
         52305.23828125,
         52900.0703125,
@@ -67,7 +90,7 @@
         52747.3203125,
         51594.140625,
         52208.05859375,
-        52332.19921875
+        52471.78125
       ],
       "sector": "",
       "marketCap": "",
@@ -88,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25135.52,
-      "change": 13.34,
-      "changePercent": 0.0531,
+      "price": 25290.37,
+      "change": 168.19,
+      "changePercent": 0.6695,
       "high": 25457.457,
       "low": 25004.33,
       "open": 0,
       "prevClose": 25122.1796875,
       "week52High": 27190.21,
       "week52Low": 20560.17,
-      "volume": "6.3B",
+      "volume": "7.4B",
       "sparklineData": [
         26040.029296875,
         25832.669921875,
@@ -120,7 +143,7 @@
         24876.91015625,
         24442.939453125,
         25122.1796875,
-        25135.51953125
+        25290.369140625
       ],
       "sector": "",
       "marketCap": "",
@@ -142,11 +165,11 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 300.75,
-      "change": -32.68,
-      "changePercent": -9.8012,
+      "price": 301.1,
+      "change": -32.33,
+      "changePercent": -9.6962,
       "high": 308.295,
-      "low": 300.32,
+      "low": 300,
       "open": 308.295,
       "prevClose": 333.43,
       "name": "Apple Inc",
@@ -164,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "These S&P500 stocks are gapping in today's session",
+          "headline": "Top dow jones movers in Friday's session",
           "source": "ChartMill",
+          "timeAgo": "35m ago",
+          "url": "https://finnhub.io/api/news?id=79c440092e63a2111bd265972eb04522472f3460271de9305fff46cd94397303"
+        },
+        {
+          "headline": "Friday's session: top gainers and losers in the S&P500 index",
+          "source": "ChartMill",
+          "timeAgo": "40m ago",
+          "url": "https://finnhub.io/api/news?id=dc3ff60c01a4cba8c16b37a9d68c917c01a4881bda5a38ec734feab622f76ce3"
+        },
+        {
+          "headline": "Listen to Tim Cook's first and last earnings calls as Apple CEO",
+          "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=709f67f86ab747d0315d9411a2d452a1aa73a192bfaa79693c1ad37daa9e1c90"
+          "url": "https://finnhub.io/api/news?id=a38800c885af8c5e8ab2d6a9c76592ff84fe2f01fd1a168cac95ae449a2b97d2"
         },
         {
-          "headline": "Stock Market Today: Dow Rises But Apple Dives On Weak Forecast; Amazon Surges On Earnings (Live Coverage)",
+          "headline": "Apple Keeps Its Dividend Steady",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=311f734c82669afeefd6a2c79fa584d6e8c11b4bd4e0a56b2d41a0f04c8ccd31"
+          "url": "https://finnhub.io/api/news?id=79e4a518e2f55e5872013b35046795a7c407ed085eccc053639a011159a0452b"
         },
         {
-          "headline": "Forget QQQ: VGT’s Pure Tech Focus Has Delivered 40% More Over Five Years",
+          "headline": "Apple and Amazon Both Crush Earnings, But Wall Street Sees Two Opposite Futures",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=be36186efcf1e28d5824ce37937add06b5e482f500054dc63ef057a410f690ae"
-        },
-        {
-          "headline": "Apple Sinks 8%, Amazon Soars 12% as Traders Pick Tech Earnings Winners and Losers",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e5b67afa738a405edf1ddc7f083ac1111874b90ca6cb164bbb3e0e6c2c6971b4"
-        },
-        {
-          "headline": "We Found 5 Hot Summer Bargain Dividend Stocks Trading Under $10 Everyone Knows",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d1be88092034ce6410a292c711343c1c35e10931b996bbe646a0776c5a8b3e67"
+          "url": "https://finnhub.io/api/news?id=060bc16fe166d4ef9d13e72ec2ccd538f41b3149cffbef699d33e081b4bc5f2e"
         }
       ],
       "earnings": [
@@ -228,10 +251,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 350.43,
-      "change": 16.77,
-      "changePercent": 5.0261,
-      "high": 353.71,
+      "price": 353.53,
+      "change": 19.87,
+      "changePercent": 5.9552,
+      "high": 354.61,
       "low": 340,
       "open": 340.36,
       "prevClose": 333.66,
@@ -250,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stock Market Today: Dow Rises But Apple Dives On Weak Forecast; Amazon Surges On Earnings (Live Coverage)",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=311f734c82669afeefd6a2c79fa584d6e8c11b4bd4e0a56b2d41a0f04c8ccd31"
+          "headline": "Top dow jones movers in Friday's session",
+          "source": "ChartMill",
+          "timeAgo": "35m ago",
+          "url": "https://finnhub.io/api/news?id=79c440092e63a2111bd265972eb04522472f3460271de9305fff46cd94397303"
         },
         {
-          "headline": "Google Cloud Has Become Alphabet’s (GOOG) Primary Valuation Driver",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=18cf5041bf65de975d8c3d8c12885ca0d242bc68095d9b6d57429e21be928bed"
+          "headline": "Friday's session: top gainers and losers in the S&P500 index",
+          "source": "ChartMill",
+          "timeAgo": "40m ago",
+          "url": "https://finnhub.io/api/news?id=dc3ff60c01a4cba8c16b37a9d68c917c01a4881bda5a38ec734feab622f76ce3"
         },
         {
-          "headline": "Forget QQQ: VGT’s Pure Tech Focus Has Delivered 40% More Over Five Years",
+          "headline": "Why Amazon stock isn't getting bogged down by its negative free cash flow",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=be36186efcf1e28d5824ce37937add06b5e482f500054dc63ef057a410f690ae"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=30c7b01f67af1e3fcf512190de2b6c8ec102f860478450aef8a18b90113c13e1"
         },
         {
-          "headline": "Morgan Stanley leading $15B loan for Anthropic Texas data center",
+          "headline": "Microsoft is Still Down 7% This Year: It Could Soar 93% From Today",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3cbfe6e3d3c0920353fb8e04c923000841f24ea61843f459a397fe6f2f839f2b"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=40d586f28351d81447bd4768efbcacb5fc6ceb5c479542d1a32d5e373de9a51b"
         },
         {
-          "headline": "We Found 5 Hot Summer Bargain Dividend Stocks Trading Under $10 Everyone Knows",
+          "headline": "Alliant Energy Q2 Earnings Call Highlights",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d1be88092034ce6410a292c711343c1c35e10931b996bbe646a0776c5a8b3e67"
+          "url": "https://finnhub.io/api/news?id=c113226c51504d605fe6b705c8f3aa2f4e2e9450582668d31265083270e620eb"
         }
       ],
       "earnings": [
@@ -314,10 +337,10 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 460.85,
-      "change": 9.75,
-      "changePercent": 2.1614,
-      "high": 462.95,
+      "price": 461.65,
+      "change": 10.55,
+      "changePercent": 2.3387,
+      "high": 464.8,
       "low": 448.58,
       "open": 448.58,
       "prevClose": 451.1,
@@ -328,7 +351,7 @@
       "week52High": 555.45,
       "week52Low": 349.2,
       "beta": 1.0995133,
-      "peRatio": 24.9528,
+      "peRatio": 25.5402,
       "eps": 17.9457,
       "dividendYield": "0.81%",
       "volume": "38.9M",
@@ -336,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stock markets rally on tech rebound",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9e9f654c9cd0b34f73f207e2088ef17b7e79ba82484c062b3d78b6a636912063"
+          "headline": "Top dow jones movers in Friday's session",
+          "source": "ChartMill",
+          "timeAgo": "35m ago",
+          "url": "https://finnhub.io/api/news?id=79c440092e63a2111bd265972eb04522472f3460271de9305fff46cd94397303"
         },
         {
-          "headline": "AI’s Biggest Winners Today Will Share the Spotlight as Technology Spreads Across the Entire Market",
+          "headline": "Microsoft is Still Down 7% This Year: It Could Soar 93% From Today",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4a3e29ec05af841406019af45d9d42114ee6a97e69456f8c0a7663522063a702"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=40d586f28351d81447bd4768efbcacb5fc6ceb5c479542d1a32d5e373de9a51b"
         },
         {
-          "headline": "Memory Stocks Are Crashing—Analysts’ Lofty Targets Might Not Survive This Drop",
+          "headline": "Data Center Builder Leaps 31% On Earnings As AI Trade Divides",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3a65a6659558c3a54fed1f744d5dfa2deebb542d7f98231a215345c670b39aab"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=502d8cd577b20648e5060337016fdf8bb52194328cb9c995b42eb5fff9c6c202"
         },
         {
-          "headline": "Microsoft Posts Record Revenue as Cloud Services Cross $100 Billion. Here’s Our New Price Target",
+          "headline": "Meta Dropped, Amazon and Microsoft Rallied: Don’t Panic, Accumulate",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=21a836068ca15b2f8bae1228f863b5c1e0e509f47e22d143c16e1438f69aedd3"
+          "url": "https://finnhub.io/api/news?id=bb6cdf106e2b0292b6cb281088ee26c31808a48eb2f62929da9db6f50d470520"
         },
         {
-          "headline": "Forget QQQ: VGT’s Pure Tech Focus Has Delivered 40% More Over Five Years",
+          "headline": "Amazon.com Stock Is Priced For The Bill, Not The Payback",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=be36186efcf1e28d5824ce37937add06b5e482f500054dc63ef057a410f690ae"
+          "url": "https://finnhub.io/api/news?id=2b5da3211ed1cf5ae75c5ed7ff8571e7d7ab2df9f0ba7c3fe573a003d61eebca"
         }
       ],
       "earnings": [
@@ -400,9 +423,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 268.17,
-      "change": 32.67,
-      "changePercent": 13.8726,
+      "price": 270.19,
+      "change": 34.69,
+      "changePercent": 14.7304,
       "high": 272.04,
       "low": 262.01,
       "open": 262.7,
@@ -422,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "These S&P500 stocks are gapping in today's session",
+          "headline": "Top dow jones movers in Friday's session",
           "source": "ChartMill",
+          "timeAgo": "35m ago",
+          "url": "https://finnhub.io/api/news?id=79c440092e63a2111bd265972eb04522472f3460271de9305fff46cd94397303"
+        },
+        {
+          "headline": "Friday's session: top gainers and losers in the S&P500 index",
+          "source": "ChartMill",
+          "timeAgo": "40m ago",
+          "url": "https://finnhub.io/api/news?id=dc3ff60c01a4cba8c16b37a9d68c917c01a4881bda5a38ec734feab622f76ce3"
+        },
+        {
+          "headline": "Why Amazon stock isn't getting bogged down by its negative free cash flow",
+          "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=709f67f86ab747d0315d9411a2d452a1aa73a192bfaa79693c1ad37daa9e1c90"
+          "url": "https://finnhub.io/api/news?id=30c7b01f67af1e3fcf512190de2b6c8ec102f860478450aef8a18b90113c13e1"
         },
         {
-          "headline": "Stock Market Today: Dow Rises But Apple Dives On Weak Forecast; Amazon Surges On Earnings (Live Coverage)",
+          "headline": "Microsoft is Still Down 7% This Year: It Could Soar 93% From Today",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=311f734c82669afeefd6a2c79fa584d6e8c11b4bd4e0a56b2d41a0f04c8ccd31"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=40d586f28351d81447bd4768efbcacb5fc6ceb5c479542d1a32d5e373de9a51b"
         },
         {
-          "headline": "Amazon.com’s (AMZN) Secular Tailwinds Reinforces Its Competitive Moat",
+          "headline": "Amazon (AMZN) Shares Skyrocket, What You Need To Know",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8754b811f8e7bde98f1a20174d11e89946f9c8afc92ba995d85cd71553e61d2c"
-        },
-        {
-          "headline": "Memory Stocks Are Crashing—Analysts’ Lofty Targets Might Not Survive This Drop",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3a65a6659558c3a54fed1f744d5dfa2deebb542d7f98231a215345c670b39aab"
-        },
-        {
-          "headline": "Amazon's surging cloud business is growing at a breakneck pace: Chart",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b501f182f61e93de62101312b880ac4e2c20b2fd411246c776716aa9cce9b718"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ac90f19c5435c3563c9b2059b4f461a40895aacd8cec85a4fab6715917464456"
         }
       ],
       "earnings": [
@@ -486,9 +509,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 307.12,
-      "change": -1.73,
-      "changePercent": -0.5601,
+      "price": 310.4,
+      "change": 1.55,
+      "changePercent": 0.5019,
       "high": 315.5,
       "low": 301.97,
       "open": 312.795,
@@ -508,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "SpaceX stock has rocky week ahead of earnings",
+          "headline": "Rivian Automotive Stock's Best Case Is Hiding In Its Cost Per Vehicle",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=1254f3853ed54b37b45d8c8b6c7071f86cb2902f92905063710b4830e68ddb91"
+        },
+        {
+          "headline": "Rivian Sinks 8% Despite Q2 Beat and Raised Guidance; Lucid Falls 6%",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=61d49574ef916ed05cdddd73fb128f580a51282b66f6877bd6d0972e7b07d4f8"
+          "url": "https://finnhub.io/api/news?id=1ba585c825661ffba6613a22e15d430fc1b35b3321979433f2f9521d6887b7c6"
         },
         {
-          "headline": "Tesla Stock in Focus -- Musk Dismisses Report on China Business Sale",
+          "headline": "Tesla reportedly considering a spin off of its China business",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a92b1f83003750d5df97a894d142d7dbc38432556323fc69fe22ae9fdb384693"
+        },
+        {
+          "headline": "Tesla Stock Steady as Regulator Probes 1.2 Million Vehicles",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4fbd7fa1ffd1e149fe345ee4bf5bad080c4e9fffbe07bd46046d662b170893ea"
+        },
+        {
+          "headline": "Tesla Stock Falls More Than Twice As Far As The Market In A Shock",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=ae592476c6a2f791e2481effe2f3f15df2b96f3b7e4f435af7888fe5fd73a2cc"
-        },
-        {
-          "headline": "Tesla weighs sale of China business ahead of SpaceX merger",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=ea83b97f8071cd73b9d0b11d27bd00f660edf39362690bfaff0289e0dbf32ca7"
-        },
-        {
-          "headline": "Tesla Snaps Losing Streak. Can It Start To Rebuild Momentum?",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=70346a2fdac18a3ad9bf065bcee76508c0949c8f9e3231dcc870124337d34b0f"
-        },
-        {
-          "headline": "Elon Musk Is Trying to Cool Off Tesla-SpaceX Merger Speculation",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=394f811252fd20f733ce1a6e03439b236f94349160c446f0a4eb3782081b4283"
+          "url": "https://finnhub.io/api/news?id=0f63063be3df9d8a9bd2145fa12e2b58ee8c2bcf5c5aba48005719e87b27c15e"
         }
       ],
       "earnings": [
