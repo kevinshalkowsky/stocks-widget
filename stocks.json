@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-03T15:38:45.132Z",
+  "updatedAt": "2026-08-03T17:37:47.025Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7577.81,
-      "change": 88.09,
-      "changePercent": 1.1761,
-      "high": 7581.74,
+      "price": 7596.96,
+      "change": 107.24,
+      "changePercent": 1.4318,
+      "high": 7598.38,
       "low": 7504.78,
       "open": 0,
       "prevClose": 7489.72021484375,
       "week52High": 7620.9,
       "week52Low": 6271.71,
-      "volume": "1.0B",
+      "volume": "1.6B",
       "sparklineData": [
         7537.43017578125,
         7503.85009765625,
@@ -36,7 +36,7 @@
         7316.14990234375,
         7437.6298828125,
         7489.72021484375,
-        7577.81005859375
+        7596.9599609375
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53017.65,
-      "change": 532.62,
-      "changePercent": 1.0148,
+      "price": 53044.74,
+      "change": 559.71,
+      "changePercent": 1.0664,
       "high": 53224.38,
       "low": 52759.06,
       "open": 0,
       "prevClose": 52485.03125,
       "week52High": 53289.3,
       "week52Low": 43724.02,
-      "volume": "241.1M",
+      "volume": "336.9M",
       "sparklineData": [
         53055.91015625,
         52925.1484375,
@@ -88,7 +88,7 @@
         51594.140625,
         52208.05859375,
         52485.03125,
-        53017.6484375
+        53044.73828125
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25836.273,
-      "change": 462.42,
-      "changePercent": 1.8224,
-      "high": 25853.02,
+      "price": 25924.006,
+      "change": 550.16,
+      "changePercent": 2.1682,
+      "high": 25933.69,
       "low": 25420.352,
       "open": 0,
       "prevClose": 25373.849609375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "5.1B",
+      "volume": "7.0B",
       "sparklineData": [
         26121.16015625,
         25818.689453125,
@@ -140,7 +140,7 @@
         24442.939453125,
         25122.1796875,
         25373.849609375,
-        25836.2734375
+        25924.005859375
       ],
       "sector": "",
       "marketCap": "",
@@ -162,11 +162,11 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 303.95,
-      "change": -4.96,
-      "changePercent": -1.6056,
+      "price": 306.66,
+      "change": -2.25,
+      "changePercent": -0.7284,
       "high": 311.8,
-      "low": 303.6,
+      "low": 302.56,
       "open": 309.28,
       "prevClose": 308.91,
       "name": "Apple Inc",
@@ -182,8 +182,64 @@
       "volume": "58.7M",
       "avgVolume": "52.7M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
+      "news": [
+        {
+          "headline": "Top dow jones movers in Monday's session",
+          "source": "ChartMill",
+          "timeAgo": "57m ago",
+          "url": "https://finnhub.io/api/news?id=c3effdf47636ff5cbe8c243812847c1cb7215361a84c36afbba1e09ca9287946"
+        },
+        {
+          "headline": "Why Apple's AI Strategy Looks Different From Everyone Else's",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=eb298db7bee5577b99556614d03ce2aff126a8dd1922c2bf10c5d6665e88eca0"
+        },
+        {
+          "headline": "Apple Is Doing The AI Strategy All Wrong",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=74905aee9c307069f5dc1c1d78f938129fe3640411631b51f0b1ba1e8a2d0d6d"
+        },
+        {
+          "headline": "Apple's Record Quarter Ran Into A Memory Bill",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=e45c8f3a8750e2afb05a87e7d36386172afeb040efe661c12b5d6b29e26e8d15"
+        },
+        {
+          "headline": "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=bc9e85dafd3898ada322a78d8e7d81f7721660eeba7a88767abd2590e4b8f4a9"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-03-31",
+          "estimated": 1.9271,
+          "actual": 1.91,
+          "surprise": -0.8873
+        },
+        {
+          "quarter": "2026-06-30",
+          "estimated": 2.0512,
+          "actual": 1.91,
+          "surprise": -6.8838
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 1.9884,
+          "actual": 2.01,
+          "surprise": 1.0863
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 1.8075,
+          "actual": 1.85,
+          "surprise": 2.3513
+        }
+      ],
       "revenue": "",
       "netIncome": "$112.01B",
       "netMargin": "",
@@ -192,10 +248,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 373.7,
-      "change": 17.57,
-      "changePercent": 4.9336,
-      "high": 374.32,
+      "price": 374.58,
+      "change": 18.45,
+      "changePercent": 5.1807,
+      "high": 376.6932,
       "low": 363.2225,
       "open": 363.2225,
       "prevClose": 356.13,
@@ -212,8 +268,64 @@
       "volume": "35.1M",
       "avgVolume": "31.5M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
+      "news": [
+        {
+          "headline": "Top dow jones movers in Monday's session",
+          "source": "ChartMill",
+          "timeAgo": "57m ago",
+          "url": "https://finnhub.io/api/news?id=c3effdf47636ff5cbe8c243812847c1cb7215361a84c36afbba1e09ca9287946"
+        },
+        {
+          "headline": "Microsoft and Alphabet Can Absorb an AI Shock. Oracle Is the One to Watch.",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=a154dfcbf04da8f356a1f1449c4df8889bfad38530523a7d1b990b25b0e262e7"
+        },
+        {
+          "headline": "ZoomInfo Connector Provides GTM Context Layer for Buyer Intent with Gemini Enterprise",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=78b9f8080db4550cd8c5944d5977d41889ffb65f018e02fe08aae9ce518fb193"
+        },
+        {
+          "headline": "Microsoft and Amazon Won the AI Spending Week. Alphabet, Meta, and Oracle Didn't. Now What?",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=17584e360e2607c5f4ff9038c27f73d1c2abd8dbe7099f47efa68e7661a98085"
+        },
+        {
+          "headline": "Apple's Record Quarter Ran Into A Memory Bill",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=e45c8f3a8750e2afb05a87e7d36386172afeb040efe661c12b5d6b29e26e8d15"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-06-30",
+          "estimated": 2.9798,
+          "actual": 2.85,
+          "surprise": -4.356
+        },
+        {
+          "quarter": "2026-03-31",
+          "estimated": 2.7051,
+          "actual": 2.62,
+          "surprise": -3.1459
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 2.7063,
+          "actual": 2.82,
+          "surprise": 4.2013
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 2.3954,
+          "actual": 3.1,
+          "surprise": 29.4147
+        }
+      ],
       "revenue": "$402.84B",
       "netIncome": "$132.17B",
       "netMargin": "32.8%",
@@ -222,9 +334,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 487.84,
-      "change": 23.12,
-      "changePercent": 4.975,
+      "price": 488.91,
+      "change": 24.19,
+      "changePercent": 5.2053,
       "high": 491.37,
       "low": 472.0625,
       "open": 472.0625,
@@ -242,8 +354,64 @@
       "volume": "41.7M",
       "avgVolume": "38.7M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
+      "news": [
+        {
+          "headline": "Top dow jones movers in Monday's session",
+          "source": "ChartMill",
+          "timeAgo": "57m ago",
+          "url": "https://finnhub.io/api/news?id=c3effdf47636ff5cbe8c243812847c1cb7215361a84c36afbba1e09ca9287946"
+        },
+        {
+          "headline": "Microsoft and Alphabet Can Absorb an AI Shock. Oracle Is the One to Watch.",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=a154dfcbf04da8f356a1f1449c4df8889bfad38530523a7d1b990b25b0e262e7"
+        },
+        {
+          "headline": "678 Billion Reasons to Invest in Microsoft Stock",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=73b4101a3a6a5ff9b9f2e641b8b05eae5c2cb6a0eeda4e32891f12eef21a9f90"
+        },
+        {
+          "headline": "Paychex Expands WISE to Deliver Workforce Intelligence Across Business Tools",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=76a27a635adf5aede0f49192707bd89d26cf98ba4bbbcf4b14d3d9229c9d1215"
+        },
+        {
+          "headline": "Constellation Energy vs. Vistra: Which Utilities Stock Is a Better Buy in 2026?",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=74814c7e8054740e7a4e945e493126f6336adfb4548bf03232456a7b4e6350b9"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-06-30",
+          "estimated": 4.3274,
+          "actual": 4.74,
+          "surprise": 9.5346
+        },
+        {
+          "quarter": "2026-03-31",
+          "estimated": 4.1432,
+          "actual": 4.27,
+          "surprise": 3.0604
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 4.0345,
+          "actual": 4.14,
+          "surprise": 2.6149
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 3.7391,
+          "actual": 4.13,
+          "surprise": 10.4544
+        }
+      ],
       "revenue": "$281.72B",
       "netIncome": "$101.83B",
       "netMargin": "36.1%",
@@ -252,9 +420,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 286.12,
-      "change": 14.54,
-      "changePercent": 5.3539,
+      "price": 284.19,
+      "change": 12.61,
+      "changePercent": 4.6432,
       "high": 287.2,
       "low": 276.205,
       "open": 276.205,
@@ -272,8 +440,64 @@
       "volume": "53.2M",
       "avgVolume": "49.2M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
+      "news": [
+        {
+          "headline": "Top dow jones movers in Monday's session",
+          "source": "ChartMill",
+          "timeAgo": "57m ago",
+          "url": "https://finnhub.io/api/news?id=c3effdf47636ff5cbe8c243812847c1cb7215361a84c36afbba1e09ca9287946"
+        },
+        {
+          "headline": "Amazon enters $3 trillion club as AI optimism sweeps through Wall Street",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=7a1de69fe87b1ee907cc790ac500b4de042a5cc0d016a531f9738a33f967117d"
+        },
+        {
+          "headline": "Walmart, Costco, Amazon racing to capture weight loss drug customers",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=c8eda5ddd3d63cef9398048bd6a71863c6762b186799de923cde8c939c0aa231"
+        },
+        {
+          "headline": "Microsoft Pays Cash. Amazon Borrows. Here's How Big Tech Funds Its AI Boom.",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=5e06ee97125bca7aeb7a499acac54eeba3fcd1efb1aabefde22c0bf4637f5fe3"
+        },
+        {
+          "headline": "Microsoft and Amazon Won the AI Spending Week. Alphabet, Meta, and Oracle Didn't. Now What?",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=17584e360e2607c5f4ff9038c27f73d1c2abd8dbe7099f47efa68e7661a98085"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-03-31",
+          "estimated": 1.8554,
+          "actual": 1.97,
+          "surprise": 6.1766
+        },
+        {
+          "quarter": "2026-06-30",
+          "estimated": 1.9403,
+          "actual": 1.88,
+          "surprise": -3.1078
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 1.6703,
+          "actual": 1.61,
+          "surprise": -3.6101
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 1.605,
+          "actual": 1.95,
+          "surprise": 21.4953
+        }
+      ],
       "revenue": "",
       "netIncome": "$77.67B",
       "netMargin": "",
@@ -282,9 +506,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 323.72,
-      "change": 12.51,
-      "changePercent": 4.0198,
+      "price": 322.27,
+      "change": 11.06,
+      "changePercent": 3.5539,
       "high": 324.2,
       "low": 310.425,
       "open": 310.96999999999997,
@@ -302,8 +526,64 @@
       "volume": "47.4M",
       "avgVolume": "53.1M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
+      "news": [
+        {
+          "headline": "Rivian Automotive Stock Asks The Market's Price For Sales That Do Not Yet Pay",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=c774efc2cac98637bde9769b83610437410458fb422013e43836a457cc49ec6e"
+        },
+        {
+          "headline": "SpaceX's first-ever earnings report comes as stock hits new all-time low: Q2 preview",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=1bb284d3239794ac3742f2a35034ba6cbef7bc43e7f4d5f1a5ff5c6a9b6571a2"
+        },
+        {
+          "headline": "Why Apple's AI Strategy Looks Different From Everyone Else's",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=eb298db7bee5577b99556614d03ce2aff126a8dd1922c2bf10c5d6665e88eca0"
+        },
+        {
+          "headline": "Tesla Could Be Giving Up More Than a Business",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=e7e9e6d69ff5e6ebfc150c22c8728d41baf1c0c4bb984637d26bc386197873f4"
+        },
+        {
+          "headline": "Tesla’s (TSLA) AI Driven Future Beyond Cars",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=e4555bdf9d8d429bf2980eb4f0dab9178b1b8257d7b1f854c515a8375fa6d40f"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-06-30",
+          "estimated": 0.5191,
+          "actual": 0.33,
+          "surprise": -36.4284
+        },
+        {
+          "quarter": "2026-03-31",
+          "estimated": 0.3773,
+          "actual": 0.41,
+          "surprise": 8.6668
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 0.4541,
+          "actual": 0.5,
+          "surprise": 10.1079
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 0.5586,
+          "actual": 0.5,
+          "surprise": -10.4905
+        }
+      ],
       "revenue": "$94.83B",
       "netIncome": "$3.85B",
       "netMargin": "4.1%",
