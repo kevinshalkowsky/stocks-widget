@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-03T12:08:26.219Z",
+  "updatedAt": "2026-08-03T15:38:45.132Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7489.72,
-      "change": 52.09,
-      "changePercent": 0.7004,
-      "high": 7512.04,
-      "low": 7399.83,
+      "price": 7577.81,
+      "change": 88.09,
+      "changePercent": 1.1761,
+      "high": 7581.74,
+      "low": 7504.78,
       "open": 0,
-      "prevClose": 7437.6298828125,
+      "prevClose": 7489.72021484375,
       "week52High": 7620.9,
       "week52Low": 6271.71,
-      "volume": "3.5B",
+      "volume": "1.0B",
       "sparklineData": [
         7537.43017578125,
         7503.85009765625,
@@ -35,7 +35,8 @@
         7428.77978515625,
         7316.14990234375,
         7437.6298828125,
-        7489.72021484375
+        7489.72021484375,
+        7577.81005859375
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52485.03,
-      "change": 276.97,
-      "changePercent": 0.5305,
-      "high": 52623.14,
-      "low": 51996.32,
+      "price": 53017.65,
+      "change": 532.62,
+      "changePercent": 1.0148,
+      "high": 53224.38,
+      "low": 52759.06,
       "open": 0,
-      "prevClose": 52208.05859375,
+      "prevClose": 52485.03125,
       "week52High": 53289.3,
       "week52Low": 43724.02,
-      "volume": "703.4M",
+      "volume": "241.1M",
       "sparklineData": [
         53055.91015625,
         52925.1484375,
@@ -86,7 +87,8 @@
         52747.3203125,
         51594.140625,
         52208.05859375,
-        52485.03125
+        52485.03125,
+        53017.6484375
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25373.854,
-      "change": 251.67,
-      "changePercent": 1.0018,
-      "high": 25460.863,
-      "low": 25004.33,
+      "price": 25836.273,
+      "change": 462.42,
+      "changePercent": 1.8224,
+      "high": 25853.02,
+      "low": 25420.352,
       "open": 0,
-      "prevClose": 25122.1796875,
+      "prevClose": 25373.849609375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "10.7B",
+      "volume": "5.1B",
       "sparklineData": [
         26121.16015625,
         25818.689453125,
@@ -137,7 +139,8 @@
         24876.91015625,
         24442.939453125,
         25122.1796875,
-        25373.849609375
+        25373.849609375,
+        25836.2734375
       ],
       "sector": "",
       "marketCap": "",
@@ -159,13 +162,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 308.91,
-      "change": -24.52,
-      "changePercent": -7.3539,
-      "high": 310.69,
-      "low": 300,
-      "open": 304.81,
-      "prevClose": 333.43,
+      "price": 303.95,
+      "change": -4.96,
+      "changePercent": -1.6056,
+      "high": 311.8,
+      "low": 303.6,
+      "open": 309.28,
+      "prevClose": 308.91,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.54T",
@@ -179,64 +182,8 @@
       "volume": "58.7M",
       "avgVolume": "52.7M",
       "sparklineData": [],
-      "news": [
-        {
-          "headline": "India proposes extending tax breaks for contract manufacturing in a boost for Apple",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ff4a0db67dcd03bf6eba273c6e81791ebdc12266651d180564a7f692477ee8ac"
-        },
-        {
-          "headline": "U.S. Futures Rise as Middle East Diplomacy Returns to Focus Ahead of Palantir Results: Dow Jones, S&P, Nasdaq, Wall Street",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fe1c53021455344ed5544f0ac4167d2d1dcca631900f199a0c2b0db08a9ba5be"
-        },
-        {
-          "headline": "Tim Cook's Farewell Note Sours While Amazon Steals The Show And Oil Snaps On Fresh Iran Talks",
-          "source": "ChartMill",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=0361a8c467ed83cb6eb84d27af0974f6df4c8d5fe56edd9b1ad0d79e1aa361a6"
-        },
-        {
-          "headline": "Apple's Hardware Is Ready for On-Device AI and PrismML Just Delivered a Real Breakthrough",
-          "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=eeac366f8282cc9cd5e16e291bd1220b7fcac9ab40d55b7c9a122d6b4cadf180"
-        },
-        {
-          "headline": "Morgan Stanley sends cautious Apple stock message after earnings",
-          "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=f9ed2111be961165e41dc5bcea60108dd2f9616ebf2c1099096cda6edabb8652"
-        }
-      ],
-      "earnings": [
-        {
-          "quarter": "2026-03-31",
-          "estimated": 1.9271,
-          "actual": 1.91,
-          "surprise": -0.8873
-        },
-        {
-          "quarter": "2026-06-30",
-          "estimated": 2.0512,
-          "actual": 1.91,
-          "surprise": -6.8838
-        },
-        {
-          "quarter": "2025-12-31",
-          "estimated": 1.9884,
-          "actual": 2.01,
-          "surprise": 1.0863
-        },
-        {
-          "quarter": "2025-09-30",
-          "estimated": 1.8075,
-          "actual": 1.85,
-          "surprise": 2.3513
-        }
-      ],
+      "news": [],
+      "earnings": [],
       "revenue": "",
       "netIncome": "$112.01B",
       "netMargin": "",
@@ -245,13 +192,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 356.13,
-      "change": 22.47,
-      "changePercent": 6.7344,
-      "high": 358.58,
-      "low": 340,
-      "open": 340.83,
-      "prevClose": 333.66,
+      "price": 373.7,
+      "change": 17.57,
+      "changePercent": 4.9336,
+      "high": 374.32,
+      "low": 363.2225,
+      "open": 363.2225,
+      "prevClose": 356.13,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.36T",
@@ -265,64 +212,8 @@
       "volume": "35.1M",
       "avgVolume": "31.5M",
       "sparklineData": [],
-      "news": [
-        {
-          "headline": "Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Slashing Berkshire's Chevron Stake and Making a Virtual Monopoly the New No. 5 Holding",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=0dd7659df568a45fd31c256ea4026875f113877b8bb9a437bcff667274e8ee1b"
-        },
-        {
-          "headline": "Bull of the Day: Ciena (CIEN)",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=43ec8169cf80f807201912933575bf4aab755d3b71e2e0a7c422f23d5d7c05e2"
-        },
-        {
-          "headline": "Hyperscalers Vs. AI Labs Debate, And The Moving AI Frontier",
-          "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=16709dd1448325557f72dc4138ff955c2cea9f93c397a2f62c9f3b1abacd6d1e"
-        },
-        {
-          "headline": "Verizon's Structural Re-Rating Has Just Begun",
-          "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=4a962f9e08d110d5dd0cc6bbfcb1b9d1e1e7ba731829b9a5c4cc7ab8d04dedf2"
-        },
-        {
-          "headline": "Wall Street Breakfast Podcast: Say Hello To Qwen3.8-Max",
-          "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=1586e648d7ee9f612d236e4e6b5c51eb2e4fd691e812902b3992dc9792322f77"
-        }
-      ],
-      "earnings": [
-        {
-          "quarter": "2026-06-30",
-          "estimated": 2.9798,
-          "actual": 2.85,
-          "surprise": -4.356
-        },
-        {
-          "quarter": "2026-03-31",
-          "estimated": 2.7051,
-          "actual": 2.62,
-          "surprise": -3.1459
-        },
-        {
-          "quarter": "2025-12-31",
-          "estimated": 2.7063,
-          "actual": 2.82,
-          "surprise": 4.2013
-        },
-        {
-          "quarter": "2025-09-30",
-          "estimated": 2.3954,
-          "actual": 3.1,
-          "surprise": 29.4147
-        }
-      ],
+      "news": [],
+      "earnings": [],
       "revenue": "$402.84B",
       "netIncome": "$132.17B",
       "netMargin": "32.8%",
@@ -331,13 +222,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 464.72,
-      "change": 13.62,
-      "changePercent": 3.0193,
-      "high": 466.84,
-      "low": 449.33,
-      "open": 450,
-      "prevClose": 451.1,
+      "price": 487.84,
+      "change": 23.12,
+      "changePercent": 4.975,
+      "high": 491.37,
+      "low": 472.0625,
+      "open": 472.0625,
+      "prevClose": 464.72,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.45T",
@@ -351,64 +242,8 @@
       "volume": "41.7M",
       "avgVolume": "38.7M",
       "sparklineData": [],
-      "news": [
-        {
-          "headline": "US Equity Investors to Focus on Quarterly Earnings, Nonfarm Payrolls, Iran Geopolitics This Week",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b11d17b74a6242fbb4adb29300c127e2e3e60777041df10bff742b9ef5cdb313"
-        },
-        {
-          "headline": "U.S. Futures Rise as Middle East Diplomacy Returns to Focus Ahead of Palantir Results: Dow Jones, S&P, Nasdaq, Wall Street",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fe1c53021455344ed5544f0ac4167d2d1dcca631900f199a0c2b0db08a9ba5be"
-        },
-        {
-          "headline": "3 Big Takeaways From Microsoft's Earnings",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=0b65223afa704d5d66fb9d5d98945cfc20ebea13bf44f70fbee572d3c308b815"
-        },
-        {
-          "headline": "WDAY, ADBE, INTU, ADSK, CRM: Software Stocks Stage Sharp Rebound In July",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=1f28d89b7673e8f0f05d3a29518d92ea7ffeeded5c9a9f5ba7c5dd82bd044798"
-        },
-        {
-          "headline": "Bull of the Day: Ciena (CIEN)",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=43ec8169cf80f807201912933575bf4aab755d3b71e2e0a7c422f23d5d7c05e2"
-        }
-      ],
-      "earnings": [
-        {
-          "quarter": "2026-06-30",
-          "estimated": 4.3274,
-          "actual": 4.74,
-          "surprise": 9.5346
-        },
-        {
-          "quarter": "2026-03-31",
-          "estimated": 4.1432,
-          "actual": 4.27,
-          "surprise": 3.0604
-        },
-        {
-          "quarter": "2025-12-31",
-          "estimated": 4.0345,
-          "actual": 4.14,
-          "surprise": 2.6149
-        },
-        {
-          "quarter": "2025-09-30",
-          "estimated": 3.7391,
-          "actual": 4.13,
-          "surprise": 10.4544
-        }
-      ],
+      "news": [],
+      "earnings": [],
       "revenue": "$281.72B",
       "netIncome": "$101.83B",
       "netMargin": "36.1%",
@@ -417,13 +252,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 271.58,
-      "change": 36.08,
-      "changePercent": 15.3206,
-      "high": 273.23,
-      "low": 262.01,
-      "open": 265,
-      "prevClose": 235.5,
+      "price": 286.12,
+      "change": 14.54,
+      "changePercent": 5.3539,
+      "high": 287.2,
+      "low": 276.205,
+      "open": 276.205,
+      "prevClose": 271.58,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.92T",
@@ -437,64 +272,8 @@
       "volume": "53.2M",
       "avgVolume": "49.2M",
       "sparklineData": [],
-      "news": [
-        {
-          "headline": "US Equity Investors to Focus on Quarterly Earnings, Nonfarm Payrolls, Iran Geopolitics This Week",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b11d17b74a6242fbb4adb29300c127e2e3e60777041df10bff742b9ef5cdb313"
-        },
-        {
-          "headline": "U.S. Futures Rise as Middle East Diplomacy Returns to Focus Ahead of Palantir Results: Dow Jones, S&P, Nasdaq, Wall Street",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fe1c53021455344ed5544f0ac4167d2d1dcca631900f199a0c2b0db08a9ba5be"
-        },
-        {
-          "headline": "One Space Stock Defied July’s Rout – Here’s Why It Outperformed ASTS, RKLB, And SPCX",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f595a21f755ae902e2b7b7b46ac40688615e31523a6eea68ad2983e8b704edfc"
-        },
-        {
-          "headline": "AMZN Stock Rises Premarket: Wall Street Sees Bigger AI Returns Ahead As Amazon Cloud Momentum Builds",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=6c0788c8ba047d6bfebec775c08cd8eaa0fdf202639401c8ebeff6f614e92c12"
-        },
-        {
-          "headline": "Up Just 2% and Still Dominant: Is Amazon the 1 Growth Stock Worth Buying Right Now?",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=866796b83c91437f00feacc4ad5801bf25fc3fb9abc9e30666bed21ba6c3aba5"
-        }
-      ],
-      "earnings": [
-        {
-          "quarter": "2026-03-31",
-          "estimated": 1.8554,
-          "actual": 1.97,
-          "surprise": 6.1766
-        },
-        {
-          "quarter": "2026-06-30",
-          "estimated": 1.9403,
-          "actual": 1.88,
-          "surprise": -3.1078
-        },
-        {
-          "quarter": "2025-12-31",
-          "estimated": 1.6703,
-          "actual": 1.61,
-          "surprise": -3.6101
-        },
-        {
-          "quarter": "2025-09-30",
-          "estimated": 1.605,
-          "actual": 1.95,
-          "surprise": 21.4953
-        }
-      ],
+      "news": [],
+      "earnings": [],
       "revenue": "",
       "netIncome": "$77.67B",
       "netMargin": "",
@@ -503,13 +282,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 311.21,
-      "change": 2.36,
-      "changePercent": 0.7641,
-      "high": 315.5,
-      "low": 301.97,
-      "open": 309.69,
-      "prevClose": 308.85,
+      "price": 323.72,
+      "change": 12.51,
+      "changePercent": 4.0198,
+      "high": 324.2,
+      "low": 310.425,
+      "open": 310.96999999999997,
+      "prevClose": 311.21,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.23T",
@@ -523,64 +302,8 @@
       "volume": "47.4M",
       "avgVolume": "53.1M",
       "sparklineData": [],
-      "news": [
-        {
-          "headline": "Nasdaq, S&P 500 Futures Rise, Oil Tumbles On Iran Relief Hopes: Why PLTR, BABA, TSLA, SPCX, USO Are In Focus",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=ceab390cb083b5ec5fb6da217da3dcbc7f06a3ea1f54716ce7b0df4360d67ef0"
-        },
-        {
-          "headline": "Tesla Missed Earnings by 38%, but Elon Musk Isn't Worried. Here's What Investors Should Make of That.",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=1aced7d059f9f606da8797d4f25c04b9383b0679060c023e370af25c976b413b"
-        },
-        {
-          "headline": "SPCX Heads Into First Earnings: Musk Hints At Tesla-Sized Revenue, Jefferies Downplays Governance Risks",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=9f15ca7fdae7cdf0688a4a942aa95c2316278e4b653003291f243055e778428b"
-        },
-        {
-          "headline": "Elon Musk's $1 Trillion Pay Package Requires Tesla Stock to Grow Roughly Sixfold to an $8.5 Trillion Market Cap",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=dc2e599be203e0e170eaa625d01db6874106ffe53f2362f03d0f2a73c0d1cd10"
-        },
-        {
-          "headline": "Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week: AAPL, MSFT, AMZN, META, TSLA",
-          "source": "Yahoo",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=d452ac77315147b55f2d4f482d19015ae63f8d23fcbd4c21e8da30965e04dcaf"
-        }
-      ],
-      "earnings": [
-        {
-          "quarter": "2026-06-30",
-          "estimated": 0.5191,
-          "actual": 0.33,
-          "surprise": -36.4284
-        },
-        {
-          "quarter": "2026-03-31",
-          "estimated": 0.3773,
-          "actual": 0.41,
-          "surprise": 8.6668
-        },
-        {
-          "quarter": "2025-12-31",
-          "estimated": 0.4541,
-          "actual": 0.5,
-          "surprise": 10.1079
-        },
-        {
-          "quarter": "2025-09-30",
-          "estimated": 0.5586,
-          "actual": 0.5,
-          "surprise": -10.4905
-        }
-      ],
+      "news": [],
+      "earnings": [],
       "revenue": "$94.83B",
       "netIncome": "$3.85B",
       "netMargin": "4.1%",
