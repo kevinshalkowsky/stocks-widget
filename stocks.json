@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-03T19:16:14.481Z",
+  "updatedAt": "2026-08-03T20:50:40.439Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7607.52,
-      "change": 117.8,
-      "changePercent": 1.5728,
+      "price": 7600.5,
+      "change": 110.78,
+      "changePercent": 1.4791,
       "high": 7610.04,
       "low": 7504.78,
       "open": 0,
       "prevClose": 7489.72021484375,
       "week52High": 7620.9,
       "week52Low": 6271.71,
-      "volume": "2.0B",
+      "volume": "3.1B",
       "sparklineData": [
         7537.43017578125,
         7503.85009765625,
@@ -36,7 +36,7 @@
         7316.14990234375,
         7437.6298828125,
         7489.72021484375,
-        7607.52001953125
+        7600.5
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53158.27,
-      "change": 673.24,
-      "changePercent": 1.2827,
-      "high": 53224.38,
+      "price": 53178.41,
+      "change": 693.38,
+      "changePercent": 1.3211,
+      "high": 53230.08,
       "low": 52759.06,
       "open": 0,
       "prevClose": 52485.03125,
       "week52High": 53289.3,
       "week52Low": 43724.02,
-      "volume": "407.5M",
+      "volume": "598.4M",
       "sparklineData": [
         53055.91015625,
         52925.1484375,
@@ -88,7 +88,7 @@
         51594.140625,
         52208.05859375,
         52485.03125,
-        53158.26953125
+        53178.41015625
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25940.879,
-      "change": 567.03,
-      "changePercent": 2.2347,
+      "price": 25913.896,
+      "change": 540.05,
+      "changePercent": 2.1284,
       "high": 25967.441,
       "low": 25420.352,
       "open": 0,
       "prevClose": 25373.849609375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "8.0B",
+      "volume": "10.0B",
       "sparklineData": [
         26121.16015625,
         25818.689453125,
@@ -140,7 +140,7 @@
         24442.939453125,
         25122.1796875,
         25373.849609375,
-        25940.87890625
+        25913.896484375
       ],
       "sector": "",
       "marketCap": "",
@@ -162,28 +162,84 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 305.76,
-      "change": -3.15,
-      "changePercent": -1.0197,
-      "high": 311.8,
-      "low": 302.56,
-      "open": 309.28,
-      "prevClose": 308.91,
-      "name": "Apple Inc",
-      "sector": "Technology",
-      "marketCap": "$4.54T",
-      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
-      "week52High": 344.5699,
-      "week52Low": 201.5,
-      "beta": 1.0963676,
-      "peRatio": 40.5059,
-      "eps": 7.465,
-      "dividendYield": "0.35%",
-      "volume": "58.7M",
-      "avgVolume": "52.7M",
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "high": 0,
+      "low": 0,
+      "open": 0,
+      "prevClose": 0,
+      "name": "AAPL",
+      "sector": "",
+      "marketCap": "",
+      "logo": "",
+      "week52High": 0,
+      "week52Low": 0,
+      "beta": 0,
+      "peRatio": 0,
+      "eps": 0,
+      "dividendYield": "",
+      "volume": "",
+      "avgVolume": "",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
+      "news": [
+        {
+          "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d7000975030194dacb6dbca0963193b3e61fb15dfcd3a7bb0f1be8d824315ad1"
+        },
+        {
+          "headline": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=3f902903dfb474ff36920d42484cf6d8a2b0006ffdc1101ff1deb02f3916e77c"
+        },
+        {
+          "headline": "Apple Stock Dips After European Commission Reveals April Acquisition",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=f03d73b64cdb1d53d81780ba92e72c1f01a6d64ec14fe34442a0c870dd6c3939"
+        },
+        {
+          "headline": "The ‘Nvidia Tax’: Alphabet Mitigates It Better Than Amazon or Any Other Mag 7 Stock",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=c5d0b551fd47c275cf9db9925b2e4c3b4402c1280c8129f719f7968dc5c1e13f"
+        },
+        {
+          "headline": "Stock Market Today: Dow Jumps 600 Points On Trump Strikes Reversal; Oil Prices Plunge (Live Coverage)",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=ad9d450feda6978d6c374b0689e9bc8e63f8464d5cc0bfbb4f8587674ef3c471"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-03-31",
+          "estimated": 1.9271,
+          "actual": 1.91,
+          "surprise": -0.8873
+        },
+        {
+          "quarter": "2026-06-30",
+          "estimated": 2.0512,
+          "actual": 1.91,
+          "surprise": -6.8838
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 1.9884,
+          "actual": 2.01,
+          "surprise": 1.0863
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 1.8075,
+          "actual": 1.85,
+          "surprise": 2.3513
+        }
+      ],
       "revenue": "",
       "netIncome": "$112.01B",
       "netMargin": "",
@@ -192,56 +248,56 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 375.03,
-      "change": 18.9,
-      "changePercent": 5.3071,
+      "price": 373.51,
+      "change": 17.38,
+      "changePercent": 4.8802,
       "high": 376.6932,
-      "low": 363.2225,
-      "open": 363.2225,
+      "low": 363.35,
+      "open": 365.445,
       "prevClose": 356.13,
-      "name": "Alphabet Inc",
-      "sector": "Media",
-      "marketCap": "$4.36T",
-      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
-      "week52High": 408.61,
-      "week52Low": 187.82,
-      "beta": 1.2456447,
-      "peRatio": 32.9535,
-      "eps": 10.807,
-      "dividendYield": "0.25%",
-      "volume": "35.1M",
-      "avgVolume": "31.5M",
+      "name": "GOOGL",
+      "sector": "",
+      "marketCap": "",
+      "logo": "",
+      "week52High": 0,
+      "week52Low": 0,
+      "beta": 0,
+      "peRatio": 0,
+      "eps": 0,
+      "dividendYield": "",
+      "volume": "",
+      "avgVolume": "",
       "sparklineData": [],
       "news": [
         {
+          "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d7000975030194dacb6dbca0963193b3e61fb15dfcd3a7bb0f1be8d824315ad1"
+        },
+        {
           "headline": "Microsoft Just Proved that AI Spending Can Pay Off. Here's How the Company Separates Itself From Other AI Stocks.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=b032c49beda7a2438cff12dde40bf436374882f07ce8f43811ccf0663049ddc2"
         },
         {
           "headline": "Why Alphabet Stock Popped Today",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=fbe3ed87ed8ade2fddf40420da15a3735454c6475d2ceae04ef9de4e1b74f0c4"
         },
         {
           "headline": "Amazon Tops $3T, Meta Rallies 7% as AI Hyperscalers Ride Earnings Momentum",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=a84b884c005c12154ca3456a0c28183c6e3ef44e45719fe7654d3fa5c7906578"
         },
         {
           "headline": "GOOGL Stock Gains Over 5%: Google Locks Major Long-Term Solar Power Deal With RWE — Retail Sees An AI Infrastructure Play",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=be7a67c98d42bb97025297185dd7890aba494e9fb2bf93b98d657191b76ccac1"
-        },
-        {
-          "headline": "Wall Street Raises Amazon Targets After Its AWS Surge. Here’s The Number.",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a0f0f1f8a0d864265390eb59c843725463b5603b40570485f07855ef9a2e4651"
         }
       ],
       "earnings": [
@@ -278,12 +334,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 488.52,
-      "change": 23.8,
-      "changePercent": 5.1214,
+      "price": 487.65,
+      "change": 22.93,
+      "changePercent": 4.9342,
       "high": 491.65,
-      "low": 472.0625,
-      "open": 472.0625,
+      "low": 475,
+      "open": 476.125,
       "prevClose": 464.72,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -300,62 +356,37 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
+          "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
           "source": "ChartMill",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d7000975030194dacb6dbca0963193b3e61fb15dfcd3a7bb0f1be8d824315ad1"
+        },
+        {
+          "headline": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=3f902903dfb474ff36920d42484cf6d8a2b0006ffdc1101ff1deb02f3916e77c"
         },
         {
           "headline": "BUILDSTR Acquires Senzu Cloud, Expanding Engineering Depth and Global Reach",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=387282995f89b4c596d9358f5a3834ec60d728f9e61ab8a4f1aee8b2055ad9a1"
         },
         {
           "headline": "Microsoft Just Proved that AI Spending Can Pay Off. Here's How the Company Separates Itself From Other AI Stocks.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=b032c49beda7a2438cff12dde40bf436374882f07ce8f43811ccf0663049ddc2"
         },
         {
           "headline": "Amazon Tops $3T, Meta Rallies 7% as AI Hyperscalers Ride Earnings Momentum",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=a84b884c005c12154ca3456a0c28183c6e3ef44e45719fe7654d3fa5c7906578"
-        },
-        {
-          "headline": "Wall Street Raises Amazon Targets After Its AWS Surge. Here’s The Number.",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a0f0f1f8a0d864265390eb59c843725463b5603b40570485f07855ef9a2e4651"
         }
       ],
-      "earnings": [
-        {
-          "quarter": "2026-06-30",
-          "estimated": 4.3274,
-          "actual": 4.74,
-          "surprise": 9.5346
-        },
-        {
-          "quarter": "2026-03-31",
-          "estimated": 4.1432,
-          "actual": 4.27,
-          "surprise": 3.0604
-        },
-        {
-          "quarter": "2025-12-31",
-          "estimated": 4.0345,
-          "actual": 4.14,
-          "surprise": 2.6149
-        },
-        {
-          "quarter": "2025-09-30",
-          "estimated": 3.7391,
-          "actual": 4.13,
-          "surprise": 10.4544
-        }
-      ],
+      "earnings": [],
       "revenue": "$281.72B",
       "netIncome": "$101.83B",
       "netMargin": "36.1%",
@@ -364,13 +395,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 283.52,
-      "change": 11.94,
-      "changePercent": 4.3965,
-      "high": 287.2,
-      "low": 276.205,
-      "open": 276.205,
-      "prevClose": 271.58,
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "high": 0,
+      "low": 0,
+      "open": 0,
+      "prevClose": 0,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.92T",
@@ -384,64 +415,8 @@
       "volume": "53.2M",
       "avgVolume": "49.2M",
       "sparklineData": [],
-      "news": [
-        {
-          "headline": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
-          "source": "ChartMill",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3f902903dfb474ff36920d42484cf6d8a2b0006ffdc1101ff1deb02f3916e77c"
-        },
-        {
-          "headline": "Monday's session: most active stocks",
-          "source": "ChartMill",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4aa057b760003fee339e3dfef3ea846f2d999a0d928cdb7e5294a98e8ad1df49"
-        },
-        {
-          "headline": "Amazon Tops $3T, Meta Rallies 7% as AI Hyperscalers Ride Earnings Momentum",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a84b884c005c12154ca3456a0c28183c6e3ef44e45719fe7654d3fa5c7906578"
-        },
-        {
-          "headline": "Wall Street Raises Amazon Targets After Its AWS Surge. Here’s The Number.",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a0f0f1f8a0d864265390eb59c843725463b5603b40570485f07855ef9a2e4651"
-        },
-        {
-          "headline": "Amazon cloud chief says inference demand is surging",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2f6a62deaadadc1a6c8884e0f227ff39516bdc7f1a688475c6cebb863e001f65"
-        }
-      ],
-      "earnings": [
-        {
-          "quarter": "2026-03-31",
-          "estimated": 1.8554,
-          "actual": 1.97,
-          "surprise": 6.1766
-        },
-        {
-          "quarter": "2026-06-30",
-          "estimated": 1.9403,
-          "actual": 1.88,
-          "surprise": -3.1078
-        },
-        {
-          "quarter": "2025-12-31",
-          "estimated": 1.6703,
-          "actual": 1.61,
-          "surprise": -3.6101
-        },
-        {
-          "quarter": "2025-09-30",
-          "estimated": 1.605,
-          "actual": 1.95,
-          "surprise": 21.4953
-        }
-      ],
+      "news": [],
+      "earnings": [],
       "revenue": "",
       "netIncome": "$77.67B",
       "netMargin": "",
@@ -450,17 +425,17 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 322.86,
-      "change": 11.65,
-      "changePercent": 3.7435,
-      "high": 324.65,
-      "low": 310.425,
-      "open": 310.96999999999997,
-      "prevClose": 311.21,
-      "name": "Tesla Inc",
-      "sector": "Automobiles",
-      "marketCap": "$1.23T",
-      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
+      "price": 0,
+      "change": 0,
+      "changePercent": 0,
+      "high": 0,
+      "low": 0,
+      "open": 0,
+      "prevClose": 0,
+      "name": "TSLA",
+      "sector": "",
+      "marketCap": "",
+      "logo": "",
       "week52High": 498.83,
       "week52Low": 297.38,
       "beta": 1.8195007,
@@ -474,31 +449,31 @@
         {
           "headline": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=3f902903dfb474ff36920d42484cf6d8a2b0006ffdc1101ff1deb02f3916e77c"
         },
         {
           "headline": "Veteran Analyst Flags Tesla Stock's Next Critical Test",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=5a0d19e224ca14bfd0d3678a0ac7b7827db7ed4cb1118f0679332f67e59801d4"
         },
         {
           "headline": "The ‘Nvidia Tax’: Alphabet Mitigates It Better Than Amazon or Any Other Mag 7 Stock",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=c5d0b551fd47c275cf9db9925b2e4c3b4402c1280c8129f719f7968dc5c1e13f"
         },
         {
           "headline": "Cathie Wood Just Bet $26 Million on SpaceX Days Before Earnings",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=5246c78ae05c29fb4a17cf39c2fd6c6131040995bcdf19c6081dd87ac3c72757"
         },
         {
           "headline": "Elon Musk Backs Bullish View On SPCX’s ‘Insane’ Opportunity – Wall Street Sees Attractive Valuation in SpaceX Despite Lock-Up Overhang",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=b29ceaa5fb3251504c2b4897b77d313b920482356931cc2f85650815ddbc0f37"
         }
       ],
