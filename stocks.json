@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-04T12:50:32.608Z",
+  "updatedAt": "2026-08-04T15:12:42.937Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7600.5,
-      "change": 110.78,
-      "changePercent": 1.4791,
-      "high": 7610.04,
-      "low": 7504.78,
+      "price": 7693.41,
+      "change": 92.91,
+      "changePercent": 1.2224,
+      "high": 7693.41,
+      "low": 7629.1,
       "open": 0,
-      "prevClose": 7489.72021484375,
-      "week52High": 7620.9,
+      "prevClose": 7600.5,
+      "week52High": 7693.41,
       "week52Low": 6289.37,
-      "volume": "3.2B",
+      "volume": "1.0B",
       "sparklineData": [
         7537.43017578125,
         7503.85009765625,
@@ -36,7 +36,8 @@
         7316.14990234375,
         7437.6298828125,
         7489.72021484375,
-        7600.5
+        7600.5,
+        7693.41015625
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53178.41,
-      "change": 693.38,
-      "changePercent": 1.3211,
-      "high": 53230.08,
-      "low": 52759.06,
+      "price": 53963.08,
+      "change": 784.67,
+      "changePercent": 1.4755,
+      "high": 54013,
+      "low": 53641.21,
       "open": 0,
-      "prevClose": 52485.03125,
-      "week52High": 53289.3,
+      "prevClose": 53178.41015625,
+      "week52High": 54013,
       "week52Low": 43799.2,
-      "volume": "604.9M",
+      "volume": "184.7M",
       "sparklineData": [
         53055.91015625,
         52925.1484375,
@@ -88,7 +89,8 @@
         51594.140625,
         52208.05859375,
         52485.03125,
-        53178.41015625
+        53178.41015625,
+        53963.078125
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 25913.896,
-      "change": 540.05,
-      "changePercent": 2.1284,
-      "high": 25967.441,
-      "low": 25420.352,
+      "price": 26373.385,
+      "change": 459.48,
+      "changePercent": 1.7731,
+      "high": 26373.562,
+      "low": 26088.043,
       "open": 0,
-      "prevClose": 25373.849609375,
+      "prevClose": 25913.900390625,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "10.1B",
+      "volume": "3.5B",
       "sparklineData": [
         26121.16015625,
         25818.689453125,
@@ -140,7 +142,8 @@
         24442.939453125,
         25122.1796875,
         25373.849609375,
-        25913.900390625
+        25913.900390625,
+        26373.384765625
       ],
       "sector": "",
       "marketCap": "",
@@ -162,13 +165,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 303.42,
-      "change": -5.49,
-      "changePercent": -1.7772,
-      "high": 311.8,
-      "low": 302.56,
-      "open": 309.58,
-      "prevClose": 308.91,
+      "price": 306.34,
+      "change": 2.92,
+      "changePercent": 0.9624,
+      "high": 307.14,
+      "low": 301.32,
+      "open": 303.1175,
+      "prevClose": 303.42,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.46T",
@@ -184,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Amazon and Microsoft Gained a Combined $1.04 Trillion in Market Cap in 2 Days, While Apple and Meta Platforms Lost $510 Billion. Meet the Vanguard ETF That's Built for This Exact Market.",
+          "headline": "Walmart downgraded, Palantir upgraded: Wall Street's top analyst calls",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=bb9480e4dc66fb5528c3284c98d50b8d2800b3a2687f976e14b3ebc830113f33"
+          "url": "https://finnhub.io/api/news?id=5f13f756291bdcc43c1198510198464e164415b23e81ce700849d95df7000a00"
         },
         {
-          "headline": "Has Apple's Stock Peaked?",
+          "headline": "Greg Abel Hasn't Touched Berkshire's Energy Holdings. Is That a Signal?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=425378280ea1278aa8031000002795c78b5965f741ae8f2dff90c93a2b5b458a"
+          "url": "https://finnhub.io/api/news?id=1e3cca5b664d62b9b9378290c254ba6d589660cea584b4d4b7d93a1751c9037b"
         },
         {
-          "headline": "Apple Seeks Court Order Against OpenAI in Expanding Trade Secrets Dispute",
+          "headline": "Why the \"Magnificent Seven\" Trade Is Starting to Fracture, and Where You Should Invest Instead",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d2cdf2448154da26f1ddcf1d78bbe487eac9dec6ed5380e92cb8a56699e936a9"
+          "url": "https://finnhub.io/api/news?id=7e5df4ba7f86e8cde07d0f3ae712e178841771a2c036c45846a195765c9b0780"
         },
         {
-          "headline": "Market Chatter: Apple Seeks Injunction Against OpenAI as Trade Secrets Lawsuit Advances",
+          "headline": "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Apple, CoreWeave, eBay, Exxon Mobil, Intuit, Nebius Group, Palantir Technologies, SK hynix, and More",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=c26b30c9537049aebb934b29f7dc8ac70cff03a274836bc7f7f5053c2086d3e1"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=9cc0a3c66287f9d9a418f116f010f4aaac2fc5e20ef038460fcaec28d10d93ef"
         },
         {
-          "headline": "SpaceX’s First Earnings Offer a Chance to Reverse Stock’s Plunge",
+          "headline": "Are Billionaire Investor Warren Buffett’s Top 5 Stock Picks a Buy in August?",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=d03bf1ddfcb87538b1402418ee357cccfc97652a55ad84c15b6842434d8f206f"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=08f6b8804bd44534d0f7131d5db2b2a053f613564cab51a77bb341213fc49569"
         }
       ],
       "earnings": [
@@ -248,13 +251,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 373.51,
-      "change": 17.38,
-      "changePercent": 4.8802,
-      "high": 376.6932,
-      "low": 363.35,
-      "open": 365.445,
-      "prevClose": 356.13,
+      "price": 376.93,
+      "change": 3.42,
+      "changePercent": 0.9156,
+      "high": 378.09,
+      "low": 367.5,
+      "open": 369.78,
+      "prevClose": 373.51,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.57T",
@@ -270,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Google exec warns AI spending could trigger a painful revenue gap",
-          "source": "Yahoo",
-          "timeAgo": "54m ago",
-          "url": "https://finnhub.io/api/news?id=7c9f68e76c95495eca2e9fe78b8ea212dd2dadd2bc1d5fbb62931db5bff8229d"
-        },
-        {
-          "headline": "Dow hits record, Palantir stock jumps 16% on Q2 earnings",
+          "headline": "The Smartest Growth ETF to Buy Right Now -- and It's Up 50% in 2026",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f"
+          "url": "https://finnhub.io/api/news?id=9e88126cff0d83db7812f495bacdcffb360d5867003e2abaf90cbc1f86e6b756"
         },
         {
-          "headline": "Want to Buy SpaceX? Why You May Be Better Off Just Buying Alphabet's Stock",
+          "headline": "Dean of Valuation Aswath Damodaran Raises Alarm Bells for Meta, Alphabet, and Microsoft — Should You Be Worried?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=8a60648d1cdb5f4495e57b27ac73d6693ad6aa11da7abf18203d7f38c9f678d1"
+          "url": "https://finnhub.io/api/news?id=484add91e58132b4d9f1527ffbbbb2454edd37eb178a194fbf684557e5550ab2"
         },
         {
-          "headline": "SK Hynix and Sandisk May Have Just Solved AI’s Biggest Bottleneck — And It Could Reshape the Memory Market",
+          "headline": "DeepSeek Matched Gemini 3.6 Flash at 3 Cents Per Benchmark Test. Alibaba (BABA) Is Turning Alphabet’s (GOOGL) China Problem Into a Price War",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a5345d2e4bacc31c077b40b00474e2c05f8112d644abc185eb282687e06f2968"
+          "url": "https://finnhub.io/api/news?id=a685345f03853ee8de27023253c2f834b1b15a3eb706ce9cfc0c5425057a6fdb"
         },
         {
-          "headline": "Google partners with RWE for Crooked Creek Solar project energy",
+          "headline": "Amazon Web Services' Q2 Was Good. Google Cloud's Was Better. Here's Why It Matters.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=db883564d98109092ece8dac9e390ef4647bcaf885cdba6e1fba9e0ae2360a2a"
+          "url": "https://finnhub.io/api/news?id=052e6a3c547339b865860ca74af0eb509cb298fe6d8fc73889162815ce7f444c"
+        },
+        {
+          "headline": "Broadcom (AVGO) And Google’s $200 Billion AI Build Put Its Chip Role In Focus",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a4b086f7c5835e04553d4fc41ad844eedfcf25717dfaed084edeaf066890c1cf"
         }
       ],
       "earnings": [
@@ -334,13 +337,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 487.65,
-      "change": 22.93,
-      "changePercent": 4.9342,
-      "high": 491.65,
-      "low": 475,
-      "open": 476.125,
-      "prevClose": 464.72,
+      "price": 497,
+      "change": 9.35,
+      "changePercent": 1.9174,
+      "high": 498.41,
+      "low": 479.17,
+      "open": 482.515,
+      "prevClose": 487.65,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.62T",
@@ -348,7 +351,7 @@
       "week52High": 553.72,
       "week52Low": 349.2,
       "beta": 1.1050017,
-      "peRatio": 27.0736,
+      "peRatio": 26.9492,
       "eps": 17.9457,
       "dividendYield": "0.75%",
       "volume": "45.5M",
@@ -356,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Google exec warns AI spending could trigger a painful revenue gap",
-          "source": "Yahoo",
-          "timeAgo": "54m ago",
-          "url": "https://finnhub.io/api/news?id=7c9f68e76c95495eca2e9fe78b8ea212dd2dadd2bc1d5fbb62931db5bff8229d"
-        },
-        {
-          "headline": "Dow hits record, Palantir stock jumps 16% on Q2 earnings",
+          "headline": "Dean of Valuation Aswath Damodaran Raises Alarm Bells for Meta, Alphabet, and Microsoft — Should You Be Worried?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f"
+          "url": "https://finnhub.io/api/news?id=484add91e58132b4d9f1527ffbbbb2454edd37eb178a194fbf684557e5550ab2"
         },
         {
-          "headline": "Amazon and Microsoft Gained a Combined $1.04 Trillion in Market Cap in 2 Days, While Apple and Meta Platforms Lost $510 Billion. Meet the Vanguard ETF That's Built for This Exact Market.",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=bb9480e4dc66fb5528c3284c98d50b8d2800b3a2687f976e14b3ebc830113f33"
-        },
-        {
-          "headline": "I’m Hitting Buy On $20,000 of ServiceNow Stock Despite The Melt Down | NOW Stock",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ff2ecba5ae45d1338f05d473d26ef7ab577375e224f658d2baa60676d2cbfc08"
-        },
-        {
-          "headline": "Oracle Shares Jump 9% as AI Momentum and Google Partnership Boost Sentiment",
+          "headline": "Tenable Advances Exposure Management with Coverage Across Every Major AI Platform and Developer Tool",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=282c28f5ca85517630ad5d951701cde7c5e7ac4f1f28da878b5b60d710e5e60a"
+          "url": "https://finnhub.io/api/news?id=afa8ecbee179533dc0d97ad19d21ef37cf781b7a0a1b0a98b2aeb55a54395931"
+        },
+        {
+          "headline": "Correction: US Equity Markets End Higher Monday as Crude Oil Falls on US-Iran's New Round of Talks",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=c0c0ff3c5061d9371356a591155aea86286c3772c3dd169ec66cf347b9fd8abc"
+        },
+        {
+          "headline": "One Stock Is Adding Over 500 Points to Dow Futures",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=fd1fa27495c1d41c331b4fd56df7f21d59d6a1012abb4e054524160463131754"
+        },
+        {
+          "headline": "Why the \"Magnificent Seven\" Trade Is Starting to Fracture, and Where You Should Invest Instead",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7e5df4ba7f86e8cde07d0f3ae712e178841771a2c036c45846a195765c9b0780"
         }
       ],
       "earnings": [
@@ -420,13 +423,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 284.02,
-      "change": 12.44,
-      "changePercent": 4.5806,
-      "high": 287.2,
-      "low": 278,
-      "open": 278.29,
-      "prevClose": 271.58,
+      "price": 277.38,
+      "change": -6.64,
+      "changePercent": -2.3379,
+      "high": 281.07,
+      "low": 275.82,
+      "open": 277.955,
+      "prevClose": 284.02,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$3.06T",
@@ -434,7 +437,7 @@
       "week52High": 287.2,
       "week52Low": 196,
       "beta": 1.4766612,
-      "peRatio": 39.3361,
+      "peRatio": 38.4194,
       "eps": 7.1737,
       "dividendYield": "",
       "volume": "59.1M",
@@ -442,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Google exec warns AI spending could trigger a painful revenue gap",
-          "source": "Yahoo",
-          "timeAgo": "54m ago",
-          "url": "https://finnhub.io/api/news?id=7c9f68e76c95495eca2e9fe78b8ea212dd2dadd2bc1d5fbb62931db5bff8229d"
-        },
-        {
-          "headline": "Thunder Signs Strategic Collaboration Agreement with Amazon Web Services to Deliver AI-Powered Contact Center Solutions",
+          "headline": "Jeff Bezos files to sell $4 billion in Amazon stock after record high",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=1f6da6a0dba94c47ee265218b14cb47332cd7d61f0f06855a2f850fd2ebf7c38"
+          "url": "https://finnhub.io/api/news?id=d1a1104125b8bc0afab5d94f5e5edae1a32bdce1845942a7cc0f842a84c1523e"
         },
         {
-          "headline": "Dow hits record, Palantir stock jumps 16% on Q2 earnings",
+          "headline": "Amazon Web Services' Q2 Was Good. Google Cloud's Was Better. Here's Why It Matters.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f"
+          "url": "https://finnhub.io/api/news?id=052e6a3c547339b865860ca74af0eb509cb298fe6d8fc73889162815ce7f444c"
         },
         {
-          "headline": "Amazon and Microsoft Gained a Combined $1.04 Trillion in Market Cap in 2 Days, While Apple and Meta Platforms Lost $510 Billion. Meet the Vanguard ETF That's Built for This Exact Market.",
+          "headline": "Costco (COST) Pushes Further Into GLP 1 Weight Loss Prescriptions",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=bb9480e4dc66fb5528c3284c98d50b8d2800b3a2687f976e14b3ebc830113f33"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d27890381254a73efc0870c86980359bea85dcf7a4a8a79e575e18f5b77337d5"
         },
         {
-          "headline": "Bezos Sells $4 Billion In Amazon Stock As It Hits $3 Trillion For First Time. Cramer Calls It A “Buzzkill.”",
+          "headline": "Stock Market Today: Dow Rallies As Caterpillar, Palantir Soar On Earnings; SpaceX Earnings Next (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=8f9b68ffbc00ced67163c9bbe4ea68932f66444dfaf738eda201c20b20e8dee0"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=c0b855cc5c84ee19228275c032f000d351ce3cf5cbb9859eb85387ee822b9183"
+        },
+        {
+          "headline": "Bezos Plans to Sell $4 Billion After $3 Trillion Milestone",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=3d34b494a3043b213f39ef280ed223aced915d47aa0b70b72fe56732cf12359a"
         }
       ],
       "earnings": [
@@ -506,13 +509,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 322.08,
-      "change": 10.87,
-      "changePercent": 3.4928,
-      "high": 324.65,
-      "low": 310.425,
-      "open": 310.96,
-      "prevClose": 311.21,
+      "price": 324.48,
+      "change": 2.4,
+      "changePercent": 0.7452,
+      "high": 326.9,
+      "low": 320.7901,
+      "open": 324.55,
+      "prevClose": 322.08,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.27T",
@@ -528,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Here's Why SpaceX Earnings Could Affect Tesla Stock",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=c7143cda530c09ecd5f1dbace9d052554f21231b696eca554aad1538d56bbcbb"
+        },
+        {
+          "headline": "Dean of Valuation Aswath Damodaran Raises Alarm Bells for Meta, Alphabet, and Microsoft — Should You Be Worried?",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=484add91e58132b4d9f1527ffbbbb2454edd37eb178a194fbf684557e5550ab2"
+        },
+        {
+          "headline": "Why the \"Magnificent Seven\" Trade Is Starting to Fracture, and Where You Should Invest Instead",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7e5df4ba7f86e8cde07d0f3ae712e178841771a2c036c45846a195765c9b0780"
+        },
+        {
+          "headline": "SpaceX Could Burn Through Billions More as Elon Musk Ramps Up AI Spending With Tesla: Analyst Says Free Cash Flow is 'Just Not Part of the Story'",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=475a1b7b75759e93dac299feb856febc3cdffe0ce57d45dbc9cf26e7101e8278"
+        },
+        {
           "headline": "Latest News In Energy Transition - Advantage Renewables Boosts Michigan Grid With Battery Projects",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=18f3904deae7146ab59bba72286d5296dd24a5e0a1f1c2050f7b06678a138758"
-        },
-        {
-          "headline": "Tesla Trades at 140 Times Forward Earnings. Here's What Has to Go Right to Justify This Valuation",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=5d888eb92591c090afa7e172c96a8d257fae29bcdab378a2bf359a487fed5c54"
-        },
-        {
-          "headline": "Gary Black Says Investors Shouldn't 'Fall in Love' With TSLA Stock, Calls Out 'Cult' Mentality for Attacking Those Who Questions Elon Musk-Led Company",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=81f99c99639cc44c06c3465e011d25db3eb69965adee4f8cd9e1ca804386e313"
-        },
-        {
-          "headline": "How Tesla Stock Could Get a Boost From SpaceX Earnings",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ff6103536f90345e687b5054ff174bf4fccd3783eb0404e7496330ebbf6d7356"
-        },
-        {
-          "headline": "Chinese robot maker Unitree seen worth over $7.4 billion yuan after IPO, Citic says",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5067a58dd7ee1f666a2b4d7b5349d64bafbf0b167dd1425ace03cb801629ed76"
         }
       ],
       "earnings": [
