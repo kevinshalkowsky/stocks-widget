@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-08-04T10:23:06.309Z",
+  "updatedAt": "2026-08-04T12:50:32.608Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
       "price": 7600.5,
-      "change": 162.87,
-      "changePercent": 2.1898,
+      "change": 110.78,
+      "changePercent": 1.4791,
       "high": 7610.04,
       "low": 7504.78,
       "open": 0,
-      "prevClose": 7437.6298828125,
+      "prevClose": 7489.72021484375,
       "week52High": 7620.9,
-      "week52Low": 6271.71,
+      "week52Low": 6289.37,
       "volume": "3.2B",
       "sparklineData": [
         7537.43017578125,
@@ -35,7 +35,8 @@
         7428.77978515625,
         7316.14990234375,
         7437.6298828125,
-        7489.72021484375
+        7489.72021484375,
+        7600.5
       ],
       "sector": "",
       "marketCap": "",
@@ -57,14 +58,14 @@
       "type": "index",
       "name": "Dow Jones",
       "price": 53178.41,
-      "change": 970.35,
-      "changePercent": 1.8586,
+      "change": 693.38,
+      "changePercent": 1.3211,
       "high": 53230.08,
       "low": 52759.06,
       "open": 0,
-      "prevClose": 52208.05859375,
+      "prevClose": 52485.03125,
       "week52High": 53289.3,
-      "week52Low": 43724.02,
+      "week52Low": 43799.2,
       "volume": "604.9M",
       "sparklineData": [
         53055.91015625,
@@ -86,7 +87,8 @@
         52747.3203125,
         51594.140625,
         52208.05859375,
-        52485.03125
+        52485.03125,
+        53178.41015625
       ],
       "sector": "",
       "marketCap": "",
@@ -108,12 +110,12 @@
       "type": "index",
       "name": "Nasdaq",
       "price": 25913.896,
-      "change": 791.72,
-      "changePercent": 3.1515,
+      "change": 540.05,
+      "changePercent": 2.1284,
       "high": 25967.441,
       "low": 25420.352,
       "open": 0,
-      "prevClose": 25122.1796875,
+      "prevClose": 25373.849609375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
       "volume": "10.1B",
@@ -137,7 +139,8 @@
         24876.91015625,
         24442.939453125,
         25122.1796875,
-        25373.849609375
+        25373.849609375,
+        25913.900390625
       ],
       "sector": "",
       "marketCap": "",
@@ -181,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Market Chatter: Apple Seeks Injunction Against OpenAI as Trade Secrets Lawsuit Advances",
+          "headline": "Amazon and Microsoft Gained a Combined $1.04 Trillion in Market Cap in 2 Days, While Apple and Meta Platforms Lost $510 Billion. Meet the Vanguard ETF That's Built for This Exact Market.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=bb9480e4dc66fb5528c3284c98d50b8d2800b3a2687f976e14b3ebc830113f33"
+        },
+        {
+          "headline": "Has Apple's Stock Peaked?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=425378280ea1278aa8031000002795c78b5965f741ae8f2dff90c93a2b5b458a"
+        },
+        {
+          "headline": "Apple Seeks Court Order Against OpenAI in Expanding Trade Secrets Dispute",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d2cdf2448154da26f1ddcf1d78bbe487eac9dec6ed5380e92cb8a56699e936a9"
+        },
+        {
+          "headline": "Market Chatter: Apple Seeks Injunction Against OpenAI as Trade Secrets Lawsuit Advances",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=c26b30c9537049aebb934b29f7dc8ac70cff03a274836bc7f7f5053c2086d3e1"
         },
         {
-          "headline": "OpenAI Has Three Words For Apple's Lawsuit: 'Careless, Aggressive And Oddly Personal'",
+          "headline": "SpaceX’s First Earnings Offer a Chance to Reverse Stock’s Plunge",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f30ec8604b2c2b196f2e66d4035949ba7d863ade9d0c08ed7d2889a35db23143"
-        },
-        {
-          "headline": "Apple (AAPL) Could Be 20% Overvalued As Earnings And Dividend Land",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=725690f0a6386761a466f8ee1604600970171d1550b167207af5c7e150283f9c"
-        },
-        {
-          "headline": "Amazon And Microsoft Ace Wall Street’s AI Test — Analyst Warns ‘Mag Seven’ Now Faces A ‘Higher Burden Of Proof’",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=177b851151185a1b47a24a78ef065c3915444700b2879dc522d911a2f580231a"
-        },
-        {
-          "headline": "Apple’s India Sales Top $10 Billion on Widening Retail Push",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=94d805a7125af80bbc64fc070c55c46e3f03072d7561389231693e3487a46cf9"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=d03bf1ddfcb87538b1402418ee357cccfc97652a55ad84c15b6842434d8f206f"
         }
       ],
       "earnings": [
@@ -267,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "3 Stocks to Buy as AI Infrastructure Continues to Surge",
+          "headline": "Google exec warns AI spending could trigger a painful revenue gap",
           "source": "Yahoo",
-          "timeAgo": "33m ago",
-          "url": "https://finnhub.io/api/news?id=4f757ecc1b69a67cd4cbf12025c3c64b6d1323c3485f6f20da26d87f5deb3db3"
+          "timeAgo": "54m ago",
+          "url": "https://finnhub.io/api/news?id=7c9f68e76c95495eca2e9fe78b8ea212dd2dadd2bc1d5fbb62931db5bff8229d"
         },
         {
-          "headline": "Stock Market News for Aug 4, 2026",
+          "headline": "Dow hits record, Palantir stock jumps 16% on Q2 earnings",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c17de45ca1420c4926ff9c096602501c55f788d7175a78535b36206417f262bf"
+          "url": "https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f"
         },
         {
-          "headline": "President Trump Buys 2 AI Stocks That Wall Street Says Are Undervalued",
+          "headline": "Want to Buy SpaceX? Why You May Be Better Off Just Buying Alphabet's Stock",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=04844e866cf4da0b52073a1bf80e7bd3e3947852fa7c4f525a29cdf1b4b8a7b8"
+          "url": "https://finnhub.io/api/news?id=8a60648d1cdb5f4495e57b27ac73d6693ad6aa11da7abf18203d7f38c9f678d1"
         },
         {
-          "headline": "SpaceX Prepares for Inaugural Earnings. 3 Numbers That Matter.",
+          "headline": "SK Hynix and Sandisk May Have Just Solved AI’s Biggest Bottleneck — And It Could Reshape the Memory Market",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9aaf98136ddc56baedca9f1a3fedf26ee41e5d1d001de953773cc49eea798653"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a5345d2e4bacc31c077b40b00474e2c05f8112d644abc185eb282687e06f2968"
         },
         {
-          "headline": "Amazon And Microsoft Ace Wall Street’s AI Test — Analyst Warns ‘Mag Seven’ Now Faces A ‘Higher Burden Of Proof’",
+          "headline": "Google partners with RWE for Crooked Creek Solar project energy",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=177b851151185a1b47a24a78ef065c3915444700b2879dc522d911a2f580231a"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=db883564d98109092ece8dac9e390ef4647bcaf885cdba6e1fba9e0ae2360a2a"
         }
       ],
       "earnings": [
@@ -353,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Microsoft vs. Amazon: Which Stock Does Wall Street Think Is the Better Buy?",
+          "headline": "Google exec warns AI spending could trigger a painful revenue gap",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2fb358586f586de0f73de6415bd9668d322903788c2672ddfdcbc8eae13104e6"
+          "timeAgo": "54m ago",
+          "url": "https://finnhub.io/api/news?id=7c9f68e76c95495eca2e9fe78b8ea212dd2dadd2bc1d5fbb62931db5bff8229d"
         },
         {
-          "headline": "Stock Market News for Aug 4, 2026",
+          "headline": "Dow hits record, Palantir stock jumps 16% on Q2 earnings",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c17de45ca1420c4926ff9c096602501c55f788d7175a78535b36206417f262bf"
+          "url": "https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f"
         },
         {
-          "headline": "Market Chatter: Apple Seeks Injunction Against OpenAI as Trade Secrets Lawsuit Advances",
+          "headline": "Amazon and Microsoft Gained a Combined $1.04 Trillion in Market Cap in 2 Days, While Apple and Meta Platforms Lost $510 Billion. Meet the Vanguard ETF That's Built for This Exact Market.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c26b30c9537049aebb934b29f7dc8ac70cff03a274836bc7f7f5053c2086d3e1"
+          "url": "https://finnhub.io/api/news?id=bb9480e4dc66fb5528c3284c98d50b8d2800b3a2687f976e14b3ebc830113f33"
         },
         {
-          "headline": "Amazon (AMZN) Paid $50 Billion for OpenAI. Microsoft (MSFT) Opened the Door but Kept the Keys",
+          "headline": "I’m Hitting Buy On $20,000 of ServiceNow Stock Despite The Melt Down | NOW Stock",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=551f471797fdb615b00e5e98483433438e91ce3d8d838c3f2b5a19b18d1266ac"
+          "url": "https://finnhub.io/api/news?id=ff2ecba5ae45d1338f05d473d26ef7ab577375e224f658d2baa60676d2cbfc08"
         },
         {
-          "headline": "Amazon And Microsoft Ace Wall Street’s AI Test — Analyst Warns ‘Mag Seven’ Now Faces A ‘Higher Burden Of Proof’",
+          "headline": "Oracle Shares Jump 9% as AI Momentum and Google Partnership Boost Sentiment",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=177b851151185a1b47a24a78ef065c3915444700b2879dc522d911a2f580231a"
+          "url": "https://finnhub.io/api/news?id=282c28f5ca85517630ad5d951701cde7c5e7ac4f1f28da878b5b60d710e5e60a"
         }
       ],
       "earnings": [
@@ -439,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "3 Stocks to Buy as AI Infrastructure Continues to Surge",
+          "headline": "Google exec warns AI spending could trigger a painful revenue gap",
           "source": "Yahoo",
-          "timeAgo": "33m ago",
-          "url": "https://finnhub.io/api/news?id=4f757ecc1b69a67cd4cbf12025c3c64b6d1323c3485f6f20da26d87f5deb3db3"
+          "timeAgo": "54m ago",
+          "url": "https://finnhub.io/api/news?id=7c9f68e76c95495eca2e9fe78b8ea212dd2dadd2bc1d5fbb62931db5bff8229d"
         },
         {
-          "headline": "D'YAVOL Spirits Debuts in United Kingdom with Exclusive Launch Event Hosted by Aryan Khan in London",
-          "source": "Yahoo",
-          "timeAgo": "53m ago",
-          "url": "https://finnhub.io/api/news?id=b070b05ba6c91343467f72b4f13bf6e59dfa64507d10e474ff816e4a386669fe"
-        },
-        {
-          "headline": "Superblocks, AWS sign multi-year deal for enterprise AI on Bedrock",
+          "headline": "Thunder Signs Strategic Collaboration Agreement with Amazon Web Services to Deliver AI-Powered Contact Center Solutions",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3038d14a7d833951b102c35bfa882a0224f075ffde1ca1c3d5611708f897c8b7"
+          "url": "https://finnhub.io/api/news?id=1f6da6a0dba94c47ee265218b14cb47332cd7d61f0f06855a2f850fd2ebf7c38"
         },
         {
-          "headline": "Microsoft vs. Amazon: Which Stock Does Wall Street Think Is the Better Buy?",
+          "headline": "Dow hits record, Palantir stock jumps 16% on Q2 earnings",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2fb358586f586de0f73de6415bd9668d322903788c2672ddfdcbc8eae13104e6"
+          "url": "https://finnhub.io/api/news?id=74fc1f955e9c6d2f10baaad1479ff1bd6b23e6b22b967ce59ef2acfe22f3b39f"
         },
         {
-          "headline": "Nasdaq, S&P 500 Futures Climb As Wall Street Awaits AMD, SpaceX Earnings After Palantir Rally: Why SNAP, AMZN, SNDK, LCID, SLS, ASTS Are In Focus",
+          "headline": "Amazon and Microsoft Gained a Combined $1.04 Trillion in Market Cap in 2 Days, While Apple and Meta Platforms Lost $510 Billion. Meet the Vanguard ETF That's Built for This Exact Market.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2918b20867c8bcdf13a895f9f6294d60fa7eeda66dede904d3c0fbd4b981bb3a"
+          "url": "https://finnhub.io/api/news?id=bb9480e4dc66fb5528c3284c98d50b8d2800b3a2687f976e14b3ebc830113f33"
+        },
+        {
+          "headline": "Bezos Sells $4 Billion In Amazon Stock As It Hits $3 Trillion For First Time. Cramer Calls It A “Buzzkill.”",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=8f9b68ffbc00ced67163c9bbe4ea68932f66444dfaf738eda201c20b20e8dee0"
         }
       ],
       "earnings": [
@@ -517,7 +520,7 @@
       "week52High": 498.83,
       "week52Low": 297.38,
       "beta": 1.8908113,
-      "peRatio": 323.9691,
+      "peRatio": 335.2847,
       "eps": 1.0754,
       "dividendYield": "",
       "volume": "47.9M",
@@ -525,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Tesla (TSLA) Draws Fresh Optimism, Is The Long Term Upside Already Priced In?",
+          "headline": "Latest News In Energy Transition - Advantage Renewables Boosts Michigan Grid With Battery Projects",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ab1121d0b92c28232d398046532aa3ac4c996fec72661290202fad31fcd855d6"
+          "url": "https://finnhub.io/api/news?id=18f3904deae7146ab59bba72286d5296dd24a5e0a1f1c2050f7b06678a138758"
         },
         {
-          "headline": "How SpaceX Stock Will Trade After Earnings.",
+          "headline": "Tesla Trades at 140 Times Forward Earnings. Here's What Has to Go Right to Justify This Valuation",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b61130815945ccd1ccab1821bddeb051afb2617332b036a07adf50617de20a2b"
+          "url": "https://finnhub.io/api/news?id=5d888eb92591c090afa7e172c96a8d257fae29bcdab378a2bf359a487fed5c54"
         },
         {
-          "headline": "Amazon And Microsoft Ace Wall Street’s AI Test — Analyst Warns ‘Mag Seven’ Now Faces A ‘Higher Burden Of Proof’",
+          "headline": "Gary Black Says Investors Shouldn't 'Fall in Love' With TSLA Stock, Calls Out 'Cult' Mentality for Attacking Those Who Questions Elon Musk-Led Company",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=177b851151185a1b47a24a78ef065c3915444700b2879dc522d911a2f580231a"
+          "url": "https://finnhub.io/api/news?id=81f99c99639cc44c06c3465e011d25db3eb69965adee4f8cd9e1ca804386e313"
         },
         {
-          "headline": "Elon Musk's Net Worth Down Nearly $700 Billion Amid Tesla, SpaceX Merger Rumors",
+          "headline": "How Tesla Stock Could Get a Boost From SpaceX Earnings",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=c79cc5d9edee99ffba78f6f3e1380c19e3160df35bb09b688ea436b0252582f5"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=ff6103536f90345e687b5054ff174bf4fccd3783eb0404e7496330ebbf6d7356"
         },
         {
-          "headline": "NYU Professor Says Watch Smaller AI Stocks When The Shakeout Hits",
+          "headline": "Chinese robot maker Unitree seen worth over $7.4 billion yuan after IPO, Citic says",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=025d1b60c8656ec9ef57f2765f75d81a6a113ae49811fa2d9b30a35287ac98f7"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=5067a58dd7ee1f666a2b4d7b5349d64bafbf0b167dd1425ace03cb801629ed76"
         }
       ],
       "earnings": [
