@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-05T12:29:33.788Z",
+  "updatedAt": "2026-08-05T15:04:46.114Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7736.52,
-      "change": 136.02,
-      "changePercent": 1.7896,
-      "high": 7758.21,
-      "low": 7629.1,
+      "price": 7758.44,
+      "change": 21.92,
+      "changePercent": 0.2833,
+      "high": 7793.68,
+      "low": 7751.73,
       "open": 0,
-      "prevClose": 7600.5,
-      "week52High": 7758.21,
+      "prevClose": 7736.52001953125,
+      "week52High": 7793.68,
       "week52Low": 6301.11,
-      "volume": "3.7B",
+      "volume": "884.9M",
       "sparklineData": [
         7537.43017578125,
         7503.85009765625,
@@ -37,7 +37,8 @@
         7437.6298828125,
         7489.72021484375,
         7600.5,
-        7736.52001953125
+        7736.52001953125,
+        7758.43994140625
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 54085.88,
-      "change": 907.47,
-      "changePercent": 1.7065,
-      "high": 54272.6,
-      "low": 53641.21,
+      "price": 54698.16,
+      "change": 612.28,
+      "changePercent": 1.1321,
+      "high": 54744.33,
+      "low": 54266.12,
       "open": 0,
-      "prevClose": 53178.41015625,
-      "week52High": 54272.6,
+      "prevClose": 54085.87890625,
+      "week52High": 54744.33,
       "week52Low": 43799.2,
-      "volume": "580.4M",
+      "volume": "162.7M",
       "sparklineData": [
         53055.91015625,
         52925.1484375,
@@ -90,7 +91,8 @@
         52208.05859375,
         52485.03125,
         53178.41015625,
-        54085.87890625
+        54085.87890625,
+        54698.16015625
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26584.992,
-      "change": 671.09,
-      "changePercent": 2.5897,
-      "high": 26679.91,
-      "low": 26088.043,
+      "price": 26603.984,
+      "change": 18.99,
+      "changePercent": 0.0714,
+      "high": 26738.996,
+      "low": 26572.334,
       "open": 0,
-      "prevClose": 25913.900390625,
+      "prevClose": 26584.990234375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "8.8B",
+      "volume": "3.3B",
       "sparklineData": [
         26121.16015625,
         25818.689453125,
@@ -143,7 +145,8 @@
         25122.1796875,
         25373.849609375,
         25913.900390625,
-        26584.990234375
+        26584.990234375,
+        26603.984375
       ],
       "sector": "",
       "marketCap": "",
@@ -165,13 +168,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 309.38,
-      "change": 5.96,
-      "changePercent": 1.9643,
-      "high": 310.42,
-      "low": 301.32,
-      "open": 302.725,
-      "prevClose": 303.42,
+      "price": 310.78,
+      "change": 1.4,
+      "changePercent": 0.4525,
+      "high": 311.37,
+      "low": 305.67,
+      "open": 310.255,
+      "prevClose": 309.38,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.52T",
@@ -187,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Apple’s purchase commitments jump 28%; BofA sees iPhone ramp ahead",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=0eee6ad89c579865c4748c7042b698da55913f9d95ad1d824885962d7ba2def5"
+        },
+        {
+          "headline": "Stock Market Today: Dow Rises After Surprise Jobs Data; AMD, SpaceX Plunge On Earnings (Live Coverage)",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a3c02fdab82ec37292ab8838306b16cb77615cde3ea467ff3a798250d5b04bfb"
+        },
+        {
+          "headline": "Kurv Launches the Kurv Equity Option Income ETF (KEO), Designed to Provide Diversified Exposure with Weekly Income Potential",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=8a3c2426f941c6af4f33ec6809484592802253929cf8e46cc0b6100db2bc86bb"
+        },
+        {
+          "headline": "Apple: Big Tech's AI Boom Offers Mixed Blessings",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=d57fb34d153b5bef105e5327ea41cfaf44e3e02bfad52ea577adb9b83e72e77a"
+        },
+        {
           "headline": "Apple's Quarterly iPhone Sales Were Even Better Than They Seem",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=5e88817944001040ffb0462f3371f2b951be968f0f83147a7c890bd2443fd59b"
-        },
-        {
-          "headline": "AI CapEx fears: Is big tech overspending?",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=556c5435f5153b363b2978492f5615c6e080325ac75ed0a4e38c397bd3ba1afc"
-        },
-        {
-          "headline": "Tech Melt-Up Drives $3.5 Trillion Nasdaq 100 Gain in Four Days",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=03d7e5015e221657c227889bd0f29a549b82000b750f0e8954cf4b3a49aa045b"
-        },
-        {
-          "headline": "Corporate America got billions of dollars in tariff refunds. Where’s your cut?",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=cc015814a2ff7eaf709a8390781c76a4284f9b214fb0e48bb722ed2f7438ecfe"
-        },
-        {
-          "headline": "Tim Cook's Last Quarter as CEO Was Apple's Best June Quarter Ever. The Stock Fell Anyway.",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=0766f4ed609064df7dd0e40432688a8ccc71a640b8074990730622fd49ee42a3"
         }
       ],
       "earnings": [
@@ -251,13 +254,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 377.65,
-      "change": 4.14,
-      "changePercent": 1.1084,
-      "high": 380.52,
-      "low": 367.5,
-      "open": 368.22,
-      "prevClose": 373.51,
+      "price": 380.84,
+      "change": 3.19,
+      "changePercent": 0.8447,
+      "high": 384.48,
+      "low": 377.93,
+      "open": 381.48,
+      "prevClose": 377.65,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.62T",
@@ -273,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Got $500? 2 Magnificent AI Stocks to Buy Hand Over Fist Before the Anthropic IPO",
+          "headline": "This SpaceX number is spooking already skittish investors",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=88ab65418b484bc1f588fe8b66fefa5cc254e4f662f7805acf8436659b29963d"
+          "url": "https://finnhub.io/api/news?id=039508ed510f42fe9af9c543299902a4c3dd2659c64bbac815ab184bc6175348"
         },
         {
-          "headline": "Canada's Shopify forecasts revenue above estimates, shares surge",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=5c77e3476944fd6c1106dfa3edcc2428305b321a04d8ef5973b55ab8cd81b21f"
-        },
-        {
-          "headline": "NiSource Announces Second Quarter Results",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=53ea0332aab8d02e5b3ed9573485037a8bcbb48dd0e3f613ccb247fcff0f94cd"
-        },
-        {
-          "headline": "AI CapEx fears: Is big tech overspending?",
+          "headline": "DoorDash Gets FAA Green Light for Commercial Drone Deliveries",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=556c5435f5153b363b2978492f5615c6e080325ac75ed0a4e38c397bd3ba1afc"
+          "url": "https://finnhub.io/api/news?id=39e02c18e4cab6e9e0c66cd30315fd864640ebe2bd7178d35ba25854a2977d3e"
         },
         {
-          "headline": "New report warns China transceiver ban would hurt U.S. AI giants",
+          "headline": "Kurv Launches the Kurv Equity Option Income ETF (KEO), Designed to Provide Diversified Exposure with Weekly Income Potential",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ef87f8c949a040bbd9355d84774e49ed2224d97065c348148000a227ddc5db13"
+          "url": "https://finnhub.io/api/news?id=8a3c2426f941c6af4f33ec6809484592802253929cf8e46cc0b6100db2bc86bb"
+        },
+        {
+          "headline": "Self-driving Ubers to be launched in London within weeks",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=98e43f18365dedb935210b8b6be3d28596d050d6498c901fbfa98082446c89f8"
+        },
+        {
+          "headline": "SHOPLINE Partners with Papermap to Give Merchants Plain-English Answers from Their Business Data",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7b2c08c1de086bea8c77e4c58fb82ea6ea10a8ca1452ef921245e7687f8f797a"
         }
       ],
       "earnings": [
@@ -337,13 +340,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 492.81,
-      "change": 5.16,
-      "changePercent": 1.0581,
-      "high": 499.4399,
-      "low": 479.17,
-      "open": 480.9,
-      "prevClose": 487.65,
+      "price": 490.31,
+      "change": -2.5,
+      "changePercent": -0.5073,
+      "high": 498.24,
+      "low": 487.2118,
+      "open": 494.1725,
+      "prevClose": 492.81,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.66T",
@@ -359,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Canada's Shopify forecasts revenue above estimates, shares surge",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=5c77e3476944fd6c1106dfa3edcc2428305b321a04d8ef5973b55ab8cd81b21f"
-        },
-        {
-          "headline": "History Says Software-as-a-Service (SaaS) Stocks Will Be the Ultimate AI Winners. 3 SaaS Stocks to Buy Now.",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=75aea2237a806aa23940229938b007a22e5c9fe070e034b98d517396515056b4"
-        },
-        {
-          "headline": "Social Buzz: Wallstreetbets Stocks Mixed Premarket Wednesday; SpaceX, Advanced Micro Devices to Decline",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=25f90a71dcc55636cedd3c210c6cb2c755a078a36550f5198908e5a6e15804e1"
-        },
-        {
-          "headline": "Kenya's stock exchange plans East Africa's first AI-focused ETF",
+          "headline": "Channelscaler Brings AI-Powered Partner Relationship Management to Microsoft Marketplace",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=24187a890bf768f715ed41b0440bac1d30b9d2074e9aeda0284f8cbf85efbc24"
+          "url": "https://finnhub.io/api/news?id=1c02b9990c2471d2dc8135f91cecb79ee4496db824265c5b427f17031dd0ba27"
         },
         {
-          "headline": "AI CapEx fears: Is big tech overspending?",
+          "headline": "VEIR Announces Key Leadership Appointments as it Prepares to Scale Superconducting Power Delivery for Data Centers",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=556c5435f5153b363b2978492f5615c6e080325ac75ed0a4e38c397bd3ba1afc"
+          "url": "https://finnhub.io/api/news?id=37acaab2b96e3fe20c2dcf816e2369a242935475e5139d08ba255bc48a976f5c"
+        },
+        {
+          "headline": "Kurv Launches the Kurv Equity Option Income ETF (KEO), Designed to Provide Diversified Exposure with Weekly Income Potential",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=8a3c2426f941c6af4f33ec6809484592802253929cf8e46cc0b6100db2bc86bb"
+        },
+        {
+          "headline": "Who Might Buy Snap If Its Founders Ever Decide to Sell",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=f9b5535c33bb15ef1d0fa0a96514ac4727c4616a401d7ab5d78068baa49cfa7d"
+        },
+        {
+          "headline": "Microsoft Extends Winning Streak Amid Earnings Surge; Is The Stock A Buy Now?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=bc90f8281b6668273a857bac9119d294c6e3ae17d250d080108f7d43889de6b3"
         }
       ],
       "earnings": [
@@ -423,13 +426,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 277.42,
-      "change": -6.6,
-      "changePercent": -2.3238,
-      "high": 281.07,
-      "low": 275.82,
-      "open": 276.06,
-      "prevClose": 284.02,
+      "price": 277.72,
+      "change": 0.3,
+      "changePercent": 0.1081,
+      "high": 282.79,
+      "low": 275.305,
+      "open": 280.045,
+      "prevClose": 277.42,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.99T",
@@ -445,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Got $500? 2 Magnificent AI Stocks to Buy Hand Over Fist Before the Anthropic IPO",
+          "headline": "US court overturns Amazon injunction against Perplexity AI",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=88ab65418b484bc1f588fe8b66fefa5cc254e4f662f7805acf8436659b29963d"
+          "url": "https://finnhub.io/api/news?id=eecd780c95c4cd148c9b2caf8f1b121c47d888716df3f7577120bebfb01375e1"
         },
         {
-          "headline": "NiSource Announces Second Quarter Results",
+          "headline": "12 Words From Amazon CEO Andy Jassy That Should Have Artificial Intelligence (AI) Investors Cheering",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=53ea0332aab8d02e5b3ed9573485037a8bcbb48dd0e3f613ccb247fcff0f94cd"
+          "url": "https://finnhub.io/api/news?id=2cb52c8ee0bf0e2cf657110f450bafd41c45acb50ce87b41bfebcf1b5947a82a"
         },
         {
-          "headline": "Andy Jassy Just Delivered Incredible News for Amazon Stock Investors",
+          "headline": "The Brand Behind AEO's Stock Rally Isn't the One On The Sign",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b023428ab1f9a80589274130b39b796a415ca7a0d4040d9a17cd23d60e9c9f9d"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=f1e44a82799dcd852d1b04b607756131ae6175cd3f30566d346cb036b98a8524"
         },
         {
-          "headline": "New Strong Buy Stocks for August 5th",
+          "headline": "DoorDash Gets FAA Green Light for Commercial Drone Deliveries",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=1406639ab0b396f6e02f2fc408975aab0703c31afc9ba9192af0319b8b611466"
+          "url": "https://finnhub.io/api/news?id=39e02c18e4cab6e9e0c66cd30315fd864640ebe2bd7178d35ba25854a2977d3e"
         },
         {
-          "headline": "Amazon Just Landed a Big Win in the Race Against Tesla and Waymo",
+          "headline": "Kurv Launches the Kurv Equity Option Income ETF (KEO), Designed to Provide Diversified Exposure with Weekly Income Potential",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4fe501670ac22cb4f92ee4eee95eb364307a05c6281f54271e31c0c5ac3d62de"
+          "url": "https://finnhub.io/api/news?id=8a3c2426f941c6af4f33ec6809484592802253929cf8e46cc0b6100db2bc86bb"
         }
       ],
       "earnings": [
@@ -509,13 +512,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 327.35,
-      "change": 5.27,
-      "changePercent": 1.6362,
-      "high": 329.57,
-      "low": 320.7901,
-      "open": 324,
-      "prevClose": 322.08,
+      "price": 323.49,
+      "change": -3.86,
+      "changePercent": -1.1792,
+      "high": 327.14,
+      "low": 320.43,
+      "open": 325.17,
+      "prevClose": 327.35,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.29T",
@@ -531,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Kurv Launches the Kurv Equity Option Income ETF (KEO), Designed to Provide Diversified Exposure with Weekly Income Potential",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=8a3c2426f941c6af4f33ec6809484592802253929cf8e46cc0b6100db2bc86bb"
+        },
+        {
+          "headline": "This Week In Electric Vehicles - Battery Market's Billion-Dollar Surge Powers Global Growth",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=f42bfd23d73b86eb3ec07414374e451b09df115ef578546edaeaf37fad3f6dfe"
+        },
+        {
+          "headline": "Tesla vs. Rocket Lab: Which Is the Better Innovation Stock to Own for the Next 10 Years?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=79fb0531318cac2f0ae5a1557bbe9d0727bac54ccfd9faa2e4dbc5ee8652c73c"
+        },
+        {
           "headline": "SpaceX And Tesla Earnings Have A Similar Theme: Capex Spending",
           "source": "Yahoo",
-          "timeAgo": "50m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=ebe847c3c413515d8db5d7a1fc07ec44f0a6e7d665b9dc53bfe1efb970f07871"
         },
         {
           "headline": "Michael Burry warns of 1987-style crash, holds Nvidia shorts",
           "source": "Yahoo",
-          "timeAgo": "52m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=b6411eb28cc7a0b70b75de020557733a601e7f9e98462402c71a0aa527f19367"
-        },
-        {
-          "headline": "“A Possible 1987-Type Fall”: Why Michael Burry Refuses to Cover His Bets as Stocks Hit New Highs",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b830d3e6189c7c93d13db4a84362516506cbaf719de173d500e10513c09668d9"
-        },
-        {
-          "headline": "EVgo Expands Fast Charging in the U.S. with Supercharger Deployment",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=753877f68ebd8701daedf69c33283a964ae8ce1b8670a54ab47e0eaa5ee8196e"
-        },
-        {
-          "headline": "The $5 Billion Leveraged Tesla ETF That Doubles Every Move",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=33ae253554df3bb08e7a937d5aca98ce5ea7740955d3ff5da1fc1bda687ad6d9"
         }
       ],
       "earnings": [
