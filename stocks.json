@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-07T17:37:20.720Z",
+  "updatedAt": "2026-08-07T18:34:46.309Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7744.45,
-      "change": 34.49,
-      "changePercent": 0.4473,
+      "price": 7737.39,
+      "change": 27.43,
+      "changePercent": 0.3558,
       "high": 7763.08,
       "low": 7719.19,
       "open": 0,
       "prevClose": 7709.9599609375,
       "week52High": 7763.08,
       "week52Low": 6316.91,
-      "volume": "1.4B",
+      "volume": "1.6B",
       "sparklineData": [
         7482.7099609375,
         7543.64013671875,
@@ -38,7 +38,7 @@
         7736.52001953125,
         7723.5498046875,
         7709.9599609375,
-        7744.4501953125
+        7737.39013671875
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53968.24,
-      "change": 83.14,
-      "changePercent": 0.1543,
+      "price": 53925.82,
+      "change": 40.72,
+      "changePercent": 0.0756,
       "high": 54094.65,
       "low": 53807.94,
       "open": 0,
       "prevClose": 53885.1015625,
       "week52High": 54094.65,
       "week52Low": 43911.31,
-      "volume": "191.5M",
+      "volume": "215.8M",
       "sparklineData": [
         52348.390625,
         52487.41015625,
@@ -92,7 +92,7 @@
         54085.87890625,
         54349.12109375,
         53885.1015625,
-        53968.23828125
+        53925.8203125
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26594.947,
-      "change": 246.6,
-      "changePercent": 0.9359,
+      "price": 26574.107,
+      "change": 225.76,
+      "changePercent": 0.8568,
       "high": 26709.54,
       "low": 26478.006,
       "open": 0,
       "prevClose": 26348.349609375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "4.5B",
+      "volume": "5.1B",
       "sparklineData": [
         25870.650390625,
         26206.890625,
@@ -146,7 +146,7 @@
         26584.990234375,
         26363.439453125,
         26348.349609375,
-        26594.947265625
+        26574.107421875
       ],
       "sector": "",
       "marketCap": "",
@@ -168,9 +168,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 312.68,
-      "change": 0.27,
-      "changePercent": 0.0864,
+      "price": 311.8,
+      "change": -0.61,
+      "changePercent": -0.1953,
       "high": 314.81,
       "low": 310.74,
       "open": 311.835,
@@ -182,7 +182,7 @@
       "week52High": 344.5699,
       "week52Low": 205.59,
       "beta": 1.0833228,
-      "peRatio": 40.5943,
+      "peRatio": 40.7819,
       "eps": 7.465,
       "dividendYield": "0.35%",
       "volume": "65.1M",
@@ -190,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ad587f616e3440cc360f0ff35dfea0b6b74fe3d149384b71c46c2afc9e0ca425"
+        },
+        {
           "headline": "Exploring the top movers within the dow jones index during today's session.",
           "source": "ChartMill",
-          "timeAgo": "57m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=90e59b20f2b77e8be0f9b80023cfea68966c63722d4f19a0161c55c2e4e3141a"
+        },
+        {
+          "headline": "Prediction: Can Apple Stock Reach $400 This Year?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=29ab2cb310108052c37f125dd9c00f6912f6b7902c5c4f2eb07997898669f2e0"
+        },
+        {
+          "headline": "Apple (AAPL) Seeks Injunction In AI Trade Secret Lawsuit",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=e2a078d4a7c9e31e5f9e1ce094226db5e100d47274a0bcc96c6cf4fcba83b2fb"
         },
         {
           "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
-        },
-        {
-          "headline": "Sony’s PlayStation Store Now Faces Antitrust Suits in Five Countries",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b18da6ca80494e16b8f9ab6e5ac7f530a4fb29aa25a46978874d250a1444d86b"
-        },
-        {
-          "headline": "Microsoft Stock's Peak Margin And Its Azure Bill Are The Same Story",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=85d69e978d8d45189fb1ac302c1bdbab625a224b6320fc2aec8a95faa83f2181"
-        },
-        {
-          "headline": "Papa Murphy's abruptly closes all Tennessee's locations",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=7e5dbbd1d92be57c29c5c11fbf2ee97549a8eb0d099676cbfc3f22785d9915ff"
         }
       ],
       "earnings": [
@@ -254,9 +254,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 354.67,
-      "change": -3.08,
-      "changePercent": -0.8609,
+      "price": 354.29,
+      "change": -3.46,
+      "changePercent": -0.9672,
       "high": 358.9,
       "low": 353.78,
       "open": 357.895,
@@ -276,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Exploring the top movers within the dow jones index during today's session.",
-          "source": "ChartMill",
-          "timeAgo": "57m ago",
-          "url": "https://finnhub.io/api/news?id=90e59b20f2b77e8be0f9b80023cfea68966c63722d4f19a0161c55c2e4e3141a"
+          "headline": "Whatnot raises $545M Series G at $20 billion valuation",
+          "source": "Yahoo",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=c9c0d47c4670097c56464e13109efeb20fbdbee25b50923186953b81be78b284"
         },
         {
-          "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
+          "headline": "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
+          "url": "https://finnhub.io/api/news?id=ad587f616e3440cc360f0ff35dfea0b6b74fe3d149384b71c46c2afc9e0ca425"
         },
         {
-          "headline": "Alphabet Taps the Bond Market Again for Up to $25 Billion",
+          "headline": "Alphabet’s Cloud vs Meta’s Superintelligence: Who Wins Q2?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d83a60fcf74ed7bd52103d63a79bc3ebf64db5b8e35610ae3f4b3b8973f24dac"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=4ba5304c5624927085ae5daf141a012ca78fba3ef410f8caa1526f80f42a30bd"
         },
         {
-          "headline": "Price Prediction: Google Will Hit $400 on This Date",
+          "headline": "Lyft Q2 Rides, Gross Bookings Growth Support Higher Estimates, RBC Says",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=cd0e741477c373895f0f4fcbb049d869092949a13b3e792cbaf7c9abb46fc0d6"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=2790d6a94055343648890b542acffbd953045d6d64894eb7eb0028733acf359e"
         },
         {
-          "headline": "Microsoft, Amazon, Meta, Google Are 'Collectively Overinvesting' In AI: 'That's Betting, Not Investing,' Says 'Dean of Valuation'",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=cc38c4453abb22c5e7fbe1db1716b356a0a19897a010289d815ab76bed172d40"
+          "headline": "Exploring the top movers within the dow jones index during today's session.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=90e59b20f2b77e8be0f9b80023cfea68966c63722d4f19a0161c55c2e4e3141a"
         }
       ],
       "earnings": [
@@ -340,9 +340,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 498.96,
-      "change": -0.9,
-      "changePercent": -0.1801,
+      "price": 499.51,
+      "change": -0.35,
+      "changePercent": -0.07,
       "high": 505.18,
       "low": 498.73,
       "open": 499.215,
@@ -364,32 +364,32 @@
         {
           "headline": "Exploring the top movers within the dow jones index during today's session.",
           "source": "ChartMill",
-          "timeAgo": "57m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=90e59b20f2b77e8be0f9b80023cfea68966c63722d4f19a0161c55c2e4e3141a"
         },
         {
-          "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
+          "headline": "Microsoft Is Winning the AI Cash Flow Test",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
+          "url": "https://finnhub.io/api/news?id=ae0b99b8ef1003cc825dd5163f680bc35b431691d87680d182d39a88390e3d3a"
         },
         {
-          "headline": "CoreWeave Faces a 15.5% Earnings Swing as AI Spending Gets Tested",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=bfc6c1c81e5a718b6165dbf210fb9b91ecfa35e3bf95e88eb71d2076ec691571"
-        },
-        {
-          "headline": "Price Prediction: Google Will Hit $400 on This Date",
+          "headline": "Datadog Posts Q2 Beat as Observability, AI Demand Remain Strong, RBC Capital Markets Says",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=cd0e741477c373895f0f4fcbb049d869092949a13b3e792cbaf7c9abb46fc0d6"
+          "url": "https://finnhub.io/api/news?id=7a9096af9312f778f3ed37881b8a88b2f3d551559b7bddd5c065db5ea43057ac"
         },
         {
-          "headline": "Figma Is Paying For The Products It Has Not Started Charging For",
+          "headline": "Prediction: Can Apple Stock Reach $400 This Year?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=bd294e0344ca19c3763772c4bc4feca0dce3d3e7b57fbf474c25c35c4534b841"
+          "url": "https://finnhub.io/api/news?id=29ab2cb310108052c37f125dd9c00f6912f6b7902c5c4f2eb07997898669f2e0"
+        },
+        {
+          "headline": "Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains. Here's Why That Matters for Investors",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a313ed5e3b7a505f88cc2267c1fb33187b62c8b48586d438e15c8ea1c2734936"
         }
       ],
       "earnings": [
@@ -426,9 +426,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 274.26,
-      "change": 2,
-      "changePercent": 0.7346,
+      "price": 274.63,
+      "change": 2.37,
+      "changePercent": 0.8705,
       "high": 278.31,
       "low": 272.72,
       "open": 272.72,
@@ -450,32 +450,32 @@
         {
           "headline": "Exploring the top movers within the dow jones index during today's session.",
           "source": "ChartMill",
-          "timeAgo": "57m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=90e59b20f2b77e8be0f9b80023cfea68966c63722d4f19a0161c55c2e4e3141a"
+        },
+        {
+          "headline": "Microsoft Is Winning the AI Cash Flow Test",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ae0b99b8ef1003cc825dd5163f680bc35b431691d87680d182d39a88390e3d3a"
+        },
+        {
+          "headline": "Amazon's $220 billion AI bet hits a snag: Trainium 2 chips are only 20 months old and already being replaced",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=4bd99db423abcc1ab517a6122033da4db790f2332b31a51f41e778c03deec110"
+        },
+        {
+          "headline": "LaFontaine Automotive Group Joins Amazon Autos Marketplace with More Than 40 Retail Locations in Michigan",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7f322373c76f17361af4294f78169c914d9abc17f2471e0c69e4391a80f2c192"
         },
         {
           "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
-        },
-        {
-          "headline": "Top Midday Stories: Stocks Rise on Dismal Jobs Report; Doximity Shares Soar After CEO Touts New AI Search Tool",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=0aea9636d79d1cb88c5b9e5e1ecdae685821d015ef5c60b52ef05611d780a249"
-        },
-        {
-          "headline": "Alphabet Taps the Bond Market Again for Up to $25 Billion",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d83a60fcf74ed7bd52103d63a79bc3ebf64db5b8e35610ae3f4b3b8973f24dac"
-        },
-        {
-          "headline": "Microsoft, Amazon, Meta, Google Are 'Collectively Overinvesting' In AI: 'That's Betting, Not Investing,' Says 'Dean of Valuation'",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=cc38c4453abb22c5e7fbe1db1716b356a0a19897a010289d815ab76bed172d40"
         }
       ],
       "earnings": [
@@ -512,9 +512,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 327.19,
-      "change": 7.66,
-      "changePercent": 2.3973,
+      "price": 327.43,
+      "change": 7.9,
+      "changePercent": 2.4724,
       "high": 333.73,
       "low": 321.2508,
       "open": 321.86,
@@ -534,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "SpaceX’s Terafab will rely on natural gas power plants, not Tesla solar panels",
+          "headline": "Most active S&P500 stocks in Friday's session",
+          "source": "ChartMill",
+          "timeAgo": "29m ago",
+          "url": "https://finnhub.io/api/news?id=21ae4947413e462bde9ae3d01a07161031a4fd3833a2d40315510d88e2728fba"
+        },
+        {
+          "headline": "Musk's SpaceX, Tesla to build $16.8B Terafab chip factory in Texas",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=02a8079a2ee6e45ff447ab64ffc686040c1b4e30be1cc1d7447059b6f9b8dfbc"
+        },
+        {
+          "headline": "Elon Musk Says AI Needs More Power Than the Grid Can Handle. Is He Right?",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=3c0b96759519476b0faf161ec553e732693210933d0eb1d7a2e7662ea9a46406"
+        },
+        {
+          "headline": "Tesla's Battery Business Is Growing Faster Than Its Cars— and a New Texas Factory for Megapack 3 Just Went Live",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=09c6e904c9ba3011c7397dbe7bf42473c3d23775af71c647f65a2f49b3d79334"
+          "url": "https://finnhub.io/api/news?id=39214691aea1627feb2bbb95215df2740d63f1c61cf7b774db2f63d251bf7060"
         },
         {
-          "headline": "Elon Musk Says SpaceX Will Consume Three Times More Terafab AI Compute Than Tesla",
+          "headline": "Ouster Q2 Earnings Surpass Expectations on Sensor Growth",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=ee07a0dc5c37e5e33cfb11a5528f2365ff1010010fa18ccfbe0dd390a44732e5"
-        },
-        {
-          "headline": "Tesla Stock Rises to End Good Week. Thank the Usual Suspects.",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=f98715d3f63069f4958569334df805fe1f64c906f3b1ecc3ca1deffaecbd641f"
-        },
-        {
-          "headline": "Ford Drops Fathom EV — and It Undercuts Tesla’s Cybertruck by 2.5x",
-          "source": "Benzinga",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=f1caa922b06dc09ae44de3b33723250306fe10a2c724e6e3f43e413b966197a9"
-        },
-        {
-          "headline": "SPCX Stock Hasn’t Bottomed Out Yet, But It’s ‘A Really Great Time To Buy,’ Says This Asset Manager",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=295906ea47a038cd9159424e8cdb8c1673912a2e3f940160571b1bed12845007"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=aa00bf7072fa503defc313b35fed2e4225ca606133560680f163fa29be14e328"
         }
       ],
       "earnings": [
