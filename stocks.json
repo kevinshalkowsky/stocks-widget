@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-10T14:08:46.880Z",
+  "updatedAt": "2026-08-10T15:45:39.606Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7762.75,
-      "change": 5.11,
-      "changePercent": 0.0659,
-      "high": 7762.96,
+      "price": 7762.25,
+      "change": 4.61,
+      "changePercent": 0.0594,
+      "high": 7773.76,
       "low": 7748.42,
       "open": 0,
       "prevClose": 7757.64013671875,
       "week52High": 7793.68,
       "week52Low": 6316.91,
-      "volume": "420.7M",
+      "volume": "925.6M",
       "sparklineData": [
         7515.33984375,
         7543.58984375,
@@ -36,7 +36,7 @@
         7723.5498046875,
         7709.9599609375,
         7757.64013671875,
-        7762.75
+        7762.25
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53905.98,
-      "change": -130.95,
-      "changePercent": -0.2423,
+      "price": 53973.47,
+      "change": -63.46,
+      "changePercent": -0.1174,
       "high": 54072.66,
       "low": 53866.69,
       "open": 0,
       "prevClose": 54036.9296875,
       "week52High": 54744.33,
       "week52Low": 43911.31,
-      "volume": "72.2M",
+      "volume": "148.8M",
       "sparklineData": [
         52498.640625,
         52508.26953125,
@@ -88,7 +88,7 @@
         54349.12109375,
         53885.1015625,
         54036.9296875,
-        53905.98046875
+        53973.46875
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26681.951,
-      "change": -8.67,
-      "changePercent": -0.0325,
-      "high": 26687.629,
-      "low": 26603.13,
+      "price": 26643.256,
+      "change": -47.36,
+      "changePercent": -0.1774,
+      "high": 26724.63,
+      "low": 26593.959,
       "open": 0,
       "prevClose": 26690.619140625,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "1.8B",
+      "volume": "3.1B",
       "sparklineData": [
         25873.1796875,
         26107.009765625,
@@ -140,7 +140,7 @@
         26363.439453125,
         26348.349609375,
         26690.619140625,
-        26681.951171875
+        26643.255859375
       ],
       "sector": "",
       "marketCap": "",
@@ -162,9 +162,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 306.62,
-      "change": -6.71,
-      "changePercent": -2.1415,
+      "price": 306.59,
+      "change": -6.74,
+      "changePercent": -2.1511,
       "high": 310.01,
       "low": 304.61,
       "open": 310.01,
@@ -184,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "US Treasury, IRS set out initial framework for Saver’s Match rollout",
+          "headline": "Apple downgraded, HPE upgraded: Wall Street's top analyst calls",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f33118d510c11f497d05d3f2856cb01530507dc82913cd7df77d8b67d31eac11"
+          "url": "https://finnhub.io/api/news?id=60e1ba95325eb6d241779d78938c60d416b134d7a9889d1717b9a84e1a836b9a"
         },
         {
-          "headline": "Apple reportedly tests CXMT memory chips as AI demand tightens global supply",
+          "headline": "Apple tests CXMT Chinese memory chips for iPhones, MacBooks",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=6fa7b31205424356e183cae0c4e58fa7d136ba7b686dc4c903ac8ab01cb3be49"
+        },
+        {
+          "headline": "Intel Falls 5% on Proposed $15B Share Sale as AMD, NVIDIA, Broadcom Hold Steady",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=927f79fb8197c08718fbf9047d543896d51722a6794ed50f2089efd239681b44"
+        },
+        {
+          "headline": "Why Did Toshiba Stop Making Laptops?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9ecb9ce5bde6db2f11aed8dfeed3f925e01659d8819fceed96bbeaee0dfe008c"
+        },
+        {
+          "headline": "Apple Stock Downgraded Ahead Of iPhone 18 Launch",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=daec81ef0e6a5b48ede68e5921b32f148fa8271401fac142ced8652aa74cc2ce"
-        },
-        {
-          "headline": "Airbnb CEO: Why AI is the best thing to happen to us",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=c005ebb5e28e93e02bece76d0716840853d520f449164ea57d4a1cfb545f02ea"
-        },
-        {
-          "headline": "Why Is TSM Stock Rising Premarket?",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=bd94b5ad0b888efd62fb078b7d338e52c2dc8409a8fc693ab261e36cc440c5e1"
-        },
-        {
-          "headline": "Micron Stock Gains Even as Apple Looks to China for Memory-Chip Supply",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=8bfcb6e63f75885d13b4fa8ef6e1a3aa9a21bd2edf8784c983c3c4acc360e362"
+          "url": "https://finnhub.io/api/news?id=ca23c17ecfcb487bae90c6ef3dbbedc7020231d384c6d5e444961580b4ad1ee9"
         }
       ],
       "earnings": [
@@ -248,10 +248,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 353.5,
-      "change": -0.8,
-      "changePercent": -0.2258,
-      "high": 356.8,
+      "price": 353.73,
+      "change": -0.57,
+      "changePercent": -0.1609,
+      "high": 357.18,
       "low": 352.71,
       "open": 355.5875,
       "prevClose": 354.3,
@@ -272,31 +272,31 @@
         {
           "headline": "48% of Google Cloud Revenue Next Year Could Come From Just 2 Companies That Have Still Never Turned a Profit",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=c4850ef1efb39f4b0971e18e6c4b001c66613a10f13b47d07a2080b23900b2a2"
         },
         {
           "headline": "JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=9b3b40e6c9c7f9bcbfb95bb22942c5e34ce410b02a047edf8656e7f2c4f3029b"
         },
         {
           "headline": "Warren Buffett Bought Alphabet Stock Last Year. He Might Buy This Megacap Stock Next, Says a Wall Street Expert.",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=f57ea8afd003855794d9688fc464e2bfb653eef4e346159a988aeb19b0ed7213"
         },
         {
           "headline": "Cold Jobs Report Warms Up Wall Street, Airbnb Steals the Show",
           "source": "ChartMill",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=3265d1322a7e3a01d1233f899e1eb92b1554c6337fa460fa9b425d9af368fe77"
         },
         {
           "headline": "Why Is TSM Stock Rising Premarket?",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=bd94b5ad0b888efd62fb078b7d338e52c2dc8409a8fc693ab261e36cc440c5e1"
         }
       ],
@@ -334,10 +334,10 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 508.27,
-      "change": 8.28,
-      "changePercent": 1.656,
-      "high": 509.51,
+      "price": 509.73,
+      "change": 9.74,
+      "changePercent": 1.948,
+      "high": 513.73,
       "low": 501.585,
       "open": 501.585,
       "prevClose": 499.99,
@@ -348,7 +348,7 @@
       "week52High": 553.72,
       "week52Low": 349.2,
       "beta": 1.1115295,
-      "peRatio": 27.7587,
+      "peRatio": 28.0774,
       "eps": 17.9457,
       "dividendYield": "0.73%",
       "volume": "49.4M",
@@ -356,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "48% of Google Cloud Revenue Next Year Could Come From Just 2 Companies That Have Still Never Turned a Profit",
+          "headline": "Update: Market Chatter: BlackRock Signs Deal With Unions for AI Construction Jobs",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c4850ef1efb39f4b0971e18e6c4b001c66613a10f13b47d07a2080b23900b2a2"
+          "url": "https://finnhub.io/api/news?id=8924a85b73733d98977f7b85d0f1cedce984c29c82804423dbfe7d8436f0d9a6"
         },
         {
-          "headline": "Dan Ives Says Big Tech Earnings Were The 'Wow Moment' For AI Monetization — 'It's All Starting To Come Together'",
+          "headline": "Market Chatter: Microsoft Plans to Ramp Up Homegrown AI Chip Production Next Year",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=c4591d44d88d103b97e114749816e8c4d6fabb8ce0f6c07dd5e989f103c059e6"
+        },
+        {
+          "headline": "The setup in this Magnificent 7 stock is \"really strong,\" Bernstein says",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=007c7d5a45f24a37cdd5664fb45d6cb8aaad63fb2b41c80229f7797a142059f0"
+        },
+        {
+          "headline": "The World's Largest AI Companies Built Deployment Arms This Year. Harbor Built One for Law",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=317a155dc67c693e885c50185d7ffff54385d88fb740eee15d334481cbcf1fe8"
+        },
+        {
+          "headline": "Oracle’s Rebound Is All But Assured So I Keep Buying",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=9c1c8205490c74caf8fa2a8df573318f76a8fade3fbd3c8d815d08c2a5bfac0d"
-        },
-        {
-          "headline": "JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=9b3b40e6c9c7f9bcbfb95bb22942c5e34ce410b02a047edf8656e7f2c4f3029b"
-        },
-        {
-          "headline": "Why Is TSM Stock Rising Premarket?",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=bd94b5ad0b888efd62fb078b7d338e52c2dc8409a8fc693ab261e36cc440c5e1"
-        },
-        {
-          "headline": "Sovereign AI Infrastructure Market Till 2040 Now Available — Forecasts Growth from $24.8B to $301.6B, Profiles NVIDIA, Microsoft, AWS, and 15 Other Key Players",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=177397e685ed08ca73d685be4ee8dae0fefb21b442941597bcfd793be113f04e"
+          "url": "https://finnhub.io/api/news?id=57244ca2b8e728e60e6dde28bb296029af9883adc4d6e0e409e8af0ee409a565"
         }
       ],
       "earnings": [
@@ -420,10 +420,10 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 275.54,
-      "change": 1.06,
-      "changePercent": 0.3862,
-      "high": 276.81,
+      "price": 279.4,
+      "change": 4.92,
+      "changePercent": 1.7925,
+      "high": 279.92,
       "low": 273.6001,
       "open": 274.25,
       "prevClose": 274.48,
@@ -442,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "48% of Google Cloud Revenue Next Year Could Come From Just 2 Companies That Have Still Never Turned a Profit",
+          "headline": "China uses capital markets to fund AI and chip race against U.S.",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c4850ef1efb39f4b0971e18e6c4b001c66613a10f13b47d07a2080b23900b2a2"
+          "url": "https://finnhub.io/api/news?id=f3e46eec3893ff37f71fd97b87fefec73a88f59361eb49ad374333d6f6870344"
         },
         {
-          "headline": "US Treasury, IRS set out initial framework for Saver’s Match rollout",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f33118d510c11f497d05d3f2856cb01530507dc82913cd7df77d8b67d31eac11"
-        },
-        {
-          "headline": "Amazon’s New Texas Data Center On Track To Be Biggest Polluter In America",
+          "headline": "Oracle’s Rebound Is All But Assured So I Keep Buying",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=4c3e890032cab9642f29bd0f7a19cfd78b85a93e38b31a38242196e6b62281ac"
+          "url": "https://finnhub.io/api/news?id=57244ca2b8e728e60e6dde28bb296029af9883adc4d6e0e409e8af0ee409a565"
         },
         {
-          "headline": "MONDAY: O'BRIEN, ZUCKERMAN, AMAZON TEAMSTERS RALLY FOR DELIVERY PROTECTION ACT",
+          "headline": "Amazon Back Near $3 Trillion as Jeff Bezos Reportedly Eyes a Third of Liverpool",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=3ff6de9d2f0842ddd76c70ae2e29c37ba06c5270fdacfe849c24d89e0653d7a5"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=eb8e1f82c0137a592c86d769942b3f52d3d330b9ee76dcd221f5c3b353be604c"
         },
         {
-          "headline": "Airbnb CEO: Why AI is the best thing to happen to us",
+          "headline": "Amazon Texas gas plant could be biggest U.S. climate polluter",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=c005ebb5e28e93e02bece76d0716840853d520f449164ea57d4a1cfb545f02ea"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=7778eae485f4e70977852ab7394154b99d4bd90ecf70e6d00cd3ef2abf94aecc"
+        },
+        {
+          "headline": "Meta shares rise on Muse Glimmer launch and a radical AI vision",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=237d496bea6bff611d38c5b172c48f1466348288c62b5b6a7583ebe3f0ab6e89"
         }
       ],
       "earnings": [
@@ -506,10 +506,10 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 329.72,
-      "change": 1.14,
-      "changePercent": 0.3469,
-      "high": 330.58,
+      "price": 330.23,
+      "change": 1.65,
+      "changePercent": 0.5022,
+      "high": 332.05,
       "low": 326.15,
       "open": 329.0475,
       "prevClose": 328.58,
@@ -528,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Elon Musk Plans to Spend $119 Billion to Construct the World’s Largest Building, Just Outside Houston",
+          "headline": "Tesla or SpaceX: Who Benefits More From Terafab and How",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=ba75bb50c83959b3dcee0f04e5b7d8c4dac0ae160c7ca173031774f56c9d6d73"
+        },
+        {
+          "headline": "Intel Falls 5% on Proposed $15B Share Sale as AMD, NVIDIA, Broadcom Hold Steady",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=927f79fb8197c08718fbf9047d543896d51722a6794ed50f2089efd239681b44"
+        },
+        {
+          "headline": "Elon Musk Says This Is One of the Biggest Challenges for Public Companies",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=fa9ffcec91b6188b538f8565e497f3a73aa956166d9a5c768a8a8217b72869e6"
+        },
+        {
+          "headline": "SpaceX Stock Jumps Again After Lock-Up Rally. When’s the Next Release, What to Expect.",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=77ef213bcf56053f800453d9053edbf50951309c99e066474edd991edfe30e1c"
+          "url": "https://finnhub.io/api/news?id=e9c801790bd3e03e2d69db09fc2f39e82e0c3ca6356bafd3b58d8b00e0319187"
         },
         {
-          "headline": "Tesla Stock Is on a Roll as Retail Traders Buy In",
+          "headline": "Tesla Stock Rises as Army of Fans Help Claw Back Losses",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=1cdd846df8e0525d68738a80c58a72a3c8ea3cc0b563af1034b81accc796fbcd"
-        },
-        {
-          "headline": "Paul Graham Says His Wife’s First Tesla FSD Experience Was Like a ‘Religious Revelation’— and AI Chief Ashok Elluswamy Had One Request When He Heard It",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=4a3ea1ed3b7c009ed581eb2afef64c5c4fb2fc0913ec5a6b6c6015c1e239c83a"
-        },
-        {
-          "headline": "If You'd Invested $10,000 in Tesla a Decade Ago, Here's How Much You'd Have Today",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=8fbd44fbdccaa3804a6f8518ba033bdc9fe678419cdcdbfef93370ad246ecfbe"
-        },
-        {
-          "headline": "Tesla (TSLA) Rumors Swirl Over China Split Ahead Of Possible Merger",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=c7a5ac3f8b0b0aabe0c8e9f2e7e058b23c155402f09f59c66bdc1e69bb122a0f"
+          "url": "https://finnhub.io/api/news?id=505f76b9506180522ff474c4cde2f20bc157373893120eb324f525644fbfe97e"
         }
       ],
       "earnings": [
