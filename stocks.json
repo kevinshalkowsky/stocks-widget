@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-11T19:51:05.198Z",
+  "updatedAt": "2026-08-11T20:30:15.970Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7723.84,
-      "change": -29.27,
-      "changePercent": -0.3775,
+      "price": 7728.2,
+      "change": -24.91,
+      "changePercent": -0.3213,
       "high": 7767.51,
       "low": 7717.25,
       "open": 0,
       "prevClose": 7753.10986328125,
       "week52High": 7793.68,
       "week52Low": 6316.91,
-      "volume": "1.7B",
+      "volume": "2.5B",
       "sparklineData": [
         7515.33984375,
         7543.58984375,
@@ -37,7 +37,7 @@
         7709.9599609375,
         7757.64013671875,
         7753.10986328125,
-        7723.83984375
+        7728.2001953125
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53790.87,
-      "change": -185.11,
-      "changePercent": -0.3429,
+      "price": 53791.85,
+      "change": -184.13,
+      "changePercent": -0.3411,
       "high": 54222.85,
-      "low": 53771.98,
+      "low": 53746.43,
       "open": 0,
       "prevClose": 53975.98046875,
       "week52High": 54744.33,
       "week52Low": 44050.53,
-      "volume": "261.1M",
+      "volume": "378.8M",
       "sparklineData": [
         52498.640625,
         52508.26953125,
@@ -90,7 +90,7 @@
         53885.1015625,
         54036.9296875,
         53975.98046875,
-        53790.87109375
+        53791.8515625
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26422.021,
-      "change": -183.34,
-      "changePercent": -0.6891,
+      "price": 26445.445,
+      "change": -159.91,
+      "changePercent": -0.601,
       "high": 26679.26,
       "low": 26372.307,
       "open": 0,
       "prevClose": 26605.359375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "5.8B",
+      "volume": "6.9B",
       "sparklineData": [
         25873.1796875,
         26107.009765625,
@@ -143,7 +143,7 @@
         26348.349609375,
         26690.619140625,
         26605.359375,
-        26422.021484375
+        26445.4453125
       ],
       "sector": "",
       "marketCap": "",
@@ -165,12 +165,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 304.31,
-      "change": -3.95,
-      "changePercent": -1.2814,
+      "price": 304.91,
+      "change": -3.35,
+      "changePercent": -1.0867,
       "high": 309.97,
       "low": 302.79,
-      "open": 308.04,
+      "open": 307.75,
       "prevClose": 308.26,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -189,13 +189,13 @@
         {
           "headline": "Uncover the latest developments among dow jones stocks in today's session.",
           "source": "ChartMill",
-          "timeAgo": "40m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=5e82ea525220a53dd44151da8aaa4bfeafc253e4a06b421668990e27ea2e7133"
         },
         {
           "headline": "'Apple Executive in Charge of Pay and Wallet Services Is Leaving' - Bloomberg",
           "source": "Benzinga",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=e0f90d85a03c296aad2e502b23ad4fcb4d7748aebdca1fe3229fcf0711c3de02"
         },
         {
@@ -213,7 +213,7 @@
         {
           "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e"
         }
       ],
@@ -251,12 +251,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 344.45,
-      "change": -13.07,
-      "changePercent": -3.6557,
+      "price": 343.8,
+      "change": -13.72,
+      "changePercent": -3.8375,
       "high": 356.81,
-      "low": 343.7,
-      "open": 356.32,
+      "low": 343.39,
+      "open": 355.89,
       "prevClose": 357.52,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -275,14 +275,20 @@
         {
           "headline": "Uncover the latest developments among dow jones stocks in today's session.",
           "source": "ChartMill",
-          "timeAgo": "40m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=5e82ea525220a53dd44151da8aaa4bfeafc253e4a06b421668990e27ea2e7133"
         },
         {
           "headline": "Tuesday's session: top gainers and losers in the S&P500 index",
           "source": "ChartMill",
-          "timeAgo": "46m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=504d53a6bc26a2daa4ba0fe5a2839b181f9af8edfca931a81c5fbf2b9f157a15"
+        },
+        {
+          "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd"
         },
         {
           "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
@@ -293,14 +299,8 @@
         {
           "headline": "Dividends Are Sending A Signal",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=babcb957e3abfc410a56107bc201d36b4dd81deae6a09eb74764ea2ad4a90095"
-        },
-        {
-          "headline": "Alphabet Is Poised to Be an AI Winner, Analyst Says",
-          "source": "Benzinga",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=4fdcf24aa820c3eab3735e7e23db01551d8b1f85b4f2f07b05dd3fa803eaf540"
         }
       ],
       "earnings": [
@@ -337,12 +337,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 503.13,
-      "change": -2.93,
-      "changePercent": -0.579,
+      "price": 503.81,
+      "change": -2.25,
+      "changePercent": -0.4446,
       "high": 505.33,
       "low": 499.55,
-      "open": 504.53,
+      "open": 504.33,
       "prevClose": 506.06,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -365,6 +365,12 @@
           "url": "https://finnhub.io/api/news?id=dc7b678c7dd4cd6a3402643873b5496c8607351731d4b73f311288116d81b5e8"
         },
         {
+          "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd"
+        },
+        {
           "headline": "FTEC: Fidelity's IT ETF Is A Fantastic Long-Term Core Tech Holding",
           "source": "SeekingAlpha",
           "timeAgo": "4h ago",
@@ -381,12 +387,6 @@
           "source": "SeekingAlpha",
           "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
-        },
-        {
-          "headline": "CoreWeave or Nebius? Analyst Says the Risk-Reward Now Favors One AI Stock",
-          "source": "Benzinga",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=a4b9b0fbf9777dc1e5cb21fb347ddcc98e66b7a562fb88c5dc5b552e5a4f3e55"
         }
       ],
       "earnings": [
@@ -423,12 +423,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 272.76,
-      "change": -5.33,
-      "changePercent": -1.9166,
+      "price": 272.27,
+      "change": -5.82,
+      "changePercent": -2.0928,
       "high": 278.84,
       "low": 271.36,
-      "open": 278.095,
+      "open": 278.69,
       "prevClose": 278.09,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -447,8 +447,14 @@
         {
           "headline": "Uncover the latest developments among dow jones stocks in today's session.",
           "source": "ChartMill",
-          "timeAgo": "40m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=5e82ea525220a53dd44151da8aaa4bfeafc253e4a06b421668990e27ea2e7133"
+        },
+        {
+          "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd"
         },
         {
           "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
@@ -457,22 +463,16 @@
           "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
         },
         {
-          "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed",
+          "headline": "AI Job Apocalypse Debunked? BofA Presents Nuanced Data — And Warning Signs",
           "source": "Benzinga",
           "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=6e3fd4446c083d4e075ec7627513cbd7a684c7a2e0c6d005017a2c79be2cf70c"
+        },
+        {
+          "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed",
+          "source": "Benzinga",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e"
-        },
-        {
-          "headline": "Irrational Exuberance On Overdrive",
-          "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5"
-        },
-        {
-          "headline": "The Trade Desk: Buying In The Middle Of An Existential Crisis",
-          "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=44b06e7fc1e019a283a61f436c7cafcc5f76a57c1f6859b343cc1e13992b9632"
         }
       ],
       "earnings": [
@@ -509,12 +509,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 331.81,
-      "change": 0.93,
-      "changePercent": 0.2811,
+      "price": 332.81,
+      "change": 1.93,
+      "changePercent": 0.5833,
       "high": 336.2,
       "low": 329.53,
-      "open": 331.9,
+      "open": 332.8,
       "prevClose": 330.88,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -531,6 +531,12 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Polymarket Loads Up on Robinhood, Coinbase, Nasdaq Veterans Ahead of Its Biggest US Test",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=7aa34f9b9597250b8a19d3e4f0025de2a79a36fb32c0ab8ff85fbde11d119a34"
+        },
+        {
           "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
           "source": "SeekingAlpha",
           "timeAgo": "5h ago",
@@ -539,13 +545,13 @@
         {
           "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e"
         },
         {
           "headline": "SpaceX Vs. Tesla: Let's See Which Musk Stock Wins",
           "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=d8f811a02501691f9e6ec2b5c01502e041f08d57123bf106c63fb103e6268106"
         },
         {
@@ -553,12 +559,6 @@
           "source": "Yahoo",
           "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=a7a5ec7e5d034008fddc93a91651a3332160197754630148c17fae6c734301bd"
-        },
-        {
-          "headline": "Amazon's Zoox Launches Paid Robotaxi Service In Las Vegas and Says 'We Need To Be Regulated'— The Smoke Incident That Prompted a Recall Explains Why",
-          "source": "Benzinga",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=0eeae98792cf1e0f96b584693645a6b9358d956818b85ca5e7d69bb010026299"
         }
       ],
       "earnings": [
