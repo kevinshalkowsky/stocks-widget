@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-11T17:45:08.404Z",
+  "updatedAt": "2026-08-11T18:41:12.754Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7735.71,
-      "change": -17.4,
-      "changePercent": -0.2244,
+      "price": 7721.11,
+      "change": -32,
+      "changePercent": -0.4127,
       "high": 7767.51,
-      "low": 7725.8,
+      "low": 7717.25,
       "open": 0,
       "prevClose": 7753.10986328125,
       "week52High": 7793.68,
       "week52Low": 6316.91,
-      "volume": "1.2B",
+      "volume": "1.4B",
       "sparklineData": [
         7515.33984375,
         7543.58984375,
@@ -37,7 +37,7 @@
         7709.9599609375,
         7757.64013671875,
         7753.10986328125,
-        7735.7099609375
+        7721.10986328125
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53889.46,
-      "change": -86.52,
-      "changePercent": -0.1603,
+      "price": 53825.55,
+      "change": -150.43,
+      "changePercent": -0.2787,
       "high": 54222.85,
-      "low": 53858.71,
+      "low": 53806.68,
       "open": 0,
       "prevClose": 53975.98046875,
       "week52High": 54744.33,
       "week52Low": 44050.53,
-      "volume": "188.0M",
+      "volume": "215.1M",
       "sparklineData": [
         52498.640625,
         52508.26953125,
@@ -90,7 +90,7 @@
         53885.1015625,
         54036.9296875,
         53975.98046875,
-        53889.4609375
+        53825.55078125
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26472.668,
-      "change": -132.69,
-      "changePercent": -0.4987,
+      "price": 26386.379,
+      "change": -218.98,
+      "changePercent": -0.8231,
       "high": 26679.26,
-      "low": 26423.182,
+      "low": 26372.307,
       "open": 0,
       "prevClose": 26605.359375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "4.4B",
+      "volume": "4.9B",
       "sparklineData": [
         25873.1796875,
         26107.009765625,
@@ -143,7 +143,7 @@
         26348.349609375,
         26690.619140625,
         26605.359375,
-        26472.66796875
+        26386.37890625
       ],
       "sector": "",
       "marketCap": "",
@@ -165,11 +165,11 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 306.48,
-      "change": -1.78,
-      "changePercent": -0.5774,
+      "price": 303.28,
+      "change": -4.98,
+      "changePercent": -1.6155,
       "high": 309.97,
-      "low": 305.67,
+      "low": 302.79,
       "open": 308.04,
       "prevClose": 308.26,
       "name": "Apple Inc",
@@ -187,9 +187,15 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "10 Information Technology Stocks Whale Activity In Today’s Session",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=5829b090730a3bfaa170b044ad19c11c45548669d7517f64e817df22635d3008"
+        },
+        {
           "headline": "Wall Street Titans Line Up $500 Billion Behind Nvidia's AI Buildout",
           "source": "ChartMill",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=c8e195b822ea32983cfa7a7fe428a81691cad5177a141c8ab398bcb51d2e05a6"
         },
         {
@@ -201,20 +207,14 @@
         {
           "headline": "Dow Jones Futures: Trump Claims 'Control' Of Strait Of Hormuz; SpaceX Rival Rocket Lab Dives On Earnings",
           "source": "Yahoo",
-          "timeAgo": "15h ago",
+          "timeAgo": "16h ago",
           "url": "https://finnhub.io/api/news?id=5ef4b2b2c7acca96aa82b9012e9994ee7882df64bd05adaa359f627b3a89dbda"
         },
         {
           "headline": "HPQ Pays You More Cash Than Most Of The Market",
           "source": "Yahoo",
-          "timeAgo": "16h ago",
+          "timeAgo": "17h ago",
           "url": "https://finnhub.io/api/news?id=4b1f1bec8518c0b7f65839c4d49145aa8d71748beef05645178ccb7b87a2bf29"
-        },
-        {
-          "headline": "Nanoveu secures US$300,000 EyeFly3D pilot order for India launch",
-          "source": "Yahoo",
-          "timeAgo": "16h ago",
-          "url": "https://finnhub.io/api/news?id=1e27ffd93f1ff7851afced2d4de990b605c8ba40d6bff12360bfb5df07f02042"
         }
       ],
       "earnings": [
@@ -251,11 +251,11 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 347.79,
-      "change": -9.73,
-      "changePercent": -2.7215,
+      "price": 345.82,
+      "change": -11.7,
+      "changePercent": -3.2725,
       "high": 356.81,
-      "low": 346.44,
+      "low": 345.76,
       "open": 356.32,
       "prevClose": 357.52,
       "name": "Alphabet Inc",
@@ -275,32 +275,32 @@
         {
           "headline": "Uncover the latest developments among dow jones stocks in today's session.",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=dc7b678c7dd4cd6a3402643873b5496c8607351731d4b73f311288116d81b5e8"
+        },
+        {
+          "headline": "Dividends Are Sending A Signal",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=babcb957e3abfc410a56107bc201d36b4dd81deae6a09eb74764ea2ad4a90095"
         },
         {
           "headline": "Amazon's Zoox Launches Paid Robotaxi Service In Las Vegas and Says 'We Need To Be Regulated'— The Smoke Incident That Prompted a Recall Explains Why",
           "source": "Benzinga",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=0eeae98792cf1e0f96b584693645a6b9358d956818b85ca5e7d69bb010026299"
         },
         {
           "headline": "This AI Cloud Stock Is Obliterating Amazon, Microsoft, and Alphabet With a 1-Year Return of 275%. Is It Still a Buy?",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=8ebe30cd8b7dc05c7c9e8a6b162056fbf75580e6b037e11f3f877315b7f675aa"
         },
         {
           "headline": "Hyperscalers Are 'All In' On Singularity, And OpenAI's Astra Gives Hope",
           "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=3fdd8e6cedbdfd6d69208ce3df11f071f2d801b79b60a4325f8e6e15b558f252"
-        },
-        {
-          "headline": "Meta, TikTok, Google and Snap Just Lost a Major Court Battle— and Must Face More Than 3,000 Lawsuits Over Addictive Platforms Targeting Young Users",
-          "source": "Benzinga",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=58988733d04deb8eae00a1bbfda622ed0a2d6cb962329f2464b4589cbe6a3df3"
         }
       ],
       "earnings": [
@@ -337,9 +337,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 503.21,
-      "change": -2.85,
-      "changePercent": -0.5632,
+      "price": 502.43,
+      "change": -3.63,
+      "changePercent": -0.7173,
       "high": 505.33,
       "low": 499.55,
       "open": 504.53,
@@ -361,13 +361,19 @@
         {
           "headline": "Uncover the latest developments among dow jones stocks in today's session.",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=dc7b678c7dd4cd6a3402643873b5496c8607351731d4b73f311288116d81b5e8"
+        },
+        {
+          "headline": "CoreWeave or Nebius? Analyst Says the Risk-Reward Now Favors One AI Stock",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=a4b9b0fbf9777dc1e5cb21fb347ddcc98e66b7a562fb88c5dc5b552e5a4f3e55"
         },
         {
           "headline": "Irrational Exuberance On Overdrive",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5"
         },
         {
@@ -379,14 +385,8 @@
         {
           "headline": "Microsoft Vs. AMD: Investors May Be Watching The Wrong Variables (Panel Regression)",
           "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=a24a7d56c556f48b1a8cbd2d78314b407eb377a74bd3fb38208b8a3d42e59030"
-        },
-        {
-          "headline": "This AI Cloud Stock Is Obliterating Amazon, Microsoft, and Alphabet With a 1-Year Return of 275%. Is It Still a Buy?",
-          "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=8ebe30cd8b7dc05c7c9e8a6b162056fbf75580e6b037e11f3f877315b7f675aa"
         }
       ],
       "earnings": [
@@ -423,11 +423,11 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 272.51,
-      "change": -5.58,
-      "changePercent": -2.0065,
+      "price": 271.54,
+      "change": -6.55,
+      "changePercent": -2.3554,
       "high": 278.84,
-      "low": 271.42,
+      "low": 271.36,
       "open": 278.095,
       "prevClose": 278.09,
       "name": "Amazon.com Inc",
@@ -447,31 +447,31 @@
         {
           "headline": "Uncover the latest developments among dow jones stocks in today's session.",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=dc7b678c7dd4cd6a3402643873b5496c8607351731d4b73f311288116d81b5e8"
         },
         {
           "headline": "Irrational Exuberance On Overdrive",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5"
         },
         {
           "headline": "The Trade Desk: Buying In The Middle Of An Existential Crisis",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=44b06e7fc1e019a283a61f436c7cafcc5f76a57c1f6859b343cc1e13992b9632"
         },
         {
           "headline": "Amazon's Zoox Launches Paid Robotaxi Service In Las Vegas and Says 'We Need To Be Regulated'— The Smoke Incident That Prompted a Recall Explains Why",
           "source": "Benzinga",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=0eeae98792cf1e0f96b584693645a6b9358d956818b85ca5e7d69bb010026299"
         },
         {
           "headline": "This AI Cloud Stock Is Obliterating Amazon, Microsoft, and Alphabet With a 1-Year Return of 275%. Is It Still a Buy?",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=8ebe30cd8b7dc05c7c9e8a6b162056fbf75580e6b037e11f3f877315b7f675aa"
         }
       ],
@@ -509,9 +509,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 331.94,
-      "change": 1.06,
-      "changePercent": 0.3204,
+      "price": 331.16,
+      "change": 0.28,
+      "changePercent": 0.0846,
       "high": 336.2,
       "low": 329.53,
       "open": 331.9,
@@ -533,31 +533,31 @@
         {
           "headline": "SpaceX Vs. Tesla: Let's See Which Musk Stock Wins",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=d8f811a02501691f9e6ec2b5c01502e041f08d57123bf106c63fb103e6268106"
         },
         {
           "headline": "Tesla and SpaceX Committed $16.8 Billion to One Chip Plant. Tesla's Entire Annual Profit Is $3.8 Billion.",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=a7a5ec7e5d034008fddc93a91651a3332160197754630148c17fae6c734301bd"
         },
         {
           "headline": "Amazon's Zoox Launches Paid Robotaxi Service In Las Vegas and Says 'We Need To Be Regulated'— The Smoke Incident That Prompted a Recall Explains Why",
           "source": "Benzinga",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=0eeae98792cf1e0f96b584693645a6b9358d956818b85ca5e7d69bb010026299"
         },
         {
           "headline": "Byrna, Lucid, Park-Ohio, JELD-WEN, and Tesla Shares Skyrocket, What You Need To Know",
           "source": "Yahoo",
-          "timeAgo": "16h ago",
+          "timeAgo": "17h ago",
           "url": "https://finnhub.io/api/news?id=0e36829f262421493eab9a49493f585271bc9274a02ef2eb20de4ba8cb323b07"
         },
         {
           "headline": "Tesla Just Found Another Way to Grow Without Selling a Car",
           "source": "Yahoo",
-          "timeAgo": "17h ago",
+          "timeAgo": "18h ago",
           "url": "https://finnhub.io/api/news?id=3699c9da2069f13acb5b56e6af14ca331da945737e72329b902ed0d1ade4ee4c"
         }
       ],
