@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-12T18:42:21.827Z",
+  "updatedAt": "2026-08-12T19:54:04.894Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7758.79,
-      "change": 30.59,
-      "changePercent": 0.3958,
+      "price": 7747.21,
+      "change": 19.01,
+      "changePercent": 0.246,
       "high": 7766.01,
       "low": 7737.95,
       "open": 0,
       "prevClose": 7728.2001953125,
       "week52High": 7793.68,
       "week52Low": 6316.91,
-      "volume": "1.6B",
+      "volume": "2.0B",
       "sparklineData": [
         7515.33984375,
         7543.58984375,
@@ -38,7 +38,7 @@
         7757.64013671875,
         7753.10986328125,
         7728.2001953125,
-        7758.7900390625
+        7747.2099609375
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53839.54,
-      "change": 47.69,
-      "changePercent": 0.0887,
+      "price": 53762.46,
+      "change": -29.39,
+      "changePercent": -0.0546,
       "high": 53969.36,
       "low": 53731.96,
       "open": 0,
       "prevClose": 53791.8515625,
       "week52High": 54744.33,
       "week52Low": 44571.53,
-      "volume": "248.0M",
+      "volume": "305.1M",
       "sparklineData": [
         52498.640625,
         52508.26953125,
@@ -92,7 +92,7 @@
         54036.9296875,
         53975.98046875,
         53791.8515625,
-        53839.5390625
+        53762.4609375
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26640.322,
-      "change": 194.87,
-      "changePercent": 0.7369,
+      "price": 26591.795,
+      "change": 146.35,
+      "changePercent": 0.5534,
       "high": 26688.24,
       "low": 26531.926,
       "open": 0,
       "prevClose": 26445.44921875,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "4.9B",
+      "volume": "5.9B",
       "sparklineData": [
         25873.1796875,
         26107.009765625,
@@ -146,7 +146,7 @@
         26690.619140625,
         26605.359375,
         26445.44921875,
-        26640.322265625
+        26591.794921875
       ],
       "sector": "",
       "marketCap": "",
@@ -168,9 +168,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 301.23,
-      "change": -3.68,
-      "changePercent": -1.2069,
+      "price": 301.7,
+      "change": -3.21,
+      "changePercent": -1.0528,
       "high": 305.66,
       "low": 300.57,
       "open": 305.05,
@@ -190,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Wednesday's session: top gainers and losers in the dow jones index",
+          "source": "ChartMill",
+          "timeAgo": "43m ago",
+          "url": "https://finnhub.io/api/news?id=78e6af217bf3b8ef504efd01eebe1e228efe4df12fa1c3ac18a373b2e6fb651e"
+        },
+        {
           "headline": "Which S&P500 stocks are the most active on Wednesday?",
           "source": "ChartMill",
-          "timeAgo": "37m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=89440173c0d17d0687c2c2d7bfb0f562b83c3f2aa5af7ba97e4b1195b6f44021"
         },
         {
           "headline": "Which dow jones stocks are moving on Wednesday?",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3"
+        },
+        {
+          "headline": "Super Micro, Lumentum, CoreWeave Earnings Highlight AI Infrastructure Demand; CPI Data Shows Stagflation Risks Remain",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=d3433d6184daca629c457ced155a8476c05d9747a9544fdfbd7d00f292e3db51"
         },
         {
           "headline": "Sandisk Stock: Why I'm Buying On Fear (Rating Upgrade)",
           "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=2d9e392ce05b185ec600cc57e048a82cd70d5feeda9193657fd91f9792206ba2"
-        },
-        {
-          "headline": "Google’s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
-          "source": "CNBC",
           "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=5dde94cd3b8300f913fde5fb98794701c69bc5e0d4e729aee0641f5b85b2c50e"
-        },
-        {
-          "headline": "Apple: A Rare Downgrade That Has Nothing To Do With AI",
-          "source": "SeekingAlpha",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=4171a74fc19d28a8575737b467c005c20981a5be33b08b5a610d02a9b3954457"
+          "url": "https://finnhub.io/api/news?id=2d9e392ce05b185ec600cc57e048a82cd70d5feeda9193657fd91f9792206ba2"
         }
       ],
       "earnings": [
@@ -254,9 +254,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 343.84,
-      "change": 0.04,
-      "changePercent": 0.0116,
+      "price": 343.78,
+      "change": -0.02,
+      "changePercent": -0.0058,
       "high": 346.48,
       "low": 340.88,
       "open": 345.97,
@@ -278,31 +278,31 @@
         {
           "headline": "Stock Market Today: Nasdaq 100 Rises on Strong AI Earnings, Benign Inflation",
           "source": "Benzinga",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=7cb1bffb27ed49f5557a3674c922ff25f84eb2b4b0bc3a94822ad9cc3d702d0a"
         },
         {
           "headline": "Elon Musk Says AI Will Be SpaceX's Biggest Business by September: Does the Math Check Out?",
           "source": "Benzinga",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=11e402cf842a1115f49674c4e1e0791fd4e25df9e4e0ac49e3cd626d7392d760"
         },
         {
           "headline": "Google Raises Pixel 11 Series Entry Prices Across All Three Models; Drops 128GB Tier",
           "source": "Benzinga",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=c9df3dbc2a8cc05943c78e7bd95a09e27ab3a06244d3eed26cb42ca8b4877227"
         },
         {
           "headline": "Google Raises Starting Price For Pixel Watch 5 Models",
           "source": "Benzinga",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=0b1ba7d19264cd85baed0db77e8782519e1aaffde2d3bd8fc882c502582eccfd"
         },
         {
           "headline": "'Google’s Wearables Will Track Insulin Resistance in Category First'- Bloomberg",
           "source": "Benzinga",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=a7c9567af7ce351ee676df69be29ca5eb2135c9e9c4b2d15c7f8521f84b4bd4d"
         }
       ],
@@ -340,9 +340,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 492.28,
-      "change": -11.53,
-      "changePercent": -2.2886,
+      "price": 494.12,
+      "change": -9.69,
+      "changePercent": -1.9233,
       "high": 501.5,
       "low": 491.52,
       "open": 500.11,
@@ -362,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Wednesday's session: top gainers and losers in the dow jones index",
+          "source": "ChartMill",
+          "timeAgo": "43m ago",
+          "url": "https://finnhub.io/api/news?id=78e6af217bf3b8ef504efd01eebe1e228efe4df12fa1c3ac18a373b2e6fb651e"
+        },
+        {
           "headline": "Which dow jones stocks are moving on Wednesday?",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3"
+        },
+        {
+          "headline": "Can The AI Adoption Boom Send S&P 500 To 9,000?",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=409a7a5e9393cbf0ca0542aa683543b757d078ea5ee30a1ea68e6dee6ff42208"
+        },
+        {
+          "headline": "Super Micro, Lumentum, CoreWeave Earnings Highlight AI Infrastructure Demand; CPI Data Shows Stagflation Risks Remain",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=d3433d6184daca629c457ced155a8476c05d9747a9544fdfbd7d00f292e3db51"
         },
         {
           "headline": "Neocloud Stocks Catch Fire As CoreWeave Doubles Revenue",
           "source": "Benzinga",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=95252649a1e4ff922b1b58c548ff39a71afd31c5c07d9bf3489bb0a516655f85"
-        },
-        {
-          "headline": "'Lightspeed Seeks $600 Million for Anthropic, OpenAI Wagers' - Bloomberg",
-          "source": "Benzinga",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=df46b71470a1f914fc193b4f61f8f53868e6e1b1d6b030aa2e204c790f132709"
-        },
-        {
-          "headline": "Elon Musk's SpaceX Lands $1.22 Billion Investment From Norway’s $2.3 Trillion Sovereign Wealth Fund",
-          "source": "Benzinga",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=2a50269c6e35b49bb49729fea8b708e15ace63ddce8404522c29690389b2748f"
-        },
-        {
-          "headline": "Quantinuum Strikes Oracle Deal as Quantum Cloud Race Heats Up: ‘Next Phase of Enterprise Computing’",
-          "source": "Benzinga",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=22aa240f54a202d18a701589ae11d3cc64385d6f83e41a447c68b041e86befd6"
         }
       ],
       "earnings": [
@@ -426,9 +426,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 268.76,
-      "change": -3.51,
-      "changePercent": -1.2892,
+      "price": 268.17,
+      "change": -4.1,
+      "changePercent": -1.5059,
       "high": 273.46,
       "low": 267.555,
       "open": 272.5275,
@@ -448,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Wednesday's session: top gainers and losers in the dow jones index",
+          "source": "ChartMill",
+          "timeAgo": "43m ago",
+          "url": "https://finnhub.io/api/news?id=78e6af217bf3b8ef504efd01eebe1e228efe4df12fa1c3ac18a373b2e6fb651e"
+        },
+        {
           "headline": "Which dow jones stocks are moving on Wednesday?",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3"
+        },
+        {
+          "headline": "Can The AI Adoption Boom Send S&P 500 To 9,000?",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=409a7a5e9393cbf0ca0542aa683543b757d078ea5ee30a1ea68e6dee6ff42208"
+        },
+        {
+          "headline": "Super Micro, Lumentum, CoreWeave Earnings Highlight AI Infrastructure Demand; CPI Data Shows Stagflation Risks Remain",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=d3433d6184daca629c457ced155a8476c05d9747a9544fdfbd7d00f292e3db51"
         },
         {
           "headline": "Amazon shares appear stuck in a rut. Trader Mike Khouw is betting things will stay that way",
           "source": "CNBC",
-          "timeAgo": "6h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=a0aef88b93b9ae4f4be8bd10d5c62817595023a2f59ce62ad24e8c021ce8a4df"
-        },
-        {
-          "headline": "Neocloud Stocks Catch Fire As CoreWeave Doubles Revenue",
-          "source": "Benzinga",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=95252649a1e4ff922b1b58c548ff39a71afd31c5c07d9bf3489bb0a516655f85"
-        },
-        {
-          "headline": "'Lightspeed Seeks $600 Million for Anthropic, OpenAI Wagers' - Bloomberg",
-          "source": "Benzinga",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=df46b71470a1f914fc193b4f61f8f53868e6e1b1d6b030aa2e204c790f132709"
-        },
-        {
-          "headline": "Wall Street Breakfast Podcast: NYC Delivery Model Detour",
-          "source": "SeekingAlpha",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=85080a2ef98356ff3573cf21b78a69f7b90396a578d8db684e0832a178cdc411"
         }
       ],
       "earnings": [
@@ -512,9 +512,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 326.67,
-      "change": -6.14,
-      "changePercent": -1.8449,
+      "price": 327.22,
+      "change": -5.59,
+      "changePercent": -1.6796,
       "high": 335.5,
       "low": 323.64,
       "open": 334.22,
@@ -536,32 +536,32 @@
         {
           "headline": "Which S&P500 stocks are the most active on Wednesday?",
           "source": "ChartMill",
-          "timeAgo": "37m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=89440173c0d17d0687c2c2d7bfb0f562b83c3f2aa5af7ba97e4b1195b6f44021"
+        },
+        {
+          "headline": "Super Micro, Lumentum, CoreWeave Earnings Highlight AI Infrastructure Demand; CPI Data Shows Stagflation Risks Remain",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=d3433d6184daca629c457ced155a8476c05d9747a9544fdfbd7d00f292e3db51"
         },
         {
           "headline": "Tesla's iTruck Moment",
           "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=f7208f251ae2887df7a53ad2db263a02ff76d34efa9c96248f56cd6cf3e1bdee"
         },
         {
           "headline": "Elon Musk Could Score $824 Billion Payday in Tesla-SpaceX Merger—Ross Gerber Says ‘Fantastical Abundance!’",
           "source": "Benzinga",
-          "timeAgo": "13h ago",
+          "timeAgo": "14h ago",
           "url": "https://finnhub.io/api/news?id=022c01877d025375bea0bbbf5f30d6dd89a44c202141755e5cd92b710434f6f8"
         },
         {
           "headline": "Elon Musk Makes Bold Promise on Flying Cars: ‘You Will Get...’",
           "source": "Benzinga",
-          "timeAgo": "14h ago",
-          "url": "https://finnhub.io/api/news?id=4f815141465b9383d76445575bab8474183df1abb7ab3ca10a290e6b29638021"
-        },
-        {
-          "headline": "World's largest sovereign wealth fund posts record $184 billion profit as it reveals SpaceX stake for the first time",
-          "source": "CNBC",
           "timeAgo": "15h ago",
-          "url": "https://finnhub.io/api/news?id=25b04de769287079f44c360543846b318bbdefa3c3a3e878252d00b6eb14c7ab"
+          "url": "https://finnhub.io/api/news?id=4f815141465b9383d76445575bab8474183df1abb7ab3ca10a290e6b29638021"
         }
       ],
       "earnings": [
