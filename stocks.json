@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-12T15:45:35.827Z",
+  "updatedAt": "2026-08-12T16:42:22.502Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7741.47,
-      "change": 13.27,
-      "changePercent": 0.1717,
+      "price": 7750.63,
+      "change": 22.43,
+      "changePercent": 0.2902,
       "high": 7766.01,
       "low": 7737.95,
       "open": 0,
       "prevClose": 7728.2001953125,
       "week52High": 7793.68,
       "week52Low": 6316.91,
-      "volume": "920.2M",
+      "volume": "1.1B",
       "sparklineData": [
         7515.33984375,
         7543.58984375,
@@ -38,7 +38,7 @@
         7757.64013671875,
         7753.10986328125,
         7728.2001953125,
-        7741.47021484375
+        7750.6298828125
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53809.61,
-      "change": 17.76,
-      "changePercent": 0.033,
+      "price": 53820.59,
+      "change": 28.74,
+      "changePercent": 0.0534,
       "high": 53969.36,
       "low": 53731.96,
       "open": 0,
       "prevClose": 53791.8515625,
       "week52High": 54744.33,
       "week52Low": 44571.53,
-      "volume": "153.1M",
+      "volume": "185.3M",
       "sparklineData": [
         52498.640625,
         52508.26953125,
@@ -76,12 +76,15 @@
         52552.96875,
         52146.421875,
         51839.26171875,
+        52224.640625,
+        52218.578125,
         51711.6484375,
         51947.25,
         52210.078125,
         52747.3203125,
         51594.140625,
         52208.05859375,
+        52485.03125,
         53178.41015625,
         54085.87890625,
         54349.12109375,
@@ -89,7 +92,7 @@
         54036.9296875,
         53975.98046875,
         53791.8515625,
-        53809.609375
+        53820.58984375
       ],
       "sector": "",
       "marketCap": "",
@@ -110,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26549.807,
-      "change": 104.36,
-      "changePercent": 0.3946,
+      "price": 26597.809,
+      "change": 152.36,
+      "changePercent": 0.5761,
       "high": 26688.24,
       "low": 26531.926,
       "open": 0,
       "prevClose": 26445.44921875,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "3.2B",
+      "volume": "3.8B",
       "sparklineData": [
         25873.1796875,
         26107.009765625,
@@ -143,7 +146,7 @@
         26690.619140625,
         26605.359375,
         26445.44921875,
-        26549.806640625
+        26597.80859375
       ],
       "sector": "",
       "marketCap": "",
@@ -165,16 +168,16 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 300.86,
-      "change": -4.05,
-      "changePercent": -1.3283,
+      "price": 301.83,
+      "change": -3.08,
+      "changePercent": -1.0101,
       "high": 305.66,
       "low": 300.57,
       "open": 305.05,
       "prevClose": 304.91,
       "name": "Apple Inc",
       "sector": "Technology",
-      "marketCap": "$4.45T",
+      "marketCap": "$4.39T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
       "week52High": 344.5699,
       "week52Low": 223.78,
@@ -187,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Sandisk Stock: Why I'm Buying On Fear (Rating Upgrade)",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=2d9e392ce05b185ec600cc57e048a82cd70d5feeda9193657fd91f9792206ba2"
+        },
+        {
           "headline": "Apple: A Rare Downgrade That Has Nothing To Do With AI",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=4171a74fc19d28a8575737b467c005c20981a5be33b08b5a610d02a9b3954457"
         },
         {
           "headline": "AI Capex Roars On After Hours as Hormuz Stress Keeps Traders on Edge",
           "source": "ChartMill",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=2fda3972ef45894d8aea037ab08da77b91763a6b420e109649ec7014c5596eec"
         },
         {
           "headline": "Elon Musk's SpaceX Lands $1.22 Billion Investment From Norway’s $2.3 Trillion Sovereign Wealth Fund",
           "source": "Benzinga",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=2a50269c6e35b49bb49729fea8b708e15ace63ddce8404522c29690389b2748f"
         },
         {
           "headline": "It's The Best Time In Years To Retire",
           "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=65d9d95ddd0e58d1ff69831cfaaf02580505080a94c7839a62c83239db5c10ba"
-        },
-        {
-          "headline": "License To Chase The AI Frontier",
-          "source": "SeekingAlpha",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=b1a2e8841528ae00e7dceba325d39891075080c09e04ef766673d256990c7664"
         }
       ],
       "earnings": [
@@ -251,16 +254,16 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 342.31,
-      "change": -1.49,
-      "changePercent": -0.4334,
+      "price": 342.63,
+      "change": -1.17,
+      "changePercent": -0.3403,
       "high": 346.48,
-      "low": 341.33,
+      "low": 340.88,
       "open": 345.97,
       "prevClose": 343.8,
       "name": "Alphabet Inc",
       "sector": "Media",
-      "marketCap": "$4.20T",
+      "marketCap": "$4.19T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
       "week52High": 408.61,
       "week52Low": 196.6,
@@ -273,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Alphabet's Blowout Q2 Confirmed The AI Stack Thesis And Shares Are Still Undervalued",
-          "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=474f30d67a4381a747b36f49fd82f9d885c2b82d2eae50b7a01db0d0185115e1"
-        },
-        {
-          "headline": "Elon Musk's SpaceX Lands $1.22 Billion Investment From Norway’s $2.3 Trillion Sovereign Wealth Fund",
+          "headline": "Elon Musk Says AI Will Be SpaceX's Biggest Business by September: Does the Math Check Out?",
           "source": "Benzinga",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=2a50269c6e35b49bb49729fea8b708e15ace63ddce8404522c29690389b2748f"
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=11e402cf842a1115f49674c4e1e0791fd4e25df9e4e0ac49e3cd626d7392d760"
         },
         {
-          "headline": "It's The Best Time In Years To Retire",
-          "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=65d9d95ddd0e58d1ff69831cfaaf02580505080a94c7839a62c83239db5c10ba"
+          "headline": "Google Raises Pixel 11 Series Entry Prices Across All Three Models; Drops 128GB Tier",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=c9df3dbc2a8cc05943c78e7bd95a09e27ab3a06244d3eed26cb42ca8b4877227"
         },
         {
-          "headline": "Profits And Rates: Could We Be In For A New Round Of Hikes?",
-          "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=b79c2eb8949f1a9363bd93fa0a0f1982099d0377111390cd2d234a2c5dcd8939"
+          "headline": "Google Raises Starting Price For Pixel Watch 5 Models",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=0b1ba7d19264cd85baed0db77e8782519e1aaffde2d3bd8fc882c502582eccfd"
         },
         {
-          "headline": "License To Chase The AI Frontier",
-          "source": "SeekingAlpha",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=b1a2e8841528ae00e7dceba325d39891075080c09e04ef766673d256990c7664"
+          "headline": "'Google’s Wearables Will Track Insulin Resistance in Category First'- Bloomberg",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=a7c9567af7ce351ee676df69be29ca5eb2135c9e9c4b2d15c7f8521f84b4bd4d"
+        },
+        {
+          "headline": "Neocloud Stocks Catch Fire As CoreWeave Doubles Revenue",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=95252649a1e4ff922b1b58c548ff39a71afd31c5c07d9bf3489bb0a516655f85"
         }
       ],
       "earnings": [
@@ -337,16 +340,16 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 493.19,
-      "change": -10.62,
-      "changePercent": -2.1079,
+      "price": 494.1,
+      "change": -9.71,
+      "changePercent": -1.9273,
       "high": 501.5,
       "low": 491.9501,
       "open": 500.11,
       "prevClose": 503.81,
       "name": "Microsoft Corp",
       "sector": "Technology",
-      "marketCap": "$3.74T",
+      "marketCap": "$3.66T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
       "week52High": 553.72,
       "week52Low": 349.2,
@@ -359,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Neocloud Stocks Catch Fire As CoreWeave Doubles Revenue",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=95252649a1e4ff922b1b58c548ff39a71afd31c5c07d9bf3489bb0a516655f85"
+        },
+        {
+          "headline": "'Lightspeed Seeks $600 Million for Anthropic, OpenAI Wagers' - Bloomberg",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=df46b71470a1f914fc193b4f61f8f53868e6e1b1d6b030aa2e204c790f132709"
+        },
+        {
           "headline": "Elon Musk's SpaceX Lands $1.22 Billion Investment From Norway’s $2.3 Trillion Sovereign Wealth Fund",
           "source": "Benzinga",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=2a50269c6e35b49bb49729fea8b708e15ace63ddce8404522c29690389b2748f"
         },
         {
           "headline": "Quantinuum Strikes Oracle Deal as Quantum Cloud Race Heats Up: ‘Next Phase of Enterprise Computing’",
           "source": "Benzinga",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=22aa240f54a202d18a701589ae11d3cc64385d6f83e41a447c68b041e86befd6"
         },
         {
           "headline": "Why Is CoreWeave Stock Soaring Wednesday?",
           "source": "Benzinga",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=977459f1c54e09943ed7e15afb0440d48c349c276eec74e45506f60882840641"
-        },
-        {
-          "headline": "License To Chase The AI Frontier",
-          "source": "SeekingAlpha",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=b1a2e8841528ae00e7dceba325d39891075080c09e04ef766673d256990c7664"
-        },
-        {
-          "headline": "Tracking AMG's Yacktman Asset Management Portfolio - Q2 2026 Update",
-          "source": "SeekingAlpha",
-          "timeAgo": "17h ago",
-          "url": "https://finnhub.io/api/news?id=6122dcbbe887770943e505b8e118b1a6814c928f257ef65b6a02dcccc21b63a2"
         }
       ],
       "earnings": [
@@ -423,16 +426,16 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 268.71,
-      "change": -3.56,
-      "changePercent": -1.3075,
+      "price": 269.06,
+      "change": -3.21,
+      "changePercent": -1.179,
       "high": 273.46,
-      "low": 268.29,
+      "low": 267.555,
       "open": 272.5275,
       "prevClose": 272.27,
       "name": "Amazon.com Inc",
       "sector": "Retail",
-      "marketCap": "$2.94T",
+      "marketCap": "$2.90T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
@@ -445,6 +448,18 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Neocloud Stocks Catch Fire As CoreWeave Doubles Revenue",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=95252649a1e4ff922b1b58c548ff39a71afd31c5c07d9bf3489bb0a516655f85"
+        },
+        {
+          "headline": "'Lightspeed Seeks $600 Million for Anthropic, OpenAI Wagers' - Bloomberg",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=df46b71470a1f914fc193b4f61f8f53868e6e1b1d6b030aa2e204c790f132709"
+        },
+        {
           "headline": "Wall Street Breakfast Podcast: NYC Delivery Model Detour",
           "source": "SeekingAlpha",
           "timeAgo": "9h ago",
@@ -453,26 +468,14 @@
         {
           "headline": "Quantinuum Strikes Oracle Deal as Quantum Cloud Race Heats Up: ‘Next Phase of Enterprise Computing’",
           "source": "Benzinga",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=22aa240f54a202d18a701589ae11d3cc64385d6f83e41a447c68b041e86befd6"
         },
         {
           "headline": "License To Chase The AI Frontier",
           "source": "SeekingAlpha",
-          "timeAgo": "12h ago",
+          "timeAgo": "13h ago",
           "url": "https://finnhub.io/api/news?id=b1a2e8841528ae00e7dceba325d39891075080c09e04ef766673d256990c7664"
-        },
-        {
-          "headline": "Two Stock Stories That Bolstered QGRW In July",
-          "source": "SeekingAlpha",
-          "timeAgo": "16h ago",
-          "url": "https://finnhub.io/api/news?id=21b84a0552ec6347d5597f26887da0e5f738d5ea42afc573bbaa8d2402033c0e"
-        },
-        {
-          "headline": "Uncover the latest developments among dow jones stocks in today's session.",
-          "source": "ChartMill",
-          "timeAgo": "20h ago",
-          "url": "https://finnhub.io/api/news?id=5e82ea525220a53dd44151da8aaa4bfeafc253e4a06b421668990e27ea2e7133"
         }
       ],
       "earnings": [
@@ -509,16 +512,16 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 324.55,
-      "change": -8.26,
-      "changePercent": -2.4819,
+      "price": 326.78,
+      "change": -6.03,
+      "changePercent": -1.8118,
       "high": 335.5,
       "low": 323.64,
       "open": 334.22,
       "prevClose": 332.81,
       "name": "Tesla Inc",
       "sector": "Automobiles",
-      "marketCap": "$1.31T",
+      "marketCap": "$1.28T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
       "week52High": 498.83,
       "week52Low": 297.38,
@@ -533,32 +536,32 @@
         {
           "headline": "Tesla's iTruck Moment",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=f7208f251ae2887df7a53ad2db263a02ff76d34efa9c96248f56cd6cf3e1bdee"
         },
         {
           "headline": "Elon Musk Could Score $824 Billion Payday in Tesla-SpaceX Merger—Ross Gerber Says ‘Fantastical Abundance!’",
           "source": "Benzinga",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=022c01877d025375bea0bbbf5f30d6dd89a44c202141755e5cd92b710434f6f8"
         },
         {
           "headline": "Elon Musk Makes Bold Promise on Flying Cars: ‘You Will Get...’",
           "source": "Benzinga",
-          "timeAgo": "11h ago",
+          "timeAgo": "12h ago",
           "url": "https://finnhub.io/api/news?id=4f815141465b9383d76445575bab8474183df1abb7ab3ca10a290e6b29638021"
+        },
+        {
+          "headline": "Gary Black Says Investors ‘Losing Faith’ That Tesla Can Scale Autonomy—Blames Elon Musk’s Vision-Only Approach",
+          "source": "Benzinga",
+          "timeAgo": "15h ago",
+          "url": "https://finnhub.io/api/news?id=e895037684e022745f7cf4e18a941da653dfd530fead68fcaf0aaa3445833f4f"
         },
         {
           "headline": "Two Stock Stories That Bolstered QGRW In July",
           "source": "SeekingAlpha",
-          "timeAgo": "16h ago",
+          "timeAgo": "17h ago",
           "url": "https://finnhub.io/api/news?id=21b84a0552ec6347d5597f26887da0e5f738d5ea42afc573bbaa8d2402033c0e"
-        },
-        {
-          "headline": "Elon Musk's Net Worth Rebounds on SpaceX Bounce — Now Nearly 800,000x the Average American",
-          "source": "Benzinga",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=00a70dc5c3034ba626c5fd1bb5098a8e2aa7322bae1fda48ec5fdd5d51e3659f"
         }
       ],
       "earnings": [
