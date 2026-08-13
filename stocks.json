@@ -1,32 +1,35 @@
 {
-  "updatedAt": "2026-08-13T19:48:15.258Z",
+  "updatedAt": "2026-08-13T20:25:57.736Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7799.24,
-      "change": 50.74,
-      "changePercent": 0.6548,
+      "price": 7798.99,
+      "change": 50.49,
+      "changePercent": 0.6516,
       "high": 7816.7,
       "low": 7763.18,
       "open": 0,
       "prevClose": 7748.5,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "1.9B",
+      "volume": "2.7B",
       "sparklineData": [
         7543.58984375,
         7572.39990234375,
         7533.77001953125,
         7457.68994140625,
         7443.27978515625,
+        7509.2001953125,
+        7498.9599609375,
         7408.2998046875,
         7411.97998046875,
         7413.18017578125,
         7428.77978515625,
         7316.14990234375,
         7437.6298828125,
+        7489.72021484375,
         7600.5,
         7736.52001953125,
         7723.5498046875,
@@ -35,7 +38,7 @@
         7753.10986328125,
         7728.2001953125,
         7748.5,
-        7799.240234375
+        7798.990234375
       ],
       "sector": "",
       "marketCap": "",
@@ -56,28 +59,31 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53817.66,
-      "change": 47.39,
-      "changePercent": 0.0881,
+      "price": 53839.99,
+      "change": 69.72,
+      "changePercent": 0.1297,
       "high": 54049.14,
       "low": 53622.46,
       "open": 0,
       "prevClose": 53770.26953125,
       "week52High": 54744.33,
       "week52Low": 44579.03,
-      "volume": "303.5M",
+      "volume": "415.7M",
       "sparklineData": [
         52508.26953125,
         52658.640625,
         52552.96875,
         52146.421875,
         51839.26171875,
+        52224.640625,
+        52218.578125,
         51711.6484375,
         51947.25,
         52210.078125,
         52747.3203125,
         51594.140625,
         52208.05859375,
+        52485.03125,
         53178.41015625,
         54085.87890625,
         54349.12109375,
@@ -86,7 +92,7 @@
         53975.98046875,
         53791.8515625,
         53770.26953125,
-        53817.66015625
+        53839.98828125
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26813.096,
-      "change": 224.61,
-      "changePercent": 0.8448,
+      "price": 26803.025,
+      "change": 214.53,
+      "changePercent": 0.8069,
       "high": 26875.52,
       "low": 26612.85,
       "open": 0,
       "prevClose": 26588.490234375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "6.2B",
+      "volume": "7.3B",
       "sparklineData": [
         26107.009765625,
         26269.23046875,
@@ -140,7 +146,7 @@
         26605.359375,
         26445.44921875,
         26588.490234375,
-        26813.095703125
+        26803.025390625
       ],
       "sector": "",
       "marketCap": "",
@@ -162,12 +168,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 304.4,
-      "change": 2.15,
-      "changePercent": 0.7113,
+      "price": 305.26,
+      "change": 3.01,
+      "changePercent": 0.9959,
       "high": 306,
       "low": 302.05,
-      "open": 303.605,
+      "open": 304.21,
       "prevClose": 302.25,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -184,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "What's going on in today's session: S&P500 most active stocks",
-          "source": "ChartMill",
+          "headline": "Amazon Is the Only $3 Trillion Company That Has Never Paid a Dividend",
+          "source": "Yahoo",
+          "timeAgo": "39m ago",
+          "url": "https://finnhub.io/api/news?id=b1568ef924ebb492102e73103db3ae216f8794b301ac1e0c0c732802d4ba96ed"
+        },
+        {
+          "headline": "Apple Stock Rises While Norway Fund Reveals Huge Position",
+          "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=8eb74779bd42b55da4886c5f0c5441ed981ae13ba62ff3d0b55448de918848d6"
+          "url": "https://finnhub.io/api/news?id=b919d411393dae92c480e6a371ee6d08fb0dfaad50c45a57491306f29887d719"
         },
         {
-          "headline": "Google makes costly bet Apple proved can work",
+          "headline": "Millions of Americans Own Vanguard’s VFIAX and Have No Idea What They Actually Bought",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=dd529d4057b8de03d0c3440c75bc162c182fe2285afca176e08bf6160382b9e7"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=629160cc8accb7191f2b98287dcbdaf523826e819e007d24e6b6e3ccd34aaebf"
         },
         {
-          "headline": "Apple Makes Big iPhone Move in AI Race",
+          "headline": "Nvidia Stock Gains While Norway Fund Reveals Top Holding",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c28b65b2d35fa4d5bf87b88c99d70f04bd154308e757a3bb1b5f4b3513ae05ca"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=920102748a703896a9e07809103bab989f6846e6ede4b2ed2d58650ff50c6bf1"
         },
         {
-          "headline": "Discover which dow jones stocks are making waves on Thursday.",
-          "source": "ChartMill",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=85ac2b07ff18479aadb4467b3e1330bac9629e06dd155f57eff0fc402eb245f3"
-        },
-        {
-          "headline": "The Lowest-Beta Mega-Cap Just Got a $358 Target",
+          "headline": "Alphabet Stock Climbs as Norway Fund Ranks It Third",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=9bde03a33e16136d22773f56e9c9de16d990715c90e3a26b7078f834b4786afe"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=632a6356a78bbddb353d4e2ce98d665aaba5a34d8d759559a809c32707268236"
         }
       ],
       "earnings": [
@@ -248,12 +254,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 346.5,
-      "change": 2.96,
-      "changePercent": 0.8616,
+      "price": 346.36,
+      "change": 2.82,
+      "changePercent": 0.8209,
       "high": 347.93,
       "low": 343.76,
-      "open": 345.27,
+      "open": 345.77,
       "prevClose": 343.54,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -272,7 +278,7 @@
         {
           "headline": "Stay informed with the top movers within the dow jones index on Thursday.",
           "source": "ChartMill",
-          "timeAgo": "38m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=d809f45966630d8a19facd36d00cdb710b4ed6f03d04f981ead22bea0fe9d02d"
         },
         {
@@ -284,13 +290,13 @@
         {
           "headline": "Nebius Has Found a New Way to Finance AI Infrastructure",
           "source": "Benzinga",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=5e88bde7b193d3347faba6132d0add9e55f4852fc425bbaa4938f0e0659daa9d"
         },
         {
           "headline": "Oracle Has 30% Upside, JPMorgan Says. The Market May Be Missing Its AI Transformation.",
           "source": "Benzinga",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=b15a3d0fa761c9302dd937922082a82d857d59cc946921c75914d1fcd0d0368f"
         },
         {
@@ -334,12 +340,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 497.82,
-      "change": 5.39,
-      "changePercent": 1.0946,
+      "price": 496.88,
+      "change": 4.45,
+      "changePercent": 0.9037,
       "high": 501.34,
-      "low": 491.6325,
-      "open": 491.6325,
+      "low": 493.01,
+      "open": 493.265,
       "prevClose": 492.43,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -356,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Amazon Is the Only $3 Trillion Company That Has Never Paid a Dividend",
+          "source": "Yahoo",
+          "timeAgo": "39m ago",
+          "url": "https://finnhub.io/api/news?id=b1568ef924ebb492102e73103db3ae216f8794b301ac1e0c0c732802d4ba96ed"
+        },
+        {
+          "headline": "Microsoft Stock Rises as Ackman Reaffirms Azure Bet",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=0a8dd2baf3fa005b772233485317be85add6623e2f45d785a0a2acc0422e30c2"
+        },
+        {
+          "headline": "Nvidia Rallies 7% as Goldman Warns Earnings Bar Is High",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=4136a4be5d63d394bd302f15c4b40dd2f32ea15387a6bf1fd6f93ecba1b90f8e"
+        },
+        {
           "headline": "Stay informed with the top movers within the dow jones index on Thursday.",
           "source": "ChartMill",
-          "timeAgo": "38m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=d809f45966630d8a19facd36d00cdb710b4ed6f03d04f981ead22bea0fe9d02d"
         },
         {
-          "headline": "SK Group's Chairman Isn't Worried About Nvidia Dependence: Is That Why SKHY Is Up 8%?",
+          "headline": "Apple Stock Rises While Norway Fund Reveals Huge Position",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=2bd48566a2bbb6fc6bcf4a286228baacb91129f570288218b0ffc7ab5d6ce331"
-        },
-        {
-          "headline": "Amazon’s Price Target Says +32% and Not a Single Analyst Says Sell",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=aa77a94e3624b8ed06f561c24d9f0bbb611b573743bf2c9b73095813298982f7"
-        },
-        {
-          "headline": "What Dip? Why Microsoft Stock's Post-Earnings Momentum Is Set To Continue.",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4a2fa0f2524ac12ad2afc89fbd201ec93cad975bcf151ec8dffd718128f2e1d6"
-        },
-        {
-          "headline": "Microsoft Is Retreating in China, but AI Keeps a Door Open",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3f18eee7d5c02cb641cfaf478fbcb819874dac7937fe57bfe872ea7f4c307dc7"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b919d411393dae92c480e6a371ee6d08fb0dfaad50c45a57491306f29887d719"
         }
       ],
       "earnings": [
@@ -420,12 +426,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 265.28,
-      "change": -2,
-      "changePercent": -0.7483,
+      "price": 265.13,
+      "change": -2.15,
+      "changePercent": -0.8044,
       "high": 269.58,
-      "low": 264.82,
-      "open": 267.4875,
+      "low": 264.705,
+      "open": 267.235,
       "prevClose": 267.28,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -442,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "AMAZON TEAMSTERS AND ALLIES PICKET CITY HALL FOR THE DELIVERY PROTECTION ACT",
+          "source": "Yahoo",
+          "timeAgo": "33m ago",
+          "url": "https://finnhub.io/api/news?id=f335c5b033d5c37c72e579a8d5506a26e068efb892b30ce31a81511cb75eee56"
+        },
+        {
+          "headline": "Amazon Is the Only $3 Trillion Company That Has Never Paid a Dividend",
+          "source": "Yahoo",
+          "timeAgo": "39m ago",
+          "url": "https://finnhub.io/api/news?id=b1568ef924ebb492102e73103db3ae216f8794b301ac1e0c0c732802d4ba96ed"
+        },
+        {
+          "headline": "Sector Update: Tech Stocks Mixed Late Afternoon",
+          "source": "Yahoo",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=91bb5294725d301022c1199f666980d005fdf0bbb431cc2179033af8c1a510b0"
+        },
+        {
+          "headline": "Nvidia Rallies 7% as Goldman Warns Earnings Bar Is High",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=4136a4be5d63d394bd302f15c4b40dd2f32ea15387a6bf1fd6f93ecba1b90f8e"
+        },
+        {
           "headline": "Stay informed with the top movers within the dow jones index on Thursday.",
           "source": "ChartMill",
-          "timeAgo": "38m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=d809f45966630d8a19facd36d00cdb710b4ed6f03d04f981ead22bea0fe9d02d"
-        },
-        {
-          "headline": "Nexxus Capital Acquires Assets of another Top Amazon Aggregator",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=da9fd96ee1a8648899d5ae921db564b8bef60c8f8771374eb09ba49e86c5ea0f"
-        },
-        {
-          "headline": "Why Amazon Stock Is Down Today",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=1bc98df0c7cfc467e2ab9f12b0a778ba16133675c1099e030e83913b08e4f989"
-        },
-        {
-          "headline": "Amazon’s Price Target Says +32% and Not a Single Analyst Says Sell",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=aa77a94e3624b8ed06f561c24d9f0bbb611b573743bf2c9b73095813298982f7"
-        },
-        {
-          "headline": "Porter Stansberry Brings Jeff Bezos’ 2004 Transportation Machine Analogy Into CRWV Debate — Michael Burry Weighs In",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=7490e2f90c471951ff5a76a69e44a4ff028d98ab082f3b20e9b2203478614a4f"
         }
       ],
       "earnings": [
@@ -506,12 +512,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 339.63,
-      "change": 12.12,
-      "changePercent": 3.7007,
+      "price": 339.96,
+      "change": 12.45,
+      "changePercent": 3.8014,
       "high": 341.64,
       "low": 325.24,
-      "open": 327.52,
+      "open": 327.2,
       "prevClose": 327.51,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -528,6 +534,24 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Tesla $10 Billion Solar Bet Could Change Its Energy Game",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=90d73d119bd3db3cdc4e0bb2cc19c53b350da17f0a6ecb9a2493d456212c1f58"
+        },
+        {
+          "headline": "Millions of Americans Own Vanguard’s VFIAX and Have No Idea What They Actually Bought",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=629160cc8accb7191f2b98287dcbdaf523826e819e007d24e6b6e3ccd34aaebf"
+        },
+        {
+          "headline": "Walmart, Tesla, FedEx, and More Winners and Losers From Shipping’s Rough Seas",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=35f8f5dfcd64a6217601f03de93d8dd83a499d273b7972b9d610a55f281d3c8f"
+        },
+        {
           "headline": "Tesla paid Elon Musk 2.5m times more as CEO than its average worker in 2025",
           "source": "Yahoo",
           "timeAgo": "3h ago",
@@ -538,24 +562,6 @@
           "source": "Yahoo",
           "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=ef3c96470e4cc16bcaf8dcdabfef762ab3dbfa61e824d1aff4839ec2c4a078b4"
-        },
-        {
-          "headline": "Tesla Is Down 26% in 2026 and Trailing Every Magnificent Seven Peer. Here's What Could Turn It Around.",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=257795459ce8bc604963d97050787202252d82e7f5a4147c5be2d0ff7f6e6705"
-        },
-        {
-          "headline": "Gary Black Says Tesla Needs to Work on Branding: ‘Without Great Marketing, Apple Would Not Be a $4.4T Market Cap Company’",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=0aadbd549abb948e74d16f585af1f14d3473f17ecb61a39bd7d6e84203f7bd66"
-        },
-        {
-          "headline": "Why Tesla Doesn't Need to Win China's Brutal EV Price War",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=4d0a78ea3ffa7b37e0408e28bce02277505a02476d154eae89a752371d2c9ebe"
         }
       ],
       "earnings": [
