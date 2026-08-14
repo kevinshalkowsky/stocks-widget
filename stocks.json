@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T00:49:38.124Z",
+  "updatedAt": "2026-08-14T03:16:50.381Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
@@ -20,12 +20,15 @@
         7533.77001953125,
         7457.68994140625,
         7443.27978515625,
+        7509.2001953125,
+        7498.9599609375,
         7408.2998046875,
         7411.97998046875,
         7413.18017578125,
         7428.77978515625,
         7316.14990234375,
         7437.6298828125,
+        7489.72021484375,
         7600.5,
         7736.52001953125,
         7723.5498046875,
@@ -55,8 +58,8 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53839.99,
-      "change": 69.72,
+      "price": 53840,
+      "change": 69.73,
       "changePercent": 0.1297,
       "high": 54049.14,
       "low": 53622.46,
@@ -87,7 +90,7 @@
         53975.98046875,
         53791.8515625,
         53770.26953125,
-        53839.98828125
+        53840
       ],
       "sector": "",
       "marketCap": "",
@@ -175,43 +178,43 @@
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
       "week52High": 344.5699,
       "week52Low": 223.78,
-      "beta": 1.0749253,
+      "beta": 1.0717899,
       "peRatio": 39.5513,
       "eps": 7.465,
       "dividendYield": "0.36%",
-      "volume": "60.4M",
-      "avgVolume": "53.5M",
+      "volume": "57.0M",
+      "avgVolume": "53.6M",
       "sparklineData": [],
       "news": [
         {
+          "headline": "Apple’s next iPhone battle just got more complicated",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=95fe7aef1fb6fbcf3d9a5e828d0fccf54d2632551988d90ad4940d90d29485ee"
+        },
+        {
           "headline": "How Apple’s New Houston AI Manufacturing Hub Could Reshape the AAPL Investment Narrative",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=3781cb7939b0d43f1026127ec1a502c95d00b6f3cd1a141d0bba04ac37a9774f"
         },
         {
           "headline": "Fidelity’s Contrafund, FCNTX, Bet Against the Crowd and Got Enormous Doing It",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=8fd9ab5b9f93dcf3a7bb6363af7368aa7f680fa85d1ac4e677af32dd8d8b6660"
         },
         {
           "headline": "MP Materials Just Signed a Secret Aerospace Deal. Here's Why It Matters.",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=19ea28d746a9c2068c4f0a583e9bb523312261c425920053980621a1365dc353"
         },
         {
           "headline": "There’s a Good Chance Vanguard’s VINIX Is in Your 401(k) and You’ve Never Heard of It",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=d6dcb4bd3ffe3274d947de710d6268237b3f0c71a859945f4def3cc4d1620203"
-        },
-        {
-          "headline": "Amazon Is the Only $3 Trillion Company That Has Never Paid a Dividend",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=b1568ef924ebb492102e73103db3ae216f8794b301ac1e0c0c732802d4ba96ed"
         }
       ],
       "earnings": [
@@ -272,32 +275,32 @@
         {
           "headline": "Fidelity’s Contrafund, FCNTX, Bet Against the Crowd and Got Enormous Doing It",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=8fd9ab5b9f93dcf3a7bb6363af7368aa7f680fa85d1ac4e677af32dd8d8b6660"
+        },
+        {
+          "headline": "Tracking David Abrams' Abrams Capital Management Portfolio - Q2 2026 Update",
+          "source": "SeekingAlpha",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=1b17208bf56d937d30708d86cd81c097347d8c60e1290203ae9824521fa9c3b2"
         },
         {
           "headline": "OpenAI's New Revenue Officer Comes From Alphabet's Wiz",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=1fddc9e7e42a9fdd628ac7985a476e301b1b61f906250a57b2d02f319cd35764"
         },
         {
           "headline": "Bill Ackman's Pershing Square Has Delivered a 15.9% Annualized Return Since 2004, Beating the S&P 500 by Over 5 Points a Year. Can It Continue?",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=7298076b52707ebbb037d4a536a65fa54f2d228616a6c6ab31a518352f8daf11"
         },
         {
           "headline": "There’s a Good Chance Vanguard’s VINIX Is in Your 401(k) and You’ve Never Heard of It",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=d6dcb4bd3ffe3274d947de710d6268237b3f0c71a859945f4def3cc4d1620203"
-        },
-        {
-          "headline": "Berkshire Bought Alphabet Stock in Q2—and Maybe Microsoft Too",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=ed31018989bcab2d566ca7b23639ee1caf7b35bac8d43b45e716c1a62d0ff443"
         }
       ],
       "earnings": [
@@ -356,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Microsoft and Tesla Share a Common Concern, but Here's Why One Is Much More Justified",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=415abf44dc4a47333b87ea6ae2f3a8deb1ebb022422ec4a418617566f95f26f0"
+        },
+        {
+          "headline": "Use This Zacks Tool to Find Strong Cloud Stocks",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=23e70e36cf893ed54c9517901b90fabef22a2623634147e3c1f1e7004efd38d2"
+        },
+        {
           "headline": "UiPath Stock Carries A Market Multiple On Earnings And A Premium On Sales",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=b9ec01cd0bfca307772e926d9cb8d60b037ff1631a4b6aae8055fded0a94c312"
         },
         {
           "headline": "CoreWeave Is Winning On Price And Racing Its Own Interest Bill",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=b85e7b23e0231fb9d02c8eb65a31bf84cf89e0096fd1421f8036323170e16006"
         },
         {
           "headline": "The Diversification You Think You Bought: How VGT’s Top 3 Holdings Put a $250,000 Position at Risk",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=7f258291e7417cb92dc225c2998b2e295e9adb56784a9877c9dd5b6fdbb4b328"
-        },
-        {
-          "headline": "Fidelity’s Contrafund, FCNTX, Bet Against the Crowd and Got Enormous Doing It",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8fd9ab5b9f93dcf3a7bb6363af7368aa7f680fa85d1ac4e677af32dd8d8b6660"
-        },
-        {
-          "headline": "Washington Mutual Investors Fund, AWSHX, Refuses to Buy Certain Stocks. That’s the Point",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=08a9afa87625168a60ed8bd997ec76718406b29946f47275a0f1214dc6f432e2"
         }
       ],
       "earnings": [
@@ -433,43 +436,43 @@
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
-      "beta": 1.4637622,
+      "beta": 1.4554998,
       "peRatio": 37.1181,
       "eps": 7.1737,
       "dividendYield": "",
-      "volume": "59.9M",
-      "avgVolume": "49.3M",
+      "volume": "52.9M",
+      "avgVolume": "49.4M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "1 Jaw-Dropping Metric That Shows Why Amazon Is a Force to Be Reckoned With in the AI Arms Race",
+          "headline": "Grove (GROV) Q2 2026 Earnings Call Transcript",
           "source": "Yahoo",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=9aa2cf0c24629e0fccc6baa078019a49919aa7a7dee3422b21f9313fa6f6e81f"
+        },
+        {
+          "headline": "Costco makes a pricing promise members need to know",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a43d874a2cb30ab9176707f7f5122cd902290a18646c8d8b7dee335c1063e75f"
+        },
+        {
+          "headline": "FitLife Brands Q2 Earnings Call Highlights",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=d3124997d41776bda3547797eb74a971539635c0b864801858f379dae3d02be2"
+        },
+        {
+          "headline": "1 Jaw-Dropping Metric That Shows Why Amazon Is a Force to Be Reckoned With in the AI Arms Race",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=a8694d0c4cb44f128fff232a9623985e64b51994ba87eff8ba7f5c4ad2d3f3d5"
         },
         {
           "headline": "CoreWeave Is Winning On Price And Racing Its Own Interest Bill",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=b85e7b23e0231fb9d02c8eb65a31bf84cf89e0096fd1421f8036323170e16006"
-        },
-        {
-          "headline": "Fidelity’s Contrafund, FCNTX, Bet Against the Crowd and Got Enormous Doing It",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8fd9ab5b9f93dcf3a7bb6363af7368aa7f680fa85d1ac4e677af32dd8d8b6660"
-        },
-        {
-          "headline": "Cerebras Stock PlummetsDespite Solid Earnings",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=7fbd08e0f5707c5f6fc48922ab561f722ee1c8aa3e8940f9f3ad9ca83a8c9ab5"
-        },
-        {
-          "headline": "Bill Ackman's Pershing Square Has Delivered a 15.9% Annualized Return Since 2004, Beating the S&P 500 by Over 5 Points a Year. Can It Continue?",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=7298076b52707ebbb037d4a536a65fa54f2d228616a6c6ab31a518352f8daf11"
         }
       ],
       "earnings": [
@@ -528,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "TSLA Stock Rises As Swedish Union Ends Nearly 3-Year Strike After Tesla Buyouts",
+          "headline": "Microsoft and Tesla Share a Common Concern, but Here's Why One Is Much More Justified",
           "source": "Yahoo",
           "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=415abf44dc4a47333b87ea6ae2f3a8deb1ebb022422ec4a418617566f95f26f0"
+        },
+        {
+          "headline": "TSLA Stock Rises As Swedish Union Ends Nearly 3-Year Strike After Tesla Buyouts",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=8c3b3e474ad5c6247d385c0e99bc647cc12745d3382f82defc8ff1b2e76262f6"
         },
         {
           "headline": "Michael Burry Loads Up On QQQ Puts, Boosts MU Short As He Braces For ‘Larger Fall’ — Here’s What He Did To NVDA, PLTR And TSLA",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=65330279aa584ddf1e94bf6d68f335b212b9fe35d33379aa257ce70ca1015094"
         },
         {
           "headline": "The Shipping Crunch Is Getting Worse. What It Means for Walmart, Tesla, and More.",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=482d348fe2a049aa69dbc768dfc1b42ac98abbe254121a4ffe6cc1f21084bdcf"
         },
         {
           "headline": "The Winners and Losers From Shipping’s Rough Seas",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=a527606837cc9899014337ceb49b63ed8fefcd857892e07def9a637e01f0006a"
-        },
-        {
-          "headline": "Tesla: Valued Like The Company Is Doing Extremely Well, But It Isn't",
-          "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=b6b8ed0a452d6c40cc8019e8f1c4fcd1e0ea4fd5e8902396f3dc4ca0318798fe"
         }
       ],
       "earnings": [
