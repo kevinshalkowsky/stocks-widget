@@ -1,28 +1,31 @@
 {
-  "updatedAt": "2026-08-17T13:29:42.650Z",
+  "updatedAt": "2026-08-17T14:14:43.129Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7785.76,
-      "change": -13.23,
-      "changePercent": -0.1696,
-      "high": 7810.01,
-      "low": 7776.31,
+      "price": 7778.09,
+      "change": -7.67,
+      "changePercent": -0.0985,
+      "high": 7790.68,
+      "low": 7771.33,
       "open": 0,
-      "prevClose": 7798.990234375,
+      "prevClose": 7785.759765625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "2.2B",
+      "volume": "371.4M",
       "sparklineData": [
         7443.27978515625,
+        7509.2001953125,
+        7498.9599609375,
         7408.2998046875,
         7411.97998046875,
         7413.18017578125,
         7428.77978515625,
         7316.14990234375,
         7437.6298828125,
+        7489.72021484375,
         7600.5,
         7736.52001953125,
         7723.5498046875,
@@ -32,7 +35,8 @@
         7728.2001953125,
         7748.5,
         7798.990234375,
-        7785.759765625
+        7785.759765625,
+        7778.08984375
       ],
       "sector": "",
       "marketCap": "",
@@ -53,24 +57,27 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53732.41,
-      "change": -107.58,
-      "changePercent": -0.1998,
-      "high": 53890.84,
-      "low": 53673.47,
+      "price": 53610,
+      "change": -122.41,
+      "changePercent": -0.2278,
+      "high": 53663.11,
+      "low": 53511.63,
       "open": 0,
-      "prevClose": 53839.98828125,
+      "prevClose": 53732.41015625,
       "week52High": 54744.33,
       "week52Low": 44579.03,
-      "volume": "319.6M",
+      "volume": "72.2M",
       "sparklineData": [
         51839.26171875,
+        52224.640625,
+        52218.578125,
         51711.6484375,
         51947.25,
         52210.078125,
         52747.3203125,
         51594.140625,
         52208.05859375,
+        52485.03125,
         53178.41015625,
         54085.87890625,
         54349.12109375,
@@ -80,7 +87,8 @@
         53791.8515625,
         53770.26953125,
         53839.98828125,
-        53732.41015625
+        53732.41015625,
+        53610
       ],
       "sector": "",
       "marketCap": "",
@@ -101,24 +109,27 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26729.164,
-      "change": -73.87,
-      "changePercent": -0.2756,
-      "high": 26862.168,
-      "low": 26661.953,
+      "price": 26755.525,
+      "change": 26.36,
+      "changePercent": 0.0986,
+      "high": 26798.398,
+      "low": 26712.09,
       "open": 0,
-      "prevClose": 26803.029296875,
+      "prevClose": 26729.16015625,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "6.4B",
+      "volume": "1.7B",
       "sparklineData": [
         25508.0703125,
+        25837.2109375,
+        25690.900390625,
         25137.689453125,
         24975.8203125,
         24932.080078125,
         24876.91015625,
         24442.939453125,
         25122.1796875,
+        25373.849609375,
         25913.900390625,
         26584.990234375,
         26363.439453125,
@@ -128,7 +139,8 @@
         26445.44921875,
         26588.490234375,
         26803.029296875,
-        26729.16015625
+        26729.16015625,
+        26755.525390625
       ],
       "sector": "",
       "marketCap": "",
@@ -150,13 +162,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 305.97,
-      "change": 0.71,
-      "changePercent": 0.2326,
-      "high": 307.49,
-      "low": 304.3,
-      "open": 306.01,
-      "prevClose": 305.26,
+      "price": 305.04,
+      "change": -0.89,
+      "changePercent": -0.2909,
+      "high": 307.66,
+      "low": 304.05,
+      "open": 306.6,
+      "prevClose": 305.93,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.46T",
@@ -171,6 +183,12 @@
       "avgVolume": "53.2M",
       "sparklineData": [],
       "news": [
+        {
+          "headline": "Berkshire Hathaway: The Cash Is Moving, The Philosophy Isn't",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=d89f4a063b60afb1f31ec9aa15190e0f5386ade46c611b777b90665b777a705d"
+        },
         {
           "headline": "Alphabet Is Berkshire Hathaway’s New Favorite Stock After Buying 48 Million Shares",
           "source": "Yahoo",
@@ -194,12 +212,6 @@
           "source": "Yahoo",
           "timeAgo": "2d ago",
           "url": "https://finnhub.io/api/news?id=7fe939b1a597998e5243f7324ae84967d0066a1bc1ac6b3b54481ab7b358bb3b"
-        },
-        {
-          "headline": "How To Invest $100,000 In A Retiree's SWAN Income Portfolio",
-          "source": "SeekingAlpha",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=378bd32677ead84815eb5c03e6e3830b56b7b1e398114ef6ed1b456b3a5bcb95"
         }
       ],
       "earnings": [
@@ -236,13 +248,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 345.94,
-      "change": -0.42,
-      "changePercent": -0.1213,
-      "high": 350.45,
-      "low": 344.5,
-      "open": 346.81,
-      "prevClose": 346.36,
+      "price": 344.69,
+      "change": -1.21,
+      "changePercent": -0.3498,
+      "high": 347.25,
+      "low": 343.76,
+      "open": 347.2325,
+      "prevClose": 345.9,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.22T",
@@ -258,6 +270,12 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Berkshire Hathaway: The Cash Is Moving, The Philosophy Isn't",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=d89f4a063b60afb1f31ec9aa15190e0f5386ade46c611b777b90665b777a705d"
+        },
+        {
           "headline": "GDV: Deep Discount And Stable Monthly Payout Make This Attractive",
           "source": "SeekingAlpha",
           "timeAgo": "6h ago",
@@ -266,7 +284,7 @@
         {
           "headline": "Tracking Bill Ackman's Pershing Square 13F Portfolio - Q2 2026 Update",
           "source": "SeekingAlpha",
-          "timeAgo": "17h ago",
+          "timeAgo": "18h ago",
           "url": "https://finnhub.io/api/news?id=8f0c6af6146ce467fdc7d871d935aa55516a90bcc60cdc15ed864b80f4e2b14c"
         },
         {
@@ -280,12 +298,6 @@
           "source": "Benzinga",
           "timeAgo": "2d ago",
           "url": "https://finnhub.io/api/news?id=80a4ff54930a1eea63dea0ec7e39c7509a9575579cacc01386fedde5b9601b2f"
-        },
-        {
-          "headline": "Alphabet: The CapEx 'Tantrum' Feels Wrong",
-          "source": "SeekingAlpha",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=2cc9dc5ef329148c496a5356990530b1f6726e257216fcfc99d35ce67aebc604"
         }
       ],
       "earnings": [
@@ -322,13 +334,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 495.44,
-      "change": -1.44,
-      "changePercent": -0.2898,
-      "high": 500.01,
-      "low": 493.92,
-      "open": 496.365,
-      "prevClose": 496.88,
+      "price": 484.67,
+      "change": -10.73,
+      "changePercent": -2.1659,
+      "high": 492.66,
+      "low": 484.1,
+      "open": 491.225,
+      "prevClose": 495.4,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.68T",
@@ -346,7 +358,7 @@
         {
           "headline": "Microsoft (NASDAQ:MSFT): A Best Dividend Screen Pick with Quality and Sustainability",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=8e69b6d1f00fb041f75c76c8e94a8a2120310cdc3398aa2f6d5fb87e212a74e4"
         },
         {
@@ -358,7 +370,7 @@
         {
           "headline": "Consumer Data Trips Up Wall Street's Rally as MDxHealth Snatches a Lifeline and Anthropic Redraws the AI Ceiling",
           "source": "ChartMill",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=fc98510322e387155cbbc6a2eb405984bb79a57cc4f550402ec0d3960db217a3"
         },
         {
@@ -408,13 +420,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 262.69,
-      "change": -2.44,
-      "changePercent": -0.9203,
-      "high": 265.81,
-      "low": 262.42,
-      "open": 264.885,
-      "prevClose": 265.13,
+      "price": 261.46,
+      "change": -1.19,
+      "changePercent": -0.4531,
+      "high": 265.75,
+      "low": 261.03,
+      "open": 265.02,
+      "prevClose": 262.65,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.84T",
@@ -432,7 +444,7 @@
         {
           "headline": "Consumer Data Trips Up Wall Street's Rally as MDxHealth Snatches a Lifeline and Anthropic Redraws the AI Ceiling",
           "source": "ChartMill",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=fc98510322e387155cbbc6a2eb405984bb79a57cc4f550402ec0d3960db217a3"
         },
         {
@@ -494,13 +506,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 342.31,
-      "change": 2.35,
-      "changePercent": 0.6913,
-      "high": 351.26,
-      "low": 335.3306,
-      "open": 342.34,
-      "prevClose": 339.96,
+      "price": 338.82,
+      "change": -3.45,
+      "changePercent": -1.008,
+      "high": 343.11,
+      "low": 337.48,
+      "open": 342.605,
+      "prevClose": 342.27,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.35T",
