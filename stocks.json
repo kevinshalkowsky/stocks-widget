@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-17T14:14:43.129Z",
+  "updatedAt": "2026-08-17T16:11:30.825Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7778.09,
-      "change": -7.67,
-      "changePercent": -0.0985,
+      "price": 7772.46,
+      "change": -13.3,
+      "changePercent": -0.1708,
       "high": 7790.68,
-      "low": 7771.33,
+      "low": 7768.23,
       "open": 0,
       "prevClose": 7785.759765625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "371.4M",
+      "volume": "879.5M",
       "sparklineData": [
         7443.27978515625,
         7509.2001953125,
@@ -36,7 +36,7 @@
         7748.5,
         7798.990234375,
         7785.759765625,
-        7778.08984375
+        7772.4599609375
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53610,
-      "change": -122.41,
-      "changePercent": -0.2278,
+      "price": 53566.67,
+      "change": -165.74,
+      "changePercent": -0.3085,
       "high": 53663.11,
-      "low": 53511.63,
+      "low": 53491.24,
       "open": 0,
       "prevClose": 53732.41015625,
       "week52High": 54744.33,
       "week52Low": 44579.03,
-      "volume": "72.2M",
+      "volume": "167.0M",
       "sparklineData": [
         51839.26171875,
         52224.640625,
@@ -88,7 +88,7 @@
         53770.26953125,
         53839.98828125,
         53732.41015625,
-        53610
+        53566.671875
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26755.525,
-      "change": 26.36,
-      "changePercent": 0.0986,
+      "price": 26735.133,
+      "change": 5.97,
+      "changePercent": 0.0223,
       "high": 26798.398,
-      "low": 26712.09,
+      "low": 26705.059,
       "open": 0,
       "prevClose": 26729.16015625,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "1.7B",
+      "volume": "3.2B",
       "sparklineData": [
         25508.0703125,
         25837.2109375,
@@ -140,7 +140,7 @@
         26588.490234375,
         26803.029296875,
         26729.16015625,
-        26755.525390625
+        26735.1328125
       ],
       "sector": "",
       "marketCap": "",
@@ -162,11 +162,11 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 305.04,
-      "change": -0.89,
-      "changePercent": -0.2909,
+      "price": 303.27,
+      "change": -2.66,
+      "changePercent": -0.8695,
       "high": 307.66,
-      "low": 304.05,
+      "low": 303.055,
       "open": 306.6,
       "prevClose": 305.93,
       "name": "Apple Inc",
@@ -186,7 +186,7 @@
         {
           "headline": "Berkshire Hathaway: The Cash Is Moving, The Philosophy Isn't",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=d89f4a063b60afb1f31ec9aa15190e0f5386ade46c611b777b90665b777a705d"
         },
         {
@@ -248,11 +248,11 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 344.69,
-      "change": -1.21,
-      "changePercent": -0.3498,
+      "price": 343.38,
+      "change": -2.52,
+      "changePercent": -0.7285,
       "high": 347.25,
-      "low": 343.76,
+      "low": 341.93,
       "open": 347.2325,
       "prevClose": 345.9,
       "name": "Alphabet Inc",
@@ -270,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Berkshire Hathaway: The Cash Is Moving, The Philosophy Isn't",
+          "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
           "source": "SeekingAlpha",
           "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=856f50db1b08b71463c96c56a4403068cae8d2c80f7a7deb5fc7bf43353d1c68"
+        },
+        {
+          "headline": "Alphabet: External TPU Sales Are A Likely Game Changer",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=d01dcdae8d000cd86d48f526d9174a7ad486c9b7b999af04d3ac6860a79f4e81"
+        },
+        {
+          "headline": "The S&P 500's 50% Earnings Boom Comes With A Giant Asterisk",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=82bad46a5349dcc7d397c8ac4e7910af4dca8f32a45e7f0d4ea06a23509cea1e"
+        },
+        {
+          "headline": "Berkshire Hathaway: The Cash Is Moving, The Philosophy Isn't",
+          "source": "SeekingAlpha",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=d89f4a063b60afb1f31ec9aa15190e0f5386ade46c611b777b90665b777a705d"
         },
         {
-          "headline": "GDV: Deep Discount And Stable Monthly Payout Make This Attractive",
-          "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=e775368ce28c9ec70d0165cccadd07b521e48a057697289840be033cdd754c2e"
-        },
-        {
-          "headline": "Tracking Bill Ackman's Pershing Square 13F Portfolio - Q2 2026 Update",
-          "source": "SeekingAlpha",
-          "timeAgo": "18h ago",
-          "url": "https://finnhub.io/api/news?id=8f0c6af6146ce467fdc7d871d935aa55516a90bcc60cdc15ed864b80f4e2b14c"
-        },
-        {
-          "headline": "Projected Robotaxi (Autonomous Ride-Hailing) Growth By Company And Why I Rate Waymo A Buy",
-          "source": "SeekingAlpha",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=39c381aa99b71324087353d3a5efa3591c1f04980b6a21e424e08c758959c44d"
-        },
-        {
-          "headline": "Consumer Tech (Aug 10-14): Trump Faces Federal Lawsuits, Apple & Alibaba To Create AI Model For China & More",
+          "headline": "David Tepper's Latest AI Bet Is CoreWeave",
           "source": "Benzinga",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=80a4ff54930a1eea63dea0ec7e39c7509a9575579cacc01386fedde5b9601b2f"
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=9c4d75270a303776b3ed5c20d30209deccf4a080d295bf8f989e05cad1ba22b9"
         }
       ],
       "earnings": [
@@ -334,11 +334,11 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 484.67,
-      "change": -10.73,
-      "changePercent": -2.1659,
+      "price": 483.47,
+      "change": -11.93,
+      "changePercent": -2.4082,
       "high": 492.66,
-      "low": 484.1,
+      "low": 481.67,
       "open": 491.225,
       "prevClose": 495.4,
       "name": "Microsoft Corp",
@@ -358,32 +358,32 @@
         {
           "headline": "Microsoft (NASDAQ:MSFT): A Best Dividend Screen Pick with Quality and Sustainability",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=8e69b6d1f00fb041f75c76c8e94a8a2120310cdc3398aa2f6d5fb87e212a74e4"
         },
         {
-          "headline": "GDV: Deep Discount And Stable Monthly Payout Make This Attractive",
+          "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=e775368ce28c9ec70d0165cccadd07b521e48a057697289840be033cdd754c2e"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=856f50db1b08b71463c96c56a4403068cae8d2c80f7a7deb5fc7bf43353d1c68"
         },
         {
-          "headline": "Consumer Data Trips Up Wall Street's Rally as MDxHealth Snatches a Lifeline and Anthropic Redraws the AI Ceiling",
-          "source": "ChartMill",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=fc98510322e387155cbbc6a2eb405984bb79a57cc4f550402ec0d3960db217a3"
-        },
-        {
-          "headline": "Alibaba, Walmart To Headline Earnings Next Week, FOMC Minutes Of Meeting In Focus",
+          "headline": "The S&P 500's 50% Earnings Boom Comes With A Giant Asterisk",
           "source": "SeekingAlpha",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=42016711a55406f708f7ef1a37622996e70dcd97b80bd8da03c2ffca57b70dfb"
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=82bad46a5349dcc7d397c8ac4e7910af4dca8f32a45e7f0d4ea06a23509cea1e"
         },
         {
-          "headline": "Consumer Tech (Aug 10-14): Trump Faces Federal Lawsuits, Apple & Alibaba To Create AI Model For China & More",
+          "headline": "'Nvidia To Invest $100B For OpenAI Data Centre In Ohio' - Financial Times",
           "source": "Benzinga",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=80a4ff54930a1eea63dea0ec7e39c7509a9575579cacc01386fedde5b9601b2f"
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=a61be4a88dc83eb9d7328dd61e0babe1e3ad51fda3fc5bf0c1cd3412137ac961"
+        },
+        {
+          "headline": "David Tepper's Latest AI Bet Is CoreWeave",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=9c4d75270a303776b3ed5c20d30209deccf4a080d295bf8f989e05cad1ba22b9"
         }
       ],
       "earnings": [
@@ -420,11 +420,11 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 261.46,
-      "change": -1.19,
-      "changePercent": -0.4531,
+      "price": 260.59,
+      "change": -2.06,
+      "changePercent": -0.7843,
       "high": 265.75,
-      "low": 261.03,
+      "low": 260.08,
       "open": 265.02,
       "prevClose": 262.65,
       "name": "Amazon.com Inc",
@@ -442,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Consumer Data Trips Up Wall Street's Rally as MDxHealth Snatches a Lifeline and Anthropic Redraws the AI Ceiling",
-          "source": "ChartMill",
+          "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=856f50db1b08b71463c96c56a4403068cae8d2c80f7a7deb5fc7bf43353d1c68"
+        },
+        {
+          "headline": "The S&P 500's 50% Earnings Boom Comes With A Giant Asterisk",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=82bad46a5349dcc7d397c8ac4e7910af4dca8f32a45e7f0d4ea06a23509cea1e"
+        },
+        {
+          "headline": "David Tepper's Latest AI Bet Is CoreWeave",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=9c4d75270a303776b3ed5c20d30209deccf4a080d295bf8f989e05cad1ba22b9"
+        },
+        {
+          "headline": "'Big Short' Investor Steve Eisman Says AI Has an 'Achilles' Heel' — But It's Too Early to Short the Boom",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=fd07bc5991a2162e3e503d1b25479f7022f6933d6eccb386cea63e4085cfa95c"
+        },
+        {
+          "headline": "Viking Global Bets Big On SpaceX While Ditching CoreWeave, Alphabet in Q2",
+          "source": "Benzinga",
           "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=fc98510322e387155cbbc6a2eb405984bb79a57cc4f550402ec0d3960db217a3"
-        },
-        {
-          "headline": "Projected Robotaxi (Autonomous Ride-Hailing) Growth By Company And Why I Rate Waymo A Buy",
-          "source": "SeekingAlpha",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=39c381aa99b71324087353d3a5efa3591c1f04980b6a21e424e08c758959c44d"
-        },
-        {
-          "headline": "Dell Stock Rally Pauses, But Supermicro, Lenovo Earnings Point to Upside",
-          "source": "Benzinga",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=d651f92ddd0ace78f7f92c2878d40e7535eac6be810461d173aaf4347482170d"
-        },
-        {
-          "headline": "These Three Metrics Explain Why S&P 500 Index Has Hit Record High",
-          "source": "Benzinga",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=d0ebc82da0e30ec080135ef8555241856b0b5f6fe56d64438ebd4e32b1672f73"
-        },
-        {
-          "headline": "Alibaba, Walmart To Headline Earnings Next Week, FOMC Minutes Of Meeting In Focus",
-          "source": "SeekingAlpha",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=42016711a55406f708f7ef1a37622996e70dcd97b80bd8da03c2ffca57b70dfb"
+          "url": "https://finnhub.io/api/news?id=31e00e0962040c9e9d7d492ae297c775be784775d38b27fadf366f6e067e881b"
         }
       ],
       "earnings": [
@@ -506,9 +506,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 338.82,
-      "change": -3.45,
-      "changePercent": -1.008,
+      "price": 340.85,
+      "change": -1.42,
+      "changePercent": -0.4149,
       "high": 343.11,
       "low": 337.48,
       "open": 342.605,
@@ -528,6 +528,18 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Viking Global Bets Big On SpaceX While Ditching CoreWeave, Alphabet in Q2",
+          "source": "Benzinga",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=31e00e0962040c9e9d7d492ae297c775be784775d38b27fadf366f6e067e881b"
+        },
+        {
+          "headline": "Elon Musk Says Tesla Is ‘Most Made in America’ Car Brand as Trump Tariffs Shake Up Auto Industry",
+          "source": "Benzinga",
+          "timeAgo": "16h ago",
+          "url": "https://finnhub.io/api/news?id=14863f489eae2eb2783b00909444820af74913fbe4a8675fd8a62d4dc9a5b6f4"
+        },
+        {
           "headline": "Projected Robotaxi (Autonomous Ride-Hailing) Growth By Company And Why I Rate Waymo A Buy",
           "source": "SeekingAlpha",
           "timeAgo": "1d ago",
@@ -544,18 +556,6 @@
           "source": "CNBC",
           "timeAgo": "2d ago",
           "url": "https://finnhub.io/api/news?id=fff8ac7b9ee53c4c3cad2ce1fc1f966d452eb115bf9aabcf090e4ee6b7a7b36d"
-        },
-        {
-          "headline": "How the auto industry is trying to make software-defined vehicles last",
-          "source": "CNBC",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=ffdffd209db7024c634840cd21cf86880db578f3faa5956e7049c669b497f848"
-        },
-        {
-          "headline": "Stanley Druckenmiller Bets Big on AMZN, AMD — Dumps AVGO, INTC and MU in Q2",
-          "source": "Benzinga",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=b8a734e5a7a330b90fdad499ca20be27bb422d6bdd9a4ce4f72de1a0c8d1f92a"
         }
       ],
       "earnings": [
