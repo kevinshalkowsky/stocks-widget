@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-18T19:18:28.200Z",
+  "updatedAt": "2026-08-18T20:08:36.170Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7697.33,
-      "change": -47.73,
-      "changePercent": -0.6163,
+      "price": 7691.76,
+      "change": -53.3,
+      "changePercent": -0.6882,
       "high": 7713.95,
-      "low": 7693.89,
+      "low": 7688.63,
       "open": 0,
       "prevClose": 7745.06005859375,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "1.6B",
+      "volume": "2.6B",
       "sparklineData": [
         7443.27978515625,
         7509.2001953125,
@@ -37,7 +37,7 @@
         7798.990234375,
         7785.759765625,
         7745.06005859375,
-        7697.330078125
+        7691.759765625
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53387.73,
-      "change": -72.05,
-      "changePercent": -0.1348,
+      "price": 53343.4,
+      "change": -116.38,
+      "changePercent": -0.2177,
       "high": 53478.76,
       "low": 53256.34,
       "open": 0,
       "prevClose": 53459.78125,
       "week52High": 54744.33,
       "week52Low": 44579.03,
-      "volume": "267.6M",
+      "volume": "428.6M",
       "sparklineData": [
         51839.26171875,
         52224.640625,
@@ -90,7 +90,7 @@
         53839.98828125,
         53732.41015625,
         53459.78125,
-        53387.73046875
+        53343.3984375
       ],
       "sector": "",
       "marketCap": "",
@@ -111,27 +111,24 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26289.041,
-      "change": -355.87,
-      "changePercent": -1.3356,
+      "price": 26289.71,
+      "change": -355.2,
+      "changePercent": -1.3331,
       "high": 26422.502,
       "low": 26266.676,
       "open": 0,
       "prevClose": 26644.91015625,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "4.7B",
+      "volume": "6.3B",
       "sparklineData": [
         25508.0703125,
-        25837.2109375,
-        25690.900390625,
         25137.689453125,
         24975.8203125,
         24932.080078125,
         24876.91015625,
         24442.939453125,
         25122.1796875,
-        25373.849609375,
         25913.900390625,
         26584.990234375,
         26363.439453125,
@@ -143,7 +140,7 @@
         26803.029296875,
         26729.16015625,
         26644.91015625,
-        26289.041015625
+        26289.7109375
       ],
       "sector": "",
       "marketCap": "",
@@ -165,12 +162,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 309.69,
-      "change": 4.1,
-      "changePercent": 1.3417,
+      "price": 310.03,
+      "change": 4.44,
+      "changePercent": 1.4529,
       "high": 311.49,
       "low": 305.74,
-      "open": 306.41,
+      "open": 307.58,
       "prevClose": 305.59,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -181,40 +178,40 @@
       "beta": 1.0768425,
       "peRatio": 39.5513,
       "eps": 7.465,
-      "dividendYield": "0.51%",
+      "dividendYield": "0.35%",
       "volume": "42.9M",
       "avgVolume": "53.2M",
       "sparklineData": [],
       "news": [
         {
+          "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "58m ago",
+          "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
+        },
+        {
           "headline": "Curious about the most active S&P500 stocks in today's session?",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
         },
         {
           "headline": "Which dow jones stocks are moving on Tuesday?",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
+        },
+        {
+          "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
         },
         {
           "headline": "Apple overhauls Europe app store fees to resolve payments clash",
           "source": "CNBC",
           "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=8fa782bfff7fdb4ff64cca3fffbd1b5745f2e8a193855905744ee87b7e54aacc"
-        },
-        {
-          "headline": "Apple Says Changes To Business Terms For Apps In The EU Effective October 1; Commission Will Be 15% In EU For App Store Apps That Link Out Of The App To Complete Purchases; Expanding Who Is Eligible To Operate Alternative App Marketplace Or Distribute Apps Via Web In The EU; Developers Can Offer Apple In-app Purchase With Alternative Payment Options Which Had Not Previously Been Permitted In EU; Adds EU Child Safety Measures Including Parental Gates For Users Under 18 On Alternative Payments",
-          "source": "Benzinga",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=210869e5fa68eea229a5449fa003c5b75a1676d0aa3e085e277879982dc5b8ac"
-        },
-        {
-          "headline": "Apple Announces Changes For Apps In The European Union; Says In EU Core Technology Fee To Be Replaced By 5% Core Technology Commission On Digital Transactions Outside App Store; App Store Apps Using Apple In-app Purchase To Pay 26% Commission In EU; Adjusting Commission Rates In EU Across App Store, Alternative App Payments & Alternatively Distributed Apps; Commission Will Be 20% In EU For App Store Apps Using Alternative Payment Processing",
-          "source": "Benzinga",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=95032843fd47dc29d357a3e1c5eb2862fda8f59404f99b78f0197daa1858ebac"
         }
       ],
       "earnings": [
@@ -251,12 +248,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 343.88,
-      "change": -0.12,
-      "changePercent": -0.0349,
+      "price": 344.1974,
+      "change": 0.1974,
+      "changePercent": 0.0574,
       "high": 344.8699,
       "low": 340.19,
-      "open": 342.3625,
+      "open": 342.405,
       "prevClose": 344,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -273,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "58m ago",
+          "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
+        },
+        {
           "headline": "Which dow jones stocks are moving on Tuesday?",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
+        },
+        {
+          "headline": "The Math Of The AI Bubble Is Changing",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=8dd69aabbe43c613b7278c0d5e797403c3ad736312c150014a177208d23e5709"
+        },
+        {
+          "headline": "Gary Black Says Tesla Bulls On Social Media Are Like College Students Doing 'Tequila Shots'",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=447d6a489d6659c3dfaaeed3bfbfc33ad8683ebe0e0cad099bb81656e167b5af"
         },
         {
           "headline": "XLC: Alphabet And Meta Just Keep Churning",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=90836467a4e2ed96426dd09492f4bf24abf02bb02849dbc087d69bd04d2cfba1"
-        },
-        {
-          "headline": "'Anthropic Pre-IPO Credit Facility Set to Climb Past $10 Billion' - Bloomberg",
-          "source": "Benzinga",
           "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=912557a963c654d0c80ccdba4466965f75facd0f65a69f8ba1aa600c717658db"
-        },
-        {
-          "headline": "AI's Half-Trillion-Dollar Borrowing Binge Is Competing With Uncle Sam for Bond Buyers",
-          "source": "Benzinga",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=500c10a1c96bef92e5179f17a2b87f82403829553ea1ccc071ecef97cabdb7eb"
-        },
-        {
-          "headline": "Salesforce's and ServiceNow’s Business Models Are in Danger, Expert Cautions: What Does It Mean For CRM and NOW?",
-          "source": "Benzinga",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=0ec6ccc31a21442974170482fd7a9ba42b24496d0c757b178775ce03d7041e3a"
+          "url": "https://finnhub.io/api/news?id=90836467a4e2ed96426dd09492f4bf24abf02bb02849dbc087d69bd04d2cfba1"
         }
       ],
       "earnings": [
@@ -337,12 +334,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 483.54,
-      "change": 3.19,
-      "changePercent": 0.6641,
+      "price": 481.63,
+      "change": 1.28,
+      "changePercent": 0.2665,
       "high": 484.27,
       "low": 477.1505,
-      "open": 480.245,
+      "open": 481.54,
       "prevClose": 480.35,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -359,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "IREN Is Quietly Outpacing CoreWeave on One AI Metric that Matters",
+          "headline": "The Math Of The AI Bubble Is Changing",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=8dd69aabbe43c613b7278c0d5e797403c3ad736312c150014a177208d23e5709"
+        },
+        {
+          "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
           "source": "Benzinga",
           "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
+        },
+        {
+          "headline": "'OpenAI Institutes New Safeguards After Hugging Face Breach' - TechCrunch",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=ae568e6d15343e560d1ae8e27c55a25d3999b8ef15940c1979451abe82843175"
+        },
+        {
+          "headline": "IREN Is Quietly Outpacing CoreWeave on One AI Metric that Matters",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=304e38a4326cd4a42c434d73f8f1f685a2700f91e22be6ff1072c7c9b1cbe0b3"
         },
         {
           "headline": "AI's Half-Trillion-Dollar Borrowing Binge Is Competing With Uncle Sam for Bond Buyers",
           "source": "Benzinga",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=500c10a1c96bef92e5179f17a2b87f82403829553ea1ccc071ecef97cabdb7eb"
-        },
-        {
-          "headline": "Accenture Could Be Dead Money",
-          "source": "SeekingAlpha",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=a7e4c59a6d97369192e2fdd9b75645fa6f3b0812ec8b6f11fac6ab39afe08a6a"
-        },
-        {
-          "headline": "Microsoft: The Price Climbed Too Far Too Fast (Rating Downgrade)",
-          "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=7e7b2f87e439293f942d48bade83bb37e341a1060b082b8358d80512b3da2f3b"
-        },
-        {
-          "headline": "J.P. Morgan’s Bill Eigen Sounds 2008 Crash Alarm Over AI Boom — Says Investors Are Missing One Warning Sign That Could Change Everything: ‘What I’m Terrified of Is…’ (UPDATED)",
-          "source": "Benzinga",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=66674a9a9f1dc975189dca3fcd8ca3fd0d96596014f66182c046025ded88d0bd"
         }
       ],
       "earnings": [
@@ -423,12 +420,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 260.35,
-      "change": -0.96,
-      "changePercent": -0.3674,
+      "price": 259.45,
+      "change": -1.86,
+      "changePercent": -0.7118,
       "high": 262.18,
       "low": 257.73,
-      "open": 260.615,
+      "open": 260.63,
       "prevClose": 261.31,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -445,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "58m ago",
+          "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
+        },
+        {
           "headline": "Curious about the most active S&P500 stocks in today's session?",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
         },
         {
           "headline": "Which dow jones stocks are moving on Tuesday?",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
         },
         {
-          "headline": "'Anthropic Pre-IPO Credit Facility Set to Climb Past $10 Billion' - Bloomberg",
-          "source": "Benzinga",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=912557a963c654d0c80ccdba4466965f75facd0f65a69f8ba1aa600c717658db"
+          "headline": "The Math Of The AI Bubble Is Changing",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=8dd69aabbe43c613b7278c0d5e797403c3ad736312c150014a177208d23e5709"
         },
         {
-          "headline": "AI's Half-Trillion-Dollar Borrowing Binge Is Competing With Uncle Sam for Bond Buyers",
+          "headline": "Gary Black Says Tesla Bulls On Social Media Are Like College Students Doing 'Tequila Shots'",
           "source": "Benzinga",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=500c10a1c96bef92e5179f17a2b87f82403829553ea1ccc071ecef97cabdb7eb"
-        },
-        {
-          "headline": "Warren Buffett Disciple Seth Klarman Bets on Cruise Lines, Auto Parts, Amazon and Bill Ackman in Q2",
-          "source": "Benzinga",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=7a0923142f4e79f7c0843e127d5fe066087883fcfd22c32fedcef46c9704915e"
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=447d6a489d6659c3dfaaeed3bfbfc33ad8683ebe0e0cad099bb81656e167b5af"
         }
       ],
       "earnings": [
@@ -509,12 +506,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 336.24,
-      "change": -3.06,
-      "changePercent": -0.9019,
+      "price": 336.93,
+      "change": -2.37,
+      "changePercent": -0.6985,
       "high": 340.53,
       "low": 331.12,
-      "open": 334.81,
+      "open": 333.22,
       "prevClose": 339.3,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -533,32 +530,32 @@
         {
           "headline": "Curious about the most active S&P500 stocks in today's session?",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
+        },
+        {
+          "headline": "Gary Black Says Tesla Bulls On Social Media Are Like College Students Doing 'Tequila Shots'",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=447d6a489d6659c3dfaaeed3bfbfc33ad8683ebe0e0cad099bb81656e167b5af"
+        },
+        {
+          "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
         },
         {
           "headline": "Tesla: Back Into Negative Free Cash Flow Territory",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=3dbed6b78494258b44abdec7e6afcd7c8136f90a266968ab9a069c2b82343e49"
         },
         {
           "headline": "Stocks making the biggest moves midday: Meta, Amylyx, Baidu, Klarna, Coherent, Sandisk & more",
           "source": "CNBC",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=c72c281529f57a71ec992c40b253a421c53b8fa4b522b66a5a9c0b159bc2e730"
-        },
-        {
-          "headline": "Tesla Semi Deployment Triples Einride's Capacity As 500 Units Join Amazon Freight Push",
-          "source": "Benzinga",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=e017f315763d0097f0f870b24a96f2461c7d66c5812184c26401b90f0ecde5e5"
-        },
-        {
-          "headline": "Tesla Lands 500-Truck Order From Einride in World's Largest Tesla Semi Deployment",
-          "source": "Benzinga",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=47e331be568ad55c139e846dd553c04981c3189b686bb6c2d3db1406dfeb8249"
         }
       ],
       "earnings": [
