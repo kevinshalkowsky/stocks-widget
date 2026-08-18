@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-18T16:15:22.343Z",
+  "updatedAt": "2026-08-18T17:14:58.335Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7706.22,
-      "change": -38.84,
-      "changePercent": -0.5015,
+      "price": 7706.18,
+      "change": -38.88,
+      "changePercent": -0.502,
       "high": 7713.95,
       "low": 7693.89,
       "open": 0,
       "prevClose": 7745.06005859375,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "996.5M",
+      "volume": "1.2B",
       "sparklineData": [
         7443.27978515625,
         7509.2001953125,
@@ -37,7 +37,7 @@
         7798.990234375,
         7785.759765625,
         7745.06005859375,
-        7706.22021484375
+        7706.18017578125
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53386.99,
-      "change": -72.79,
-      "changePercent": -0.1362,
+      "price": 53380,
+      "change": -79.78,
+      "changePercent": -0.1492,
       "high": 53478.76,
       "low": 53256.34,
       "open": 0,
       "prevClose": 53459.78125,
       "week52High": 54744.33,
       "week52Low": 44579.03,
-      "volume": "176.0M",
+      "volume": "206.5M",
       "sparklineData": [
         51839.26171875,
         52224.640625,
@@ -90,7 +90,7 @@
         53839.98828125,
         53732.41015625,
         53459.78125,
-        53386.98828125
+        53380
       ],
       "sector": "",
       "marketCap": "",
@@ -111,27 +111,24 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26362.348,
-      "change": -282.56,
-      "changePercent": -1.0605,
+      "price": 26362.059,
+      "change": -282.85,
+      "changePercent": -1.0616,
       "high": 26422.502,
       "low": 26266.676,
       "open": 0,
       "prevClose": 26644.91015625,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "3.0B",
+      "volume": "3.6B",
       "sparklineData": [
         25508.0703125,
-        25837.2109375,
-        25690.900390625,
         25137.689453125,
         24975.8203125,
         24932.080078125,
         24876.91015625,
         24442.939453125,
         25122.1796875,
-        25373.849609375,
         25913.900390625,
         26584.990234375,
         26363.439453125,
@@ -143,7 +140,7 @@
         26803.029296875,
         26729.16015625,
         26644.91015625,
-        26362.34765625
+        26362.05859375
       ],
       "sector": "",
       "marketCap": "",
@@ -165,9 +162,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 310.3,
-      "change": 4.71,
-      "changePercent": 1.5413,
+      "price": 310.63,
+      "change": 5.04,
+      "changePercent": 1.6493,
       "high": 311.49,
       "low": 305.74,
       "open": 306.41,
@@ -187,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Which dow jones stocks are moving on Tuesday?",
+          "source": "ChartMill",
+          "timeAgo": "34m ago",
+          "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
+        },
+        {
           "headline": "AI Is Not A Bubble: 4 Income Ideas To Ride The Wave",
           "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=77453322fe1810b5de21ec7eeeb1b8a7a5d439d60f9c8386cc5c4778857532e8"
         },
         {
           "headline": "Iran Risk and Oil Above $90 Snap the Rally as Memory Chips Do the Heavy Lifting and Reddit Wobbles Into the S&P 500",
           "source": "ChartMill",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=6d945599b2c038e8f2b97653fb148f3784214b19ac8571a541be3ddb37d1dc68"
         },
         {
           "headline": "The Real Reason Markets Are Rising Despite A Bearish Macro Backdrop",
           "source": "SeekingAlpha",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=712b058a64e071236348ee01c1d817e2e3629a8f87a7f29d55eaca50323c87d1"
         },
         {
           "headline": "Discover which dow jones stocks are making waves on Monday.",
           "source": "ChartMill",
-          "timeAgo": "21h ago",
-          "url": "https://finnhub.io/api/news?id=ec0668889a4c1c71892f8037054930e2b4ad337fa2c786bae0c8ac483da2e41c"
-        },
-        {
-          "headline": "These S&P500 stocks are the most active in today's session",
-          "source": "ChartMill",
           "timeAgo": "22h ago",
-          "url": "https://finnhub.io/api/news?id=a245f182d8a1d967af429370e7a6ae69b57fe2b551fd2b28df79504cb335ba28"
+          "url": "https://finnhub.io/api/news?id=ec0668889a4c1c71892f8037054930e2b4ad337fa2c786bae0c8ac483da2e41c"
         }
       ],
       "earnings": [
@@ -251,10 +248,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 343.29,
-      "change": -0.71,
-      "changePercent": -0.2064,
-      "high": 344.11,
+      "price": 343.46,
+      "change": -0.54,
+      "changePercent": -0.157,
+      "high": 344.14,
       "low": 340.19,
       "open": 342.3625,
       "prevClose": 344,
@@ -273,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Which dow jones stocks are moving on Tuesday?",
+          "source": "ChartMill",
+          "timeAgo": "34m ago",
+          "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
+        },
+        {
           "headline": "Sandisk's Nvidia Catalyst Just Emerged (Rating Upgrade)",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=c3e5cbbc28b448df3697394d77148468ce1d882e0b2ca0fbf71f4814c78bf310"
         },
         {
           "headline": "Netlist: Samsung Bends The Knee, Micron, Alphabet And Super Micro Computer Could Be Next",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=41afdf86402b2392651a017999072cb9e5fc250084b7ab1aac46ac64cc1e9d0b"
         },
         {
           "headline": "J.P. Morgan’s Bill Eigen Sounds 2008 Crash Alarm Over AI Boom — Says Investors Are Missing One Warning Sign That Could Change Everything: ‘What I’m Terrified of Is…’ (UPDATED)",
           "source": "Benzinga",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=66674a9a9f1dc975189dca3fcd8ca3fd0d96596014f66182c046025ded88d0bd"
         },
         {
           "headline": "AI Is Not A Bubble: 4 Income Ideas To Ride The Wave",
           "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=77453322fe1810b5de21ec7eeeb1b8a7a5d439d60f9c8386cc5c4778857532e8"
-        },
-        {
-          "headline": "Wall Street Breakfast Podcast: Return Of The Bond Vigilantes?",
-          "source": "SeekingAlpha",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=06838baeacbd9974b30fcd7a4c7abc171bb609708d7abdc8abab2b1bd81236e4"
         }
       ],
       "earnings": [
@@ -337,9 +334,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 482.55,
-      "change": 2.2,
-      "changePercent": 0.458,
+      "price": 481.73,
+      "change": 1.38,
+      "changePercent": 0.2873,
       "high": 484.27,
       "low": 477.1505,
       "open": 480.245,
@@ -361,32 +358,32 @@
         {
           "headline": "Accenture Could Be Dead Money",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=a7e4c59a6d97369192e2fdd9b75645fa6f3b0812ec8b6f11fac6ab39afe08a6a"
         },
         {
           "headline": "Microsoft: The Price Climbed Too Far Too Fast (Rating Downgrade)",
           "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=7e7b2f87e439293f942d48bade83bb37e341a1060b082b8358d80512b3da2f3b"
         },
         {
           "headline": "J.P. Morgan’s Bill Eigen Sounds 2008 Crash Alarm Over AI Boom — Says Investors Are Missing One Warning Sign That Could Change Everything: ‘What I’m Terrified of Is…’ (UPDATED)",
           "source": "Benzinga",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=66674a9a9f1dc975189dca3fcd8ca3fd0d96596014f66182c046025ded88d0bd"
+        },
+        {
+          "headline": "CBRS Stock Popped Nearly 10% Over 5 Sessions, IREN Jumped 15% — Here’s the ‘Situational Awareness’ Strategy Connecting Them",
+          "source": "Benzinga",
+          "timeAgo": "8h ago",
+          "url": "https://finnhub.io/api/news?id=4469018101bdda2fe99336608ef774aed15ec540eb219b805070187faa6509f2"
         },
         {
           "headline": "The Real Reason Markets Are Rising Despite A Bearish Macro Backdrop",
           "source": "SeekingAlpha",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=712b058a64e071236348ee01c1d817e2e3629a8f87a7f29d55eaca50323c87d1"
-        },
-        {
-          "headline": "Soluna Holdings: The $1.3B Question Remains Unanswered",
-          "source": "SeekingAlpha",
           "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=011d729fb6068e1a3cedb191879bbdc3e3ae254e776fbda809224038817f2434"
+          "url": "https://finnhub.io/api/news?id=712b058a64e071236348ee01c1d817e2e3629a8f87a7f29d55eaca50323c87d1"
         }
       ],
       "earnings": [
@@ -423,9 +420,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 260.95,
-      "change": -0.36,
-      "changePercent": -0.1378,
+      "price": 261.9,
+      "change": 0.59,
+      "changePercent": 0.2258,
       "high": 262.18,
       "low": 257.73,
       "open": 260.615,
@@ -445,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Which dow jones stocks are moving on Tuesday?",
+          "source": "ChartMill",
+          "timeAgo": "34m ago",
+          "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
+        },
+        {
+          "headline": "Warren Buffett Disciple Seth Klarman Bets on Cruise Lines, Auto Parts, Amazon and Bill Ackman in Q2",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=7a0923142f4e79f7c0843e127d5fe066087883fcfd22c32fedcef46c9704915e"
+        },
+        {
           "headline": "Cisco, Nvidia, Amazon and Nokia: The Customer List Behind Fabrinet's AI Boom",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=fa00239a2bbb9e2bdcdb0751f354bebd2acd1197d086a3766fc90b48d88693d7"
         },
         {
           "headline": "J.P. Morgan’s Bill Eigen Sounds 2008 Crash Alarm Over AI Boom — Says Investors Are Missing One Warning Sign That Could Change Everything: ‘What I’m Terrified of Is…’ (UPDATED)",
           "source": "Benzinga",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=66674a9a9f1dc975189dca3fcd8ca3fd0d96596014f66182c046025ded88d0bd"
         },
         {
           "headline": "Iran Risk and Oil Above $90 Snap the Rally as Memory Chips Do the Heavy Lifting and Reddit Wobbles Into the S&P 500",
           "source": "ChartMill",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=6d945599b2c038e8f2b97653fb148f3784214b19ac8571a541be3ddb37d1dc68"
-        },
-        {
-          "headline": "Walmart Earnings Preview: The Flywheel Is Still Flywheelin' But Ultimately, Operating Margin Needs To Improve",
-          "source": "SeekingAlpha",
-          "timeAgo": "16h ago",
-          "url": "https://finnhub.io/api/news?id=41c926e79635cc81075e9e16882bf4e10334111d26af900db9cce5718e10f4b6"
-        },
-        {
-          "headline": "Tracking Seth Klarman's Baupost Group Holdings - Q2 2026 Update",
-          "source": "SeekingAlpha",
-          "timeAgo": "20h ago",
-          "url": "https://finnhub.io/api/news?id=adf36bd6d8d33f0eda81a3ffe443bb9cac2a47726dfa0107317ec0ca23d0c555"
         }
       ],
       "earnings": [
@@ -509,9 +506,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 338.83,
-      "change": -0.47,
-      "changePercent": -0.1385,
+      "price": 338.56,
+      "change": -0.74,
+      "changePercent": -0.2181,
       "high": 340.53,
       "low": 331.12,
       "open": 334.81,
@@ -533,13 +530,13 @@
         {
           "headline": "Former Tesla President Says Roadster Demo Could Be a ‘Not-So-Hidden Attempt’ to Knit TSLA and SPCX Together: ‘Probably Sooner Rather Than Later’",
           "source": "Benzinga",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=fc8afb85637c9421a1e70780bba31bf72b2f9bdad1700e48dcb8b751a27757e4"
         },
         {
           "headline": "ChronicleBio Cofounder Fidji Simo Says AI Could Transform Disease Treatment, But Smarter Models Aren’t Enough",
           "source": "Benzinga",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=f3ae67d22f541ec6b4ba8459c5fa33b1f2daac50240497863fbf1e63ad1bca71"
         },
         {
