@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-18T12:17:01.736Z",
+  "updatedAt": "2026-08-18T13:33:06.791Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7745.06,
-      "change": -53.93,
-      "changePercent": -0.6915,
-      "high": 7790.68,
-      "low": 7744.88,
+      "price": 7702.73,
+      "change": -83.03,
+      "changePercent": -1.0664,
+      "high": 7712.86,
+      "low": 7699.43,
       "open": 0,
-      "prevClose": 7798.990234375,
+      "prevClose": 7785.759765625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "2.5B",
+      "volume": "111.7M",
       "sparklineData": [
         7443.27978515625,
         7509.2001953125,
@@ -35,7 +35,8 @@
         7728.2001953125,
         7748.5,
         7798.990234375,
-        7785.759765625
+        7785.759765625,
+        7702.72998046875
       ],
       "sector": "",
       "marketCap": "",
@@ -56,24 +57,27 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53459.78,
-      "change": -380.21,
-      "changePercent": -0.7062,
-      "high": 53663.11,
-      "low": 53395.23,
+      "price": 53331.96,
+      "change": -400.45,
+      "changePercent": -0.7453,
+      "high": 53406.41,
+      "low": 53256.34,
       "open": 0,
-      "prevClose": 53839.98828125,
+      "prevClose": 53732.41015625,
       "week52High": 54744.33,
       "week52Low": 44579.03,
-      "volume": "436.7M",
+      "volume": "24.2M",
       "sparklineData": [
         51839.26171875,
+        52224.640625,
+        52218.578125,
         51711.6484375,
         51947.25,
         52210.078125,
         52747.3203125,
         51594.140625,
         52208.05859375,
+        52485.03125,
         53178.41015625,
         54085.87890625,
         54349.12109375,
@@ -83,7 +87,8 @@
         53791.8515625,
         53770.26953125,
         53839.98828125,
-        53732.41015625
+        53732.41015625,
+        53331.9609375
       ],
       "sector": "",
       "marketCap": "",
@@ -104,27 +109,24 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26644.91,
-      "change": -158.12,
-      "changePercent": -0.5899,
-      "high": 26798.398,
-      "low": 26626.375,
+      "price": 26318.61,
+      "change": -410.55,
+      "changePercent": -1.536,
+      "high": 26375.748,
+      "low": 26318.61,
       "open": 0,
-      "prevClose": 26803.029296875,
+      "prevClose": 26729.16015625,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "6.8B",
+      "volume": "689.2M",
       "sparklineData": [
         25508.0703125,
-        25837.2109375,
-        25690.900390625,
         25137.689453125,
         24975.8203125,
         24932.080078125,
         24876.91015625,
         24442.939453125,
         25122.1796875,
-        25373.849609375,
         25913.900390625,
         26584.990234375,
         26363.439453125,
@@ -134,7 +136,8 @@
         26445.44921875,
         26588.490234375,
         26803.029296875,
-        26729.16015625
+        26729.16015625,
+        26318.609375
       ],
       "sector": "",
       "marketCap": "",
@@ -156,13 +159,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 305.59,
-      "change": -0.34,
-      "changePercent": -0.1111,
-      "high": 307.66,
-      "low": 302.939,
-      "open": 306.21,
-      "prevClose": 305.93,
+      "price": 307.79,
+      "change": 2.2,
+      "changePercent": 0.7199,
+      "high": 307.95,
+      "low": 306.42,
+      "open": 307.59,
+      "prevClose": 305.59,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.46T",
@@ -178,34 +181,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "AI Is Not A Bubble: 4 Income Ideas To Ride The Wave",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=77453322fe1810b5de21ec7eeeb1b8a7a5d439d60f9c8386cc5c4778857532e8"
+        },
+        {
           "headline": "Iran Risk and Oil Above $90 Snap the Rally as Memory Chips Do the Heavy Lifting and Reddit Wobbles Into the S&P 500",
           "source": "ChartMill",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=6d945599b2c038e8f2b97653fb148f3784214b19ac8571a541be3ddb37d1dc68"
         },
         {
           "headline": "The Real Reason Markets Are Rising Despite A Bearish Macro Backdrop",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=712b058a64e071236348ee01c1d817e2e3629a8f87a7f29d55eaca50323c87d1"
         },
         {
           "headline": "Discover which dow jones stocks are making waves on Monday.",
           "source": "ChartMill",
-          "timeAgo": "17h ago",
+          "timeAgo": "18h ago",
           "url": "https://finnhub.io/api/news?id=ec0668889a4c1c71892f8037054930e2b4ad337fa2c786bae0c8ac483da2e41c"
         },
         {
           "headline": "These S&P500 stocks are the most active in today's session",
           "source": "ChartMill",
-          "timeAgo": "18h ago",
-          "url": "https://finnhub.io/api/news?id=a245f182d8a1d967af429370e7a6ae69b57fe2b551fd2b28df79504cb335ba28"
-        },
-        {
-          "headline": "S&P 500: The Bull Market That Won't Die",
-          "source": "SeekingAlpha",
           "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=f1ec8a7314ab03eed420d0cfdb18ac85d4f8ea02b5035e8dcef764cb10dd5a17"
+          "url": "https://finnhub.io/api/news?id=a245f182d8a1d967af429370e7a6ae69b57fe2b551fd2b28df79504cb335ba28"
         }
       ],
       "earnings": [
@@ -242,13 +245,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 344,
-      "change": -1.9,
-      "changePercent": -0.5493,
-      "high": 347.25,
-      "low": 341.93,
-      "open": 346.265,
-      "prevClose": 345.9,
+      "price": 341.04,
+      "change": -2.96,
+      "changePercent": -0.8605,
+      "high": 342.57,
+      "low": 340.19,
+      "open": 342.3625,
+      "prevClose": 344,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.21T",
@@ -264,34 +267,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Wall Street Breakfast Podcast: Return Of The Bond Vigilantes?",
+          "headline": "AI Is Not A Bubble: 4 Income Ideas To Ride The Wave",
           "source": "SeekingAlpha",
           "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=77453322fe1810b5de21ec7eeeb1b8a7a5d439d60f9c8386cc5c4778857532e8"
+        },
+        {
+          "headline": "Wall Street Breakfast Podcast: Return Of The Bond Vigilantes?",
+          "source": "SeekingAlpha",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=06838baeacbd9974b30fcd7a4c7abc171bb609708d7abdc8abab2b1bd81236e4"
         },
         {
           "headline": "The Real Reason Markets Are Rising Despite A Bearish Macro Backdrop",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=712b058a64e071236348ee01c1d817e2e3629a8f87a7f29d55eaca50323c87d1"
         },
         {
           "headline": "Tracking Seth Klarman's Baupost Group Holdings - Q2 2026 Update",
           "source": "SeekingAlpha",
-          "timeAgo": "16h ago",
+          "timeAgo": "17h ago",
           "url": "https://finnhub.io/api/news?id=adf36bd6d8d33f0eda81a3ffe443bb9cac2a47726dfa0107317ec0ca23d0c555"
         },
         {
           "headline": "Alphabet: The Cheapest Mega-Cap Tech Company",
           "source": "SeekingAlpha",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=38cb145ab5f0a8c07e992eae1a30182b3eab15e70caf7db2ae1da18633327153"
-        },
-        {
-          "headline": "Don't Expect Massive Upside From Apple At This Entry Point",
-          "source": "SeekingAlpha",
-          "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=8a31c7a08e8eb59bf54f4fcc11667cdc1e6604b3ab03451a11f895bc441b611d"
         }
       ],
       "earnings": [
@@ -328,13 +331,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 480.35,
-      "change": -15.05,
-      "changePercent": -3.0379,
-      "high": 492.66,
-      "low": 478.41,
-      "open": 490.14,
-      "prevClose": 495.4,
+      "price": 480.08,
+      "change": -0.27,
+      "changePercent": -0.0562,
+      "high": 482.77,
+      "low": 479.571,
+      "open": 480.245,
+      "prevClose": 480.35,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.57T",
@@ -350,34 +353,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Microsoft: The Price Climbed Too Far Too Fast (Rating Downgrade)",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=7e7b2f87e439293f942d48bade83bb37e341a1060b082b8358d80512b3da2f3b"
+        },
+        {
           "headline": "The Real Reason Markets Are Rising Despite A Bearish Macro Backdrop",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=712b058a64e071236348ee01c1d817e2e3629a8f87a7f29d55eaca50323c87d1"
         },
         {
           "headline": "Soluna Holdings: The $1.3B Question Remains Unanswered",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=011d729fb6068e1a3cedb191879bbdc3e3ae254e776fbda809224038817f2434"
         },
         {
           "headline": "Discover which dow jones stocks are making waves on Monday.",
           "source": "ChartMill",
-          "timeAgo": "17h ago",
+          "timeAgo": "18h ago",
           "url": "https://finnhub.io/api/news?id=ec0668889a4c1c71892f8037054930e2b4ad337fa2c786bae0c8ac483da2e41c"
         },
         {
           "headline": "S&P 500: The Bull Market That Won't Die",
           "source": "SeekingAlpha",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=f1ec8a7314ab03eed420d0cfdb18ac85d4f8ea02b5035e8dcef764cb10dd5a17"
-        },
-        {
-          "headline": "Uncover the latest developments among dow jones stocks in today's session.",
-          "source": "ChartMill",
-          "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=b91ca1b80516fc75a10e9df868b364cf20cf41b442449092f5176ac5b0392a13"
         }
       ],
       "earnings": [
@@ -414,13 +417,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 261.31,
-      "change": -1.34,
-      "changePercent": -0.5102,
-      "high": 265.75,
-      "low": 258.339,
-      "open": 265.44,
-      "prevClose": 262.65,
+      "price": 258.85,
+      "change": -2.46,
+      "changePercent": -0.9414,
+      "high": 261.18,
+      "low": 258.77,
+      "open": 260.64,
+      "prevClose": 261.31,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.82T",
@@ -438,31 +441,31 @@
         {
           "headline": "Iran Risk and Oil Above $90 Snap the Rally as Memory Chips Do the Heavy Lifting and Reddit Wobbles Into the S&P 500",
           "source": "ChartMill",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=6d945599b2c038e8f2b97653fb148f3784214b19ac8571a541be3ddb37d1dc68"
         },
         {
           "headline": "Walmart Earnings Preview: The Flywheel Is Still Flywheelin' But Ultimately, Operating Margin Needs To Improve",
           "source": "SeekingAlpha",
-          "timeAgo": "12h ago",
+          "timeAgo": "13h ago",
           "url": "https://finnhub.io/api/news?id=41c926e79635cc81075e9e16882bf4e10334111d26af900db9cce5718e10f4b6"
         },
         {
           "headline": "Tracking Seth Klarman's Baupost Group Holdings - Q2 2026 Update",
           "source": "SeekingAlpha",
-          "timeAgo": "16h ago",
+          "timeAgo": "17h ago",
           "url": "https://finnhub.io/api/news?id=adf36bd6d8d33f0eda81a3ffe443bb9cac2a47726dfa0107317ec0ca23d0c555"
         },
         {
           "headline": "These S&P500 stocks are the most active in today's session",
           "source": "ChartMill",
-          "timeAgo": "18h ago",
+          "timeAgo": "19h ago",
           "url": "https://finnhub.io/api/news?id=a245f182d8a1d967af429370e7a6ae69b57fe2b551fd2b28df79504cb335ba28"
         },
         {
           "headline": "S&P 500: The Bull Market That Won't Die",
           "source": "SeekingAlpha",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=f1ec8a7314ab03eed420d0cfdb18ac85d4f8ea02b5035e8dcef764cb10dd5a17"
         }
       ],
@@ -500,13 +503,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 339.3,
-      "change": -2.97,
-      "changePercent": -0.8677,
-      "high": 345.45,
-      "low": 337.48,
-      "open": 340.69,
-      "prevClose": 342.27,
+      "price": 332.84,
+      "change": -6.46,
+      "changePercent": -1.9039,
+      "high": 334.81,
+      "low": 331.12,
+      "open": 334.81,
+      "prevClose": 339.3,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.34T",
@@ -524,31 +527,31 @@
         {
           "headline": "Nvidia Is the Best S&P 500 Stock of the Past 10, 15, 20 Years — but 4 Stocks Beat It Over the Past 5 Years",
           "source": "Benzinga",
-          "timeAgo": "20h ago",
+          "timeAgo": "21h ago",
           "url": "https://finnhub.io/api/news?id=ce40230fb606f71ab2305d7395b5b280c15c4d8f82d10aa69714bb9bae8aa6b5"
         },
         {
           "headline": "'Tesla Readies August Launch of Cybercab, Its Robotaxi Without a Steering Wheel; Tesla Targets August Public Launch For Cybercab Robotaxi In Austin' - The Information",
           "source": "Benzinga",
-          "timeAgo": "20h ago",
+          "timeAgo": "22h ago",
           "url": "https://finnhub.io/api/news?id=0f03c138c712e26936f5d8f5ee0def8e900f1cdf040d1d38a597cd178a1d6ba0"
         },
         {
           "headline": "Anthropic's Revenue Jumps 14x; Chinese AI Targets Nvidia's Moat",
           "source": "Benzinga",
-          "timeAgo": "22h ago",
+          "timeAgo": "23h ago",
           "url": "https://finnhub.io/api/news?id=55b16960fc5530a3a894d5bd5a104f289290cc1784c955f3127ce2a195b4dc6b"
         },
         {
           "headline": "Gary Black Has ‘Low Interest’ in Tesla Stock at Current Price, Even With a Potential SpaceX Buyout",
           "source": "Benzinga",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=96d7288e8429719bfc126ac141eb9df7683eb22c5fd123ce77d8d9e0e94438cd"
         },
         {
           "headline": "Bill Ackman Bets Big on Magnificent 7 Stocks, But Only Loves 3 of Them",
           "source": "Benzinga",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=87f14dea12312475eee8406c1cb72d8c4c2f3f4836b5aed900763b9ee9b6878c"
         }
       ],
