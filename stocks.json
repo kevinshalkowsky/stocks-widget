@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-19T13:34:11.546Z",
+  "updatedAt": "2026-08-19T14:20:04.078Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7718.91,
-      "change": 27.15,
-      "changePercent": 0.353,
+      "price": 7716.81,
+      "change": 25.05,
+      "changePercent": 0.3257,
       "high": 7726.29,
-      "low": 7716.74,
+      "low": 7700.07,
       "open": 0,
       "prevClose": 7691.759765625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "161.6M",
+      "volume": "596.7M",
       "sparklineData": [
         7443.27978515625,
         7408.2998046875,
@@ -35,7 +35,7 @@
         7785.759765625,
         7745.06005859375,
         7691.759765625,
-        7718.91015625
+        7716.81005859375
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +56,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53441.29,
-      "change": 97.89,
-      "changePercent": 0.1835,
-      "high": 53585.01,
+      "price": 53623.17,
+      "change": 279.77,
+      "changePercent": 0.5245,
+      "high": 53641.11,
       "low": 53399.53,
       "open": 0,
       "prevClose": 53343.3984375,
       "week52High": 54744.33,
       "week52Low": 44579.03,
-      "volume": "23.6M",
+      "volume": "95.7M",
       "sparklineData": [
         51839.26171875,
         51711.6484375,
@@ -86,7 +86,7 @@
         53732.41015625,
         53459.78125,
         53343.3984375,
-        53441.2890625
+        53623.171875
       ],
       "sector": "",
       "marketCap": "",
@@ -107,24 +107,27 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26377.738,
-      "change": 88.03,
-      "changePercent": 0.3348,
+      "price": 26238.385,
+      "change": -51.33,
+      "changePercent": -0.1952,
       "high": 26416.791,
-      "low": 26367.594,
+      "low": 26185.129,
       "open": 0,
       "prevClose": 26289.7109375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "723.3M",
+      "volume": "1.8B",
       "sparklineData": [
         25508.0703125,
+        25837.2109375,
+        25690.900390625,
         25137.689453125,
         24975.8203125,
         24932.080078125,
         24876.91015625,
         24442.939453125,
         25122.1796875,
+        25373.849609375,
         25913.900390625,
         26584.990234375,
         26363.439453125,
@@ -137,7 +140,7 @@
         26729.16015625,
         26644.91015625,
         26289.7109375,
-        26377.73828125
+        26238.384765625
       ],
       "sector": "",
       "marketCap": "",
@@ -159,10 +162,10 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 310.93,
-      "change": 0.9,
-      "changePercent": 0.2903,
-      "high": 311.095,
+      "price": 317.56,
+      "change": 7.53,
+      "changePercent": 2.4288,
+      "high": 317.66,
       "low": 309.6,
       "open": 309.97,
       "prevClose": 310.03,
@@ -183,19 +186,19 @@
         {
           "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
           "source": "ChartMill",
-          "timeAgo": "18h ago",
+          "timeAgo": "19h ago",
           "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
         },
         {
           "headline": "Curious about the most active S&P500 stocks in today's session?",
           "source": "ChartMill",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
         },
         {
           "headline": "Which dow jones stocks are moving on Tuesday?",
           "source": "ChartMill",
-          "timeAgo": "20h ago",
+          "timeAgo": "21h ago",
           "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
         },
         {
@@ -245,11 +248,11 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 341.99,
-      "change": -2.21,
-      "changePercent": -0.6421,
-      "high": 344.33,
-      "low": 341.77,
+      "price": 343.66,
+      "change": -0.54,
+      "changePercent": -0.1569,
+      "high": 345,
+      "low": 340.66,
       "open": 342.6275,
       "prevClose": 344.2,
       "name": "Alphabet Inc",
@@ -261,7 +264,7 @@
       "beta": 1.2239062,
       "peRatio": 31.982,
       "eps": 10.807,
-      "dividendYield": "0.26%",
+      "dividendYield": "",
       "volume": "23.8M",
       "avgVolume": "30.8M",
       "sparklineData": [],
@@ -281,13 +284,13 @@
         {
           "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
           "source": "ChartMill",
-          "timeAgo": "18h ago",
+          "timeAgo": "19h ago",
           "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
         },
         {
           "headline": "Which dow jones stocks are moving on Tuesday?",
           "source": "ChartMill",
-          "timeAgo": "20h ago",
+          "timeAgo": "21h ago",
           "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
         },
         {
@@ -331,10 +334,10 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 482.35,
-      "change": 0.72,
-      "changePercent": 0.1495,
-      "high": 482.59,
+      "price": 484.43,
+      "change": 2.8,
+      "changePercent": 0.5814,
+      "high": 484.81,
       "low": 479.36,
       "open": 480.4875,
       "prevClose": 481.63,
@@ -367,7 +370,7 @@
         {
           "headline": "AI Utilization May Be The Next Driver Of Growth",
           "source": "SeekingAlpha",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=4d2d5bcd7f640b2e20b026df63f0801731062a4dd7031dc67029e970601b4e97"
         },
         {
@@ -417,11 +420,11 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 260.51,
-      "change": 1.06,
-      "changePercent": 0.4086,
+      "price": 261.07,
+      "change": 1.62,
+      "changePercent": 0.6244,
       "high": 262.6799,
-      "low": 260.2175,
+      "low": 258.58,
       "open": 260.2175,
       "prevClose": 259.45,
       "name": "Amazon.com Inc",
@@ -439,6 +442,12 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Don't Mail It In Before Labor Day: These 3 Events Could Shake Stock",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=6845231c5ec458df281d37ff6bb28cce9050e3efa67d557939fbd9598c3247d5"
+        },
+        {
           "headline": "Tracking Al Gore's Generation Investment Management Portfolio - Q2 2026 Update",
           "source": "SeekingAlpha",
           "timeAgo": "15h ago",
@@ -447,7 +456,7 @@
         {
           "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
           "source": "ChartMill",
-          "timeAgo": "18h ago",
+          "timeAgo": "19h ago",
           "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
         },
         {
@@ -459,14 +468,8 @@
         {
           "headline": "Curious about the most active S&P500 stocks in today's session?",
           "source": "ChartMill",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
-        },
-        {
-          "headline": "AI Utilization May Be The Next Driver Of Growth",
-          "source": "SeekingAlpha",
-          "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=4d2d5bcd7f640b2e20b026df63f0801731062a4dd7031dc67029e970601b4e97"
         }
       ],
       "earnings": [
@@ -503,11 +506,11 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 340.87,
-      "change": 4,
-      "changePercent": 1.1874,
-      "high": 340.9,
-      "low": 337.505,
+      "price": 340.18,
+      "change": 3.31,
+      "changePercent": 0.9826,
+      "high": 341.29,
+      "low": 335.7,
       "open": 337.505,
       "prevClose": 336.87,
       "name": "Tesla Inc",
@@ -527,19 +530,19 @@
         {
           "headline": "Curious about the most active S&P500 stocks in today's session?",
           "source": "ChartMill",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
         },
         {
           "headline": "SpaceX: Strap In For A Very Long, Bumpy Ride",
           "source": "SeekingAlpha",
-          "timeAgo": "20h ago",
+          "timeAgo": "21h ago",
           "url": "https://finnhub.io/api/news?id=3f01a044a08cf880e5a99f22f03e83b38322139cc732cf8358d7b2f0322f9073"
         },
         {
           "headline": "Gary Black Says Tesla Bulls On Social Media Are Like College Students Doing 'Tequila Shots'",
           "source": "Benzinga",
-          "timeAgo": "22h ago",
+          "timeAgo": "23h ago",
           "url": "https://finnhub.io/api/news?id=447d6a489d6659c3dfaaeed3bfbfc33ad8683ebe0e0cad099bb81656e167b5af"
         },
         {
@@ -551,7 +554,7 @@
         {
           "headline": "Tesla: Back Into Negative Free Cash Flow Territory",
           "source": "SeekingAlpha",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=3dbed6b78494258b44abdec7e6afcd7c8136f90a266968ab9a069c2b82343e49"
         }
       ],
