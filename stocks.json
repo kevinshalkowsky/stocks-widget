@@ -1,28 +1,31 @@
 {
-  "updatedAt": "2026-08-19T16:15:20.435Z",
+  "updatedAt": "2026-08-19T17:14:20.767Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7734.97,
-      "change": 43.21,
-      "changePercent": 0.5618,
+      "price": 7718.57,
+      "change": 26.81,
+      "changePercent": 0.3486,
       "high": 7743.93,
       "low": 7700.07,
       "open": 0,
       "prevClose": 7691.759765625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "1.2B",
+      "volume": "1.4B",
       "sparklineData": [
         7443.27978515625,
+        7509.2001953125,
+        7498.9599609375,
         7408.2998046875,
         7411.97998046875,
         7413.18017578125,
         7428.77978515625,
         7316.14990234375,
         7437.6298828125,
+        7489.72021484375,
         7600.5,
         7736.52001953125,
         7723.5498046875,
@@ -35,7 +38,7 @@
         7785.759765625,
         7745.06005859375,
         7691.759765625,
-        7734.97021484375
+        7718.56982421875
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53565.4,
-      "change": 222,
-      "changePercent": 0.4162,
+      "price": 53452.96,
+      "change": 109.56,
+      "changePercent": 0.2054,
       "high": 53710.06,
       "low": 53399.53,
       "open": 0,
       "prevClose": 53343.3984375,
       "week52High": 54744.33,
       "week52Low": 44579.03,
-      "volume": "190.3M",
+      "volume": "223.2M",
       "sparklineData": [
         51839.26171875,
         51711.6484375,
@@ -86,7 +89,7 @@
         53732.41015625,
         53459.78125,
         53343.3984375,
-        53565.3984375
+        53452.9609375
       ],
       "sector": "",
       "marketCap": "",
@@ -107,27 +110,24 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26434.654,
-      "change": 144.94,
-      "changePercent": 0.5513,
-      "high": 26446.518,
+      "price": 26347.953,
+      "change": 58.24,
+      "changePercent": 0.2215,
+      "high": 26456.775,
       "low": 26185.129,
       "open": 0,
       "prevClose": 26289.7109375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "3.3B",
+      "volume": "3.9B",
       "sparklineData": [
         25508.0703125,
-        25837.2109375,
-        25690.900390625,
         25137.689453125,
         24975.8203125,
         24932.080078125,
         24876.91015625,
         24442.939453125,
         25122.1796875,
-        25373.849609375,
         25913.900390625,
         26584.990234375,
         26363.439453125,
@@ -140,7 +140,7 @@
         26729.16015625,
         26644.91015625,
         26289.7109375,
-        26434.654296875
+        26347.953125
       ],
       "sector": "",
       "marketCap": "",
@@ -162,9 +162,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 317.15,
-      "change": 7.12,
-      "changePercent": 2.2966,
+      "price": 314.98,
+      "change": 4.95,
+      "changePercent": 1.5966,
       "high": 319.2799,
       "low": 309.6,
       "open": 309.97,
@@ -184,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "These dow jones stocks are moving in today's session",
+          "source": "ChartMill",
+          "timeAgo": "34m ago",
+          "url": "https://finnhub.io/api/news?id=a53cd1f5883972a76c50bbb639d04690497dfa9d3cc4c64befd2cd557bc9cbf6"
+        },
+        {
           "headline": "Taiwan Semiconductor’s AI Bottleneck Hands Samsung a Powerful Pricing Opportunity",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=d3e68ad50cd62bb2eda41d53822a55b0ed049f85c81afb4a03b02db6193e0b92"
         },
         {
           "headline": "Why Apple Is the Blueprint for SK Hynix's AI Cash Mountain",
           "source": "Benzinga",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=d91407559e392008e6c1561486f20a4c2b1274c8e91be33315c029a286fc1e32"
         },
         {
           "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
           "source": "ChartMill",
-          "timeAgo": "21h ago",
+          "timeAgo": "22h ago",
           "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
         },
         {
           "headline": "Curious about the most active S&P500 stocks in today's session?",
           "source": "ChartMill",
-          "timeAgo": "22h ago",
-          "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
-        },
-        {
-          "headline": "Which dow jones stocks are moving on Tuesday?",
-          "source": "ChartMill",
           "timeAgo": "23h ago",
-          "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
+          "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
         }
       ],
       "earnings": [
@@ -248,10 +248,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 346.19,
-      "change": 1.99,
-      "changePercent": 0.5782,
-      "high": 346.29,
+      "price": 344.54,
+      "change": 0.34,
+      "changePercent": 0.0988,
+      "high": 346.73,
       "low": 340.66,
       "open": 342.6275,
       "prevClose": 344.2,
@@ -272,31 +272,31 @@
         {
           "headline": "Broadcom Rival Marvell Surges After Google Strikes AI Chip Deal, Gets Option to Buy $12.2B Stake",
           "source": "Benzinga",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=ee610846551e06b5814d7484d6a8749e30197f4ffe09530a339f56f4264a3b15"
         },
         {
           "headline": "Taiwan Semiconductor’s AI Bottleneck Hands Samsung a Powerful Pricing Opportunity",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=d3e68ad50cd62bb2eda41d53822a55b0ed049f85c81afb4a03b02db6193e0b92"
         },
         {
           "headline": "Stripe’s $8 Billion OpenRouter Deal Reveals Where the AI ETF Trade Is Actually Expanding",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=9a884db856424f40ce0359e24909a5d2d6d87fcaabcaa4d867c003d2e6053f7a"
         },
         {
           "headline": "Amazon Bets Big on Drone Delivery — Prime Air Targets 500 US Cities as Competition From Wing, Zipline Heats Up",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=f6be7c486db2d06bd450836def9132f456748dd81f206f044f2dc3b5fab33957"
         },
         {
           "headline": "How Tokenomics Might Save AI PCs",
           "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=6ade163bca54c2dab1e7b3718ce127e07fe6ad3b5150336e3f5a3f7801bb8f24"
         }
       ],
@@ -334,9 +334,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 488.7,
-      "change": 7.07,
-      "changePercent": 1.4679,
+      "price": 484.4,
+      "change": 2.77,
+      "changePercent": 0.5751,
       "high": 489.3,
       "low": 479.36,
       "open": 480.4875,
@@ -358,19 +358,19 @@
         {
           "headline": "Tracking Al Gore's Generation Investment Management Portfolio - Q2 2026 Update",
           "source": "SeekingAlpha",
-          "timeAgo": "17h ago",
+          "timeAgo": "18h ago",
           "url": "https://finnhub.io/api/news?id=9d71a11ac50f796cfd2586dab3cdda355e745abc81ec1890055606c493633591"
         },
         {
           "headline": "ReNew Energy: The Buy Paid Off, But Now It's Time To Hold (Rating Downgrade)",
           "source": "SeekingAlpha",
-          "timeAgo": "21h ago",
+          "timeAgo": "22h ago",
           "url": "https://finnhub.io/api/news?id=f7edbc3ed471f9093691c66f152989caca89da0b3b41e19da47bf4021190bf3b"
         },
         {
           "headline": "AI Utilization May Be The Next Driver Of Growth",
           "source": "SeekingAlpha",
-          "timeAgo": "22h ago",
+          "timeAgo": "23h ago",
           "url": "https://finnhub.io/api/news?id=4d2d5bcd7f640b2e20b026df63f0801731062a4dd7031dc67029e970601b4e97"
         },
         {
@@ -420,9 +420,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 265.07,
-      "change": 5.62,
-      "changePercent": 2.1661,
+      "price": 264.35,
+      "change": 4.9,
+      "changePercent": 1.8886,
       "high": 265.15,
       "low": 258.58,
       "open": 260.2175,
@@ -442,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "These dow jones stocks are moving in today's session",
+          "source": "ChartMill",
+          "timeAgo": "34m ago",
+          "url": "https://finnhub.io/api/news?id=a53cd1f5883972a76c50bbb639d04690497dfa9d3cc4c64befd2cd557bc9cbf6"
+        },
+        {
           "headline": "Wall Street Lunch: IBM Advances Quantum Roadmap By Connecting Two Cryogenic Modules",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=828118656b88c426df09814abe89112ff98db1082259303b774dd42d8c8b097a"
+        },
+        {
+          "headline": "SpaceX Rolls Out Grok 4.6 on Amazon Bedrock",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=09173f205251442a83d5ab7bccf035ddb0532e7967e7fca02330e79121a1ac16"
         },
         {
           "headline": "Don't Mail It In Before Labor Day: These 3 Events Could Shake Stock",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=6845231c5ec458df281d37ff6bb28cce9050e3efa67d557939fbd9598c3247d5"
         },
         {
           "headline": "Stripe’s $8 Billion OpenRouter Deal Reveals Where the AI ETF Trade Is Actually Expanding",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=9a884db856424f40ce0359e24909a5d2d6d87fcaabcaa4d867c003d2e6053f7a"
-        },
-        {
-          "headline": "Amazon Bets Big on Drone Delivery — Prime Air Targets 500 US Cities as Competition From Wing, Zipline Heats Up",
-          "source": "Benzinga",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=f6be7c486db2d06bd450836def9132f456748dd81f206f044f2dc3b5fab33957"
-        },
-        {
-          "headline": "3 Sectors Investors Should Buy Now as S&P 500 Stumbles — Strategist Sees 15%-18% Upside",
-          "source": "Benzinga",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=06dae45a118bedd2aa24fcab520528cf33f0e219c27c61710a1d4f40e8eb6c7e"
         }
       ],
       "earnings": [
@@ -506,10 +506,10 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 348.43,
-      "change": 11.56,
-      "changePercent": 3.4316,
-      "high": 349.16,
+      "price": 346.81,
+      "change": 9.94,
+      "changePercent": 2.9507,
+      "high": 349.19,
       "low": 335.7,
       "open": 337.505,
       "prevClose": 336.87,
@@ -530,25 +530,25 @@
         {
           "headline": "Taiwan Semiconductor’s AI Bottleneck Hands Samsung a Powerful Pricing Opportunity",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=d3e68ad50cd62bb2eda41d53822a55b0ed049f85c81afb4a03b02db6193e0b92"
         },
         {
           "headline": "Cathie Wood Says Investors Should Avoid Memory Chip Stocks: Micron, SK Hynix in Focus (UPDATED)",
           "source": "Benzinga",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=93acccb3f681c0890b484f9540cfc3dc84853b5e319f79541fdcd87c46c3cbff"
         },
         {
           "headline": "Curious about the most active S&P500 stocks in today's session?",
           "source": "ChartMill",
-          "timeAgo": "22h ago",
+          "timeAgo": "23h ago",
           "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
         },
         {
           "headline": "SpaceX: Strap In For A Very Long, Bumpy Ride",
           "source": "SeekingAlpha",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=3f01a044a08cf880e5a99f22f03e83b38322139cc732cf8358d7b2f0322f9073"
         },
         {
