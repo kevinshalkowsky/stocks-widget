@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-19T17:14:20.767Z",
+  "updatedAt": "2026-08-19T18:14:00.642Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7718.57,
-      "change": 26.81,
-      "changePercent": 0.3486,
+      "price": 7715.18,
+      "change": 23.42,
+      "changePercent": 0.3045,
       "high": 7743.93,
       "low": 7700.07,
       "open": 0,
       "prevClose": 7691.759765625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "1.4B",
+      "volume": "1.7B",
       "sparklineData": [
         7443.27978515625,
         7509.2001953125,
@@ -38,7 +38,7 @@
         7785.759765625,
         7745.06005859375,
         7691.759765625,
-        7718.56982421875
+        7715.18017578125
       ],
       "sector": "",
       "marketCap": "",
@@ -59,24 +59,27 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53452.96,
-      "change": 109.56,
-      "changePercent": 0.2054,
+      "price": 53470.43,
+      "change": 127.03,
+      "changePercent": 0.2381,
       "high": 53710.06,
       "low": 53399.53,
       "open": 0,
       "prevClose": 53343.3984375,
       "week52High": 54744.33,
       "week52Low": 44579.03,
-      "volume": "223.2M",
+      "volume": "252.3M",
       "sparklineData": [
         51839.26171875,
+        52224.640625,
+        52218.578125,
         51711.6484375,
         51947.25,
         52210.078125,
         52747.3203125,
         51594.140625,
         52208.05859375,
+        52485.03125,
         53178.41015625,
         54085.87890625,
         54349.12109375,
@@ -89,7 +92,7 @@
         53732.41015625,
         53459.78125,
         53343.3984375,
-        53452.9609375
+        53470.4296875
       ],
       "sector": "",
       "marketCap": "",
@@ -110,24 +113,27 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26347.953,
-      "change": 58.24,
-      "changePercent": 0.2215,
+      "price": 26336.043,
+      "change": 46.33,
+      "changePercent": 0.1762,
       "high": 26456.775,
       "low": 26185.129,
       "open": 0,
       "prevClose": 26289.7109375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "3.9B",
+      "volume": "4.4B",
       "sparklineData": [
         25508.0703125,
+        25837.2109375,
+        25690.900390625,
         25137.689453125,
         24975.8203125,
         24932.080078125,
         24876.91015625,
         24442.939453125,
         25122.1796875,
+        25373.849609375,
         25913.900390625,
         26584.990234375,
         26363.439453125,
@@ -140,7 +146,7 @@
         26729.16015625,
         26644.91015625,
         26289.7109375,
-        26347.953125
+        26336.04296875
       ],
       "sector": "",
       "marketCap": "",
@@ -162,9 +168,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 314.98,
-      "change": 4.95,
-      "changePercent": 1.5966,
+      "price": 315.59,
+      "change": 5.56,
+      "changePercent": 1.7934,
       "high": 319.2799,
       "low": 309.6,
       "open": 309.97,
@@ -186,32 +192,32 @@
         {
           "headline": "These dow jones stocks are moving in today's session",
           "source": "ChartMill",
-          "timeAgo": "34m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=a53cd1f5883972a76c50bbb639d04690497dfa9d3cc4c64befd2cd557bc9cbf6"
+        },
+        {
+          "headline": "Investors Should Position For Humanoid Robot Boom—Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
+        },
+        {
+          "headline": "Apple Is The Most Underappreciated AI Mega-Cap, Analyst Says",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=f3bac775314cca96badd075dba2e49684c8374ddc4c498d368d720281f12a604"
+        },
+        {
+          "headline": "Alphabet Raises $3.9B in First Australian Bond Sale as AI Spending Surges",
+          "source": "Benzinga",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=c0ad22dbeb40a99d1be67866b1c32073260e5b7b10cee75e9a304ba201633d39"
         },
         {
           "headline": "Taiwan Semiconductor’s AI Bottleneck Hands Samsung a Powerful Pricing Opportunity",
           "source": "Benzinga",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=d3e68ad50cd62bb2eda41d53822a55b0ed049f85c81afb4a03b02db6193e0b92"
-        },
-        {
-          "headline": "Why Apple Is the Blueprint for SK Hynix's AI Cash Mountain",
-          "source": "Benzinga",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=d91407559e392008e6c1561486f20a4c2b1274c8e91be33315c029a286fc1e32"
-        },
-        {
-          "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
-          "source": "ChartMill",
-          "timeAgo": "22h ago",
-          "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
-        },
-        {
-          "headline": "Curious about the most active S&P500 stocks in today's session?",
-          "source": "ChartMill",
-          "timeAgo": "23h ago",
-          "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
         }
       ],
       "earnings": [
@@ -248,9 +254,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 344.54,
-      "change": 0.34,
-      "changePercent": 0.0988,
+      "price": 344.05,
+      "change": -0.15,
+      "changePercent": -0.0436,
       "high": 346.73,
       "low": 340.66,
       "open": 342.6275,
@@ -270,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Marvell Won Alphabet's Deal; Everything Changes (Upgrade)",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=3d43c746f0dbb97241e734fe4bda17e4e10a8f572faa86b8719fb158727659c3"
+        },
+        {
+          "headline": "Marvell pops 6% on AI chip deal that lets Google buy up to $12.2 billion in shares",
+          "source": "CNBC",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=c9b4190634fc00669c88233fc42770d49901fdc0f4b44de410eb9b78af92c5fb"
+        },
+        {
+          "headline": "A Congress Member Bought Up To $60K In Amazon.com Stock: Here's What You Need To Know",
+          "source": "Benzinga",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=6050d0a75c7caf1f52dbc1ef348745290ab246ed743107273ad3f1aaa60e63cd"
+        },
+        {
+          "headline": "Alphabet Raises $3.9B in First Australian Bond Sale as AI Spending Surges",
+          "source": "Benzinga",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=c0ad22dbeb40a99d1be67866b1c32073260e5b7b10cee75e9a304ba201633d39"
+        },
+        {
           "headline": "Broadcom Rival Marvell Surges After Google Strikes AI Chip Deal, Gets Option to Buy $12.2B Stake",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=ee610846551e06b5814d7484d6a8749e30197f4ffe09530a339f56f4264a3b15"
-        },
-        {
-          "headline": "Taiwan Semiconductor’s AI Bottleneck Hands Samsung a Powerful Pricing Opportunity",
-          "source": "Benzinga",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=d3e68ad50cd62bb2eda41d53822a55b0ed049f85c81afb4a03b02db6193e0b92"
-        },
-        {
-          "headline": "Stripe’s $8 Billion OpenRouter Deal Reveals Where the AI ETF Trade Is Actually Expanding",
-          "source": "Benzinga",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=9a884db856424f40ce0359e24909a5d2d6d87fcaabcaa4d867c003d2e6053f7a"
-        },
-        {
-          "headline": "Amazon Bets Big on Drone Delivery — Prime Air Targets 500 US Cities as Competition From Wing, Zipline Heats Up",
-          "source": "Benzinga",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=f6be7c486db2d06bd450836def9132f456748dd81f206f044f2dc3b5fab33957"
-        },
-        {
-          "headline": "How Tokenomics Might Save AI PCs",
-          "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=6ade163bca54c2dab1e7b3718ce127e07fe6ad3b5150336e3f5a3f7801bb8f24"
         }
       ],
       "earnings": [
@@ -334,9 +340,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 484.4,
-      "change": 2.77,
-      "changePercent": 0.5751,
+      "price": 484.54,
+      "change": 2.91,
+      "changePercent": 0.6042,
       "high": 489.3,
       "low": 479.36,
       "open": 480.4875,
@@ -356,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Marvell Won Alphabet's Deal; Everything Changes (Upgrade)",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=3d43c746f0dbb97241e734fe4bda17e4e10a8f572faa86b8719fb158727659c3"
+        },
+        {
+          "headline": "Investors Should Position For Humanoid Robot Boom—Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
+        },
+        {
           "headline": "Tracking Al Gore's Generation Investment Management Portfolio - Q2 2026 Update",
           "source": "SeekingAlpha",
-          "timeAgo": "18h ago",
+          "timeAgo": "19h ago",
           "url": "https://finnhub.io/api/news?id=9d71a11ac50f796cfd2586dab3cdda355e745abc81ec1890055606c493633591"
         },
         {
           "headline": "ReNew Energy: The Buy Paid Off, But Now It's Time To Hold (Rating Downgrade)",
           "source": "SeekingAlpha",
-          "timeAgo": "22h ago",
+          "timeAgo": "23h ago",
           "url": "https://finnhub.io/api/news?id=f7edbc3ed471f9093691c66f152989caca89da0b3b41e19da47bf4021190bf3b"
         },
         {
           "headline": "AI Utilization May Be The Next Driver Of Growth",
           "source": "SeekingAlpha",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=4d2d5bcd7f640b2e20b026df63f0801731062a4dd7031dc67029e970601b4e97"
-        },
-        {
-          "headline": "The Math Of The AI Bubble Is Changing",
-          "source": "SeekingAlpha",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=8dd69aabbe43c613b7278c0d5e797403c3ad736312c150014a177208d23e5709"
-        },
-        {
-          "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
-          "source": "Benzinga",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
         }
       ],
       "earnings": [
@@ -420,9 +426,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 264.35,
-      "change": 4.9,
-      "changePercent": 1.8886,
+      "price": 264.69,
+      "change": 5.24,
+      "changePercent": 2.0197,
       "high": 265.15,
       "low": 258.58,
       "open": 260.2175,
@@ -444,32 +450,32 @@
         {
           "headline": "These dow jones stocks are moving in today's session",
           "source": "ChartMill",
-          "timeAgo": "34m ago",
+          "timeAgo": "1h ago",
           "url": "https://finnhub.io/api/news?id=a53cd1f5883972a76c50bbb639d04690497dfa9d3cc4c64befd2cd557bc9cbf6"
+        },
+        {
+          "headline": "Marvell Won Alphabet's Deal; Everything Changes (Upgrade)",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=3d43c746f0dbb97241e734fe4bda17e4e10a8f572faa86b8719fb158727659c3"
+        },
+        {
+          "headline": "Investors Should Position For Humanoid Robot Boom—Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
         },
         {
           "headline": "Wall Street Lunch: IBM Advances Quantum Roadmap By Connecting Two Cryogenic Modules",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=828118656b88c426df09814abe89112ff98db1082259303b774dd42d8c8b097a"
         },
         {
           "headline": "SpaceX Rolls Out Grok 4.6 on Amazon Bedrock",
           "source": "Benzinga",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=09173f205251442a83d5ab7bccf035ddb0532e7967e7fca02330e79121a1ac16"
-        },
-        {
-          "headline": "Don't Mail It In Before Labor Day: These 3 Events Could Shake Stock",
-          "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=6845231c5ec458df281d37ff6bb28cce9050e3efa67d557939fbd9598c3247d5"
-        },
-        {
-          "headline": "Stripe’s $8 Billion OpenRouter Deal Reveals Where the AI ETF Trade Is Actually Expanding",
-          "source": "Benzinga",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=9a884db856424f40ce0359e24909a5d2d6d87fcaabcaa4d867c003d2e6053f7a"
         }
       ],
       "earnings": [
@@ -506,9 +512,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 346.81,
-      "change": 9.94,
-      "changePercent": 2.9507,
+      "price": 348.18,
+      "change": 11.31,
+      "changePercent": 3.3574,
       "high": 349.19,
       "low": 335.7,
       "open": 337.505,
@@ -528,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Tesla: No One Is Paying Attention",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=e52d1c52a67473b926a5dc82fbab6706912661f1cdaf7a07b1f376ccb286c62d"
+        },
+        {
+          "headline": "Investors Should Position For Humanoid Robot Boom—Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
+        },
+        {
           "headline": "Taiwan Semiconductor’s AI Bottleneck Hands Samsung a Powerful Pricing Opportunity",
           "source": "Benzinga",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=d3e68ad50cd62bb2eda41d53822a55b0ed049f85c81afb4a03b02db6193e0b92"
         },
         {
           "headline": "Cathie Wood Says Investors Should Avoid Memory Chip Stocks: Micron, SK Hynix in Focus (UPDATED)",
           "source": "Benzinga",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=93acccb3f681c0890b484f9540cfc3dc84853b5e319f79541fdcd87c46c3cbff"
         },
         {
           "headline": "Curious about the most active S&P500 stocks in today's session?",
           "source": "ChartMill",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
-        },
-        {
-          "headline": "SpaceX: Strap In For A Very Long, Bumpy Ride",
-          "source": "SeekingAlpha",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=3f01a044a08cf880e5a99f22f03e83b38322139cc732cf8358d7b2f0322f9073"
-        },
-        {
-          "headline": "Gary Black Says Tesla Bulls On Social Media Are Like College Students Doing 'Tequila Shots'",
-          "source": "Benzinga",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=447d6a489d6659c3dfaaeed3bfbfc33ad8683ebe0e0cad099bb81656e167b5af"
         }
       ],
       "earnings": [
