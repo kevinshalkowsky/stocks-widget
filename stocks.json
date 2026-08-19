@@ -1,31 +1,28 @@
 {
-  "updatedAt": "2026-08-19T04:23:10.697Z",
+  "updatedAt": "2026-08-19T05:18:02.699Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
       "price": 7691.76,
-      "change": -53.3,
-      "changePercent": -0.6882,
+      "change": -94,
+      "changePercent": -1.2073,
       "high": 7713.95,
       "low": 7688.63,
       "open": 0,
-      "prevClose": 7745.06005859375,
+      "prevClose": 7785.759765625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
       "volume": "2.7B",
       "sparklineData": [
         7443.27978515625,
-        7509.2001953125,
-        7498.9599609375,
         7408.2998046875,
         7411.97998046875,
         7413.18017578125,
         7428.77978515625,
         7316.14990234375,
         7437.6298828125,
-        7489.72021484375,
         7600.5,
         7736.52001953125,
         7723.5498046875,
@@ -36,8 +33,7 @@
         7748.5,
         7798.990234375,
         7785.759765625,
-        7745.06005859375,
-        7691.759765625
+        7745.06005859375
       ],
       "sector": "",
       "marketCap": "",
@@ -59,26 +55,23 @@
       "type": "index",
       "name": "Dow Jones",
       "price": 53343.4,
-      "change": -116.38,
-      "changePercent": -0.2177,
+      "change": -389.01,
+      "changePercent": -0.724,
       "high": 53478.76,
       "low": 53256.34,
       "open": 0,
-      "prevClose": 53459.78125,
+      "prevClose": 53732.41015625,
       "week52High": 54744.33,
       "week52Low": 44579.03,
       "volume": "428.0M",
       "sparklineData": [
         51839.26171875,
-        52224.640625,
-        52218.578125,
         51711.6484375,
         51947.25,
         52210.078125,
         52747.3203125,
         51594.140625,
         52208.05859375,
-        52485.03125,
         53178.41015625,
         54085.87890625,
         54349.12109375,
@@ -89,8 +82,7 @@
         53770.26953125,
         53839.98828125,
         53732.41015625,
-        53459.78125,
-        53343.3984375
+        53459.78125
       ],
       "sector": "",
       "marketCap": "",
@@ -112,26 +104,23 @@
       "type": "index",
       "name": "Nasdaq",
       "price": 26289.71,
-      "change": -355.2,
-      "changePercent": -1.3331,
+      "change": -439.45,
+      "changePercent": -1.6441,
       "high": 26422.502,
       "low": 26266.676,
       "open": 0,
-      "prevClose": 26644.91015625,
+      "prevClose": 26729.16015625,
       "week52High": 27190.21,
       "week52Low": 20690.25,
       "volume": "6.5B",
       "sparklineData": [
         25508.0703125,
-        25837.2109375,
-        25690.900390625,
         25137.689453125,
         24975.8203125,
         24932.080078125,
         24876.91015625,
         24442.939453125,
         25122.1796875,
-        25373.849609375,
         25913.900390625,
         26584.990234375,
         26363.439453125,
@@ -142,8 +131,7 @@
         26588.490234375,
         26803.029296875,
         26729.16015625,
-        26644.91015625,
-        26289.7109375
+        26644.91015625
       ],
       "sector": "",
       "marketCap": "",
@@ -189,31 +177,31 @@
         {
           "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
           "source": "ChartMill",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
         },
         {
           "headline": "Curious about the most active S&P500 stocks in today's session?",
           "source": "ChartMill",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
         },
         {
           "headline": "Which dow jones stocks are moving on Tuesday?",
           "source": "ChartMill",
-          "timeAgo": "11h ago",
+          "timeAgo": "12h ago",
           "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
         },
         {
           "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
           "source": "Benzinga",
-          "timeAgo": "13h ago",
+          "timeAgo": "14h ago",
           "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
         },
         {
           "headline": "Apple overhauls Europe app store fees to resolve payments clash",
           "source": "CNBC",
-          "timeAgo": "15h ago",
+          "timeAgo": "16h ago",
           "url": "https://finnhub.io/api/news?id=8fa782bfff7fdb4ff64cca3fffbd1b5745f2e8a193855905744ee87b7e54aacc"
         }
       ],
@@ -264,11 +252,11 @@
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
       "week52High": 408.61,
       "week52Low": 196.6,
-      "beta": 1.2179185,
+      "beta": 1.2239062,
       "peRatio": 31.982,
       "eps": 10.807,
       "dividendYield": "",
-      "volume": "25.5M",
+      "volume": "23.8M",
       "avgVolume": "30.8M",
       "sparklineData": [],
       "news": [
@@ -281,13 +269,13 @@
         {
           "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
           "source": "ChartMill",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
         },
         {
           "headline": "Which dow jones stocks are moving on Tuesday?",
           "source": "ChartMill",
-          "timeAgo": "11h ago",
+          "timeAgo": "12h ago",
           "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
         },
         {
@@ -299,7 +287,7 @@
         {
           "headline": "Gary Black Says Tesla Bulls On Social Media Are Like College Students Doing 'Tequila Shots'",
           "source": "Benzinga",
-          "timeAgo": "13h ago",
+          "timeAgo": "14h ago",
           "url": "https://finnhub.io/api/news?id=447d6a489d6659c3dfaaeed3bfbfc33ad8683ebe0e0cad099bb81656e167b5af"
         }
       ],
@@ -373,7 +361,7 @@
         {
           "headline": "AI Utilization May Be The Next Driver Of Growth",
           "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=4d2d5bcd7f640b2e20b026df63f0801731062a4dd7031dc67029e970601b4e97"
         },
         {
@@ -385,7 +373,7 @@
         {
           "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
           "source": "Benzinga",
-          "timeAgo": "13h ago",
+          "timeAgo": "14h ago",
           "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
         }
       ],
@@ -453,7 +441,7 @@
         {
           "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
           "source": "ChartMill",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
         },
         {
@@ -465,13 +453,13 @@
         {
           "headline": "Curious about the most active S&P500 stocks in today's session?",
           "source": "ChartMill",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
         },
         {
           "headline": "AI Utilization May Be The Next Driver Of Growth",
           "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=4d2d5bcd7f640b2e20b026df63f0801731062a4dd7031dc67029e970601b4e97"
         }
       ],
@@ -533,31 +521,31 @@
         {
           "headline": "Curious about the most active S&P500 stocks in today's session?",
           "source": "ChartMill",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
         },
         {
           "headline": "SpaceX: Strap In For A Very Long, Bumpy Ride",
           "source": "SeekingAlpha",
-          "timeAgo": "11h ago",
+          "timeAgo": "12h ago",
           "url": "https://finnhub.io/api/news?id=3f01a044a08cf880e5a99f22f03e83b38322139cc732cf8358d7b2f0322f9073"
         },
         {
           "headline": "Gary Black Says Tesla Bulls On Social Media Are Like College Students Doing 'Tequila Shots'",
           "source": "Benzinga",
-          "timeAgo": "13h ago",
+          "timeAgo": "14h ago",
           "url": "https://finnhub.io/api/news?id=447d6a489d6659c3dfaaeed3bfbfc33ad8683ebe0e0cad099bb81656e167b5af"
         },
         {
           "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
           "source": "Benzinga",
-          "timeAgo": "13h ago",
+          "timeAgo": "14h ago",
           "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
         },
         {
           "headline": "Tesla: Back Into Negative Free Cash Flow Territory",
           "source": "SeekingAlpha",
-          "timeAgo": "14h ago",
+          "timeAgo": "15h ago",
           "url": "https://finnhub.io/api/news?id=3dbed6b78494258b44abdec7e6afcd7c8136f90a266968ab9a069c2b82343e49"
         }
       ],
