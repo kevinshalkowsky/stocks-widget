@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-20T12:18:38.770Z",
+  "updatedAt": "2026-08-20T13:36:07.067Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7707.98,
-      "change": 16.22,
-      "changePercent": 0.2109,
-      "high": 7743.93,
-      "low": 7700.07,
+      "price": 7696.51,
+      "change": -11.47,
+      "changePercent": -0.1488,
+      "high": 7697.1,
+      "low": 7679.11,
       "open": 0,
-      "prevClose": 7691.759765625,
+      "prevClose": 7707.97998046875,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "3.0B",
+      "volume": "157.0M",
       "sparklineData": [
         7408.2998046875,
         7411.97998046875,
@@ -34,7 +34,8 @@
         7785.759765625,
         7745.06005859375,
         7691.759765625,
-        7707.97998046875
+        7707.97998046875,
+        7696.509765625
       ],
       "sector": "",
       "marketCap": "",
@@ -55,16 +56,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53463.05,
-      "change": 119.65,
-      "changePercent": 0.2243,
-      "high": 53710.06,
-      "low": 53399.53,
+      "price": 53149.89,
+      "change": -313.16,
+      "changePercent": -0.5858,
+      "high": 53381.22,
+      "low": 52995.94,
       "open": 0,
-      "prevClose": 53343.3984375,
+      "prevClose": 53463.05078125,
       "week52High": 54744.33,
       "week52Low": 44579.03,
-      "volume": "451.5M",
+      "volume": "38.0M",
       "sparklineData": [
         51711.6484375,
         51947.25,
@@ -84,7 +85,8 @@
         53732.41015625,
         53459.78125,
         53343.3984375,
-        53463.05078125
+        53463.05078125,
+        53149.890625
       ],
       "sector": "",
       "marketCap": "",
@@ -105,16 +107,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26331.09,
-      "change": 41.38,
-      "changePercent": 0.1574,
-      "high": 26456.775,
-      "low": 26185.129,
+      "price": 26249.096,
+      "change": -81.99,
+      "changePercent": -0.3114,
+      "high": 26255.238,
+      "low": 26187.531,
       "open": 0,
-      "prevClose": 26289.7109375,
+      "prevClose": 26331.08984375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "7.1B",
+      "volume": "1.5B",
       "sparklineData": [
         25137.689453125,
         24975.8203125,
@@ -134,7 +136,8 @@
         26729.16015625,
         26644.91015625,
         26289.7109375,
-        26331.08984375
+        26331.08984375,
+        26249.095703125
       ],
       "sector": "",
       "marketCap": "",
@@ -156,13 +159,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 316.83,
-      "change": 6.8,
-      "changePercent": 2.1933,
-      "high": 319.2799,
-      "low": 309.6,
-      "open": 310.14,
-      "prevClose": 310.03,
+      "price": 318.69,
+      "change": 1.86,
+      "changePercent": 0.5871,
+      "high": 320.28,
+      "low": 316.6025,
+      "open": 316.6025,
+      "prevClose": 316.83,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.62T",
@@ -178,34 +181,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Apple: iPhone's Winning Strategy Could Outlast The AI Wars",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=0bfe446a6118cb7b323e175667c05e0edddb2e43611f34e2fff12a49655670f1"
+        },
+        {
           "headline": "Wall Street Breakfast Podcast: Moderna's $44B Booster",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=0fdd570409b9dec915804346a3cc51c0a36a85be17abe6e9713303e5262a3774"
         },
         {
           "headline": "Meta: The Drawdown Is An Opportunity",
           "source": "SeekingAlpha",
-          "timeAgo": "12h ago",
+          "timeAgo": "13h ago",
           "url": "https://finnhub.io/api/news?id=313505ed8bed4fc195d60a2aa914adc4d0273afec20216bdf86ef3c7d38b2052"
         },
         {
           "headline": "What's going on in today's session: S&P500 most active stocks",
           "source": "ChartMill",
-          "timeAgo": "18h ago",
+          "timeAgo": "19h ago",
           "url": "https://finnhub.io/api/news?id=06bc9619bf53a11a041c1a94ae5eb97fa03663fcef161e2b5f6c6836998b06d4"
         },
         {
           "headline": "These dow jones stocks are moving in today's session",
           "source": "ChartMill",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=a53cd1f5883972a76c50bbb639d04690497dfa9d3cc4c64befd2cd557bc9cbf6"
-        },
-        {
-          "headline": "Investors Should Position For Humanoid Robot Boom—Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
-          "source": "Benzinga",
-          "timeAgo": "23h ago",
-          "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
         }
       ],
       "earnings": [
@@ -242,13 +245,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 344.72,
-      "change": 0.52,
-      "changePercent": 0.1511,
-      "high": 346.73,
-      "low": 340.66,
-      "open": 342.455,
-      "prevClose": 344.2,
+      "price": 343.25,
+      "change": -1.47,
+      "changePercent": -0.4264,
+      "high": 343.93,
+      "low": 341.63,
+      "open": 343.93,
+      "prevClose": 344.72,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.22T",
@@ -264,34 +267,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "TCW Durable Growth ETF Q2 2026 Performance Update",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=0bcc4b756c6d1ebb9c1d9f3ee76fbdf22f5f0eca89a7e45fd098bfb7d6ddce91"
+        },
+        {
+          "headline": "Marvell: The Deal And The Dilution Are Both Real",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=b5fbd015aa9fe59291856988109e96ec2f864c527b3f49ec724d7fc320554a99"
+        },
+        {
           "headline": "Moderna Doubles on Melanoma Vaccine Win, Treasury Steps In to Cap Long-End Yields",
           "source": "ChartMill",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=508d178665ed408c01403249081d5127f914ba13062aa866c375984e312e5d86"
         },
         {
           "headline": "Harry Qelm Baabsman's 2026 Half-Year Letter To Investors",
           "source": "SeekingAlpha",
-          "timeAgo": "14h ago",
+          "timeAgo": "16h ago",
           "url": "https://finnhub.io/api/news?id=a5aec2a565933f017eebe10cb4892d3023a83d60b2201ae7b78504bf0fdde8c6"
         },
         {
           "headline": "Dividing Our Idea Funnel: Four Moves That Are Nicely Spread",
           "source": "SeekingAlpha",
-          "timeAgo": "15h ago",
+          "timeAgo": "16h ago",
           "url": "https://finnhub.io/api/news?id=f0afead6a1d585e01506cfd820a7e4f00c744ae1d815bb858f5a273d3a4cb534"
-        },
-        {
-          "headline": "Which dow jones stocks are moving on Wednesday?",
-          "source": "ChartMill",
-          "timeAgo": "17h ago",
-          "url": "https://finnhub.io/api/news?id=40115c3c3464e83a2660ead2dc4dec4295ca940e8503f339c0e49581f3b5cef4"
-        },
-        {
-          "headline": "Samsung Tumbled Nearly 8% in Seoul Even as AI Demand Drives Chip Prices Up To 15%",
-          "source": "Benzinga",
-          "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=e551fabc0eaf1bf604fb78bf3da7ac26bae8cd8888398860076567dbc0a75d32"
         }
       ],
       "earnings": [
@@ -328,13 +331,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 484.31,
-      "change": 2.68,
-      "changePercent": 0.5564,
-      "high": 489.3,
-      "low": 479.36,
-      "open": 480.065,
-      "prevClose": 481.63,
+      "price": 481.59,
+      "change": -2.72,
+      "changePercent": -0.5616,
+      "high": 483.82,
+      "low": 479.75,
+      "open": 483.07,
+      "prevClose": 484.31,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.60T",
@@ -352,25 +355,25 @@
         {
           "headline": "Marvell Won Alphabet's Deal; Everything Changes (Upgrade)",
           "source": "SeekingAlpha",
-          "timeAgo": "22h ago",
+          "timeAgo": "23h ago",
           "url": "https://finnhub.io/api/news?id=3d43c746f0dbb97241e734fe4bda17e4e10a8f572faa86b8719fb158727659c3"
         },
         {
           "headline": "OpenAI Announces Its Offering Zero Data Retention For Frontier Models",
           "source": "Benzinga",
-          "timeAgo": "22h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=cfbce5e75616a003ae87ba710faf29927d5d33d354e5a8e79ab6627c1b20a5b4"
         },
         {
           "headline": "Investors Should Position For Humanoid Robot Boom—Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
           "source": "Benzinga",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
         },
         {
           "headline": "What's Going On With IREN Stock Wednesday?",
           "source": "Benzinga",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=215022eb05e8ec82bc901431de0a496f3cbbb86c236c24da0e169e1885f6a7ec"
         },
         {
@@ -414,13 +417,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 265.84,
-      "change": 6.39,
-      "changePercent": 2.4629,
-      "high": 266.4,
-      "low": 258.58,
-      "open": 260.845,
-      "prevClose": 259.45,
+      "price": 262.58,
+      "change": -3.26,
+      "changePercent": -1.2263,
+      "high": 264.945,
+      "low": 261.64,
+      "open": 264.945,
+      "prevClose": 265.84,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.87T",
@@ -438,31 +441,31 @@
         {
           "headline": "Tracking Cathie Wood's ARK Invest 13F Portfolio - Q2 2026 Update",
           "source": "SeekingAlpha",
-          "timeAgo": "15h ago",
+          "timeAgo": "16h ago",
           "url": "https://finnhub.io/api/news?id=6176cf1f3006a9b7f1e7eece33e01b74901f7d28aa6591f2ed6baa2cc5a017ee"
         },
         {
           "headline": "Which dow jones stocks are moving on Wednesday?",
           "source": "ChartMill",
-          "timeAgo": "17h ago",
+          "timeAgo": "18h ago",
           "url": "https://finnhub.io/api/news?id=40115c3c3464e83a2660ead2dc4dec4295ca940e8503f339c0e49581f3b5cef4"
         },
         {
           "headline": "These dow jones stocks are moving in today's session",
           "source": "ChartMill",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=a53cd1f5883972a76c50bbb639d04690497dfa9d3cc4c64befd2cd557bc9cbf6"
         },
         {
           "headline": "Marvell Won Alphabet's Deal; Everything Changes (Upgrade)",
           "source": "SeekingAlpha",
-          "timeAgo": "22h ago",
+          "timeAgo": "23h ago",
           "url": "https://finnhub.io/api/news?id=3d43c746f0dbb97241e734fe4bda17e4e10a8f572faa86b8719fb158727659c3"
         },
         {
           "headline": "Amazon Stock Moves Higher Wednesday: What's Going On?",
           "source": "Benzinga",
-          "timeAgo": "22h ago",
+          "timeAgo": "23h ago",
           "url": "https://finnhub.io/api/news?id=eb8f6e7327b3124c977fa5f1449965f6934926adc006a8acd4d369be0e62ced8"
         }
       ],
@@ -500,13 +503,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 351.12,
-      "change": 14.25,
-      "changePercent": 4.2301,
-      "high": 351.62,
-      "low": 335.7,
-      "open": 338.89,
-      "prevClose": 336.87,
+      "price": 343.88,
+      "change": -7.24,
+      "changePercent": -2.062,
+      "high": 348.415,
+      "low": 343.6501,
+      "open": 348.415,
+      "prevClose": 351.12,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.39T",
@@ -524,31 +527,31 @@
         {
           "headline": "Tracking Cathie Wood's ARK Invest 13F Portfolio - Q2 2026 Update",
           "source": "SeekingAlpha",
-          "timeAgo": "15h ago",
+          "timeAgo": "16h ago",
           "url": "https://finnhub.io/api/news?id=6176cf1f3006a9b7f1e7eece33e01b74901f7d28aa6591f2ed6baa2cc5a017ee"
         },
         {
           "headline": "What's going on in today's session: S&P500 most active stocks",
           "source": "ChartMill",
-          "timeAgo": "18h ago",
+          "timeAgo": "19h ago",
           "url": "https://finnhub.io/api/news?id=06bc9619bf53a11a041c1a94ae5eb97fa03663fcef161e2b5f6c6836998b06d4"
         },
         {
           "headline": "Samsung Tumbled Nearly 8% in Seoul Even as AI Demand Drives Chip Prices Up To 15%",
           "source": "Benzinga",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=e551fabc0eaf1bf604fb78bf3da7ac26bae8cd8888398860076567dbc0a75d32"
         },
         {
           "headline": "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
           "source": "Benzinga",
-          "timeAgo": "20h ago",
+          "timeAgo": "21h ago",
           "url": "https://finnhub.io/api/news?id=cb840a894cd79e910eafcac35ab8ad5e7b7d3d6e8dcab2b1ed09c8d45c9ae444"
         },
         {
           "headline": "Tesla: No One Is Paying Attention",
           "source": "SeekingAlpha",
-          "timeAgo": "22h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=e52d1c52a67473b926a5dc82fbab6706912661f1cdaf7a07b1f376ccb286c62d"
         }
       ],
