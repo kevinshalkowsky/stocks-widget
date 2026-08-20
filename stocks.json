@@ -1,30 +1,27 @@
 {
-  "updatedAt": "2026-08-20T18:18:11.086Z",
+  "updatedAt": "2026-08-20T19:21:08.729Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7651.86,
-      "change": -56.12,
-      "changePercent": -0.7281,
+      "price": 7650.77,
+      "change": -57.21,
+      "changePercent": -0.7422,
       "high": 7699.96,
       "low": 7649.9,
       "open": 0,
       "prevClose": 7707.97998046875,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "1.5B",
+      "volume": "1.7B",
       "sparklineData": [
-        7509.2001953125,
-        7498.9599609375,
         7408.2998046875,
         7411.97998046875,
         7413.18017578125,
         7428.77978515625,
         7316.14990234375,
         7437.6298828125,
-        7489.72021484375,
         7600.5,
         7736.52001953125,
         7723.5498046875,
@@ -38,7 +35,7 @@
         7745.06005859375,
         7691.759765625,
         7707.97998046875,
-        7651.85986328125
+        7650.77001953125
       ],
       "sector": "",
       "marketCap": "",
@@ -59,26 +56,23 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52837.33,
-      "change": -625.72,
-      "changePercent": -1.1704,
+      "price": 52828.13,
+      "change": -634.92,
+      "changePercent": -1.1876,
       "high": 53381.22,
-      "low": 52828.68,
+      "low": 52788.16,
       "open": 0,
       "prevClose": 53463.05078125,
       "week52High": 54744.33,
       "week52Low": 44579.03,
-      "volume": "240.7M",
+      "volume": "275.7M",
       "sparklineData": [
-        52224.640625,
-        52218.578125,
         51711.6484375,
         51947.25,
         52210.078125,
         52747.3203125,
         51594.140625,
         52208.05859375,
-        52485.03125,
         53178.41015625,
         54085.87890625,
         54349.12109375,
@@ -92,7 +86,7 @@
         53459.78125,
         53343.3984375,
         53463.05078125,
-        52837.328125
+        52828.12890625
       ],
       "sector": "",
       "marketCap": "",
@@ -113,26 +107,23 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26033.291,
-      "change": -297.8,
-      "changePercent": -1.131,
+      "price": 26064.354,
+      "change": -266.74,
+      "changePercent": -1.013,
       "high": 26263.467,
       "low": 26023.123,
       "open": 0,
       "prevClose": 26331.08984375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "5.1B",
+      "volume": "5.6B",
       "sparklineData": [
-        25837.2109375,
-        25690.900390625,
         25137.689453125,
         24975.8203125,
         24932.080078125,
         24876.91015625,
         24442.939453125,
         25122.1796875,
-        25373.849609375,
         25913.900390625,
         26584.990234375,
         26363.439453125,
@@ -146,7 +137,7 @@
         26644.91015625,
         26289.7109375,
         26331.08984375,
-        26033.291015625
+        26064.353515625
       ],
       "sector": "",
       "marketCap": "",
@@ -168,11 +159,11 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 315.42,
-      "change": -1.41,
-      "changePercent": -0.445,
+      "price": 314.12,
+      "change": -2.71,
+      "changePercent": -0.8553,
       "high": 320.28,
-      "low": 315.08,
+      "low": 313.99,
       "open": 316.6025,
       "prevClose": 316.83,
       "name": "Apple Inc",
@@ -192,32 +183,32 @@
         {
           "headline": "Discover which dow jones stocks are making waves on Thursday.",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=1d8363aabcf751eaf84d1590e0e4b66548c336e4febf069797c0fb58279fa25d"
+        },
+        {
+          "headline": "Broadcom’s AI Competition Fears Look Overblown: Analyst",
+          "source": "Benzinga",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=63c566376229af761e76e86d8d60aaa72226cbc105b2c97850699d483dab931e"
         },
         {
           "headline": "A 10-Year Treasury Bond Now Pays More Than 118 Of America's Biggest Companies",
           "source": "Benzinga",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=1a918e278efa39fc47340379cc1c25103f095618a9b7a011a4c3fe5235133013"
         },
         {
           "headline": "Apple: iPhone's Winning Strategy Could Outlast The AI Wars",
           "source": "SeekingAlpha",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=0bfe446a6118cb7b323e175667c05e0edddb2e43611f34e2fff12a49655670f1"
         },
         {
           "headline": "Buying an Apple product? These 4 tools can help you pay for it ",
           "source": "CNBC",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=a03b08e1b2008c44e24564b7729d0b10f7da5eb33418846cce278009d8d4233d"
-        },
-        {
-          "headline": "Is Fortnite Down? Here’s Why Servers Are Offline as Season 4: Override Arrives (UPDATED)",
-          "source": "Benzinga",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=e9a6840f4c406344484b6b2ac89272592f65c329903530bd4ff988675f64430f"
         }
       ],
       "earnings": [
@@ -254,9 +245,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 339.63,
-      "change": -5.09,
-      "changePercent": -1.4766,
+      "price": 340.82,
+      "change": -3.9,
+      "changePercent": -1.1314,
       "high": 343.93,
       "low": 338.5651,
       "open": 343.93,
@@ -278,32 +269,32 @@
         {
           "headline": "Discover which dow jones stocks are making waves on Thursday.",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=1d8363aabcf751eaf84d1590e0e4b66548c336e4febf069797c0fb58279fa25d"
+        },
+        {
+          "headline": "Broadcom: Marvell Panic Causes A Huge Buying Opportunity",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=42c8bba8655a078154193a1cbcdbdcab4010b3969600f3f8c0f4e073167a5b84"
+        },
+        {
+          "headline": "Hyperscaler AI Capex: What The Headlines Miss",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=ba236fba804b8a75f29a1300656f148d24a486838e1002f937ad75d57c912f23"
+        },
+        {
+          "headline": "Alphabet: The $250 Billion Capex Offload Plan",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=7bdc39cbcc7f603f5a1e1dc62a3eb36c683b391e08b34ff3e80f4715d95ed4af"
         },
         {
           "headline": "S&P 500: American Exceptionalism Is Worth The Price",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=29fe4eeb7074a68ee08a7e56f6baeebc832f11b0f40f2d2f33378b3516d58e77"
-        },
-        {
-          "headline": "A 10-Year Treasury Bond Now Pays More Than 118 Of America's Biggest Companies",
-          "source": "Benzinga",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=1a918e278efa39fc47340379cc1c25103f095618a9b7a011a4c3fe5235133013"
-        },
-        {
-          "headline": "Alger Growth & Income Fund Q2 2026 Portfolio Review",
-          "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=760fa10842d910ccb0c023188dea8e82ca2a62649e98addd82f655c1097fc6f4"
-        },
-        {
-          "headline": "Nvidia: The Greatest Company At A Fair Price",
-          "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=e13ecf41fadd7f9e572dadd5e3bdc5317777a408234248d7e28300b61060f4d3"
         }
       ],
       "earnings": [
@@ -340,9 +331,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 480.69,
-      "change": -3.62,
-      "changePercent": -0.7475,
+      "price": 481.88,
+      "change": -2.43,
+      "changePercent": -0.5017,
       "high": 484.16,
       "low": 479.5,
       "open": 483.07,
@@ -364,31 +355,31 @@
         {
           "headline": "Nvidia: The Greatest Company At A Fair Price",
           "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=e13ecf41fadd7f9e572dadd5e3bdc5317777a408234248d7e28300b61060f4d3"
         },
         {
           "headline": "Mark Cuban Fires Back At Jensen Huang’s AI Warning — ‘No Chance Radiologists Get Replaced’ Despite Nvidia CEO’s Prediction",
           "source": "Benzinga",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=3ac9c3207f51e92ea0364fc2e7837bba884d8b2386c7140ed0aa60f39d838428"
         },
         {
           "headline": "Bernie Sanders Warns AI Billionaires Could ‘Obliterate’ Jobs and ‘Destroy the Environment,’ Calls for Data Center Moratorium",
           "source": "Benzinga",
-          "timeAgo": "11h ago",
+          "timeAgo": "12h ago",
           "url": "https://finnhub.io/api/news?id=3173843e66bc2a2ef26b9c1b0268a76babdedda14d642e241f1834a44a04fcdb"
         },
         {
           "headline": "Viking Global Shifts Gears: Andreas Halvorsen Makes $817 Million Bet on Ferrari, Slashes Tesla Stake by 78% in Q2",
           "source": "Benzinga",
-          "timeAgo": "12h ago",
+          "timeAgo": "13h ago",
           "url": "https://finnhub.io/api/news?id=26fe8dc2843306f5383df391e9e6c30c8b590a4ba4815c3bc267ab5ca5ffbd72"
         },
         {
           "headline": "Alibaba shares fall 5% as AI spending drives 75% drop in net income",
           "source": "CNBC",
-          "timeAgo": "12h ago",
+          "timeAgo": "13h ago",
           "url": "https://finnhub.io/api/news?id=c428a052165e5e16a23a033ad3ff80ad7ebab797dbad4f6e17d9de2d797e4d40"
         }
       ],
@@ -426,9 +417,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 260.02,
-      "change": -5.82,
-      "changePercent": -2.1893,
+      "price": 261.15,
+      "change": -4.69,
+      "changePercent": -1.7642,
       "high": 264.945,
       "low": 259.92,
       "open": 264.945,
@@ -450,32 +441,32 @@
         {
           "headline": "Discover which dow jones stocks are making waves on Thursday.",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=1d8363aabcf751eaf84d1590e0e4b66548c336e4febf069797c0fb58279fa25d"
+        },
+        {
+          "headline": "Hyperscaler AI Capex: What The Headlines Miss",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=ba236fba804b8a75f29a1300656f148d24a486838e1002f937ad75d57c912f23"
         },
         {
           "headline": "S&P 500: American Exceptionalism Is Worth The Price",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=29fe4eeb7074a68ee08a7e56f6baeebc832f11b0f40f2d2f33378b3516d58e77"
         },
         {
           "headline": "Nvidia: The Greatest Company At A Fair Price",
           "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=e13ecf41fadd7f9e572dadd5e3bdc5317777a408234248d7e28300b61060f4d3"
         },
         {
           "headline": "Rocket Lab CEO Says $8 Billion Iridium Deal Won’t Take on Elon Musk’s Starlink — Don’t Intend to 'Directly Compete,’ But Plans Something That 'Hasn’t Been Seen Before’",
           "source": "Benzinga",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=23c8eb3e0ee50518bd0723e669e7a6b7ddc8446079cceb2544235b2ab190e566"
-        },
-        {
-          "headline": "Amazon, Target And More On CNBC’s ‘Final Trades’",
-          "source": "Benzinga",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=717f7a6a6e8498667da90fbce84c8b38568e70ad28bda442085cb3582ad21acc"
         }
       ],
       "earnings": [
@@ -512,9 +503,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 341.81,
-      "change": -9.31,
-      "changePercent": -2.6515,
+      "price": 342.67,
+      "change": -8.45,
+      "changePercent": -2.4066,
       "high": 348.415,
       "low": 338.96,
       "open": 348.415,
@@ -534,34 +525,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Looking for the most active stocks in the S&P500 index on Thursday?",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=de80fd99b19d51b1c063dd5d4eb7830387e2c641e2ad3bda312e7bbd5d6af86f"
+        },
+        {
           "headline": "Trump Could Reportedly Cut Canadian Auto Tariffs to 15%, Aluminum and Steel to 25%: NUE, STLD, CENX in Focus (UPDATED)",
           "source": "Benzinga",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=61f4b6b6f9ca61f1ffb9f6aedc3925e12ebb091374bb444770ee12a102c2010b"
         },
         {
           "headline": "Bernie Sanders Warns AI Billionaires Could ‘Obliterate’ Jobs and ‘Destroy the Environment,’ Calls for Data Center Moratorium",
           "source": "Benzinga",
-          "timeAgo": "11h ago",
+          "timeAgo": "12h ago",
           "url": "https://finnhub.io/api/news?id=3173843e66bc2a2ef26b9c1b0268a76babdedda14d642e241f1834a44a04fcdb"
         },
         {
           "headline": "Viking Global Shifts Gears: Andreas Halvorsen Makes $817 Million Bet on Ferrari, Slashes Tesla Stake by 78% in Q2",
           "source": "Benzinga",
-          "timeAgo": "12h ago",
+          "timeAgo": "13h ago",
           "url": "https://finnhub.io/api/news?id=26fe8dc2843306f5383df391e9e6c30c8b590a4ba4815c3bc267ab5ca5ffbd72"
         },
         {
           "headline": "Paul Graham Says Tesla Buyers Are Getting More Range, More Car For Less Money Than A Decade Ago: ‘People Who Think They Dislike Capitalism…’",
           "source": "Benzinga",
-          "timeAgo": "12h ago",
+          "timeAgo": "13h ago",
           "url": "https://finnhub.io/api/news?id=a9352d946e0405d288891faf2fb453999294551d2604a0f7320ce2f27fb7e7bd"
-        },
-        {
-          "headline": "JPMorgan Says Tesla Is Confident of Scaling Cybercab Operations, Touts Future Models Based on Platform—FSD V15 a ‘Step-Change’ From Previous Versions",
-          "source": "Benzinga",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=96211b28d4a15c388b1dad40212616ceecf7d919d840627454922344ed46e862"
         }
       ],
       "earnings": [
