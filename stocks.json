@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-21T14:21:20.444Z",
+  "updatedAt": "2026-08-21T15:19:48.831Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7663.64,
-      "change": 22.48,
-      "changePercent": 0.2942,
-      "high": 7678.16,
-      "low": 7660.83,
+      "price": 7674.11,
+      "change": 32.95,
+      "changePercent": 0.4312,
+      "high": 7682.07,
+      "low": 7660.06,
       "open": 0,
       "prevClose": 7641.16015625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "578.5M",
+      "volume": "892.8M",
       "sparklineData": [
         7498.9599609375,
         7408.2998046875,
@@ -38,7 +38,7 @@
         7691.759765625,
         7707.97998046875,
         7641.16015625,
-        7663.64013671875
+        7674.10986328125
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53148.87,
-      "change": 389.66,
-      "changePercent": 0.7386,
-      "high": 53172.22,
+      "price": 53147.09,
+      "change": 387.88,
+      "changePercent": 0.7352,
+      "high": 53210.48,
       "low": 52768.87,
       "open": 0,
       "prevClose": 52759.2109375,
       "week52High": 54744.33,
       "week52Low": 44948.16,
-      "volume": "108.9M",
+      "volume": "162.6M",
       "sparklineData": [
         52218.578125,
         51711.6484375,
@@ -92,7 +92,7 @@
         53343.3984375,
         53463.05078125,
         52759.2109375,
-        53148.87109375
+        53147.08984375
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26052.3,
-      "change": -14.87,
-      "changePercent": -0.057,
+      "price": 26151.662,
+      "change": 84.49,
+      "changePercent": 0.3241,
       "high": 26205.104,
-      "low": 26051.91,
+      "low": 26049.295,
       "open": 0,
       "prevClose": 26067.169921875,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "1.7B",
+      "volume": "2.6B",
       "sparklineData": [
         25690.900390625,
         25137.689453125,
@@ -146,7 +146,7 @@
         26289.7109375,
         26331.08984375,
         26067.169921875,
-        26052.30078125
+        26151.662109375
       ],
       "sector": "",
       "marketCap": "",
@@ -168,9 +168,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 308.04,
-      "change": -3.26,
-      "changePercent": -1.0472,
+      "price": 310.01,
+      "change": -1.29,
+      "changePercent": -0.4144,
       "high": 312.38,
       "low": 307.01,
       "open": 311.805,
@@ -190,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
+        },
+        {
           "headline": "$1 Million In The S&P 500: An 11-Stock Direct Indexing Strategy",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d"
+        },
+        {
+          "headline": "Broadcom Steps up NVIDIA Challenge With Potential $100 Billion AI Financing Deal",
+          "source": "Benzinga",
+          "timeAgo": "9h ago",
+          "url": "https://finnhub.io/api/news?id=cc22b5af25817b585e266ad92cdb6b1ec302e0d16622910ee36e4a7635c3dcfe"
         },
         {
           "headline": "Apple's Immunity To Headwinds Is Fading (Rating Downgrade)",
           "source": "SeekingAlpha",
-          "timeAgo": "15h ago",
+          "timeAgo": "16h ago",
           "url": "https://finnhub.io/api/news?id=050c0f2aa4bdaa3c3534896ea09737773f06b17e6cee5d63f78c4338ef7d6372"
         },
         {
           "headline": "Tracking Mario Gabelli's Gabelli Funds 13F Portfolio - Q2 2026 Update",
           "source": "SeekingAlpha",
-          "timeAgo": "17h ago",
+          "timeAgo": "18h ago",
           "url": "https://finnhub.io/api/news?id=d34e4cb40cc75d54d268277ce81d9c6581998aa1f8ad4091d34324375bc7500b"
-        },
-        {
-          "headline": "Which dow jones stocks are moving on Thursday?",
-          "source": "ChartMill",
-          "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=dfd1ab1771431dd4977c3660606f49ee58f6377693bed6cc3754ed3555c67ed0"
-        },
-        {
-          "headline": "Hedging Exposure In This Volatile Market",
-          "source": "SeekingAlpha",
-          "timeAgo": "20h ago",
-          "url": "https://finnhub.io/api/news?id=93f337f985f0311e22819a35e71c4675f54bf694bae3c2e6449779c783ab45d3"
         }
       ],
       "earnings": [
@@ -254,10 +254,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 342.73,
-      "change": 2.06,
-      "changePercent": 0.6047,
-      "high": 343.07,
+      "price": 344.23,
+      "change": 3.56,
+      "changePercent": 1.045,
+      "high": 345.13,
       "low": 340.4,
       "open": 342.1225,
       "prevClose": 340.67,
@@ -282,28 +282,28 @@
           "url": "https://finnhub.io/api/news?id=6a3ec9ae0ae599cb9acdf3e10380252d90d047641d46fa8e0eb0e6664bde984b"
         },
         {
+          "headline": "UBS Sees S&P 500 at 8,100 but Prediction Markets Don't Buy It",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=3bb9a9f2f2e9740f55ab8417594fd2ac610b72890576b86196c579d5312f9cef"
+        },
+        {
+          "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
+        },
+        {
+          "headline": "Bond Yields Are Rising Everywhere: Why This Isn't a US Debt Crisis",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=d71b5cf3781f553e04af30da32db4425cd2267d1c143666c7135f06c8879bb32"
+        },
+        {
           "headline": "Buying Marvell Before Broadcom Is A Big Mistake",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150"
-        },
-        {
-          "headline": "$1 Million In The S&P 500: An 11-Stock Direct Indexing Strategy",
-          "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d"
-        },
-        {
-          "headline": "Tracking Mario Gabelli's Gabelli Funds 13F Portfolio - Q2 2026 Update",
-          "source": "SeekingAlpha",
-          "timeAgo": "17h ago",
-          "url": "https://finnhub.io/api/news?id=d34e4cb40cc75d54d268277ce81d9c6581998aa1f8ad4091d34324375bc7500b"
-        },
-        {
-          "headline": "'Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing'- Bloomberg",
-          "source": "Benzinga",
-          "timeAgo": "20h ago",
-          "url": "https://finnhub.io/api/news?id=b953fcc1677023df0bb53e839bc4e97fcf76c4122fdfb3280c74f7c3d72c427e"
         }
       ],
       "earnings": [
@@ -340,10 +340,10 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 483.9,
-      "change": 2.75,
-      "changePercent": 0.5715,
-      "high": 485.49,
+      "price": 484.15,
+      "change": 3,
+      "changePercent": 0.6235,
+      "high": 486.36,
       "low": 478.53,
       "open": 480.5,
       "prevClose": 481.15,
@@ -364,32 +364,32 @@
         {
           "headline": "Microsoft (NASDAQ:MSFT): A Quality Investing Standout With a Premium Price",
           "source": "ChartMill",
-          "timeAgo": "3h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=f14abe63a75e22aed48d9262c67c4e343ec306833e27dcf67dabfa5774cf3274"
         },
         {
-          "headline": "Tracking Mario Gabelli's Gabelli Funds 13F Portfolio - Q2 2026 Update",
-          "source": "SeekingAlpha",
-          "timeAgo": "17h ago",
-          "url": "https://finnhub.io/api/news?id=d34e4cb40cc75d54d268277ce81d9c6581998aa1f8ad4091d34324375bc7500b"
-        },
-        {
-          "headline": "Which dow jones stocks are moving on Thursday?",
-          "source": "ChartMill",
-          "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=dfd1ab1771431dd4977c3660606f49ee58f6377693bed6cc3754ed3555c67ed0"
-        },
-        {
-          "headline": "'Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing'- Bloomberg",
+          "headline": "UBS Sees S&P 500 at 8,100 but Prediction Markets Don't Buy It",
           "source": "Benzinga",
-          "timeAgo": "20h ago",
-          "url": "https://finnhub.io/api/news?id=b953fcc1677023df0bb53e839bc4e97fcf76c4122fdfb3280c74f7c3d72c427e"
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=3bb9a9f2f2e9740f55ab8417594fd2ac610b72890576b86196c579d5312f9cef"
         },
         {
-          "headline": "'Anthropic Prepares To File Publicly For Its Potential Mega-IPO As Soon As The End Of August; Expects To Match SpaceX’s Record IPO Size Tr Top It' - Bloomberg",
+          "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
           "source": "Benzinga",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=f477a5bc0781fb216fec7a42849e6c182bdeec9bc55aacf1dd553561957290fe"
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
+        },
+        {
+          "headline": "Bond Yields Are Rising Everywhere: Why This Isn't a US Debt Crisis",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=d71b5cf3781f553e04af30da32db4425cd2267d1c143666c7135f06c8879bb32"
+        },
+        {
+          "headline": "Performance Comparison: Microsoft And Competitors In Software Industry",
+          "source": "Benzinga",
+          "timeAgo": "9h ago",
+          "url": "https://finnhub.io/api/news?id=03ec54d9efdf243476552f8c91ff6fe9fa68cf758c466dace0d950ed7d1de3b5"
         }
       ],
       "earnings": [
@@ -426,9 +426,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 259.57,
-      "change": -0.54,
-      "changePercent": -0.2076,
+      "price": 258.95,
+      "change": -1.16,
+      "changePercent": -0.446,
       "high": 261.09,
       "low": 257.035,
       "open": 261,
@@ -448,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "UBS Sees S&P 500 at 8,100 but Prediction Markets Don't Buy It",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=3bb9a9f2f2e9740f55ab8417594fd2ac610b72890576b86196c579d5312f9cef"
+        },
+        {
+          "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
+        },
+        {
           "headline": "Walmart In No Man's Land",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=f0808d203fc1d7f37244f9bb4d8d6303f364ce6e9905cf34b9c44ad7d0f0944b"
+        },
+        {
+          "headline": "Bond Yields Are Rising Everywhere: Why This Isn't a US Debt Crisis",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=d71b5cf3781f553e04af30da32db4425cd2267d1c143666c7135f06c8879bb32"
         },
         {
           "headline": "$1 Million In The S&P 500: An 11-Stock Direct Indexing Strategy",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d"
-        },
-        {
-          "headline": "Amazon: Don't Miss Out On The Clearance Sale",
-          "source": "SeekingAlpha",
           "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=a7feefa1b879d4f92e9c9339b42e5396c1dda1457fd30f5e83105ef27d6002b1"
-        },
-        {
-          "headline": "Electrovaya: A Bad Case Of Overpromising And Underdelivering - Sell",
-          "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=d7462a99f0695ca2ed61393c66934631ab0aea836ab40e9ff6b197ad9cb5b5f6"
-        },
-        {
-          "headline": "Asia's Digital Economy Benefits From The Continued Shift To Online Buying",
-          "source": "SeekingAlpha",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=414b3bbeaf4b3da484df8f5ce5fdf21ae84f377865918d71b7128457cdd9b3fe"
+          "url": "https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d"
         }
       ],
       "earnings": [
@@ -512,10 +512,10 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 357.45,
-      "change": 12.32,
-      "changePercent": 3.5697,
-      "high": 359.86,
+      "price": 360.73,
+      "change": 15.6,
+      "changePercent": 4.52,
+      "high": 364.1299,
       "low": 346.9,
       "open": 349.44,
       "prevClose": 345.13,
@@ -534,21 +534,27 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
+        },
+        {
           "headline": "BUZZ Investing: Markets Look Through Intra-Period Volatility",
           "source": "SeekingAlpha",
-          "timeAgo": "12h ago",
+          "timeAgo": "13h ago",
           "url": "https://finnhub.io/api/news?id=f8b1da701340dfb84dd264e2e4b41797bbdb4a488d598888072f0f3a46f94b8e"
         },
         {
           "headline": "Looking for the most active stocks in the S&P500 index on Thursday?",
           "source": "ChartMill",
-          "timeAgo": "20h ago",
+          "timeAgo": "21h ago",
           "url": "https://finnhub.io/api/news?id=de80fd99b19d51b1c063dd5d4eb7830387e2c641e2ad3bda312e7bbd5d6af86f"
         },
         {
           "headline": "'Hyundai to increase U.S. production at new Georgia plant, CEO tells CNBC'-CNBC",
           "source": "Benzinga",
-          "timeAgo": "22h ago",
+          "timeAgo": "23h ago",
           "url": "https://finnhub.io/api/news?id=6eebc151c99a2d7d88924742fc24c54cc6a7934879275c9ad0df1fe3de54211d"
         },
         {
@@ -556,12 +562,6 @@
           "source": "Benzinga",
           "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=9f0fa6491050ece16f58e6bad9a1a4f330e0e162e9f4b10b87b5fd9db4f36298"
-        },
-        {
-          "headline": "EXCLUSIVE: Nvidia Partner Says Tesla, Waymo Are Growing the Physical AI Market — Not Competing With It",
-          "source": "Benzinga",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=f50aa2ea2ee3192a197d90d5fb6a2e046fbfc65772a5c7ed156d4bc479e0098f"
         }
       ],
       "earnings": [
