@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-21T18:17:30.423Z",
+  "updatedAt": "2026-08-21T19:17:15.216Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7672.43,
-      "change": 31.27,
-      "changePercent": 0.4092,
+      "price": 7677.7,
+      "change": 36.54,
+      "changePercent": 0.4782,
       "high": 7697.11,
       "low": 7660.06,
       "open": 0,
       "prevClose": 7641.16015625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "1.6B",
+      "volume": "1.8B",
       "sparklineData": [
         7498.9599609375,
         7408.2998046875,
@@ -38,7 +38,7 @@
         7691.759765625,
         7707.97998046875,
         7641.16015625,
-        7672.43017578125
+        7677.7001953125
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53198.2,
-      "change": 438.99,
-      "changePercent": 0.8321,
-      "high": 53256.02,
+      "price": 53317.22,
+      "change": 558.01,
+      "changePercent": 1.0577,
+      "high": 53333.24,
       "low": 52768.87,
       "open": 0,
       "prevClose": 52759.2109375,
       "week52High": 54744.33,
       "week52Low": 44948.16,
-      "volume": "260.5M",
+      "volume": "287.8M",
       "sparklineData": [
         52218.578125,
         51711.6484375,
@@ -92,7 +92,7 @@
         53343.3984375,
         53463.05078125,
         52759.2109375,
-        53198.19921875
+        53317.21875
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26160.623,
-      "change": 93.45,
-      "changePercent": 0.3585,
+      "price": 26172.168,
+      "change": 105,
+      "changePercent": 0.4028,
       "high": 26269.846,
       "low": 26049.295,
       "open": 0,
       "prevClose": 26067.169921875,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "4.2B",
+      "volume": "4.8B",
       "sparklineData": [
         25690.900390625,
         25137.689453125,
@@ -146,7 +146,7 @@
         26289.7109375,
         26331.08984375,
         26067.169921875,
-        26160.623046875
+        26172.16796875
       ],
       "sector": "",
       "marketCap": "",
@@ -168,9 +168,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 309.04,
-      "change": -2.26,
-      "changePercent": -0.726,
+      "price": 308.85,
+      "change": -2.45,
+      "changePercent": -0.787,
       "high": 312.38,
       "low": 307.01,
       "open": 311.805,
@@ -190,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stay informed with the top movers within the dow jones index on Friday.",
+          "headline": "Which S&P500 stocks are the most active on Friday?",
           "source": "ChartMill",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=c44337b50efe0da34e7f47d53a781801f081fdbdc9b1b80bf495179c51b14ae9"
+        },
+        {
+          "headline": "Stay informed with the top movers within the dow jones index on Friday.",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=8f9d28002ee9400803c1bc65f23e8d2596ad9b71d181614b5198d194aed28983"
+        },
+        {
+          "headline": "Bond Buyback Is Simply A Band-Aid for $40T US Debt; Warsh Faces Jackson Hole Test",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=f82c9754c50b75f885b774fb033d245a87b41d2e46e1c8b139d8d187a762d00e"
         },
         {
           "headline": "The Boring Way To Own AI Is Now The Cheap Way",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=33b759ae54ec2c1b7dd390a8b24d7dd5de93dea22c3e3bcb0be1805704410c5b"
         },
         {
           "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
           "source": "Benzinga",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
-        },
-        {
-          "headline": "$1 Million In The S&P 500: An 11-Stock Direct Indexing Strategy",
-          "source": "SeekingAlpha",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d"
-        },
-        {
-          "headline": "Broadcom Steps up NVIDIA Challenge With Potential $100 Billion AI Financing Deal",
-          "source": "Benzinga",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=cc22b5af25817b585e266ad92cdb6b1ec302e0d16622910ee36e4a7635c3dcfe"
         }
       ],
       "earnings": [
@@ -254,9 +254,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 344.9,
-      "change": 4.23,
-      "changePercent": 1.2417,
+      "price": 345.31,
+      "change": 4.64,
+      "changePercent": 1.362,
       "high": 346.2,
       "low": 340.4,
       "open": 342.1225,
@@ -278,31 +278,31 @@
         {
           "headline": "Marvell: A $120 Billion Diamond In The Rough",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=fb0956b1237fa9dc2ea1c6e2af705dfcb9bb3504a039126c6e640e869e2eeef1"
         },
         {
           "headline": "Broadcom: You Snooze, You Lose",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=827aff53ceb201616b5e68d09cc2481ca0db544236dc6d0d0d4c72fb389365e2"
         },
         {
           "headline": "Alphabet (NASDAQ:GOOGL): Strong Growth and a Technical Setup Point to a Potential Breakout",
           "source": "ChartMill",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=6a3ec9ae0ae599cb9acdf3e10380252d90d047641d46fa8e0eb0e6664bde984b"
         },
         {
           "headline": "3 Funds For The Technologies That Could Define The Next Decade",
           "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=854126c377290be795cbab5c9d238667d7544860a0cb4e26bb6eb758d03d2af5"
         },
         {
           "headline": "UBS Sees S&P 500 at 8,100 but Prediction Markets Don't Buy It",
           "source": "Benzinga",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=3bb9a9f2f2e9740f55ab8417594fd2ac610b72890576b86196c579d5312f9cef"
         }
       ],
@@ -340,9 +340,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 481.47,
-      "change": 0.32,
-      "changePercent": 0.0665,
+      "price": 483.27,
+      "change": 2.12,
+      "changePercent": 0.4406,
       "high": 486.36,
       "low": 478.53,
       "open": 480.5,
@@ -364,32 +364,32 @@
         {
           "headline": "Marvell: A $120 Billion Diamond In The Rough",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=fb0956b1237fa9dc2ea1c6e2af705dfcb9bb3504a039126c6e640e869e2eeef1"
+        },
+        {
+          "headline": "10 Information Technology Stocks Whale Activity In Today’s Session",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=fd259331b2813de364df203b1226e57f8c5cb587cd8e0ea01bd780e40b8e0863"
+        },
+        {
+          "headline": "Bond Buyback Is Simply A Band-Aid for $40T US Debt; Warsh Faces Jackson Hole Test",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=f82c9754c50b75f885b774fb033d245a87b41d2e46e1c8b139d8d187a762d00e"
         },
         {
           "headline": "3 Funds For The Technologies That Could Define The Next Decade",
           "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=854126c377290be795cbab5c9d238667d7544860a0cb4e26bb6eb758d03d2af5"
         },
         {
           "headline": "Microsoft (NASDAQ:MSFT): A Quality Investing Standout With a Premium Price",
           "source": "ChartMill",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=f14abe63a75e22aed48d9262c67c4e343ec306833e27dcf67dabfa5774cf3274"
-        },
-        {
-          "headline": "UBS Sees S&P 500 at 8,100 but Prediction Markets Don't Buy It",
-          "source": "Benzinga",
           "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=3bb9a9f2f2e9740f55ab8417594fd2ac610b72890576b86196c579d5312f9cef"
-        },
-        {
-          "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
-          "source": "Benzinga",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
+          "url": "https://finnhub.io/api/news?id=f14abe63a75e22aed48d9262c67c4e343ec306833e27dcf67dabfa5774cf3274"
         }
       ],
       "earnings": [
@@ -426,9 +426,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 258.67,
-      "change": -1.44,
-      "changePercent": -0.5536,
+      "price": 259.18,
+      "change": -0.93,
+      "changePercent": -0.3575,
       "high": 261.09,
       "low": 257.035,
       "open": 261,
@@ -448,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stay informed with the top movers within the dow jones index on Friday.",
+          "headline": "Which S&P500 stocks are the most active on Friday?",
           "source": "ChartMill",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=c44337b50efe0da34e7f47d53a781801f081fdbdc9b1b80bf495179c51b14ae9"
+        },
+        {
+          "headline": "Stay informed with the top movers within the dow jones index on Friday.",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=8f9d28002ee9400803c1bc65f23e8d2596ad9b71d181614b5198d194aed28983"
         },
         {
           "headline": "Marvell: A $120 Billion Diamond In The Rough",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=fb0956b1237fa9dc2ea1c6e2af705dfcb9bb3504a039126c6e640e869e2eeef1"
         },
         {
           "headline": "Owlet: High Risk, High Reward In Medical Tech And Subscription",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=db7f551f262be6edebed07a92bf0d278b6de0e116a69652943fe7f015875dab9"
         },
         {
-          "headline": "The Boring Way To Own AI Is Now The Cheap Way",
-          "source": "SeekingAlpha",
+          "headline": "Bond Buyback Is Simply A Band-Aid for $40T US Debt; Warsh Faces Jackson Hole Test",
+          "source": "Benzinga",
           "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=33b759ae54ec2c1b7dd390a8b24d7dd5de93dea22c3e3bcb0be1805704410c5b"
-        },
-        {
-          "headline": "3 Funds For The Technologies That Could Define The Next Decade",
-          "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=854126c377290be795cbab5c9d238667d7544860a0cb4e26bb6eb758d03d2af5"
+          "url": "https://finnhub.io/api/news?id=f82c9754c50b75f885b774fb033d245a87b41d2e46e1c8b139d8d187a762d00e"
         }
       ],
       "earnings": [
@@ -512,10 +512,10 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 363.48,
-      "change": 18.35,
-      "changePercent": 5.3168,
-      "high": 364.99,
+      "price": 363.8,
+      "change": 18.67,
+      "changePercent": 5.4096,
+      "high": 365.99,
       "low": 346.9,
       "open": 349.44,
       "prevClose": 345.13,
@@ -534,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Exploring the top movers within the S&P500 index during today's session.",
+          "headline": "Which S&P500 stocks are the most active on Friday?",
           "source": "ChartMill",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=c44337b50efe0da34e7f47d53a781801f081fdbdc9b1b80bf495179c51b14ae9"
+        },
+        {
+          "headline": "Exploring the top movers within the S&P500 index during today's session.",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=708327aa4cf03c9d0967d12cb84df44a2e6c3be635420cd2ec7b4c4b54c811d9"
+        },
+        {
+          "headline": "Tesla: Tailwinds Outweigh The Noise",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=8ee1a070c21c5c44789c1aede9626377ea04d1cfa52c593f563ac80515ad9b8f"
+        },
+        {
+          "headline": "Bond Buyback Is Simply A Band-Aid for $40T US Debt; Warsh Faces Jackson Hole Test",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=f82c9754c50b75f885b774fb033d245a87b41d2e46e1c8b139d8d187a762d00e"
         },
         {
           "headline": "The Boring Way To Own AI Is Now The Cheap Way",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=33b759ae54ec2c1b7dd390a8b24d7dd5de93dea22c3e3bcb0be1805704410c5b"
-        },
-        {
-          "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
-          "source": "Benzinga",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
-        },
-        {
-          "headline": "Waymo Unveils First Custom Robotaxi Chip With More Than 1,000 TOPS of AI Processing Power",
-          "source": "Benzinga",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=55e10e9aff2d75884c263b54c5c4325670d5e2b2c852f419121d534eff6e07fe"
-        },
-        {
-          "headline": "BUZZ Investing: Markets Look Through Intra-Period Volatility",
-          "source": "SeekingAlpha",
-          "timeAgo": "16h ago",
-          "url": "https://finnhub.io/api/news?id=f8b1da701340dfb84dd264e2e4b41797bbdb4a488d598888072f0f3a46f94b8e"
         }
       ],
       "earnings": [
