@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-21T13:34:57.811Z",
+  "updatedAt": "2026-08-21T14:21:20.444Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7670.46,
-      "change": 29.3,
-      "changePercent": 0.3834,
+      "price": 7663.64,
+      "change": 22.48,
+      "changePercent": 0.2942,
       "high": 7678.16,
-      "low": 7665.68,
+      "low": 7660.83,
       "open": 0,
       "prevClose": 7641.16015625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "237.4M",
+      "volume": "578.5M",
       "sparklineData": [
         7498.9599609375,
         7408.2998046875,
@@ -38,7 +38,7 @@
         7691.759765625,
         7707.97998046875,
         7641.16015625,
-        7670.4599609375
+        7663.64013671875
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53035.04,
-      "change": 275.83,
-      "changePercent": 0.5228,
-      "high": 53066.53,
+      "price": 53148.87,
+      "change": 389.66,
+      "changePercent": 0.7386,
+      "high": 53172.22,
       "low": 52768.87,
       "open": 0,
       "prevClose": 52759.2109375,
       "week52High": 54744.33,
       "week52Low": 44948.16,
-      "volume": "52.3M",
+      "volume": "108.9M",
       "sparklineData": [
         52218.578125,
         51711.6484375,
@@ -92,7 +92,7 @@
         53343.3984375,
         53463.05078125,
         52759.2109375,
-        53035.0390625
+        53148.87109375
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26155.451,
-      "change": 88.28,
-      "changePercent": 0.3387,
+      "price": 26052.3,
+      "change": -14.87,
+      "changePercent": -0.057,
       "high": 26205.104,
-      "low": 26139.285,
+      "low": 26051.91,
       "open": 0,
       "prevClose": 26067.169921875,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "780.7M",
+      "volume": "1.7B",
       "sparklineData": [
         25690.900390625,
         25137.689453125,
@@ -146,7 +146,7 @@
         26289.7109375,
         26331.08984375,
         26067.169921875,
-        26155.451171875
+        26052.30078125
       ],
       "sector": "",
       "marketCap": "",
@@ -168,11 +168,11 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 308.51,
-      "change": -2.79,
-      "changePercent": -0.8962,
+      "price": 308.04,
+      "change": -3.26,
+      "changePercent": -1.0472,
       "high": 312.38,
-      "low": 308.385,
+      "low": 307.01,
       "open": 311.805,
       "prevClose": 311.3,
       "name": "Apple Inc",
@@ -198,7 +198,7 @@
         {
           "headline": "Apple's Immunity To Headwinds Is Fading (Rating Downgrade)",
           "source": "SeekingAlpha",
-          "timeAgo": "14h ago",
+          "timeAgo": "15h ago",
           "url": "https://finnhub.io/api/news?id=050c0f2aa4bdaa3c3534896ea09737773f06b17e6cee5d63f78c4338ef7d6372"
         },
         {
@@ -210,13 +210,13 @@
         {
           "headline": "Which dow jones stocks are moving on Thursday?",
           "source": "ChartMill",
-          "timeAgo": "18h ago",
+          "timeAgo": "19h ago",
           "url": "https://finnhub.io/api/news?id=dfd1ab1771431dd4977c3660606f49ee58f6377693bed6cc3754ed3555c67ed0"
         },
         {
           "headline": "Hedging Exposure In This Volatile Market",
           "source": "SeekingAlpha",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=93f337f985f0311e22819a35e71c4675f54bf694bae3c2e6449779c783ab45d3"
         }
       ],
@@ -254,10 +254,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 341.06,
-      "change": 0.39,
-      "changePercent": 0.1145,
-      "high": 342.59,
+      "price": 342.73,
+      "change": 2.06,
+      "changePercent": 0.6047,
+      "high": 343.07,
       "low": 340.4,
       "open": 342.1225,
       "prevClose": 340.67,
@@ -278,13 +278,13 @@
         {
           "headline": "Alphabet (NASDAQ:GOOGL): Strong Growth and a Technical Setup Point to a Potential Breakout",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=6a3ec9ae0ae599cb9acdf3e10380252d90d047641d46fa8e0eb0e6664bde984b"
         },
         {
           "headline": "Buying Marvell Before Broadcom Is A Big Mistake",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150"
         },
         {
@@ -302,7 +302,7 @@
         {
           "headline": "'Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing'- Bloomberg",
           "source": "Benzinga",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=b953fcc1677023df0bb53e839bc4e97fcf76c4122fdfb3280c74f7c3d72c427e"
         }
       ],
@@ -340,10 +340,10 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 484.02,
-      "change": 2.87,
-      "changePercent": 0.5965,
-      "high": 484.07,
+      "price": 483.9,
+      "change": 2.75,
+      "changePercent": 0.5715,
+      "high": 485.49,
       "low": 478.53,
       "open": 480.5,
       "prevClose": 481.15,
@@ -376,19 +376,19 @@
         {
           "headline": "Which dow jones stocks are moving on Thursday?",
           "source": "ChartMill",
-          "timeAgo": "18h ago",
+          "timeAgo": "19h ago",
           "url": "https://finnhub.io/api/news?id=dfd1ab1771431dd4977c3660606f49ee58f6377693bed6cc3754ed3555c67ed0"
         },
         {
           "headline": "'Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing'- Bloomberg",
           "source": "Benzinga",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=b953fcc1677023df0bb53e839bc4e97fcf76c4122fdfb3280c74f7c3d72c427e"
         },
         {
           "headline": "'Anthropic Prepares To File Publicly For Its Potential Mega-IPO As Soon As The End Of August; Expects To Match SpaceX’s Record IPO Size Tr Top It' - Bloomberg",
           "source": "Benzinga",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=f477a5bc0781fb216fec7a42849e6c182bdeec9bc55aacf1dd553561957290fe"
         }
       ],
@@ -426,11 +426,11 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 258.53,
-      "change": -1.58,
-      "changePercent": -0.6074,
+      "price": 259.57,
+      "change": -0.54,
+      "changePercent": -0.2076,
       "high": 261.09,
-      "low": 258.2,
+      "low": 257.035,
       "open": 261,
       "prevClose": 260.11,
       "name": "Amazon.com Inc",
@@ -450,7 +450,7 @@
         {
           "headline": "Walmart In No Man's Land",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=f0808d203fc1d7f37244f9bb4d8d6303f364ce6e9905cf34b9c44ad7d0f0944b"
         },
         {
@@ -462,19 +462,19 @@
         {
           "headline": "Amazon: Don't Miss Out On The Clearance Sale",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=a7feefa1b879d4f92e9c9339b42e5396c1dda1457fd30f5e83105ef27d6002b1"
         },
         {
           "headline": "Electrovaya: A Bad Case Of Overpromising And Underdelivering - Sell",
           "source": "SeekingAlpha",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=d7462a99f0695ca2ed61393c66934631ab0aea836ab40e9ff6b197ad9cb5b5f6"
         },
         {
           "headline": "Asia's Digital Economy Benefits From The Continued Shift To Online Buying",
           "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=414b3bbeaf4b3da484df8f5ce5fdf21ae84f377865918d71b7128457cdd9b3fe"
         }
       ],
@@ -512,12 +512,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 348.04,
-      "change": 2.91,
-      "changePercent": 0.8432,
-      "high": 351.5799,
+      "price": 357.45,
+      "change": 12.32,
+      "changePercent": 3.5697,
+      "high": 359.86,
       "low": 346.9,
-      "open": 349.89,
+      "open": 349.44,
       "prevClose": 345.13,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -536,25 +536,25 @@
         {
           "headline": "BUZZ Investing: Markets Look Through Intra-Period Volatility",
           "source": "SeekingAlpha",
-          "timeAgo": "11h ago",
+          "timeAgo": "12h ago",
           "url": "https://finnhub.io/api/news?id=f8b1da701340dfb84dd264e2e4b41797bbdb4a488d598888072f0f3a46f94b8e"
         },
         {
           "headline": "Looking for the most active stocks in the S&P500 index on Thursday?",
           "source": "ChartMill",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=de80fd99b19d51b1c063dd5d4eb7830387e2c641e2ad3bda312e7bbd5d6af86f"
         },
         {
           "headline": "'Hyundai to increase U.S. production at new Georgia plant, CEO tells CNBC'-CNBC",
           "source": "Benzinga",
-          "timeAgo": "21h ago",
+          "timeAgo": "22h ago",
           "url": "https://finnhub.io/api/news?id=6eebc151c99a2d7d88924742fc24c54cc6a7934879275c9ad0df1fe3de54211d"
         },
         {
           "headline": "Walmart's Outlook Signals Cautious Spending Ahead; Treasury Euphoria Fades; Samsung Soars; Bitcoin Shorts Crushed",
           "source": "Benzinga",
-          "timeAgo": "23h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=9f0fa6491050ece16f58e6bad9a1a4f330e0e162e9f4b10b87b5fd9db4f36298"
         },
         {
