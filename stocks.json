@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-24T13:39:41.504Z",
+  "updatedAt": "2026-08-24T14:28:57.311Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7650.43,
-      "change": -23.94,
-      "changePercent": -0.3119,
+      "price": 7648.5,
+      "change": -25.87,
+      "changePercent": -0.3371,
       "high": 7663.46,
-      "low": 7648.35,
+      "low": 7638.17,
       "open": 0,
       "prevClose": 7674.3701171875,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "158.8M",
+      "volume": "485.7M",
       "sparklineData": [
         7413.18017578125,
         7428.77978515625,
@@ -36,7 +36,7 @@
         7707.97998046875,
         7641.16015625,
         7674.3701171875,
-        7650.43017578125
+        7648.5
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53358.46,
-      "change": 81.45,
-      "changePercent": 0.1529,
-      "high": 53416.13,
+      "price": 53427.81,
+      "change": 150.8,
+      "changePercent": 0.283,
+      "high": 53481.19,
       "low": 53261.95,
       "open": 0,
       "prevClose": 53277.01171875,
       "week52High": 54744.33,
       "week52Low": 44948.16,
-      "volume": "29.7M",
+      "volume": "92.2M",
       "sparklineData": [
         52210.078125,
         52747.3203125,
@@ -88,7 +88,7 @@
         53463.05078125,
         52759.2109375,
         53277.01171875,
-        53358.4609375
+        53427.80859375
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26011.002,
-      "change": -169.46,
-      "changePercent": -0.6473,
+      "price": 25962.605,
+      "change": -217.86,
+      "changePercent": -0.8321,
       "high": 26065.32,
-      "low": 26000.94,
+      "low": 25910.816,
       "open": 0,
       "prevClose": 26180.4609375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "1.0B",
+      "volume": "1.9B",
       "sparklineData": [
         24932.080078125,
         24876.91015625,
@@ -140,7 +140,7 @@
         26331.08984375,
         26067.169921875,
         26180.4609375,
-        26011.001953125
+        25962.60546875
       ],
       "sector": "",
       "marketCap": "",
@@ -162,10 +162,10 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 311.57,
-      "change": 2.22,
-      "changePercent": 0.7176,
-      "high": 312.13,
+      "price": 312.76,
+      "change": 3.41,
+      "changePercent": 1.1023,
+      "high": 313.1999,
       "low": 309.97,
       "open": 310.41,
       "prevClose": 309.35,
@@ -184,6 +184,12 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Berkshire Hathaway Is A Net Buyer Of Stocks, Finally",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=3800a99507fc5c01f054daa045c6a1a9c30e1b6f8c00237388bb5360435c3601"
+        },
+        {
           "headline": "Market Volatility Risk: Nvidia Earnings And Jackson Hole Next Week",
           "source": "SeekingAlpha",
           "timeAgo": "16h ago",
@@ -192,7 +198,7 @@
         {
           "headline": "Nvidia’s 15% Price Hike Reveals the Hidden Cost of the AI Boom",
           "source": "Yahoo",
-          "timeAgo": "21h ago",
+          "timeAgo": "22h ago",
           "url": "https://finnhub.io/api/news?id=4741189c2db3ecc3e1c852ee549c661d3ba5fa23164f186325b42b94f8ae806b"
         },
         {
@@ -206,12 +212,6 @@
           "source": "Yahoo",
           "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=e9b6c1592c78f145ebd776eb5c5d3fa75bcf88f570e1f5329cc85a246ed70262"
-        },
-        {
-          "headline": "3 Tech Compounders Fit for Warren Buffett's Portfolio",
-          "source": "Yahoo",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=c801aca87ba9634815323f5241770ef0756e797663e424f356b6fc156d243e14"
         }
       ],
       "earnings": [
@@ -248,10 +248,10 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 346.35,
-      "change": 1.53,
-      "changePercent": 0.4437,
-      "high": 348.0596,
+      "price": 348.49,
+      "change": 3.67,
+      "changePercent": 1.0643,
+      "high": 349.37,
       "low": 342.49,
       "open": 343.2125,
       "prevClose": 344.82,
@@ -270,15 +270,21 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "CoreWeave: A Financial Accident In The Making",
+          "headline": "Berkshire Hathaway Is A Net Buyer Of Stocks, Finally",
           "source": "SeekingAlpha",
           "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=3800a99507fc5c01f054daa045c6a1a9c30e1b6f8c00237388bb5360435c3601"
+        },
+        {
+          "headline": "CoreWeave: A Financial Accident In The Making",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
         },
         {
           "headline": "Forget The Cloud Rally: Semiconductors Rule AI",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=87652d8c25e54fdb6d8316b57bd4c2a947a4545e9333fde9f835b8e6be929cbf"
         },
         {
@@ -292,12 +298,6 @@
           "source": "ChartMill",
           "timeAgo": "2d ago",
           "url": "https://finnhub.io/api/news?id=e5f829afa2f6175b149487545832e8aa7e002e52df98231000d53e26fd1155fa"
-        },
-        {
-          "headline": "FFA: Beware Of The AI Risk With This High-Yielding Covered Call Fund",
-          "source": "SeekingAlpha",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=0cbcff8caf58cbcfbfc47128930be73edbbd176eb424c7737c0049545a204699"
         }
       ],
       "earnings": [
@@ -334,10 +334,10 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 483.83,
-      "change": 0.59,
-      "changePercent": 0.1221,
-      "high": 485.6,
+      "price": 485.28,
+      "change": 2.04,
+      "changePercent": 0.4222,
+      "high": 487.9,
       "low": 481.86,
       "open": 483.5325,
       "prevClose": 483.24,
@@ -358,32 +358,32 @@
         {
           "headline": "Microsoft (NASDAQ:MSFT) Combines Strong Growth with a Promising Technical Setup",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=e9c395b5e76c8232cf11d6c278831380b9363397b40c2e6216714fb198c63295"
+        },
+        {
+          "headline": "Nvidia: The Next AI Upgrade Supercycle Is Exclusive - And Bigger Than GPUs",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=2b119cb948dbc9e29f9e032f928f4b695c25d81281e877ecbe16b7d4de27e69d"
+        },
+        {
+          "headline": "Berkshire Hathaway Is A Net Buyer Of Stocks, Finally",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=3800a99507fc5c01f054daa045c6a1a9c30e1b6f8c00237388bb5360435c3601"
         },
         {
           "headline": "CoreWeave: A Financial Accident In The Making",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
         },
         {
           "headline": "Forget The Cloud Rally: Semiconductors Rule AI",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=87652d8c25e54fdb6d8316b57bd4c2a947a4545e9333fde9f835b8e6be929cbf"
-        },
-        {
-          "headline": "Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens",
-          "source": "Yahoo",
-          "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=e12b285cb9bab3e4e96048a68e48dea5f65168b112c994b8f79247df72c03371"
-        },
-        {
-          "headline": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
-          "source": "Yahoo",
-          "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=089efd0555812f556abbe08388032dcd1f681a5ea622f68392b3f3c07d23c7d6"
         }
       ],
       "earnings": [
@@ -420,10 +420,10 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 261.43,
-      "change": 2.8,
-      "changePercent": 1.0826,
-      "high": 262.168,
+      "price": 261.2,
+      "change": 2.57,
+      "changePercent": 0.9937,
+      "high": 263.09,
       "low": 258.765,
       "open": 258.765,
       "prevClose": 258.63,
@@ -444,13 +444,13 @@
         {
           "headline": "CoreWeave: A Financial Accident In The Making",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
         },
         {
           "headline": "Forget The Cloud Rally: Semiconductors Rule AI",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=87652d8c25e54fdb6d8316b57bd4c2a947a4545e9333fde9f835b8e6be929cbf"
         },
         {
@@ -462,7 +462,7 @@
         {
           "headline": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
           "source": "Yahoo",
-          "timeAgo": "19h ago",
+          "timeAgo": "20h ago",
           "url": "https://finnhub.io/api/news?id=089efd0555812f556abbe08388032dcd1f681a5ea622f68392b3f3c07d23c7d6"
         },
         {
@@ -506,11 +506,11 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 353.31,
-      "change": -9.55,
-      "changePercent": -2.6319,
+      "price": 353.9,
+      "change": -8.96,
+      "changePercent": -2.4693,
       "high": 363.24,
-      "low": 352.81,
+      "low": 351.58,
       "open": 361.58,
       "prevClose": 362.86,
       "name": "Tesla Inc",
@@ -530,19 +530,19 @@
         {
           "headline": "Solar Stocks’ Weighted Gains Mask a Broad Selloff in the Average Name",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=91332a4036ce17030a26be9ec5ccaab0a38cff400940fabdcf5bb371b3b07f3b"
         },
         {
           "headline": "Bessent's Toolbox Gets a Rest as Gold Prints $4,600 and Ross Stores Cleans Up",
           "source": "ChartMill",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=7787e77d790c82615e1e824a41688465d5bf2c4d110e7c42c19de2bdd668833b"
         },
         {
           "headline": "The $1.7 Trillion Job Apocalypse: Why Investors Can’t Ignore Humanoid Robots",
           "source": "Yahoo",
-          "timeAgo": "20h ago",
+          "timeAgo": "21h ago",
           "url": "https://finnhub.io/api/news?id=d20ff59edd41170a40244f2911c96f9c487755868f0f7bfa5cd1178ede73e2be"
         },
         {
