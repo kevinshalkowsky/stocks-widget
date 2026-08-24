@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-24T19:19:36.747Z",
+  "updatedAt": "2026-08-24T20:14:33.741Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7659.42,
-      "change": -14.95,
-      "changePercent": -0.1948,
+      "price": 7652.86,
+      "change": -21.51,
+      "changePercent": -0.2803,
       "high": 7670.3,
       "low": 7638.17,
       "open": 0,
       "prevClose": 7674.3701171875,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "1.6B",
+      "volume": "2.5B",
       "sparklineData": [
         7413.18017578125,
         7428.77978515625,
@@ -36,7 +36,7 @@
         7707.97998046875,
         7641.16015625,
         7674.3701171875,
-        7659.419921875
+        7652.85986328125
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53457.79,
-      "change": 180.78,
-      "changePercent": 0.3393,
+      "price": 53417.16,
+      "change": 140.15,
+      "changePercent": 0.2631,
       "high": 53508.18,
       "low": 53261.95,
       "open": 0,
       "prevClose": 53277.01171875,
       "week52High": 54744.33,
       "week52Low": 44948.16,
-      "volume": "264.2M",
+      "volume": "417.2M",
       "sparklineData": [
         52210.078125,
         52747.3203125,
@@ -88,7 +88,7 @@
         53463.05078125,
         52759.2109375,
         53277.01171875,
-        53457.7890625
+        53417.16015625
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26032.25,
-      "change": -148.21,
-      "changePercent": -0.5661,
+      "price": 25980.191,
+      "change": -200.27,
+      "changePercent": -0.765,
       "high": 26109.96,
       "low": 25910.816,
       "open": 0,
       "prevClose": 26180.4609375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "4.9B",
+      "volume": "6.3B",
       "sparklineData": [
         24932.080078125,
         24876.91015625,
@@ -140,7 +140,7 @@
         26331.08984375,
         26067.169921875,
         26180.4609375,
-        26032.25
+        25980.19140625
       ],
       "sector": "",
       "marketCap": "",
@@ -162,12 +162,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 311.55,
-      "change": 2.2,
-      "changePercent": 0.7112,
+      "price": 310.34,
+      "change": 0.99,
+      "changePercent": 0.32,
       "high": 313.36,
       "low": 309.97,
-      "open": 310.41,
+      "open": 311.47,
       "prevClose": 309.35,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -184,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Trump’s 50% Canada Auto Tariff Shock: These ETFs Could Be in the Crosshairs",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=39011b3b644558bdbe1eb2189feb7b87b44fe7ab77d7ec19972ebcfef56dcfa9"
+        },
+        {
           "headline": "10 Information Technology Stocks Whale Activity In Today’s Session",
           "source": "Benzinga",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=d70aeb17af8f3bb67468c014ab48a9c0351439ab761e916096af3b89365d94b3"
         },
         {
           "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
         },
         {
           "headline": "What's Going On With Apple Stock Monday?",
           "source": "Benzinga",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=503c46f30f3503e77366ea1585d8d70a14741a85d25d60ca76c910afd1980062"
         },
         {
           "headline": "Cramer’s Stop Trading: Sandisk",
           "source": "CNBC",
-          "timeAgo": "9h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=ec9a52c443aedb71e85de89f925e7f86de73a6d9ac8e0884ab3f54e1d3dc1799"
-        },
-        {
-          "headline": "Berkshire Hathaway Is A Net Buyer Of Stocks, Finally",
-          "source": "SeekingAlpha",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=3800a99507fc5c01f054daa045c6a1a9c30e1b6f8c00237388bb5360435c3601"
         }
       ],
       "earnings": [
@@ -248,12 +248,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 348.59,
-      "change": 3.77,
-      "changePercent": 1.0933,
+      "price": 348.06,
+      "change": 3.24,
+      "changePercent": 0.9396,
       "high": 351.6,
       "low": 342.49,
-      "open": 343.2125,
+      "open": 343.615,
       "prevClose": 344.82,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -270,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Exploring the top movers within the dow jones index during today's session.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=995746628753bb1c107dff0fd621de739c068e1e4feeb404b2f0ce3d0523b435"
+        },
+        {
           "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=d45317f41b896114f8506141212d4c216b33f338075e1988daf4bcbe28cfb3e6"
+        },
+        {
+          "headline": "Trump’s 50% Canada Auto Tariff Shock: These ETFs Could Be in the Crosshairs",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=39011b3b644558bdbe1eb2189feb7b87b44fe7ab77d7ec19972ebcfef56dcfa9"
         },
         {
           "headline": "The AI Trade Deleveraged, Its Suppliers Didn't",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=40c34d0dd1185e79e8e69ffced14328b57b23f6c3c8acb7d14289e1b76115d73"
         },
         {
           "headline": "Analyst Calls Marvell A Top Chip Pick As AI Demand Builds",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=26eabb9270556fcc992f45fdeb48c363a1a640f8990c5b8a2add623742488481"
-        },
-        {
-          "headline": "Berkshire Hathaway Is A Net Buyer Of Stocks, Finally",
-          "source": "SeekingAlpha",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=3800a99507fc5c01f054daa045c6a1a9c30e1b6f8c00237388bb5360435c3601"
-        },
-        {
-          "headline": "CoreWeave: A Financial Accident In The Making",
-          "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
         }
       ],
       "earnings": [
@@ -334,12 +334,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 488.92,
-      "change": 5.68,
-      "changePercent": 1.1754,
+      "price": 487.31,
+      "change": 4.07,
+      "changePercent": 0.8422,
       "high": 490.605,
       "low": 481.86,
-      "open": 483.5325,
+      "open": 483.205,
       "prevClose": 483.24,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -358,7 +358,7 @@
         {
           "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=d45317f41b896114f8506141212d4c216b33f338075e1988daf4bcbe28cfb3e6"
         },
         {
@@ -368,22 +368,22 @@
           "url": "https://finnhub.io/api/news?id=78b3ad9a31e68ce7926138e71a316387787c485ea7009e5f2884501a93b113c5"
         },
         {
-          "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
+          "headline": "Trump’s 50% Canada Auto Tariff Shock: These ETFs Could Be in the Crosshairs",
           "source": "Benzinga",
           "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=39011b3b644558bdbe1eb2189feb7b87b44fe7ab77d7ec19972ebcfef56dcfa9"
+        },
+        {
+          "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
+          "source": "Benzinga",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
         },
         {
-          "headline": "Analyst Calls Marvell A Top Chip Pick As AI Demand Builds",
-          "source": "Benzinga",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=26eabb9270556fcc992f45fdeb48c363a1a640f8990c5b8a2add623742488481"
-        },
-        {
-          "headline": "Salesforce To Report Mixed Q2; Investors Remain Skeptical About H2 Acceleration",
+          "headline": "What's Going on With Nebius Shares on Monday?",
           "source": "Benzinga",
           "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=d3bde0ff5073e01d5f7d622876a639af648b59960068b47f82b6e23556dfc694"
+          "url": "https://finnhub.io/api/news?id=8fe753b84d2c2931c244ae5f7fb36f6c390b331e9118cdb8af542749128503aa"
         }
       ],
       "earnings": [
@@ -420,12 +420,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 261.96,
-      "change": 3.33,
-      "changePercent": 1.2876,
+      "price": 262.07,
+      "change": 3.44,
+      "changePercent": 1.3301,
       "high": 263.32,
-      "low": 258.765,
-      "open": 258.765,
+      "low": 259.05,
+      "open": 259.6,
       "prevClose": 258.63,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -442,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "What's going on in today's session: S&P500 most active stocks",
+          "headline": "Exploring the top movers within the dow jones index during today's session.",
           "source": "ChartMill",
           "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=995746628753bb1c107dff0fd621de739c068e1e4feeb404b2f0ce3d0523b435"
+        },
+        {
+          "headline": "What's going on in today's session: S&P500 most active stocks",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=b4e7862ecff49c01c686f4ff93eb405072c170ffc8e5c83fda06da0f37f4a012"
         },
         {
           "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
           "source": "ChartMill",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=d45317f41b896114f8506141212d4c216b33f338075e1988daf4bcbe28cfb3e6"
         },
         {
           "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
         },
         {
           "headline": "Analyst Calls Marvell A Top Chip Pick As AI Demand Builds",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=26eabb9270556fcc992f45fdeb48c363a1a640f8990c5b8a2add623742488481"
-        },
-        {
-          "headline": "CoreWeave: A Financial Accident In The Making",
-          "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
         }
       ],
       "earnings": [
@@ -506,12 +506,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 350.43,
-      "change": -12.43,
-      "changePercent": -3.4256,
+      "price": 349.03,
+      "change": -13.83,
+      "changePercent": -3.8114,
       "high": 363.24,
       "low": 348.26,
-      "open": 361.58,
+      "open": 361.41,
       "prevClose": 362.86,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -530,32 +530,32 @@
         {
           "headline": "What's going on in today's session: S&P500 most active stocks",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=b4e7862ecff49c01c686f4ff93eb405072c170ffc8e5c83fda06da0f37f4a012"
         },
         {
           "headline": "XPeng Q2: A Better Bet Than Tesla",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=03e43707ec88b1cbb3d7bf62c30654eef16c1aba21213c240d939987abd8f3b0"
+        },
+        {
+          "headline": "Trump’s 50% Canada Auto Tariff Shock: These ETFs Could Be in the Crosshairs",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=39011b3b644558bdbe1eb2189feb7b87b44fe7ab77d7ec19972ebcfef56dcfa9"
         },
         {
           "headline": "Tesla: SpaceX Is The Only Hope",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=6cda9280ff0d8b18a0b37e2fb9355148d2c4ca08ec9b14be1d27ad880b3a0581"
         },
         {
           "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
           "source": "Benzinga",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
-        },
-        {
-          "headline": "Solar Stocks’ Weighted Gains Mask a Broad Selloff in the Average Name",
-          "source": "ChartMill",
           "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=91332a4036ce17030a26be9ec5ccaab0a38cff400940fabdcf5bb371b3b07f3b"
+          "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
         }
       ],
       "earnings": [
