@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-26T16:06:36.087Z",
+  "updatedAt": "2026-08-26T18:31:17.535Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7671,
-      "change": -6.28,
-      "changePercent": -0.0818,
+      "price": 7673.75,
+      "change": -3.53,
+      "changePercent": -0.046,
       "high": 7688.36,
-      "low": 7662.9,
+      "low": 7657.41,
       "open": 0,
       "prevClose": 7677.27978515625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "852.6M",
+      "volume": "1.3B",
       "sparklineData": [
         7413.18017578125,
         7428.77978515625,
@@ -38,7 +38,7 @@
         7674.3701171875,
         7652.85986328125,
         7677.27978515625,
-        7671
+        7673.75
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53471.14,
-      "change": -106.26,
-      "changePercent": -0.1983,
+      "price": 53431.14,
+      "change": -146.26,
+      "changePercent": -0.273,
       "high": 53639.75,
-      "low": 53412.12,
+      "low": 53379.4,
       "open": 0,
       "prevClose": 53577.3984375,
       "week52High": 54744.33,
       "week52Low": 44948.16,
-      "volume": "149.7M",
+      "volume": "220.9M",
       "sparklineData": [
         52210.078125,
         52747.3203125,
@@ -92,7 +92,7 @@
         53277.01171875,
         53417.16015625,
         53577.3984375,
-        53471.140625
+        53431.140625
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26065.672,
-      "change": -85.63,
-      "changePercent": -0.3274,
+      "price": 26112.96,
+      "change": -38.34,
+      "changePercent": -0.1466,
       "high": 26180,
-      "low": 26032.674,
+      "low": 26021.629,
       "open": 0,
       "prevClose": 26151.30078125,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "3.3B",
+      "volume": "4.5B",
       "sparklineData": [
         24932.080078125,
         24876.91015625,
@@ -146,7 +146,7 @@
         26180.4609375,
         25980.189453125,
         26151.30078125,
-        26065.671875
+        26112.9609375
       ],
       "sector": "",
       "marketCap": "",
@@ -168,10 +168,10 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 312.77,
-      "change": 2.87,
-      "changePercent": 0.9261,
-      "high": 313.62,
+      "price": 313.03,
+      "change": 3.13,
+      "changePercent": 1.01,
+      "high": 313.95,
       "low": 308.8001,
       "open": 310.02,
       "prevClose": 309.9,
@@ -190,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
+        },
+        {
+          "headline": "Apple sets iPhone launch event for Sept. 9, first under new CEO John Ternus ",
+          "source": "CNBC",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=4942d9a7f5815c778c5a27132015237bc6f89e39775703f8ed408d24f3ed324b"
+        },
+        {
           "headline": "Apple: The Winter Is Coming",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=2540bacac40545dead311551c1f255ad946c0cf0d2752ab1e7da46e062c96c01"
         },
         {
           "headline": "SCHD And STK: A 3%+ Income Barbell",
           "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=ea4ad1157b42d6bad453f53df9599e9e64e5dddcb48416e8ed75336323562ec6"
         },
         {
           "headline": "Cheaper Oil and a Chip Bid Set the Table Before Nvidia Speaks",
           "source": "ChartMill",
-          "timeAgo": "9h ago",
+          "timeAgo": "11h ago",
           "url": "https://finnhub.io/api/news?id=bdd5ff242d5acf57f02c5b23519220e818af944279b3c1f3f5ab65b2e2fffb55"
-        },
-        {
-          "headline": "iPhone Buyers Rush in Before Potential Apple Price Increases",
-          "source": "Benzinga",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=75f9fb4d19da30529d1441a673c25d38008b68687a61a59573865836ed164581"
-        },
-        {
-          "headline": "The Deep Unknowns Of AI",
-          "source": "SeekingAlpha",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c"
         }
       ],
       "earnings": [
@@ -254,11 +254,11 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 341.73,
-      "change": -5.23,
-      "changePercent": -1.5074,
+      "price": 341.41,
+      "change": -5.55,
+      "changePercent": -1.5996,
       "high": 346.88,
-      "low": 341.14,
+      "low": 340.18,
       "open": 346.75,
       "prevClose": 346.96,
       "name": "Alphabet Inc",
@@ -276,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next",
-          "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93"
+          "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
         },
         {
-          "headline": "Ohio Rep. Michael Rulli Sold Up to $100K Worth of Alphabet Stock",
-          "source": "Benzinga",
+          "headline": "Broadcom Is The New Nvidia, And That's The Problem",
+          "source": "SeekingAlpha",
           "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=56e3a8a0f81159bcc19d0c2af1f567f2aa84f668671d90793e85ea8c670735bf"
+          "url": "https://finnhub.io/api/news?id=e1c1e0d11f02d847fa2f3da08bc17299451bda89bf10efc19cb8b201d06b0484"
         },
         {
-          "headline": "Anthropic's $30 Trillion And The Artificial Intelligence Bubble That Never Was",
+          "headline": "The Government Took Equity In Quantum Stocks, So Should We",
           "source": "SeekingAlpha",
           "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=65f00285e5a35844d0d3bc432e0e7c25e575116c921950d88c1be2883aefba0b"
+          "url": "https://finnhub.io/api/news?id=526b9cab301084be2bd6dff7af650538fa06a5242359ebf2c95023bd0bb9e74d"
         },
         {
-          "headline": "SpaceX: Explosive Growth Still Can't Justify This Stock Price",
+          "headline": "Nvidia earnings live updates: Q2 results, memory prices and AI outlook",
+          "source": "CNBC",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=ed0641981f09fed7e00b31bcacc65f5f7d2e916eaf2c7bd9be37e6d0669fe4e0"
+        },
+        {
+          "headline": "3% Real Yields Are Changing How Retirees Should Invest",
           "source": "SeekingAlpha",
           "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=d4635b115859deb0a8ace9f2448781b896865820ed1ea9b645280b488285fb2e"
-        },
-        {
-          "headline": "SCHD And STK: A 3%+ Income Barbell",
-          "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=ea4ad1157b42d6bad453f53df9599e9e64e5dddcb48416e8ed75336323562ec6"
+          "url": "https://finnhub.io/api/news?id=ec6f0e12d4caa3a4c7bfeceda7c45f0259d90bcd65a7cf2f6df39ebc255873f0"
         }
       ],
       "earnings": [
@@ -340,9 +340,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 494.63,
-      "change": 2.92,
-      "changePercent": 0.5938,
+      "price": 494.42,
+      "change": 2.71,
+      "changePercent": 0.5511,
       "high": 497.1399,
       "low": 487.31,
       "open": 488.275,
@@ -362,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Microsoft's AI Capacity Is Selling - But Cash Conversion Is Lagging",
-          "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=af4c24676e2fe4dd3be6a5e8f1865d106a44e660e1f6de2bd96ce54d98f064e3"
+          "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
         },
         {
-          "headline": "Goldman Sachs Executive Sounds The Alarm, Warns AI Could Cause 'Cognitive Atrophy' on Wall Street: 'There’s a Huge Danger Here'",
-          "source": "Benzinga",
+          "headline": "The Government Took Equity In Quantum Stocks, So Should We",
+          "source": "SeekingAlpha",
           "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=ab63bb13404443951b8c1816c980065c6ef1a2c8ee6088ad6632c3f88d94dff5"
+          "url": "https://finnhub.io/api/news?id=526b9cab301084be2bd6dff7af650538fa06a5242359ebf2c95023bd0bb9e74d"
         },
         {
-          "headline": "Microsoft Expands Middle East AI Footprint Through Long-Term HUMAIN Deal",
-          "source": "Benzinga",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=ccd74fc2c117b4b6acc7a504cc535ecf7cdc01bec7f5626690ced1879d7d8419"
-        },
-        {
-          "headline": "Big Tech Off-Balance Sheet Concerns",
+          "headline": "WQTM: Quantum Computing Offers Promise, But This Product May Not Represent The Most Prudent Proxy",
           "source": "SeekingAlpha",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23"
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=7b91a85f1292ccb06f3e9ecb858418a66cd4276cc52cc18507fc9a10734712bc"
         },
         {
-          "headline": "'China's Moonshot In Talks With Microsoft, Amazon, Google Over K3 Revenue Sharing, Sources Say' - Reuters Exclusive",
-          "source": "Benzinga",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=8a7d98409c2ad563c5d64004ed170add56913eacf9d90bfbbd094a6ae4c5bb6e"
+          "headline": "ASC 842 Is About To Drop A Bomb On AI Hype",
+          "source": "SeekingAlpha",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=5a62231603660e362fa7ccc54abcfdcdb7cf826d42dacfd1052d6ff96b1982b2"
+        },
+        {
+          "headline": "3% Real Yields Are Changing How Retirees Should Invest",
+          "source": "SeekingAlpha",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=ec6f0e12d4caa3a4c7bfeceda7c45f0259d90bcd65a7cf2f6df39ebc255873f0"
         }
       ],
       "earnings": [
@@ -426,11 +426,11 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 258.73,
-      "change": -2.33,
-      "changePercent": -0.8925,
+      "price": 258.91,
+      "change": -2.15,
+      "changePercent": -0.8236,
       "high": 262.05,
-      "low": 258.35,
+      "low": 258.24,
       "open": 261.1775,
       "prevClose": 261.06,
       "name": "Amazon.com Inc",
@@ -448,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next",
-          "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93"
+          "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
         },
         {
-          "headline": "Alibaba: Buy The AI Spending Panic After Q2",
+          "headline": "Wall Street Lunch: Meta Settles Minors' Addiction, Data Privacy Claims For $12.7B",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=69d28c406d930f3c0238cc48762970949d72a1ca61471e16d05c57ba6f9189bb"
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=93693e522727c16ce265ecaefe78c970775937a2523bdf51c209f1a64665f5fb"
         },
         {
-          "headline": "SpaceX: Explosive Growth Still Can't Justify This Stock Price",
+          "headline": "The Government Took Equity In Quantum Stocks, So Should We",
           "source": "SeekingAlpha",
           "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=d4635b115859deb0a8ace9f2448781b896865820ed1ea9b645280b488285fb2e"
+          "url": "https://finnhub.io/api/news?id=526b9cab301084be2bd6dff7af650538fa06a5242359ebf2c95023bd0bb9e74d"
         },
         {
-          "headline": "Goldman Sachs Executive Sounds The Alarm, Warns AI Could Cause 'Cognitive Atrophy' on Wall Street: 'There’s a Huge Danger Here'",
-          "source": "Benzinga",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=ab63bb13404443951b8c1816c980065c6ef1a2c8ee6088ad6632c3f88d94dff5"
-        },
-        {
-          "headline": "Why Amazon's Earnings Matter For Nvidia's Outlook",
+          "headline": "ASC 842 Is About To Drop A Bomb On AI Hype",
           "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=605b07496038751bdcf6893d550beb3dcdef7cc203d959ecfb120f16ab048c6c"
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=5a62231603660e362fa7ccc54abcfdcdb7cf826d42dacfd1052d6ff96b1982b2"
+        },
+        {
+          "headline": "Amazon's Anthropic Stake Just Bought It Something Credit Markets Couldn't",
+          "source": "SeekingAlpha",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=26de9393f8b02bfcd254144f37822a8090b41ace7a7149760c76b2aa544b4d26"
         }
       ],
       "earnings": [
@@ -512,9 +512,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 344.5,
-      "change": -5.75,
-      "changePercent": -1.6417,
+      "price": 344.91,
+      "change": -5.34,
+      "changePercent": -1.5246,
       "high": 351.93,
       "low": 342.53,
       "open": 347.415,
@@ -534,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Tesla: Potential Merger Has Some Upside, But I'm Still Bearish (Upgrade)",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=b382890d9c645179fedf5db41f4f6b4f29473bfc3286616827ab24d4f7656204"
+        },
+        {
           "headline": "ROBO: For Diversified Exposure In Robotics At Reasonable Valuations",
           "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=930683f8d11453ce7cc0c9af044a3cb2389f347a5d65d65551d00234a7535470"
         },
         {
           "headline": "AI's Bar Mitzvah Moment: From Hype And Hope To Business Questions",
           "source": "SeekingAlpha",
-          "timeAgo": "12h ago",
+          "timeAgo": "14h ago",
           "url": "https://finnhub.io/api/news?id=33050069b185f62edc20d73ca7c1b76aac2cbd08e64f3ac8bac0a4c87663ecf2"
         },
         {
           "headline": "Bernie Sanders Says Sergey Brin 'Leading' Campaign to Stop California's 5% Billionaire Tax: 'Greed is a Sickness'",
           "source": "Benzinga",
-          "timeAgo": "15h ago",
+          "timeAgo": "18h ago",
           "url": "https://finnhub.io/api/news?id=1d96a7dd4a638fca9ac9faa8a9f67aeb170e5763c3173c4d2b2bade3e32b6e44"
         },
         {
           "headline": "Which S&P500 stocks are the most active on Tuesday?",
           "source": "ChartMill",
-          "timeAgo": "22h ago",
-          "url": "https://finnhub.io/api/news?id=a9251f9283b5230d33a2e52ed6096324c868b9a20066ede8525d714353dc782a"
-        },
-        {
-          "headline": "Treasury Bond Buybacks Cannot Solve A Fiscal Problem; Nvidia Earnings And Inflation Data Expected Tomorrow",
-          "source": "Benzinga",
           "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=b79b16c471bcc0898122b4984a9697a565e0a077e356fc4b8e6fa80e5d01d750"
+          "url": "https://finnhub.io/api/news?id=a9251f9283b5230d33a2e52ed6096324c868b9a20066ede8525d714353dc782a"
         }
       ],
       "earnings": [
