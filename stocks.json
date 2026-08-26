@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-26T14:31:27.820Z",
+  "updatedAt": "2026-08-26T16:06:36.087Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7668.76,
-      "change": -8.52,
-      "changePercent": -0.111,
+      "price": 7671,
+      "change": -6.28,
+      "changePercent": -0.0818,
       "high": 7688.36,
       "low": 7662.9,
       "open": 0,
       "prevClose": 7677.27978515625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "469.8M",
+      "volume": "852.6M",
       "sparklineData": [
         7413.18017578125,
         7428.77978515625,
@@ -38,7 +38,7 @@
         7674.3701171875,
         7652.85986328125,
         7677.27978515625,
-        7668.759765625
+        7671
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53443.51,
-      "change": -133.89,
-      "changePercent": -0.2499,
+      "price": 53471.14,
+      "change": -106.26,
+      "changePercent": -0.1983,
       "high": 53639.75,
-      "low": 53440.77,
+      "low": 53412.12,
       "open": 0,
       "prevClose": 53577.3984375,
       "week52High": 54744.33,
       "week52Low": 44948.16,
-      "volume": "82.5M",
+      "volume": "149.7M",
       "sparklineData": [
         52210.078125,
         52747.3203125,
@@ -92,7 +92,7 @@
         53277.01171875,
         53417.16015625,
         53577.3984375,
-        53443.51171875
+        53471.140625
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26054.316,
-      "change": -96.98,
-      "changePercent": -0.3708,
+      "price": 26065.672,
+      "change": -85.63,
+      "changePercent": -0.3274,
       "high": 26180,
       "low": 26032.674,
       "open": 0,
       "prevClose": 26151.30078125,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "2.1B",
+      "volume": "3.3B",
       "sparklineData": [
         24932.080078125,
         24876.91015625,
@@ -146,7 +146,7 @@
         26180.4609375,
         25980.189453125,
         26151.30078125,
-        26054.31640625
+        26065.671875
       ],
       "sector": "",
       "marketCap": "",
@@ -168,10 +168,10 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 311.8,
-      "change": 1.9,
-      "changePercent": 0.6131,
-      "high": 313.4199,
+      "price": 312.77,
+      "change": 2.87,
+      "changePercent": 0.9261,
+      "high": 313.62,
       "low": 308.8001,
       "open": 310.02,
       "prevClose": 309.9,
@@ -190,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Apple: The Winter Is Coming",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=2540bacac40545dead311551c1f255ad946c0cf0d2752ab1e7da46e062c96c01"
+        },
+        {
           "headline": "SCHD And STK: A 3%+ Income Barbell",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=ea4ad1157b42d6bad453f53df9599e9e64e5dddcb48416e8ed75336323562ec6"
         },
         {
           "headline": "Cheaper Oil and a Chip Bid Set the Table Before Nvidia Speaks",
           "source": "ChartMill",
-          "timeAgo": "7h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=bdd5ff242d5acf57f02c5b23519220e818af944279b3c1f3f5ab65b2e2fffb55"
+        },
+        {
+          "headline": "iPhone Buyers Rush in Before Potential Apple Price Increases",
+          "source": "Benzinga",
+          "timeAgo": "10h ago",
+          "url": "https://finnhub.io/api/news?id=75f9fb4d19da30529d1441a673c25d38008b68687a61a59573865836ed164581"
         },
         {
           "headline": "The Deep Unknowns Of AI",
           "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
+          "timeAgo": "12h ago",
           "url": "https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c"
-        },
-        {
-          "headline": "Tracking David Tepper's Appaloosa Management Portfolio - Q2 2026 Update",
-          "source": "SeekingAlpha",
-          "timeAgo": "17h ago",
-          "url": "https://finnhub.io/api/news?id=68f02ebf639be16304aa29f695612e1a36fd9a7c80878ee95a3e4e4ff62f02aa"
-        },
-        {
-          "headline": "These dow jones stocks are moving in today's session",
-          "source": "ChartMill",
-          "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=4a58a6f746e24ff8c34ddff188f2b82ff0e1326f391c36ca862d996d0c19ac28"
         }
       ],
       "earnings": [
@@ -254,11 +254,11 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 342.32,
-      "change": -4.64,
-      "changePercent": -1.3373,
+      "price": 341.73,
+      "change": -5.23,
+      "changePercent": -1.5074,
       "high": 346.88,
-      "low": 341.519,
+      "low": 341.14,
       "open": 346.75,
       "prevClose": 346.96,
       "name": "Alphabet Inc",
@@ -276,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93"
+        },
+        {
+          "headline": "Ohio Rep. Michael Rulli Sold Up to $100K Worth of Alphabet Stock",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=56e3a8a0f81159bcc19d0c2af1f567f2aa84f668671d90793e85ea8c670735bf"
+        },
+        {
+          "headline": "Anthropic's $30 Trillion And The Artificial Intelligence Bubble That Never Was",
+          "source": "SeekingAlpha",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=65f00285e5a35844d0d3bc432e0e7c25e575116c921950d88c1be2883aefba0b"
+        },
+        {
           "headline": "SpaceX: Explosive Growth Still Can't Justify This Stock Price",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=d4635b115859deb0a8ace9f2448781b896865820ed1ea9b645280b488285fb2e"
         },
         {
           "headline": "SCHD And STK: A 3%+ Income Barbell",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=ea4ad1157b42d6bad453f53df9599e9e64e5dddcb48416e8ed75336323562ec6"
-        },
-        {
-          "headline": "Big Tech Off-Balance Sheet Concerns",
-          "source": "SeekingAlpha",
           "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23"
-        },
-        {
-          "headline": "The Deep Unknowns Of AI",
-          "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c"
-        },
-        {
-          "headline": "Tracking David Tepper's Appaloosa Management Portfolio - Q2 2026 Update",
-          "source": "SeekingAlpha",
-          "timeAgo": "17h ago",
-          "url": "https://finnhub.io/api/news?id=68f02ebf639be16304aa29f695612e1a36fd9a7c80878ee95a3e4e4ff62f02aa"
+          "url": "https://finnhub.io/api/news?id=ea4ad1157b42d6bad453f53df9599e9e64e5dddcb48416e8ed75336323562ec6"
         }
       ],
       "earnings": [
@@ -340,9 +340,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 494.05,
-      "change": 2.34,
-      "changePercent": 0.4759,
+      "price": 494.63,
+      "change": 2.92,
+      "changePercent": 0.5938,
       "high": 497.1399,
       "low": 487.31,
       "open": 488.275,
@@ -362,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Microsoft's AI Capacity Is Selling - But Cash Conversion Is Lagging",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=af4c24676e2fe4dd3be6a5e8f1865d106a44e660e1f6de2bd96ce54d98f064e3"
+        },
+        {
+          "headline": "Goldman Sachs Executive Sounds The Alarm, Warns AI Could Cause 'Cognitive Atrophy' on Wall Street: 'There’s a Huge Danger Here'",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=ab63bb13404443951b8c1816c980065c6ef1a2c8ee6088ad6632c3f88d94dff5"
+        },
+        {
+          "headline": "Microsoft Expands Middle East AI Footprint Through Long-Term HUMAIN Deal",
+          "source": "Benzinga",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=ccd74fc2c117b4b6acc7a504cc535ecf7cdc01bec7f5626690ced1879d7d8419"
+        },
+        {
           "headline": "Big Tech Off-Balance Sheet Concerns",
           "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23"
         },
         {
-          "headline": "Tracking David Tepper's Appaloosa Management Portfolio - Q2 2026 Update",
-          "source": "SeekingAlpha",
-          "timeAgo": "17h ago",
-          "url": "https://finnhub.io/api/news?id=68f02ebf639be16304aa29f695612e1a36fd9a7c80878ee95a3e4e4ff62f02aa"
-        },
-        {
-          "headline": "These dow jones stocks are moving in today's session",
-          "source": "ChartMill",
-          "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=4a58a6f746e24ff8c34ddff188f2b82ff0e1326f391c36ca862d996d0c19ac28"
-        },
-        {
-          "headline": "RUM Group: Great Risk That Offers Great Potential (Upgrade)",
-          "source": "SeekingAlpha",
-          "timeAgo": "20h ago",
-          "url": "https://finnhub.io/api/news?id=b1136a13bf4eaa05c86c47e122da7b5998ebda315fe116cab5f9771a966e9ef9"
-        },
-        {
-          "headline": "Top dow jones movers in Tuesday's session",
-          "source": "ChartMill",
-          "timeAgo": "21h ago",
-          "url": "https://finnhub.io/api/news?id=a8858e98310f85462059e252bd76fc3444519de43c88f68833ab57142ce4739b"
+          "headline": "'China's Moonshot In Talks With Microsoft, Amazon, Google Over K3 Revenue Sharing, Sources Say' - Reuters Exclusive",
+          "source": "Benzinga",
+          "timeAgo": "11h ago",
+          "url": "https://finnhub.io/api/news?id=8a7d98409c2ad563c5d64004ed170add56913eacf9d90bfbbd094a6ae4c5bb6e"
         }
       ],
       "earnings": [
@@ -426,11 +426,11 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 259.12,
-      "change": -1.94,
-      "changePercent": -0.7431,
+      "price": 258.73,
+      "change": -2.33,
+      "changePercent": -0.8925,
       "high": 262.05,
-      "low": 258.88,
+      "low": 258.35,
       "open": 261.1775,
       "prevClose": 261.06,
       "name": "Amazon.com Inc",
@@ -448,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93"
+        },
+        {
+          "headline": "Alibaba: Buy The AI Spending Panic After Q2",
+          "source": "SeekingAlpha",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=69d28c406d930f3c0238cc48762970949d72a1ca61471e16d05c57ba6f9189bb"
+        },
+        {
           "headline": "SpaceX: Explosive Growth Still Can't Justify This Stock Price",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=d4635b115859deb0a8ace9f2448781b896865820ed1ea9b645280b488285fb2e"
+        },
+        {
+          "headline": "Goldman Sachs Executive Sounds The Alarm, Warns AI Could Cause 'Cognitive Atrophy' on Wall Street: 'There’s a Huge Danger Here'",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=ab63bb13404443951b8c1816c980065c6ef1a2c8ee6088ad6632c3f88d94dff5"
         },
         {
           "headline": "Why Amazon's Earnings Matter For Nvidia's Outlook",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=605b07496038751bdcf6893d550beb3dcdef7cc203d959ecfb120f16ab048c6c"
-        },
-        {
-          "headline": "Big Tech Off-Balance Sheet Concerns",
-          "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23"
-        },
-        {
-          "headline": "The Deep Unknowns Of AI",
-          "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c"
-        },
-        {
-          "headline": "Tracking David Tepper's Appaloosa Management Portfolio - Q2 2026 Update",
-          "source": "SeekingAlpha",
-          "timeAgo": "17h ago",
-          "url": "https://finnhub.io/api/news?id=68f02ebf639be16304aa29f695612e1a36fd9a7c80878ee95a3e4e4ff62f02aa"
         }
       ],
       "earnings": [
@@ -512,9 +512,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 347.02,
-      "change": -3.23,
-      "changePercent": -0.9222,
+      "price": 344.5,
+      "change": -5.75,
+      "changePercent": -1.6417,
       "high": 351.93,
       "low": 342.53,
       "open": 347.415,
@@ -536,19 +536,25 @@
         {
           "headline": "ROBO: For Diversified Exposure In Robotics At Reasonable Valuations",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=930683f8d11453ce7cc0c9af044a3cb2389f347a5d65d65551d00234a7535470"
         },
         {
           "headline": "AI's Bar Mitzvah Moment: From Hype And Hope To Business Questions",
           "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
+          "timeAgo": "12h ago",
           "url": "https://finnhub.io/api/news?id=33050069b185f62edc20d73ca7c1b76aac2cbd08e64f3ac8bac0a4c87663ecf2"
+        },
+        {
+          "headline": "Bernie Sanders Says Sergey Brin 'Leading' Campaign to Stop California's 5% Billionaire Tax: 'Greed is a Sickness'",
+          "source": "Benzinga",
+          "timeAgo": "15h ago",
+          "url": "https://finnhub.io/api/news?id=1d96a7dd4a638fca9ac9faa8a9f67aeb170e5763c3173c4d2b2bade3e32b6e44"
         },
         {
           "headline": "Which S&P500 stocks are the most active on Tuesday?",
           "source": "ChartMill",
-          "timeAgo": "20h ago",
+          "timeAgo": "22h ago",
           "url": "https://finnhub.io/api/news?id=a9251f9283b5230d33a2e52ed6096324c868b9a20066ede8525d714353dc782a"
         },
         {
@@ -556,12 +562,6 @@
           "source": "Benzinga",
           "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=b79b16c471bcc0898122b4984a9697a565e0a077e356fc4b8e6fa80e5d01d750"
-        },
-        {
-          "headline": "10 Consumer Discretionary Stocks Whale Activity In Today’s Session",
-          "source": "Benzinga",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=799bda8ba7607bb1234fee475ff06760dfb4b433c67857889d5c54ae450a716c"
         }
       ],
       "earnings": [
