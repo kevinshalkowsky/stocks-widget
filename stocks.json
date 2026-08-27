@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-27T13:10:55.017Z",
+  "updatedAt": "2026-08-27T23:16:01.615Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7675.7,
-      "change": -1.58,
-      "changePercent": -0.0206,
-      "high": 7690.73,
-      "low": 7657.41,
+      "price": 7730.99,
+      "change": 55.29,
+      "changePercent": 0.7203,
+      "high": 7741.27,
+      "low": 7689.89,
       "open": 0,
-      "prevClose": 7677.27978515625,
+      "prevClose": 7675.7001953125,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "2.4B",
+      "volume": "2.9B",
       "sparklineData": [
         7428.77978515625,
         7316.14990234375,
@@ -37,7 +37,8 @@
         7674.3701171875,
         7652.85986328125,
         7677.27978515625,
-        7675.7001953125
+        7675.7001953125,
+        7730.990234375
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53463.88,
-      "change": -113.52,
-      "changePercent": -0.2119,
-      "high": 53639.75,
-      "low": 53379.4,
+      "price": 53569.44,
+      "change": 105.56,
+      "changePercent": 0.1974,
+      "high": 53707.62,
+      "low": 53345.62,
       "open": 0,
-      "prevClose": 53577.3984375,
+      "prevClose": 53463.87890625,
       "week52High": 54744.33,
       "week52Low": 44948.16,
-      "volume": "426.1M",
+      "volume": "653.7M",
       "sparklineData": [
         52747.3203125,
         51594.140625,
@@ -90,7 +91,8 @@
         53277.01171875,
         53417.16015625,
         53577.3984375,
-        53463.87890625
+        53463.87890625,
+        53569.44140625
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26130.197,
-      "change": -21.1,
-      "changePercent": -0.0807,
-      "high": 26189.809,
-      "low": 26021.629,
+      "price": 26541.352,
+      "change": 411.15,
+      "changePercent": 1.5735,
+      "high": 26553.898,
+      "low": 26273.873,
       "open": 0,
-      "prevClose": 26151.30078125,
+      "prevClose": 26130.19921875,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "6.3B",
+      "volume": "6.4B",
       "sparklineData": [
         24876.91015625,
         24442.939453125,
@@ -143,7 +145,8 @@
         26180.4609375,
         25980.189453125,
         26151.30078125,
-        26130.19921875
+        26130.19921875,
+        26541.3515625
       ],
       "sector": "",
       "marketCap": "",
@@ -165,16 +168,16 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 313.45,
-      "change": 3.55,
-      "changePercent": 1.1455,
-      "high": 315.43,
-      "low": 308.8001,
-      "open": 310.3,
-      "prevClose": 309.9,
+      "price": 314.58,
+      "change": 1.13,
+      "changePercent": 0.3605,
+      "high": 315.4,
+      "low": 309.4001,
+      "open": 310.545,
+      "prevClose": 313.45,
       "name": "Apple Inc",
       "sector": "Technology",
-      "marketCap": "$4.57T",
+      "marketCap": "$4.59T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
       "week52High": 344.5699,
       "week52Low": 224.69,
@@ -187,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+          "headline": "Thursday's session: top gainers and losers in the dow jones index",
           "source": "ChartMill",
-          "timeAgo": "18h ago",
-          "url": "https://finnhub.io/api/news?id=45b7ccfee9169d8cf3dc418bd809f9b83e3e927cd7530f4e98fda7ca7f6a2c9d"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=f91bace257ba0af744e76346de1ee986e0b1ace6e3fd1e564f4da44e81506cdf"
         },
         {
-          "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+          "headline": "Exploring the top movers within the dow jones index during today's session.",
           "source": "ChartMill",
-          "timeAgo": "20h ago",
-          "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=5c23c716656d25f98d61da7895898b299ef98b2bd2a7cea04355a7c099030532"
         },
         {
-          "headline": "BIGY: Delivering 12% Target Distribution Yield And Competitive Returns",
-          "source": "SeekingAlpha",
-          "timeAgo": "21h ago",
-          "url": "https://finnhub.io/api/news?id=bd182fcf63fb8188c0cc5c8d4143e1fbe157ae8675885aa3753e1de022f0b63a"
-        },
-        {
-          "headline": "The Fed Faces A Dangerous Choice For Investors; Nvidia Earnings Ahead",
+          "headline": "Nvidia's Unusual Move Answers AI Trade’s Key Question; $40 Trillion US Debt Bomb Ticks; Key Fed Speech Awaited",
           "source": "Benzinga",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=a85b7f6f2b36db6845325910aa53dd8c771a1724b70f359cb8e1af14cc3d4a5c"
+          "timeAgo": "10h ago",
+          "url": "https://finnhub.io/api/news?id=586f505d7e72db784aca8e169728a1f0dfc9b7687c426d0c491ba3ce7f044961"
         },
         {
-          "headline": "Apple sets iPhone launch event for Sept. 9, first under new CEO John Ternus ",
-          "source": "CNBC",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=4942d9a7f5815c778c5a27132015237bc6f89e39775703f8ed408d24f3ed324b"
+          "headline": "ETJ: Very High Tech Exposure Could Be A Risk",
+          "source": "SeekingAlpha",
+          "timeAgo": "10h ago",
+          "url": "https://finnhub.io/api/news?id=c04386acd520e450ecbc6ba427b8cd3bb701cde71cd2850ba4460d9c584f7560"
+        },
+        {
+          "headline": "Reported Earlier, Trump Administration Weighing New Round Of Sweeping Tariffs On Semiconductors - Politico Exclusive",
+          "source": "Benzinga",
+          "timeAgo": "16h ago",
+          "url": "https://finnhub.io/api/news?id=3f4bf6e0fbedf08703d18a4efd629fe09f8419c5e2765b24945f152fb81edeb4"
         }
       ],
       "earnings": [
@@ -251,16 +254,16 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 342,
-      "change": -4.96,
-      "changePercent": -1.4296,
-      "high": 346.88,
-      "low": 340.18,
-      "open": 346.62,
-      "prevClose": 346.96,
+      "price": 340.65,
+      "change": -1.35,
+      "changePercent": -0.3947,
+      "high": 341.69,
+      "low": 338.52,
+      "open": 339.67,
+      "prevClose": 342,
       "name": "Alphabet Inc",
       "sector": "Media",
-      "marketCap": "$4.18T",
+      "marketCap": "$4.17T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
       "week52High": 408.61,
       "week52Low": 205.65,
@@ -273,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Alphabet's Hidden AI Goldmine: Why TPU Sales Could Supercharge ROIC",
-          "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=3492ea2645f4dd286cdad64a3e47e68e4707a667ab93e88a933886336b64b680"
-        },
-        {
-          "headline": "Tracking Ruane, Cunniff, & Goldfarb's Portfolio - Q2 2026 Update",
-          "source": "SeekingAlpha",
-          "timeAgo": "15h ago",
-          "url": "https://finnhub.io/api/news?id=f0ee289a15577c07a4f88b461b3b9df0cab874642345723232053d6898832f08"
-        },
-        {
-          "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+          "headline": "Thursday's session: top gainers and losers in the dow jones index",
           "source": "ChartMill",
-          "timeAgo": "18h ago",
-          "url": "https://finnhub.io/api/news?id=45b7ccfee9169d8cf3dc418bd809f9b83e3e927cd7530f4e98fda7ca7f6a2c9d"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=f91bace257ba0af744e76346de1ee986e0b1ace6e3fd1e564f4da44e81506cdf"
         },
         {
-          "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+          "headline": "Exploring the top movers within the dow jones index during today's session.",
           "source": "ChartMill",
-          "timeAgo": "20h ago",
-          "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=5c23c716656d25f98d61da7895898b299ef98b2bd2a7cea04355a7c099030532"
         },
         {
-          "headline": "Salesforce, Anthropic Announcing Claudeforce Collaboration",
-          "source": "Benzinga",
-          "timeAgo": "21h ago",
-          "url": "https://finnhub.io/api/news?id=b45c0c392de716a2b59977dd5c54e05d32b650e26e085f67cc83aed57c2fd656"
+          "headline": "AI Is Nearly The Only Thing Keeping The U.S. Economy Afloat",
+          "source": "SeekingAlpha",
+          "timeAgo": "9h ago",
+          "url": "https://finnhub.io/api/news?id=5042249b5d75e430c235077c12f10bd46833745096bb02ab7f390c00198a8f09"
+        },
+        {
+          "headline": "ETJ: Very High Tech Exposure Could Be A Risk",
+          "source": "SeekingAlpha",
+          "timeAgo": "10h ago",
+          "url": "https://finnhub.io/api/news?id=c04386acd520e450ecbc6ba427b8cd3bb701cde71cd2850ba4460d9c584f7560"
+        },
+        {
+          "headline": "Google takes am at Anthropic, Microsoft with budget-friendly AI pricing",
+          "source": "CNBC",
+          "timeAgo": "11h ago",
+          "url": "https://finnhub.io/api/news?id=aa91cee7e1309d62fa1aed31244c4c0806d0b02fa0958e2e51750e5861bd4508"
         }
       ],
       "earnings": [
@@ -337,16 +340,16 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 496.37,
-      "change": 4.66,
-      "changePercent": 0.9477,
-      "high": 497.4,
-      "low": 487.31,
-      "open": 487.85,
-      "prevClose": 491.71,
+      "price": 505.06,
+      "change": 8.69,
+      "changePercent": 1.7507,
+      "high": 506.48,
+      "low": 490.08,
+      "open": 494.88,
+      "prevClose": 496.37,
       "name": "Microsoft Corp",
       "sector": "Technology",
-      "marketCap": "$3.69T",
+      "marketCap": "$3.71T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
       "week52High": 553.72,
       "week52Low": 349.2,
@@ -359,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+          "headline": "Thursday's session: top gainers and losers in the dow jones index",
           "source": "ChartMill",
-          "timeAgo": "18h ago",
-          "url": "https://finnhub.io/api/news?id=45b7ccfee9169d8cf3dc418bd809f9b83e3e927cd7530f4e98fda7ca7f6a2c9d"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=f91bace257ba0af744e76346de1ee986e0b1ace6e3fd1e564f4da44e81506cdf"
         },
         {
-          "headline": "NVIDIA CFO Says We Have Invested $50B In Frontier Labs; OpenAI's Existing, Planned Commitments Represent Around 12GW Of NVIDIA Compute",
-          "source": "Benzinga",
-          "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=7ad2e34cc3cf17aefa03eb4c017cb9f1ad473f5806f2d7240a5690cbe5d83f96"
+          "headline": "Nvidia: The 'Coiled Spring' Poised To Jump",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=2cc4a9c1f698b781123b0ae14a5b20f2743779d7e68ec543de2f90442810e647"
         },
         {
-          "headline": "IREN Q4 Preview: Stock Down 48% From Highs, Will Data Center Monetization Shine Through in Earnings?",
-          "source": "Benzinga",
-          "timeAgo": "20h ago",
-          "url": "https://finnhub.io/api/news?id=c12317718e8164934ef8c585f8abef01497af561e7b00eea29d99fcff28effd2"
-        },
-        {
-          "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+          "headline": "Exploring the top movers within the dow jones index during today's session.",
           "source": "ChartMill",
-          "timeAgo": "20h ago",
-          "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=5c23c716656d25f98d61da7895898b299ef98b2bd2a7cea04355a7c099030532"
         },
         {
-          "headline": "Bringing ChatGPT For Teachers To More U.S. School Districts; Data Privacy Agreement Spanning 16 States; Data Privacy Agreement Provides Common Framework For Districts To Evaluate ChatGPT For Teachers Against Student Data Privacy Requirements",
+          "headline": "GTA 6 Leaker Cashes Out $250,000 Meme Coin Hours Before Rockstar's Reveal",
           "source": "Benzinga",
-          "timeAgo": "23h ago",
-          "url": "https://finnhub.io/api/news?id=2a01da13d644c1a1f159d50647aa7ff0e611a2bd40d038a5a6e0717876e94383"
+          "timeAgo": "8h ago",
+          "url": "https://finnhub.io/api/news?id=b0edb86747da2d21c628007e615e06bdd6c22bfbabd904f0ec3f093c5e34275c"
+        },
+        {
+          "headline": "10 Information Technology Stocks With Whale Alerts In Today’s Session",
+          "source": "Benzinga",
+          "timeAgo": "9h ago",
+          "url": "https://finnhub.io/api/news?id=f8406579c7df6276bca493dabbc46c86c5f5a6165a69299edcf61297100ec7ee"
         }
       ],
       "earnings": [
@@ -423,16 +426,16 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 260.28,
-      "change": -0.78,
-      "changePercent": -0.2988,
-      "high": 262.05,
-      "low": 258.24,
-      "open": 261.275,
-      "prevClose": 261.06,
+      "price": 256.26,
+      "change": -4.02,
+      "changePercent": -1.5445,
+      "high": 259.66,
+      "low": 255.02,
+      "open": 259.23,
+      "prevClose": 260.28,
       "name": "Amazon.com Inc",
       "sector": "Retail",
-      "marketCap": "$2.81T",
+      "marketCap": "$2.76T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
@@ -445,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nvidia Delivered - The Margin Guide Is The Catch",
-          "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=99d505a9e667e5d57ef94f0a1e1775bdc344c40277e01f16b33fb6fec01ebf53"
-        },
-        {
-          "headline": "How Investors Can Participate In AI",
-          "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=31af6443b7bfd53b015bb374b399e20a63049b682e4891e31aeb3cfc81bf073e"
-        },
-        {
-          "headline": "Nvidia Q2 FY27: I'm Buying This Weakness",
-          "source": "SeekingAlpha",
-          "timeAgo": "18h ago",
-          "url": "https://finnhub.io/api/news?id=3c01c0f0f65d887f542e7cb91ac6587ac2ae2faf1f4a662e998555f76be9d6df"
-        },
-        {
-          "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+          "headline": "Thursday's session: top gainers and losers in the dow jones index",
           "source": "ChartMill",
-          "timeAgo": "20h ago",
-          "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=f91bace257ba0af744e76346de1ee986e0b1ace6e3fd1e564f4da44e81506cdf"
         },
         {
-          "headline": "Salesforce, Anthropic Announcing Claudeforce Collaboration",
-          "source": "Benzinga",
-          "timeAgo": "21h ago",
-          "url": "https://finnhub.io/api/news?id=b45c0c392de716a2b59977dd5c54e05d32b650e26e085f67cc83aed57c2fd656"
+          "headline": "Nvidia: The 'Coiled Spring' Poised To Jump",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=2cc4a9c1f698b781123b0ae14a5b20f2743779d7e68ec543de2f90442810e647"
+        },
+        {
+          "headline": "What's going on in today's session: S&P500 most active stocks",
+          "source": "ChartMill",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=ec2b40b60a205b60de6817ccb29564ac8d77ca419b4368cf7973ff4726b60f7f"
+        },
+        {
+          "headline": "Exploring the top movers within the dow jones index during today's session.",
+          "source": "ChartMill",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=5c23c716656d25f98d61da7895898b299ef98b2bd2a7cea04355a7c099030532"
+        },
+        {
+          "headline": "AI Is Nearly The Only Thing Keeping The U.S. Economy Afloat",
+          "source": "SeekingAlpha",
+          "timeAgo": "9h ago",
+          "url": "https://finnhub.io/api/news?id=5042249b5d75e430c235077c12f10bd46833745096bb02ab7f390c00198a8f09"
         }
       ],
       "earnings": [
@@ -509,16 +512,16 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 345.82,
-      "change": -4.43,
-      "changePercent": -1.2648,
-      "high": 351.93,
-      "low": 342.53,
-      "open": 345.27,
-      "prevClose": 350.25,
+      "price": 354.81,
+      "change": 8.99,
+      "changePercent": 2.5996,
+      "high": 355.74,
+      "low": 345.45,
+      "open": 346.155,
+      "prevClose": 345.82,
       "name": "Tesla Inc",
       "sector": "Automobiles",
-      "marketCap": "$1.37T",
+      "marketCap": "$1.39T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
       "week52High": 498.83,
       "week52Low": 297.38,
@@ -531,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "How Investors Can Participate In AI",
+          "headline": "Nvidia: The 'Coiled Spring' Poised To Jump",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=2cc4a9c1f698b781123b0ae14a5b20f2743779d7e68ec543de2f90442810e647"
+        },
+        {
+          "headline": "Tesla's Optimus Rival Could Be Worth $6 Billion As SoftBank Circles OpenAI-Backed 1X",
+          "source": "Benzinga",
+          "timeAgo": "8h ago",
+          "url": "https://finnhub.io/api/news?id=bd66963e476ca2fb1ee267ca5b153ab944593e89826bf2b31ce20dc36f995695"
+        },
+        {
+          "headline": "Tesla Stock Is Trending Higher Today: What's Happening?",
+          "source": "Benzinga",
+          "timeAgo": "9h ago",
+          "url": "https://finnhub.io/api/news?id=4af467d681292390f4c3f39d10dd044f47c9c9a79201c3001a141a1e195e9ca0"
+        },
+        {
+          "headline": "Nvidia's Unusual Move Answers AI Trade’s Key Question; $40 Trillion US Debt Bomb Ticks; Key Fed Speech Awaited",
+          "source": "Benzinga",
+          "timeAgo": "10h ago",
+          "url": "https://finnhub.io/api/news?id=586f505d7e72db784aca8e169728a1f0dfc9b7687c426d0c491ba3ce7f044961"
+        },
+        {
+          "headline": "ETJ: Very High Tech Exposure Could Be A Risk",
           "source": "SeekingAlpha",
           "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=31af6443b7bfd53b015bb374b399e20a63049b682e4891e31aeb3cfc81bf073e"
-        },
-        {
-          "headline": "Explore the S&P500 index on Wednesday and find out which stocks are the most active in today's session.",
-          "source": "ChartMill",
-          "timeAgo": "19h ago",
-          "url": "https://finnhub.io/api/news?id=c710f4da94ba6b1816de5555e8b2151446aae51f52ce20fa254d5a2921bdc8fd"
-        },
-        {
-          "headline": "Tesla: Potential Merger Has Some Upside, But I'm Still Bearish (Upgrade)",
-          "source": "SeekingAlpha",
-          "timeAgo": "23h ago",
-          "url": "https://finnhub.io/api/news?id=b382890d9c645179fedf5db41f4f6b4f29473bfc3286616827ab24d4f7656204"
-        },
-        {
-          "headline": "Reported Earlier: 'Japan's Terra Charge To Roll Out Tesla-Compatible EV Charging Stations; Service Provider To Build Up Network Of 2,500 NACS Chargers By Fiscal 2033' - Nikkei",
-          "source": "Benzinga",
-          "timeAgo": "23h ago",
-          "url": "https://finnhub.io/api/news?id=3ec1f95dccc0e41fc0c34937c324ee8a3d1278c0843f02a98e041e8b0925bbdb"
-        },
-        {
-          "headline": "The Fed Faces A Dangerous Choice For Investors; Nvidia Earnings Ahead",
-          "source": "Benzinga",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=a85b7f6f2b36db6845325910aa53dd8c771a1724b70f359cb8e1af14cc3d4a5c"
+          "url": "https://finnhub.io/api/news?id=c04386acd520e450ecbc6ba427b8cd3bb701cde71cd2850ba4460d9c584f7560"
         }
       ],
       "earnings": [
