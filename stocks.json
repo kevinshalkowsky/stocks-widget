@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-31T08:58:31.631Z",
+  "updatedAt": "2026-08-31T16:35:09.171Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7711.76,
-      "change": -19.23,
-      "changePercent": -0.2487,
-      "high": 7771.48,
-      "low": 7700.91,
+      "price": 7674.45,
+      "change": -37.31,
+      "changePercent": -0.4838,
+      "high": 7697.52,
+      "low": 7665.06,
       "open": 0,
-      "prevClose": 7730.990234375,
+      "prevClose": 7711.759765625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "2.6B",
+      "volume": "987.4M",
       "sparklineData": [
         7600.5,
         7736.52001953125,
@@ -35,7 +35,8 @@
         7677.27978515625,
         7675.7001953125,
         7730.990234375,
-        7711.759765625
+        7711.759765625,
+        7674.4501953125
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53559.99,
-      "change": -9.45,
-      "changePercent": -0.0176,
-      "high": 53819.65,
-      "low": 53489.41,
+      "price": 53217.16,
+      "change": -342.83,
+      "changePercent": -0.6401,
+      "high": 53462.6,
+      "low": 53123.62,
       "open": 0,
-      "prevClose": 53569.44140625,
+      "prevClose": 53559.98828125,
       "week52High": 54744.33,
       "week52Low": 44948.16,
-      "volume": "507.5M",
+      "volume": "155.5M",
       "sparklineData": [
         53178.41015625,
         54085.87890625,
@@ -86,7 +87,8 @@
         53577.3984375,
         53463.87890625,
         53569.44140625,
-        53559.98828125
+        53559.98828125,
+        53217.16015625
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26402.424,
-      "change": -138.93,
-      "changePercent": -0.5234,
-      "high": 26700.678,
-      "low": 26359.266,
+      "price": 26297.354,
+      "change": -105.07,
+      "changePercent": -0.398,
+      "high": 26380.543,
+      "low": 26249.771,
       "open": 0,
-      "prevClose": 26541.349609375,
+      "prevClose": 26402.419921875,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "7.5B",
+      "volume": "3.4B",
       "sparklineData": [
         25913.900390625,
         26584.990234375,
@@ -137,7 +139,8 @@
         26151.30078125,
         26130.19921875,
         26541.349609375,
-        26402.419921875
+        26402.419921875,
+        26297.353515625
       ],
       "sector": "",
       "marketCap": "",
@@ -159,13 +162,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 319.7,
-      "change": 5.12,
-      "changePercent": 1.6276,
-      "high": 322.37,
-      "low": 315.4504,
-      "open": 316.845,
-      "prevClose": 314.58,
+      "price": 314.14,
+      "change": -5.56,
+      "changePercent": -1.7391,
+      "high": 321.235,
+      "low": 312.8,
+      "open": 319.445,
+      "prevClose": 319.7,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.67T",
@@ -181,9 +184,27 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Nvidia's AI Boom Is Starting to Resemble 1980s Japan, Former NYT Tokyo Bureau Chief Warns",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=2467d2ca8f3ca52ba8fa625342e81c9bc2ff0ffdf8b5cdc895a83f702dfba8ba"
+        },
+        {
+          "headline": "Two Covered Call ETFs Built To Weather The Sell-Off",
+          "source": "SeekingAlpha",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=f63a697049919b11a470fe248dd4ad5e1631005c05e5f0f75300b647d3d8ce46"
+        },
+        {
+          "headline": "Global Phone Shipments Drop, but Apple Positioned for Record iOS Market Share Gain",
+          "source": "Benzinga",
+          "timeAgo": "9h ago",
+          "url": "https://finnhub.io/api/news?id=5cb3c548e67ced87bcc6ea7e050f1375ef6eb6c9cfbda048c99aea3064bf46cc"
+        },
+        {
           "headline": "Wall Street Brunch: Jobs And More AI Litmus Test Earnings",
           "source": "SeekingAlpha",
-          "timeAgo": "22h ago",
+          "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=b65dcfa0f8f8e542ff67693f72381cc5309af36902e5be4ba7bbc2a6c8f91e94"
         },
         {
@@ -191,24 +212,6 @@
           "source": "SeekingAlpha",
           "timeAgo": "1d ago",
           "url": "https://finnhub.io/api/news?id=ba315618ffbe316cfaad6942270af6a92eed58515a9f13eba6d622c94ad24900"
-        },
-        {
-          "headline": "Apple: CEO Changes, But Double Compounding Does Not",
-          "source": "SeekingAlpha",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=1b5f89d6fcb7930c900891c077f1b2ab260649c50b000a9d1e2a6f63bc45873e"
-        },
-        {
-          "headline": "Apple: Low Margin Guidance Doesn't Concern Me",
-          "source": "SeekingAlpha",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=62dff6630eabe5ba307aa554e77d22bd4c15fa3055ab03a3fcd5d9aede799196"
-        },
-        {
-          "headline": "Tim Cook’s final days as Apple CEO set the stage for John Ternus",
-          "source": "CNBC",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=364757e290c20d0c1d2ac3dc865d28a9e0cf1b1462d85963c35ec190c604db9b"
         }
       ],
       "earnings": [
@@ -245,88 +248,144 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
-      "name": "GOOGL",
-      "sector": "",
-      "marketCap": "",
-      "logo": "",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
+      "price": 338.02,
+      "change": -8.57,
+      "changePercent": -2.4727,
+      "high": 344.8925,
+      "low": 337.156,
+      "open": 344.8925,
+      "prevClose": 346.59,
+      "name": "Alphabet Inc",
+      "sector": "Media",
+      "marketCap": "$4.25T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
+      "week52High": 408.61,
+      "week52Low": 206.2,
+      "beta": 1.222929,
+      "peRatio": 31.982,
+      "eps": 10.807,
       "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "volume": "21.3M",
+      "avgVolume": "30.7M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Tracking Terry Smith's Fundsmith 13F Portfolio - Q2 2026 Update",
+          "headline": "Nvidia's AI Boom Is Starting to Resemble 1980s Japan, Former NYT Tokyo Bureau Chief Warns",
+          "source": "Benzinga",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=2467d2ca8f3ca52ba8fa625342e81c9bc2ff0ffdf8b5cdc895a83f702dfba8ba"
+        },
+        {
+          "headline": "After The Fed: Analysis Of Warsh On AI, Inflation And The Unknowns (Video)",
           "source": "SeekingAlpha",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=891189d904c37cd1a42d9adf35703a2729dacbb6529f24d5bb557f9ddb970015"
+          "timeAgo": "8h ago",
+          "url": "https://finnhub.io/api/news?id=c41651ec2da0872185aff3aa7ad3470900318cfee1386bc5100c5df18440d2a5"
         },
         {
-          "headline": "Microsoft: A High-Quality AI Name That Is No Longer Misunderstood",
-          "source": "SeekingAlpha",
-          "timeAgo": "22h ago",
-          "url": "https://finnhub.io/api/news?id=b1c233d5799408d07e2e32b2a1adca075e81e92599584c8165fa077acb1c0882"
+          "headline": "CrowdStrike's Falcon Platform Now Available On Google Cloud",
+          "source": "Benzinga",
+          "timeAgo": "8h ago",
+          "url": "https://finnhub.io/api/news?id=b1f59387405252fa2f32504889c995886a5602cff2cbc0f062656b9f423ff26d"
         },
         {
-          "headline": "Two Tech Stocks Take The Season",
-          "source": "SeekingAlpha",
-          "timeAgo": "1d ago",
-          "url": "https://finnhub.io/api/news?id=d3e222c8d53d06eaa41a882f4a3c9974ce47502133ed8c290135535a9e377606"
+          "headline": "Global Phone Shipments Drop, but Apple Positioned for Record iOS Market Share Gain",
+          "source": "Benzinga",
+          "timeAgo": "9h ago",
+          "url": "https://finnhub.io/api/news?id=5cb3c548e67ced87bcc6ea7e050f1375ef6eb6c9cfbda048c99aea3064bf46cc"
         },
         {
-          "headline": "Meta’s $18 billion settlement puts TikTok and YouTube on notice. Who's next on the firing line?",
-          "source": "CNBC",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=c2e66c3961adc17bc6d599cf3432a561b5ad6dca0be837dd804d63714674b59e"
-        },
-        {
-          "headline": "What's going on in today's session: dow jones movers",
-          "source": "ChartMill",
-          "timeAgo": "2d ago",
-          "url": "https://finnhub.io/api/news?id=5b27de5152d79b81f60ff69ee0c2f519f474646bac52a822fe2fd7513d0b0db2"
+          "headline": "Waymo Robotaxis Under Fire From Atlanta Drivers, Union Demands Up To $1 Fee To Protect Human Jobs: Report",
+          "source": "Benzinga",
+          "timeAgo": "10h ago",
+          "url": "https://finnhub.io/api/news?id=b311f74c3b306a4b65cc5691f4043a1ea46fb37e965e3b3b9c4379d1cdaf7411"
         }
       ],
-      "earnings": [],
-      "revenue": "",
-      "netIncome": "",
-      "netMargin": "",
+      "earnings": [
+        {
+          "quarter": "2026-06-30",
+          "estimated": 2.9798,
+          "actual": 2.85,
+          "surprise": -4.356
+        },
+        {
+          "quarter": "2026-03-31",
+          "estimated": 2.7051,
+          "actual": 2.62,
+          "surprise": -3.1459
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 2.7063,
+          "actual": 2.82,
+          "surprise": 4.2013
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 2.3954,
+          "actual": 3.1,
+          "surprise": 29.4147
+        }
+      ],
+      "revenue": "$402.84B",
+      "netIncome": "$132.17B",
+      "netMargin": "32.8%",
       "revenueGrowth": ""
     },
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 513.53,
-      "change": 8.47,
-      "changePercent": 1.677,
-      "high": 517.78,
-      "low": 504.8675,
-      "open": 505.33,
-      "prevClose": 505.06,
-      "name": "MSFT",
-      "sector": "",
-      "marketCap": "",
-      "logo": "",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
-      "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "price": 510.43,
+      "change": -3.1,
+      "changePercent": -0.6037,
+      "high": 512.19,
+      "low": 507.31,
+      "open": 510.675,
+      "prevClose": 513.53,
+      "name": "Microsoft Corp",
+      "sector": "Technology",
+      "marketCap": "$3.82T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
+      "week52High": 553.72,
+      "week52Low": 349.2,
+      "beta": 1.1154032,
+      "peRatio": 27.6621,
+      "eps": 17.9457,
+      "dividendYield": "0.79%",
+      "volume": "23.2M",
+      "avgVolume": "37.4M",
       "sparklineData": [],
-      "news": [],
+      "news": [
+        {
+          "headline": "Two Covered Call ETFs Built To Weather The Sell-Off",
+          "source": "SeekingAlpha",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=f63a697049919b11a470fe248dd4ad5e1631005c05e5f0f75300b647d3d8ce46"
+        },
+        {
+          "headline": "After The Fed: Analysis Of Warsh On AI, Inflation And The Unknowns (Video)",
+          "source": "SeekingAlpha",
+          "timeAgo": "8h ago",
+          "url": "https://finnhub.io/api/news?id=c41651ec2da0872185aff3aa7ad3470900318cfee1386bc5100c5df18440d2a5"
+        },
+        {
+          "headline": "Bernie Sanders Says Bill Gates Is Right About AI Posing 'Grave Threat' to Humanity: 'We Must Act Before It's Too Late'",
+          "source": "Benzinga",
+          "timeAgo": "18h ago",
+          "url": "https://finnhub.io/api/news?id=206fedafd4053c92887d5c37d62c0b3c6e04892b6c925bb31a725566c201b6ef"
+        },
+        {
+          "headline": "Elizabeth Warren Says 6 Huge Companies Pocketed $83 Billion in Tax Breaks as Americans Struggled: 'Let That Sink In'",
+          "source": "Benzinga",
+          "timeAgo": "19h ago",
+          "url": "https://finnhub.io/api/news?id=d6b2fed5009ccabc61c34d07a341418e823e3f9ce3d9bc8aae00b23662e98875"
+        },
+        {
+          "headline": "Tracking Terry Smith's Fundsmith 13F Portfolio - Q2 2026 Update",
+          "source": "SeekingAlpha",
+          "timeAgo": "20h ago",
+          "url": "https://finnhub.io/api/news?id=891189d904c37cd1a42d9adf35703a2729dacbb6529f24d5bb557f9ddb970015"
+        }
+      ],
       "earnings": [
         {
           "quarter": "2026-06-30",
@@ -353,25 +412,25 @@
           "surprise": 10.4544
         }
       ],
-      "revenue": "",
-      "netIncome": "",
-      "netMargin": "",
+      "revenue": "$281.72B",
+      "netIncome": "$101.83B",
+      "netMargin": "36.1%",
       "revenueGrowth": ""
     },
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
-      "name": "AMZN",
-      "sector": "",
-      "marketCap": "",
-      "logo": "",
+      "price": 260.88,
+      "change": -5.55,
+      "changePercent": -2.0831,
+      "high": 264.9125,
+      "low": 259.716,
+      "open": 264.9125,
+      "prevClose": 266.43,
+      "name": "Amazon.com Inc",
+      "sector": "Retail",
+      "marketCap": "$2.87T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
       "beta": 1.4663854,
@@ -381,41 +440,153 @@
       "volume": "33.8M",
       "avgVolume": "47.5M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
+      "news": [
+        {
+          "headline": "LG CNS Targets U.S. Ad Market with Agentic AI-Powered Marketing Solution",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=5bc8667d291a8884b2e9f472fb04415d5248d9685b9078b63c9c2418866809f6"
+        },
+        {
+          "headline": "The AI Tide Hits Hawaii - Power & Fiber Bottlenecks Report Now Available — Covers PTC 2026 Conference Insights on AI Infrastructure, Mentioning Alibaba, Amazon, Microsoft, NVIDIA, and 35 Other Organizations",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=fb2ed6bb3221517296de478937ac7c9247349ccfc8792e28b86a9f77137ee4b1"
+        },
+        {
+          "headline": "Billionaire David Tepper of Appaloosa Is Overweight AI Stocks -- but He Recently Dumped Every Share of the Hottest AI Stock of 2026",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=58eb3245d5b1ae16face9fae1721502d4d000cea21f0067d8184ffe95071fe33"
+        },
+        {
+          "headline": "Market Chatter: Apple's Bulkier Mac Computers Popular for AI Use, Development",
+          "source": "Yahoo",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=560148904a0538a6552ae0404bdc1faf3ff78ffa78cd977256350934f7711c13"
+        },
+        {
+          "headline": "DuLac Farmaceutici Accelerates U.S. Expansion with OneLavi Launch and ECRM Participation",
+          "source": "Yahoo",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=c82fcf5c8779fa2dd06db2dbdc8ac1b6657e80b8d6e8a2f839b5006a14a7204c"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-06-30",
+          "estimated": 1.8563,
+          "actual": 1.97,
+          "surprise": 6.1251
+        },
+        {
+          "quarter": "2026-03-31",
+          "estimated": 1.6679,
+          "actual": 1.61,
+          "surprise": -3.4714
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 1.6703,
+          "actual": 1.61,
+          "surprise": -3.6101
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 1.605,
+          "actual": 1.95,
+          "surprise": 21.4953
+        }
+      ],
       "revenue": "",
-      "netIncome": "",
+      "netIncome": "$77.67B",
       "netMargin": "",
       "revenueGrowth": ""
     },
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
+      "price": 364.87,
+      "change": 16.12,
+      "changePercent": 4.6222,
+      "high": 367.15,
+      "low": 347.15,
+      "open": 347.21999999999997,
+      "prevClose": 348.75,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.37T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
+      "week52High": 498.83,
+      "week52Low": 297.38,
+      "beta": 1.9009874,
+      "peRatio": 353.8978,
+      "eps": 1.0754,
       "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "volume": "34.1M",
+      "avgVolume": "45.4M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
-      "revenue": "",
-      "netIncome": "",
-      "netMargin": "",
+      "news": [
+        {
+          "headline": "Elon Musk Is Trying to Break GE Vernova's AI Power Bottleneck",
+          "source": "Benzinga",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=ca820e7c876712bef775edba642afe7097a7a9d47df5dc79ee79d082e688e4ae"
+        },
+        {
+          "headline": "Gary Black Says Wall Street's Tesla Robotaxi Skepticism Comes Down to Market Share, Not Growth: Autonomy Will 'Quickly Become a Commodity'",
+          "source": "Benzinga",
+          "timeAgo": "17h ago",
+          "url": "https://finnhub.io/api/news?id=6ab528a91b66eabe8c920f81156d93bf09b04683b58536ae1c992f2c6eb038b7"
+        },
+        {
+          "headline": "Wall Street Brunch: Jobs And More AI Litmus Test Earnings",
+          "source": "SeekingAlpha",
+          "timeAgo": "1d ago",
+          "url": "https://finnhub.io/api/news?id=b65dcfa0f8f8e542ff67693f72381cc5309af36902e5be4ba7bbc2a6c8f91e94"
+        },
+        {
+          "headline": "Wall Street Week Ahead",
+          "source": "SeekingAlpha",
+          "timeAgo": "1d ago",
+          "url": "https://finnhub.io/api/news?id=ba315618ffbe316cfaad6942270af6a92eed58515a9f13eba6d622c94ad24900"
+        },
+        {
+          "headline": "This Week in Tesla: No More FSD in China? Elon Musk's Robovan Talk And More",
+          "source": "Benzinga",
+          "timeAgo": "2d ago",
+          "url": "https://finnhub.io/api/news?id=f4ff9954c64b13fb2bcf1d926ed2aae92a41901b8f906ab0dedfab86f45c5d9d"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-06-30",
+          "estimated": 0.5191,
+          "actual": 0.33,
+          "surprise": -36.4284
+        },
+        {
+          "quarter": "2026-03-31",
+          "estimated": 0.3773,
+          "actual": 0.41,
+          "surprise": 8.6668
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 0.4541,
+          "actual": 0.5,
+          "surprise": 10.1079
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 0.5586,
+          "actual": 0.5,
+          "surprise": -10.4905
+        }
+      ],
+      "revenue": "$94.83B",
+      "netIncome": "$3.85B",
+      "netMargin": "4.1%",
       "revenueGrowth": ""
     }
   }
