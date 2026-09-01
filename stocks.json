@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-01T15:15:02.583Z",
+  "updatedAt": "2026-09-01T18:54:24.229Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7646.66,
-      "change": -39.48,
-      "changePercent": -0.5137,
-      "high": 7661.69,
-      "low": 7627.87,
+      "price": 7618.27,
+      "change": -67.87,
+      "changePercent": -0.883,
+      "high": 7663.63,
+      "low": 7611.2,
       "open": 0,
       "prevClose": 7686.14013671875,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "749.7M",
+      "volume": "1.6B",
       "sparklineData": [
         7600.5,
         7736.52001953125,
@@ -37,7 +37,7 @@
         7730.990234375,
         7711.759765625,
         7686.14013671875,
-        7646.66015625
+        7618.27001953125
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52991.34,
-      "change": -194.56,
-      "changePercent": -0.3658,
+      "price": 52719.78,
+      "change": -466.12,
+      "changePercent": -0.8764,
       "high": 53176.6,
-      "low": 52815.89,
+      "low": 52691.31,
       "open": 0,
       "prevClose": 53185.8984375,
       "week52High": 54744.33,
       "week52Low": 44948.16,
-      "volume": "130.1M",
+      "volume": "249.9M",
       "sparklineData": [
         53178.41015625,
         54085.87890625,
@@ -90,7 +90,7 @@
         53569.44140625,
         53559.98828125,
         53185.8984375,
-        52991.33984375
+        52719.78125
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26146.916,
-      "change": -223.97,
-      "changePercent": -0.8493,
-      "high": 26209.617,
+      "price": 26048.107,
+      "change": -322.78,
+      "changePercent": -1.224,
+      "high": 26260.682,
       "low": 25995.53,
       "open": 0,
       "prevClose": 26370.890625,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "2.3B",
+      "volume": "4.1B",
       "sparklineData": [
         25913.900390625,
         26584.990234375,
@@ -143,7 +143,7 @@
         26541.349609375,
         26402.419921875,
         26370.890625,
-        26146.916015625
+        26048.107421875
       ],
       "sector": "",
       "marketCap": "",
@@ -165,10 +165,10 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 323.11,
-      "change": 6.26,
-      "changePercent": 1.9757,
-      "high": 325.86,
+      "price": 325.61,
+      "change": 8.76,
+      "changePercent": 2.7647,
+      "high": 327.3,
       "low": 314.73,
       "open": 316.6,
       "prevClose": 316.85,
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Curious about the most active S&P500 stocks in today's session?",
+          "source": "ChartMill",
+          "timeAgo": "49m ago",
+          "url": "https://finnhub.io/api/news?id=f6df96d9207a69f3bd85a79efc10b1a46708ee298f9bd585bddd15eb74d1e65c"
+        },
+        {
+          "headline": "These dow jones stocks are moving in today's session",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=c80d53f7cac54342cabbb62192f561e4ee503d10c3a9000331444aeb6824eebf"
+        },
+        {
           "headline": "Is Apple's hardware the key to John Ternus's success as new CEO?",
           "source": "Yahoo",
-          "timeAgo": "15m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=85126ddeb8481411a9effc44d03b631ebb3b90a6db95a141c6b972b96935b491"
         },
         {
           "headline": "‘Your Stock Doesn’t Know Your Name’: Wes Moss on Owning Too Much Apple, Google",
           "source": "Yahoo",
-          "timeAgo": "34m ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=18af2de40a1a571e3f737a59bd07c1c4c73bd3a0d68a804d6a423f842f6b8e86"
         },
         {
           "headline": "AAPL Stock Price Target Hiked Ahead Of iPhone Launch – But Analyst Still Sees Downside Amid CEO Transition",
           "source": "Yahoo",
-          "timeAgo": "57m ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=77ee3a9d2e6414b177f406b6dc41295ecd844ba018e37ad2d9a94d039281b69a"
-        },
-        {
-          "headline": "Top Business Leader Says Apple’s Next CEO Has One Job: Fix Siri",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2a235bd2843cb4f4c4393612e27a607616ac90b8bb536ae14dbf7b0700b090cb"
-        },
-        {
-          "headline": "John Ternus's first day as Apple CEO, JOLTS data, Dell earnings: What to Watch",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=cb0e007ac7e7c8353ee9fb6e813449e37c3205e6de921dcc003487a01ad35a4b"
         }
       ],
       "earnings": [
@@ -251,9 +251,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 336.23,
-      "change": -3.12,
-      "changePercent": -0.9194,
+      "price": 333.87,
+      "change": -5.48,
+      "changePercent": -1.6149,
       "high": 337.485,
       "low": 333.05,
       "open": 337.485,
@@ -273,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Anthropic Announces Claude Fable 5.1 And Mythos 5.1",
+          "source": "Benzinga",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=ca308d31833b124c4a9f19c5790e4c67bddbef0e676e26a5982c2b2cbe31d4c6"
+        },
+        {
           "headline": "Fervo Energy and Google Sign 396 MW PPA",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=42037dc4e5d268bb70139e22b406ac454196545f0181816c8bb9ca95e484c61d"
+        },
+        {
+          "headline": "Waymo and Zoox expand into more U.S. markets as robotaxi race heats up",
+          "source": "CNBC",
+          "timeAgo": "8h ago",
+          "url": "https://finnhub.io/api/news?id=c3a0ce52d30c86ec1eb20f7a2f432450388fdba74a1f6c2bd8032b5ec3fa89df"
         },
         {
           "headline": "Marvell Is Putting The Pedal To The Metal",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=1b2ab86af1de7178f219bd42bab39b4ebc96c82f6cbf360a86269a049c8b7c36"
         },
         {
           "headline": "Tesla: This Week's Cybercab Launch Has A Lot To Prove",
           "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=0979c50e4f4e52f760ae2da6ed8c21f57f057bf3fad84bbd7541626cd947d771"
-        },
-        {
-          "headline": "Can MSFT Stock Compound Its Way Higher?",
-          "source": "Yahoo",
-          "timeAgo": "13h ago",
-          "url": "https://finnhub.io/api/news?id=76d809f1f7a116bad449509e4a28481e36e3299b803f23a506a29dc82efbda96"
-        },
-        {
-          "headline": "Alphabet: Question Marks Behind The AI Boom",
-          "source": "SeekingAlpha",
-          "timeAgo": "13h ago",
-          "url": "https://finnhub.io/api/news?id=d164d6d7f051248a902d19755dd9143bcf56d75a2687c4254ff9f4549a4e9894"
         }
       ],
       "earnings": [
@@ -337,9 +337,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 500.45,
-      "change": -6.84,
-      "changePercent": -1.3483,
+      "price": 501.15,
+      "change": -6.14,
+      "changePercent": -1.2104,
       "high": 505.97,
       "low": 496.78,
       "open": 501.255,
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "These dow jones stocks are moving in today's session",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=c80d53f7cac54342cabbb62192f561e4ee503d10c3a9000331444aeb6824eebf"
+        },
+        {
           "headline": "Rezolve AI Stock Drops After Net Loss Widens – CEO Says Google Is ‘Just The Beginning’ With More Deals In Pipeline",
           "source": "Yahoo",
-          "timeAgo": "0m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=18fca04d83d35d3d805cde7eed90edb679bc76e648e697953212234d7a84a666"
         },
         {
           "headline": "IBM Slumps 21% YTD: Time to Reassess the Stock in Your Portfolio?",
           "source": "Yahoo",
-          "timeAgo": "13m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=e5c8071f7ad5582b4b504d2647477d356402f11f57b2b78b40e92ced56d506cd"
         },
         {
           "headline": "Cramer Says Not to Bet Against the AI Chipmaker That Lost Nearly 10% the Day After NVIDIA’s Huge Gain",
           "source": "Yahoo",
-          "timeAgo": "14m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=50c760b6bcdb378a60b16aecbf0d448b2e86203bb9fe3beda9429a7bf6010f6b"
         },
         {
           "headline": "Microsoft and Tesla Enter September With Momentum but Which Is Better?",
           "source": "Yahoo",
-          "timeAgo": "39m ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=dadf44465f03f95c4e25fcc4d6ae8569d942346851708542ebfac061500c0d45"
-        },
-        {
-          "headline": "Laurel Now Available in the Microsoft Marketplace",
-          "source": "Yahoo",
-          "timeAgo": "59m ago",
-          "url": "https://finnhub.io/api/news?id=73b9afdbd143b5c513ccdb4624905d2a2fc45c5ea1b8141d5e1a5d1749635cb2"
         }
       ],
       "earnings": [
@@ -423,9 +423,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 254.77,
-      "change": -5,
-      "changePercent": -1.9248,
+      "price": 254.11,
+      "change": -5.66,
+      "changePercent": -2.1789,
       "high": 257.38,
       "low": 251.93,
       "open": 257.38,
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Curious about the most active S&P500 stocks in today's session?",
+          "source": "ChartMill",
+          "timeAgo": "49m ago",
+          "url": "https://finnhub.io/api/news?id=f6df96d9207a69f3bd85a79efc10b1a46708ee298f9bd585bddd15eb74d1e65c"
+        },
+        {
+          "headline": "These dow jones stocks are moving in today's session",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=c80d53f7cac54342cabbb62192f561e4ee503d10c3a9000331444aeb6824eebf"
+        },
+        {
           "headline": "Amazon (AMZN): Buy, Sell, or Hold Post Q2 Earnings?",
           "source": "Yahoo",
-          "timeAgo": "4m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=416f79f3fbe5088729f7977b3fc2cee79b9ae67771fa1626fe14d61ebd663d28"
         },
         {
           "headline": "IBM Slumps 21% YTD: Time to Reassess the Stock in Your Portfolio?",
           "source": "Yahoo",
-          "timeAgo": "13m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=e5c8071f7ad5582b4b504d2647477d356402f11f57b2b78b40e92ced56d506cd"
         },
         {
           "headline": "Tesla Crosses 50-Day SMA: Buy, Hold or Sell TSLA Stock?",
           "source": "Yahoo",
-          "timeAgo": "30m ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=7cb148f6affb399ce595b63fbf7ddf23d1a723541d42d27a7cc18575c3da9825"
-        },
-        {
-          "headline": "Prediction: Amazon Could Be Worth This Much in 5 Years",
-          "source": "Yahoo",
-          "timeAgo": "50m ago",
-          "url": "https://finnhub.io/api/news?id=38fe608f20a2e064c38b51d6aae1ed85386fa81c926300945253a8fe1424bc00"
-        },
-        {
-          "headline": "OneRail Launches OmniSTAR, the First AI-Powered Delivery Decisioning Platform Built with NVIDIA AI",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ab8126e43f2652759227bfe39e6975734bf9257afddfafefc41b84912579694c"
         }
       ],
       "earnings": [
@@ -509,11 +509,11 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 359.37,
-      "change": -8.58,
-      "changePercent": -2.3318,
+      "price": 353.99,
+      "change": -13.96,
+      "changePercent": -3.794,
       "high": 363.56,
-      "low": 353.39,
+      "low": 352.96,
       "open": 363.56,
       "prevClose": 367.95,
       "name": "Tesla Inc",
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Curious about the most active S&P500 stocks in today's session?",
+          "source": "ChartMill",
+          "timeAgo": "49m ago",
+          "url": "https://finnhub.io/api/news?id=f6df96d9207a69f3bd85a79efc10b1a46708ee298f9bd585bddd15eb74d1e65c"
+        },
+        {
           "headline": "Tesla Falls 3% as Mixed European Registrations Land Ahead of Cybercab Launch",
           "source": "Yahoo",
-          "timeAgo": "8m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=26b695aac00c3ba42686f79022f1fb0a0774e8442cce9a6e96a28a0fae9b3f55"
         },
         {
           "headline": "SpaceX's Wild Ride Since IPO: Time to Buy the Stock Now?",
           "source": "Yahoo",
-          "timeAgo": "25m ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=02c2e80b4762e1d8d2e83d9c17ce95988e089089888bf19c5ec4aec5b8c156e1"
         },
         {
           "headline": "Tesla Crosses 50-Day SMA: Buy, Hold or Sell TSLA Stock?",
           "source": "Yahoo",
-          "timeAgo": "30m ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=7cb148f6affb399ce595b63fbf7ddf23d1a723541d42d27a7cc18575c3da9825"
         },
         {
           "headline": "Microsoft and Tesla Enter September With Momentum but Which Is Better?",
           "source": "Yahoo",
-          "timeAgo": "39m ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=dadf44465f03f95c4e25fcc4d6ae8569d942346851708542ebfac061500c0d45"
-        },
-        {
-          "headline": "Waymo, NVIDIA, Tesla and More Join A3’s Advanced Vision & AI Conference",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b3ee4a547c33a8e80e90c743037da557a0a8b229dfbba79901a29237f84d1aa2"
         }
       ],
       "earnings": [
