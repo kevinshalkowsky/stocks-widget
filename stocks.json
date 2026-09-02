@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-02T11:46:38.660Z",
+  "updatedAt": "2026-09-02T15:24:18.396Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7631.47,
-      "change": -54.67,
-      "changePercent": -0.7113,
-      "high": 7663.63,
-      "low": 7611.2,
+      "price": 7675.7,
+      "change": 44.23,
+      "changePercent": 0.5796,
+      "high": 7681,
+      "low": 7633.62,
       "open": 0,
-      "prevClose": 7686.14013671875,
+      "prevClose": 7631.47021484375,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "2.7B",
+      "volume": "813.2M",
       "sparklineData": [
         7600.5,
         7736.52001953125,
@@ -35,9 +35,9 @@
         7677.27978515625,
         7675.7001953125,
         7730.990234375,
-        7711.759765625,
         7686.14013671875,
-        7631.47021484375
+        7631.47021484375,
+        7675.7001953125
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52766.88,
-      "change": -419.02,
-      "changePercent": -0.7878,
-      "high": 53176.6,
-      "low": 52691.31,
+      "price": 53081.86,
+      "change": 314.98,
+      "changePercent": 0.5969,
+      "high": 53227.5,
+      "low": 52829.58,
       "open": 0,
-      "prevClose": 53185.8984375,
+      "prevClose": 52766.87890625,
       "week52High": 54744.33,
       "week52Low": 44980.36,
-      "volume": "403.9M",
+      "volume": "141.3M",
       "sparklineData": [
         53178.41015625,
         54085.87890625,
@@ -88,9 +88,9 @@
         53577.3984375,
         53463.87890625,
         53569.44140625,
-        53559.98828125,
         53185.8984375,
-        52766.87890625
+        52766.87890625,
+        53081.859375
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26099.773,
-      "change": -271.12,
-      "changePercent": -1.0281,
-      "high": 26260.682,
-      "low": 25995.53,
+      "price": 26218.727,
+      "change": 118.96,
+      "changePercent": 0.4558,
+      "high": 26233.855,
+      "low": 26062.68,
       "open": 0,
-      "prevClose": 26370.890625,
+      "prevClose": 26099.76953125,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "5.8B",
+      "volume": "2.7B",
       "sparklineData": [
         25913.900390625,
         26584.990234375,
@@ -141,9 +141,9 @@
         26151.30078125,
         26130.19921875,
         26541.349609375,
-        26402.419921875,
         26370.890625,
-        26099.76953125
+        26099.76953125,
+        26218.7265625
       ],
       "sector": "",
       "marketCap": "",
@@ -165,13 +165,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 325.13,
-      "change": 8.28,
-      "changePercent": 2.6132,
-      "high": 327.3,
-      "low": 314.73,
-      "open": 316.98,
-      "prevClose": 316.85,
+      "price": 325.22,
+      "change": 0.09,
+      "changePercent": 0.0277,
+      "high": 328.4,
+      "low": 323.53,
+      "open": 326.0175,
+      "prevClose": 325.13,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.75T",
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Dow Jones Futures Fall, Oil Prices Keep Rising; Dell, Credo, Palo Alto Are Earnings Movers Late",
+          "headline": "Stock Market Today: Dow Rises On Surprise Jobs Data; AI Name Credo Dives On Earnings Report (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=6858269e7accf1d329ab5bff4ededd4cc6be53dce01b90c406e9cf1cf378415f"
+          "timeAgo": "43m ago",
+          "url": "https://finnhub.io/api/news?id=86d421ee08854c072b0e6f5c7545dcd5861e6edefab4efb9aded31f00f1d8aae"
         },
         {
-          "headline": "Apple: Cook Avoided The AI Trap, Ternus Should Too",
-          "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=06b9638cb2f707a82fd7785e8603cbf8f6f6621012fefa9405c891b32c311ebf"
+          "headline": "Cramer’s Radical Fix for Nvidia: 5x the Buybacks, Repurchase 10% of Stock",
+          "source": "Yahoo",
+          "timeAgo": "48m ago",
+          "url": "https://finnhub.io/api/news?id=09b223b825cd225b61a5be250c97350ceca21d996798ab0d814cf8b46b61fed3"
         },
         {
-          "headline": "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus",
+          "headline": "Apple stock becomes hedge as AI trade wobbles in 2026",
           "source": "Yahoo",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=48291c326e886a71c9c803ea8015b48064c86d0ee1cd96b07907e8bae99d53d5"
+          "timeAgo": "54m ago",
+          "url": "https://finnhub.io/api/news?id=2e2e11237e8c00fc0b86bed0b9caa99edc76fe23e781578a510a7b58c3fc1817"
         },
         {
-          "headline": "John Ternus takes over as Apple enters era of AI, foldable phones",
+          "headline": "Apple’s New CEO Has 8 Days to Answer the AI Question That Could Redefine Computing",
           "source": "Yahoo",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=dca870f642e8b5e6093ed42072436c67cd1e7808034dcfb53a12bfbba65770c1"
+          "timeAgo": "58m ago",
+          "url": "https://finnhub.io/api/news?id=b0a6c608189033e6f6c556545d32fd7d962026bd302223ecad40d4ecea3d8242"
         },
         {
-          "headline": "Roundtable 100 analysts put Nvidia at No. 76 in new tech power ranking",
+          "headline": "Apple’s Annual iPhone Event Is a Week Away. Why It’s More Important Than Ever.",
           "source": "Yahoo",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=354222f8f27a0f2f4173d2755df785fe2c4fb2ea51cf8b15069ad1f5b66fc779"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=7b1c61ebbcbda489f02d27036e53c78bcd5341d9dcfd19a087f318d5e480ce30"
         }
       ],
       "earnings": [
@@ -251,13 +251,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 335.02,
-      "change": -4.33,
-      "changePercent": -1.276,
-      "high": 337.2,
-      "low": 333.05,
-      "open": 336,
-      "prevClose": 339.35,
+      "price": 337.3,
+      "change": 2.28,
+      "changePercent": 0.6806,
+      "high": 340,
+      "low": 332.82,
+      "open": 335.48,
+      "prevClose": 335.02,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.10T",
@@ -273,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Fervo Energy's Google Deal Might Be The Proof Bears Needed To See",
-          "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=2a954d4bfcf4a3bc3355fd2f1f0a18d3c1a94fac32fd2de7a0779b89c9bef683"
-        },
-        {
-          "headline": "Solar Power Purchase Contracts Dominate First Half Of 2026",
-          "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=12b56c2544e78ad4107be332cda8c5981e000ea63d2beda30798652b025ebbfb"
-        },
-        {
-          "headline": "Why Fervo Energy Stock Skyrocketed Today",
+          "headline": "Warren Buffett's Successor, Greg Abel, Has Over 50% of Berkshire Hathaway's Portfolio Invested in These 3 Top Stocks",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=adc4a33be37ec958815907262a774d41f37f1f8c18d72eeca30d35ed7d533cc6"
+          "timeAgo": "19m ago",
+          "url": "https://finnhub.io/api/news?id=1da85c9289142bc4c37c8ed3bb01d8b54c02c9159a0cd740a9c000781298042d"
         },
         {
-          "headline": "Strategy's CEO Says Bitcoin Buys Come Down to Capital Costs, Not Price",
+          "headline": "Jim Cramer Cheered Marvell’s $12 Billion Google Deal but the Stock Just Fell Nearly 10%",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=bb97d54a075cf9b2a0b49a368b72d31bd90427b8c881f35b943a1f6e2cacddfa"
+          "timeAgo": "23m ago",
+          "url": "https://finnhub.io/api/news?id=cb3d6e200c9f8bc12d0c4b8ce3847aa6c2a5e4d7f774b8042a98660acf6babb9"
         },
         {
-          "headline": "Fervo Energy (FRVO) Bags New Power Deal, Soars 28%; Hedge Fund Interest Climbs",
+          "headline": "Marvell vs. Broadcom: One AI Stock Looks More Attractive Right Now",
           "source": "Yahoo",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=c4ddb4928364b1f9cb894355abe0d35b73d6701616c41b983c3651e3d3cb0ab5"
+          "timeAgo": "23m ago",
+          "url": "https://finnhub.io/api/news?id=a0cbff147062f86b2c7f366c43d81f820f0ead453d1f145a70d48b48263a3e49"
+        },
+        {
+          "headline": "Microsoft's AI Datacenter Expansion: A Game Changer for the Stock?",
+          "source": "Yahoo",
+          "timeAgo": "30m ago",
+          "url": "https://finnhub.io/api/news?id=f7b60b45f76a521db76bd516815595bbcfbd028b041fbeb9b737e145890d7cb6"
+        },
+        {
+          "headline": "Eos Energy Shares Rise 12% Following West Virginia Solar and Storage Project Announcement",
+          "source": "Yahoo",
+          "timeAgo": "30m ago",
+          "url": "https://finnhub.io/api/news?id=4de64f7bddb45610888cc227bdd9e80c383b7c71832a4b7b62345fd639539976"
         }
       ],
       "earnings": [
@@ -337,13 +337,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 501.02,
-      "change": -6.27,
-      "changePercent": -1.236,
-      "high": 505.97,
-      "low": 496.78,
-      "open": 497.52,
-      "prevClose": 507.29,
+      "price": 497.73,
+      "change": -3.29,
+      "changePercent": -0.6567,
+      "high": 500.27,
+      "low": 495.3,
+      "open": 498.925,
+      "prevClose": 501.02,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.72T",
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "CoreWeave's Interest Expense Hit $640 Million Last Quarter, 2.4 Times What It Was a Year Ago",
+          "headline": "The Future of Website Building with Wix.com (WIX)",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=33cf4edd66012e565663aaaa76c07b18c7a32e0bcaaa9e7857c598561c650825"
+          "timeAgo": "23m ago",
+          "url": "https://finnhub.io/api/news?id=05d7859c17afcd56e420df2af3a72590d8a1619bda9d7cdd3df7402ac463504b"
         },
         {
-          "headline": "Dow Jones Futures Fall, Oil Prices Keep Rising; Dell, Credo, Palo Alto Are Earnings Movers Late",
+          "headline": "GitLab Stock Soars After Earnings. It’s Still Not a Buy, Analyst Says.",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=6858269e7accf1d329ab5bff4ededd4cc6be53dce01b90c406e9cf1cf378415f"
+          "timeAgo": "28m ago",
+          "url": "https://finnhub.io/api/news?id=0e23b824cb2e8a4b780fa93cf197862c41fd2a2ff18e56ac26bcad5ccaf56a41"
         },
         {
-          "headline": "ORCL Stock Extends Fall Overnight After Analyst Cuts Price Target, Flags Analyst Day As Key Catalyst: Retail Watches Cautiously",
+          "headline": "NetApp (NTAP) May Find a Bottom Soon, Here's Why You Should Buy the Stock Now",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=1ccc9bfc154c5c563a9600955c92176f315bd0bcf19c8eb437b8b2b32931aaaa"
+          "timeAgo": "29m ago",
+          "url": "https://finnhub.io/api/news?id=46e054a6dbf56f9ba7063c8c2b63ffd23159e542fba0439576b96d460b029511"
         },
         {
-          "headline": "MongoDB (MDB) Stock Looks Above Fair Value On Cash Flow And Sales",
+          "headline": "Sirius XM upgraded, Toast downgraded: Wall Street's top analyst calls",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=f272c43a7e433858f14ae69e99bfa2dd5567c339e592dcbbc3b0b349cd8a1cea"
+          "timeAgo": "29m ago",
+          "url": "https://finnhub.io/api/news?id=8516fefd2a35173aa62476707580400a1db2e41384346018cfcd8590df085ca6"
         },
         {
-          "headline": "Wix (WIX) Stock May Still Be A Bargain On Cash Flow",
+          "headline": "Microsoft's AI Datacenter Expansion: A Game Changer for the Stock?",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=38349429248afaeca317ade4bd55c13a212882fe53651194a5d03f0db6e67e65"
+          "timeAgo": "30m ago",
+          "url": "https://finnhub.io/api/news?id=f7b60b45f76a521db76bd516815595bbcfbd028b041fbeb9b737e145890d7cb6"
         }
       ],
       "earnings": [
@@ -423,13 +423,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 254.92,
-      "change": -4.85,
-      "changePercent": -1.867,
-      "high": 255.82,
-      "low": 251.93,
-      "open": 254.83,
-      "prevClose": 259.77,
+      "price": 255.13,
+      "change": 0.21,
+      "changePercent": 0.0824,
+      "high": 256.24,
+      "low": 253.4,
+      "open": 254.2175,
+      "prevClose": 254.92,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.75T",
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Panera makes major change to how customers earn rewards",
+          "headline": "Nio Drops 4% on J.P. Morgan Downgrade and $4.50 Price Target, XPeng and Li Auto Slip",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=50b4adeb360cdc2ed125f34107f24866671b98fdf25f809460bea66e8cb0775a"
+          "timeAgo": "19m ago",
+          "url": "https://finnhub.io/api/news?id=ea81a501caccc2a21676d989f71593e1eaf7bfd4fcc598b5ee3ef4c1a7d73e47"
         },
         {
-          "headline": "Nio Bets On China Auto Recovery To Lift Q4 Deliveries Above 40,000 A Month — But BofA Isn’t Buying The Bull Case",
+          "headline": "ExchangeRight Fully Subscribes $63.34 Million Net-Leased Portfolio 74 DST",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=7224cbfc3d896b9716eef95a2817889441aa9a6c274e44d11e9c3765bff3bd58"
+          "timeAgo": "22m ago",
+          "url": "https://finnhub.io/api/news?id=f446024cbb6f3007b0f1117b457565e027a4cd3bb605c110b389b369c3ceefdb"
         },
         {
-          "headline": "The 3 Best Artificial Intelligence (AI) Stocks for September",
+          "headline": "Why Is Nvidia Willing to Pay $14 Billion for Hugging Face?",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=04d9bda988e6249f35bfc2bdcc5c7016f3a0aabfb9fd325e7bd6b651220cd01c"
+          "timeAgo": "22m ago",
+          "url": "https://finnhub.io/api/news?id=a049f77a3af76cc7c1d146da8b5814914db2b405b504802040b953934008d0c9"
         },
         {
-          "headline": "Costco shuts down a key service with no notice",
+          "headline": "3 Reasons to Sell PRPL and 1 Stock to Buy Instead",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=19980511c42373f5c59f0a1b34a119de49767533fb7a29198b333f3482988bde"
+          "timeAgo": "27m ago",
+          "url": "https://finnhub.io/api/news?id=9955ae2da66eb71122ca15344344390ab43b4a564ff6246e04718f314fa12843"
         },
         {
-          "headline": "PVH (PVH), Why Is It Getting So Much Attention Now?",
+          "headline": "Does H World Group (HTHT) Have the Potential to Rally 26.97% as Wall Street Analysts Expect?",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=548f50919725dd90b74616ab1de0f6f00aa852a0b821baef845d1febd0700d07"
+          "timeAgo": "29m ago",
+          "url": "https://finnhub.io/api/news?id=ebed9e68d11d9e5b6aca7c2e8eeef3466e0ccc4bf2f9a9d3c6f6e64d39bc29f5"
         }
       ],
       "earnings": [
@@ -509,13 +509,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 356.09,
-      "change": -11.86,
-      "changePercent": -3.2233,
-      "high": 362.7,
-      "low": 352.96,
-      "open": 360.9,
-      "prevClose": 367.95,
+      "price": 355.22,
+      "change": -0.87,
+      "changePercent": -0.2443,
+      "high": 360.62,
+      "low": 349.92,
+      "open": 358.955,
+      "prevClose": 356.09,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.41T",
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nio Bets On China Auto Recovery To Lift Q4 Deliveries Above 40,000 A Month — But BofA Isn’t Buying The Bull Case",
+          "headline": "Nio Drops 4% on J.P. Morgan Downgrade and $4.50 Price Target, XPeng and Li Auto Slip",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=7224cbfc3d896b9716eef95a2817889441aa9a6c274e44d11e9c3765bff3bd58"
+          "timeAgo": "19m ago",
+          "url": "https://finnhub.io/api/news?id=ea81a501caccc2a21676d989f71593e1eaf7bfd4fcc598b5ee3ef4c1a7d73e47"
         },
         {
-          "headline": "Precision Camshafts Ltd (BOM:539636) (Q1 2027) Earnings Call Highlights: Standalone Profit ...",
+          "headline": "Sirius XM upgraded, Toast downgraded: Wall Street's top analyst calls",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=c1c1c9c22c8a0435a01c25cd527fe4348d8e561a8968c9de4c606416ab21a958"
+          "timeAgo": "29m ago",
+          "url": "https://finnhub.io/api/news?id=8516fefd2a35173aa62476707580400a1db2e41384346018cfcd8590df085ca6"
         },
         {
-          "headline": "Faraday Future Announced that It has Entered Into Incremental Warrant Termination Agreements With Each March 2025 Financing Investor as It Continues to Make Progress in Reducing Its Debt and Improving Its Capital Structure",
+          "headline": "Bond yields still high as investors weigh rate hike risk: AlphaCheck",
           "source": "Yahoo",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=d7b8c93fd499d023bc47b03e65e60f474d487868fbeedd055a87c54029ff9144"
+          "timeAgo": "30m ago",
+          "url": "https://finnhub.io/api/news?id=9255ca29d61ebb55b05c2ac4bc7b5761f44bd47e3ab0ab5a89b421c6d306fe24"
         },
         {
-          "headline": "AT&T (T) Joins Skilled Trades Coalition Targeting 1 Million Workers By 2035",
+          "headline": "Tesla’s Cybercab Event Is Set for Thursday. Here’s What to Watch.",
           "source": "Yahoo",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=15166fe19832115677d07bc10c68fdc2950764a87632df3b1c29b3ea34bbc6ef"
+          "timeAgo": "33m ago",
+          "url": "https://finnhub.io/api/news?id=49e5f63afddf3d0be42e4b84d94217c924d8320b654b315694e08627c93712e8"
         },
         {
-          "headline": "NIO Stock Hits Fresh 52-Week Low As Wall Street Slashes Price Targets Citing Slow Demand",
+          "headline": "2 Reasons Uber Is Slashing 3,300 Jobs",
           "source": "Yahoo",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=c563829b4e57cbe94b1c9af9cc3ff079e2085c6e08cdf18c72842e06e1087a41"
+          "timeAgo": "41m ago",
+          "url": "https://finnhub.io/api/news?id=4b84298ca77f20549115149091ce84fdb823ff70a3684dad0287fc6b6b9591ec"
         }
       ],
       "earnings": [
