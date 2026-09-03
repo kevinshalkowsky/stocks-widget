@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-03T15:17:32.362Z",
+  "updatedAt": "2026-09-03T18:55:29.002Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7733.96,
-      "change": 67.36,
-      "changePercent": 0.8786,
-      "high": 7735.03,
+      "price": 7751.76,
+      "change": 85.16,
+      "changePercent": 1.1108,
+      "high": 7756.76,
       "low": 7686.71,
       "open": 0,
       "prevClose": 7666.60009765625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "809.3M",
+      "volume": "1.6B",
       "sparklineData": [
         7736.52001953125,
         7723.5498046875,
@@ -34,10 +34,11 @@
         7677.27978515625,
         7675.7001953125,
         7730.990234375,
+        7711.759765625,
         7686.14013671875,
         7631.47021484375,
         7666.60009765625,
-        7733.9599609375
+        7751.759765625
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53616.4,
-      "change": 554.45,
-      "changePercent": 1.0449,
-      "high": 53620.57,
+      "price": 53670.13,
+      "change": 608.18,
+      "changePercent": 1.1462,
+      "high": 53746.5,
       "low": 53286.15,
       "open": 0,
       "prevClose": 53061.94921875,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "132.5M",
+      "volume": "265.7M",
       "sparklineData": [
         54085.87890625,
         54349.12109375,
@@ -87,10 +88,11 @@
         53577.3984375,
         53463.87890625,
         53569.44140625,
+        53559.98828125,
         53185.8984375,
         52766.87890625,
         53061.94921875,
-        53616.3984375
+        53670.12890625
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26534.25,
-      "change": 316.42,
-      "changePercent": 1.2069,
-      "high": 26540.354,
+      "price": 26613.676,
+      "change": 395.85,
+      "changePercent": 1.5099,
+      "high": 26644.568,
       "low": 26325.062,
       "open": 0,
       "prevClose": 26217.830078125,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "2.6B",
+      "volume": "4.7B",
       "sparklineData": [
         26584.990234375,
         26363.439453125,
@@ -140,10 +142,11 @@
         26151.30078125,
         26130.19921875,
         26541.349609375,
+        26402.419921875,
         26370.890625,
         26099.76953125,
         26217.830078125,
-        26534.25
+        26613.67578125
       ],
       "sector": "",
       "marketCap": "",
@@ -165,9 +168,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 330.52,
-      "change": 5.56,
-      "changePercent": 1.711,
+      "price": 327.03,
+      "change": 2.07,
+      "changePercent": 0.637,
       "high": 330.81,
       "low": 324.11,
       "open": 325.185,
@@ -179,7 +182,7 @@
       "week52High": 344.5699,
       "week52Low": 225.95,
       "beta": 1.0942221,
-      "peRatio": 39.5513,
+      "peRatio": 42.9539,
       "eps": 7.465,
       "dividendYield": "0.51%",
       "volume": "38.2M",
@@ -187,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Jamf Named a Customers’ Choice in the 2026 Gartner Peer Insights™ \"Voice of the Customer\" for Endpoint Management Tools",
+          "headline": "Wall Street Nears Record Highs With Help From Mag 7",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=817e66251afb03f3f944bd22490606e2b78a1a8f81e0fd16ec143cd99fb293c8"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=0dd29d7875103b3a39d52951c48618bee16a1342b27a377d187af1c76f13851c"
         },
         {
-          "headline": "Apple faces $2.7 billion U.K. lawsuit over app tracking rules",
+          "headline": "Stryker Launches FDA-Cleared Apple Vision Pro Surgical App",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=63181b51f129fc19d9a97c51a01ffd846913f6a8e230b7fc0ead5e710a83cfe5"
+          "url": "https://finnhub.io/api/news?id=b3b1ef4df8c77bd564b8c103e476159f06b03899b3c6c49a40a0d45a15c635c7"
         },
         {
-          "headline": "Apple's App Rules Just Picked Up a $2.7 Billion Legal Risk",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a54cfa3dd98f7c777e75f09b63c5e245cc3345604cd12ccf5a7ffc85a0088808"
+          "headline": "Discover which dow jones stocks are making waves on Thursday.",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=143eae70bc52137eaf641d1530c12a1dc1498df8ded75872f63b9e22f8933c67"
         },
         {
-          "headline": "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
+          "headline": "Jefferies Revamps Apple Stock Target On Setback",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6c50c78ad57eb38566a9071f35dbfb92db0432f7432a70989a970ad4e43078cb"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=1a800aba3c78a0b856ff68de59d86ce52797b9c05f8dcde4953056f8acbea50e"
         },
         {
-          "headline": "Berkshire Hathaway Just Poured Billions Into One Stock. Here’s Why.",
+          "headline": "Apple Is Late to AI. That Could Be Its Biggest Opportunity",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=105af0764df7f8c5f533c684dd22dbabad3f29379a878a76f8cedce5c4d45fbf"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=35e25ea8262576508856dd2df825305289c33deba6a4216d48d33d132b172dc7"
         }
       ],
       "earnings": [
@@ -251,9 +254,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 342.93,
-      "change": 5.81,
-      "changePercent": 1.7234,
+      "price": 342.65,
+      "change": 5.53,
+      "changePercent": 1.6404,
       "high": 344.68,
       "low": 339.645,
       "open": 339.645,
@@ -265,7 +268,7 @@
       "week52High": 408.61,
       "week52Low": 224.79,
       "beta": 1.2150782,
-      "peRatio": 31.982,
+      "peRatio": 31.7136,
       "eps": 10.807,
       "dividendYield": "",
       "volume": "23.5M",
@@ -273,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Tesla Cybercab: Here's What To Expect From Thursday's Event",
+          "headline": "Wall Street Nears Record Highs With Help From Mag 7",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e9db63c77ae1c6aab02fcd6e5861f0c00b6c3c9ff537a6be90e6362b498a60cd"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=0dd29d7875103b3a39d52951c48618bee16a1342b27a377d187af1c76f13851c"
         },
         {
-          "headline": "Assessment of the U.S. Nuclear Power and Small Modular Reactor Market 2026 Now Available — Reveals Why Big Tech Is Becoming an Active Force in Nuclear Project Formation, Not Just a Power Buyer",
+          "headline": "Vietnamese Rival To Uber, Lyft Plans To Enter U.S. Market This Year",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3566f6f862dfedfb0e67aca7bf85099c0e835cc4ffaa39101bfbaf76b553bf1f"
+          "timeAgo": "56m ago",
+          "url": "https://finnhub.io/api/news?id=362f44f9032a1ab95239166a39b7ae8d8d7705c79653a20fb694266e09463b1e"
         },
         {
-          "headline": "Santee Cooper Partners with Google Cloud to Help Improve Grid Reliability Through Better Planning",
+          "headline": "Armadin Names Frank Verdecanna Chief Financial Officer",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=26d92714de134a0e5ed6d33669f6efb3432f1e29470a3a8fcde9bc5ece1ce53d"
+          "url": "https://finnhub.io/api/news?id=f01b874c327d0140d6f83bab6c038da976ed2fa59aa26f6a78e7f1e5244de06b"
         },
         {
-          "headline": "Berkshire Hathaway’s New CEO Warns Energy Will Be the Biggest Constraint on AI Data Centers",
+          "headline": "Innovate Canada Connects Global Event Leaders with Canada's Technology Ecosystem",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=34c27354ef834cedd1a1f883487bd513bd779816ce55ebb02278723b1bcebc46"
+          "url": "https://finnhub.io/api/news?id=39c83b3c5d49e604fddc7f10342fae08be20144e9a794b32315e1da7c1aaf123"
         },
         {
-          "headline": "Zacks Earnings Trends Highlights: Alphabet, Micron and Nvidia",
+          "headline": "AVGO Q3 Earnings Beat Estimates, Revenues Rise on Strong AI Demand",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4d03c0a9a098d0b26ee4e0431edb06ec701b6350c475b5dd7df6d3b2c42c0539"
+          "url": "https://finnhub.io/api/news?id=137d9b45b44de398a1155e3c6d398b51f093c8c4f56bb1d5d6e36f908ae9fc9d"
         }
       ],
       "earnings": [
@@ -337,10 +340,10 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 512.91,
-      "change": 16.09,
-      "changePercent": 3.2386,
-      "high": 512.98,
+      "price": 512.69,
+      "change": 15.87,
+      "changePercent": 3.1943,
+      "high": 515.65,
       "low": 499.33,
       "open": 499.33,
       "prevClose": 496.82,
@@ -359,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Assessment of the U.S. Nuclear Power and Small Modular Reactor Market 2026 Now Available — Reveals Why Big Tech Is Becoming an Active Force in Nuclear Project Formation, Not Just a Power Buyer",
+          "headline": "Wall Street Nears Record Highs With Help From Mag 7",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3566f6f862dfedfb0e67aca7bf85099c0e835cc4ffaa39101bfbaf76b553bf1f"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=0dd29d7875103b3a39d52951c48618bee16a1342b27a377d187af1c76f13851c"
         },
         {
-          "headline": "Microsoft and Meta Signed Multi-Decade Nuclear Power Deals. These 3 Stocks Supply That Power",
+          "headline": "How Far Can Amazon Stock Fall When The Business Is Fine?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e0bdf4e075bff2eb19523d11ee6ef673d49c496b45db459aaf5d86b32ddf8af3"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=784ebfa6487c7bb29e44e57e5fe3651294c2056dd24186e670d2838f9c797a6a"
         },
         {
-          "headline": "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6c50c78ad57eb38566a9071f35dbfb92db0432f7432a70989a970ad4e43078cb"
+          "headline": "Discover which dow jones stocks are making waves on Thursday.",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=143eae70bc52137eaf641d1530c12a1dc1498df8ded75872f63b9e22f8933c67"
         },
         {
-          "headline": "ePlus (PLUS) Expands Its Microsoft Footprint Even As Profit Margins Slip",
+          "headline": "Microsoft, Amazon and 8 More Stocks Set to Win in a $26 Trillion AI Market",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ff040cc718f7d04fde1e3246f240fe6dd39ebe411dd4c3039136de0ed2e3bea8"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=90b1197622c6fc171b19f6f152edf8cc7194dfee24ba3a8ce3b2406cbb6753ab"
         },
         {
-          "headline": "Something Is Happening With Alphabet Stock That Wall Street Isn’t Talking About",
+          "headline": "Dow Adds 650 Points in Midday Rally",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b2e8f4fae4c704e4f017fcf2b4e01d9f81ed0bd619a11972f746fd6a2b729404"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=342b519501365cb433fa9eec18d80e47744f9b89f462c32b16f260b76abb117c"
         }
       ],
       "earnings": [
@@ -423,10 +426,10 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 258.29,
-      "change": 3.31,
-      "changePercent": 1.2981,
-      "high": 259.4299,
+      "price": 258.68,
+      "change": 3.7,
+      "changePercent": 1.4511,
+      "high": 259.5,
       "low": 256,
       "open": 256.455,
       "prevClose": 254.98,
@@ -445,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Assessment of the U.S. Nuclear Power and Small Modular Reactor Market 2026 Now Available — Reveals Why Big Tech Is Becoming an Active Force in Nuclear Project Formation, Not Just a Power Buyer",
+          "headline": "Wall Street Nears Record Highs With Help From Mag 7",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3566f6f862dfedfb0e67aca7bf85099c0e835cc4ffaa39101bfbaf76b553bf1f"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=0dd29d7875103b3a39d52951c48618bee16a1342b27a377d187af1c76f13851c"
         },
         {
-          "headline": "Hyperscalers Are the Backbone of AI. Here's Why I Own Amazon, Alphabet, and Meta Platforms.",
+          "headline": "Vietnamese Rival To Uber, Lyft Plans To Enter U.S. Market This Year",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=d934d22d826c74bcf7ec8db3e07907e68208cab163b8c561d7c23b7763bc4af4"
+          "timeAgo": "56m ago",
+          "url": "https://finnhub.io/api/news?id=362f44f9032a1ab95239166a39b7ae8d8d7705c79653a20fb694266e09463b1e"
         },
         {
-          "headline": "E-Commerce Update - Alibaba Lawsuit Highlights Regulatory Challenges For Global Companies",
+          "headline": "Should You Bet on GLW Stock Amid Rising Earnings Estimate Revisions?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3e7d2f072ec8d8173e911600ce59ffc93cc3713da88eb1eed1dd66f08420d4f2"
+          "url": "https://finnhub.io/api/news?id=3cfb03fc6a9cb31ecb4adc6227a75ee84b8fab9f6dfd94e3e03740977c166822"
         },
         {
-          "headline": "Why Microsoft Investors Should Fear Amazon More Than Google",
+          "headline": "Meta Stock Has a New AI Catalyst. Is META Headed Back Toward Its All-Time High?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c927428eadc5a3bdcfac73a4697d6dd0035ea6ee41c1501ffaa97a978e23741e"
+          "url": "https://finnhub.io/api/news?id=ed7c295d9e4503f34c540039c59b1877876842c77a31adfd21bb4ddf519de789"
         },
         {
-          "headline": "Ayble Health Joins Amazon's Health Benefits Connector to expand Virtual GI Care Access to Millions of Americans",
+          "headline": "How Far Can Amazon Stock Fall When The Business Is Fine?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=032ce3a2d79636ec44978366905f89f0aa46d8057844fea86119668e7f1c72d5"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=784ebfa6487c7bb29e44e57e5fe3651294c2056dd24186e670d2838f9c797a6a"
         }
       ],
       "earnings": [
@@ -509,10 +512,10 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 379.81,
-      "change": 22.8,
-      "changePercent": 6.3864,
-      "high": 381.64,
+      "price": 381.39,
+      "change": 24.38,
+      "changePercent": 6.8289,
+      "high": 384.04,
       "low": 362.905,
       "open": 362.905,
       "prevClose": 357.01,
@@ -531,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Tesla Cybercab: Here's What To Expect From Thursday's Event",
+          "headline": "Nvidia, Tesla, Robinhood, Snowflake, Ultragenyx, Ciena, and More Stocks That Explain Today’s Market",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=e9db63c77ae1c6aab02fcd6e5861f0c00b6c3c9ff537a6be90e6362b498a60cd"
+          "timeAgo": "47m ago",
+          "url": "https://finnhub.io/api/news?id=625ba4254129ec6a070cbc35128e3742f43249b6eeb95a40827a0e2e5fb7999d"
         },
         {
-          "headline": "Better Stock: Lucid vs. Rivian? (Hint: Unit Economics and Gross Profits Are Key.)",
+          "headline": "Wall Street Nears Record Highs With Help From Mag 7",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3c23546fd37ec5007dc37783688a3418271421da8b122d6530066d8adf879ee0"
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=0dd29d7875103b3a39d52951c48618bee16a1342b27a377d187af1c76f13851c"
         },
         {
-          "headline": "Ford targets 100,000 first-year sales for Fathom electric truck",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=8d54edde8f71e2b9175f9390efa5fc9efed05e939bf2fd97e7a566335c70480a"
+          "headline": "Which S&P500 stocks are the most active on Thursday?",
+          "source": "ChartMill",
+          "timeAgo": "50m ago",
+          "url": "https://finnhub.io/api/news?id=6ae326a0000f4d5930f5517f4ad46dbd6c339eed87a6b84d85b5431b7ccbb416"
         },
         {
-          "headline": "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
+          "headline": "SpaceX Rises 7% as Starship Test 14 Approaches, Tesla Jumps 7%, Rocket Lab Ticks Up",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6c50c78ad57eb38566a9071f35dbfb92db0432f7432a70989a970ad4e43078cb"
+          "timeAgo": "51m ago",
+          "url": "https://finnhub.io/api/news?id=e405fec6bc74e130fd76a31cef3a26cb9f619a9044fcfb9e2d33cbec48326aa0"
         },
         {
-          "headline": "TSLA, PCG, GOOGL, RUN, CARR Stocks In Focus: A New Virtual Power Plant To Connect 21,000 Home Energy Devices",
+          "headline": "Bull vs. Bear: Here's My Take on Tesla's Robotaxi Rollout",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=dddf3fdf06b97cbf4b6989f45c418378d109a18b0e0704f3dc781dfb85ced51d"
+          "url": "https://finnhub.io/api/news?id=5bde31bc19b4abee125f9994f437c459c2ad6cee54246574e565dd8ae754cb4e"
         }
       ],
       "earnings": [
