@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T23:36:14.698Z",
+  "updatedAt": "2026-09-04T01:30:50.798Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
@@ -16,7 +16,6 @@
       "week52Low": 6316.91,
       "volume": "2.7B",
       "sparklineData": [
-        7736.52001953125,
         7723.5498046875,
         7709.9599609375,
         7757.64013671875,
@@ -70,7 +69,6 @@
       "week52Low": 45057.28,
       "volume": "410.3M",
       "sparklineData": [
-        54085.87890625,
         54349.12109375,
         53885.1015625,
         54036.9296875,
@@ -124,7 +122,6 @@
       "week52Low": 20690.25,
       "volume": "6.5B",
       "sparklineData": [
-        26584.990234375,
         26363.439453125,
         26348.349609375,
         26690.619140625,
@@ -168,27 +165,58 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
-      "name": "AAPL",
-      "sector": "",
-      "marketCap": "",
-      "logo": "",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
-      "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "price": 328.21,
+      "change": 3.25,
+      "changePercent": 1.0001,
+      "high": 330.81,
+      "low": 324.11,
+      "open": 324.87,
+      "prevClose": 324.96,
+      "name": "Apple Inc",
+      "sector": "Technology",
+      "marketCap": "$4.79T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
+      "week52High": 344.5699,
+      "week52Low": 225.95,
+      "beta": 1.0942221,
+      "peRatio": 42.9539,
+      "eps": 7.465,
+      "dividendYield": "0.51%",
+      "volume": "38.2M",
+      "avgVolume": "53.0M",
       "sparklineData": [],
-      "news": [],
+      "news": [
+        {
+          "headline": "Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=a8d7e43d1ed52f74f6a3b1a46d51d90c6e3a193bc3f4be8dc1d7d24b6e0aac3f"
+        },
+        {
+          "headline": "What Happens To Qualcomm Stock If The New Revenue Earns Less?",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=ce1e6b3e51acf20cd12fa461927b38c7f2438f0f29170c798dff8c19306875dd"
+        },
+        {
+          "headline": "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
+          "source": "Yahoo",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=7d3a3c69682920997c04ef30b0652d6cb53cd913b1854b9e0e452cfd10b9c33a"
+        },
+        {
+          "headline": "Wall Street Nears Record Highs With Help From Mag 7",
+          "source": "Yahoo",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=0dd29d7875103b3a39d52951c48618bee16a1342b27a377d187af1c76f13851c"
+        },
+        {
+          "headline": "Apple faces £2 bn lawsuit in UK over app privacy feature",
+          "source": "Yahoo",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=b35e471fcbb7c23a13bab094d1acddbcd475b4fc166c778beea352f0d6ed066d"
+        }
+      ],
       "earnings": [
         {
           "quarter": "2026-06-30",
@@ -223,28 +251,84 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
-      "name": "GOOGL",
-      "sector": "",
-      "marketCap": "",
-      "logo": "",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
+      "price": 342.48,
+      "change": 5.36,
+      "changePercent": 1.5899,
+      "high": 344.68,
+      "low": 340.06,
+      "open": 340.56,
+      "prevClose": 337.12,
+      "name": "Alphabet Inc",
+      "sector": "Media",
+      "marketCap": "$4.19T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
+      "week52High": 408.61,
+      "week52Low": 224.79,
+      "beta": 1.2150782,
+      "peRatio": 31.7136,
+      "eps": 10.807,
       "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "volume": "23.5M",
+      "avgVolume": "30.9M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
+      "news": [
+        {
+          "headline": "Eos Energy Enterprises (EOSE) Stock Dropped, So What Is Driving Attention Now?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=688f68551e46ca94d9d89fcf743c95c06e30d3e077e66ebe51ac3d1e5ddd611c"
+        },
+        {
+          "headline": "Snowflake (SNOW) Stock Soars 16% After Q2 Earnings: Is It Still a Buy?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=c780a6e8d681c986341e46c249623dc3e4009a0803b16b3c4aa0c73616f51a7d"
+        },
+        {
+          "headline": "Should You Buy Reddit Stock Because Its Renewal Risk Is Already Priced In?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=938f14789a95c845259a01e18c8aaa49af27fc1d94254cb07136f54afd32a71a"
+        },
+        {
+          "headline": "Tesla Launching Cybercab Robotaxis. Here's What To Look For.",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=57e1df34c2dd2abc235ea2b85e9974ccb5a2b31591153b23dcadc0c36e801c95"
+        },
+        {
+          "headline": "Tesla's 45 Cybercabs Face a $1.3 Trillion Reality Check",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=8b507ea66e33c68f118a0a4f17ca1178848f72a9f9e5e024b74cbd029d53cde7"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-06-30",
+          "estimated": 2.9798,
+          "actual": 2.85,
+          "surprise": -4.356
+        },
+        {
+          "quarter": "2026-03-31",
+          "estimated": 2.7051,
+          "actual": 2.62,
+          "surprise": -3.1459
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 2.7063,
+          "actual": 2.82,
+          "surprise": 4.2013
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 2.3954,
+          "actual": 3.1,
+          "surprise": 29.4147
+        }
+      ],
       "revenue": "$402.84B",
       "netIncome": "$132.17B",
       "netMargin": "32.8%",
@@ -253,86 +337,142 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
-      "name": "MSFT",
-      "sector": "",
-      "marketCap": "",
-      "logo": "",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
-      "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "price": 510.12,
+      "change": 13.3,
+      "changePercent": 2.677,
+      "high": 515.65,
+      "low": 500.8,
+      "open": 501.66,
+      "prevClose": 496.82,
+      "name": "Microsoft Corp",
+      "sector": "Technology",
+      "marketCap": "$3.79T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
+      "week52High": 553.72,
+      "week52Low": 349.2,
+      "beta": 1.0632268,
+      "peRatio": 27.5827,
+      "eps": 17.9457,
+      "dividendYield": "0.79%",
+      "volume": "22.2M",
+      "avgVolume": "37.1M",
       "sparklineData": [],
-      "news": [],
-      "earnings": [],
-      "revenue": "",
-      "netIncome": "",
-      "netMargin": "",
+      "news": [
+        {
+          "headline": "Market Chatter: Crusoe Raises Over $3 Billion At $30 Billion Valuation",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ea4e1b542d272bdea59689a7d67636fe8ce0f43b816454bfaab018b6e961320c"
+        },
+        {
+          "headline": "Why Microsoft Stock Is Up Today",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=5d1aefaa49dec1397eeeb379741fc0c1d31ff72cfacd148e83cbe4c8680c7da7"
+        },
+        {
+          "headline": "S&P 500, Dow End Best Day In A Month On Calmer Yields As Rate Hike Bets Wane — SPCX, VSXY, NVDA, TSLA In Focus",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=780091ce7a9d12e6e56a2a3c17630077b5692f9b64c6f55609fb0985a89526b0"
+        },
+        {
+          "headline": "Snowflake (SNOW) Stock Soars 16% After Q2 Earnings: Is It Still a Buy?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=c780a6e8d681c986341e46c249623dc3e4009a0803b16b3c4aa0c73616f51a7d"
+        },
+        {
+          "headline": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab Event Private, Jobs Report In Focus",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=6c4204602180674b2508d93e7869f92f085937c882fca0782841a4ced3eac60f"
+        }
+      ],
+      "earnings": [
+        {
+          "quarter": "2026-06-30",
+          "estimated": 4.3274,
+          "actual": 4.74,
+          "surprise": 9.5346
+        },
+        {
+          "quarter": "2026-03-31",
+          "estimated": 4.1432,
+          "actual": 4.27,
+          "surprise": 3.0604
+        },
+        {
+          "quarter": "2025-12-31",
+          "estimated": 4.0345,
+          "actual": 4.14,
+          "surprise": 2.6149
+        },
+        {
+          "quarter": "2025-09-30",
+          "estimated": 3.7391,
+          "actual": 4.13,
+          "surprise": 10.4544
+        }
+      ],
+      "revenue": "$281.72B",
+      "netIncome": "$101.83B",
+      "netMargin": "36.1%",
       "revenueGrowth": ""
     },
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
-      "name": "AMZN",
-      "sector": "",
-      "marketCap": "",
-      "logo": "",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
+      "price": 258.9,
+      "change": 3.92,
+      "changePercent": 1.5374,
+      "high": 259.5,
+      "low": 256,
+      "open": 256.2,
+      "prevClose": 254.98,
+      "name": "Amazon.com Inc",
+      "sector": "Retail",
+      "marketCap": "$2.79T",
+      "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
+      "week52High": 287.2,
+      "week52Low": 196,
+      "beta": 1.5033222,
+      "peRatio": 35.41,
+      "eps": 7.1737,
       "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "volume": "32.7M",
+      "avgVolume": "47.2M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Walmart Jumps Nearly 2.8% as Justice Department Widens Beef-Pricing Review",
+          "headline": "What Amazon.com (AMZN)'s Riverside Warehouse Strike Reveals About Labor Risk in Its Logistics Model",
           "source": "Yahoo",
           "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9ef8cb261c6771c2ee299a911af12007853d7b8869a2027e0e2995a35ac1dd44"
+        },
+        {
+          "headline": "Snowflake (SNOW) Stock Soars 16% After Q2 Earnings: Is It Still a Buy?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=c780a6e8d681c986341e46c249623dc3e4009a0803b16b3c4aa0c73616f51a7d"
+        },
+        {
+          "headline": "Costco Stock Is Priced For Two Good Years, Is That A Safe Bet?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=25d4af48ad217e8f3a8f62498dc4673b0c0b084f7bb7f5c8b0db90f3e5c5cab3"
+        },
+        {
+          "headline": "Walmart Jumps Nearly 2.8% as Justice Department Widens Beef-Pricing Review",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=a0271895d125cf03a744e6d2891541b2717b9dcc817bf83b32a9e9d789b46de6"
         },
         {
           "headline": "Amazon vs. Microsoft: 1 Key Metric Identifies the Superior Artificial Intelligence (AI) Cloud Stock",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=3413ec929cf8b8d3bbeafd6ee9b96378ac8cfe451773cf8204bf8f5c4b564066"
-        },
-        {
-          "headline": "SpaceX Reclaims $2 Trillion Market Cap As Tech Rally, Cybercab Ties Boost Investor Confidence",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=6ceae1059cedd1129072a2328eee5a52d54e2eb597785bb86f401bdb4943b676"
-        },
-        {
-          "headline": "Top Analyst Reports for Amazon, AbbVie & Alibaba",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b0804b234e511e69808b38f92c6ee8ffc81d307ea5abe364d75d67f8e8966f56"
-        },
-        {
-          "headline": "The Gap Between HD Stock And Its Own Numbers",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=cf6e42094404bb3d94447866b94d84c7d7823735156afd2a70f4551c48ce5c35"
         }
       ],
       "earnings": [
@@ -369,56 +509,56 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
-      "open": 0,
-      "prevClose": 0,
+      "price": 376.365,
+      "change": 19.355,
+      "changePercent": 5.4214,
+      "high": 384.04,
+      "low": 365.82,
+      "open": 365.82,
+      "prevClose": 357.01,
       "name": "Tesla Inc",
       "sector": "Automobiles",
-      "marketCap": "$1.47T",
+      "marketCap": "$1.49T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
-      "week52High": 0,
-      "week52Low": 0,
-      "beta": 0,
-      "peRatio": 0,
-      "eps": 0,
+      "week52High": 498.83,
+      "week52Low": 297.38,
+      "beta": 1.7532953,
+      "peRatio": 353.8978,
+      "eps": 1.0754,
       "dividendYield": "",
-      "volume": "",
-      "avgVolume": "",
+      "volume": "38.3M",
+      "avgVolume": "44.4M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab Event Private, Jobs Report In Focus",
+          "headline": "TSLA Stock Rallies Into Invite-Only Cybercab Event — Then Trades Flat After-Hours As The Wheel-Free Car Hits Austin Streets",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6c4204602180674b2508d93e7869f92f085937c882fca0782841a4ced3eac60f"
+          "url": "https://finnhub.io/api/news?id=3c7ce04190cf6db13ccdcb730e893259303639ae4d66e1895eb4b7753d61357b"
         },
         {
-          "headline": "Tesla's 45 Cybercabs Face a $1.3 Trillion Reality Check",
+          "headline": "Tesla Officially Launches the Cybercab -- 2 Things Investors Need to Know",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8b507ea66e33c68f118a0a4f17ca1178848f72a9f9e5e024b74cbd029d53cde7"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=88d566a367b8ab121343dd34f6d3c7f3d7e8d8ce5643096f3de4f7eda96e3677"
         },
         {
-          "headline": "Stock Market Today: Nasdaq Leads Charge As Jobs Data Looms; NetApp Tests Support (Live Coverage)",
+          "headline": "Musk Said Robots Will Outproduce All Humans, Then Promised Austin 30,000 Jobs",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e6f09c6ffa905ccf9ed76d736c0d2d850c557c9ec20d84c758d1c782ed99423e"
+          "url": "https://finnhub.io/api/news?id=30614bf9877b604d48f3facc2f5418c25eea9c596993b9ef8a70db09d5e1b9f2"
         },
         {
-          "headline": "Tesla Stock Soars Ahead of Cybercab Launch",
+          "headline": "Someone Just Staked $10 Million That Musk’s SpaceX Will Reclaim a Price It Lost in June",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=155edcf565df556d321fbd7fcaf9a2f9f40bdc2fe38ea2b1bdeed2b9cf34c81f"
+          "url": "https://finnhub.io/api/news?id=6eb9cbcb16c550b9aaa719d2a905f5f1640e1204f638f79f624b68995c8fc0aa"
         },
         {
-          "headline": "Tesla Gets Fresh Model Y Win as Shares Jump",
+          "headline": "S&P 500, Dow End Best Day In A Month On Calmer Yields As Rate Hike Bets Wane — SPCX, VSXY, NVDA, TSLA In Focus",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8a25de94662b8b4470c7052c0b9a26b37ae2d89d5ab70332b039cb2fab915f3d"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=780091ce7a9d12e6e56a2a3c17630077b5692f9b64c6f55609fb0985a89526b0"
         }
       ],
       "earnings": [
