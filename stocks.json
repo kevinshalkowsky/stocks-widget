@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-08T11:47:35.128Z",
+  "updatedAt": "2026-09-08T15:25:42.689Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7718.6,
-      "change": -29.11,
-      "changePercent": -0.3757,
-      "high": 7750.19,
-      "low": 7706.12,
+      "price": 7695.58,
+      "change": -23.02,
+      "changePercent": -0.2982,
+      "high": 7717.81,
+      "low": 7675.69,
       "open": 0,
-      "prevClose": 7747.7099609375,
+      "prevClose": 7718.60009765625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "2.5B",
+      "volume": "883.1M",
       "sparklineData": [
         7753.10986328125,
         7728.2001953125,
@@ -35,7 +35,8 @@
         7631.47021484375,
         7666.60009765625,
         7747.7099609375,
-        7718.60009765625
+        7718.60009765625,
+        7695.580078125
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 53414.25,
-      "change": -271.86,
-      "changePercent": -0.5064,
-      "high": 53635.35,
-      "low": 53289.88,
+      "price": 52877.16,
+      "change": -537.09,
+      "changePercent": -1.0055,
+      "high": 53110.45,
+      "low": 52721.62,
       "open": 0,
-      "prevClose": 53686.109375,
+      "prevClose": 53414.25,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "381.1M",
+      "volume": "140.2M",
       "sparklineData": [
         53975.98046875,
         53791.8515625,
@@ -86,7 +87,8 @@
         52766.87890625,
         53061.94921875,
         53686.109375,
-        53414.25
+        53414.25,
+        52877.16015625
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26506.99,
-      "change": -77.07,
-      "changePercent": -0.2899,
-      "high": 26628.584,
-      "low": 26444.842,
+      "price": 26485.395,
+      "change": -21.6,
+      "changePercent": -0.0815,
+      "high": 26542.137,
+      "low": 26341.174,
       "open": 0,
-      "prevClose": 26584.060546875,
+      "prevClose": 26506.990234375,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "5.7B",
+      "volume": "2.9B",
       "sparklineData": [
         26605.359375,
         26445.44921875,
@@ -137,7 +139,8 @@
         26099.76953125,
         26217.830078125,
         26584.060546875,
-        26506.990234375
+        26506.990234375,
+        26485.39453125
       ],
       "sector": "",
       "marketCap": "",
@@ -159,13 +162,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 319.97,
-      "change": -8.24,
-      "changePercent": -2.5106,
-      "high": 328.93,
-      "low": 317.86,
-      "open": 328.305,
-      "prevClose": 328.21,
+      "price": 316.37,
+      "change": -3.6,
+      "changePercent": -1.1251,
+      "high": 320.7,
+      "low": 315.27,
+      "open": 318.09,
+      "prevClose": 319.97,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.67T",
@@ -181,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "American Century Value Fund Q2 2026 Contributors And Detractors",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=4d692700574c5bd991de1cb46707cbbc7162de9134cc7fb87a13d812a326409e"
+        },
+        {
           "headline": "Greg Abel Has 53.6% of Berkshire Hathaway's Stock Invested in These 4 Top Stocks",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=42c612dbc50821aec4300518f593a2cfb4b9f86d1a2cbb0bcfe763b7baffd53f"
         },
         {
           "headline": "Apple: Negatively Impacted By Hyperscaler Demand",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=c14a58686e15a43a89f9c93a4a57cfba6b6afc67aacdde4325d8da19235dc6cc"
         },
         {
           "headline": "ASML Wins Over TSMC, Samsung for New EUV Machines as AI Demand Surges",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=17177fef1ca7bf317dcc93cda3f133854e00d7ce7a932e729985430f169fc70d"
         },
         {
           "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
           "source": "Yahoo",
-          "timeAgo": "13h ago",
+          "timeAgo": "17h ago",
           "url": "https://finnhub.io/api/news?id=89ee1437c35b1ea43ff04c0695734f1b0ef289bd07ced8822ca70a45052719c9"
-        },
-        {
-          "headline": "Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze",
-          "source": "Yahoo",
-          "timeAgo": "13h ago",
-          "url": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f"
         }
       ],
       "earnings": [
@@ -245,13 +248,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 338.46,
-      "change": -4.02,
-      "changePercent": -1.1738,
-      "high": 343.53,
-      "low": 337.09,
-      "open": 342.465,
-      "prevClose": 342.48,
+      "price": 338.36,
+      "change": -0.1,
+      "changePercent": -0.0295,
+      "high": 338.43,
+      "low": 333.22,
+      "open": 336.22,
+      "prevClose": 338.46,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.14T",
@@ -267,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nvidia Braces For AI Bubble Burst - Hugging Face Is The Bridge It Needs To Survive",
+          "headline": "American Century Value Fund Q2 2026 Contributors And Detractors",
           "source": "SeekingAlpha",
           "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=4d692700574c5bd991de1cb46707cbbc7162de9134cc7fb87a13d812a326409e"
+        },
+        {
+          "headline": "Nvidia Braces For AI Bubble Burst - Hugging Face Is The Bridge It Needs To Survive",
+          "source": "SeekingAlpha",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=cdd42ce8f29ed0a1e06abdc3a3c6ea85ccf31fd4ee553efda116030f96416f70"
+        },
+        {
+          "headline": "Gene Munster Predicts TSLA Stock Rally Amid NHTSA Cybercab Probe, Calls It a 'Speed Bump' For Elon Musk: 'Confidence in Safety…'",
+          "source": "Benzinga",
+          "timeAgo": "9h ago",
+          "url": "https://finnhub.io/api/news?id=c88ce2c4fc68b97dc4bb06e09dd39c0d2000f4389c739a33832ee61c32bd1307"
         },
         {
           "headline": "Warren Buffett Told CNBC 'I Initiated It' About Berkshire's Alphabet Bet, and New Reporting Says He's Still Calling the Shots on Stocks. Here's What That Means for Reading Greg Abel's Tenure.",
           "source": "Yahoo",
-          "timeAgo": "13h ago",
+          "timeAgo": "16h ago",
           "url": "https://finnhub.io/api/news?id=6c815cdd8e2f04d174304f70542e67d32fcf9e3dafbdd838a2c0ed9251934407"
         },
         {
           "headline": "Google's AI Slashes Contrail Warming 40% in a Real-World Test",
           "source": "Yahoo",
-          "timeAgo": "13h ago",
+          "timeAgo": "17h ago",
           "url": "https://finnhub.io/api/news?id=0001709625f8e66ce7e841ce60023c282ffe04437460d74927a125daa720d8ca"
-        },
-        {
-          "headline": "Tracking Chase Coleman's Tiger Global Portfolio - Q2 2026 Update",
-          "source": "SeekingAlpha",
-          "timeAgo": "15h ago",
-          "url": "https://finnhub.io/api/news?id=4bbe3f6b03058c2dfc665caf549debb0f9f373d42038beb99391bbe921c28385"
-        },
-        {
-          "headline": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
-          "source": "Yahoo",
-          "timeAgo": "16h ago",
-          "url": "https://finnhub.io/api/news?id=7578c01e5da9c31eff3455e301bdf6e7889d9632266e7b4e01c264aa71c10c03"
         }
       ],
       "earnings": [
@@ -331,13 +334,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 499.7,
-      "change": -10.42,
-      "changePercent": -2.0427,
-      "high": 511,
-      "low": 499.36,
-      "open": 510,
-      "prevClose": 510.12,
+      "price": 493.06,
+      "change": -6.64,
+      "changePercent": -1.3288,
+      "high": 495.19,
+      "low": 490.16,
+      "open": 494.41,
+      "prevClose": 499.7,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.71T",
@@ -353,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nvidia Braces For AI Bubble Burst - Hugging Face Is The Bridge It Needs To Survive",
+          "headline": "Oracle Deserves One Last Chance",
           "source": "SeekingAlpha",
           "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=e96e7f50e5f996a18af5e0e14ecb2604937d6dc46fd229335d03f3423f8cc69a"
+        },
+        {
+          "headline": "Chevron's Project Kilby, Venezuela, And Why The Stock Is So Appealing Here",
+          "source": "SeekingAlpha",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=7ab7c7759444f8c2d84ed999c1c1a448c599b949d56c31bc754dcdf764daf81b"
+        },
+        {
+          "headline": "AMD Is Not Expensive, It Is Early",
+          "source": "SeekingAlpha",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=cffdb75f55669e68e9f232cf93c0045becf263458e1a190e7ee324c698f3d3a6"
+        },
+        {
+          "headline": "Nvidia Braces For AI Bubble Burst - Hugging Face Is The Bridge It Needs To Survive",
+          "source": "SeekingAlpha",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=cdd42ce8f29ed0a1e06abdc3a3c6ea85ccf31fd4ee553efda116030f96416f70"
         },
         {
           "headline": "You're Telling Me That Circular Financing Can Reduce The Risk Of A Bubble?",
           "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
+          "timeAgo": "10h ago",
           "url": "https://finnhub.io/api/news?id=447a7c57d6676d7639d07b87d03a49ca7c6e8f69f79bb0584d383acbde0a2f73"
-        },
-        {
-          "headline": "archTIS wins A$445,000 US private aviation security contract",
-          "source": "Yahoo",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=d154205238a6f7e22f90a92fa15dc2780c318eb2db2836d98ce56ae8a8761b48"
-        },
-        {
-          "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
-          "source": "Yahoo",
-          "timeAgo": "13h ago",
-          "url": "https://finnhub.io/api/news?id=89ee1437c35b1ea43ff04c0695734f1b0ef289bd07ced8822ca70a45052719c9"
-        },
-        {
-          "headline": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
-          "source": "Yahoo",
-          "timeAgo": "14h ago",
-          "url": "https://finnhub.io/api/news?id=bf0151f40257f0de10c85ce76e33ed207bb2c153bfcfbf3fe22c8f6beff57c9f"
         }
       ],
       "earnings": [
@@ -417,13 +420,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 258.51,
-      "change": -0.39,
-      "changePercent": -0.1506,
-      "high": 261.12,
-      "low": 255.29,
-      "open": 259.07,
-      "prevClose": 258.9,
+      "price": 257.26,
+      "change": -1.25,
+      "changePercent": -0.4835,
+      "high": 257.69,
+      "low": 254.75,
+      "open": 257.0375,
+      "prevClose": 258.51,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.79T",
@@ -439,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nvidia Braces For AI Bubble Burst - Hugging Face Is The Bridge It Needs To Survive",
+          "headline": "American Century Value Fund Q2 2026 Contributors And Detractors",
           "source": "SeekingAlpha",
           "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=4d692700574c5bd991de1cb46707cbbc7162de9134cc7fb87a13d812a326409e"
+        },
+        {
+          "headline": "Oracle Deserves One Last Chance",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=e96e7f50e5f996a18af5e0e14ecb2604937d6dc46fd229335d03f3423f8cc69a"
+        },
+        {
+          "headline": "Tesla: My Thesis Could Make Or Break In October (Rating Upgrade)",
+          "source": "SeekingAlpha",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=33bf07481e4c645c431e8cd8b1ba7f1dbf2b1190a2fd4ee92f50924ae9ed3954"
+        },
+        {
+          "headline": "Nvidia Braces For AI Bubble Burst - Hugging Face Is The Bridge It Needs To Survive",
+          "source": "SeekingAlpha",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=cdd42ce8f29ed0a1e06abdc3a3c6ea85ccf31fd4ee553efda116030f96416f70"
         },
         {
           "headline": "Amazon: The Conglomerate Of The AI Industry",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=166efa3d55187ff04e5a06cda7cdeb03a339adce7f4e5daf2cdb0c6360e6f0cc"
-        },
-        {
-          "headline": "Amazon's 39% AWS Operating Margin the Single Best Reason to Buy the Stock in September",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=28d77a543562fd9f6146b87c0b829051f301cc0d522635989b101fe2384de271"
-        },
-        {
-          "headline": "Local Data Center Fights Are Reshaping the Midterms—Here’s How",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=1b1c80f7023d444030e48226f4bef51e44165fbadfe511c40f3248badcec60de"
-        },
-        {
-          "headline": "You're Telling Me That Circular Financing Can Reduce The Risk Of A Bubble?",
-          "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=447a7c57d6676d7639d07b87d03a49ca7c6e8f69f79bb0584d383acbde0a2f73"
         }
       ],
       "earnings": [
@@ -503,13 +506,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 354.08,
-      "change": -22.285,
-      "changePercent": -5.9211,
-      "high": 364.69,
-      "low": 351.3201,
-      "open": 362.07,
-      "prevClose": 376.365,
+      "price": 366.69,
+      "change": 12.61,
+      "changePercent": 3.5613,
+      "high": 366.83,
+      "low": 355.4025,
+      "open": 355.4025,
+      "prevClose": 354.08,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.40T",
@@ -525,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Stock Picks From Seeking Alpha's August 2026 New Analysts",
+          "source": "SeekingAlpha",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=b1c015ec3c94035a159c3774de031e653d04aab5247cb180802e09d73bcb2649"
+        },
+        {
+          "headline": "Tesla: My Thesis Could Make Or Break In October (Rating Upgrade)",
+          "source": "SeekingAlpha",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=33bf07481e4c645c431e8cd8b1ba7f1dbf2b1190a2fd4ee92f50924ae9ed3954"
+        },
+        {
           "headline": "Company News for Sep 8, 2026",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=7213bb53a2bf983d35da22a1fe7a6671cf2f16584298d348bc1551543ce3869c"
         },
         {
           "headline": "Dow, S&P 500, Nasdaq Futures Slide As Iran Conflict Sends Oil Back Toward $100: TSLA,  NVDA, ORCL, INTC, BIDU, BABA, BE In Focus",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=d5a94a395e24ff1e3dacea1d66ee21aef24b3c94faaaa133f9831ebf2832e600"
         },
         {
           "headline": "Nvidia Braces For AI Bubble Burst - Hugging Face Is The Bridge It Needs To Survive",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=cdd42ce8f29ed0a1e06abdc3a3c6ea85ccf31fd4ee553efda116030f96416f70"
-        },
-        {
-          "headline": "Tesla: Elon Is Going For The Robotaxi Moonshot",
-          "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=3f6ec1b9d6f274f5f3fd77b2010b11c4b1c8b8f4cc95e56aaa7ba70f620d8ee7"
-        },
-        {
-          "headline": "Ross Gerber Recommends Tesla Owners Let TSLA ‘Take The Risk’ In Elon Musk’s Airbnb-Like Robotaxi Program",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=6186524b09492f63137ce61312cca7992e964b0d6c47c8ecd7d62870ed4b7885"
         }
       ],
       "earnings": [
