@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-14T19:38:29.305Z",
+  "updatedAt": "2026-09-14T22:47:46.566Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7628.98,
-      "change": -28,
-      "changePercent": -0.3657,
+      "price": 7619.98,
+      "change": -37,
+      "changePercent": -0.4832,
       "high": 7647.99,
       "low": 7592.28,
       "open": 0,
       "prevClose": 7656.97998046875,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "2.0B",
+      "volume": "2.9B",
       "sparklineData": [
         7745.06005859375,
         7691.759765625,
@@ -35,7 +35,7 @@
         7636.35986328125,
         7591.7001953125,
         7656.97998046875,
-        7628.97998046875
+        7619.97998046875
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +56,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52450.5,
-      "change": -122.79,
-      "changePercent": -0.2336,
+      "price": 52421.2,
+      "change": -152.09,
+      "changePercent": -0.2893,
       "high": 52750.88,
       "low": 52278.89,
       "open": 0,
       "prevClose": 52573.2890625,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "307.9M",
+      "volume": "442.7M",
       "sparklineData": [
         53459.78125,
         53343.3984375,
@@ -86,7 +86,7 @@
         52380.66015625,
         52064.1015625,
         52573.2890625,
-        52450.5
+        52421.19921875
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +107,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26244.027,
-      "change": -89.01,
-      "changePercent": -0.338,
+      "price": 26186.414,
+      "change": -146.63,
+      "changePercent": -0.5568,
       "high": 26329.979,
       "low": 25992.545,
       "open": 0,
       "prevClose": 26333.0390625,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "4.8B",
+      "volume": "6.2B",
       "sparklineData": [
         26644.91015625,
         26289.7109375,
@@ -137,7 +137,7 @@
         26253.33984375,
         26081.720703125,
         26333.0390625,
-        26244.02734375
+        26186.4140625
       ],
       "sector": "",
       "marketCap": "",
@@ -159,12 +159,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 334.54,
-      "change": 2.27,
-      "changePercent": 0.6832,
+      "price": 333.08,
+      "change": 0.81,
+      "changePercent": 0.2438,
       "high": 335.5,
       "low": 331.34,
-      "open": 332.53,
+      "open": 334.79,
       "prevClose": 332.27,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -181,34 +181,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "OpenAI Left Exposed After Apple's Surprise Legal Break",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=f981a1af8463704c66004d8e5152dc621421ecce2be1e9b707dad15a84622fa6"
+        },
+        {
+          "headline": "Apple's Siri Upgrade Does Not Require Every User to Buy Another iPhone",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=0396f3d364d15ba913e7c0c957b4ba2cb6cf1172c1e6059049b4d8127a0ef7df"
+        },
+        {
           "headline": "These S&P500 stocks are the most active in today's session",
           "source": "ChartMill",
-          "timeAgo": "1h ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=b2261b4dc5b59c3755bfea444dc6f7112e692fae63d3f795e7b1e23428244bca"
         },
         {
-          "headline": "X Corp and SpaceXAI drop antitrust lawsuit against Apple",
+          "headline": "Jamf Announces Same-Day Support For macOS Golden Gate 27, iOS 27 And Other OS 27 Releases",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8d96f02c2ea6f17e279b25202fd2387903d3cb200dcd3f101f59b15e0ab27077"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=122d22296a1a065eb12fb6599c461abd6023cb64a32ffaad0e817a00886b7088"
         },
         {
-          "headline": "Apple iPhone 18 Pro pre-orders point to mixed demand signals, brokers say",
+          "headline": "Apple Duo Foldable iPhone a ‘Must Have Product,’ Gary Black Says ‘Don’t Underestimate the Power of the $AAPL Marketing Machine’",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e70841dd783d2063c1aab2c77bc3c2642ad7ff2cd6ba4358771fde40970226b5"
-        },
-        {
-          "headline": "Apple's Foldable Phone Has Arrived. Here's Why I Don't Think It'll Send the Stock Soaring",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=25afb1e8b766478dcb64490995c6b4ca7cb6621c26f47714c60ba54ecd6d1371"
-        },
-        {
-          "headline": "Apple Wants to Know What’s Hiding in OpenAI’s Secret Unreleased Device, and Who at the Company Had Access to It.",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f18e9ff01817027b9c01f4de546342ee24456ad7eab1d03b830b66c8a3d94926"
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=9707185a8f63ab56075abfaf674ea99f6b03fd5f6e65ac33931a5ea1058fe3e0"
         }
       ],
       "earnings": [
@@ -245,12 +245,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 348.28,
-      "change": 9.78,
-      "changePercent": 2.8892,
+      "price": 349.39,
+      "change": 10.89,
+      "changePercent": 3.2171,
       "high": 349.91,
-      "low": 339.31,
-      "open": 339.31,
+      "low": 342.1361,
+      "open": 343.12,
       "prevClose": 338.5,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -267,34 +267,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Top dow jones movers in Monday's session",
-          "source": "ChartMill",
-          "timeAgo": "28m ago",
-          "url": "https://finnhub.io/api/news?id=a582f12a39d548a360c2fd563324d739fe0187dbabf02574fc36af5ad1f665b3"
-        },
-        {
-          "headline": "Sector Update: Consumer Stocks Advance Monday Afternoon",
+          "headline": "Big Tech Issued About $220 Billion of Bonds. Alphabet and Meta Show How AI Is Warping the Credit Market",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=edeef2b993df23a327f3d62afd3209879774805a0d66a6c6f74ceb40a6314283"
+          "url": "https://finnhub.io/api/news?id=90ec7de50bce06e131bad79726bd4df850afa47acc3da8ba426d9ece1d110b45"
         },
         {
-          "headline": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=fade9e0faef0b0639f6398ea9e50dfffd2e862e25a6145ef9901dd9a9e1071a9"
-        },
-        {
-          "headline": "Is AI Leveling the Playing Field? Fintech AI Visibility Study Says Yes",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a798995f490db62e9e396abf33a54562addd5baa3e1fe7d12e860920cedbf42e"
-        },
-        {
-          "headline": "Netflix, Amazon, YouTube form streaming lobbying coalition",
+          "headline": "Stock Market Today: Dow Falls, Cyber Plays Soar Amid AI Fears; Bessent Makes This Move On Iran (Live Coverage)",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a1fad44027e9bed7e3109b649f1a49d1509ee8c19b1673c76e52c79af90735d2"
+          "url": "https://finnhub.io/api/news?id=9eaa9cf18c95b70563c52139b238bcdaa372e860a94a7145472fc3da3cf0b7df"
+        },
+        {
+          "headline": "Is META Stock’s $130B AI Buildout Your Ticket to an 8.7% Yield?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=181d3bdaad0da5cb78503b1b147d750e0d64df3bfac3297b5c746da9efcf0dd0"
+        },
+        {
+          "headline": "Liberty All-Star® Equity Fund August 2026 Monthly Update",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=dd845aadb0ab6939c3ae1ce495b4e21f994100eee250ce5c2bdebdb9e2406b45"
+        },
+        {
+          "headline": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=e8c556cb9ce88ebb8900d9fa386b67120a0bebc54510b6d3c24431c426593ed8"
         }
       ],
       "earnings": [
@@ -331,12 +331,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 507.54,
-      "change": 11.91,
-      "changePercent": 2.403,
+      "price": 505.41,
+      "change": 9.78,
+      "changePercent": 1.9732,
       "high": 509.95,
-      "low": 495.03,
-      "open": 495.03,
+      "low": 495.3416,
+      "open": 497.06,
       "prevClose": 495.63,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -353,34 +353,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Top dow jones movers in Monday's session",
-          "source": "ChartMill",
-          "timeAgo": "28m ago",
-          "url": "https://finnhub.io/api/news?id=a582f12a39d548a360c2fd563324d739fe0187dbabf02574fc36af5ad1f665b3"
+          "headline": "S&P 500, Nasdaq, Dow Drop On Chipmaker Weakness, Treasury Yield Pressure — MSFT, NFLX, ORCL, CRWD, RBLX In Focus",
+          "source": "Yahoo",
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=db6776d4bff4441c92f392c62a0e505a23b277087447f368a4fc8b71000cc7bd"
         },
         {
-          "headline": "Sector Update: Tech Stocks Fall Monday Afternoon",
+          "headline": "Big Tech Issued About $220 Billion of Bonds. Alphabet and Meta Show How AI Is Warping the Credit Market",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=94f478efb64f9000925f16c934de2d4d10f02010f14841bccc509a0b03a3eb3a"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=90ec7de50bce06e131bad79726bd4df850afa47acc3da8ba426d9ece1d110b45"
         },
         {
-          "headline": "Can Palantir Deploy Fast Enough To Move Its Stock Higher?",
+          "headline": "Amazon and Microsoft Can Buy GPUs. But U.S. Construction Is Short 439,000 Workers",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8e51a1da517fa280715b226038bc4aac8f4ed68f69b4d3a84512a60a8e8adfa4"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e1a9cad793b9000966fe6c2627ec7b79a6f5b777a34af27ae74af74f3e28d89e"
         },
         {
-          "headline": "The Winners and Losers in an AI Slowdown",
+          "headline": "MSFT Stock Gains 2% — Microsoft Unveils ‘Humanist AI’ Code Of Conduct To Curb Autonomous AI Risks",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=47ed07e715ddd1efae7666f958acc3b3ed757dbe454fcc8bcdee4dd5cb0010ed"
+          "url": "https://finnhub.io/api/news?id=d6757cb27da7fd94054bccaf112f54ab28d82225d5b22b8555136ba8b78c6643"
         },
         {
-          "headline": "Whoever Spends Smarter Wins the Microsoft-Alphabet Cloud Fight. Here Is Who Is Ahead.",
+          "headline": "Is META Stock’s $130B AI Buildout Your Ticket to an 8.7% Yield?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=deeeed8a2af58f60c595c3d92caa55f1f020967d3872e74c40703b5fb60a3824"
+          "url": "https://finnhub.io/api/news?id=181d3bdaad0da5cb78503b1b147d750e0d64df3bfac3297b5c746da9efcf0dd0"
         }
       ],
       "earnings": [
@@ -417,12 +417,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 253.94,
-      "change": -2.84,
-      "changePercent": -1.106,
+      "price": 253.54,
+      "change": -3.24,
+      "changePercent": -1.2618,
       "high": 255.95,
       "low": 250.74,
-      "open": 253.515,
+      "open": 253.15,
       "prevClose": 256.78,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -439,34 +439,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Top dow jones movers in Monday's session",
-          "source": "ChartMill",
-          "timeAgo": "28m ago",
-          "url": "https://finnhub.io/api/news?id=a582f12a39d548a360c2fd563324d739fe0187dbabf02574fc36af5ad1f665b3"
+          "headline": "FREEHILL Expands Amazon Winter Apparel Collection With Three Heated Products",
+          "source": "Yahoo",
+          "timeAgo": "52m ago",
+          "url": "https://finnhub.io/api/news?id=2c504ee0396e80caefaccd9e6e0d0192708d8ca0ba1deca172646b6665c7e45e"
         },
         {
-          "headline": "Sector Update: Consumer Stocks Advance Monday Afternoon",
+          "headline": "Big Tech Issued About $220 Billion of Bonds. Alphabet and Meta Show How AI Is Warping the Credit Market",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=edeef2b993df23a327f3d62afd3209879774805a0d66a6c6f74ceb40a6314283"
+          "url": "https://finnhub.io/api/news?id=90ec7de50bce06e131bad79726bd4df850afa47acc3da8ba426d9ece1d110b45"
         },
         {
-          "headline": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+          "headline": "Amazon Faces Tough Questions After Major Crash",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=fade9e0faef0b0639f6398ea9e50dfffd2e862e25a6145ef9901dd9a9e1071a9"
+          "url": "https://finnhub.io/api/news?id=218d9438df4791c6794564ea39759eea65f41bbc9d58a147a1a3d8f5b82ed407"
         },
         {
-          "headline": "Sector Update: Tech Stocks Fall Monday Afternoon",
+          "headline": "Amazon and Microsoft Can Buy GPUs. But U.S. Construction Is Short 439,000 Workers",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=94f478efb64f9000925f16c934de2d4d10f02010f14841bccc509a0b03a3eb3a"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e1a9cad793b9000966fe6c2627ec7b79a6f5b777a34af27ae74af74f3e28d89e"
         },
         {
-          "headline": "Netflix, Amazon, YouTube form streaming lobbying coalition",
+          "headline": "Is META Stock’s $130B AI Buildout Your Ticket to an 8.7% Yield?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a1fad44027e9bed7e3109b649f1a49d1509ee8c19b1673c76e52c79af90735d2"
+          "url": "https://finnhub.io/api/news?id=181d3bdaad0da5cb78503b1b147d750e0d64df3bfac3297b5c746da9efcf0dd0"
         }
       ],
       "earnings": [
@@ -503,12 +503,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 360.37,
-      "change": -5.07,
-      "changePercent": -1.3874,
+      "price": 358.97,
+      "change": -6.47,
+      "changePercent": -1.7705,
       "high": 367.73,
       "low": 357.04,
-      "open": 360.155,
+      "open": 359.78,
       "prevClose": 365.44,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -525,34 +525,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "These S&P500 stocks are the most active in today's session",
-          "source": "ChartMill",
+          "headline": "If You'd Invested $1,000 in Tesla Stock 1 Year Ago, Here's How Much You'd Have Today",
+          "source": "Yahoo",
+          "timeAgo": "54m ago",
+          "url": "https://finnhub.io/api/news?id=4359748e4127532b19df217ee4ec848843bd603fec7d0efe2152d6306af1476f"
+        },
+        {
+          "headline": "Tesla Roadster Reveal Could Be Musk's Biggest Test Yet",
+          "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b2261b4dc5b59c3755bfea444dc6f7112e692fae63d3f795e7b1e23428244bca"
+          "url": "https://finnhub.io/api/news?id=c7ffe635fd1f6d4e93cafd6beb6980787dd9325ddd50b3d44c887d6cabc63497"
         },
         {
-          "headline": "Tesla Slips Nearly 2% as Musk's AI Caution Complicates the Autonomy Story",
+          "headline": "Update: Semiconductors Help Push US Equity Indexes Lower While Benchmark Treasury Yield Hits 5%",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=4636668ebcdc5fd8308dcfd743dcea3f4dbbc72edbd6a1327f3610a9b67d2e83"
+        },
+        {
+          "headline": "Tesla's long-delayed Roadster may finally get its SpaceX moment",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=a95cfe82b2125d4ba0b7ce97aa425f59b8e9438edcd7d72ac003d4e3b5ef97ef"
+        },
+        {
+          "headline": "Update: Wall Street Dips as AI Warnings Weigh on Tech Sector",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a5b9ffa3c30a43db636ca097632c5933c1f7736b16bd87b604bf6fa2cc6d820a"
-        },
-        {
-          "headline": "Oracle, Corning, Alphabet, GE Vernova, CrowdStrike, SpaceX, and More Stocks That Explain Today’s Market",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=93208e36b53f4fe0012ab92c61e4928863e38bd62eaeee76c5fd0b7cc4e708a3"
-        },
-        {
-          "headline": "Millions of Tesla Owners Are About to Get a Software Update That Lets The Car Intervene and Steer Even If They Never Turned on Full Self-Driving.",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f41cbf9436621336ea23837e11678d75e95fc9f0fa6289d0bb12563a7dd8a900"
-        },
-        {
-          "headline": "Tesla Fans, Don't Miss Oct. 1: Something Big Could Finally Happen",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=51d92dfe3abe1583752152ff447b4207c7629de33f182561c5a1080824450040"
+          "url": "https://finnhub.io/api/news?id=8cdf7fc9d029724cfadac97a92731c3fa0d5c15775ff67f024927f9f486a785c"
         }
       ],
       "earnings": [
