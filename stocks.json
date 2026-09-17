@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-17T17:19:02.956Z",
+  "updatedAt": "2026-09-17T20:36:56.250Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7632.39,
-      "change": 80.58,
-      "changePercent": 1.067,
-      "high": 7646.6,
+      "price": 7637.76,
+      "change": 85.95,
+      "changePercent": 1.1381,
+      "high": 7646.86,
       "low": 7611.81,
       "open": 0,
       "prevClose": 7551.81005859375,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "1.3B",
+      "volume": "2.9B",
       "sparklineData": [
         7691.759765625,
         7707.97998046875,
@@ -37,7 +37,7 @@
         7619.97998046875,
         7585.72998046875,
         7551.81005859375,
-        7632.39013671875
+        7637.759765625
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 51784.6,
-      "change": 322.7,
-      "changePercent": 0.6271,
+      "price": 51778.04,
+      "change": 316.14,
+      "changePercent": 0.6143,
       "high": 51935.97,
       "low": 51607.65,
       "open": 0,
       "prevClose": 51461.8984375,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "185.2M",
+      "volume": "406.1M",
       "sparklineData": [
         53343.3984375,
         53463.05078125,
@@ -90,7 +90,7 @@
         52421.19921875,
         52093.109375,
         51461.8984375,
-        51784.6015625
+        51778.0390625
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26392.033,
-      "change": 413.6,
-      "changePercent": 1.5921,
-      "high": 26419.375,
+      "price": 26418.299,
+      "change": 439.87,
+      "changePercent": 1.6932,
+      "high": 26460.643,
       "low": 26289.943,
       "open": 0,
       "prevClose": 25978.4296875,
       "week52High": 27190.21,
       "week52Low": 20690.25,
-      "volume": "6.0B",
+      "volume": "9.0B",
       "sparklineData": [
         26289.7109375,
         26331.08984375,
@@ -143,7 +143,7 @@
         26186.41015625,
         25981.5703125,
         25978.4296875,
-        26392.033203125
+        26418.298828125
       ],
       "sector": "",
       "marketCap": "",
@@ -165,12 +165,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 335.84,
-      "change": 3.43,
-      "changePercent": 1.0319,
-      "high": 336.47,
+      "price": 337,
+      "change": 4.59,
+      "changePercent": 1.3808,
+      "high": 338.34,
       "low": 330.1833,
-      "open": 334.37,
+      "open": 334.77,
       "prevClose": 332.41,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Discover which dow jones stocks are making waves on Thursday.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=dfb76a66e1436e85948b341453048bdf27d660ffca2da6ee1a728671127df0b6"
+        },
+        {
           "headline": "These dow jones stocks are moving in today's session",
           "source": "ChartMill",
-          "timeAgo": "38m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=19743c4c516fff44e17aef6ad8aee7e45aa5ec507e86f2f5d35e75dfae85174e"
         },
         {
           "headline": "Apple iPhone Demand Should Hold Up On Higher Carrier Incentives, BofA Says",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=773c44a3dc1e3a9009d4b2133db121a5286ecaccde473b2515de3b661c269317"
         },
         {
           "headline": "Apple: Reality Check Coming, But I'm Not Selling (Downgrade)",
           "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=2dd3fd2b95ccd0bc3aa7953041e37d82c839f8d2ecbfa1a5fe60f30ed2728f1b"
         },
         {
           "headline": "Top strategist thinks the Federal Reserve interest rate hike won't fix this huge earnings risk",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=f96e7cc7d5570c2bb5bfcbc16e4626fabe35ac458d64001a2c92029563ecec65"
-        },
-        {
-          "headline": "The Same Stock but in 2 Different IRAs: By Retirement, the Tax Bill Is the Only Thing That Changes",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=8ea475d682023a50303c04aec5e56fbcf92e37184d6842657a7da50d9f543a1d"
         }
       ],
       "earnings": [
@@ -251,12 +251,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 345.59,
-      "change": 2.72,
-      "changePercent": 0.7933,
+      "price": 347.33,
+      "change": 4.46,
+      "changePercent": 1.3008,
       "high": 349.5,
       "low": 343.8857,
-      "open": 347.7975,
+      "open": 348.675,
       "prevClose": 342.87,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -275,31 +275,31 @@
         {
           "headline": "SpaceX: A $3.2 Trillion Inflection Is Closer Than It Looks",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=e59c4b8f9801ea000af134d61b1ba62c935cc0acdc7e49c4dc0d021740d99a09"
         },
         {
           "headline": "Lagging The S&P 500? I Don't Care, And Neither Should You",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=38511e139416253ef546439f35b4217c6fbb4d237681ab3a96555c3fa10e6d00"
         },
         {
           "headline": "Earnings Drag and Geopolitical Headwinds Weigh on Lockheed Martin’s (LMT) Performance",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=73e12dba546ef59f77e9756e020dfbb1d2f2768cbf0348efea7d8f2f145240a1"
         },
         {
           "headline": "Group 1 Automotive (GPI): Can High Debt and a Troubled UK Acquisition Derail the Recovery?",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=7298416b27dea923b37e3d027a39989b4565d89e79fe14ef34053b5012369231"
         },
         {
           "headline": "Alphabet (GOOG): Is Massive Infrastructure Capex Worth It?",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=b39d9d1d5c560c9a9e8af80db32f50daec5480b21f90b705dc19928417c9b035"
         }
       ],
@@ -337,12 +337,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 495.12,
-      "change": 4.82,
-      "changePercent": 0.9831,
+      "price": 497.75,
+      "change": 7.45,
+      "changePercent": 1.5195,
       "high": 501.47,
       "low": 493.17,
-      "open": 496.4325,
+      "open": 497.795,
       "prevClose": 490.3,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Discover which dow jones stocks are making waves on Thursday.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=dfb76a66e1436e85948b341453048bdf27d660ffca2da6ee1a728671127df0b6"
+        },
+        {
           "headline": "These dow jones stocks are moving in today's session",
           "source": "ChartMill",
-          "timeAgo": "38m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=19743c4c516fff44e17aef6ad8aee7e45aa5ec507e86f2f5d35e75dfae85174e"
         },
         {
           "headline": "Advanced Micro Devices vs. Texas Instruments: Which Tech Stock Is a Better Buy in 2026?",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=f859838e3d3e875549086eb00639b694704485400e9b069447dc1bcf9e980029"
         },
         {
           "headline": "Synthio Labs Launches DOSE Benchmark: Leading Voice AI Models Mispronounce Up to One in Three Newly Approved Drug Names",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=b31b1d03c65bbb34344afed9754592556657839cb1b4f6e986137f6f16c39bfc"
         },
         {
           "headline": "Causaly is Now Available in Microsoft Copilot",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=48efff0b5ced10ad3a2e7408847a15fa3ad670267b31279a10d5c0a26d55d63a"
-        },
-        {
-          "headline": "Nokia stock jumps as Microsoft AI data partnership expands",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=c6271a6244c1f14feff5be74018b603ef969939f89634e95d7d2336f9e179ff2"
         }
       ],
       "earnings": [
@@ -423,12 +423,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 251.4,
-      "change": 5.44,
-      "changePercent": 2.2117,
+      "price": 251.19,
+      "change": 5.23,
+      "changePercent": 2.1264,
       "high": 252.73,
       "low": 249.24,
-      "open": 249.9325,
+      "open": 251.065,
       "prevClose": 245.96,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Discover which dow jones stocks are making waves on Thursday.",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=dfb76a66e1436e85948b341453048bdf27d660ffca2da6ee1a728671127df0b6"
+        },
+        {
           "headline": "These dow jones stocks are moving in today's session",
           "source": "ChartMill",
-          "timeAgo": "38m ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=19743c4c516fff44e17aef6ad8aee7e45aa5ec507e86f2f5d35e75dfae85174e"
+        },
+        {
+          "headline": "Generac: Amazon Just Added 57% Of A Year's Revenue",
+          "source": "SeekingAlpha",
+          "timeAgo": "7h ago",
+          "url": "https://finnhub.io/api/news?id=b5bc9c40bb806ad44bbed209f95dad87bd62917060f43b1230d85b704745617f"
         },
         {
           "headline": "Lagging The S&P 500? I Don't Care, And Neither Should You",
           "source": "SeekingAlpha",
-          "timeAgo": "5h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=38511e139416253ef546439f35b4217c6fbb4d237681ab3a96555c3fa10e6d00"
         },
         {
           "headline": "Oracle’s 2026 Cratering: This Pro Is Sure It Will Nearly Triple in the Next 12 Months",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=dc2c9634a3fbc2361efb918f0b73df9baa621d16810dd0b656b6962b52f05918"
-        },
-        {
-          "headline": "Generac Gets $100 Target Hike From Canaccord — Amazon Deal Could Unlock Up To $8B In Orders, Says Analyst",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=ea0eee0beb2a3c2f8ce81ea63019c3b744fd098b413cccef55caff0591e1bace"
-        },
-        {
-          "headline": "22.4% of Billionaire Bill Ackman’s Pershing Square Capital Management Is Invested in These 2 Artificial Intelligence (AI) Stocks",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=6ed92433bdbd002888e13442151331b71c65ef947c8c5c9ac960f5f188a0efb5"
         }
       ],
       "earnings": [
@@ -509,12 +509,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 367.76,
-      "change": 9.68,
-      "changePercent": 2.7033,
+      "price": 366.2,
+      "change": 8.12,
+      "changePercent": 2.2676,
       "high": 374.12,
       "low": 363.22,
-      "open": 364.755,
+      "open": 367.48,
       "prevClose": 358.08,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Most active S&P500 stocks in Thursday's session",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=0d852bd60c8de3c6239685cf2705b7e360785db1df8879cd5d21e530331f5afd"
+        },
+        {
           "headline": "Tesla Stock Has a Potential Catalyst Wall Street Can’t Ignore",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=7cff0bd6add3b1bd8a575714636ca71eb8dcd261a25d137537a06f01a963d15a"
         },
         {
           "headline": "Lucid stock jumps on 25,000 robotaxi deal with Europe's Bolt",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=a0ff60c1bca66d9dcc49d24521bdbaa5ed7e865a1cb4df4318ab4f73a828bbad"
         },
         {
           "headline": "Tesla to Operate Megacharger Sites at Three Forum Mobility Depots in California",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=f71cdd236f85bac47ec055f525ea6914f2d0d03ab0714fb943b742bee4b4677a"
         },
         {
           "headline": "Tesla's Cybercab Under the Microscope: NHTSA Demands Answers to 21 Safety Questions by Month-End",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=fdea7701a4e06f8cb39babf83e8bb211c6bd0eea0e9dcc0cac409f28352dcdec"
-        },
-        {
-          "headline": "Why Falling EV Deliveries Aren’t a Problem for Tesla Stock",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=b0efdc54b0192370dadb94c458c3240e25cc4c86a7b9dfc8849a3002dc5587f9"
         }
       ],
       "earnings": [
