@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-24T10:34:17.008Z",
+  "updatedAt": "2026-09-24T15:31:30.775Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7706.03,
-      "change": -58.67,
-      "changePercent": -0.7556,
-      "high": 7761.94,
-      "low": 7694.89,
+      "price": 7666.7,
+      "change": -39.33,
+      "changePercent": -0.5104,
+      "high": 7694.61,
+      "low": 7662.57,
       "open": 0,
-      "prevClose": 7764.7001953125,
+      "prevClose": 7706.02978515625,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "3.0B",
+      "volume": "857.5M",
       "sparklineData": [
         7677.27978515625,
         7675.7001953125,
@@ -35,7 +35,8 @@
         7637.759765625,
         7650.5,
         7764.7001953125,
-        7706.02978515625
+        7706.02978515625,
+        7666.7001953125
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 51511.59,
-      "change": -537.24,
-      "changePercent": -1.0322,
-      "high": 51846.81,
-      "low": 51477.53,
+      "price": 51161.52,
+      "change": -350.07,
+      "changePercent": -0.6796,
+      "high": 51485.97,
+      "low": 51124.02,
       "open": 0,
-      "prevClose": 52048.828125,
+      "prevClose": 51511.58984375,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "428.1M",
+      "volume": "122.7M",
       "sparklineData": [
         53577.3984375,
         53463.87890625,
@@ -86,7 +87,8 @@
         51778.0390625,
         51682.640625,
         52048.828125,
-        51511.58984375
+        51511.58984375,
+        51161.51953125
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26936.037,
-      "change": -186.05,
-      "changePercent": -0.686,
-      "high": 27217.33,
-      "low": 26873.543,
+      "price": 26716.133,
+      "change": -219.91,
+      "changePercent": -0.8164,
+      "high": 26820.637,
+      "low": 26706.139,
       "open": 0,
-      "prevClose": 27122.08984375,
+      "prevClose": 26936.0390625,
       "week52High": 27288.79,
       "week52Low": 20690.25,
-      "volume": "7.6B",
+      "volume": "3.2B",
       "sparklineData": [
         26151.30078125,
         26130.19921875,
@@ -137,7 +139,8 @@
         26418.30078125,
         26522.5390625,
         27122.08984375,
-        26936.0390625
+        26936.0390625,
+        26716.1328125
       ],
       "sector": "",
       "marketCap": "",
@@ -159,13 +162,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 337.02,
-      "change": -2.73,
-      "changePercent": -0.8035,
-      "high": 341.8,
-      "low": 335.5,
-      "open": 341.075,
-      "prevClose": 339.75,
+      "price": 336.3,
+      "change": -0.72,
+      "changePercent": -0.2136,
+      "high": 338.26,
+      "low": 334.3,
+      "open": 335.99,
+      "prevClose": 337.02,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.92T",
@@ -181,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Formula 1 Business Outlook 2026: Global Expansion, Digital Innovation and Sponsorship Growth Accelerate Revenue Opportunities",
+          "headline": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f2c0b2567cf9fc40fb21d77c3b0440b096fe77e7f09c193393d810ef9f5c57c4"
+          "url": "https://finnhub.io/api/news?id=87c60e68d3c8403b8ce875853c5265108b935cefdefaa9320870cdf21f236b90"
         },
         {
-          "headline": "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club",
+          "headline": "Meta’s new Tamagotchi-style ‘Charm’ can run your life for you – from a keychain",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=26bcb9a272ca1ed534ea21eef729c47ac3c0106f2faf8f34144f4e35ad09cdde"
+          "url": "https://finnhub.io/api/news?id=63cfb6de4c28acf059adea0dddb4cc98427e54c93ebea91400c2bb7f1699dbaa"
         },
         {
-          "headline": "Here's what Wall Street thinks of Meta's new smartglass lineup and first Muse 'holdable'",
+          "headline": "'Muse over Metaverse is a good thing for Meta investors': A look at the new product lineup",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=09bc2c79234d7835bed81b53d9dba7b499c7b4e9af4ab399899a294242d044ba"
+          "url": "https://finnhub.io/api/news?id=c72022f87e6b2f5211bc0855038ee39f6e469e672f919db2599afdb611fe0f58"
         },
         {
-          "headline": "Apple (AAPL) Stock Could Be 32% Overpriced After Fresh AI Cost Warnings",
+          "headline": "Bentley debuts its first electric car. Starting price: $250,000.",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=d2e89b0756cffd94af350387eaf4eee28b4226778bfdaf74c5fe5f75afb5acff"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=8844a33d2010eff406d3c37ba88aaa7191fd9c6f7a6616852b85cfdb34a3f68c"
         },
         {
-          "headline": "Meta Puts Apple Firmly in Its Sights With New VR Glasses",
+          "headline": "NEAR Crypto Tokenized Stock Launch Puts Distribution Ahead of Scale",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=01e7a44142919cc0b7acd15e66795b3241304f38339ae57ccec79833c8fa63a7"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d7e60a4b07676ad9a4c01b7e5aa8a56ac5a68af64db9b5695383566690159fa4"
         }
       ],
       "earnings": [
@@ -245,13 +248,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 337.83,
-      "change": -13.33,
-      "changePercent": -3.796,
-      "high": 350,
-      "low": 337.45,
-      "open": 349.86,
-      "prevClose": 351.16,
+      "price": 338,
+      "change": 0.17,
+      "changePercent": 0.0503,
+      "high": 340.3,
+      "low": 336.0201,
+      "open": 337.5,
+      "prevClose": 337.83,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.13T",
@@ -267,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club",
+          "headline": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=26bcb9a272ca1ed534ea21eef729c47ac3c0106f2faf8f34144f4e35ad09cdde"
+          "url": "https://finnhub.io/api/news?id=87c60e68d3c8403b8ce875853c5265108b935cefdefaa9320870cdf21f236b90"
         },
         {
-          "headline": "Global Digital Transformation (DX) Market to Reach US$7.3 Trillion by 2034 | Industry Analysis Featuring Profiles of Accenture, IBM, Microsoft, Google, Amazon Web Services, Oracle, SAP and More",
+          "headline": "Meta’s new Tamagotchi-style ‘Charm’ can run your life for you – from a keychain",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=56fd0f99d0f7e80e1141bbe59d598fd20e89e7fc1f6baae16e892bc4787a011b"
+          "url": "https://finnhub.io/api/news?id=63cfb6de4c28acf059adea0dddb4cc98427e54c93ebea91400c2bb7f1699dbaa"
         },
         {
-          "headline": "Nasdaq, S&P 500 Futures Slide As Treasury Yields, Trump-Xi Summit Keep Traders On Edge: META, GOOGL, SPCX, VKTX, SNAP, MCD, BB Stocks In Focus",
+          "headline": "Prediction: Arm Is Our Top Pick With 83% Upside Driven by Data Center Royalty Boom",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=54b61fb6a5226a5881b2b25086c7fd29454ad2829afd2373f503871ea787fa9e"
+          "url": "https://finnhub.io/api/news?id=a7f6c51230d0671e7ab2025e39e0d72c7eddde8d4980932e5f67e7a113b8977e"
         },
         {
-          "headline": "Trump-Xi Summit: Here’s the Current State of the AI Battle",
+          "headline": "Alphabet Or Meta: Whose AI Build Would You Rather Fund?",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=84a046e6408bbfcf710a80bd569b2276122526a22dde68f97cbdba33c1d35807"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9ff12295daf3d56a9b20d74bc91682c95dcc4b21cd95d3d1ae6f51786a655aaa"
         },
         {
-          "headline": "WeRide Recognized on Fortune's 2026 Change the World List as the Only Autonomous Driving Company Honored",
+          "headline": "Why Cathie Wood Is Trimming the World’s Biggest Tech Stock to Bet on a Space Company",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=ef5e5dc092f34abfe76a929a1a75d3cd3a3526638a06dbbf0992d91917d32123"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7e7489e594c033b57aa4a409553d618842d8b18842a78520f318dfb1c2ff4028"
         }
       ],
       "earnings": [
@@ -331,13 +334,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 500.59,
-      "change": 2.59,
-      "changePercent": 0.5201,
-      "high": 509.44,
-      "low": 495.88,
-      "open": 500.755,
-      "prevClose": 498,
+      "price": 494.48,
+      "change": -6.11,
+      "changePercent": -1.2206,
+      "high": 496.535,
+      "low": 491.22,
+      "open": 496.535,
+      "prevClose": 500.59,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.72T",
@@ -353,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Update: Meta Plans Spring 2027 VR Glasses Release, Expands Smart-Glasses Lineup",
-          "source": "Yahoo",
-          "timeAgo": "43m ago",
-          "url": "https://finnhub.io/api/news?id=6c4120aa57765243cc05406e95b637123e27e628a1afdf7077fa2a9d620ada03"
-        },
-        {
-          "headline": "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club",
+          "headline": "Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=26bcb9a272ca1ed534ea21eef729c47ac3c0106f2faf8f34144f4e35ad09cdde"
+          "url": "https://finnhub.io/api/news?id=b28f9183740fb1ee2bbf275bf8252dd2a04078165a0a1a73b9dc8392a033f2e2"
         },
         {
-          "headline": "Global Digital Transformation (DX) Market to Reach US$7.3 Trillion by 2034 | Industry Analysis Featuring Profiles of Accenture, IBM, Microsoft, Google, Amazon Web Services, Oracle, SAP and More",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=56fd0f99d0f7e80e1141bbe59d598fd20e89e7fc1f6baae16e892bc4787a011b"
-        },
-        {
-          "headline": "Update: Market Chatter: Microsoft Plans Larger Copilot Discounts for Large Customers",
+          "headline": "Parloa to Unveil What's Next in Agentic Customer Experience at WAVE 2026 Berlin",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=441d49897dc02901c70dc8fbac5dbcc9f2f41a973a6b05a58148fe014192e5e6"
+          "url": "https://finnhub.io/api/news?id=760024b64218d7bc487b13cd6944ae34e14522c0202047a9a74a6c5288127639"
         },
         {
-          "headline": "MIT Explains What Happens When the Trillion-Dollar AI Bubble Bursts",
+          "headline": "Alphabet Or Meta: Whose AI Build Would You Rather Fund?",
           "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=e3bce86caafa2ffdafedc92b3ebcb86bf6e2fd6ce8fdf806a894b440909faa3e"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9ff12295daf3d56a9b20d74bc91682c95dcc4b21cd95d3d1ae6f51786a655aaa"
+        },
+        {
+          "headline": "NEAR Crypto Tokenized Stock Launch Puts Distribution Ahead of Scale",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d7e60a4b07676ad9a4c01b7e5aa8a56ac5a68af64db9b5695383566690159fa4"
+        },
+        {
+          "headline": "Update: Market Chatter: OpenAI Agent Hacked Government Health Portal, Says Australia Prime Minister",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=faba9a44bcd94bbc63d963c0c674646f308f3a9c3174f065d8b8e40d0d730172"
         }
       ],
       "earnings": [
@@ -417,13 +420,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 249.27,
-      "change": -5.71,
-      "changePercent": -2.2394,
-      "high": 253.99,
-      "low": 247.76,
-      "open": 253,
-      "prevClose": 254.98,
+      "price": 246.13,
+      "change": -3.14,
+      "changePercent": -1.2597,
+      "high": 247.52,
+      "low": 245.6,
+      "open": 247.09,
+      "prevClose": 249.27,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.69T",
@@ -439,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Update: Market Chatter: Anthropic, OpenEvidence Team Up to Expand Medical AI Globally",
+          "headline": "Barron's 400 ETF (BFOR) Adds Energy and Materials, Reduces Utilities and Consumer Discretionary in Fall Rebalance",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=314eef0f80857282e30e7837378b3108ad9b585fe9c37742665ffa9aadd28caf"
+          "url": "https://finnhub.io/api/news?id=de7a7fb8877f3fae14b4e4a574480c5812b0f81795adb3ef7270a6faf7b57bc1"
         },
         {
-          "headline": "Data Center Boom Pushes CRE Construction Costs Higher",
+          "headline": "Stock Market Today: Dow Falls On High Treasury Yields; Jobless Claims Come In Below Forecasts (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=abcd9e8711808c9dd118351e2a367407f96de171ce4b6ca42a5f68c7d786c2bc"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=bf2a27a013cfee5a70ab626b15413f08ebc83d28cca53975564901494393d746"
         },
         {
-          "headline": "MIT Explains What Happens When the Trillion-Dollar AI Bubble Bursts",
+          "headline": "Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck",
           "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=e3bce86caafa2ffdafedc92b3ebcb86bf6e2fd6ce8fdf806a894b440909faa3e"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b28f9183740fb1ee2bbf275bf8252dd2a04078165a0a1a73b9dc8392a033f2e2"
         },
         {
-          "headline": "AMZY: Weekly Income From Amazon's $496 Billion AWS Backlog",
-          "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=ccf237bf1d089dac5db395b792b83e60c39d36463f400bed22ac8b86065053ca"
-        },
-        {
-          "headline": "Amazon Blocked Meta's AI Shopping Agent. Shopify Welcomed It -- and Gets Paid on Every Checkout.",
+          "headline": "Alphabet Or Meta: Whose AI Build Would You Rather Fund?",
           "source": "Yahoo",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=1947d0048e2f89fbe015c6975001e5c12ad772d34c9cc839dedcb6d00bb9443c"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9ff12295daf3d56a9b20d74bc91682c95dcc4b21cd95d3d1ae6f51786a655aaa"
+        },
+        {
+          "headline": "NEAR Crypto Tokenized Stock Launch Puts Distribution Ahead of Scale",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d7e60a4b07676ad9a4c01b7e5aa8a56ac5a68af64db9b5695383566690159fa4"
         }
       ],
       "earnings": [
@@ -503,13 +506,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 380.12,
-      "change": 1.22,
-      "changePercent": 0.322,
-      "high": 386.7,
-      "low": 377.575,
-      "open": 380.1,
-      "prevClose": 378.9,
+      "price": 376.5,
+      "change": -3.62,
+      "changePercent": -0.9523,
+      "high": 379.99,
+      "low": 376,
+      "open": 378.4,
+      "prevClose": 380.12,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.50T",
@@ -525,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "European Union Car Registrations Rise 4.5% in August; Tesla's Figures Up 53% Year Over Year",
+          "headline": "Tesla Semi Joins Parade Of New Model Showcases; Stock Falls",
           "source": "Yahoo",
-          "timeAgo": "46m ago",
-          "url": "https://finnhub.io/api/news?id=bdf0549221f243a4fc5469daf4eca53cede97c53540b7703d3c3889424b6a505"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=427a565934156a2cc6cf87bc4c495f475c003f4bd2e96c812c72f393f1329250"
         },
         {
-          "headline": "Is AI Spending Too Big—or Is Earth's Economy Just Too Small? Elon Musk Picks a Side",
+          "headline": "Bentley debuts its first electric car. Starting price: $250,000.",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a27c2210fb87a343f4fc63fe9da457417677199733057778751f74fd4f88fbb5"
+          "url": "https://finnhub.io/api/news?id=8844a33d2010eff406d3c37ba88aaa7191fd9c6f7a6616852b85cfdb34a3f68c"
         },
         {
-          "headline": "4 Risks That Could Derail the AI Trade",
+          "headline": "Tesla to open doors of its Nevada Semi truck factory",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=5dbfaa5668140b0312d9aefdf34df48ccc47850256189db82c2a3a30759d9c5b"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=0d179fd37f4494e9925888df635f67c7fa410d90184c798951dd9755f84f0429"
         },
         {
-          "headline": "Tesla Makes Brilliant Supercharger Move but BYD Is Closer in the Mirror Than It Appears",
+          "headline": "NEAR Crypto Tokenized Stock Launch Puts Distribution Ahead of Scale",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=583ea1d42dd9664463d77cc1308a18519326b4e305a86aed96fe7b9f8af805e0"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d7e60a4b07676ad9a4c01b7e5aa8a56ac5a68af64db9b5695383566690159fa4"
         },
         {
-          "headline": "Is Tesla (TSLA) Quietly Shifting From Automaker To Physical AI Platform With FSD Subscriptions?",
+          "headline": "Tesla's FSD Just Hit a Major Roadblock Ahead of EU Review",
           "source": "Yahoo",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=baca31b9f3da62a551efd9e177cace10e5cea14f1e77e72e3ef07bcfa2a3f1f9"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a08dd2701ac8e2fff0a76e1c4f3a1f323677ac40dd4591620a162a642a115e9c"
         }
       ],
       "earnings": [
