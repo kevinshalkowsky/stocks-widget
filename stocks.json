@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-02T19:35:16.280Z",
+  "updatedAt": "2026-10-02T23:19:42.700Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7725.87,
-      "change": 59.42,
-      "changePercent": 0.7751,
+      "price": 7722.72,
+      "change": 56.27,
+      "changePercent": 0.734,
       "high": 7754.67,
       "low": 7700.51,
       "open": 0,
       "prevClose": 7666.4501953125,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "2.1B",
+      "volume": "3.1B",
       "sparklineData": [
         7666.60009765625,
         7747.7099609375,
@@ -37,7 +37,7 @@
         7670.83984375,
         7651.5400390625,
         7666.4501953125,
-        7725.8701171875
+        7722.72021484375
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 51189.08,
-      "change": 262.52,
-      "changePercent": 0.5155,
+      "price": 51176.96,
+      "change": 250.4,
+      "changePercent": 0.4917,
       "high": 51382.88,
       "low": 50950.61,
       "open": 0,
       "prevClose": 50926.55859375,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "398.3M",
+      "volume": "549.0M",
       "sparklineData": [
         53061.94921875,
         53686.109375,
@@ -90,7 +90,7 @@
         51349.921875,
         50906.05078125,
         50926.55859375,
-        51189.078125
+        51176.9609375
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 27189.635,
-      "change": 318.04,
-      "changePercent": 1.1836,
+      "price": 27190.863,
+      "change": 319.26,
+      "changePercent": 1.1881,
       "high": 27353.68,
       "low": 27112.24,
       "open": 0,
       "prevClose": 26871.599609375,
       "week52High": 27353.68,
       "week52Low": 20690.25,
-      "volume": "5.4B",
+      "volume": "6.9B",
       "sparklineData": [
         26217.830078125,
         26584.060546875,
@@ -143,7 +143,7 @@
         26797.5390625,
         26861.060546875,
         26871.599609375,
-        27189.634765625
+        27190.86328125
       ],
       "sector": "",
       "marketCap": "",
@@ -165,12 +165,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 333.86,
-      "change": 3.54,
-      "changePercent": 1.0717,
+      "price": 333.69,
+      "change": 3.37,
+      "changePercent": 1.0202,
       "high": 334.54,
       "low": 330.61,
-      "open": 332.375,
+      "open": 333.26,
       "prevClose": 330.32,
       "name": "Apple Inc",
       "sector": "Technology",
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Microsoft Entered the Smart Home Through Your Washing Machine, Not Your Phone",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=0f2d1c3d53eedfae80145cee9847b938daf52ad0d758e9803e034794d9215f82"
+        },
+        {
+          "headline": "Buy, Hold, or Fade Tesla Stock After Its Q3 Delivery Beat?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=807c7554f720bbe4ad548479325252125bd404bb419334342f274310763a67b7"
+        },
+        {
           "headline": "Friday's session: top gainers and losers in the dow jones index",
           "source": "ChartMill",
-          "timeAgo": "24m ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=d3c7a24ec996d4e6f3ea43028242317d0d3e49cd31ec72a434e469e2479a6725"
+        },
+        {
+          "headline": "I Told My Boss I’m Done. Now I Have to Choose Between a 1.73% CD and a 5.26% Treasury",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=4c17e4c8d7707497fec57f7990ae2890979f85ddf55d04d3efc47947c76a007c"
         },
         {
           "headline": "Nvidia Hits Record High as Market Value Reaches $5.7 Trillion",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=83e5d68a7dbe7dfb134ac87c3dabe737083e54f508d15d508808ddaba0fae634"
-        },
-        {
-          "headline": "What's going on in today's session: dow jones movers",
-          "source": "ChartMill",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=95613688eae498627faf1e9092765e34d9fd7c907f05ffb6d9f5ff73e0147392"
-        },
-        {
-          "headline": "Jefferies Sees Signs of Softer iPhone 18 Demand in Resale Pricing",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=fe7b2ad3343b1c1a374ac1dd74db72715872613074cad8ca4572084b5a3f5e87"
-        },
-        {
-          "headline": "Broadcom vs. Taiwan Semiconductor Manufacturing: Which Chip Stock Is a Better Buy in 2026?",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=1cabc81d1a5b21809cde0f24043052a6e40eb0f2cce7f8724115a66f7dc77786"
         }
       ],
       "earnings": [
@@ -251,12 +251,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 343.36,
-      "change": 5.12,
-      "changePercent": 1.5137,
+      "price": 343.5,
+      "change": 5.26,
+      "changePercent": 1.5551,
       "high": 345.77,
-      "low": 340.7875,
-      "open": 340.7875,
+      "low": 341.16,
+      "open": 341.315,
       "prevClose": 338.24,
       "name": "Alphabet Inc",
       "sector": "Media",
@@ -273,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Microsoft Entered the Smart Home Through Your Washing Machine, Not Your Phone",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=0f2d1c3d53eedfae80145cee9847b938daf52ad0d758e9803e034794d9215f82"
+        },
+        {
+          "headline": "SPCX Stock Climbs As Three Thursday Launches Meet Start Of Google’s $920 Million AI Pact",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=2a7776e834dca6c2b0ebc4a861be7977a6d592f84149e54306c8264bc8cab7cd"
+        },
+        {
           "headline": "Friday's session: top gainers and losers in the dow jones index",
           "source": "ChartMill",
-          "timeAgo": "24m ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=d3c7a24ec996d4e6f3ea43028242317d0d3e49cd31ec72a434e469e2479a6725"
         },
         {
-          "headline": "Google raises Pixel 10a price by $100 amid memory cost surge",
+          "headline": "I Sold NVIDIA, Google and Microsoft Over a $2 Trillion AI Gap. Was I Wrong?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=9b4eb397e4971ee9bceeca0d26afe033a4300a091385d3af1789b5ebc321f8e6"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=da51e5484dedd477400c3e64887e03fb4b11a0e3918df93cf8a3625b45d4a595"
         },
         {
-          "headline": "Stock Market Today: Nasdaq Powers Up On U.S. Jobs Shortfall; Tesla Jumps, NetApp Extends Gains (Live Coverage)",
+          "headline": "Nvidia Defies Critics—as Its Stock Nears First Record Since May",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=37ec08fa2e0cb385facc17b8dd1d4199e86ae880a80f5d065d072386e5d94e78"
-        },
-        {
-          "headline": "Alphabet Unveils Gemini 4 Argon After Delays, and Bets on Price",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=918bad4b80a3d4c4e837ac9e96cdc3dc8e9514e2f48d8b6346e8bf04a707d561"
-        },
-        {
-          "headline": "What's going on in today's session: dow jones movers",
-          "source": "ChartMill",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=95613688eae498627faf1e9092765e34d9fd7c907f05ffb6d9f5ff73e0147392"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=74f81c890c07159a67cf99657f7180be03e345f2b580362032087166e1e6e7dd"
         }
       ],
       "earnings": [
@@ -337,12 +337,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 515.1,
-      "change": 2.3,
-      "changePercent": 0.4485,
+      "price": 517.53,
+      "change": 4.73,
+      "changePercent": 0.9224,
       "high": 522.5,
       "low": 513.66,
-      "open": 517.5275,
+      "open": 519.385,
       "prevClose": 512.8,
       "name": "Microsoft Corp",
       "sector": "Technology",
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Can Microsoft Keep Growing Its Dividend Through the AI Spending Cycle?",
+          "headline": "Microsoft Entered the Smart Home Through Your Washing Machine, Not Your Phone",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3bbdeb962691624ceae853f1c817ddd9c824ef456135c3c943ea6dbab03231f0"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=0f2d1c3d53eedfae80145cee9847b938daf52ad0d758e9803e034794d9215f82"
         },
         {
-          "headline": "Forget Microsoft: You don’t need Big Tech to invest in the AI data center boom",
+          "headline": "Nscale Hires Meta’s Justin Osofsky to Be COO Ahead of IPO",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=04b2b92c8c06708dc3774ab041f6df6ef6d2f8fb077e7053349ec87c076b696c"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=59703d89dad07493329b6dd03be69b58b52e8499b37ea0dba2a08faf727d0afc"
         },
         {
-          "headline": "Agent Infrastructure Is Becoming a Commodity SKU — and the Moat Is Moving Upstream",
+          "headline": "I Sold NVIDIA, Google and Microsoft Over a $2 Trillion AI Gap. Was I Wrong?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5697c0cd3e00f67b0cf60719227c748214f9a37dd6ca81ce50db40d2c43b77ed"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=da51e5484dedd477400c3e64887e03fb4b11a0e3918df93cf8a3625b45d4a595"
         },
         {
-          "headline": "CoreWeave capacity constraints bolster Jefferies bull case",
+          "headline": "What Are Amazon Investors Paying for AWS Without Investment Gains?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=70f95846fa10220e03006c371d4f58a14004be1eaf50028e8b86d3026259a272"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=766e0167896a74df11dbf31c39934a184506de85778df3fea96aa251a38368a9"
         },
         {
-          "headline": "Is AI growth helping markets look past oil and rate hike scares?",
+          "headline": "What can go wrong with AI's circular financing",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=81f94deba4df0e451600c6df07c9d4058ea757a62e221db5541c0c91c5bde27b"
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=a2d9f65034e8d216aeb6210c56b4fef4ad7a02ff9e0b7fa0f9836d350c51e8ce"
         }
       ],
       "earnings": [
@@ -423,12 +423,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 250.87,
-      "change": 2.64,
-      "changePercent": 1.0635,
+      "price": 251.52,
+      "change": 3.29,
+      "changePercent": 1.3254,
       "high": 253.5577,
       "low": 250.02,
-      "open": 250.6375,
+      "open": 251.505,
       "prevClose": 248.23,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Microsoft Entered the Smart Home Through Your Washing Machine, Not Your Phone",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=0f2d1c3d53eedfae80145cee9847b938daf52ad0d758e9803e034794d9215f82"
+        },
+        {
+          "headline": "No Longer Complacent, Carter’s Finds a New Groove",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=da579ec0054f549b0184f779428ca9845c8ea8370c9986e294c104ad2e7d9745"
+        },
+        {
           "headline": "Friday's session: top gainers and losers in the dow jones index",
           "source": "ChartMill",
-          "timeAgo": "24m ago",
+          "timeAgo": "4h ago",
           "url": "https://finnhub.io/api/news?id=d3c7a24ec996d4e6f3ea43028242317d0d3e49cd31ec72a434e469e2479a6725"
         },
         {
-          "headline": "More Amazon Prime settlement payments are on the way. Who qualifies?",
+          "headline": "What Are Amazon Investors Paying for AWS Without Investment Gains?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=70f506a8887c990936f4d933d204368dbdee3373d326fcaa51f707804b715c8b"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=766e0167896a74df11dbf31c39934a184506de85778df3fea96aa251a38368a9"
         },
         {
-          "headline": "Can Microsoft Keep Growing Its Dividend Through the AI Spending Cycle?",
+          "headline": "Synopsys Is the Nasdaq 100’s Top Stock Today. The Target Says It’s Not Done",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3bbdeb962691624ceae853f1c817ddd9c824ef456135c3c943ea6dbab03231f0"
-        },
-        {
-          "headline": "Google raises Pixel 10a price by $100 amid memory cost surge",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=9b4eb397e4971ee9bceeca0d26afe033a4300a091385d3af1789b5ebc321f8e6"
-        },
-        {
-          "headline": "Stock Market Today: Nasdaq Powers Up On U.S. Jobs Shortfall; Tesla Jumps, NetApp Extends Gains (Live Coverage)",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=37ec08fa2e0cb385facc17b8dd1d4199e86ae880a80f5d065d072386e5d94e78"
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=00d458189dfee1ad8d236639740ffa19962e7eae4398dd9b656a6a22bf813e31"
         }
       ],
       "earnings": [
@@ -509,12 +509,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 373.51,
-      "change": 19.4,
-      "changePercent": 5.4785,
-      "high": 374.36,
-      "low": 358.915,
-      "open": 358.915,
+      "price": 370.59,
+      "change": 16.48,
+      "changePercent": 4.6539,
+      "high": 374.6,
+      "low": 359.411,
+      "open": 360.08,
       "prevClose": 354.11,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stay informed with the top movers within the S&P500 index on Friday.",
-          "source": "ChartMill",
-          "timeAgo": "30m ago",
-          "url": "https://finnhub.io/api/news?id=ca861ffeeb0452b9b3ceee92fd62a06df36568a2f615f744bf4b4c309f941890"
-        },
-        {
-          "headline": "These S&P500 stocks are the most active in today's session",
-          "source": "ChartMill",
+          "headline": "Stock Market Today, Oct. 2: Tesla Rises on Q3 Delivery Beat",
+          "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4f3a474aab8b20fad6b594cf065b688d4888cc556908714137d7bfa6cc6f9dcb"
+          "url": "https://finnhub.io/api/news?id=7415edc4c47df1de5ed4a18f1d422797cdb1567b55c872df92885f919e72fb7a"
         },
         {
-          "headline": "Tesla Delivered 486,532 Vehicles in Q3. Here’s Why the Real Test Could Come on Oct. 21.",
+          "headline": "Stock Market Today, Oct. 2: Rivian Beats Q3 Delivery Estimates on Record Production Pace",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=1f9201a989411b99df6ed603864fefd7a2e5911b5b80c56795cb9bcb06a8cbc1"
+          "url": "https://finnhub.io/api/news?id=90207b1fd72d90fd5df48023b4c90bc8bc1f9f6d1d82ebc70f1454021d965321"
         },
         {
-          "headline": "Did Gas Vehicle Sales Just Dip Below 50% For The First Time?",
+          "headline": "Tesla Just Lined Up $30 Billion in Credit: What It Means for AI, Capex, and the Investment Case",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e77d12b08fc4837936a853bc2a7a2c1aafd6b9583c648af9d43106ab654bb66c"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=c25afb22aec6f4d582fdb4e90b0e7e00b8f23ddcb219e01e0a355e61e93e03a4"
         },
         {
-          "headline": "Tesla Stock Could Be in for a Massive Move. Here’s My 2027 Price Prediction",
+          "headline": "Sector Update: Consumer Stocks Rise Late Afternoon",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=02ed836d8f453969c9a61737d9006797292a449f1f0348bc89d43076e8e20e81"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=a4702004580cc6220a29cfba381121aa2469195a6e4ff0849666e3f6346bc4b7"
+        },
+        {
+          "headline": "Buy, Hold, or Fade Tesla Stock After Its Q3 Delivery Beat?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=807c7554f720bbe4ad548479325252125bd404bb419334342f274310763a67b7"
         }
       ],
       "earnings": [
