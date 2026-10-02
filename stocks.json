@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-02T07:35:43.670Z",
+  "updatedAt": "2026-10-02T14:11:43.789Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7666.45,
-      "change": 14.91,
-      "changePercent": 0.1949,
-      "high": 7684.75,
-      "low": 7616.78,
+      "price": 7740.13,
+      "change": 73.68,
+      "changePercent": 0.9611,
+      "high": 7750.08,
+      "low": 7720.14,
       "open": 0,
-      "prevClose": 7651.5400390625,
+      "prevClose": 7666.4501953125,
       "week52High": 7816.7,
       "week52Low": 6316.91,
-      "volume": "3.2B",
+      "volume": "550.9M",
       "sparklineData": [
         7666.60009765625,
         7747.7099609375,
@@ -36,7 +36,8 @@
         7683.68994140625,
         7670.83984375,
         7651.5400390625,
-        7666.4501953125
+        7666.4501953125,
+        7740.1298828125
       ],
       "sector": "",
       "marketCap": "",
@@ -57,16 +58,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 50926.6,
-      "change": 20.55,
-      "changePercent": 0.0404,
-      "high": 51179.78,
-      "low": 50546.54,
+      "price": 51205.24,
+      "change": 278.68,
+      "changePercent": 0.5472,
+      "high": 51382.88,
+      "low": 51093.56,
       "open": 0,
-      "prevClose": 50906.05078125,
+      "prevClose": 50926.55859375,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "476.4M",
+      "volume": "140.4M",
       "sparklineData": [
         53061.94921875,
         53686.109375,
@@ -88,7 +89,8 @@
         51481.51171875,
         51349.921875,
         50906.05078125,
-        50926.55859375
+        50926.55859375,
+        51205.23828125
       ],
       "sector": "",
       "marketCap": "",
@@ -109,16 +111,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26871.596,
-      "change": 10.54,
-      "changePercent": 0.0392,
-      "high": 27014.473,
-      "low": 26733.895,
+      "price": 27304.77,
+      "change": 433.17,
+      "changePercent": 1.612,
+      "high": 27326.285,
+      "low": 27172.287,
       "open": 0,
-      "prevClose": 26861.060546875,
-      "week52High": 27288.79,
+      "prevClose": 26871.599609375,
+      "week52High": 27326.285,
       "week52Low": 20690.25,
-      "volume": "6.2B",
+      "volume": "1.8B",
       "sparklineData": [
         26217.830078125,
         26584.060546875,
@@ -140,7 +142,8 @@
         26820.380859375,
         26797.5390625,
         26861.060546875,
-        26871.599609375
+        26871.599609375,
+        27304.76953125
       ],
       "sector": "",
       "marketCap": "",
@@ -162,13 +165,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 330.32,
-      "change": -2.7,
-      "changePercent": -0.8108,
-      "high": 332.4816,
-      "low": 325.81,
-      "open": 330,
-      "prevClose": 333.02,
+      "price": 333.82,
+      "change": 3.5,
+      "changePercent": 1.0596,
+      "high": 333.95,
+      "low": 330.61,
+      "open": 332.375,
+      "prevClose": 330.32,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.82T",
@@ -184,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Tesla Is the Only Magnificent Seven Stock in the Red for 2026",
+          "headline": "Should You Trim Or Add To Your Dell Position Now?",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=e5a75ff1b036abc59b1be1398245a1af37ef409a9f0295f758a32c6de04fbb79"
+          "timeAgo": "53m ago",
+          "url": "https://finnhub.io/api/news?id=d02ed2a6af0bcbd799fa21011ff0f8d84b29063b22fcaa7e796589e2feee1b68"
         },
         {
-          "headline": "3 Growth ETFs to Buy Before 2027: One Charges Just 0.03%",
+          "headline": "Musk’s Remarks Don’t Mean SpaceX Cut Its Starship Launches",
           "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=2886af0f2a3a75a1dd633de2e3e107cd24cdb03ea955176e5dec91e80954d353"
+          "timeAgo": "54m ago",
+          "url": "https://finnhub.io/api/news?id=a33314593bdbe84654bfe4ebb5d5284af99dc0c9273f4647938a80767f220d98"
         },
         {
-          "headline": "Stock Market Today: S&P Climbs To Start October, Micron Gains; Barbie Maker Soars On Deal News",
+          "headline": "Apple (AAPL) Prepares A Siri Powered Smart Home Hub",
           "source": "Yahoo",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=dc513ee84a3d9b0fbe4b51adb17093431be740abf1f38ea281bfbd8b418e7237"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=9db41b2ed7353872c07ca4391a021d37ded8f84d3a520c0b319542c0e305455f"
         },
         {
-          "headline": "Stock Market Today: Nasdaq Gains As Micron Reverses Higher; This Retail Name Breaks Out (Live Coverage)",
+          "headline": "Guidance Raise And Momentum - Dell Stock Has Both",
           "source": "Yahoo",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=2ea55bd2d107a919b9200c5b2f9b0b99d9bd584a5c9eef6c064238264f54b0f8"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=81f43778fd3f607c92a8f1aa419183471d26e1a0e1845b3504e69c29a8da6d17"
         },
         {
-          "headline": "These dow jones stocks are moving in today's session",
-          "source": "ChartMill",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=593aa07a576d9a104d35417a4de50cd4023685048bcb784bbe5f867fa4a98c43"
+          "headline": "Qualcomm Is Losing Apple and Adding Amazon. Is the Stock Ready?",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=4c45d7eacf35cf50cb326056e2c2f659e5c5ae4b85c4b2bab92fb91b362cf355"
         }
       ],
       "earnings": [
@@ -248,13 +251,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 338.24,
-      "change": -5.84,
-      "changePercent": -1.6973,
-      "high": 353.22,
-      "low": 335.5108,
-      "open": 350.785,
-      "prevClose": 344.08,
+      "price": 344.87,
+      "change": 6.63,
+      "changePercent": 1.9601,
+      "high": 345.09,
+      "low": 340.7875,
+      "open": 340.7875,
+      "prevClose": 338.24,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.14T",
@@ -270,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "SPCX Stock Climbs Overnight: Musk Teases ‘Big Deal’ Nvidia AI Milestone — Industry Insider Flags Up To 25% Higher Power",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=957e3648eed61701c9294e6f93fae0169da9372dec728e5ee8427984245c9d35"
-        },
-        {
-          "headline": "Broadcom starts amassing $60 bln to fund chips for Anthropic- Bloomberg",
+          "headline": "How The Two BIggest Hyperscalers Stand to Benefit From Anthropic’s IPO",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8c1cc369aa44836c6d52ed670ce1fc88604b440c7b9bd43694bf30f2f7179ee8"
+          "url": "https://finnhub.io/api/news?id=1679528a3faf533cd72d0f7b1812963434f2601e6a79a3aafe1dd741a93f4ec7"
         },
         {
-          "headline": "Tesla Is the Only Magnificent Seven Stock in the Red for 2026",
+          "headline": "What $10k In Alphabet Today Becomes By 2030",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=e5a75ff1b036abc59b1be1398245a1af37ef409a9f0295f758a32c6de04fbb79"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=6ac4df11c06e0a187678aa710a26433c8548aad42ba3e3a4e99abd07a7a2ef2e"
         },
         {
-          "headline": "OceanBase and MB Bank Enter into Strategic MOU to Accelerate Database Modernization and Infrastructure Resilience",
+          "headline": "Marvell's Custom AI Silicon Deals With Hyperscalers Could Redefine Its Growth Story",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=01efb9b945b36d51c06bf02b7cc8a9ec790d1fd4fa128ec6091e7a2474cb1cb1"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9c34e384aef29741842c48ab4579aa3559fb30b3d02e8315cf4151b5e2d9d0a0"
         },
         {
-          "headline": "Google Just Sent Its AI Chips Into Space — Now Comes The Hard Part",
+          "headline": "The most powerful AI in the world is being hidden from you",
           "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=f8ed0486ac39fbe51973f4c65a709abee93a4fcc076571c508e6ddd43ff2bd20"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=3beac0e6876609ba448a72dfe06a507562f100a07bedddb4aeef9ede311754a2"
+        },
+        {
+          "headline": "Accenture Silences the AI Skeptics, Nike Warns the Pain Isn't Over",
+          "source": "ChartMill",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=edfb258113299bc729c0988e637af84ee3891556c48037d1750b4142ecf69bd9"
         }
       ],
       "earnings": [
@@ -334,13 +337,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 512.8,
-      "change": -0.1,
-      "changePercent": -0.0195,
-      "high": 522.85,
-      "low": 512.17,
-      "open": 519.88,
-      "prevClose": 512.9,
+      "price": 518.01,
+      "change": 5.21,
+      "changePercent": 1.016,
+      "high": 522.5,
+      "low": 515,
+      "open": 517.5275,
+      "prevClose": 512.8,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.81T",
@@ -356,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Palantir Billionaire Peter Thiel Has 42% of His Portfolio in These 2 Artificial Intelligence Stocks",
+          "headline": "Marvell's Custom AI Silicon Deals With Hyperscalers Could Redefine Its Growth Story",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9c34e384aef29741842c48ab4579aa3559fb30b3d02e8315cf4151b5e2d9d0a0"
+        },
+        {
+          "headline": "The Dates That Matter Most For Amazon Stock",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=9af7daa37f7801ef72a28fe2aaf0d05bd9a625b8590c8b07d50ed983a6295560"
+          "url": "https://finnhub.io/api/news?id=55f1e386a35ca3197073a5ee33eac1a536a7778103adc42c2d440b05d7acd82c"
         },
         {
-          "headline": "Tesla Is the Only Magnificent Seven Stock in the Red for 2026",
+          "headline": "Is Microsoft Stock Paying You Enough For The Swings?",
           "source": "Yahoo",
           "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=e5a75ff1b036abc59b1be1398245a1af37ef409a9f0295f758a32c6de04fbb79"
+          "url": "https://finnhub.io/api/news?id=9f49e02e47f528c09320c0328ef16a418480db3fb0a9be7cb4f22dae2912173a"
         },
         {
-          "headline": "Why Is Microsoft (MSFT) Joining An AI Data Center Coalition Now?",
+          "headline": "Micron is about to do something that would surprise most Magnificent 7 investors",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=a7ea02aad14bb1c8e880c130d718a3b86a1908194a8608ebc69cbe49d0851180"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=39613fbd01f187740ccfb4fe200afb5323ef656332bb63bb39a16f1756650117"
         },
         {
-          "headline": "Will Micron Set Off An October Volatility Spike?",
-          "source": "SeekingAlpha",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=37218a4580cdad1cc82ddd85f2e2e2b92e4d8527b7b3c276a86f8c6a03350e91"
-        },
-        {
-          "headline": "Rezolve AI Highlights Agentic Commerce Strategy, 2026 Revenue Growth at Lytham Conference",
+          "headline": "Salesforce Expands AI Bundles: Will Higher Adoption Boost ARR?",
           "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=f3fb118ad0863626db43856478d9f83f95174a1adfb46e52f381667d2ea8e507"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=257fca7301e30e6b705f7be0ced08ce7f8e8c2108595fd60ce4baa797d2c809d"
         }
       ],
       "earnings": [
@@ -420,13 +423,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 248.23,
-      "change": -0.92,
-      "changePercent": -0.3693,
-      "high": 251.83,
-      "low": 246.1167,
-      "open": 251.605,
-      "prevClose": 249.15,
+      "price": 252.66,
+      "change": 4.43,
+      "changePercent": 1.7846,
+      "high": 253.5577,
+      "low": 250.6375,
+      "open": 250.6375,
+      "prevClose": 248.23,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.68T",
@@ -442,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Amazon seeks to offload $8 bln of Nvidia chips to investors- FT",
+          "headline": "Why Amazon is trying to offload $8B of chips from its balance sheet",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=886f027fa46edb25b85723b224f8aa79596880cca96eb433071ffe73916318a2"
+          "timeAgo": "27m ago",
+          "url": "https://finnhub.io/api/news?id=ebac8ad923d5f8b2a05badfb00ff28e2d59cce1bd5eade45d5ba35bcdb389c3a"
         },
         {
-          "headline": "Palantir Billionaire Peter Thiel Has 42% of His Portfolio in These 2 Artificial Intelligence Stocks",
+          "headline": "Sector Update: Tech Stocks Rise Pre-Bell Friday",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=9af7daa37f7801ef72a28fe2aaf0d05bd9a625b8590c8b07d50ed983a6295560"
+          "timeAgo": "58m ago",
+          "url": "https://finnhub.io/api/news?id=3b504079c07d2a9619dca7bbac45be0a90143d4aa940bf45ab8c4f0f80bcf5a4"
         },
         {
-          "headline": "Did Amazon’s AI Chip and Nuclear Power Deals Just Shift Amazon.com's (AMZN) Investment Narrative?",
+          "headline": "Qualcomm Is Losing Apple and Adding Amazon. Is the Stock Ready?",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=96547f6a3466c65b0211b3e88da76adc1ec04a4c4b94569e26ec5fe745fae75b"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=4c45d7eacf35cf50cb326056e2c2f659e5c5ae4b85c4b2bab92fb91b362cf355"
         },
         {
-          "headline": "Synopsys (SNPS) Bags New Multi-Billion Dollar Deals, Shares Spike",
+          "headline": "Correction: Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spending",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=6144daa7f23f6268830572f5f5ab839fd68ca36c5c6b3acd26578889012e4109"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=95ffa93fa911e6705859ccbcbefc3050b33ff77314171d8a8239c21077836479"
         },
         {
-          "headline": "Tesla Is the Only Magnificent Seven Stock in the Red for 2026",
+          "headline": "Amazon hiking AI chip rental prices, exploring Nvidia leaseback",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=e5a75ff1b036abc59b1be1398245a1af37ef409a9f0295f758a32c6de04fbb79"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d2c1c1f2acd219def550c88623fc373f099ece2d17c5c4c66c0f50b161ad4a6d"
         }
       ],
       "earnings": [
@@ -506,13 +509,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 354.11,
-      "change": -0.7,
-      "changePercent": -0.1973,
-      "high": 359.79,
-      "low": 353.8,
-      "open": 356.81,
-      "prevClose": 354.81,
+      "price": 372.75,
+      "change": 18.64,
+      "changePercent": 5.2639,
+      "high": 372.87,
+      "low": 358.915,
+      "open": 358.915,
+      "prevClose": 354.11,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.40T",
@@ -528,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Elon Musk Says Cutting Optimus Memory Was Tesla's 'Only Way' to Scale, As Micron Says Humanoid Robots Need 200GB+ of Memory Each",
+          "headline": "Markets Need the Jobs Report to Point to a Fed Hold",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=2fd6a076bae031e769c7b2855fe1d34f269a1e7ccc885e5cdc56e19d7a868431"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7c7df65fd5ac81a717c3a3321325463d517f0cdd27a9ec001de83fa8964ca142"
         },
         {
-          "headline": "TSLA Eyes Worst Week In 2 Months As Q3 Delivery Numbers Loom — But Munster Bets On A Beat As 'EV Winter' Thaws",
+          "headline": "3 EV Stocks To Own In October 2026",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=5a6322f948a2a19db196a4effd932d9e933be52397484c4758e8d57052b335e6"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=cebe053087ea35ba16fc77d2c32b7ff04b08bc0165bb8bc7ad4761cd25010533"
         },
         {
-          "headline": "Tesla Is the Only Magnificent Seven Stock in the Red for 2026",
+          "headline": "Ron Baron: Elon Musk’s ‘unbelievable’ new product that all Americans will want — and ‘now’ is the time to buy stock",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=e5a75ff1b036abc59b1be1398245a1af37ef409a9f0295f758a32c6de04fbb79"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=021671141aa5e9d1584af7efe6b48d4ea1131a98d5edc5e5ce20480fa4ac6cc1"
         },
         {
-          "headline": "What Is the Worst-Performing \"Magnificent Seven\" Stock in 2026?",
+          "headline": "This Week In Electric Vehicles - Charging Network Expansion Powers Future Mobility Growth",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=5d002362d28ea51b061603294f50bfe031ceb96722ba9ca4b14173d4d31ef1d0"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=6356ab7de3fee4b90aa2cc1d440bf53dd0c0783ba48f31fc2c410eceeb333fa1"
         },
         {
-          "headline": "Dow Jones Futures: Stocks Rise Off Support As Yields Tumble, Micron, Meta In Focus; Tesla, Jobs Report Due",
+          "headline": "Should You Forget Tesla and Buy These 3 Robotics Stocks Instead?",
           "source": "Yahoo",
-          "timeAgo": "9h ago",
-          "url": "https://finnhub.io/api/news?id=fcf67aa83e6e7c7f767d7e5f3acab229f459cc21c7999b5f79d77630c862e083"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=d413318997a2611835aee2188106cc38ed23177dfd7511c47e8a7f75d80c51f0"
         }
       ],
       "earnings": [
