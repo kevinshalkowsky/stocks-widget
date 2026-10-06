@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-06T09:28:42.632Z",
+  "updatedAt": "2026-10-06T16:18:44.166Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7773.95,
-      "change": 51.23,
-      "changePercent": 0.6634,
-      "high": 7794.35,
-      "low": 7727.59,
+      "price": 7835.16,
+      "change": 61.21,
+      "changePercent": 0.7874,
+      "high": 7844.52,
+      "low": 7805.96,
       "open": 0,
-      "prevClose": 7722.72021484375,
-      "week52High": 7816.7,
+      "prevClose": 7773.9501953125,
+      "week52High": 7844.52,
       "week52Low": 6316.91,
-      "volume": "3.5B",
+      "volume": "1.0B",
       "sparklineData": [
         7673.52001953125,
         7636.35986328125,
@@ -35,7 +35,8 @@
         7651.5400390625,
         7666.4501953125,
         7722.72021484375,
-        7773.9501953125
+        7773.9501953125,
+        7835.16015625
       ],
       "sector": "",
       "marketCap": "",
@@ -56,16 +57,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 51267.9,
-      "change": 90.94,
-      "changePercent": 0.1777,
-      "high": 51404.86,
-      "low": 50862.85,
+      "price": 51611.98,
+      "change": 344.08,
+      "changePercent": 0.6711,
+      "high": 51672.25,
+      "low": 51422.9,
       "open": 0,
-      "prevClose": 51176.9609375,
+      "prevClose": 51267.8984375,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "472.4M",
+      "volume": "166.7M",
       "sparklineData": [
         52786.0703125,
         52380.66015625,
@@ -86,7 +87,8 @@
         50906.05078125,
         50926.55859375,
         51176.9609375,
-        51267.8984375
+        51267.8984375,
+        51611.98046875
       ],
       "sector": "",
       "marketCap": "",
@@ -107,16 +109,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 27477.31,
-      "change": 286.45,
-      "changePercent": 1.0535,
-      "high": 27544.064,
-      "low": 27223.494,
+      "price": 27666.344,
+      "change": 189.03,
+      "changePercent": 0.6879,
+      "high": 27722.748,
+      "low": 27613.541,
       "open": 0,
-      "prevClose": 27190.859375,
-      "week52High": 27544.064,
+      "prevClose": 27477.310546875,
+      "week52High": 27722.748,
       "week52Low": 20690.25,
-      "volume": "7.0B",
+      "volume": "4.1B",
       "sparklineData": [
         26421.41015625,
         26253.33984375,
@@ -137,7 +139,8 @@
         26861.060546875,
         26871.599609375,
         27190.859375,
-        27477.310546875
+        27477.310546875,
+        27666.34375
       ],
       "sector": "",
       "marketCap": "",
@@ -159,13 +162,13 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 332.89,
-      "change": -0.8,
-      "changePercent": -0.2397,
-      "high": 336.21,
-      "low": 331.65,
-      "open": 332.815,
-      "prevClose": 333.69,
+      "price": 332.92,
+      "change": 0.03,
+      "changePercent": 0.009,
+      "high": 334.38,
+      "low": 330.62,
+      "open": 332.28999999999996,
+      "prevClose": 332.89,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$4.86T",
@@ -181,34 +184,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Is Taiwan Semiconductor the Best AI Stock to Buy Now?",
+          "headline": "Why this chart making the rounds on X is a bad omen for stocks",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=bb0b2404d2d8d336b39f6d40cef623987c1f13ca0aac17df534085e2026e6a77"
+          "timeAgo": "19m ago",
+          "url": "https://finnhub.io/api/news?id=e129d7936852fa8c15d98e38f810202db463580c9f673884f5e202511d8e531a"
         },
         {
-          "headline": "Zacks Investment Ideas feature highlights: NVIDIA's, Alphabet's, Meta, Expedia, Apple and MongoDB",
+          "headline": "Apple's App Store Growth Rebounds in September; Sees Solid iPhone Demand, UBS Says",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=28d4f9293b76613111469c9017c7a2a5a51c1a97e2ea62dfcf91b6c4a77a56a1"
+          "timeAgo": "39m ago",
+          "url": "https://finnhub.io/api/news?id=2e600632fd1af1fc12fb56f1fa01de552851b126169a47255380ab989aeb519c"
         },
         {
-          "headline": "Here's How Many Shares of Apple You'd Need for $10,000 in Yearly Dividends",
+          "headline": "Cramer Says $82 Semiconductor Stock Is A Buy After It Completes Merger With Rival",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=473b638fdd4789fb43ed5c7790498b9a0d41f17f26f999be2d7a9ab36985948e"
+          "timeAgo": "57m ago",
+          "url": "https://finnhub.io/api/news?id=d4b8a42df6bb774236540ba71050075aaf264579310b001d151f7b4817f14de4"
         },
         {
-          "headline": "NYSE’s Parent Just Filed to Tokenize 63 US Stocks on a Crypto-Native Exchange — And the SEC Already Gave It Permission",
+          "headline": "Sozzi talks SpaceX, takes a look at Nike, and chats with the Conference Board CEO",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=747b93a1b9acffd07c7522220fe485f0df8eb6b27635895298dcfe6662071794"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d07dbe19af84ddbe763216708c1a6c35385bb66cdd013f239da51a34846c5f81"
         },
         {
-          "headline": "BlackBerry (BB) Lost the Smartphone War. Is QNX Winning Big Enough to Justify the Price?",
+          "headline": "Can Apple’s (AAPL) Record Quarter Justify Its Multiple?",
           "source": "Yahoo",
-          "timeAgo": "12h ago",
-          "url": "https://finnhub.io/api/news?id=77fa92f2f0851d55f3e3cb11339f0a843b3ae02619e1baf42dd316c0bf56b10c"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=4e6c49ae1715a15ba9e37be1f9e185bb44925465d66b6e521a83ea3753adfa9c"
         }
       ],
       "earnings": [
@@ -245,13 +248,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 346.47,
-      "change": 2.97,
-      "changePercent": 0.8646,
-      "high": 348.09,
-      "low": 342.4,
-      "open": 342.59,
-      "prevClose": 343.5,
+      "price": 348.03,
+      "change": 1.56,
+      "changePercent": 0.4503,
+      "high": 349.09,
+      "low": 344.6805,
+      "open": 347.38,
+      "prevClose": 346.47,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$4.24T",
@@ -267,34 +270,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Does Wall Street Think Gemini 4 Argon Stacks Up Against The Competition?",
+          "headline": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=941049a213b51db90c077952a6eb4ac40218ebb7799b3b42e163280b069fdab3"
+          "timeAgo": "27m ago",
+          "url": "https://finnhub.io/api/news?id=5759d924d361f2f0d1fe14a87c7c71cee0b7ecf7c671a379920616f40d18c6f7"
         },
         {
-          "headline": "Anthropic’s October 15 Deadline Forces the Pricing Floor",
+          "headline": "Marvell stock surges after company raises 2028 revenue outlook to $20 billion",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=71d0246f8a423d9156dd086d845730193515c86c58299891eff35a508a52b8a1"
+          "timeAgo": "28m ago",
+          "url": "https://finnhub.io/api/news?id=df6316b6758364baf8495c30d9238996ae06ed35ee620c33df8b718e35ba5dfa"
         },
         {
-          "headline": "The Zacks Analyst Blog Highlights Lam, Taiwan, Marathon, NVIDIA, Micron and Alphabet",
+          "headline": "Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Constellation; Marvell Raises Revenue Guidance for 2026-27",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=60179a5c700c06054ef8c9e668a19d0280e296064c794a98999b461eaab3baa4"
+          "timeAgo": "32m ago",
+          "url": "https://finnhub.io/api/news?id=02d9d73cbd74c1736a763339668419b85bb7a58522d8deba1655e94be61318dc"
         },
         {
-          "headline": "Google, Constellation near $1 billion-plus nuclear power deal, Bloomberg reports",
+          "headline": "Here's Why SpaceX's AI Infrastructure in Space \"Moonshot\" Won't Uproot Neocloud Companies",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=da211f6c9330712cdb2b9b3968d9c9c3ca14c85d84e103756d799ea40957b003"
+          "timeAgo": "38m ago",
+          "url": "https://finnhub.io/api/news?id=e6e43b733e06da448a82836fcdc8839c6e4ed6d0554a2887e82e77b67fedde03"
         },
         {
-          "headline": "Zacks Investment Ideas feature highlights: NVIDIA's, Alphabet's, Meta, Expedia, Apple and MongoDB",
+          "headline": "What Will $5,000 Invested in Broadcom Stock Be Worth in 5 Years?",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=28d4f9293b76613111469c9017c7a2a5a51c1a97e2ea62dfcf91b6c4a77a56a1"
+          "timeAgo": "48m ago",
+          "url": "https://finnhub.io/api/news?id=4cf5783bcf7119527bb2f19977592f8565ef00b3cde9a3061df259aaff4914e7"
         }
       ],
       "earnings": [
@@ -331,13 +334,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 525.18,
-      "change": 7.65,
-      "changePercent": 1.4782,
-      "high": 532.35,
-      "low": 521.47,
-      "open": 521.62,
-      "prevClose": 517.53,
+      "price": 532.16,
+      "change": 6.98,
+      "changePercent": 1.3291,
+      "high": 535.69,
+      "low": 528.78,
+      "open": 531.6899999999999,
+      "prevClose": 525.18,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.90T",
@@ -353,34 +356,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nasdaq Hits a Fresh Record While the 10-Year Climbs to 5.31%",
-          "source": "ChartMill",
+          "headline": "Why this chart making the rounds on X is a bad omen for stocks",
+          "source": "Yahoo",
+          "timeAgo": "19m ago",
+          "url": "https://finnhub.io/api/news?id=e129d7936852fa8c15d98e38f810202db463580c9f673884f5e202511d8e531a"
+        },
+        {
+          "headline": "Marvell stock surges after company raises 2028 revenue outlook to $20 billion",
+          "source": "Yahoo",
+          "timeAgo": "28m ago",
+          "url": "https://finnhub.io/api/news?id=df6316b6758364baf8495c30d9238996ae06ed35ee620c33df8b718e35ba5dfa"
+        },
+        {
+          "headline": "Stock Market Today: Dow Rises As Oil, Yields Fall; AMD, Nvidia, Tesla Shares Rally (Live Coverage)",
+          "source": "Yahoo",
+          "timeAgo": "48m ago",
+          "url": "https://finnhub.io/api/news?id=17e181e56894175d3d48e8234373dbdf984acc756da331e92076e6fc53f1d371"
+        },
+        {
+          "headline": "These 5 key events could be SpaceX's next big catalysts",
+          "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cf7d02a17a97c293cb3d48d6293c22a01187ab427091a00190a1bacf4496ab2e"
+          "url": "https://finnhub.io/api/news?id=74f18baa5e83f044fc3d6312538f7da3cf67ecdce08994a8b9eb30aa35b8e5e8"
         },
         {
-          "headline": "Euromonitor International Launches Next-Generation Passport",
+          "headline": "Did IREN’s Pivot From Bitcoin Mining to AI Cloud Deals Just Shift IREN's (IREN) Investment Narrative?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=461b6ee26d7b1a5c12a3ee718f91ed3d62225f582ef41f981522fa5c8120fec8"
-        },
-        {
-          "headline": "Jim Cramer Says Software Was the Story of Q3. The Numbers Agree",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=d8c38b68c9401cee7fa4bdbee5dfecc1ff6e5638c8b020206a0bc8d21c97aaa6"
-        },
-        {
-          "headline": "Dan Niles Backs Alphabet and Meta as Google Cloud Grows Over 80%",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=da78b02e4b50bd6389cf1c1939f0f16046592c5e22ecf62cdfb8a3508f0fdac8"
-        },
-        {
-          "headline": "NYSE’s Parent Just Filed to Tokenize 63 US Stocks on a Crypto-Native Exchange — And the SEC Already Gave It Permission",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=747b93a1b9acffd07c7522220fe485f0df8eb6b27635895298dcfe6662071794"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b314a62de972c105af24242b87b6ddaff9772c2a6a76754fa12c08d3ee842aa4"
         }
       ],
       "earnings": [
@@ -417,13 +420,13 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 251.4,
-      "change": -0.12,
-      "changePercent": -0.0477,
-      "high": 254.5262,
-      "low": 250.18,
-      "open": 250.19,
-      "prevClose": 251.52,
+      "price": 255.4,
+      "change": 4,
+      "changePercent": 1.5911,
+      "high": 256.22,
+      "low": 251.08,
+      "open": 253.41,
+      "prevClose": 251.4,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.71T",
@@ -439,34 +442,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nasdaq Hits a Fresh Record While the 10-Year Climbs to 5.31%",
-          "source": "ChartMill",
+          "headline": "Nvidia  Is Now Worth More Than META , AMZN  and AMD — Combined!",
+          "source": "Yahoo",
+          "timeAgo": "27m ago",
+          "url": "https://finnhub.io/api/news?id=b9529dca6e4824815ee500cd6a6583b7f277837e4544253a394e20d59645c87b"
+        },
+        {
+          "headline": "Marvell stock surges after company raises 2028 revenue outlook to $20 billion",
+          "source": "Yahoo",
+          "timeAgo": "28m ago",
+          "url": "https://finnhub.io/api/news?id=df6316b6758364baf8495c30d9238996ae06ed35ee620c33df8b718e35ba5dfa"
+        },
+        {
+          "headline": "Jim Cramer just made a shocking call on Amazon stock",
+          "source": "Yahoo",
+          "timeAgo": "45m ago",
+          "url": "https://finnhub.io/api/news?id=9f4427dd7fe637cd3d8205dcfa7b00ab448ae1c2449b901292af35cd10226bc9"
+        },
+        {
+          "headline": "How Etsy is pushing freight decarbonization",
+          "source": "Yahoo",
+          "timeAgo": "52m ago",
+          "url": "https://finnhub.io/api/news?id=68352aab3f0069ee7a599f9d5261bb5fb845b708022a142f3635e37702f575d9"
+        },
+        {
+          "headline": "Anthropic Plans to Spend $518 Billion on Cloud and Computing Power",
+          "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cf7d02a17a97c293cb3d48d6293c22a01187ab427091a00190a1bacf4496ab2e"
-        },
-        {
-          "headline": "Pinterest Brings In Amazon Finance Veteran James Dibbo As CFO: 'Exceptional Finance Leader,' Says CEO ⁠Bill Ready",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=a9efb68ce71d18230dba614b9cef87634ed128a36905a62dee0f99f40951fc6c"
-        },
-        {
-          "headline": "Dan Niles Backs Alphabet and Meta as Google Cloud Grows Over 80%",
-          "source": "Yahoo",
-          "timeAgo": "5h ago",
-          "url": "https://finnhub.io/api/news?id=da78b02e4b50bd6389cf1c1939f0f16046592c5e22ecf62cdfb8a3508f0fdac8"
-        },
-        {
-          "headline": "NYSE’s Parent Just Filed to Tokenize 63 US Stocks on a Crypto-Native Exchange — And the SEC Already Gave It Permission",
-          "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=747b93a1b9acffd07c7522220fe485f0df8eb6b27635895298dcfe6662071794"
-        },
-        {
-          "headline": "Why Is CEG Stock Surging More Than 4% In Overnight Trading?",
-          "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=8ef4e323775eb29a0a05a5563df83a2a0e69e3f19887e2a80333aadd72ee4ed9"
+          "url": "https://finnhub.io/api/news?id=7b8bf096a46a3951a5244b9c8a29c5d8aa6bd24a39652dd0f3f199f98b412c4c"
         }
       ],
       "earnings": [
@@ -503,13 +506,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 378.73,
-      "change": 8.14,
-      "changePercent": 2.1965,
-      "high": 381.59,
-      "low": 364.91,
-      "open": 369,
-      "prevClose": 370.59,
+      "price": 380.71,
+      "change": 1.98,
+      "changePercent": 0.5228,
+      "high": 383.33,
+      "low": 378.52,
+      "open": 381.985,
+      "prevClose": 378.73,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.50T",
@@ -525,34 +528,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Elon Musk's Trump Admin 'Return' Puts Tesla, SpaceX in Focus: Analyst Says TSLA Faces 'Key Test' — Prediction Market Weighs in",
+          "headline": "Stellantis N.V. vs. Tesla: Which Consumer Stock Is a Better Buy in 2026?",
+          "source": "Yahoo",
+          "timeAgo": "56m ago",
+          "url": "https://finnhub.io/api/news?id=23cf5fafacfae18434de2be3c4c6dcb1f4ead23dd82c2105cb270f86518c0428"
+        },
+        {
+          "headline": "These 5 key events could be SpaceX's next big catalysts",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cffef0e77e18bd35181d69086ed3a5c85c9e0d6e173535a2fa197921a5ae4406"
+          "url": "https://finnhub.io/api/news?id=74f18baa5e83f044fc3d6312538f7da3cf67ecdce08994a8b9eb30aa35b8e5e8"
         },
         {
-          "headline": "TSLA Stock Rises Overnight: Analyst Says SpaceX Merger Buzz Could ‘Dominate’ Near-Term Narrative — Gary Black Sees More Gains Ahead",
+          "headline": "Sozzi talks SpaceX, takes a look at Nike, and chats with the Conference Board CEO",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=104c6ff017fedb7616159f3a4bc346d84a929274c957eea34a46c43158b6c724"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d07dbe19af84ddbe763216708c1a6c35385bb66cdd013f239da51a34846c5f81"
         },
         {
-          "headline": "NYSE’s Parent Just Filed to Tokenize 63 US Stocks on a Crypto-Native Exchange — And the SEC Already Gave It Permission",
+          "headline": "Elon Musk Is a Trillionaire Again Thanks to Recent Tesla, SpaceX Rally",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=747b93a1b9acffd07c7522220fe485f0df8eb6b27635895298dcfe6662071794"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=26779e759d69c2ff75efc0ebff39158ce108195f93dc1d9eb4b80add7206bdbd"
         },
         {
-          "headline": "U.S. stock futures steady after Nasdaq hits record on reduced Fed hike bets",
+          "headline": "Tesla vs. Waymo: A Face-Off Between the Two Robotaxi Giants",
           "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=75700674811d9261ee8d3823320d0ca223490942bcd0e27e21e9feffe796e4ad"
-        },
-        {
-          "headline": "SPCX Stock Makes Musk A Trillionaire Again: Sequoia's Maguire Says Investors Are Just 'Starting To Understand SpaceX'",
-          "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=60834cacd291c5037940321a987afa5d34a1954d1aaf9cd3ee14037fc812b716"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=bce66550cbdd18799e5a8b916895db571b1ba12720b203b5c0e7a3af4ed3cc9d"
         }
       ],
       "earnings": [
