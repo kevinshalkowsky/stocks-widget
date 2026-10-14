@@ -1,21 +1,44 @@
 {
-  "updatedAt": "2026-10-14T00:40:25.349Z",
+  "updatedAt": "2026-10-14T05:32:15.907Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
+      "price": 7805.45,
+      "change": -1.79,
+      "changePercent": -0.0229,
+      "high": 7814.15,
+      "low": 7786.11,
       "open": 0,
-      "prevClose": 0,
-      "week52High": 0,
-      "week52Low": 0,
-      "volume": "",
-      "sparklineData": [],
+      "prevClose": 7807.240234375,
+      "week52High": 7844.52,
+      "week52Low": 6316.91,
+      "volume": "2.6B",
+      "sparklineData": [
+        7619.97998046875,
+        7585.72998046875,
+        7551.81005859375,
+        7637.759765625,
+        7650.5,
+        7764.7001953125,
+        7764.64013671875,
+        7706.02978515625,
+        7704.1298828125,
+        7743.41015625,
+        7683.68994140625,
+        7670.83984375,
+        7651.5400390625,
+        7666.4501953125,
+        7722.72021484375,
+        7773.9501953125,
+        7818.93017578125,
+        7801.77001953125,
+        7765.35986328125,
+        7811.5400390625,
+        7807.240234375,
+        7805.4501953125
+      ],
       "sector": "",
       "marketCap": "",
       "logo": "",
@@ -35,17 +58,40 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 0,
-      "change": 0,
-      "changePercent": 0,
-      "high": 0,
-      "low": 0,
+      "price": 51670.1,
+      "change": -180.45,
+      "changePercent": -0.348,
+      "high": 52317.32,
+      "low": 51587.67,
       "open": 0,
-      "prevClose": 0,
-      "week52High": 0,
-      "week52Low": 0,
-      "volume": "",
-      "sparklineData": [],
+      "prevClose": 51850.55078125,
+      "week52High": 54744.33,
+      "week52Low": 45057.28,
+      "volume": "395.7M",
+      "sparklineData": [
+        52421.19921875,
+        52093.109375,
+        51461.8984375,
+        51778.0390625,
+        51682.640625,
+        52048.828125,
+        51863.69140625,
+        51511.58984375,
+        51349.98046875,
+        51828.62109375,
+        51481.51171875,
+        51349.921875,
+        50906.05078125,
+        50926.55859375,
+        51176.9609375,
+        51267.8984375,
+        51521.28125,
+        51179.87109375,
+        51231.640625,
+        51654.94921875,
+        51850.55078125,
+        51670.1015625
+      ],
       "sector": "",
       "marketCap": "",
       "logo": "",
@@ -141,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Why Did AAPL, BMBL, BP Stocks Rise To 52-Week Highs Today?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=50ac040ed16dde38a04e2e24339fbab7fa0fb86fb6acfa63216e0395ed5af3c6"
+        },
+        {
+          "headline": "MIT dropout’s two startups announce shutdown weeks apart",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=8dc4f87fba8bb288425b10da20ce0a159a14f43c7c19f6f6a50193e1a6f99d58"
+        },
+        {
           "headline": "Elon Musk's SpaceX could change how Americans buy iPhones",
           "source": "Yahoo",
-          "timeAgo": "37m ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=e110a567dcd940fed73672a8d327771ef83f35ff71f2d705d92e9d56b6f2306b"
         },
         {
           "headline": "If You Own SPY, This Lower-Cost Fund Tracks Identical Holdings for Less Than Half the Fee",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=8286ecf0d7f8fdcf36763076b84789e585f1f2e8480cb3ef54ae7172c68f02fd"
         },
         {
-          "headline": "Apple’s $299 HomeView Is The Tech Giant’s Next Bet on the Smart Home",
+          "headline": "Applied Materials’ $5 billion AI lab aims to cut chip development time in half—and restore Silicon Valley’s edge",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ecb3df7428d4ddbc197a6ef3882a74463465519882e7db0ea5efec4bc034301e"
-        },
-        {
-          "headline": "Garmin Stock Rises on Luxury Watch Upgrades. It Keeps Moving Beyond Navigation.",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=60df50c5045fb37460f69fb188f3aae151431a1df4b72f5b3a1b228f232a036b"
-        },
-        {
-          "headline": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=d8b44040b589a5fe5501bb3afd3f6d352961ae093b194516d4cb21e6a6bda49c"
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=6f07fb07fd469f49a83472d538a93b319ed2f6eac5d65bb90dfae21dcf5de2c8"
         }
       ],
       "earnings": [
@@ -227,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Here's Where Netflix and 3 Other Streaming and Media Stocks Could Be by 2030",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=f206449bf7a3db5b808b78b4f8d1b579d7fd85532ab46ed57233d33978bb6eca"
+        },
+        {
+          "headline": "CrowdStrike vs. Palantir Technologies: What Revenue Trends Tell Investors About These High-Growth Tech Companies",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=27b4761eb5cf4fa8f70eb889c8f770f8493ddff13dc0c1960d8bbeb6547d2d46"
+        },
+        {
+          "headline": "Applied Materials’ $5 billion AI lab aims to cut chip development time in half—and restore Silicon Valley’s edge",
+          "source": "Yahoo",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=6f07fb07fd469f49a83472d538a93b319ed2f6eac5d65bb90dfae21dcf5de2c8"
+        },
+        {
           "headline": "Franklin Templeton CEO says AI is hiding a bigger tech story",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=d7ed3bee94c38a60709d4e669c0ec386c32df9defc21054c492309d8c002a485"
         },
         {
           "headline": "Disney strikes $20-million deal for Character.ai's assets as AI startup files for bankruptcy",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=4ff145b84bdbef140f3c31d2ba00e7500856ae85ff48d23437d5348b2f54e877"
-        },
-        {
-          "headline": "Does the Risk-Reward Profile Still Favor Alphabet (GOOGL) Investors?",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=90e311ecb163e0e2633cb21a36293336d180874915f3b3e005ab3d2939ff1adc"
-        },
-        {
-          "headline": "Has IBM Stock Become A Different Bet?",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=7a60e94db7d4232b90f6724f2239f5bf44333ccb2643e04f5658315d3100a673"
-        },
-        {
-          "headline": "Google’s Gemini 4 Argon is Here",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=fbc110504a0c2d1e8a34015ca641532e86c0bdc1f006aa1dc004ddc47282ddd4"
         }
       ],
       "earnings": [
@@ -313,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Dow Jones Futures: Techs Rise After Meta, AMD Lead Buys; ASML, CPI Inflation Due",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=79511163cac5e104f71c0e982a149c0e835dd2aab06cdc032fc1c312c342dc54"
+        },
+        {
+          "headline": "MIT dropout’s two startups announce shutdown weeks apart",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=8dc4f87fba8bb288425b10da20ce0a159a14f43c7c19f6f6a50193e1a6f99d58"
+        },
+        {
+          "headline": "His Silicon Valley Pay Will Jump Above $184,500. Social Security Won’t Credit Every Extra Dollar Toward His Future Benefit",
+          "source": "Yahoo",
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=897b54fce6f98203ec443c14d9d0220c000606956437050ff6d46e1a135df309"
+        },
+        {
+          "headline": "GreenCore Solutions Corp. (GSC) Releases gtinfetch.ai -- the GTIN Resolver for AI Agents",
+          "source": "Yahoo",
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=3d00fb569754ba46cf43bde5435421ec95d614f7274a626086bd8e8cddb94d35"
+        },
+        {
           "headline": "Microsoft Weighs 20% Cost Cuts In Azure Vertical Amid Soaring AI Data Center Spending: Report",
           "source": "Yahoo",
-          "timeAgo": "59m ago",
+          "timeAgo": "5h ago",
           "url": "https://finnhub.io/api/news?id=06259daa8c151882c5e4e07bc8de9c5407fcee4a3ddae08331510c2640ac4466"
-        },
-        {
-          "headline": "If You Own SPY, This Lower-Cost Fund Tracks Identical Holdings for Less Than Half the Fee",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=8286ecf0d7f8fdcf36763076b84789e585f1f2e8480cb3ef54ae7172c68f02fd"
-        },
-        {
-          "headline": "How much MSFT stock does Microsoft founder Bill Gates actually own?",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f60355464b85e4e7a7619f723903dcd60344cf118ae798f590536360261e114d"
-        },
-        {
-          "headline": "Franklin Templeton CEO says AI is hiding a bigger tech story",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d7ed3bee94c38a60709d4e669c0ec386c32df9defc21054c492309d8c002a485"
-        },
-        {
-          "headline": "Dow Jones Futures: Stock Market Holds Up As Meta, AMD Lead Buys; ASML, CPI Inflation Due",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=28a1858c5f1ece6af8b138f7dc018780fdf80aaf62e87e999f8a25e3d9334cf0"
         }
       ],
       "earnings": [
@@ -399,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Charles Gasparino Defends Jeff Bezos, Elon Musk — Says America Needs ‘More Bezos’ and a Tax System That Rewards Risk-Taking",
+          "source": "Yahoo",
+          "timeAgo": "6h ago",
+          "url": "https://finnhub.io/api/news?id=3c05e2254902d243f382bcdc4dd4b5a7cb51427f470ef34e3f5c64523ad6db05"
+        },
+        {
           "headline": "Franklin Templeton CEO says AI is hiding a bigger tech story",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "6h ago",
           "url": "https://finnhub.io/api/news?id=d7ed3bee94c38a60709d4e669c0ec386c32df9defc21054c492309d8c002a485"
         },
         {
           "headline": "What Could Go Wrong At UPS From Here?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=0a23d75df8d1009aaf10408d89802f56f9e9e656a7d92ba6562c3851bf069b1d"
+        },
+        {
+          "headline": "Former Berkshire Manager Combs Has Made $5 Billion of Investments at JP Morgan",
+          "source": "Yahoo",
+          "timeAgo": "8h ago",
+          "url": "https://finnhub.io/api/news?id=b453b374bb988eb0c876795a1ed93a86a8de67236577a99e1fcb7060f65195b2"
         },
         {
           "headline": "Jeff Bezos Aims for the Moon But Advises Retirees to Stick With Index Funds",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=d9116dc3707f7af1fb965e18360e707d7cb314a3fd431203fce7d4c2ae829a3a"
-        },
-        {
-          "headline": "Are consumer budgets in for a fright this Halloween season?",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=92e5ef642b3e01604898f87669531d0f7ee8f00bb861284347287fa0fed7f058"
-        },
-        {
-          "headline": "Has IBM Stock Become A Different Bet?",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=7a60e94db7d4232b90f6724f2239f5bf44333ccb2643e04f5658315d3100a673"
         }
       ],
       "earnings": [
@@ -487,31 +533,31 @@
         {
           "headline": "Rivian spinoff Mind Robotics hires ex-Ford EV chief Doug Field",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "7h ago",
           "url": "https://finnhub.io/api/news?id=cb2d2aca1103890f0313cd48d4e4fcad84d1a0b71f9aa05b6d260361343cf292"
         },
         {
           "headline": "Tesla Robotaxi Fleet in Austin Soars 8x in a Month While Elon Musk Admits TSLA Is Still Working on Not Running Over Cats",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=aab079adb24be87695aec605be8e16a0a0560f378d7d79e3392513dd88646712"
         },
         {
           "headline": "Tesla target lowered by analysts worried about runaway $25 billion spending",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "8h ago",
           "url": "https://finnhub.io/api/news?id=91f43fe3003bff6fae6331f352d27194a05fdb93e17c1ffd498829d473355f37"
         },
         {
           "headline": "EXCLUSIVE: Ross Gerber Says Tesla May Make Just ‘a Few Hundred’ Roadsters: ‘Hovering Is a Gimmick’",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=d3332d8ed51231e88e24a08b05b990b97e1153cc2e5bf3362d1c41a6aa010ac6"
         },
         {
           "headline": "Betting On The Future Of AI Robotics With Ouster (OUST)",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
+          "timeAgo": "9h ago",
           "url": "https://finnhub.io/api/news?id=ad80a11f99569cd75fd8e0b81b6fc5ab6d95420f4cefed40c3461174f0d18c47"
         }
       ],
