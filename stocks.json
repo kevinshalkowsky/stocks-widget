@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-14T15:33:50.032Z",
+  "updatedAt": "2026-10-14T19:45:57.416Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7741.68,
-      "change": -63.77,
-      "changePercent": -0.817,
+      "price": 7712.82,
+      "change": -92.63,
+      "changePercent": -1.1867,
       "high": 7789.15,
-      "low": 7737.41,
+      "low": 7693.31,
       "open": 0,
       "prevClose": 7805.4501953125,
       "week52High": 7844.52,
       "week52Low": 6316.91,
-      "volume": "920.0M",
+      "volume": "2.2B",
       "sparklineData": [
         7619.97998046875,
         7585.72998046875,
@@ -38,7 +38,7 @@
         7811.5400390625,
         7807.240234375,
         7805.4501953125,
-        7741.68017578125
+        7712.81982421875
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 51656.77,
-      "change": -13.33,
-      "changePercent": -0.0258,
+      "price": 51543.15,
+      "change": -126.95,
+      "changePercent": -0.2457,
       "high": 51869.75,
-      "low": 51556.11,
+      "low": 51365.42,
       "open": 0,
       "prevClose": 51670.1015625,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "130.4M",
+      "volume": "302.9M",
       "sparklineData": [
         52421.19921875,
         52093.109375,
@@ -92,7 +92,7 @@
         51654.94921875,
         51850.55078125,
         51670.1015625,
-        51656.76953125
+        51543.1484375
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26880.95,
-      "change": -323.43,
-      "changePercent": -1.1889,
+      "price": 26679.988,
+      "change": -524.39,
+      "changePercent": -1.9276,
       "high": 27134.285,
-      "low": 26873.275,
+      "low": 26602.115,
       "open": 0,
       "prevClose": 27204.380859375,
       "week52High": 27722.75,
       "week52Low": 20690.25,
-      "volume": "3.0B",
+      "volume": "6.0B",
       "sparklineData": [
         26186.41015625,
         25981.5703125,
@@ -146,7 +146,7 @@
         27366.169921875,
         27245.900390625,
         27204.380859375,
-        26880.94921875
+        26679.98828125
       ],
       "sector": "",
       "marketCap": "",
@@ -168,56 +168,56 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 345.99,
-      "change": 4.72,
-      "changePercent": 1.3831,
+      "price": 343.92,
+      "change": 2.65,
+      "changePercent": 0.7765,
       "high": 347.09,
-      "low": 343.65,
+      "low": 341.72,
       "open": 344.615,
       "prevClose": 341.27,
       "name": "Apple Inc",
       "sector": "Technology",
-      "marketCap": "$4.98T",
+      "marketCap": "$5.05T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
-      "week52High": 345.34,
+      "week52High": 348.1499,
       "week52Low": 243.42,
-      "beta": 1.1059799,
+      "beta": 1.1060705,
       "peRatio": 44.6959,
       "eps": 7.465,
       "dividendYield": "0.51%",
-      "volume": "35.6M",
-      "avgVolume": "50.3M",
+      "volume": "35.7M",
+      "avgVolume": "50.2M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Apple is finally taking the smart home seriously",
+          "headline": "Most active S&P500 stocks in Wednesday's session",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=4a188658206b81a14d2781a8560ffb791badea88fc7af0c4f67ced56d4798879"
+        },
+        {
+          "headline": "Liberty All-Star® Growth Fund, Inc. September 2026 Monthly Update",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b6275f90ccaed1d768e7b9b0b6759e778d3a83e60dd01e9ef842c1700e2c259f"
+        },
+        {
+          "headline": "Amazon’s $550 tablet breaks its oldest hardware rule",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=273ff761cb0358ea43017789d3af5e600f69536fdf2011d1b6249f44824594c7"
+          "url": "https://finnhub.io/api/news?id=9faf6396d210d6e4ebf8ff4785f381838e545aa197f0ed9b6788ae2f0183e26e"
         },
         {
-          "headline": "Global X Launches PowerStock ETF Suite to Give Canadians 33% More Exposure to Their Highest Conviction Stocks",
+          "headline": "Elon Musk's SpaceX Just Announced Good (and Bad) News to Apple Shareholders",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=1826b5352a9dd69f76e30899a61c17ad6a98efdbf5e75879e1ecc0a59909865e"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=1b2fd7ec367619802325f08377faa051cd95739e88d952b6f8fbf339e80d4e62"
         },
         {
-          "headline": "The S&P 500 Is Dangerously Concentrated in 5 Tech Giants. Are They Still Buys?",
+          "headline": "Why Berkshire’s $930 Million Bending Spoons Buy Is Such a Curveball",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=f5bc56b8af9fba13877c9de385db378b3a73f293dd588365f352721d6c7f9ef3"
-        },
-        {
-          "headline": "Qualcomm at $175: The Narrative Shift Sending Capital Out The Door",
-          "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=08714d8106490160a7244c7a21ec26acc30f2912cc96dde1e0a366424123e8fa"
-        },
-        {
-          "headline": "OMAH: High-Yield Income From A Buffett-Like Core Equity ETF",
-          "source": "SeekingAlpha",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=9e47c9bff6f982246b05d92a5862f3808601cf5b5544e031d583129e28222b98"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=ac9cd8272a662ea54575a1ad834c9d9102a437b7fb1ef34945d9f2b7fb78c1cc"
         }
       ],
       "earnings": [
@@ -254,56 +254,56 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 353.9,
-      "change": 0.12,
-      "changePercent": 0.0339,
+      "price": 347.77,
+      "change": -6.01,
+      "changePercent": -1.6988,
       "high": 359.4,
-      "low": 352.89,
+      "low": 346.34,
       "open": 355.58,
       "prevClose": 353.78,
       "name": "Alphabet Inc",
       "sector": "Media",
-      "marketCap": "$4.33T",
+      "marketCap": "$4.38T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
       "week52High": 408.61,
-      "week52Low": 235.84,
-      "beta": 1.2055956,
+      "week52Low": 239.71,
+      "beta": 1.2058794,
       "peRatio": 32.8166,
       "eps": 10.807,
       "dividendYield": "",
-      "volume": "24.1M",
-      "avgVolume": "29.2M",
+      "volume": "24.3M",
+      "avgVolume": "29.0M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Netflix lays off 6% of staff in biggest job cuts since 2022",
+          "headline": "Discover which dow jones stocks are making waves on Wednesday.",
+          "source": "ChartMill",
+          "timeAgo": "35m ago",
+          "url": "https://finnhub.io/api/news?id=0da62e5b5741f2c815f6c9d71ebb7308149769088a6488e233b3825b4510e5a1"
+        },
+        {
+          "headline": "Liberty All-Star® Equity Fund September 2026 Monthly Update",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=952f4e55000b67c8c637b1fe323f70b7a57def06d00d1cedf38d7e82f8d4f1ca"
+          "url": "https://finnhub.io/api/news?id=2093733503ba38e5acb28367b5efa2fab0d59af01d9e7999ea00606697588c6f"
         },
         {
-          "headline": "Apple is finally taking the smart home seriously",
+          "headline": "Liberty All-Star® Growth Fund, Inc. September 2026 Monthly Update",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=273ff761cb0358ea43017789d3af5e600f69536fdf2011d1b6249f44824594c7"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b6275f90ccaed1d768e7b9b0b6759e778d3a83e60dd01e9ef842c1700e2c259f"
         },
         {
-          "headline": "Voice AI model built to accurately capture real multilingual medical conversations",
+          "headline": "Sector Update: Healthcare Stocks Gain Wednesday Afternoon",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=515d50b5a53abe737aee083420e372250bace9486221e1ac27167746cf462a4e"
+          "url": "https://finnhub.io/api/news?id=0254df2992122202b2302adfe6f970cef0875ee9a915fa2983035b7420e0286e"
         },
         {
-          "headline": "META, TTD, SNAP, GOOGL, BMBL, WDAY Stocks Get New UBS Targets Amid AI And Ad Shifts",
+          "headline": "Amazon’s $550 tablet breaks its oldest hardware rule",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4d4a1aa15690fcdc9a961ca8e8f0eb2253fcffa8bbb2163c8a7be4bcc6d13442"
-        },
-        {
-          "headline": "GoDaddy, Infoblox, Google and Cloudflare Demonstrate Secure AI Agent Transactions Across Platforms",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ae3c6ab37530f330d9dce4c265734b1b50c3758d64102f10a789a1cc2a346a5d"
+          "url": "https://finnhub.io/api/news?id=9faf6396d210d6e4ebf8ff4785f381838e545aa197f0ed9b6788ae2f0183e26e"
         }
       ],
       "earnings": [
@@ -340,11 +340,11 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 537.39,
-      "change": -6.06,
-      "changePercent": -1.1151,
+      "price": 533.89,
+      "change": -9.56,
+      "changePercent": -1.7591,
       "high": 545.75,
-      "low": 537.22,
+      "low": 532.54,
       "open": 545.28,
       "prevClose": 543.45,
       "name": "Microsoft Corp",
@@ -353,43 +353,43 @@
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
       "week52High": 553.72,
       "week52Low": 349.2,
-      "beta": 1.0628239,
-      "peRatio": 30.4941,
+      "beta": 1.0631871,
+      "peRatio": 30.1696,
       "eps": 17.9457,
       "dividendYield": "0.79%",
-      "volume": "20.8M",
+      "volume": "21.0M",
       "avgVolume": "32.3M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Michael Burry Questions Microsoft’s AI Spending. Is Its Valuation Misleading?",
+          "headline": "Discover which dow jones stocks are making waves on Wednesday.",
+          "source": "ChartMill",
+          "timeAgo": "35m ago",
+          "url": "https://finnhub.io/api/news?id=0da62e5b5741f2c815f6c9d71ebb7308149769088a6488e233b3825b4510e5a1"
+        },
+        {
+          "headline": "Liberty All-Star® Equity Fund September 2026 Monthly Update",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6611a34617e832086d10b37c0c489589fce6c9e1baa6b826997a88f1a2747555"
+          "url": "https://finnhub.io/api/news?id=2093733503ba38e5acb28367b5efa2fab0d59af01d9e7999ea00606697588c6f"
         },
         {
-          "headline": "Chevron’s Big Rally Couldn’t Erase a Decade of Underperformance",
+          "headline": "Liberty All-Star® Growth Fund, Inc. September 2026 Monthly Update",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=79f6321784279084a5dcb9683e24399e37e2f708bf81b3b5b3f150b9c5c7fa25"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b6275f90ccaed1d768e7b9b0b6759e778d3a83e60dd01e9ef842c1700e2c259f"
         },
         {
-          "headline": "Voice AI model built to accurately capture real multilingual medical conversations",
+          "headline": "What Could Microsoft (MSFT) Gain From Its Maia 300 AI Chip Rollout?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=515d50b5a53abe737aee083420e372250bace9486221e1ac27167746cf462a4e"
+          "url": "https://finnhub.io/api/news?id=10dda3df1699ea7f66ef7cb196fb638228aacc9857542a407464328fa6ab8ac0"
         },
         {
-          "headline": "Palantir’s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Results",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b9a48edbe1b1c1bdb0124ef0fbeea19b5464098e4019073f95084e31cc6cdb4b"
-        },
-        {
-          "headline": "Rising Rates and Energy-Driven Inflation Impact Global Hedge Funds in September, Data Insights Reports",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ca98c81d2984ff568ec79f30ad3f825b0eb92daeda7c5fb2d7e3ecfc0a57ee35"
+          "headline": "These dow jones stocks are moving in today's session",
+          "source": "ChartMill",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=0e4a0f899d47f594522938c4a59506903cbb4ca15d3de14660f12bd82568ba62"
         }
       ],
       "earnings": [
@@ -426,56 +426,56 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 256.15,
-      "change": -2.43,
-      "changePercent": -0.9397,
+      "price": 252.95,
+      "change": -5.63,
+      "changePercent": -2.1773,
       "high": 259.65,
-      "low": 254.95,
+      "low": 252.77,
       "open": 258.02,
       "prevClose": 258.58,
       "name": "Amazon.com Inc",
       "sector": "Retail",
-      "marketCap": "$2.79T",
+      "marketCap": "$2.80T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
-      "beta": 1.5157744,
-      "peRatio": 36.3237,
+      "beta": 1.5154457,
+      "peRatio": 36.0127,
       "eps": 7.1737,
       "dividendYield": "",
-      "volume": "35.2M",
-      "avgVolume": "44.3M",
+      "volume": "34.4M",
+      "avgVolume": "44.2M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "AWS Backlog Hits $496 Billion While Cloud Margins Surge to 39% Making Amazon a Must-Own Growth Stock",
+          "headline": "Discover which dow jones stocks are making waves on Wednesday.",
+          "source": "ChartMill",
+          "timeAgo": "35m ago",
+          "url": "https://finnhub.io/api/news?id=0da62e5b5741f2c815f6c9d71ebb7308149769088a6488e233b3825b4510e5a1"
+        },
+        {
+          "headline": "Liberty All-Star® Equity Fund September 2026 Monthly Update",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=fb4a20a6636f12c4e8e604d555b5b303ea09c9b85a2eab570c4ac366f5441249"
+          "url": "https://finnhub.io/api/news?id=2093733503ba38e5acb28367b5efa2fab0d59af01d9e7999ea00606697588c6f"
         },
         {
-          "headline": "Amazon Is Up More Than 2,200% in 10 Years. What’s Next?",
+          "headline": "Amazon customers could be eligible for payments in $309.5M lawsuit",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8c239ea6d06c3df31856108f407e2c48f0d0b28a221d86a53ee013795800eccf"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=66ffaf3f9fb2494a46c22c16dada291a50d8034fbe818ab3169263e9052ae51a"
         },
         {
-          "headline": "Apple is finally taking the smart home seriously",
+          "headline": "Amazon’s $550 tablet breaks its oldest hardware rule",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=273ff761cb0358ea43017789d3af5e600f69536fdf2011d1b6249f44824594c7"
+          "url": "https://finnhub.io/api/news?id=9faf6396d210d6e4ebf8ff4785f381838e545aa197f0ed9b6788ae2f0183e26e"
         },
         {
-          "headline": "META, TTD, SNAP, GOOGL, BMBL, WDAY Stocks Get New UBS Targets Amid AI And Ad Shifts",
+          "headline": "Synopsys (SNPS) Stock Looks Cheap Relative To Future Cash Flow",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4d4a1aa15690fcdc9a961ca8e8f0eb2253fcffa8bbb2163c8a7be4bcc6d13442"
-        },
-        {
-          "headline": "Rising Rates and Energy-Driven Inflation Impact Global Hedge Funds in September, Data Insights Reports",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ca98c81d2984ff568ec79f30ad3f825b0eb92daeda7c5fb2d7e3ecfc0a57ee35"
+          "url": "https://finnhub.io/api/news?id=dbf69dd546676bb51b0c79351dd6285827958046ae396d48361fd266bb0a0f1b"
         }
       ],
       "earnings": [
@@ -512,56 +512,56 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 367.28,
-      "change": -7.95,
-      "changePercent": -2.1187,
+      "price": 366.04,
+      "change": -9.19,
+      "changePercent": -2.4492,
       "high": 371.39,
-      "low": 364.44,
+      "low": 363.82,
       "open": 371.17,
       "prevClose": 375.23,
       "name": "Tesla Inc",
       "sector": "Automobiles",
-      "marketCap": "$1.48T",
+      "marketCap": "$1.45T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
       "week52High": 498.83,
       "week52Low": 297.38,
-      "beta": 1.7639288,
+      "beta": 1.7632321,
       "peRatio": 390.6138,
       "eps": 1.0754,
       "dividendYield": "",
-      "volume": "34.1M",
-      "avgVolume": "40.2M",
+      "volume": "32.7M",
+      "avgVolume": "40.0M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "CoreWeave Falls 10% as Bond Yield Touches 15% and Elon Musk Says ‘Yikes’; Nebius Drops 6%, Oracle Slips",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=0662c412d01a130a511c64c1d4d47419d86e5d62afced52a0af376d36c795860"
+          "headline": "Most active S&P500 stocks in Wednesday's session",
+          "source": "ChartMill",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=4a188658206b81a14d2781a8560ffb791badea88fc7af0c4f67ced56d4798879"
         },
         {
-          "headline": "Tesla Stock Dips. Uber Raises a Trillion-Dollar Question.",
+          "headline": "Tesla's Roadster event is back on for Thursday night. Here's what to expect.",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4d56dafdb987b2cd84a3fca5493e5058c6ca7b0fb2bf47ec502ac1871bc97a50"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=c282a0e41e02950abecf5bbd355cb14fd9d697b583c68171c2922cb87cb2583d"
         },
         {
-          "headline": "3 Battery Stocks To Watch In October 2026",
+          "headline": "Elon Musk Says Micron Is Making a ‘Smart Move’ on Memory. Micron Stock Falls Anyway.",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5fd7ace8e21f03730e7629c43a93b1048a7e1ffb7a1de845ad77e9bd998fea32"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=930165fd4b0cfa28b1c4f4a440c35209c30c4b83a6e0863dea2fafdabe1b332b"
         },
         {
-          "headline": "Rising Rates and Energy-Driven Inflation Impact Global Hedge Funds in September, Data Insights Reports",
+          "headline": "CoreWeave, HPE, Dell, Bank of America, Morgan Stanley, Bending Spoons, and More Stocks That Explain Today’s Market",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=ca98c81d2984ff568ec79f30ad3f825b0eb92daeda7c5fb2d7e3ecfc0a57ee35"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=05c928bb190d7f87261a1bbe19486213d859b5ad5c75c86c29f464e702125abe"
         },
         {
-          "headline": "Latest News In Electric Vehicles - Denmark's Market Set For Growth With EV Infrastructure Expansion",
+          "headline": "Maye Musk Praises Elon Musk’s ‘Safety First’ Focus After Tesla Owner Says EV Saved Him and Son in Crash",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=beaa725cc2bc7a5d01addc75fcfd0d680be9949a464e4d6101126b4673427f1d"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=99507ef346165e9191f0f940dddcf908f8a7ca0249d7a3cb99db73175cc32b3e"
         }
       ],
       "earnings": [
