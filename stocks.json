@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-15T15:21:50.126Z",
+  "updatedAt": "2026-10-15T19:29:54.275Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7732.88,
-      "change": 13.94,
-      "changePercent": 0.1806,
-      "high": 7738.21,
+      "price": 7747.13,
+      "change": 28.19,
+      "changePercent": 0.3652,
+      "high": 7754.15,
       "low": 7669.66,
       "open": 0,
       "prevClose": 7718.93994140625,
       "week52High": 7844.52,
       "week52Low": 6316.91,
-      "volume": "1.1B",
+      "volume": "2.3B",
       "sparklineData": [
         7585.72998046875,
         7551.81005859375,
@@ -38,7 +38,7 @@
         7807.240234375,
         7805.4501953125,
         7718.93994140625,
-        7732.8798828125
+        7747.1298828125
       ],
       "sector": "",
       "marketCap": "",
@@ -59,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52184.59,
-      "change": 563.11,
-      "changePercent": 1.0908,
-      "high": 52196.68,
+      "price": 52213.2,
+      "change": 591.72,
+      "changePercent": 1.1463,
+      "high": 52250.18,
       "low": 51681.37,
       "open": 0,
       "prevClose": 51621.48046875,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "190.9M",
+      "volume": "345.7M",
       "sparklineData": [
         52093.109375,
         51461.8984375,
@@ -92,7 +92,7 @@
         51850.55078125,
         51670.1015625,
         51621.48046875,
-        52184.58984375
+        52213.19921875
       ],
       "sector": "",
       "marketCap": "",
@@ -113,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26635.088,
-      "change": -57.78,
-      "changePercent": -0.2165,
-      "high": 26669.271,
+      "price": 26716.771,
+      "change": 23.9,
+      "changePercent": 0.0895,
+      "high": 26746.486,
       "low": 26308.846,
       "open": 0,
       "prevClose": 26692.869140625,
       "week52High": 27722.75,
       "week52Low": 20690.25,
-      "volume": "4.8B",
+      "volume": "7.9B",
       "sparklineData": [
         25981.5703125,
         25978.4296875,
@@ -146,7 +146,7 @@
         27245.900390625,
         27204.380859375,
         26692.869140625,
-        26635.087890625
+        26716.771484375
       ],
       "sector": "",
       "marketCap": "",
@@ -168,56 +168,56 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 343.44,
-      "change": 0.48,
-      "changePercent": 0.14,
+      "price": 343.12,
+      "change": 0.16,
+      "changePercent": 0.0467,
       "high": 347.85,
-      "low": 343.3701,
+      "low": 341.77,
       "open": 346.19,
       "prevClose": 342.96,
       "name": "Apple Inc",
       "sector": "Technology",
-      "marketCap": "$5.01T",
+      "marketCap": "$5.05T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
       "week52High": 348.1499,
       "week52Low": 243.42,
-      "beta": 1.1060705,
+      "beta": 1.1060425,
       "peRatio": 44.5767,
       "eps": 7.465,
       "dividendYield": "0.51%",
       "volume": "35.7M",
-      "avgVolume": "50.2M",
+      "avgVolume": "50.0M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Apple Is Reportedly Bringing AI to China in December, but Not the New Siri",
-          "source": "Yahoo",
+          "headline": "Stay informed about the most active stocks in the S&P500 index on Thursday's session.",
+          "source": "ChartMill",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2ffb53210d7d37b6757d02df6f946d99c94c0301474db74f4c98dcb9b4ab306e"
+          "url": "https://finnhub.io/api/news?id=dd86a0c2e65b0e975dd45ee39418b1734f57cb7dac809bde94735e179281157c"
         },
         {
-          "headline": "Stock Market Today: Dow Rises, Nasdaq Tumbles As AI Worries Hit Major Players (Live Coverage)",
+          "headline": "Decoding falling smartphone shipments: What's the incentive?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6ad409edc5845d99345332cecd4ac0d247cc7396d902bc4aa044842c2de7fcee"
+          "url": "https://finnhub.io/api/news?id=483466c729e5d3f714f94c987ff0390807553dcba946423777400fa9cefe08fe"
         },
         {
-          "headline": "Dell downgraded, Texas Roadhouse upgraded: Wall Street's top analyst calls",
+          "headline": "The Man Who Built the Apple Store Never Tried to Sell You Anything",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=028f28e68ac18cb2c45a2e8927474faea25309e4e94e934a36a25a40252b7044"
+          "url": "https://finnhub.io/api/news?id=154bbb01ab31c3ae16a177ed57a15873bc0c4e989762b8ea7463aec37999da6f"
         },
         {
-          "headline": "Apple (AAPL): Can Longer iPhone Ownership Still Produce More Profit per Customer?",
+          "headline": "Could a Meta-Apple AI team-up restart the iPhone upgrade cycle?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=754462f3a5c312eb960d6a7192ded209661f6d410a6d10089d5612edbb82ab02"
+          "url": "https://finnhub.io/api/news?id=29b8d6968c7007ecb829d7ba4a01d4e6073fdc1a4f6870a9d38ca6f76b8d33d7"
         },
         {
-          "headline": "AI boom triggers record slump in smartphone sales",
+          "headline": "Meet the Low-Cost Vanguard ETF With Taiwan Semiconductor, Samsung Electronics, SK Hynix, and ASML as Its 4 Largest Holdings",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=dbc81c9dac04a08be01ca8b7b6b47baed3d4de1d5fa9b9f70b4df73d60a43a68"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=010de4eb3a54db10cda6f8a002844349d6a8c49d46426cd57de9ccd4bd93423a"
         }
       ],
       "earnings": [
@@ -254,9 +254,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 350.1,
-      "change": 2.46,
-      "changePercent": 0.7076,
+      "price": 348.71,
+      "change": 1.07,
+      "changePercent": 0.3078,
       "high": 352.15,
       "low": 340.61,
       "open": 343.5975,
@@ -266,44 +266,44 @@
       "marketCap": "$4.25T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
       "week52High": 408.61,
-      "week52Low": 239.71,
-      "beta": 1.2058794,
+      "week52Low": 240.51,
+      "beta": 1.2062124,
       "peRatio": 32.2299,
       "eps": 10.807,
       "dividendYield": "",
-      "volume": "24.3M",
-      "avgVolume": "29.0M",
+      "volume": "23.3M",
+      "avgVolume": "28.9M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "My Microsoft Price Prediction Looks Well Beyond the Current AI Cycle",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=184cd7e33cb659eb0d7bd4af4bb13bcdd04998940402cc5e16215b0b1fea3d8b"
-        },
-        {
-          "headline": "Is The Market Underpricing Amazon Stock At Twenty Times Earnings?",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=aae4f79751e6d7962a3d90b607f8dd302fbc7875e14e07d198e00dce87d3a3c4"
-        },
-        {
-          "headline": "Timekeeping is about to change forever",
+          "headline": "Meet the Low-Cost Vanguard ETF With Taiwan Semiconductor, Samsung Electronics, SK Hynix, and ASML as Its 4 Largest Holdings",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8fafa7ea5a22d8f6f5af4ea14c1710b6de2add86c1d021718455a93c89a687b1"
+          "url": "https://finnhub.io/api/news?id=010de4eb3a54db10cda6f8a002844349d6a8c49d46426cd57de9ccd4bd93423a"
         },
         {
-          "headline": "Should You Trim Or Add To Your RGTI Stock Position Now?",
+          "headline": "DTE Energy Is Becoming More Interesting as America’s Power Needs Soar",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=1da0993b6e36277c0cb8a278d7a9b075ab65990b1d780bd1e68807e9a86135c9"
+          "url": "https://finnhub.io/api/news?id=a89f40a9450e3f5bdedd347ca2b12f2e94cbb12fb9db1549e0427eeac70de757"
         },
         {
-          "headline": "Alphabet Might Use Waymo to Destroy Tesla’s First-Mover “Robotaxi Monopoly” Premium",
+          "headline": "AI Isn’t Coming for American Jobs Someday. The Fed Says It’s Already Happening.",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d5712ff407b98f8701e42e53341a2b07d726d0aee429204cd8ed334a956628a7"
+          "url": "https://finnhub.io/api/news?id=d12c6a5373722ea9eb0b70890ed59432648231a1d6ec46f1fdb59210f52dce0a"
+        },
+        {
+          "headline": "These dow jones stocks are moving in today's session",
+          "source": "ChartMill",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=18dc9eae377f70c9060ce92d31795980c6c5b9529453a1aa557a7ac15259d50c"
+        },
+        {
+          "headline": "Blackstone’s $200B Data Center Empire Anchors Its AI Bet",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=1a6833ddcc72c770b7fe8cac205dc010507d9c3f33b7352e5cf24cf7d1f4772b"
         }
       ],
       "earnings": [
@@ -340,56 +340,56 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 538.68,
-      "change": 4.99,
-      "changePercent": 0.935,
-      "high": 539.3193,
+      "price": 540.87,
+      "change": 7.18,
+      "changePercent": 1.3454,
+      "high": 541.1331,
       "low": 531.22,
       "open": 532.0075,
       "prevClose": 533.69,
       "name": "Microsoft Corp",
       "sector": "Technology",
-      "marketCap": "$3.96T",
+      "marketCap": "$3.98T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
       "week52High": 553.72,
       "week52Low": 349.2,
-      "beta": 1.0631871,
-      "peRatio": 30.1696,
+      "beta": 1.0596637,
+      "peRatio": 29.7603,
       "eps": 17.9457,
       "dividendYield": "0.79%",
-      "volume": "21.0M",
-      "avgVolume": "32.3M",
+      "volume": "20.5M",
+      "avgVolume": "32.1M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Microsoft (MSFT): Can Security Bundles Generate More Profit per Customer?",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=447835c2b9a8cd0877f4c441a1285c53aa4cb6b347b09104faf274abd519b178"
-        },
-        {
-          "headline": "My Microsoft Price Prediction Looks Well Beyond the Current AI Cycle",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=184cd7e33cb659eb0d7bd4af4bb13bcdd04998940402cc5e16215b0b1fea3d8b"
-        },
-        {
-          "headline": "Is The Market Underpricing Amazon Stock At Twenty Times Earnings?",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=aae4f79751e6d7962a3d90b607f8dd302fbc7875e14e07d198e00dce87d3a3c4"
-        },
-        {
-          "headline": "Presentations.AI, the AI PPT Maker and Slide Generator, Makes Its Presentation Agent Available to Developers and AI Agents Through an API and MCP Server",
+          "headline": "Meet the Low-Cost Vanguard ETF With Taiwan Semiconductor, Samsung Electronics, SK Hynix, and ASML as Its 4 Largest Holdings",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=42b67c06353baab8c7542e5b38dfdee918dc4c479ebac521d30b9124839b6a24"
+          "url": "https://finnhub.io/api/news?id=010de4eb3a54db10cda6f8a002844349d6a8c49d46426cd57de9ccd4bd93423a"
         },
         {
-          "headline": "Veeam Intelligent ResOps for Microsoft 365 Helps Customers Safely Use AI, Cut Storage Costs, and Recover With Precision",
+          "headline": "Morgan Stanley finds a new twist in Microsoft's AI story",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=4af86708bea7e744a52d53308ae34c55275ad41a0c793a29266cbd9f956b44a0"
+          "url": "https://finnhub.io/api/news?id=1d45ff40a2b1bda5291eb70d62b7ce925371c6ae251acd0cc2e50cbde859f27b"
+        },
+        {
+          "headline": "Microsoft AI unveils 2.8 trillion-parameter model, claims efficiency gains",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=f8aa2f1d8d92a6a75516de577c4dfd15076522f99bbcc851366a01b2fb7b4edd"
+        },
+        {
+          "headline": "Microsoft's Azure, M365 Growth Expectations Rise Ahead of Earnings, UBS Says",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=cba088b7c156b5db48f1c190f3b97553ce334dbcb2fad39d4d3bb2783951e431"
+        },
+        {
+          "headline": "AI Isn’t Coming for American Jobs Someday. The Fed Says It’s Already Happening.",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d12c6a5373722ea9eb0b70890ed59432648231a1d6ec46f1fdb59210f52dce0a"
         }
       ],
       "earnings": [
@@ -426,56 +426,56 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 254.07,
-      "change": -0.01,
-      "changePercent": -0.0039,
-      "high": 254.56,
+      "price": 255.22,
+      "change": 1.14,
+      "changePercent": 0.4487,
+      "high": 255.6,
       "low": 248.65,
       "open": 250.555,
       "prevClose": 254.08,
       "name": "Amazon.com Inc",
       "sector": "Retail",
-      "marketCap": "$2.74T",
+      "marketCap": "$2.70T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
-      "beta": 1.5154457,
-      "peRatio": 36.0127,
+      "beta": 1.5143604,
+      "peRatio": 35.285,
       "eps": 7.1737,
       "dividendYield": "",
-      "volume": "34.4M",
-      "avgVolume": "44.2M",
+      "volume": "33.6M",
+      "avgVolume": "44.0M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Amazon (AMZN): Who Captures the Savings From its Custom AI Chips?",
+          "headline": "Sector Update: Tech Stocks Fall Thursday Afternoon",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=73bfe4679d1a80bf7c7c747aafe16eb34b1ab804b1824f413eca4a8d0182b216"
+          "url": "https://finnhub.io/api/news?id=3823bf760e5c56b5f7792c90a9ed4ce057dd30247fc381a8fbbed90d1cc13c07"
         },
         {
-          "headline": "Stock Market Today: Dow Rises, Nasdaq Tumbles As AI Worries Hit Major Players (Live Coverage)",
+          "headline": "SpaceX CEO Elon Musk Teases ‘X Shop’ After Amazon Shuts Out Grok Agents",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6ad409edc5845d99345332cecd4ac0d247cc7396d902bc4aa044842c2de7fcee"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=52535b9a35ee0bd6fd9194f184b5a9f722568eea7bb616a01d4b2bf7f1c7d30b"
         },
         {
-          "headline": "My Microsoft Price Prediction Looks Well Beyond the Current AI Cycle",
+          "headline": "Is Costco Stock Increasing Your Market Risk?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=184cd7e33cb659eb0d7bd4af4bb13bcdd04998940402cc5e16215b0b1fea3d8b"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a1918d073e8b505ffa9b6d42a676dfc52dcc9e9787e1af5f0ed47670d51eb07d"
         },
         {
-          "headline": "Is The Market Underpricing Amazon Stock At Twenty Times Earnings?",
+          "headline": "Meet the Low-Cost Vanguard ETF With Taiwan Semiconductor, Samsung Electronics, SK Hynix, and ASML as Its 4 Largest Holdings",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=aae4f79751e6d7962a3d90b607f8dd302fbc7875e14e07d198e00dce87d3a3c4"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=010de4eb3a54db10cda6f8a002844349d6a8c49d46426cd57de9ccd4bd93423a"
         },
         {
-          "headline": "UK to make online marketplaces collect seller VAT – report",
+          "headline": "AI Isn’t Coming for American Jobs Someday. The Fed Says It’s Already Happening.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4fd5b30584b409fddac817f0c08a335bc631f980ffe12faa8bbd3ac8c6448036"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d12c6a5373722ea9eb0b70890ed59432648231a1d6ec46f1fdb59210f52dce0a"
         }
       ],
       "earnings": [
@@ -512,56 +512,56 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 362.62,
-      "change": -4.54,
-      "changePercent": -1.2365,
-      "high": 363.2999,
+      "price": 362.95,
+      "change": -4.21,
+      "changePercent": -1.1466,
+      "high": 363.69,
       "low": 355.23,
       "open": 361.505,
       "prevClose": 367.16,
       "name": "Tesla Inc",
       "sector": "Automobiles",
-      "marketCap": "$1.45T",
+      "marketCap": "$1.42T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
       "week52High": 498.83,
       "week52Low": 297.38,
-      "beta": 1.7632321,
-      "peRatio": 390.6138,
+      "beta": 1.7607435,
+      "peRatio": 382.213,
       "eps": 1.0754,
       "dividendYield": "",
-      "volume": "32.7M",
-      "avgVolume": "40.0M",
+      "volume": "31.9M",
+      "avgVolume": "39.6M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Tesla to unveil its next-generation Roadster EV: What to know",
+          "headline": "Why Tesla's Roadster won't move the needle, it'll just 'disappoint'",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=51903c6926cd6f98029266c9e59a1b7e74d274a85f67514c32c7f9af804cdc46"
+          "url": "https://finnhub.io/api/news?id=4c968bed53280958712cca6221e11fdbd3ff11eae2d4c0fe09f188c597628c8e"
         },
         {
-          "headline": "SpaceX Has a Ukraine Problem. What It Means for the Stock.",
+          "headline": "Can You Buy Stocks With Crypto? Bybit Adds 1,000 US Stocks, but Not Every Version Gives You the Shares",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d3b8c9c7735e03ef5954ebab620dcd9c4684cae289f69eac5a9928924ffd3d46"
+          "url": "https://finnhub.io/api/news?id=4dcfea5756358804c378c15a70e3ee7af97ecfb9a545bcc927fb63d3b617e0b9"
         },
         {
-          "headline": "Alphabet Might Use Waymo to Destroy Tesla’s First-Mover “Robotaxi Monopoly” Premium",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d5712ff407b98f8701e42e53341a2b07d726d0aee429204cd8ed334a956628a7"
-        },
-        {
-          "headline": "Elon Musk Just Gave Investors Another Reason to Buy Micron Stock",
+          "headline": "Tesla readies flying Roadster reveal in Texas to re-energize car business",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e530cfe9304bb828328b2b1ede0cf245ecc4c22096d93697f9fe29cabae10fa7"
+          "url": "https://finnhub.io/api/news?id=cf424559fc20bc18321c0872c11e377b3089674270843087ccd9947a1d2e7e4b"
         },
         {
-          "headline": "Elon Musk Could Announce A Tesla-SpaceX Merger In Coming Weeks, Analyst",
+          "headline": "Tesla Stock Has a Huge Valuation. Here’s What It Would Take to Justify It",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=71be2ba863919aa240690534b4273e964497f37eb7210c050cee537b8eb98545"
+          "url": "https://finnhub.io/api/news?id=023149e6d0fbed1b87c68e620f3931dd20be58c2c59bce23a1ba15f29f5e0aca"
+        },
+        {
+          "headline": "Will SpaceX merge with Tesla? Speculation resurfaces it could happen before the end of 2026.",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=eca72132eb3906d85980517a21328fae4985c12877f44500f4dc5007f4610168"
         }
       ],
       "earnings": [
