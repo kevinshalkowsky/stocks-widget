@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-21T10:40:21.271Z",
+  "updatedAt": "2026-10-21T15:40:35.367Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7712.57,
-      "change": 21.84,
-      "changePercent": 0.284,
-      "high": 7748.42,
-      "low": 7668.03,
+      "price": 7751.05,
+      "change": 38.48,
+      "changePercent": 0.4989,
+      "high": 7753.68,
+      "low": 7709.34,
       "open": 0,
-      "prevClose": 7690.72998046875,
+      "prevClose": 7712.56982421875,
       "week52High": 7844.52,
       "week52Low": 6316.91,
-      "volume": "2.7B",
+      "volume": "925.3M",
       "sparklineData": [
         7764.7001953125,
         7764.64013671875,
@@ -37,7 +37,8 @@
         7744.06005859375,
         7659.43994140625,
         7690.72998046875,
-        7712.56982421875
+        7712.56982421875,
+        7751.0498046875
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52495.88,
-      "change": 529.85,
-      "changePercent": 1.0196,
-      "high": 52689.81,
-      "low": 51910.92,
+      "price": 52654.74,
+      "change": 158.86,
+      "changePercent": 0.3026,
+      "high": 52711.93,
+      "low": 52392.28,
       "open": 0,
-      "prevClose": 51966.03125,
+      "prevClose": 52495.87890625,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "368.6M",
+      "volume": "129.1M",
       "sparklineData": [
         52048.828125,
         51863.69140625,
@@ -90,7 +91,8 @@
         52177.69140625,
         52002.41015625,
         51966.03125,
-        52495.87890625
+        52495.87890625,
+        52654.73828125
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26424.816,
-      "change": -6.07,
-      "changePercent": -0.023,
-      "high": 26601.715,
-      "low": 26179.736,
+      "price": 26716.453,
+      "change": 291.63,
+      "changePercent": 1.1036,
+      "high": 26728.014,
+      "low": 26507.066,
       "open": 0,
-      "prevClose": 26430.890625,
+      "prevClose": 26424.8203125,
       "week52High": 27722.75,
       "week52Low": 20690.25,
-      "volume": "7.0B",
+      "volume": "3.1B",
       "sparklineData": [
         27122.08984375,
         27244.279296875,
@@ -143,7 +145,8 @@
         26713.029296875,
         26140.029296875,
         26430.890625,
-        26424.8203125
+        26424.8203125,
+        26716.453125
       ],
       "sector": "",
       "marketCap": "",
@@ -165,56 +168,56 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 339.5,
-      "change": -3.44,
-      "changePercent": -1.0031,
-      "high": 343.06,
-      "low": 338.7,
-      "open": 339.86,
-      "prevClose": 342.94,
+      "price": 344.66,
+      "change": 5.16,
+      "changePercent": 1.5199,
+      "high": 345.25,
+      "low": 337.98,
+      "open": 337.98,
+      "prevClose": 339.5,
       "name": "Apple Inc",
       "sector": "Technology",
-      "marketCap": "$4.95T",
+      "marketCap": "$4.97T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
       "week52High": 348.1499,
       "week52Low": 243.42,
-      "beta": 1.1053051,
+      "beta": 1.1060681,
       "peRatio": 44.3545,
       "eps": 7.465,
       "dividendYield": "0.51%",
-      "volume": "38.7M",
-      "avgVolume": "49.3M",
+      "volume": "39.2M",
+      "avgVolume": "49.2M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Meta and Google are about to have a consumer AI showdown",
+          "headline": "Billionaire Ken Fisher and Jim Cramer Still Like Apple (AAPL). Should You?",
           "source": "Yahoo",
-          "timeAgo": "40m ago",
-          "url": "https://finnhub.io/api/news?id=79e93d5d83ba260983cfb381b4e24d4578d94d4b307f86c25153ed5af2904afd"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a7307e073dc81404619fb541f83f62c705c833b9087935f0ceba509ca6f7db01"
         },
         {
-          "headline": "The Next Generation of Crypto Winners Could Be Very Different",
+          "headline": "What Did It Take To Hold Microsoft Stock?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=5f67e0ac0d94a25d28c7e3950edcac2385db6c84d502e2949f742aae3acbf0a4"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4311d812195e6200b7b858f341d4eed5cd9c7870cc015ddb7751e65073f28d69"
         },
         {
-          "headline": "The Top 15 Stocks in the S&P 500 Are Now 47% of the Value. In 2000 Bubble, It Was 27%",
+          "headline": "Apple vs. Intel: Which Tech Stock Is a Better Buy in 2026?",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=b83ea48b8d359b5fd1baa812c2e033245f7c2e58066c80cc1422407b61641453"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=61e6782c0290ae7071c4c0d953a461699d4571767ade50f9a1e358c15ed52f71"
         },
         {
-          "headline": "Ahead Of Schedule: Meta's Early Earnings Shift Driven By Muse AI Enthusiasm",
-          "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=d99e978a958d43d3b5e0f3939271d88cde072ac381ec4c6a199854fe7c992064"
+          "headline": "Apple vs. Broadcom: Which Tech Stock Is a Better Buy in 2026?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=289575aff4f1af4bc127de6d96ba6be4e28486061b9b98d8e450a596b9bfd508"
         },
         {
-          "headline": "Mar Vista U.S. Quality Strategy Q3 2026 Portfolio Review",
-          "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=cde67259d7b8ea9aaf7ed890e32ea06e6d906e9f36db663d2403a52511792e47"
+          "headline": "AT&T Wireless Subscriber Growth Underwhelms. Will It Spark IPhone 18 Battle?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=f9ecd88230548c41e72956e5ad1650c539c693f48e9013e4bce6a10b8d54e8ef"
         }
       ],
       "earnings": [
@@ -251,56 +254,56 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 340.275,
-      "change": -3.905,
-      "changePercent": -1.1346,
-      "high": 344.77,
-      "low": 338.36,
-      "open": 343.645,
-      "prevClose": 344.18,
+      "price": 333.78,
+      "change": -6.495,
+      "changePercent": -1.9088,
+      "high": 338.915,
+      "low": 330.38,
+      "open": 338.915,
+      "prevClose": 340.275,
       "name": "Alphabet Inc",
       "sector": "Media",
-      "marketCap": "$4.16T",
+      "marketCap": "$4.06T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
       "week52High": 408.61,
       "week52Low": 244.15,
-      "beta": 1.2067034,
+      "beta": 1.2065259,
       "peRatio": 31.573,
       "eps": 10.807,
       "dividendYield": "",
-      "volume": "22.1M",
-      "avgVolume": "28.6M",
+      "volume": "22.0M",
+      "avgVolume": "28.4M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Warren Buffett's Successor, Greg Abel, Just Went Shopping in the Tech Sector Again!",
+          "headline": "Why SpaceX has the potential to be the world's largest hyperscaler",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f95ee927dee819e4cd8bc527d8a3653a37ddc34d3c851b4f4f075a78429baa66"
+          "url": "https://finnhub.io/api/news?id=9b1f73ab26e2e1e724258c537d287fc40ab8fcd0f6bcca94357ecd1d7920756d"
         },
         {
-          "headline": "Document AI Market Size, Share, Trends, and Global Forecast to 2031 | Document AI Market Forecasts Growth from $17.51 Billion (2026) to $35.34 Billion by 2031, Profiling Google, Microsoft, IBM, ABBYY & 40 Other Key Players",
+          "headline": "SpaceX’s AI Business Is Now Bigger Than Starlink",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3ea90d3988ddc58d24f1de513d2e0bdf7c14aef2c03298284db6a61d3b1e045a"
+          "url": "https://finnhub.io/api/news?id=163c07286f2e4244eacef2e891b4697acde7ccceebadb75441f14233c0578264"
         },
         {
-          "headline": "Edge AI Software Market Size, Share, Trends, and Global Forecast to 2032 | Generative AI Moves to the Device, Sending Edge AI Software Toward $120 Billion",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ab00a86b0d4c46b6d0c38d6df07da5ea2c7efac2a8350af6072842f790888bb8"
-        },
-        {
-          "headline": "IBM Has a Chance to Rewrite Its Narrative. Can Earnings Spark a Comeback?",
+          "headline": "Meta Heads Into Earnings With 29% Upside on Our Model",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fda6fffd039aed8d57da3076b093681ca7fa47b8a5249d1e15908738d23ea82c"
+          "url": "https://finnhub.io/api/news?id=8107f09cc051fd56f64764da33b136b6eae7bc65195a0a1216514c98a5a3f2cb"
         },
         {
-          "headline": "Revolut Outage Hits Crypto Access as Google Cloud Failure Disrupts Banking Services",
+          "headline": "What Did It Take To Hold Microsoft Stock?",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e6a2b5d73c3249443d8b5dfbb272490faa322484523f1eef9e609c0e58a272c1"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4311d812195e6200b7b858f341d4eed5cd9c7870cc015ddb7751e65073f28d69"
+        },
+        {
+          "headline": "Making sense of Anthropic's $750 billion compute bet",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=25e1a6ebcf432eee9a4728ce1bb740c0f7806c03bb23858ca4bbdb54f8649e50"
         }
       ],
       "earnings": [
@@ -337,56 +340,56 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 531.87,
-      "change": -1.65,
-      "changePercent": -0.3093,
-      "high": 534.21,
-      "low": 525.84,
-      "open": 533.91,
-      "prevClose": 533.52,
+      "price": 531.64,
+      "change": -0.23,
+      "changePercent": -0.0432,
+      "high": 531.85,
+      "low": 525.02,
+      "open": 528.14,
+      "prevClose": 531.87,
       "name": "Microsoft Corp",
       "sector": "Technology",
-      "marketCap": "$3.95T",
+      "marketCap": "$3.93T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
       "week52High": 553.72,
       "week52Low": 349.2,
-      "beta": 1.0584344,
-      "peRatio": 29.2277,
+      "beta": 1.0595115,
+      "peRatio": 29.3904,
       "eps": 17.9457,
       "dividendYield": "0.79%",
-      "volume": "20.8M",
-      "avgVolume": "31.8M",
+      "volume": "20.2M",
+      "avgVolume": "31.4M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Evergreen’s Lyra Technology Group Acquires Dutch Managed Service Provider Lantack",
-          "source": "Yahoo",
-          "timeAgo": "40m ago",
-          "url": "https://finnhub.io/api/news?id=44a7cbc5628bca81f277c0ddbb6e8ea4a3e03041d3655b192b5f57d6cdabd2e3"
-        },
-        {
-          "headline": "NVIDIA Launches OpenShell Reference Architecture for Safe AI Agents",
-          "source": "Yahoo",
-          "timeAgo": "52m ago",
-          "url": "https://finnhub.io/api/news?id=0e48e2dac20dbfbbc3e64457ed97d4186684e75f30a76031052bd6887d464073"
-        },
-        {
-          "headline": "Document AI Market Size, Share, Trends, and Global Forecast to 2031 | Document AI Market Forecasts Growth from $17.51 Billion (2026) to $35.34 Billion by 2031, Profiling Google, Microsoft, IBM, ABBYY & 40 Other Key Players",
+          "headline": "Why SpaceX has the potential to be the world's largest hyperscaler",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3ea90d3988ddc58d24f1de513d2e0bdf7c14aef2c03298284db6a61d3b1e045a"
+          "url": "https://finnhub.io/api/news?id=9b1f73ab26e2e1e724258c537d287fc40ab8fcd0f6bcca94357ecd1d7920756d"
         },
         {
-          "headline": "Edge AI Software Market Size, Share, Trends, and Global Forecast to 2032 | Generative AI Moves to the Device, Sending Edge AI Software Toward $120 Billion",
+          "headline": "CoreWeave's business model explained: Why investors are worried",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ab00a86b0d4c46b6d0c38d6df07da5ea2c7efac2a8350af6072842f790888bb8"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4c7b6c69dcc60b06dbe5ac1521dfc238ab66d6a00bcb7d9050e81b0f566acdc5"
         },
         {
-          "headline": "Agentic AI Market Size, Share, Trends, and Global Forecast to 2033 | Companies Move From Copilots to Autonomous Agents, Fueling a $206 Billion Market",
+          "headline": "Jim Cramer and Ken Fisher’s AI Pick: Microsoft (MSFT)",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c3d911f1a27645d3fdadc0efe3e412585f93de47cca70752251071a38babe839"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9c56ab81a39561430e3f3b249cd6c746ef2fc0f782bff4b655be35740fd57c3a"
+        },
+        {
+          "headline": "What Did It Take To Hold Microsoft Stock?",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4311d812195e6200b7b858f341d4eed5cd9c7870cc015ddb7751e65073f28d69"
+        },
+        {
+          "headline": "FinTurk Introduces FinBox and Unlimited AI Usage to Streamline Email Management for Financial Advisors",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d162d1304c3db88836805d8f5d052f6a98c747f0d07b6ac688cf6e0552291767"
         }
       ],
       "earnings": [
@@ -423,56 +426,56 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 262.63,
-      "change": 0.18,
-      "changePercent": 0.0686,
-      "high": 265.3397,
-      "low": 260.42,
-      "open": 264.075,
-      "prevClose": 262.45,
+      "price": 262.96,
+      "change": 0.33,
+      "changePercent": 0.1257,
+      "high": 263.22,
+      "low": 259.29,
+      "open": 263.22,
+      "prevClose": 262.63,
       "name": "Amazon.com Inc",
       "sector": "Retail",
-      "marketCap": "$2.83T",
+      "marketCap": "$2.81T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
-      "beta": 1.512371,
-      "peRatio": 36.4474,
+      "beta": 1.5138426,
+      "peRatio": 36.2224,
       "eps": 7.1737,
       "dividendYield": "",
       "volume": "36.2M",
-      "avgVolume": "44.1M",
+      "avgVolume": "44.0M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Ken Fisher and Jim Cramer Like This Bank Stock. Is It a Buy After Earnings?",
-          "source": "Yahoo",
-          "timeAgo": "53m ago",
-          "url": "https://finnhub.io/api/news?id=d8ceaec37f3d977b1ed29ca91dc6d74a1ed94cead7761d58d8750822d6f8e2f2"
-        },
-        {
-          "headline": "UK Outdoor Structures Market Report 2026 - Consumer and Home Category Data | Price-Led Demand and Omnichannel Shopping Signal Retail Growth Opportunities",
+          "headline": "Why SpaceX has the potential to be the world's largest hyperscaler",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c64e614a1f9ba392d092d7cea94d431018351c0ca6de4b4cd23a4b772d9fac38"
+          "url": "https://finnhub.io/api/news?id=9b1f73ab26e2e1e724258c537d287fc40ab8fcd0f6bcca94357ecd1d7920756d"
         },
         {
-          "headline": "IBM Has a Chance to Rewrite Its Narrative. Can Earnings Spark a Comeback?",
+          "headline": "Amazon (AMZN) Trades at 24 Times Forward Earnings. Can Its Cash Engines Fund the Robotaxi Bet?",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=03ebf4387301db4187f9eaf91edfc9412451f1f6791c61d5ccf0d1f1dab077bf"
+        },
+        {
+          "headline": "Meta Earnings Prediction Market Preview: What Will Mark Zuckerberg Say?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fda6fffd039aed8d57da3076b093681ca7fa47b8a5249d1e15908738d23ea82c"
+          "url": "https://finnhub.io/api/news?id=7b30eacb377244912b8f094c28f323f756ff4439801d008370e8b152df71fbed"
         },
         {
-          "headline": "Ahead Of Schedule: Meta's Early Earnings Shift Driven By Muse AI Enthusiasm",
-          "source": "SeekingAlpha",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=d99e978a958d43d3b5e0f3939271d88cde072ac381ec4c6a199854fe7c992064"
-        },
-        {
-          "headline": "SpaceX Can't Find Spare Nvidia, Google or Amazon Chips Despite Billions to Spend, Strategist Terms It 'Pretty Insane'",
+          "headline": "What Did It Take To Hold Microsoft Stock?",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=2fa5987668ee03a2a98431e0ad01d481197f07069fe17eea2d90e8882186b13c"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=4311d812195e6200b7b858f341d4eed5cd9c7870cc015ddb7751e65073f28d69"
+        },
+        {
+          "headline": "Protolabs Accelerates AI-Enabled Manufacturing with Amazon Quick",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=fd8335e4a419aefb6483c34fdd7cf30ed8fb8fb1d8b4ea088b75ee954f5d9401"
         }
       ],
       "earnings": [
@@ -509,56 +512,56 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 373.71,
-      "change": 5.65,
-      "changePercent": 1.5351,
-      "high": 377.59,
-      "low": 363.64,
-      "open": 370.28,
-      "prevClose": 368.06,
+      "price": 386.19,
+      "change": 12.48,
+      "changePercent": 3.3395,
+      "high": 388.843,
+      "low": 380.51,
+      "open": 380.7875,
+      "prevClose": 373.71,
       "name": "Tesla Inc",
       "sector": "Automobiles",
-      "marketCap": "$1.48T",
+      "marketCap": "$1.52T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
       "week52High": 498.83,
       "week52Low": 297.38,
-      "beta": 1.7595394,
-      "peRatio": 383.1498,
+      "beta": 1.7603472,
+      "peRatio": 389.345,
       "eps": 1.0754,
       "dividendYield": "",
-      "volume": "31.8M",
-      "avgVolume": "39.3M",
+      "volume": "32.2M",
+      "avgVolume": "39.1M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Market Chatter: Oracle Chairman Larry Ellison Borrowed Billions to Finance Son's Warner Bros. Discovery Acquisition",
+          "headline": "Why SpaceX has the potential to be the world's largest hyperscaler",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=bbf19a645e9ba8fb062961344e0ee67a4644cea582f97e3a16fedaee45b8d737"
+          "url": "https://finnhub.io/api/news?id=9b1f73ab26e2e1e724258c537d287fc40ab8fcd0f6bcca94357ecd1d7920756d"
         },
         {
-          "headline": "Nasdaq Futures Rise Premarket As SpaceX AI Boom Lifts Chip Stocks: SMCI, TSLA, META, IBM, CRWV, NFLX, BE In Focus",
+          "headline": "Tesla, SpaceX Pop After Musk Confirms Merger Talks; 'Would Be A Good Idea'",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b99c7f34f9d3c4158e7c9733dbdb408e295c34dd0861144baff83f87122e0473"
+          "url": "https://finnhub.io/api/news?id=1d74012484ca8b1c0ff6405b68374e31e39d12ede6186f95a894381a9ce51176"
         },
         {
-          "headline": "Musk on possible SpaceX-Tesla merger; Meta to report - what’s moving markets",
+          "headline": "Tech stocks lead market higher as SpaceX shares surge: AlphaCheck",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=15540e4752a8a5433cd430b51baecf2f4be285fc433a3263d1c8fe818064486d"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=08db3da7d8db015ed2adb3c2e537d37f5edaf2f54026f27461e62ff9af68d99b"
         },
         {
-          "headline": "Will Tesla’s New Flying Roadster Send the Stock Flying?",
+          "headline": "Musk confirms merger exploration, takeaways from Nvidia's Huang at GTC Berlin event",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=b35ab90750fd2e701c66b1744d7b8005b8fc2f342b5654ac7d453f4ebd393bd8"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=1213b2373144243fd17e1b0926d69b3457c0d800d43f334e9f33667f6e5cf95d"
         },
         {
-          "headline": "Cathie Wood's Ark Invest Grew Its Portfolio to $15.4 Billion Last Quarter, With Tesla, AMD, and a New SpaceX Stake Making Up About 18% of ARKK Assets. Is Her Concentrated Bet Paying Off?",
+          "headline": "Stock Market Today: Tech Rallies With SpaceX Earnings; Meta, Tesla Reports Due (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=bc2a190a66617284b7b837954a09524416c000a2e85c2af8031adb67f4ca0bee"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b18fc60c6f904e6f2f9897acf095c7178629f20ab02ee7bac1e5d1d55a1d0d31"
         }
       ],
       "earnings": [
