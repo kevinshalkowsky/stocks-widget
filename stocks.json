@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-23T13:03:20.341Z",
+  "updatedAt": "2026-10-23T17:58:50.936Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "price": 7663.43,
-      "change": -93.74,
-      "changePercent": -1.2084,
-      "high": 7702.94,
-      "low": 7637.36,
+      "price": 7639.43,
+      "change": -24,
+      "changePercent": -0.3132,
+      "high": 7660.15,
+      "low": 7612.07,
       "open": 0,
-      "prevClose": 7757.169921875,
+      "prevClose": 7663.43017578125,
       "week52High": 7844.52,
       "week52Low": 6316.91,
-      "volume": "3.6B",
+      "volume": "1.5B",
       "sparklineData": [
         7706.02978515625,
         7704.1298828125,
@@ -37,7 +37,8 @@
         7690.72998046875,
         7712.56982421875,
         7757.169921875,
-        7663.43017578125
+        7663.43017578125,
+        7639.43017578125
       ],
       "sector": "",
       "marketCap": "",
@@ -58,16 +59,16 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "price": 52867.98,
-      "change": 11.89,
-      "changePercent": 0.0225,
-      "high": 52927.88,
-      "low": 52508.38,
+      "price": 52303.93,
+      "change": -564.05,
+      "changePercent": -1.0669,
+      "high": 52696.7,
+      "low": 52055.1,
       "open": 0,
-      "prevClose": 52856.08984375,
+      "prevClose": 52867.98046875,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "506.2M",
+      "volume": "196.3M",
       "sparklineData": [
         51511.58984375,
         51349.98046875,
@@ -90,7 +91,8 @@
         51966.03125,
         52495.87890625,
         52856.08984375,
-        52867.98046875
+        52867.98046875,
+        52303.9296875
       ],
       "sector": "",
       "marketCap": "",
@@ -111,16 +113,16 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "price": 26008.86,
-      "change": -694,
-      "changePercent": -2.599,
-      "high": 26359.406,
-      "low": 25918.092,
+      "price": 26030.246,
+      "change": 21.39,
+      "changePercent": 0.0822,
+      "high": 26111.623,
+      "low": 25866.152,
       "open": 0,
-      "prevClose": 26702.859375,
+      "prevClose": 26008.859375,
       "week52High": 27722.75,
       "week52Low": 20690.25,
-      "volume": "7.8B",
+      "volume": "3.6B",
       "sparklineData": [
         26936.0390625,
         26939.369140625,
@@ -143,7 +145,8 @@
         26430.890625,
         26424.8203125,
         26702.859375,
-        26008.859375
+        26008.859375,
+        26030.24609375
       ],
       "sector": "",
       "marketCap": "",
@@ -165,56 +168,56 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 348.22,
-      "change": 4.23,
-      "changePercent": 1.2297,
-      "high": 348.36,
-      "low": 342.28,
-      "open": 344.94,
-      "prevClose": 343.99,
+      "price": 346.51,
+      "change": -1.71,
+      "changePercent": -0.4911,
+      "high": 351.73,
+      "low": 345.75,
+      "open": 347.1925,
+      "prevClose": 348.22,
       "name": "Apple Inc",
       "sector": "Technology",
       "marketCap": "$5.08T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
-      "week52High": 348.1499,
+      "week52High": 348.36,
       "week52Low": 243.42,
-      "beta": 1.1066047,
+      "beta": 1.1033893,
       "peRatio": 44.9793,
       "eps": 7.465,
       "dividendYield": "0.51%",
-      "volume": "39.4M",
+      "volume": "40.5M",
       "avgVolume": "49.2M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Dow Jones Futures Fall After Moderna Crashes, Meta Fuels AI Meltdown. Warren Buffett Market Is Thriving.",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=842775a4a00dd1343a36615933b5601d7e4c8059640d2be7c19396a352aeedeb"
-        },
-        {
-          "headline": "Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cad8ba691c56aa10c19e18b4ea348d1d5da4d5b1e0ba290409c2dd73b52fafd0"
-        },
-        {
-          "headline": "3 Investment Grade Bond Ideas Riding Big Tech AI Capex Plans",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=10484f97b5b04ec706bf39dbae4ee6a1f5602644fdd0d973936c3d601c58713d"
-        },
-        {
-          "headline": "Develop A Critical Thinking Mindset When You Make Decisions",
+          "headline": "Apple Stock Hits Record High On iPhone Duo Launch",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f851f16a8a47d2b7c47c298fb34435ab06d187d17134d101311a4499586f0d9c"
+          "url": "https://finnhub.io/api/news?id=b695769e2d8271cf63ed62d97916cf1a3cb3dc147d9ec2be12c0aafa0048a068"
         },
         {
-          "headline": "Apple could be about to dethrone Nvidia as world's most valuable company",
+          "headline": "How Apple dethroned Nvidia to become world's most valuable company",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=86d3ad44bbc346140011e969daf58cd802da31906fd90a28740c5fd2813cf651"
+          "url": "https://finnhub.io/api/news?id=eabc5f90f77eac6f4f03f5e2f6fba873383507277d5869ce259a4c44ee87062b"
+        },
+        {
+          "headline": "Apple is taking Wall Street's top spot back from Nvidia — for the fifth time",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=78507bba730e854e746e2f83463b7bf328e94eeded8d098c9c94b8f47d3c02b0"
+        },
+        {
+          "headline": "Apple Overtakes Nvidia As World's Most Valuable Company — iPhone Duo Hits Stores Amid Strong Demand",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=b68cdc1970874be60f719e555b14965454b9ded224d58a17d87aa704f11a81ab"
+        },
+        {
+          "headline": "Apple is catching up to Nvidia's market cap, and investors are waiting on Anthropic's IPO",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=22c6cfe7d8dceeff28163eb03e53c601dd94522269f309cdc6dcf277207c3695"
         }
       ],
       "earnings": [
@@ -251,56 +254,56 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 324.22,
-      "change": -10.54,
-      "changePercent": -3.1485,
-      "high": 331.43,
-      "low": 322,
-      "open": 330.455,
-      "prevClose": 334.76,
+      "price": 322.26,
+      "change": -1.96,
+      "changePercent": -0.6045,
+      "high": 324.5307,
+      "low": 320.1805,
+      "open": 322.7725,
+      "prevClose": 324.22,
       "name": "Alphabet Inc",
       "sector": "Media",
       "marketCap": "$3.97T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
       "week52High": 408.61,
-      "week52Low": 244.15,
-      "beta": 1.2045408,
+      "week52Low": 249.29,
+      "beta": 1.2108115,
       "peRatio": 30.1591,
       "eps": 10.807,
       "dividendYield": "",
-      "volume": "22.8M",
+      "volume": "23.3M",
       "avgVolume": "28.5M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cad8ba691c56aa10c19e18b4ea348d1d5da4d5b1e0ba290409c2dd73b52fafd0"
-        },
-        {
-          "headline": "Microsoft Has a $1 Trillion Opportunity Hiding in Plain Sight",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6fb95c865bd2c74d559dbc605bf94ab9112f464d85b7b6c0776ff2f765a66d87"
-        },
-        {
-          "headline": "Alphabet (NASDAQ:GOOGL) Screens as a GARP-Friendly Quality Compounder",
-          "source": "ChartMill",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f3099306cd9273504b979dcccff483bd8bbfb4d780fef9483c68ce1b0a780694"
-        },
-        {
-          "headline": "AI agents are inside U.S. bank accounts. But nobody knows how.",
+          "headline": "Gemini Latest Stock Portfolio: Top 4 Stock Picks",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=21f7cd4c5d23dc2fcd17c6cdb8c3a78bde6b81c66bbdde89c6d8c918f13a5fa7"
+          "url": "https://finnhub.io/api/news?id=37ea55814c0e91d7498878dbf683ac0f7503f7e5e60a52881390880d67c94ef9"
         },
         {
-          "headline": "Google and Voltus expand virtual power plant to 1GW in PJM",
+          "headline": "Hyperscalers Microsoft, Amazon Line Up With Earnings, Along With ServiceNow, Intel",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=2d8a6c1041592712aa08de2b85f75774a24d2e013e317a6754cfe5a1c2550b29"
+          "url": "https://finnhub.io/api/news?id=2778e33345ef6abc3bf9e4ebc22ad3cd8a466b5258189c63c8ef560e4332f950"
+        },
+        {
+          "headline": "Facing Investing Fears",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=4acfc783dbe45139cb77f80e3613ef528b642a29008e97e97505e0b739552d14"
+        },
+        {
+          "headline": "The case for why 'load-bearing' AI companies should not be bailed out",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=5c7b9014b85d065c66a8fdec448504a4e30844d048a918ff47bf1ba783e6591f"
+        },
+        {
+          "headline": "Apple is taking Wall Street's top spot back from Nvidia — for the fifth time",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=78507bba730e854e746e2f83463b7bf328e94eeded8d098c9c94b8f47d3c02b0"
         }
       ],
       "earnings": [
@@ -337,56 +340,56 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 521.08,
-      "change": -11.87,
-      "changePercent": -2.2272,
-      "high": 533.596,
-      "low": 520.3,
-      "open": 533.14,
-      "prevClose": 532.95,
+      "price": 524.14,
+      "change": 3.06,
+      "changePercent": 0.5872,
+      "high": 525.77,
+      "low": 515.7,
+      "open": 517.5675,
+      "prevClose": 521.08,
       "name": "Microsoft Corp",
       "sector": "Technology",
       "marketCap": "$3.87T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
       "week52High": 553.72,
       "week52Low": 349.2,
-      "beta": 1.0606596,
+      "beta": 1.0589031,
       "peRatio": 29.4051,
       "eps": 17.9457,
       "dividendYield": "0.79%",
-      "volume": "19.9M",
-      "avgVolume": "31.2M",
+      "volume": "20.0M",
+      "avgVolume": "31.1M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "OpenAI Just Cut Its Valuation Target by $150 Billion",
+          "headline": "Durable Growth Reinforces Microsoft Corporation’s (MSFT) Investment Thesis",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=7c30730525b6b95435c1333510759a4ff7303d7b31f1d403e826f3d520c0f952"
-        },
-        {
-          "headline": "Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cad8ba691c56aa10c19e18b4ea348d1d5da4d5b1e0ba290409c2dd73b52fafd0"
-        },
-        {
-          "headline": "Nebius Has Cratered Over The Last 3 Months: This Wall Street Ratings Firm Says 2.5X Returns Will Materialize Soon",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4b99e7ab90fd03f5f1cefe0c67db417215322697ab9e50376774ec67092cbddc"
-        },
-        {
-          "headline": "Microsoft Has a $1 Trillion Opportunity Hiding in Plain Sight",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6fb95c865bd2c74d559dbc605bf94ab9112f464d85b7b6c0776ff2f765a66d87"
-        },
-        {
-          "headline": "Stock Market Today: Meta’s Spending Plans Reignite AI Bubble Fears as the Nasdaq Sinks 2.6% and Money Runs to Defensives",
-          "source": "ChartMill",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a7f610ce5e8bbb9cda6098e6a68e424b2918cc730765a29428a90a3f42c03b56"
+          "url": "https://finnhub.io/api/news?id=9a3c475d6034e5c94b4d23d025c7e77c07eb136991b3d49a54b82f8b0f41d6f4"
+        },
+        {
+          "headline": "Blackstone's $2.3 Billion CoreWeave Bet Sparked a Trillion-Dollar AI Lending Boom",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=6e3b285f033dfdac1995ad4dfce31982ea1cc57379cfbc1458949985a4f1a421"
+        },
+        {
+          "headline": "Hyperscalers Microsoft, Amazon Line Up With Earnings, Along With ServiceNow, Intel",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=2778e33345ef6abc3bf9e4ebc22ad3cd8a466b5258189c63c8ef560e4332f950"
+        },
+        {
+          "headline": "AMD Stock Price Prediction: One Growth Opportunity Could Push Shares Much Higher",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=f8da924de3c3166add7f29053d92bd0b1de20ea187b4e388d2f7d24b4ef45b6b"
+        },
+        {
+          "headline": "Microsoft Azure Growth, Copilot Monetization in Focus Ahead of Earnings, BofA Says",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=f4620da5db7c93b530382a05f2810a347cc87f7a955452411a226a8afa4680ff"
         }
       ],
       "earnings": [
@@ -423,56 +426,56 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 250.38,
-      "change": -11.99,
-      "changePercent": -4.5699,
-      "high": 258.41,
-      "low": 248.0001,
-      "open": 258.18,
-      "prevClose": 262.37,
+      "price": 248.88,
+      "change": -1.5,
+      "changePercent": -0.5991,
+      "high": 250.01,
+      "low": 246.4516,
+      "open": 249.615,
+      "prevClose": 250.38,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.70T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
-      "beta": 1.5155935,
+      "beta": 1.513993,
       "peRatio": 36.4363,
       "eps": 7.1737,
       "dividendYield": "",
-      "volume": "35.7M",
-      "avgVolume": "43.8M",
+      "volume": "36.8M",
+      "avgVolume": "43.9M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "OpenAI Just Cut Its Valuation Target by $150 Billion",
+          "headline": "Prediction: Amazon Could Double by 2030 if This Part of Its Business Delivers",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=7c30730525b6b95435c1333510759a4ff7303d7b31f1d403e826f3d520c0f952"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=088656023fb8fb82fbb889fb204589e8b34272fe04e55edb6d1b863fc1db448e"
         },
         {
-          "headline": "Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company",
+          "headline": "Why OpenAI could be in trouble if Anthropic's IPO doesn't go well",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cad8ba691c56aa10c19e18b4ea348d1d5da4d5b1e0ba290409c2dd73b52fafd0"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=44417f3a81170226cc73d5ffc4b4a9c3681349b39578b536ef5feddfd0a18d49"
         },
         {
-          "headline": "Should You Buy Amazon Stock Before Oct. 29?",
+          "headline": "Hyperscalers Microsoft, Amazon Line Up With Earnings, Along With ServiceNow, Intel",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=60d4860966204d258cec6856816c22e5c569d5e8d6739a2b4caf5b4c5534c97c"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=2778e33345ef6abc3bf9e4ebc22ad3cd8a466b5258189c63c8ef560e4332f950"
         },
         {
-          "headline": "Microsoft Has a $1 Trillion Opportunity Hiding in Plain Sight",
+          "headline": "Facing Investing Fears",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6fb95c865bd2c74d559dbc605bf94ab9112f464d85b7b6c0776ff2f765a66d87"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=4acfc783dbe45139cb77f80e3613ef528b642a29008e97e97505e0b739552d14"
         },
         {
-          "headline": "Two Critical Nvidia Stock Flaws and Other Reasons This Analyst Says Sell",
+          "headline": "The case for why 'load-bearing' AI companies should not be bailed out",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c8c52ce7a59f3e6edd08af306e094ba8007883e58a6013bf05580f9fe56f6458"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=5c7b9014b85d065c66a8fdec448504a4e30844d048a918ff47bf1ba783e6591f"
         }
       ],
       "earnings": [
@@ -509,56 +512,56 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 374.58,
-      "change": -11.89,
-      "changePercent": -3.0766,
-      "high": 388.8595,
-      "low": 373.71,
-      "open": 374.285,
-      "prevClose": 386.47,
+      "price": 371.26,
+      "change": -3.32,
+      "changePercent": -0.8863,
+      "high": 377.32,
+      "low": 365.27,
+      "open": 374.685,
+      "prevClose": 374.58,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.48T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
       "week52High": 498.83,
       "week52Low": 297.38,
-      "beta": 1.7631247,
+      "beta": 1.7569542,
       "peRatio": 390.2514,
       "eps": 1.0754,
       "dividendYield": "",
-      "volume": "34.6M",
-      "avgVolume": "38.9M",
+      "volume": "36.9M",
+      "avgVolume": "39.0M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Tesla Gives Up On Cybertruck In Australia. Company Says It Will Refund All Deposits It Has Collected Since 2019 For The Troubled Truck",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ce988ebbf6e406dd3ca9f3171b01f75f186fcbbfea746afbf9a283bbdc8cfda3"
-        },
-        {
-          "headline": "3 Investment Grade Bond Ideas Riding Big Tech AI Capex Plans",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=10484f97b5b04ec706bf39dbae4ee6a1f5602644fdd0d973936c3d601c58713d"
-        },
-        {
-          "headline": "SpaceX and Tesla Merger Soon? Crypto Prediction Market Punters Are Betting on This Date as Elon Musk Calls the Combination a 'Good Idea'",
+          "headline": "SpaceX CEO Elon Musk is 'one of one': Will the market give Anthropic's Dario Amodei the same leeway?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=1bf5b91e17423cbe0b30c2511b53453abc2740aac1bd7971303dc00b663db2b7"
+          "url": "https://finnhub.io/api/news?id=3c7019a73f9f9b34007fa8e19d45f252d2ab266f8a26195d8bc305b0e933dd41"
         },
         {
-          "headline": "Larry Fink says Americans’ retirement savings need to fund $10 trillion AI infrastructure needs. Protect your wealth",
+          "headline": "Stock Market Week: Chips, AI Sector Dive But Other Sectors Healthy; SpaceX, Tesla, Meta In Focus",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a4d05e5c5aaa5b2b6e45560a4a73c0f45c6b7214f4c5338428fa4fae2d7406fe"
+          "url": "https://finnhub.io/api/news?id=5ac988fb0ac99a068bc54f91ca048b95c9658149c53a1aa9fdd4afc2a2f67524"
         },
         {
-          "headline": "Latest News In Electric Vehicles - Solid-State Batteries Revolutionize Future Market Potential",
+          "headline": "Tesla Europe Sales Surge",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=d7cfb53a08bb8a2ebaa091cae5cc3c9017565536eb8d74812d8a2cd708062226"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=ee82cb4c56d00e357dfb5301294d5908ec8d3af3bb207555994051b45ee4fe89"
+        },
+        {
+          "headline": "Could Elon Musk merge Tesla and SpaceX?",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=f2339d3eb39fa2ad1883a50c157c0298dfd7d9fd7e4a04bbbb1a06a6581282b4"
+        },
+        {
+          "headline": "Global Large Capacity Batteries Market: Size, Share, Trends and Forecast to 2031 Featuring Profiles of Tesla, LG Chem, Panasonic Corp., Samsung SDI Co., BYD Company and More",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=bb9edd75a2afd9c910588144bf987e7875a6dbfd9fd25f941e54e055b1d76399"
         }
       ],
       "earnings": [
