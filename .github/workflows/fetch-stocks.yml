@@ -2,8 +2,18 @@ name: Fetch Stock Data
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    # Market hours (Mon-Fri, 13:00-21:59 UTC covers US trading in both EST and
+    # EDT): every 10 minutes. Minutes are offset from :00 because GitHub drops
+    # or delays scheduled runs at the top of the hour when load is high.
+    - cron: "3-59/10 13-21 * * 1-5"
+    # Everything else: hourly.
+    - cron: "17 * * * *"
   workflow_dispatch:
+
+# Never let two runs overwrite each other's stocks.json.
+concurrency:
+  group: fetch-stocks
+  cancel-in-progress: false
 
 jobs:
   fetch:
@@ -205,6 +215,11 @@ jobs:
                 const change        = prevClose ? +(price - prevClose).toFixed(2) : 0
                 const changePercent = prevClose ? +((change / prevClose) * 100).toFixed(4) : 0
 
+                // Yahoo's chart meta has no regularMarketOpen, so take the
+                // open from the latest daily bar instead of writing 0.
+                const opens    = result.indicators?.quote?.[0]?.open ?? []
+                const lastOpen = [...opens].reverse().find(v => v != null) ?? 0
+
                 q = {
                   price,
                   prevClose,
@@ -212,7 +227,11 @@ jobs:
                   changePercent,
                   high:      meta.regularMarketDayHigh ?? 0,
                   low:       meta.regularMarketDayLow  ?? 0,
-                  open:      meta.regularMarketOpen    ?? 0,
+                  open:      meta.regularMarketOpen    ?? lastOpen,
+                  // When Yahoo says this price was actually traded
+                  asOf: meta.regularMarketTime
+                    ? new Date(meta.regularMarketTime * 1000).toISOString()
+                    : "",
                   week52High: meta.fiftyTwoWeekHigh    ?? 0,
                   week52Low:  meta.fiftyTwoWeekLow     ?? 0,
                   volume:    formatVolume(meta.regularMarketVolume ?? 0),
@@ -226,6 +245,7 @@ jobs:
               symbol:        sym,
               type:          "index",
               name:          INDEX_NAMES[sym] ?? sym,
+              asOf:          q.asOf          ?? "",
               price:         q.price         ?? 0,
               change:        q.change        ?? 0,
               changePercent: q.changePercent ?? 0,
@@ -279,6 +299,23 @@ jobs:
                 await new Promise(r => setTimeout(r, 300))
               } catch (err) {
                 console.error(`  x ${sym}: ${err.message}`)
+              }
+            }
+
+            // If a fetch failed (Yahoo/Finnhub hiccup returns price 0 or throws),
+            // keep the last good record instead of publishing zeros or dropping it.
+            let previous = {}
+            try { previous = JSON.parse(require("fs").readFileSync("stocks.json", "utf8")) } catch {}
+            for (const sym of INDEXES) {
+              if (!results[sym]?.price) {
+                const old = previous.indexes?.[sym]
+                if (old) { console.warn(`  ! ${sym}: using previous data`); results[sym] = old }
+              }
+            }
+            for (const sym of SYMBOLS) {
+              if (!results[sym]?.price) {
+                const old = previous.stocks?.[sym]
+                if (old) { console.warn(`  ! ${sym}: using previous data`); results[sym] = old }
               }
             }
 
