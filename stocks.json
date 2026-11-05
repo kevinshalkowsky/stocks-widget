@@ -1,23 +1,22 @@
 {
-  "updatedAt": "2026-11-04T20:20:11.107Z",
+  "updatedAt": "2026-11-05T00:21:35.398Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "asOf": "2026-11-04T20:20:05.000Z",
-      "price": 7702.17,
-      "change": 133.25,
-      "changePercent": 1.7605,
+      "asOf": "2026-11-04T21:51:11.000Z",
+      "price": 7688.62,
+      "change": 119.7,
+      "changePercent": 1.5815,
       "high": 7715.57,
       "low": 7635.81,
       "open": 7635.81005859375,
       "prevClose": 7568.919921875,
       "week52High": 7844.52,
       "week52Low": 6316.91,
-      "volume": "3.0B",
+      "volume": "4.6B",
       "sparklineData": [
-        7773.9501953125,
         7818.93017578125,
         7801.77001953125,
         7765.35986328125,
@@ -39,7 +38,7 @@
         7580.06982421875,
         7541.39990234375,
         7568.919921875,
-        7702.169921875
+        7688.6201171875
       ],
       "sector": "",
       "marketCap": "",
@@ -60,19 +59,18 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "asOf": "2026-11-04T20:20:05.000Z",
-      "price": 53380.94,
-      "change": 1594.22,
-      "changePercent": 3.0784,
-      "high": 53386.09,
+      "asOf": "2026-11-04T21:51:20.000Z",
+      "price": 53356.12,
+      "change": 1569.4,
+      "changePercent": 3.0305,
+      "high": 53492.4,
       "low": 52410.23,
       "open": 52410.23046875,
       "prevClose": 51786.71875,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "479.6M",
+      "volume": "712.5M",
       "sparklineData": [
-        51267.8984375,
         51521.28125,
         51179.87109375,
         51231.640625,
@@ -94,7 +92,7 @@
         51770.30859375,
         51983.98046875,
         51786.71875,
-        53380.94140625
+        53356.12109375
       ],
       "sector": "",
       "marketCap": "",
@@ -115,19 +113,18 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "asOf": "2026-11-04T20:20:05.000Z",
-      "price": 25825.53,
-      "change": 453.52,
-      "changePercent": 1.7875,
+      "asOf": "2026-11-04T22:15:59.000Z",
+      "price": 25736.514,
+      "change": 364.5,
+      "changePercent": 1.4366,
       "high": 26048.83,
       "low": 25602.137,
       "open": 25652.78125,
       "prevClose": 25372.009765625,
       "week52High": 27722.75,
       "week52Low": 20690.25,
-      "volume": "6.4B",
+      "volume": "8.6B",
       "sparklineData": [
-        27477.310546875,
         27599.7890625,
         27538.689453125,
         27193.33984375,
@@ -149,7 +146,7 @@
         25437,
         25164.310546875,
         25372.009765625,
-        25825.529296875
+        25736.513671875
       ],
       "sector": "",
       "marketCap": "",
@@ -171,16 +168,16 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 352.3,
-      "change": 20.4,
-      "changePercent": 6.1464,
+      "price": 349.51,
+      "change": 17.61,
+      "changePercent": 5.3058,
       "high": 354.5,
-      "low": 336.4425,
-      "open": 336.4425,
+      "low": 340.99,
+      "open": 341.565,
       "prevClose": 331.9,
       "name": "Apple Inc.",
       "sector": "Technology",
-      "marketCap": "$5.15T",
+      "marketCap": "$5.10T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
       "week52High": 351.73,
       "week52Low": 243.42,
@@ -193,34 +190,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "How Much It Takes to Collect $3,000 a Month From Covered Call Funds GPIX, RYLD, and BST",
+          "headline": "Dow Jones Futures Rise After Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally. CoreWeave, SpaceX Skid.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=fdcd0dd2f05627091ee349cafe26b722af4e801c2a2caa8db605bfa5328e1f15"
+          "timeAgo": "36m ago",
+          "url": "https://finnhub.io/api/news?id=bd94200a841a17ec957529ce3b50994f2869aecca695dd519db6c16500753c39"
         },
         {
-          "headline": "Micron Sinks 6% as Democratic Sweep Stokes Fears of an AI “Slowdown in Build”",
+          "headline": "S&P 500, Nasdaq Surge Ahead After Democratic Sweep, Dow Jumps To One-Year High On Lower Oil — AAPL, SNAP, INTC, CRWV, QCOM In Focus",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=05aa33e693cf0be40de7b823d5487a6817b1f5152e52e7583fe7e011d84366d8"
+          "timeAgo": "49m ago",
+          "url": "https://finnhub.io/api/news?id=6f3d7c047349d14f6b8382fc5fd11ffc05bed15ab9f436012100122b5315ca3d"
         },
         {
-          "headline": "Big Tech Stocks And Mag7 ETF Jumps After Democratic Sweep Raises Bets For Easing AI Capex",
+          "headline": "Why an equal-weight S&P 500 fund can reduce Big Tech risk",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2f5f0332e4ae306e33ae17f2427684b8e8b3f6dbc40ad5a90fbaea816aade8a0"
+          "url": "https://finnhub.io/api/news?id=b65867e7b650c9bbce3e248e568bcaa1feba62b7e1012d187ad9d3807e0904b2"
         },
         {
-          "headline": "The Rise of AI Shoppers—and the Asterisk Attached",
+          "headline": "Dow Jones Futures: Elections, Plunging Oil Fuel Big Rally; Apple, Microsoft, Amazon Flash Buy Signals. CoreWeave, SpaceX Skid.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=eb9704866e7e63e61625c31cf2e2499abd8c3116c4377022d38388c81a971661"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=52279df7ab8987a60569cafcbfad0ecbaf0a195517a6c27e52b0b5dd73208f7f"
         },
         {
-          "headline": "Prediction: Nov. 6 Will Be a Huge Day for the Stock Market",
+          "headline": "Qualcomm’s Stock Falls as Supply Costs Eat Into Profit Outlook",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3d61d70f42dfece47d0219538a1d4c8cbc582d899ee66b57509d43e44c476d77"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=19eaf182654bc9b7159c1be24d9e28bcb6be28d2004c76385ec0769e983c937d"
         }
       ],
       "earnings": [
@@ -257,21 +254,21 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 291.06,
-      "change": 11.03,
-      "changePercent": 3.9389,
+      "price": 288.93,
+      "change": 8.9,
+      "changePercent": 3.1782,
       "high": 296.49,
-      "low": 281.31,
-      "open": 281.31,
+      "low": 283.4,
+      "open": 283.51,
       "prevClose": 280.03,
       "name": "Alphabet Inc.",
       "sector": "Media",
-      "marketCap": "$3.59T",
+      "marketCap": "$3.55T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
       "week52High": 408.61,
       "week52Low": 270.7,
       "beta": 1.2457957,
-      "peRatio": 26.0735,
+      "peRatio": 27.1446,
       "eps": 10.807,
       "dividendYield": "",
       "volume": "47.9M",
@@ -279,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Alphabet Stocks Rise 1.4% as Euro Borrowing Meets a $200 Billion Spending Plan",
+          "headline": "Dow Jones Futures Rise After Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally. CoreWeave, SpaceX Skid.",
           "source": "Yahoo",
-          "timeAgo": "44m ago",
-          "url": "https://finnhub.io/api/news?id=014ad964d456c0b24986211d01aea98f96dd182f207af6802bdb572740a36ffc"
+          "timeAgo": "36m ago",
+          "url": "https://finnhub.io/api/news?id=bd94200a841a17ec957529ce3b50994f2869aecca695dd519db6c16500753c39"
         },
         {
-          "headline": "Google Is Telling Schools to Take Its AI or Lose Its Search Engine",
-          "source": "Yahoo",
-          "timeAgo": "47m ago",
-          "url": "https://finnhub.io/api/news?id=98767ded971d17ce0426c872351bd77974897e8f0120bc216ba5cac55bbccdc0"
-        },
-        {
-          "headline": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-          "source": "Yahoo",
-          "timeAgo": "50m ago",
-          "url": "https://finnhub.io/api/news?id=42212a91b94b503ab7eb8e361c4aace0ea7340873b86f5983f82f5d60f9a4f4d"
-        },
-        {
-          "headline": "Cathie Wood Picks a Side Between Palantir and Google",
-          "source": "Yahoo",
-          "timeAgo": "59m ago",
-          "url": "https://finnhub.io/api/news?id=05933ca5e95d88ce6b1218cf650726df8ff9135754ae7c3f690bb51adc4b23b9"
-        },
-        {
-          "headline": "Strategy Gains 7% as Bitcoin Rallies After Midterms, CEO Touts “Bitcoin Capital Cycle”",
+          "headline": "'The First Victim': Chamath Palihapitiya Warns AI Startups are In the Crosshairs as OpenAI, Google Move Into Software",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ec27e699dbd8ab609ca47bbff51aae222c695f8562ec155a53b72c86a8a9e82d"
+          "url": "https://finnhub.io/api/news?id=b188ad1c0c4d201fee6006aa3cd1ac7c5c5a9d89065af55a49b258faf42e0278"
+        },
+        {
+          "headline": "Stock Market Today, Nov. 4: Dow Surges 3% in Biggest Post-Midterm Rally in 44 Years",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=76dfeca1e3549aeadb441c020ef97d95e53bf2180818ba004313bc68b545f6ac"
+        },
+        {
+          "headline": "Black Hills Corp. Reports 2026 Third-Quarter Results and Reaffirms 2026 Earnings Guidance",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=0fe481bad4f4e7a224244a4e4aebafdee9568bad1fa79c7b9bc2c9cef5e97c28"
+        },
+        {
+          "headline": "Dow Jones Futures: Elections, Plunging Oil Fuel Big Rally; Apple, Microsoft, Amazon Flash Buy Signals. CoreWeave, SpaceX Skid.",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=52279df7ab8987a60569cafcbfad0ecbaf0a195517a6c27e52b0b5dd73208f7f"
         }
       ],
       "earnings": [
@@ -343,12 +340,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 558.06,
-      "change": 37.07,
-      "changePercent": 7.1153,
-      "high": 558.79,
-      "low": 532.2075,
-      "open": 532.2075,
+      "price": 555.8,
+      "change": 34.81,
+      "changePercent": 6.6815,
+      "high": 559.15,
+      "low": 542.3,
+      "open": 543.695,
       "prevClose": 520.99,
       "name": "Microsoft Corporation",
       "sector": "Technology",
@@ -365,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Big Tech Stocks And Mag7 ETF Jumps After Democratic Sweep Raises Bets For Easing AI Capex",
+          "headline": "Dow Jones Futures Rise After Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally. CoreWeave, SpaceX Skid.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2f5f0332e4ae306e33ae17f2427684b8e8b3f6dbc40ad5a90fbaea816aade8a0"
+          "timeAgo": "36m ago",
+          "url": "https://finnhub.io/api/news?id=bd94200a841a17ec957529ce3b50994f2869aecca695dd519db6c16500753c39"
         },
         {
-          "headline": "Democrats’ Big Win Sets Up a Debt Ceiling Fight. What the Election Means for Bonds.",
+          "headline": "Why an equal-weight S&P 500 fund can reduce Big Tech risk",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=1c2e43f42901e98cc9cdcd93509b4d552601142878887ea5b6a450a2960c7f93"
+          "url": "https://finnhub.io/api/news?id=b65867e7b650c9bbce3e248e568bcaa1feba62b7e1012d187ad9d3807e0904b2"
         },
         {
-          "headline": "Prediction: Nov. 6 Will Be a Huge Day for the Stock Market",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3d61d70f42dfece47d0219538a1d4c8cbc582d899ee66b57509d43e44c476d77"
-        },
-        {
-          "headline": "Nvidia And Tesla Left Behind, As Rest Of Mag7 Rally On Dem’s Big Night",
+          "headline": "Stock Market Today, Nov. 4: Oracle Falls on Canceled $7 Billion Tencent Chip-Leasing Deal",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=1e08af916866a137776a1b5f7638fb06d79da676690a6aadad4b44540eeed8d7"
+          "url": "https://finnhub.io/api/news?id=529da26872551d752274f81ded6acbe05de2262eb05b0812944c0f0bbde25cae"
         },
         {
-          "headline": "This Magnificent 7 Stock Is Quietly Building an AI Empire",
+          "headline": "Stock Market Today, Nov. 4: Amazon Jumps 6% From New Perspective on AWS Growth and AI Strategy Following Election Results",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=95b85fe5f1ec048f70cd93e7c53cc4c5c8a7fa5efc7a9b07fdfa89781914f81d"
+          "url": "https://finnhub.io/api/news?id=8ec71aa8a8d5bb97bb664b4b1a12a03ff5f83d22d6e2c0970179ced52a0f3ac4"
+        },
+        {
+          "headline": "Dow Jones Futures: Elections, Plunging Oil Fuel Big Rally; Apple, Microsoft, Amazon Flash Buy Signals. CoreWeave, SpaceX Skid.",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=52279df7ab8987a60569cafcbfad0ecbaf0a195517a6c27e52b0b5dd73208f7f"
         }
       ],
       "earnings": [
@@ -429,16 +426,16 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 268.11,
-      "change": 17.42,
-      "changePercent": 6.9488,
+      "price": 266.03,
+      "change": 15.34,
+      "changePercent": 6.1191,
       "high": 271.49,
-      "low": 258.4325,
-      "open": 258.4325,
+      "low": 263.8486,
+      "open": 264.815,
       "prevClose": 250.69,
       "name": "Amazon.com Inc",
       "sector": "Retail",
-      "marketCap": "$2.91T",
+      "marketCap": "$2.88T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
@@ -451,34 +448,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Credo Sinks 10% as Democratic Sweep Hits AI Data Center Stocks: “Biggest Worry”",
+          "headline": "Dow Jones Futures Rise After Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally. CoreWeave, SpaceX Skid.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=5609a2fa868a2ab27e73a816ca189a7870e2479e5ae3e6e5f291b526e62e3b7a"
+          "timeAgo": "36m ago",
+          "url": "https://finnhub.io/api/news?id=bd94200a841a17ec957529ce3b50994f2869aecca695dd519db6c16500753c39"
         },
         {
-          "headline": "Big Tech Stocks And Mag7 ETF Jumps After Democratic Sweep Raises Bets For Easing AI Capex",
+          "headline": "Amazon workers in the Greater Toronto Area launch fight for better jobs with Unifor",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2f5f0332e4ae306e33ae17f2427684b8e8b3f6dbc40ad5a90fbaea816aade8a0"
+          "timeAgo": "38m ago",
+          "url": "https://finnhub.io/api/news?id=f2b7af4a29ebb91da8b4f0de8fa0edbe6d0cad3a5bed176238ea2811a4e0a6db"
         },
         {
-          "headline": "The Rise of AI Shoppers—and the Asterisk Attached",
+          "headline": "What Is Walmart (WMT) Betting On With Its New AI Shopping Agent?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=eb9704866e7e63e61625c31cf2e2499abd8c3116c4377022d38388c81a971661"
+          "url": "https://finnhub.io/api/news?id=474ad8a6e195ace7302d58b97a543ca0b6b7e4b415574c89fc10b4b96dd18f86"
         },
         {
-          "headline": "Prediction: Nov. 6 Will Be a Huge Day for the Stock Market",
+          "headline": "Stock Market Today, Nov. 4: Amazon Jumps 6% From New Perspective on AWS Growth and AI Strategy Following Election Results",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3d61d70f42dfece47d0219538a1d4c8cbc582d899ee66b57509d43e44c476d77"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=8ec71aa8a8d5bb97bb664b4b1a12a03ff5f83d22d6e2c0970179ced52a0f3ac4"
         },
         {
-          "headline": "Sector Update: Tech Stocks Mixed Wednesday Afternoon",
+          "headline": "Dow Jones Futures: Elections, Plunging Oil Fuel Big Rally; Apple, Microsoft, Amazon Flash Buy Signals. CoreWeave, SpaceX Skid.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=5d57a4399b0f7b1220ce4388fb4bb3d2f40ecef39babc22ffd475d92dca3378f"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=52279df7ab8987a60569cafcbfad0ecbaf0a195517a6c27e52b0b5dd73208f7f"
         }
       ],
       "earnings": [
@@ -515,16 +512,16 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 386.66,
-      "change": -11.84,
-      "changePercent": -2.9711,
+      "price": 385.19,
+      "change": -13.31,
+      "changePercent": -3.34,
       "high": 392.04,
       "low": 375.5001,
-      "open": 380.59,
+      "open": 379.8,
       "prevClose": 398.5,
       "name": "Tesla Inc",
       "sector": "Automobiles",
-      "marketCap": "$1.54T",
+      "marketCap": "$1.52T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
       "week52High": 498.83,
       "week52Low": 297.38,
@@ -537,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Tesla Wants to Build 20,000 Optimus Robots a Week. Here's the Supplier That Gets Paid for Every Single One -- and It's Not Nvidia.",
+          "headline": "Apple Reportedly Tightens the Belt On Employee AI Budgets Amid Cost-Cutting Drive",
           "source": "Yahoo",
-          "timeAgo": "40m ago",
-          "url": "https://finnhub.io/api/news?id=974dd6f35a6e2d597f20c888926d498387dd1ded5e29f58748b3e370589be2a8"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a99462b27454107a4ea7ed17b64f0cc236dc02686a28f07b2233f6fcbfa8a976"
         },
         {
-          "headline": "If You Invested $1,000 in Uber at Its IPO, Here’s What You’d Have Now",
+          "headline": "Rocket Lab Falls 4%, SpaceX Down 4% as Midterms Make Musk the “Biggest Loser”",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=5bc69d5f0521b248a937eaf066bb600a1279fd6f9bf185ef2d9d188ee92a54c8"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=52406f7d101ae1da14af05a2410d2b930c81671b7f3a025d7084fc765947a0d9"
         },
         {
-          "headline": "Lucid Jumps 12%, Rivian Climbs 6% as Post-Election Rally Lifts EV Stocks; Tesla Slides 3%",
+          "headline": "The Nasdaq-100 Is Outperforming Nvidia, Microsoft, Amazon, Meta Platforms, Alphabet, and Tesla This Year. Here's My Favorite Low-Cost ETF to Buy the Dip.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=fe0783ef664fd5f3f3b0f5d9cb14d7e46cfaf152b7427f03e91c37777619002c"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=3e864c54862b78871716f65b53263fd9dd276aeafdf847e2b98d59c3e7e3101a"
         },
         {
-          "headline": "Was Elon Musk the Midterms’ Biggest Loser? What It Means for Tesla and SpaceX Investors",
+          "headline": "Analysts Say These Industries Will See Midterm Election Impact",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=cb1617e386e01795e2a507e13e88df42ea1b06cc4e783ffb12a91ddb6c055fd0"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=8106e7723711537aeedb71d496f3bed87f69c5c955992c0e6b36222d31b22e72"
         },
         {
-          "headline": "Why a Democratic Sweep Is Crushing GE Vernova and More Industrial Stocks",
+          "headline": "Tesla made the Roadster fly. Expert says its $25K EV mattered more",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=026c664429645f63f5905e8fe576b92ddc71435bd5a8433b88dfb958e2fceb8b"
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=9ada0e4ab1cf07848997a2092c0251c2d27c60971dc7550a058f7c489a12413b"
         }
       ],
       "earnings": [
