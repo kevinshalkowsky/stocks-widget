@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-11-05T20:29:57.562Z",
+  "updatedAt": "2026-11-05T22:39:57.752Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "asOf": "2026-11-05T20:29:53.000Z",
-      "price": 7374.73,
-      "change": -313.89,
-      "changePercent": -4.0825,
+      "asOf": "2026-11-05T21:34:08.000Z",
+      "price": 7353.73,
+      "change": -334.89,
+      "changePercent": -4.3557,
       "high": 7681.29,
-      "low": 7362.77,
+      "low": 7350.35,
       "open": 7678.72021484375,
       "prevClose": 7688.6201171875,
       "week52High": 7844.52,
       "week52Low": 6316.91,
-      "volume": "3.5B",
+      "volume": "5.0B",
       "sparklineData": [
         7818.93017578125,
         7801.77001953125,
@@ -39,7 +39,7 @@
         7541.39990234375,
         7568.919921875,
         7688.6201171875,
-        7374.72998046875
+        7353.72998046875
       ],
       "sector": "",
       "marketCap": "",
@@ -60,17 +60,17 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "asOf": "2026-11-05T20:29:53.000Z",
-      "price": 51587.31,
-      "change": -1768.81,
-      "changePercent": -3.3151,
+      "asOf": "2026-11-05T21:35:51.000Z",
+      "price": 51523.06,
+      "change": -1833.06,
+      "changePercent": -3.4355,
       "high": 53710.61,
-      "low": 51567.02,
+      "low": 51486.82,
       "open": 53679.01171875,
       "prevClose": 53356.12109375,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "609.9M",
+      "volume": "854.8M",
       "sparklineData": [
         51521.28125,
         51179.87109375,
@@ -94,7 +94,7 @@
         51983.98046875,
         51786.71875,
         53356.12109375,
-        51587.30859375
+        51523.05859375
       ],
       "sector": "",
       "marketCap": "",
@@ -115,17 +115,17 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "asOf": "2026-11-05T20:29:53.000Z",
-      "price": 24411.658,
-      "change": -1324.85,
-      "changePercent": -5.1477,
+      "asOf": "2026-11-05T22:15:59.000Z",
+      "price": 24314.998,
+      "change": -1421.51,
+      "changePercent": -5.5233,
       "high": 25559.031,
       "low": 24262.145,
       "open": 25558.109375,
       "prevClose": 25736.509765625,
       "week52High": 27722.75,
       "week52Low": 20690.25,
-      "volume": "8.5B",
+      "volume": "10.9B",
       "sparklineData": [
         27599.7890625,
         27538.689453125,
@@ -149,7 +149,7 @@
         25164.310546875,
         25372.009765625,
         25736.509765625,
-        24411.658203125
+        24314.998046875
       ],
       "sector": "",
       "marketCap": "",
@@ -171,12 +171,12 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 345.21,
-      "change": -4.3,
-      "changePercent": -1.2303,
+      "price": 344.17,
+      "change": -5.34,
+      "changePercent": -1.5279,
       "high": 355.38,
       "low": 342.06,
-      "open": 352.29,
+      "open": 353.89,
       "prevClose": 349.51,
       "name": "Apple Inc.",
       "sector": "Technology",
@@ -193,34 +193,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "dYdX Team’s Arcus Opens Stock-Token Collateral to All Perps Traders, With a $20,000 Cap",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=13ff6bb5b8375e26be743847499187be89c107dc4d2d1dc77c272c3742ccce27"
+        },
+        {
+          "headline": "Why Is Apple (AAPL) Capping Internal AI Spending Under John Ternus?",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=7ddf38a7642a9505673f5c66815658ec33c474d34aa1c7be2049ab6ad7b9c2c0"
+        },
+        {
+          "headline": "Best Mag7 dip buys: NVIDIA leads on valuation, Alphabet on RSI",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=496eac2bb303ceb2a17a87dc0bb8ab068c59af155a51972a772f76d316dff50c"
+        },
+        {
+          "headline": "Apple Reportedly Set To Raise $7.5B From Bond Offering Amid Market Selloff",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=eb9fbb561f78d56b4fb209529aa525948e5fb4e9b0f8ce4db84193c45d181bef"
+        },
+        {
           "headline": "SpaceX Stock Is Still Falling. It Trades At Apple’s Valuation.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=48156ee18f765962ec49ad55aa4e83d0b33dfd686657ae74cfa16e36f84c62ee"
-        },
-        {
-          "headline": "Apple Stocks Move Lower as Investors Revisit Earnings Quality",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f52db1cf991ce716f6a7ba701ad7b12d35026aef01d73b5c0072fc2202a7e8ab"
-        },
-        {
-          "headline": "Apple Makes Major $7 Billion Funding Move",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=7ce8ebad26d1a20eb2caeb7db5cfe696eef1117fa4cfeeac4c40868a2fa9e961"
-        },
-        {
-          "headline": "Why GM and Hilton Are Moving to the Nasdaq From NYSE",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=80fe5b96fadb1833df1b5bbd390fc1e84a1b26a4ee818eb04f7eb89de79a7d5a"
-        },
-        {
-          "headline": "Sector Update: Tech Stocks Tumble Thursday Afternoon",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=37099f9977e672620efd8bf18a35d4786040590d2c13cad34fa77a16faa9f84e"
         }
       ],
       "earnings": [
@@ -257,12 +257,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 283.99,
-      "change": -4.94,
-      "changePercent": -1.7098,
+      "price": 282.57,
+      "change": -6.36,
+      "changePercent": -2.2012,
       "high": 295.6,
       "low": 277.07,
-      "open": 292.305,
+      "open": 293.97,
       "prevClose": 288.93,
       "name": "Alphabet Inc.",
       "sector": "Media",
@@ -279,34 +279,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "AI demand isn't going anywhere, but volatility lies ahead",
-          "source": "Yahoo",
-          "timeAgo": "47m ago",
-          "url": "https://finnhub.io/api/news?id=0dc1c6b33415d29597a63688e2c4b5b53f2ad8cd1111de1e6b296458f3ab0701"
-        },
-        {
-          "headline": "Google could take stake in TeraWulf’s $19B AI project",
-          "source": "Yahoo",
-          "timeAgo": "54m ago",
-          "url": "https://finnhub.io/api/news?id=fa6ef5364694bb289bb9a9c4a1b0ca821c1ebdfb7c6dbdc2927dca4c2944531f"
-        },
-        {
-          "headline": "What Anthropic's IPO could mean for Amazon and Google",
+          "headline": "Nasdaq Stock Market Correction: History Says This Is What Happens Next",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4a3288879460fa5242aa18651c12c0e205ca24b98ede26b30e9f48364fdd0cc4"
+          "url": "https://finnhub.io/api/news?id=8d6b0f4e82fa1b3a8e884771daa7d717f6c776fbf4ebd5ded47bd77c70bdb920"
         },
         {
-          "headline": "The AI Trade Selloff Is Crushing Industrial Stocks. What Caterpillar’s Valuation Tells Us.",
+          "headline": "USA TODAY: The Newspaper That Sued the Toll Collector",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b4f79d89bddac57cbf9a7f61b9779f7e0d48e1b55f756495b4f4633f3febcbe5"
+          "url": "https://finnhub.io/api/news?id=f39738d133b72fe00682a5db4e8b646e171f66fdcd91536f64b6b20506c4ae84"
         },
         {
-          "headline": "Meta, Google, TikTok Challenge New California Youth Social Media Law",
+          "headline": "dYdX Team’s Arcus Opens Stock-Token Collateral to All Perps Traders, With a $20,000 Cap",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=aa57c448b585e5d7dded1aa8ab440a183c8bedfc69e85bd4ec4d576c532feaa1"
+          "url": "https://finnhub.io/api/news?id=13ff6bb5b8375e26be743847499187be89c107dc4d2d1dc77c272c3742ccce27"
+        },
+        {
+          "headline": "Best Mag7 dip buys: NVIDIA leads on valuation, Alphabet on RSI",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=496eac2bb303ceb2a17a87dc0bb8ab068c59af155a51972a772f76d316dff50c"
+        },
+        {
+          "headline": "Reddit Sinks 8% as Social Ad Worries Deepen in Tech Rout",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=6191b8e02e60b4fd11cb66451cc10b1f73abc1d81b816402145f6977ed5a1825"
         }
       ],
       "earnings": [
@@ -343,12 +343,12 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 534.76,
-      "change": -21.04,
-      "changePercent": -3.7855,
+      "price": 535.93,
+      "change": -19.87,
+      "changePercent": -3.575,
       "high": 557.62,
       "low": 532.675,
-      "open": 555.3675,
+      "open": 554.935,
       "prevClose": 555.8,
       "name": "Microsoft Corporation",
       "sector": "Technology",
@@ -365,34 +365,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nvidia and Microsoft Get a New Spotlight From Bank of America",
-          "source": "Yahoo",
-          "timeAgo": "55m ago",
-          "url": "https://finnhub.io/api/news?id=000b4d681a6a959e3745075d8837ce7e1d23572c8b394f8366790f45269796a0"
-        },
-        {
-          "headline": "The AI Trade Selloff Is Crushing Industrial Stocks. What Caterpillar’s Valuation Tells Us.",
+          "headline": "Oil's Sudden Price Drop Surprises Citi's Chronert",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b4f79d89bddac57cbf9a7f61b9779f7e0d48e1b55f756495b4f4633f3febcbe5"
+          "url": "https://finnhub.io/api/news?id=1c537879fea95f65ad239a35b58a1e937b210aec0e4fd5faca64d1a30abb94ea"
         },
         {
-          "headline": "Microsoft Stocks Fall 2.59% as Cloud Returns Take Center Stage",
+          "headline": "dYdX Team’s Arcus Opens Stock-Token Collateral to All Perps Traders, With a $20,000 Cap",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=9b9425108b3d8c7d9d271f60e982885cf27458ea752c2e3d74c7a56e766dc21a"
+          "url": "https://finnhub.io/api/news?id=13ff6bb5b8375e26be743847499187be89c107dc4d2d1dc77c272c3742ccce27"
         },
         {
-          "headline": "Why GM and Hilton Are Moving to the Nasdaq From NYSE",
+          "headline": "Surveil Recognized as a Pioneer in the October 2026 Gartner(R) Emerging Market Quadrant for AI FinOps Tools - Startup Vendors",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=80fe5b96fadb1833df1b5bbd390fc1e84a1b26a4ee818eb04f7eb89de79a7d5a"
+          "url": "https://finnhub.io/api/news?id=ba0c29ea244be0b7483262d5dd88b760695d6bb0440e3fe9222d5dfa0b235e37"
         },
         {
-          "headline": "Update: Market Chatter: Microsoft Declines Texas Data Center Contract Extension With Nscale, Tightening Data Center Oversight",
+          "headline": "Best Mag7 dip buys: NVIDIA leads on valuation, Alphabet on RSI",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=88095028b4fddc12dc83b39ac70ddb751b760411f2cb48beef2bd654b46ebc4e"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=496eac2bb303ceb2a17a87dc0bb8ab068c59af155a51972a772f76d316dff50c"
+        },
+        {
+          "headline": "Sector Update: Tech Stocks Tumble Late Afternoon",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=b09c99c05b625d5e26e41417ccf8cb6c92fd9f31f152b6b7dcbd6ea29b0d62d5"
         }
       ],
       "earnings": [
@@ -429,12 +429,12 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 259.33,
-      "change": -6.7,
-      "changePercent": -2.5185,
+      "price": 260.21,
+      "change": -5.82,
+      "changePercent": -2.1877,
       "high": 273.23,
       "low": 252.27,
-      "open": 269.445,
+      "open": 271.43,
       "prevClose": 266.03,
       "name": "Amazon.com Inc",
       "sector": "Retail",
@@ -451,34 +451,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "SpaceX Stock Is Still Falling. It Trades At Apple’s Valuation.",
+          "headline": "Nasdaq Stock Market Correction: History Says This Is What Happens Next",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=48156ee18f765962ec49ad55aa4e83d0b33dfd686657ae74cfa16e36f84c62ee"
+          "url": "https://finnhub.io/api/news?id=8d6b0f4e82fa1b3a8e884771daa7d717f6c776fbf4ebd5ded47bd77c70bdb920"
         },
         {
-          "headline": "What Anthropic's IPO could mean for Amazon and Google",
+          "headline": "X-energy, Fluor Corporation Advance Nuclear Engineering and Design for Second Xe-100 Project",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4a3288879460fa5242aa18651c12c0e205ca24b98ede26b30e9f48364fdd0cc4"
+          "url": "https://finnhub.io/api/news?id=9e43042883ea78c8676a9658a7ef1f027178746df1f649664a98ee3f015eec19"
         },
         {
-          "headline": "Amazon Stocks Decline 3.52% With AWS Profitability in Focus",
+          "headline": "Oil's Sudden Price Drop Surprises Citi's Chronert",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=9fe15862e10ee2cf7fdd35b20c085d1f266ff79163262dc9b5462ac077668f6f"
+          "url": "https://finnhub.io/api/news?id=1c537879fea95f65ad239a35b58a1e937b210aec0e4fd5faca64d1a30abb94ea"
         },
         {
-          "headline": "Blue Origin delays New Glenn launches to January 2027",
+          "headline": "dYdX Team’s Arcus Opens Stock-Token Collateral to All Perps Traders, With a $20,000 Cap",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=4f5b28ff1cbf693159c8e614f748175a594cfe99dea861d28120e9fa2198ac97"
+          "url": "https://finnhub.io/api/news?id=13ff6bb5b8375e26be743847499187be89c107dc4d2d1dc77c272c3742ccce27"
         },
         {
-          "headline": "Layoffs Hit Lowest October Level Since 2023, Report Shows Ahead of Friday's NFPs",
+          "headline": "Best Mag7 dip buys: NVIDIA leads on valuation, Alphabet on RSI",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c168b9a8bb2914797e895039cd866c3cd06fe3d55b29a6134ad543dc314d8590"
+          "url": "https://finnhub.io/api/news?id=496eac2bb303ceb2a17a87dc0bb8ab068c59af155a51972a772f76d316dff50c"
         }
       ],
       "earnings": [
@@ -515,12 +515,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 343.43,
-      "change": -41.76,
-      "changePercent": -10.8414,
-      "high": 376.2,
+      "price": 343.69,
+      "change": -41.5,
+      "changePercent": -10.7739,
+      "high": 374.3,
       "low": 338.15,
-      "open": 376.2,
+      "open": 374.12,
       "prevClose": 385.19,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -537,34 +537,34 @@
       "sparklineData": [],
       "news": [
         {
+          "headline": "Stocks slide as Wall Street's post-election rally fizzles",
+          "source": "Yahoo",
+          "timeAgo": "57m ago",
+          "url": "https://finnhub.io/api/news?id=ae31a30e4968cce694dc866cb65131dabff08fe771bdf2adfc4191f4b5b25500"
+        },
+        {
+          "headline": "Best Mag7 dip buys: NVIDIA leads on valuation, Alphabet on RSI",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=496eac2bb303ceb2a17a87dc0bb8ab068c59af155a51972a772f76d316dff50c"
+        },
+        {
+          "headline": "SpaceX and Tesla Stock Plunges Have Wiped About $450 Billion in Value Since the Midterms. Is It Time to Buy?",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=e58760c80558a1f56194cb88bc4575de0a7039316c173b27a48513174ab838c4"
+        },
+        {
+          "headline": "Gene Munster Says Anduril Is Having Its Own Tesla Model 3 Moment—Company President Says 'We've Hired a Lot' of People From That Era",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=185f80a4742c6eca23f8b250fadf76460101d1d3697f29ad7f609717a7b650ee"
+        },
+        {
           "headline": "SpaceX Stock Is Still Falling. It Trades At Apple’s Valuation.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=48156ee18f765962ec49ad55aa4e83d0b33dfd686657ae74cfa16e36f84c62ee"
-        },
-        {
-          "headline": "Anthropic's IPO plans run up against a battered Wall Street",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=d2ac9695783ff44b2df85ed6319fd7c91c49f3a7035183c61630be5b193e830a"
-        },
-        {
-          "headline": "If You Invested $1,000 in Tesla at Its 2010 IPO, Here’s What You’d Have Today",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=8878d9d4f14d5f0ee0d0a5262cfbba7ec80955cee0be3aad6864baebf0d3c6eb"
-        },
-        {
-          "headline": "Tesla Sinks 12%, SpaceX Down 9% as Midterm Sweep Puts Merger on “A Much Tougher Regulatory Roadmap”",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=432858514662fef2495082ae5d1a14ae420267800b5b0986331e10793b56055d"
-        },
-        {
-          "headline": "SpaceX (SPCX) Stock Gets Fair Value Boost As Analysts Weigh AI Growth And Risks",
-          "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=0b61c3f1ae1da917bc2255e0adce6702a2597e85271c5492d4dee761fab84d0c"
         }
       ],
       "earnings": [
