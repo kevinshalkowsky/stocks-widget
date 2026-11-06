@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-11-06T12:02:33.556Z",
+  "updatedAt": "2026-11-06T19:20:19.938Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "asOf": "2026-11-05T21:34:08.000Z",
-      "price": 7353.73,
-      "change": -334.89,
-      "changePercent": -4.3557,
-      "high": 7681.29,
-      "low": 7350.35,
-      "open": 7678.72021484375,
-      "prevClose": 7688.6201171875,
+      "asOf": "2026-11-06T19:20:15.000Z",
+      "price": 7403.12,
+      "change": 49.39,
+      "changePercent": 0.6716,
+      "high": 7444.2,
+      "low": 7369.55,
+      "open": 7377.64990234375,
+      "prevClose": 7353.72998046875,
       "week52High": 7844.52,
       "week52Low": 6316.91,
-      "volume": "5.0B",
+      "volume": "1.9B",
       "sparklineData": [
         7801.77001953125,
         7765.35986328125,
@@ -38,7 +38,8 @@
         7541.39990234375,
         7568.919921875,
         7688.6201171875,
-        7353.72998046875
+        7353.72998046875,
+        7403.1201171875
       ],
       "sector": "",
       "marketCap": "",
@@ -59,17 +60,17 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "asOf": "2026-11-05T21:35:51.000Z",
-      "price": 51523.06,
-      "change": -1833.06,
-      "changePercent": -3.4355,
-      "high": 53710.61,
-      "low": 51486.82,
-      "open": 53679.01171875,
-      "prevClose": 53356.12109375,
+      "asOf": "2026-11-06T19:20:15.000Z",
+      "price": 51467.29,
+      "change": -55.77,
+      "changePercent": -0.1082,
+      "high": 51662.26,
+      "low": 50992.61,
+      "open": 51078.8515625,
+      "prevClose": 51523.05859375,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "854.8M",
+      "volume": "309.3M",
       "sparklineData": [
         51179.87109375,
         51231.640625,
@@ -92,7 +93,8 @@
         51983.98046875,
         51786.71875,
         53356.12109375,
-        51523.05859375
+        51523.05859375,
+        51467.2890625
       ],
       "sector": "",
       "marketCap": "",
@@ -113,17 +115,17 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "asOf": "2026-11-05T22:15:59.000Z",
-      "price": 24314.998,
-      "change": -1421.51,
-      "changePercent": -5.5233,
-      "high": 25559.031,
-      "low": 24262.145,
-      "open": 25558.109375,
-      "prevClose": 25736.509765625,
+      "asOf": "2026-11-06T19:20:15.000Z",
+      "price": 24651.959,
+      "change": 336.96,
+      "changePercent": 1.3858,
+      "high": 24825.547,
+      "low": 24507.63,
+      "open": 24602.482421875,
+      "prevClose": 24315,
       "week52High": 27722.75,
       "week52Low": 20690.25,
-      "volume": "10.9B",
+      "volume": "6.6B",
       "sparklineData": [
         27538.689453125,
         27193.33984375,
@@ -146,7 +148,8 @@
         25164.310546875,
         25372.009765625,
         25736.509765625,
-        24315
+        24315,
+        24651.958984375
       ],
       "sector": "",
       "marketCap": "",
@@ -168,56 +171,56 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 344.17,
-      "change": -5.34,
-      "changePercent": -1.5279,
-      "high": 355.38,
-      "low": 342.06,
-      "open": 353.89,
-      "prevClose": 349.51,
+      "price": 344.44,
+      "change": 0.27,
+      "changePercent": 0.0784,
+      "high": 345.79,
+      "low": 338.3,
+      "open": 340.76,
+      "prevClose": 344.17,
       "name": "Apple Inc.",
       "sector": "Technology",
       "marketCap": "$5.00T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
-      "week52High": 354.5,
+      "week52High": 355.38,
       "week52Low": 243.42,
-      "beta": 1.0924863,
+      "beta": 1.0839877,
       "peRatio": 38.3011,
       "eps": 8.9791,
       "dividendYield": "0.51%",
-      "volume": "53.3M",
-      "avgVolume": "46.2M",
+      "volume": "56.2M",
+      "avgVolume": "46.4M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff",
-          "source": "ChartMill",
-          "timeAgo": "49m ago",
-          "url": "https://finnhub.io/api/news?id=865640e021ce729c1ab1a87f93ad8da3ffcb7ee10bce52465015433377e19fa9"
+          "headline": "State Pension Funds Have at Least $578 Billion Riding on Tumbling AI Stocks",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=62c1c847d05576e921c3cd75c5632c5fb553fd3f10f6aef85fdd7710f7a47de4"
         },
         {
-          "headline": "MP Materials Corp (MP) (Q3 2026) Earnings Call Highlights: Rare Earth Output Surges 41% as ...",
+          "headline": "Apple Is “the Anti-AI Large Cap Tech Trade,” Says Josh Brown. Now It’s Capping AI Spending",
           "source": "Yahoo",
-          "timeAgo": "6h ago",
-          "url": "https://finnhub.io/api/news?id=62198f63e43e2c98ce84fa6a8aa7b7d2a2b77deb253ba6527a2a2b2a8be8c072"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=f2ac749267eccb059f97672938e3cd68181ea001062b69d9f76d919376395db6"
         },
         {
-          "headline": "Bank of America doubles down on its Apple stock bet",
+          "headline": "Apple, Meta, Musk Face New Threat From Democrats",
           "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=8d9c25edc0215b8c15c4b7b411f7808636b87016922d91aa33f00ea310bbb69d"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d25199855d8892f98dcc99f17c3ace093346b13d59fa0f3e8a3022141fe46b47"
         },
         {
-          "headline": "Dow Jones Futures Fall, Techs Bounce After Nasdaq Dives 5.5%; Nvidia, Sandisk, CoreWeave, SpaceX Plunge",
+          "headline": "Apple Stocks Edge Lower as $7.5 Billion Bond Sale Prices Across Seven Tranches",
           "source": "Yahoo",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=5a4e6f528bfd91f6cab26b379bf7e410264e32fd3385866eb9b95d8c8094c286"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=70de226ed55efdfcfe05040f24132cdba1d1fcb9cdbc4196e16c1dc2ce7af65c"
         },
         {
-          "headline": "Why did Apple Stock Hit an All-Time High Amid US Stock Market Crash?",
+          "headline": "Stock Market Suffers Ugly Losses In Election Week; Apple, Palantir Led Key Earnings: Weekly Review",
           "source": "Yahoo",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=411860515e69365892f4917f5868a9ca4715b17e0116b7833d7dacb826c4e994"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=fa32abfd70de8ae9145000e051bf2a09a81b5df6723df828224adb04cc886960"
         }
       ],
       "earnings": [
@@ -254,56 +257,56 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 282.57,
-      "change": -6.36,
-      "changePercent": -2.2012,
-      "high": 295.6,
-      "low": 277.07,
-      "open": 293.97,
-      "prevClose": 288.93,
+      "price": 286.02,
+      "change": 3.45,
+      "changePercent": 1.2209,
+      "high": 290.49,
+      "low": 284.61,
+      "open": 285.175,
+      "prevClose": 282.57,
       "name": "Alphabet Inc.",
       "sector": "Media",
       "marketCap": "$3.47T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
       "week52High": 408.61,
       "week52Low": 270.7,
-      "beta": 1.2461063,
+      "beta": 1.2318864,
       "peRatio": 26.5334,
       "eps": 10.807,
       "dividendYield": "",
-      "volume": "50.2M",
-      "avgVolume": "29.1M",
+      "volume": "52.7M",
+      "avgVolume": "29.3M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Why Amazon and Other AI Data-Center Stocks Will Be Post-Midterm Winners",
+          "headline": "Apple Is “the Anti-AI Large Cap Tech Trade,” Says Josh Brown. Now It’s Capping AI Spending",
           "source": "Yahoo",
-          "timeAgo": "47m ago",
-          "url": "https://finnhub.io/api/news?id=f2155ac7109e98ca00d4d3fc763a75de751625a020d5c56d97600ad8d5fc8c62"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=f2ac749267eccb059f97672938e3cd68181ea001062b69d9f76d919376395db6"
         },
         {
-          "headline": "Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff",
-          "source": "ChartMill",
-          "timeAgo": "49m ago",
-          "url": "https://finnhub.io/api/news?id=865640e021ce729c1ab1a87f93ad8da3ffcb7ee10bce52465015433377e19fa9"
+          "headline": "BlackRock’s Larry Fink Says America’s Workers Are Falling Behind Investors — and 25 Years of Data Explains Why",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=1c2bcbfad1ebfa8eb10a8ac5148f1133a8a1c012747c9be9ccaa2b0c49b538b2"
         },
         {
-          "headline": "What State Street Comm Services SPDR (XLC) Bought: Meta Leads on Wednesday",
+          "headline": "Prediction: Wall Street Has the Post-Midterm Artificial Intelligence (AI) Trade Completely Wrong",
           "source": "Yahoo",
-          "timeAgo": "56m ago",
-          "url": "https://finnhub.io/api/news?id=f5e758049d9047460ef374d1f848a992eaafd1b44f3d65e84cdd10082d8cad45"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=6a3678b37970efe8baad52f39970c3572ec472ea6dfff26b6f6538f9bddd86a3"
         },
         {
-          "headline": "SPDR Portfolio S&P 500 Growth (SPYG) Buys $29.8 Million More NVDA on Nov. 4",
+          "headline": "Stock Market Today: Dow Slides 500 Points Amid Surprise Jobs Report; Nvidia Leads Tech Rebound (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "56m ago",
-          "url": "https://finnhub.io/api/news?id=4c0419ca1a27715419565ac10e40a49b02604f056c1a34aa292479604720bce8"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=569078c3ce3227d957e8f7611ba627b349d1c8f9b012c63aa532b0633e987113"
         },
         {
-          "headline": "What iShares MSCI World ETF (URTH) Bought: Apple Leads on Wednesday",
+          "headline": "Amazon Just Delivered a Record-Breaking Quarter. But There’s One Number Investors Shouldn’t Ignore.",
           "source": "Yahoo",
-          "timeAgo": "57m ago",
-          "url": "https://finnhub.io/api/news?id=59db5bd029fdd450a31076c0628f4f129ca8df4708201a15ca7155fa43d4256c"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a8f34f615f5510189706ddd4d86aa2e87ff7ac4993fae49501b3605bda5e0433"
         }
       ],
       "earnings": [
@@ -340,56 +343,56 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 535.93,
-      "change": -19.87,
-      "changePercent": -3.575,
-      "high": 557.62,
-      "low": 532.675,
-      "open": 554.935,
-      "prevClose": 555.8,
+      "price": 533.24,
+      "change": -2.69,
+      "changePercent": -0.5019,
+      "high": 538.33,
+      "low": 524.47,
+      "open": 528.745,
+      "prevClose": 535.93,
       "name": "Microsoft Corporation",
       "sector": "Technology",
       "marketCap": "$3.98T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
       "week52High": 559.15,
       "week52Low": 349.2,
-      "beta": 1.0658351,
-      "peRatio": 30.8599,
+      "beta": 1.0447271,
+      "peRatio": 29.7566,
       "eps": 17.9457,
       "dividendYield": "0.79%",
-      "volume": "28.2M",
-      "avgVolume": "27.7M",
+      "volume": "30.3M",
+      "avgVolume": "27.6M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff",
-          "source": "ChartMill",
-          "timeAgo": "49m ago",
-          "url": "https://finnhub.io/api/news?id=865640e021ce729c1ab1a87f93ad8da3ffcb7ee10bce52465015433377e19fa9"
-        },
-        {
-          "headline": "ePlus Inc (PLUS) (Q2 2027) Earnings Call Highlights: Record $1 Billion in Gross Billings and ...",
+          "headline": "State Pension Funds Have at Least $578 Billion Riding on Tumbling AI Stocks",
           "source": "Yahoo",
-          "timeAgo": "4h ago",
-          "url": "https://finnhub.io/api/news?id=b9d1f13fbda430131e9a3080ac24cf3270478df9ed9f65c324fc5edeccc93b68"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=62c1c847d05576e921c3cd75c5632c5fb553fd3f10f6aef85fdd7710f7a47de4"
         },
         {
-          "headline": "Was Nutanix's Rise Driven By The Company Or Its Industry?",
+          "headline": "Apple Is “the Anti-AI Large Cap Tech Trade,” Says Josh Brown. Now It’s Capping AI Spending",
           "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=5ced64b0e1e5e7144adcc4a17aa289b36c963a3bc9d97e9687ceb3dfbd705173"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=f2ac749267eccb059f97672938e3cd68181ea001062b69d9f76d919376395db6"
         },
         {
-          "headline": "Allspring Growth Fund Q3 2026 Performers And Detractors",
-          "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=425fc9a42ce20c5cb4afdd378520e3a5b71bcbb28e731a6a6cccda58df26b94c"
+          "headline": "Fifth Third Bancorp Eyes Texas Growth and AI Gains After Comerica Integration",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=9c2e07993b71d381decaadf4b61a3cc4bd31f1a0aef870fff30b4b9610bd9fa5"
         },
         {
-          "headline": "Alger Concentrated Equity ETF Q3 2026 Portfolio Update",
-          "source": "SeekingAlpha",
-          "timeAgo": "10h ago",
-          "url": "https://finnhub.io/api/news?id=20de5132ce256af84fbe0c4891ecee3b23e8fa84164c2f77f069cbfe0ed39484"
+          "headline": "IREN Says New AI Cloud Customers Are Prepaying 90% of the Chips",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=812adddedc37b8a9e014cfa7733c34f500f64d45beaa5988e498746c4f8e6a6a"
+        },
+        {
+          "headline": "Prediction: Wall Street Has the Post-Midterm Artificial Intelligence (AI) Trade Completely Wrong",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=6a3678b37970efe8baad52f39970c3572ec472ea6dfff26b6f6538f9bddd86a3"
         }
       ],
       "earnings": [
@@ -426,56 +429,56 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 260.21,
-      "change": -5.82,
-      "changePercent": -2.1877,
-      "high": 273.23,
-      "low": 252.27,
-      "open": 271.43,
-      "prevClose": 266.03,
+      "price": 262.13,
+      "change": 1.92,
+      "changePercent": 0.7379,
+      "high": 264.182,
+      "low": 258.53,
+      "open": 258.865,
+      "prevClose": 260.21,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.81T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
-      "beta": 1.5528384,
-      "peRatio": 37.0364,
+      "beta": 1.5056883,
+      "peRatio": 36.2262,
       "eps": 7.1737,
       "dividendYield": "",
-      "volume": "55.6M",
-      "avgVolume": "41.1M",
+      "volume": "59.1M",
+      "avgVolume": "41.3M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff",
-          "source": "ChartMill",
-          "timeAgo": "49m ago",
-          "url": "https://finnhub.io/api/news?id=865640e021ce729c1ab1a87f93ad8da3ffcb7ee10bce52465015433377e19fa9"
-        },
-        {
-          "headline": "ETFs Bought $105.1 Million of Amazon (AMZN) on Wednesday",
+          "headline": "Prediction: Wall Street Has the Post-Midterm Artificial Intelligence (AI) Trade Completely Wrong",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=48dd61aa9968df4564e1ccf1f91b990c86986fdb7a5dc6e59f4a41e54f80cde1"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=6a3678b37970efe8baad52f39970c3572ec472ea6dfff26b6f6538f9bddd86a3"
         },
         {
-          "headline": "Could Investing $500 a Month in SpaceX Stock Help You Retire a Millionaire?",
+          "headline": "Amazon Just Delivered a Record-Breaking Quarter. But There’s One Number Investors Shouldn’t Ignore.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=ef7632446e27f931578508aec31bcda1c0d98138dcd6007512a2861f04dfb5df"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a8f34f615f5510189706ddd4d86aa2e87ff7ac4993fae49501b3605bda5e0433"
         },
         {
-          "headline": "Can One Man Save the World? Possibly!",
+          "headline": "Tech Stock Sell-Off 'Golden Buying Opportunity,' Says Dan Ives",
           "source": "Yahoo",
-          "timeAgo": "7h ago",
-          "url": "https://finnhub.io/api/news?id=e6854664d89bfdb5a971d15509d2e5eede721c2227ba9da78a88dc00d438920e"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a372fdb648fc051013dc05120caafc6f220ed4acb9304a0232698d5b3d43ae6a"
         },
         {
-          "headline": "Allspring Growth Fund Q3 2026 Performers And Detractors",
-          "source": "SeekingAlpha",
-          "timeAgo": "8h ago",
-          "url": "https://finnhub.io/api/news?id=425fc9a42ce20c5cb4afdd378520e3a5b71bcbb28e731a6a6cccda58df26b94c"
+          "headline": "Let's dismiss the multi-trillion AI sell-off and look at demand",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=5f2e0e279048f07bb50d071ea3fc582ee33710e82d4771508bbfb263708cd7b0"
+        },
+        {
+          "headline": "Walmart to take drone delivery nationwide as Zipline raises $1.5B",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=53deef716cb9d51e082953fe023379e75e19fc729337c70b1024d208bf71a160"
         }
       ],
       "earnings": [
@@ -512,56 +515,56 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 343.69,
-      "change": -41.5,
-      "changePercent": -10.7739,
-      "high": 374.3,
-      "low": 338.15,
-      "open": 374.12,
-      "prevClose": 385.19,
+      "price": 359.58,
+      "change": 15.89,
+      "changePercent": 4.6234,
+      "high": 362.43,
+      "low": 347.6,
+      "open": 348.77,
+      "prevClose": 343.69,
       "name": "Tesla Inc",
       "sector": "Automobiles",
-      "marketCap": "$1.38T",
+      "marketCap": "$1.36T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
       "week52High": 498.83,
       "week52Low": 297.38,
-      "beta": 1.7772518,
-      "peRatio": 401.3081,
+      "beta": 1.8091745,
+      "peRatio": 363.0047,
       "eps": 1.0754,
       "dividendYield": "",
-      "volume": "40.3M",
-      "avgVolume": "38.3M",
+      "volume": "42.9M",
+      "avgVolume": "38.6M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stock Market Today: Nasdaq Crashes 5.5% as Midterm Fallout Turns Into a Brutal AI Chip Selloff",
-          "source": "ChartMill",
-          "timeAgo": "49m ago",
-          "url": "https://finnhub.io/api/news?id=865640e021ce729c1ab1a87f93ad8da3ffcb7ee10bce52465015433377e19fa9"
+          "headline": "Tesla Rebounds 5% as Musk Ends Cybertruck to Make Room for “Increased Cybercab Production”",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=0be14ff5038c87206abe49bc09f6710c7c726f84a9208ea48489ba3b697dbe37"
         },
         {
-          "headline": "AI wipeout in focus; U.S. employment data ahead - what’s moving markets",
+          "headline": "Apple, Meta, Musk Face New Threat From Democrats",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d25199855d8892f98dcc99f17c3ace093346b13d59fa0f3e8a3022141fe46b47"
+        },
+        {
+          "headline": "Tesla Stocks Rise 3% as Musk Sets Cybertruck Wind-Down for Cybercab",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=15fa8883de17f47be409fd7612865b941968e87bab97fbb136ffd0aa11a079cf"
+          "url": "https://finnhub.io/api/news?id=08843900ec348d84b88ba2a2568dd48fc850aa2514238809cca7034d7ba922aa"
         },
         {
-          "headline": "Elon Musk’s Net Worth Drops Nearly $80 Billion In A Day As Tesla And SpaceX Stock Crater During Tech Wipe-Out",
+          "headline": "Nio Climbs 6%, Tesla and Lucid Rise 5% as EV Stocks Rebound From Election Sell-Off",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e32edaad84a28a2dd6f872e10badbfa9eef15db7b846c100c0b0504a038d1fb4"
+          "url": "https://finnhub.io/api/news?id=9afa7aa101c264137625160379b5e562ef18a5915d2be2b5c087f45a26388cd6"
         },
         {
-          "headline": "Tesla Stock Has Fallen 29% From Its Record. I Think the Stock Is Overvalued.",
+          "headline": "Elon Musk's Tesla to 'wind down' Cybertruck production next year",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=d18314a80f98f6a6bb31168e6d93898fe9055421cb09a9d30eb20ab77d81c7bc"
-        },
-        {
-          "headline": "Zero To Sixty: Fort Worth Gets Tesla Robotaxi While UBS Upgrades Rivian And Citigroup Shuffles EV Holdings",
-          "source": "Yahoo",
-          "timeAgo": "11h ago",
-          "url": "https://finnhub.io/api/news?id=14a991b8f5572a0e542975741a6a8ccbeb9fd866414d6f4998a909ed809cd615"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=41b3ba9e6fdefe3763b5eb39d15445b20a5418a1b6d307673a0adfef75edf6bb"
         }
       ],
       "earnings": [
