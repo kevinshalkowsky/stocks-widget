@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-11-06T19:20:19.938Z",
+  "updatedAt": "2026-11-06T19:53:07.463Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "asOf": "2026-11-06T19:20:15.000Z",
-      "price": 7403.12,
-      "change": 49.39,
-      "changePercent": 0.6716,
+      "asOf": "2026-11-06T19:53:03.000Z",
+      "price": 7399.33,
+      "change": 45.6,
+      "changePercent": 0.6201,
       "high": 7444.2,
       "low": 7369.55,
       "open": 7377.64990234375,
       "prevClose": 7353.72998046875,
       "week52High": 7844.52,
       "week52Low": 6316.91,
-      "volume": "1.9B",
+      "volume": "2.0B",
       "sparklineData": [
         7801.77001953125,
         7765.35986328125,
@@ -39,7 +39,7 @@
         7568.919921875,
         7688.6201171875,
         7353.72998046875,
-        7403.1201171875
+        7399.330078125
       ],
       "sector": "",
       "marketCap": "",
@@ -60,17 +60,17 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "asOf": "2026-11-06T19:20:15.000Z",
-      "price": 51467.29,
-      "change": -55.77,
-      "changePercent": -0.1082,
+      "asOf": "2026-11-06T19:53:03.000Z",
+      "price": 51426.64,
+      "change": -96.42,
+      "changePercent": -0.1871,
       "high": 51662.26,
       "low": 50992.61,
       "open": 51078.8515625,
       "prevClose": 51523.05859375,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "309.3M",
+      "volume": "326.3M",
       "sparklineData": [
         51179.87109375,
         51231.640625,
@@ -94,7 +94,7 @@
         51786.71875,
         53356.12109375,
         51523.05859375,
-        51467.2890625
+        51426.640625
       ],
       "sector": "",
       "marketCap": "",
@@ -115,17 +115,17 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "asOf": "2026-11-06T19:20:15.000Z",
-      "price": 24651.959,
-      "change": 336.96,
-      "changePercent": 1.3858,
+      "asOf": "2026-11-06T19:53:02.000Z",
+      "price": 24651.672,
+      "change": 336.67,
+      "changePercent": 1.3846,
       "high": 24825.547,
       "low": 24507.63,
       "open": 24602.482421875,
       "prevClose": 24315,
       "week52High": 27722.75,
       "week52Low": 20690.25,
-      "volume": "6.6B",
+      "volume": "6.9B",
       "sparklineData": [
         27538.689453125,
         27193.33984375,
@@ -149,7 +149,7 @@
         25372.009765625,
         25736.509765625,
         24315,
-        24651.958984375
+        24651.671875
       ],
       "sector": "",
       "marketCap": "",
@@ -171,9 +171,9 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 344.44,
-      "change": 0.27,
-      "changePercent": 0.0784,
+      "price": 343.48,
+      "change": -0.69,
+      "changePercent": -0.2005,
       "high": 345.79,
       "low": 338.3,
       "open": 340.76,
@@ -195,19 +195,19 @@
         {
           "headline": "State Pension Funds Have at Least $578 Billion Riding on Tumbling AI Stocks",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=62c1c847d05576e921c3cd75c5632c5fb553fd3f10f6aef85fdd7710f7a47de4"
         },
         {
           "headline": "Apple Is “the Anti-AI Large Cap Tech Trade,” Says Josh Brown. Now It’s Capping AI Spending",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=f2ac749267eccb059f97672938e3cd68181ea001062b69d9f76d919376395db6"
         },
         {
           "headline": "Apple, Meta, Musk Face New Threat From Democrats",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=d25199855d8892f98dcc99f17c3ace093346b13d59fa0f3e8a3022141fe46b47"
         },
         {
@@ -257,9 +257,9 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 286.02,
-      "change": 3.45,
-      "changePercent": 1.2209,
+      "price": 285.48,
+      "change": 2.91,
+      "changePercent": 1.0298,
       "high": 290.49,
       "low": 284.61,
       "open": 285.175,
@@ -281,7 +281,7 @@
         {
           "headline": "Apple Is “the Anti-AI Large Cap Tech Trade,” Says Josh Brown. Now It’s Capping AI Spending",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=f2ac749267eccb059f97672938e3cd68181ea001062b69d9f76d919376395db6"
         },
         {
@@ -293,19 +293,19 @@
         {
           "headline": "Prediction: Wall Street Has the Post-Midterm Artificial Intelligence (AI) Trade Completely Wrong",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=6a3678b37970efe8baad52f39970c3572ec472ea6dfff26b6f6538f9bddd86a3"
         },
         {
           "headline": "Stock Market Today: Dow Slides 500 Points Amid Surprise Jobs Report; Nvidia Leads Tech Rebound (Live Coverage)",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=569078c3ce3227d957e8f7611ba627b349d1c8f9b012c63aa532b0633e987113"
         },
         {
           "headline": "Amazon Just Delivered a Record-Breaking Quarter. But There’s One Number Investors Shouldn’t Ignore.",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=a8f34f615f5510189706ddd4d86aa2e87ff7ac4993fae49501b3605bda5e0433"
         }
       ],
@@ -343,9 +343,9 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 533.24,
-      "change": -2.69,
-      "changePercent": -0.5019,
+      "price": 532.24,
+      "change": -3.69,
+      "changePercent": -0.6885,
       "high": 538.33,
       "low": 524.47,
       "open": 528.745,
@@ -367,13 +367,13 @@
         {
           "headline": "State Pension Funds Have at Least $578 Billion Riding on Tumbling AI Stocks",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=62c1c847d05576e921c3cd75c5632c5fb553fd3f10f6aef85fdd7710f7a47de4"
         },
         {
           "headline": "Apple Is “the Anti-AI Large Cap Tech Trade,” Says Josh Brown. Now It’s Capping AI Spending",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=f2ac749267eccb059f97672938e3cd68181ea001062b69d9f76d919376395db6"
         },
         {
@@ -391,7 +391,7 @@
         {
           "headline": "Prediction: Wall Street Has the Post-Midterm Artificial Intelligence (AI) Trade Completely Wrong",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=6a3678b37970efe8baad52f39970c3572ec472ea6dfff26b6f6538f9bddd86a3"
         }
       ],
@@ -429,9 +429,9 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 262.13,
-      "change": 1.92,
-      "changePercent": 0.7379,
+      "price": 261.69,
+      "change": 1.48,
+      "changePercent": 0.5688,
       "high": 264.182,
       "low": 258.53,
       "open": 258.865,
@@ -453,31 +453,31 @@
         {
           "headline": "Prediction: Wall Street Has the Post-Midterm Artificial Intelligence (AI) Trade Completely Wrong",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=6a3678b37970efe8baad52f39970c3572ec472ea6dfff26b6f6538f9bddd86a3"
         },
         {
           "headline": "Amazon Just Delivered a Record-Breaking Quarter. But There’s One Number Investors Shouldn’t Ignore.",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=a8f34f615f5510189706ddd4d86aa2e87ff7ac4993fae49501b3605bda5e0433"
         },
         {
           "headline": "Tech Stock Sell-Off 'Golden Buying Opportunity,' Says Dan Ives",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=a372fdb648fc051013dc05120caafc6f220ed4acb9304a0232698d5b3d43ae6a"
         },
         {
           "headline": "Let's dismiss the multi-trillion AI sell-off and look at demand",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=5f2e0e279048f07bb50d071ea3fc582ee33710e82d4771508bbfb263708cd7b0"
         },
         {
           "headline": "Walmart to take drone delivery nationwide as Zipline raises $1.5B",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=53deef716cb9d51e082953fe023379e75e19fc729337c70b1024d208bf71a160"
         }
       ],
@@ -515,9 +515,9 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 359.58,
-      "change": 15.89,
-      "changePercent": 4.6234,
+      "price": 360.53,
+      "change": 16.84,
+      "changePercent": 4.8998,
       "high": 362.43,
       "low": 347.6,
       "open": 348.77,
@@ -539,13 +539,13 @@
         {
           "headline": "Tesla Rebounds 5% as Musk Ends Cybertruck to Make Room for “Increased Cybercab Production”",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=0be14ff5038c87206abe49bc09f6710c7c726f84a9208ea48489ba3b697dbe37"
         },
         {
           "headline": "Apple, Meta, Musk Face New Threat From Democrats",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
+          "timeAgo": "2h ago",
           "url": "https://finnhub.io/api/news?id=d25199855d8892f98dcc99f17c3ace093346b13d59fa0f3e8a3022141fe46b47"
         },
         {
@@ -563,7 +563,7 @@
         {
           "headline": "Elon Musk's Tesla to 'wind down' Cybertruck production next year",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
+          "timeAgo": "3h ago",
           "url": "https://finnhub.io/api/news?id=41b3ba9e6fdefe3763b5eb39d15445b20a5418a1b6d307673a0adfef75edf6bb"
         }
       ],
