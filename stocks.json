@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-11-17T13:16:45.894Z",
+  "updatedAt": "2026-11-17T21:34:15.027Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "asOf": "2026-11-16T22:22:10.000Z",
-      "price": 7416.59,
-      "change": -145.08,
-      "changePercent": -1.9186,
-      "high": 7515.6,
-      "low": 7400.15,
-      "open": 7513.97998046875,
-      "prevClose": 7561.669921875,
+      "asOf": "2026-11-17T21:20:01.000Z",
+      "price": 7340.53,
+      "change": -76.06,
+      "changePercent": -1.0255,
+      "high": 7415.37,
+      "low": 7288.34,
+      "open": 7411.02001953125,
+      "prevClose": 7416.58984375,
       "week52High": 7844.52,
       "week52Low": 6316.91,
-      "volume": "3.1B",
+      "volume": "3.2B",
       "sparklineData": [
         7690.72998046875,
         7712.56982421875,
@@ -37,7 +37,8 @@
         7619.3798828125,
         7592.39990234375,
         7561.669921875,
-        7416.58984375
+        7416.58984375,
+        7340.52978515625
       ],
       "sector": "",
       "marketCap": "",
@@ -58,17 +59,17 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "asOf": "2026-11-16T22:28:10.000Z",
-      "price": 51608.17,
-      "change": -739.38,
-      "changePercent": -1.4124,
-      "high": 52324,
-      "low": 51511.56,
-      "open": 52267.05859375,
-      "prevClose": 52347.55078125,
+      "asOf": "2026-11-17T21:20:00.000Z",
+      "price": 50759.42,
+      "change": -848.75,
+      "changePercent": -1.6446,
+      "high": 51463.53,
+      "low": 50566.98,
+      "open": 51386.98046875,
+      "prevClose": 51608.171875,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "678.5M",
+      "volume": "728.5M",
       "sparklineData": [
         51966.03125,
         52495.87890625,
@@ -90,7 +91,8 @@
         52486.48828125,
         52297.08984375,
         52347.55078125,
-        51608.171875
+        51608.171875,
+        50759.421875
       ],
       "sector": "",
       "marketCap": "",
@@ -111,17 +113,17 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "asOf": "2026-11-16T22:15:59.000Z",
-      "price": 24509.758,
-      "change": -626.51,
-      "changePercent": -2.4925,
-      "high": 24882.037,
-      "low": 24460.28,
-      "open": 24853.349609375,
-      "prevClose": 25136.26953125,
+      "asOf": "2026-11-17T21:34:07.000Z",
+      "price": 24328.383,
+      "change": -181.38,
+      "changePercent": -0.74,
+      "high": 24547.662,
+      "low": 23989.088,
+      "open": 24528.056640625,
+      "prevClose": 24509.759765625,
       "week52High": 27722.75,
       "week52Low": 20690.25,
-      "volume": "8.2B",
+      "volume": "8.4B",
       "sparklineData": [
         26430.890625,
         26424.8203125,
@@ -143,7 +145,8 @@
         25466.189453125,
         25366.08984375,
         25136.26953125,
-        24509.759765625
+        24509.759765625,
+        24328.3828125
       ],
       "sector": "",
       "marketCap": "",
@@ -165,56 +168,56 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 352.78,
-      "change": -3.49,
-      "changePercent": -0.9796,
-      "high": 357.125,
-      "low": 351.31,
-      "open": 357.125,
-      "prevClose": 356.27,
+      "price": 351.91,
+      "change": -0.87,
+      "changePercent": -0.2466,
+      "high": 355.36,
+      "low": 349.67,
+      "open": 352.83,
+      "prevClose": 352.78,
       "name": "Apple Inc.",
       "sector": "Technology",
       "marketCap": "$5.13T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
       "week52High": 360.83,
       "week52Low": 243.42,
-      "beta": 1.0898671,
+      "beta": 1.0822072,
       "peRatio": 38.8243,
       "eps": 8.9791,
       "dividendYield": "0.51%",
-      "volume": "52.3M",
-      "avgVolume": "45.4M",
+      "volume": "50.8M",
+      "avgVolume": "45.6M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "What iShares S&P 500 Value ETF (IVE) Sold: Apple Leads on Nov. 13",
+          "headline": "Why Apple is down in a week of outages from Microsoft to Chase",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=cde816387278272197be1d17844d936f0fa97d0bcab1f4e0de00cb2c34391b45"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d4468b8daba0f059ad0e126c29d1912fb1cfbf4beb97b687a3b179acc268328b"
         },
         {
-          "headline": "iShares Core Dividend Growth (DGRO) Buys $4.2 Million More Apple on Nov. 13",
+          "headline": "Apple's $1,299 iPhone has a problem updates can't fix",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=6397b212cfdccb5a84cbc9c49706fdf2d0dfc91c3d5a66b221c22dddaa173d3d"
+          "url": "https://finnhub.io/api/news?id=c9c941a759b9e290238aac7f146b9776b3caa3e71bc8753650a28bc5fa444235"
         },
         {
-          "headline": "JPMorgan Global Select Equity ETF (JGLO) Sells $32.1 Million of Amazon on Nov. 13",
+          "headline": "Apple down live updates: iPhones not working properly as iCloud, App Store and Apple Music hit by major outage",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c0dd714425dad9e896fb45c39fc2cd03ab671fc2de595119364c164c124b9ccb"
+          "url": "https://finnhub.io/api/news?id=666002b1b96e751a0834c1c652e4176ccdde82621c30b047a9140d21e46ba9ae"
         },
         {
-          "headline": "iShares Russell 1000 Value (IWD) Adds Amazon and Apple on Friday",
+          "headline": "How Investors May Respond To MP Materials Stock Q3 Earnings Beat",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fe328994fab95134fd78695bb27b17b393b68f439c2dd9d7193e8774470b1881"
+          "url": "https://finnhub.io/api/news?id=28869dcc2001423642c8167ec960ccf27edf84819ff4874a0cdc47cea47b8d66"
         },
         {
-          "headline": "State Street SPDR Portfolio S&P 500 (SPYM) Adds Apple and Nvidia on Nov. 13",
+          "headline": "Sector Update: Tech Stocks Fall Tuesday Afternoon",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a40e6520501c1b2112570177ce687190e5fd143a29127d2914aefdef82482e58"
+          "url": "https://finnhub.io/api/news?id=6cf9fab4508eaeb5e3a204c3bd80a68cfa2bca4e5726191f70007baa0e6b8e63"
         }
       ],
       "earnings": [
@@ -251,13 +254,13 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 283.72,
-      "change": -12.05,
-      "changePercent": -4.0741,
-      "high": 294.14,
-      "low": 282.96,
-      "open": 293.81,
-      "prevClose": 295.77,
+      "price": 280.2,
+      "change": -3.52,
+      "changePercent": -1.2407,
+      "high": 284.09,
+      "low": 278.46,
+      "open": 283.4,
+      "prevClose": 283.72,
       "name": "Alphabet Inc.",
       "sector": "Media",
       "marketCap": "$3.49T",
@@ -273,34 +276,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Quaise Energy Signs 50 MW Geothermal Power Purchase Agreement with Google",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=3fc2c09b3f868f0e44af7c2c6707b74524873dcb491bec7ba3914aeae4c4a4c0"
-        },
-        {
-          "headline": "Is Alphabet Stock a Buy After the Dip?",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=a1199854963cb680b2dfd8b7e3a308aedf968a8e8f6646d6344d86db8d3add20"
-        },
-        {
-          "headline": "A $1.2 Billion Fund Just Bought These 3 Stocks",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=166965b625fea2eda5b366add99444f4b45ff96cb39907559f73c1ead4e9bed0"
-        },
-        {
-          "headline": "Can Trade Desk Stock Double From Here?",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f56f24ddc58cf90cb2369e8c043cd365e9b734e52e7d9f609263bb6d3c239c38"
-        },
-        {
-          "headline": "Billionaire David Tepper Dumps AMD and Broadcom, Loads Up on Oracle and Nvidia",
+          "headline": "This Critical Energy Bill Is A Key Priority For The Lame Duck GOP Congress",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=67ac8f9d221eee54abcfe2c56113e2e3cd657e6017c3ae7aead05b6a2c521c9b"
+          "url": "https://finnhub.io/api/news?id=6e973fcce89971ef8b5fb810077bf2e40a73e370a070149d9d32176fa1fb5348"
+        },
+        {
+          "headline": "Alphabet, Amazon, and Nvidia All Have a Stake in Anthropic. Here’s the One I’d Buy If I Could Only Pick 1.",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=54e623e9f7c0fe72db4df2b0243944e711aa4640755147316abdd3d7b2974c5d"
+        },
+        {
+          "headline": "An $11 Billion Fund Dumps These 2 Stocks",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a74451b417eab59072afe7638fc5034228127242c34f14b40c171552c00dbf2c"
+        },
+        {
+          "headline": "The 5 Best Stocks in George Soros’s Portfolio",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=edfcd25423c6e10ecefab2cc76bf1171c4aa5ea4d8a7342502e39a112e406300"
+        },
+        {
+          "headline": "Adobe (ADBE) Turns Creative Cloud And Firefly Into AI Studios With New Partnerships",
+          "source": "Yahoo",
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=d87282e09177841bf52386da221ee452479e63f4155aae0bd12d9c93f96b5200"
         }
       ],
       "earnings": [
@@ -337,13 +340,13 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 517.99,
-      "change": -5.89,
-      "changePercent": -1.1243,
-      "high": 527.95,
-      "low": 516.82,
-      "open": 525.09,
-      "prevClose": 523.88,
+      "price": 506.24,
+      "change": -11.75,
+      "changePercent": -2.2684,
+      "high": 515.64,
+      "low": 496.51,
+      "open": 514.565,
+      "prevClose": 517.99,
       "name": "Microsoft Corporation",
       "sector": "Technology",
       "marketCap": "$3.85T",
@@ -351,7 +354,7 @@
       "week52High": 559.15,
       "week52Low": 349.2,
       "beta": 1.0630895,
-      "peRatio": 29.0876,
+      "peRatio": 28.7605,
       "eps": 17.9457,
       "dividendYield": "0.79%",
       "volume": "30.1M",
@@ -359,34 +362,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "iShares Core Dividend Growth (DGRO) Buys $4.2 Million More Apple on Nov. 13",
+          "headline": "As tech crashes mount, how can banks respond?",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=6397b212cfdccb5a84cbc9c49706fdf2d0dfc91c3d5a66b221c22dddaa173d3d"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=0633f6e002f2c54570cee3f4317ad4fbe96c8a3234dfe9d8127083fb886a7a84"
         },
         {
-          "headline": "JPMorgan Global Select Equity ETF (JGLO) Sells $32.1 Million of Amazon on Nov. 13",
+          "headline": "Morgan Stanley: Midterms Push “20% of the 2028 Pipeline” to 2029. Microsoft and Amazon Keep Spending",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c0dd714425dad9e896fb45c39fc2cd03ab671fc2de595119364c164c124b9ccb"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=cf039c7b2b24cf09b23306b8882f7449214c0c53df8c1b70b1158c87f5effce1"
         },
         {
-          "headline": "iShares Russell 1000 Value (IWD) Adds Amazon and Apple on Friday",
+          "headline": "Zenity Expands AI Agent Security Coverage Across the Microsoft Ecosystem",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fe328994fab95134fd78695bb27b17b393b68f439c2dd9d7193e8774470b1881"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=f3b0321630c7a20dd1bef0e0c157aeb5b4c24faeb21a345dde315d6f7e89c83b"
         },
         {
-          "headline": "State Street SPDR Portfolio S&P 500 (SPYM) Adds Apple and Nvidia on Nov. 13",
+          "headline": "Why Apple is down in a week of outages from Microsoft to Chase",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=a40e6520501c1b2112570177ce687190e5fd143a29127d2914aefdef82482e58"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=d4468b8daba0f059ad0e126c29d1912fb1cfbf4beb97b687a3b179acc268328b"
         },
         {
-          "headline": "Microsoft Selects Haivision Video Contribution Ecosystem and Makito ONE Video Transport Platform to Power Global Live Event Productions",
+          "headline": "Atlan and Microsoft Collaborate to Extend OneLake Governance Across the Data Estate",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e0d37b66d3c02909bfe69238701295760069662f07c471f775e7c9b3357a044a"
+          "url": "https://finnhub.io/api/news?id=34800e377df892d20cfc82ab240dd7a2fcbe64ce99c3d0d336872dd270b19f6a"
         }
       ],
       "earnings": [
@@ -423,56 +426,56 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 257.75,
-      "change": -8.91,
-      "changePercent": -3.3413,
-      "high": 262.92,
-      "low": 256.68,
-      "open": 262.395,
-      "prevClose": 266.66,
+      "price": 257.89,
+      "change": 0.14,
+      "changePercent": 0.0543,
+      "high": 259.9,
+      "low": 254,
+      "open": 257.55,
+      "prevClose": 257.75,
       "name": "Amazon.com Inc",
       "sector": "Retail",
       "marketCap": "$2.79T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
-      "beta": 1.5381149,
-      "peRatio": 37.1241,
+      "beta": 1.5217327,
+      "peRatio": 35.8837,
       "eps": 7.1737,
       "dividendYield": "",
-      "volume": "51.2M",
-      "avgVolume": "41.2M",
+      "volume": "50.1M",
+      "avgVolume": "41.3M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Can Trade Desk Stock Double From Here?",
+          "headline": "Steve Eisman Says the Biggest AI Risk Is Local Governments Slowing Data Center Construction",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=f56f24ddc58cf90cb2369e8c043cd365e9b734e52e7d9f609263bb6d3c239c38"
+          "url": "https://finnhub.io/api/news?id=e037be6de39fe004a7eb14380eab55d2099d52c931c097c254fd03d5817c0fea"
         },
         {
-          "headline": "State Street Consumer Discretionary (XLY) Buys $17.8 Million More Amazon on Nov. 13",
+          "headline": "Morgan Stanley: Midterms Push “20% of the 2028 Pipeline” to 2029. Microsoft and Amazon Keep Spending",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3f58b953546e1875c578f93afcab55174d03d1b31afdf5495cee98f2519d6223"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=cf039c7b2b24cf09b23306b8882f7449214c0c53df8c1b70b1158c87f5effce1"
         },
         {
-          "headline": "What iShares S&P 500 Value ETF (IVE) Sold: Apple Leads on Nov. 13",
+          "headline": "This Critical Energy Bill Is A Key Priority For The Lame Duck GOP Congress",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=cde816387278272197be1d17844d936f0fa97d0bcab1f4e0de00cb2c34391b45"
+          "url": "https://finnhub.io/api/news?id=6e973fcce89971ef8b5fb810077bf2e40a73e370a070149d9d32176fa1fb5348"
         },
         {
-          "headline": "JPMorgan Global Select Equity ETF (JGLO) Sells $32.1 Million of Amazon on Nov. 13",
+          "headline": "Alphabet, Amazon, and Nvidia All Have a Stake in Anthropic. Here’s the One I’d Buy If I Could Only Pick 1.",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=c0dd714425dad9e896fb45c39fc2cd03ab671fc2de595119364c164c124b9ccb"
+          "url": "https://finnhub.io/api/news?id=54e623e9f7c0fe72db4df2b0243944e711aa4640755147316abdd3d7b2974c5d"
         },
         {
-          "headline": "iShares Russell 1000 Value (IWD) Adds Amazon and Apple on Friday",
+          "headline": "Amazon’s Andy Jassy Plans To Stay Invested In Anthropic For ‘A Long Time’",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=fe328994fab95134fd78695bb27b17b393b68f439c2dd9d7193e8774470b1881"
+          "url": "https://finnhub.io/api/news?id=cf87025a61c41396aa232658c45360e5a2f7dd3a1905ce44e02908e1473c03bc"
         }
       ],
       "earnings": [
@@ -509,13 +512,13 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 379.74,
-      "change": -10.48,
-      "changePercent": -2.6857,
-      "high": 389.7983,
-      "low": 375.63,
-      "open": 387,
-      "prevClose": 390.22,
+      "price": 380.11,
+      "change": 0.37,
+      "changePercent": 0.0974,
+      "high": 382.8399,
+      "low": 374.13,
+      "open": 382.19,
+      "prevClose": 379.74,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.50T",
@@ -523,7 +526,7 @@
       "week52High": 498.83,
       "week52Low": 297.38,
       "beta": 1.7822055,
-      "peRatio": 389.2443,
+      "peRatio": 378.7905,
       "eps": 1.0754,
       "dividendYield": "",
       "volume": "38.4M",
@@ -531,34 +534,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nvidia Board Reportedly Rules Out Jensen Huang Return Despite Growing Support Campaign",
+          "headline": "GM CEO Mary Barra Might Be Leaving. Who Could Replace Her.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=0fea39a345843e3a8653eb54644a4215418ff55e237dc06e37d57e1f9de6c113"
+          "url": "https://finnhub.io/api/news?id=1af041ea6a1498551ea545ba6c6fb1f358c52734d7a0c66dd62769d9e541dda0"
         },
         {
-          "headline": "State Street Consumer Discretionary (XLY) Buys $17.8 Million More Amazon on Nov. 13",
+          "headline": "Tesla Plans $3.3 Billion German Factory Expansion for Cybercab Production",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=3f58b953546e1875c578f93afcab55174d03d1b31afdf5495cee98f2519d6223"
+          "url": "https://finnhub.io/api/news?id=d340d4101470e746584c90fb4cb8f2bff0ff5578aef1b0fa973bdbf543d59735"
         },
         {
-          "headline": "Tesla’s Robotaxi Push Gets Wall Street Cheer — Barclays Sees 20% Upside Potential In TSLA Stock",
+          "headline": "Exchange Traded Concepts to Close and Liquidate The xETFs TSLA Daily Income ETF (NYSE: TYYY)",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=abeff9f46191bfe4edc0c45b37e04411fff2f78d714724cf6e9a29e0ccb87a55"
+          "url": "https://finnhub.io/api/news?id=b5326c7c045456bf086eaf8e4aa6fe3dc4fb64223411fe5c92649be2c1abf94a"
         },
         {
-          "headline": "Tesla is seemingly rushing Cybercab production to win a bet with a YouTuber. Reckless, or Elon Musk’s genius at work?",
+          "headline": "Tesla Stocks Decrease 0.51% Even as Texas Robotaxi Authorizations Jump 21% in 18 Days",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=7cb8db4fdfdc13083dbceb645a60bd1c80ffb83b22658c16500bab7a265ac651"
+          "url": "https://finnhub.io/api/news?id=ee185169d73e57f918ac4c54aca11de9b827f1051e09e0ae5c1192909f7ab566"
         },
         {
-          "headline": "Elon Musk Plans $10.1 Billion “Project Crystal Sun” Tesla Factory Near Houston. Says the Math on Solar Power Is “Obvious and Trivial”",
+          "headline": "Tesla commits $3.30bn to expand German gigafactory for Cybercab",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=dcb23770f562ed54541b4294178856afa86790043e6e79ef46fca2058b34f5e1"
+          "url": "https://finnhub.io/api/news?id=7c3a0842fc9902b6b97262379ae663e22a29a05a3b3d298fe08a972e15417eb1"
         }
       ],
       "earnings": [
