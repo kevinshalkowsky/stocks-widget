@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-11-19T12:57:21.189Z",
+  "updatedAt": "2026-11-19T21:14:23.568Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "asOf": "2026-11-18T21:57:25.000Z",
-      "price": 7323.63,
-      "change": -16.9,
-      "changePercent": -0.2302,
-      "high": 7367.68,
-      "low": 7285.76,
-      "open": 7355.68994140625,
-      "prevClose": 7340.52978515625,
+      "asOf": "2026-11-19T21:14:18.000Z",
+      "price": 7175.83,
+      "change": -147.8,
+      "changePercent": -2.0181,
+      "high": 7415.64,
+      "low": 7173.63,
+      "open": 7389.259765625,
+      "prevClose": 7323.6298828125,
       "week52High": 7844.52,
       "week52Low": 6316.91,
-      "volume": "3.1B",
+      "volume": "3.3B",
       "sparklineData": [
         7712.56982421875,
         7757.169921875,
@@ -38,7 +38,8 @@
         7561.669921875,
         7416.58984375,
         7340.52978515625,
-        7323.6298828125
+        7323.6298828125,
+        7175.830078125
       ],
       "sector": "",
       "marketCap": "",
@@ -59,17 +60,17 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "asOf": "2026-11-18T21:57:27.000Z",
-      "price": 50198.17,
-      "change": -561.25,
-      "changePercent": -1.1057,
-      "high": 50637.7,
-      "low": 50029.35,
-      "open": 50627.359375,
-      "prevClose": 50759.421875,
+      "asOf": "2026-11-19T21:14:18.000Z",
+      "price": 49097.06,
+      "change": -1101.11,
+      "changePercent": -2.1935,
+      "high": 50454.81,
+      "low": 49091.92,
+      "open": 50432.3203125,
+      "prevClose": 50198.171875,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "691.5M",
+      "volume": "722.0M",
       "sparklineData": [
         52495.87890625,
         52856.08984375,
@@ -92,7 +93,8 @@
         52347.55078125,
         51608.171875,
         50759.421875,
-        50198.171875
+        50198.171875,
+        49097.05859375
       ],
       "sector": "",
       "marketCap": "",
@@ -113,17 +115,17 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "asOf": "2026-11-18T22:15:59.000Z",
-      "price": 24429.885,
-      "change": 101.5,
-      "changePercent": 0.4172,
-      "high": 24538.78,
-      "low": 24225.303,
-      "open": 24486.1796875,
-      "prevClose": 24328.380859375,
+      "asOf": "2026-11-19T21:14:19.000Z",
+      "price": 23879.2,
+      "change": -550.68,
+      "changePercent": -2.2541,
+      "high": 24939.623,
+      "low": 23870.695,
+      "open": 24809.052734375,
+      "prevClose": 24429.880859375,
       "week52High": 27722.75,
       "week52Low": 20690.25,
-      "volume": "7.2B",
+      "volume": "8.1B",
       "sparklineData": [
         26424.8203125,
         26702.859375,
@@ -146,7 +148,8 @@
         25136.26953125,
         24509.759765625,
         24328.380859375,
-        24429.880859375
+        24429.880859375,
+        23879.19921875
       ],
       "sector": "",
       "marketCap": "",
@@ -168,56 +171,56 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 352.45,
-      "change": 0.54,
-      "changePercent": 0.1534,
-      "high": 356.42,
-      "low": 351.4706,
-      "open": 351.94,
-      "prevClose": 351.91,
+      "price": 349.21,
+      "change": -3.24,
+      "changePercent": -0.9193,
+      "high": 355.28,
+      "low": 346.47,
+      "open": 352.91,
+      "prevClose": 352.45,
       "name": "Apple Inc.",
       "sector": "Technology",
-      "marketCap": "$5.12T",
+      "marketCap": "$5.08T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
       "week52High": 360.83,
       "week52Low": 243.42,
-      "beta": 1.0760599,
+      "beta": 1.0731529,
       "peRatio": 38.8056,
       "eps": 8.9791,
       "dividendYield": "0.51%",
-      "volume": "48.3M",
-      "avgVolume": "45.6M",
+      "volume": "42.7M",
+      "avgVolume": "45.5M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Can Apple Grow Cash Flow 17% a Year? That’s What Its Record Price Implies",
+          "headline": "Walmart, Costco see some panic-buying after tech outages",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=6617dd02f26e944d56015115cc34a76c2c6642a7e109827d5235c43a745c4d13"
+          "url": "https://finnhub.io/api/news?id=e237600627b6584dd9e34aaa635702babbe79789e726e095ad288897532aa557"
         },
         {
-          "headline": "iShares Russell 3000 ETF (IWV) Buys $10.5 Million More Apple on Nov. 17",
+          "headline": "Apple (AAPL) Faces UK Backdoor Admission And French Obsolescence Trial",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=931a38a720bb52a6dff4e4f2f18f6120cd8a264d0d7ab0b0fbd0ca2aee0ed1f9"
+          "url": "https://finnhub.io/api/news?id=d1b374a01a979a32f88833503bbe3e671d4c6b3fdb4ebf2e8546bbf8d6871b60"
         },
         {
-          "headline": "JPMorgan Nasdaq Equity Premium Income (JEPQ) Adds Apple and Microsoft on Nov. 17",
+          "headline": "Roundtable 100 analysts lift Apple on record R&D spend",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=619887203b19c9f6509061bf05edb7fd5cae21710e37dc46ead1560cf7b4e588"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=93699b6ab030f02bbd9ff1a2927aeb58e095d85c21936dc7854c66457f957f0f"
         },
         {
-          "headline": "iShares Russell 1000 Growth (IWF) Buys $26.7 Million More NVIDIA on Nov. 17",
+          "headline": "Apple’s head of iPhone camera software retires after eight years - Bloomberg",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=92c4f0f1d482e6fa206ee338d63a179eb34e8559cd11ad35924e3ecbc1385155"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=c5031232df75360574ed9e2a257abf0f373e1103bed00bba93f4593d7f1f3831"
         },
         {
-          "headline": "What Proshares Trust (TQQQ) Bought: Apple Leads on Nov. 17",
+          "headline": "Why Netflix's Fall Could Pay Off At Tax Time",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=1604c1852bbb2da18117e10e4ea65bd7afcdc815caf0c054c79c420370a5a62c"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=8b971ae30d0e63abee843530752bfedb5d086f03677c0c423e7ee2827335522e"
         }
       ],
       "earnings": [
@@ -254,56 +257,56 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 282.44,
-      "change": 2.24,
-      "changePercent": 0.7994,
-      "high": 284.97,
-      "low": 279.69,
-      "open": 282.75,
-      "prevClose": 280.2,
+      "price": 272.66,
+      "change": -9.78,
+      "changePercent": -3.4627,
+      "high": 295.43,
+      "low": 272.36,
+      "open": 294.3,
+      "prevClose": 282.44,
       "name": "Alphabet Inc.",
       "sector": "Media",
-      "marketCap": "$3.47T",
+      "marketCap": "$3.57T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
       "week52High": 408.61,
       "week52Low": 272.11,
-      "beta": 1.2341579,
+      "beta": 1.2291636,
       "peRatio": 26.1707,
       "eps": 10.807,
       "dividendYield": "",
-      "volume": "36.6M",
-      "avgVolume": "30.1M",
+      "volume": "34.1M",
+      "avgVolume": "30.2M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "NIQ Appoints Danny Lange and Chris Tung to Board of Directors",
+          "headline": "3 Dirt Cheap Artificial Intelligence (AI) Stocks to Load Up on Before 2027",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=c1bde3af36d97e6c1e42ea8ecb5126410860d4e48e75bbedfa8b8fa54afc35c7"
+          "url": "https://finnhub.io/api/news?id=168ce6e006473b73aa43f91e772d0a02317d98f080010af6e1b228729b58c2dd"
         },
         {
-          "headline": "Anthropic Raises Record $107 Billion Despite Tech Sell-Off",
+          "headline": "Anthropic Soars 16% in Record $107 Billion IPO Debut: “A Really Big Coming-of-Age Story”",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b8ff272fab3a3c63c59704d51b7972589408e097edf651c684a0d47cbcb7d8ff"
+          "url": "https://finnhub.io/api/news?id=1f281dc036256170fd5d3feed9ac00ed4852b8a89caaffeacef04fd37367db80"
         },
         {
-          "headline": "Google’s No. 1 Move Against Anthropic Is Free AI, per Bill Gurley. Alphabet Will Own  14% of Anthropic",
+          "headline": "Missed the Anthropic IPO? These 3 Stocks Give You Immediate Exposure.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b677f5bdc29bcb9103cdca67eb6bf44783bedb1fd8f2990decb142e6baed6a0c"
+          "url": "https://finnhub.io/api/news?id=8d4298e5aed40b19d3041b80423f61d8a4ebc2c2a5eaff98f497e3275d621c21"
         },
         {
-          "headline": "Why Is Alphabet Stock Down 30%?",
+          "headline": "Nvidia will not be the leader 5 years from now: Tiernan Ray",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=80cd57b921ed014c8e15fe91c1602dcd662f8bcc97d1dd61e9a14009cbe2da0f"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=2dd6bb128fa6181706eb5e2cbb71bc3433a251538ebcd95e3153a25ab98d78b4"
         },
         {
-          "headline": "Could Anthropic Stock Fall 25%?",
+          "headline": "Why AI competition from China won't be a risk US tech companies",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b696fcf8d3d10af5f10ca1ed1ed2389b0b007ae78738aa637e1e6adb57291bef"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=c093bf51c3078840c42b0542340d6e44f85e282f744d91993e190e2e88069681"
         }
       ],
       "earnings": [
@@ -340,56 +343,56 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 508.29,
-      "change": 2.05,
-      "changePercent": 0.4049,
-      "high": 510.44,
-      "low": 501.08,
-      "open": 505.5,
-      "prevClose": 506.24,
+      "price": 498.3,
+      "change": -9.99,
+      "changePercent": -1.9654,
+      "high": 526.49,
+      "low": 498.16,
+      "open": 519.5,
+      "prevClose": 508.29,
       "name": "Microsoft Corporation",
       "sector": "Technology",
-      "marketCap": "$3.77T",
+      "marketCap": "$3.85T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
       "week52High": 559.15,
       "week52Low": 349.2,
-      "beta": 1.0631189,
-      "peRatio": 28.1081,
+      "beta": 1.0605742,
+      "peRatio": 28.1676,
       "eps": 17.9457,
       "dividendYield": "0.79%",
-      "volume": "30.5M",
+      "volume": "27.6M",
       "avgVolume": "27.0M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Is GitLab Stock Worth The Wait?",
+          "headline": "Walmart, Costco see some panic-buying after tech outages",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=061131a9ad8913efefaac416fe8169c3ba08d8b2c0d03b0c0c379065e3b0f5bb"
+          "url": "https://finnhub.io/api/news?id=e237600627b6584dd9e34aaa635702babbe79789e726e095ad288897532aa557"
         },
         {
-          "headline": "Atlassian Looks Cheap Until You Count Stock Pay",
+          "headline": "ServiceNow vs. UiPath: Which Technology Stock Is a Better Buy for 2027?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=256abb2fb5b8218a01c58dcc6e45e6ccdd8ebfd4062db86eaecb4629d0ae0132"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=725de81059a5ff404c5f583f6693ed75c0399be521e63cbd02238c4aff9983cd"
         },
         {
-          "headline": "Anthropic Raises Record $107 Billion Despite Tech Sell-Off",
+          "headline": "JPMorgan Chase Reveals Data Breach Involving Third-Party Vendors",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b8ff272fab3a3c63c59704d51b7972589408e097edf651c684a0d47cbcb7d8ff"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=b82a09e8f6eb1f4aa7dcb6ad0ffa136c672e4e45afc1bb432d323be442f267bd"
         },
         {
-          "headline": "Why Is Alphabet Stock Down 30%?",
+          "headline": "Daniel Loeb's Meta Stock Bet Stands Out as Tiger Global Trims",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=80cd57b921ed014c8e15fe91c1602dcd662f8bcc97d1dd61e9a14009cbe2da0f"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=de6f7402eea3cde7ab07fb76a4f68963254522f48def42613df8170e77cd8e4e"
         },
         {
-          "headline": "CoreWeave, Nebius and IREN Stocks Rise Ahead of Anthropic Debut",
+          "headline": "Qualcomm lays off 100s amid global restructuring, raises $4 billion",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=466ce84299888e06ac1ddce3362b0f90bc08060409b7f1451bce49702600c4c5"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=a240fca6e108d3f9c9c9486150bcf0df1a2d44090275ef86a1cd5c3b78194776"
         }
       ],
       "earnings": [
@@ -426,56 +429,56 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 267.74,
-      "change": 9.85,
-      "changePercent": 3.8195,
-      "high": 268.29,
-      "low": 259.51,
-      "open": 259.81,
-      "prevClose": 257.89,
+      "price": 257.37,
+      "change": -10.37,
+      "changePercent": -3.8732,
+      "high": 274,
+      "low": 256.75,
+      "open": 272.56,
+      "prevClose": 267.74,
       "name": "Amazon.com Inc",
       "sector": "Retail",
-      "marketCap": "$2.90T",
+      "marketCap": "$2.91T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
-      "beta": 1.5077418,
-      "peRatio": 35.9032,
+      "beta": 1.4884967,
+      "peRatio": 37.2745,
       "eps": 7.1737,
       "dividendYield": "",
-      "volume": "50.0M",
-      "avgVolume": "41.4M",
+      "volume": "45.0M",
+      "avgVolume": "41.5M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Why Is Alphabet Stock Down 30%?",
+          "headline": "UPS Has Frozen Its Dividend at $1.64. Its 6% Yield Raises Questions",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=80cd57b921ed014c8e15fe91c1602dcd662f8bcc97d1dd61e9a14009cbe2da0f"
+          "url": "https://finnhub.io/api/news?id=8f3bb5745cee268c7d9864b96e79ae4f297ed4948ef72efda4845e4bb529bffa"
         },
         {
-          "headline": "Could Anthropic Stock Fall 25%?",
+          "headline": "Natera vs. Tempus AI: Which Blood Test Pioneer Has the Better Stock Buy for 2027?",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=b696fcf8d3d10af5f10ca1ed1ed2389b0b007ae78738aa637e1e6adb57291bef"
+          "url": "https://finnhub.io/api/news?id=80e11a0944355d574a43f7c340ee02387570924e260aff1b475f7d448a04f577"
         },
         {
-          "headline": "CoreWeave, Nebius and IREN Stocks Rise Ahead of Anthropic Debut",
+          "headline": "3 Dirt Cheap Artificial Intelligence (AI) Stocks to Load Up on Before 2027",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=466ce84299888e06ac1ddce3362b0f90bc08060409b7f1451bce49702600c4c5"
+          "url": "https://finnhub.io/api/news?id=168ce6e006473b73aa43f91e772d0a02317d98f080010af6e1b228729b58c2dd"
         },
         {
-          "headline": "iShares Russell 3000 ETF (IWV) Buys $10.5 Million More Apple on Nov. 17",
+          "headline": "Anthropic Soars 16% in Record $107 Billion IPO Debut: “A Really Big Coming-of-Age Story”",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=931a38a720bb52a6dff4e4f2f18f6120cd8a264d0d7ab0b0fbd0ca2aee0ed1f9"
+          "url": "https://finnhub.io/api/news?id=1f281dc036256170fd5d3feed9ac00ed4852b8a89caaffeacef04fd37367db80"
         },
         {
-          "headline": "JPMorgan Nasdaq Equity Premium Income (JEPQ) Adds Apple and Microsoft on Nov. 17",
+          "headline": "Missed the Anthropic IPO? These 3 Stocks Give You Immediate Exposure.",
           "source": "Yahoo",
           "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=619887203b19c9f6509061bf05edb7fd5cae21710e37dc46ead1560cf7b4e588"
+          "url": "https://finnhub.io/api/news?id=8d4298e5aed40b19d3041b80423f61d8a4ebc2c2a5eaff98f497e3275d621c21"
         }
       ],
       "earnings": [
@@ -512,56 +515,56 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 383.72,
-      "change": 3.61,
-      "changePercent": 0.9497,
-      "high": 389.27,
-      "low": 378.36,
-      "open": 385.24,
-      "prevClose": 380.11,
+      "price": 374.41,
+      "change": -9.31,
+      "changePercent": -2.4262,
+      "high": 393.598,
+      "low": 370.81,
+      "open": 389.905,
+      "prevClose": 383.72,
       "name": "Tesla Inc",
       "sector": "Automobiles",
       "marketCap": "$1.50T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
       "week52High": 498.83,
       "week52Low": 297.38,
-      "beta": 1.778855,
+      "beta": 1.7736645,
       "peRatio": 378.3765,
       "eps": 1.0754,
       "dividendYield": "",
-      "volume": "36.7M",
+      "volume": "34.6M",
       "avgVolume": "37.5M",
       "sparklineData": [],
       "news": [
         {
-          "headline": "Energy Transition Today - LevelTen Energy Ventures Into Asia-Pacific Clean Energy Market",
+          "headline": "Trump's New Filing Reveals Nvidia, SpaceX And Tesla Purchases. White House Says He Didn't Direct Trades.",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=2acaaa6e9e26c7bdccdc4b357e8f5e8f0cccabf436474711aff6ed6f2306d58a"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7e39c3eb9adb88e50e7faadaa5284d7934094ae8b6a43264ec16cbb53adefa30"
         },
         {
-          "headline": "Elon Musk Says Nvidia May Struggle to Replace Jensen Huang as CEO",
+          "headline": "Tesla Stocks Rise as Musk Pledges More Output From Shanghai Plant",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=56e67c5bc0c7a55e503270a23feaa34adabf6b4644c9460f02a2df84a048d67c"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=670f77ae7bd46c730200221956e0c1c93f2ba4daf56390875963498b60a67406"
         },
         {
-          "headline": "What State Street Consumer Discretionary SPDR (XLY) Sold: Amazon Leads on Nov. 17",
+          "headline": "Can Tesla's Cash Cover $20 Billion Of Spending?",
           "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=456380d7bca082a3ae19d8befa2bcbd5532b027202b426aab81c2788b5540104"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=7556d2db5ea1b9ffb44ee07a7fa0a0edc570fc38ba4a70ca6d26c663cce8fa80"
         },
         {
-          "headline": "Elon Musk Reportedly Says Tesla Will Continue To Increase Production In China – TSLA Stock Rises Premarket",
-          "source": "Yahoo",
-          "timeAgo": "1h ago",
-          "url": "https://finnhub.io/api/news?id=5ce2b71361f262c8f4177e404ea02464c3e4b27d6bcd97a86f37c72446ee4da1"
-        },
-        {
-          "headline": "Market Chatter: Tesla to Continue Boosting Production at China Factory",
+          "headline": "Anthropic Debuted at a $1.5 Trillion Valuation. Here’s What It Would Have to Be Worth to Match Tech’s Greatest Runs",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=16aeb3fc925294b62440683c375e60e4d3f6bf8fad27989de51b19d675063593"
+          "url": "https://finnhub.io/api/news?id=8ed8e7b9b7867b15ba15df1faa00fdd58cb0431e81f37018bcf799a0f0819ba9"
+        },
+        {
+          "headline": "Tesla Stock Rises as Musk Doubles Down on China",
+          "source": "Yahoo",
+          "timeAgo": "3h ago",
+          "url": "https://finnhub.io/api/news?id=6d0caa897aeb7966b9fe232a38c5a9864e27acf7fda5404903eedf5dce10b296"
         }
       ],
       "earnings": [
