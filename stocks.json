@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-11-23T20:08:26.753Z",
+  "updatedAt": "2026-11-24T00:38:35.254Z",
   "indexes": {
     "^GSPC": {
       "symbol": "^GSPC",
       "type": "index",
       "name": "S&P 500",
-      "asOf": "2026-11-23T20:08:22.000Z",
-      "price": 7230.36,
-      "change": 319.97,
-      "changePercent": 4.6303,
+      "asOf": "2026-11-23T21:42:33.000Z",
+      "price": 7237.17,
+      "change": 326.78,
+      "changePercent": 4.7288,
       "high": 7295.6,
       "low": 7152.66,
       "open": 7227.41015625,
       "prevClose": 6910.39013671875,
       "week52High": 7844.52,
       "week52Low": 6316.91,
-      "volume": "2.7B",
+      "volume": "4.2B",
       "sparklineData": [
         7676.77001953125,
         7722.60009765625,
@@ -37,7 +37,7 @@
         7323.6298828125,
         7175.830078125,
         6910.39013671875,
-        7230.35986328125
+        7237.169921875
       ],
       "sector": "",
       "marketCap": "",
@@ -58,17 +58,17 @@
       "symbol": "^DJI",
       "type": "index",
       "name": "Dow Jones",
-      "asOf": "2026-11-23T20:08:21.000Z",
-      "price": 49596.48,
-      "change": 1449.15,
-      "changePercent": 3.0098,
+      "asOf": "2026-11-23T21:42:39.000Z",
+      "price": 49595.31,
+      "change": 1447.98,
+      "changePercent": 3.0074,
       "high": 49810.26,
       "low": 49033.31,
       "open": 49239.91015625,
       "prevClose": 48147.328125,
       "week52High": 54744.33,
       "week52Low": 45057.28,
-      "volume": "884.7M",
+      "volume": "1.2B",
       "sparklineData": [
         52361.578125,
         52377.5703125,
@@ -90,7 +90,7 @@
         50198.171875,
         49097.05859375,
         48147.328125,
-        49596.48046875
+        49595.30859375
       ],
       "sector": "",
       "marketCap": "",
@@ -111,17 +111,17 @@
       "symbol": "^IXIC",
       "type": "index",
       "name": "Nasdaq",
-      "asOf": "2026-11-23T20:08:22.000Z",
-      "price": 24037.293,
-      "change": 1419.56,
-      "changePercent": 6.2763,
+      "asOf": "2026-11-23T22:15:59.000Z",
+      "price": 24089.559,
+      "change": 1471.83,
+      "changePercent": 6.5074,
       "high": 24353.65,
       "low": 23794.957,
       "open": 24269.74609375,
       "prevClose": 22617.73046875,
       "week52High": 27722.75,
       "week52Low": 20690.25,
-      "volume": "7.2B",
+      "volume": "9.6B",
       "sparklineData": [
         26169.380859375,
         26477.810546875,
@@ -143,7 +143,7 @@
         24429.880859375,
         23879.19921875,
         22617.73046875,
-        24037.29296875
+        24089.55859375
       ],
       "sector": "",
       "marketCap": "",
@@ -165,21 +165,21 @@
     "AAPL": {
       "symbol": "AAPL",
       "type": "stock",
-      "price": 349.94,
-      "change": 7.38,
-      "changePercent": 2.1544,
+      "price": 349.08,
+      "change": 6.52,
+      "changePercent": 1.9033,
       "high": 352.6,
       "low": 345.442189,
-      "open": 347.78,
+      "open": 347.87,
       "prevClose": 342.56,
       "name": "Apple Inc.",
       "sector": "Technology",
-      "marketCap": "$5.11T",
+      "marketCap": "$5.07T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
       "week52High": 360.83,
       "week52Low": 243.42,
       "beta": 1.0294348,
-      "peRatio": 37.6633,
+      "peRatio": 38.3054,
       "eps": 8.9791,
       "dividendYield": "0.51%",
       "volume": "42.8M",
@@ -187,34 +187,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nvidia Is Now Second To Apple In The World’s Most Valued Companies On Jensen Huang Optimism",
+          "headline": "Chamath Says Microsoft “Clearly Is Going to Need to Have a Frontier Model.” Nadella Is Betting It Won’t",
+          "source": "Yahoo",
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=39f3d390f731ef3ef1fea99637909813c359f0b067ba589c5861452146a15e4b"
+        },
+        {
+          "headline": "How Risky Is Snap Stock Now?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=8b486e39527a7c4e27450ea2605bb70f357b6a1ad86fc1740a8cdf5c796f4070"
+          "url": "https://finnhub.io/api/news?id=73b4fd62921d0762aa937ed10ad61270d3ef34eaed8a8ce4bb4267f7eef52bd0"
         },
         {
-          "headline": "How NVDA Stock Rises To $235?",
+          "headline": "Apple vs. Broadcom: Comparing Revenue Trends Amid the Artificial Intelligence Boom",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=b395c31b5c7cc5086a320e30c7db4ee04164c3cc9fdb4f689a1416d81d955491"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=79634169220a98f79344de85b7fbc26f860646f0ddd42c1ff9a5957d506213b6"
         },
         {
-          "headline": "The S&P 500 Just Fell Into a Correction. Your $3 Million Retirement Portfolio May Be Less Diversified Than You Think",
+          "headline": "CrowdStrike Shares Fall 10% After a $44 Billion Zscaler Deal Despite an Earnings Beat and Raised Guidance",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=b41f645c4747b4aa76fdb6e1c8407440bb927dd095643699cf72eef249ed2ba2"
+          "timeAgo": "4h ago",
+          "url": "https://finnhub.io/api/news?id=e9487030f80754a4c72ee170d230a291ac265dbb244fcf197c292e1233c9e8c9"
         },
         {
-          "headline": "Apple Hit an All-Time High While AI Stocks Sold Off. Here’s the Big Tech Stock I’d Buy.",
+          "headline": "Alphabet Soars 6% as Jensen Huang’s Return to Nvidia Reignites AI Stocks",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=94d7142ae883043323f2d4b3c8848345babaa19bca8b60437bb3b9df1065c543"
-        },
-        {
-          "headline": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=b0e70e97225fde2a7b202e36cac163d887f51551270335e1059a8db875678ea2"
+          "timeAgo": "5h ago",
+          "url": "https://finnhub.io/api/news?id=f661f5894ff43491fcd5027889f9ed4d9e7cdcc41bfdb8709e99aab1788b00a0"
         }
       ],
       "earnings": [
@@ -251,12 +251,12 @@
     "GOOGL": {
       "symbol": "GOOGL",
       "type": "stock",
-      "price": 282.85,
-      "change": 17.56,
-      "changePercent": 6.6192,
+      "price": 282.1,
+      "change": 16.81,
+      "changePercent": 6.3365,
       "high": 285.1354,
       "low": 275.36,
-      "open": 280.8225,
+      "open": 284.275,
       "prevClose": 265.29,
       "name": "Alphabet Inc.",
       "sector": "Media",
@@ -265,7 +265,7 @@
       "week52High": 408.61,
       "week52Low": 264.22,
       "beta": 1.207583,
-      "peRatio": 24.6219,
+      "peRatio": 26.3618,
       "eps": 10.807,
       "dividendYield": "",
       "volume": "36.0M",
@@ -273,34 +273,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Stock Market Today: Dow Surges As Trump Says This On Huang's Nvidia Return; AI Plays Rocket (Live Coverage)",
+          "headline": "Steve Eisman Said AI Was “No Longer One Trade.” Huang Is Back, but Alphabet and CoreWeave Still Show the Split",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=788ff0bfa2cc7d282f2645e183c11e7569d2f805989cbd86e6a866d0851b848c"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=cce76ef68e89ce2696f214b1480abf834d9ef713c8b68864824d4466e62cf846"
         },
         {
-          "headline": "All Broadcom Has to Do is Deliver Modestly to Prove Stanley Druckenmiller Wrong and Hit $500 in 2027",
+          "headline": "Crypto traders saw Anthropic's 34% debut pop coming",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=2f14eea7f143d4c25269f15259fe7bb161d5d3abd8d51f06e9c5da63faf8b43b"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=2e9867823f7e68e4507d79f97fa8e399b291159effcc42fc1df92c74d323bb66"
         },
         {
-          "headline": "What Explains The Fall In Meta Stock?",
+          "headline": "Google's Gemini 4 Neon gains momentum ahead of OpenAI, data shows",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e3f30c263a0cfbe41aa6899748ad7c22ea2f742b5ca9225512f53bfcc25c8ffa"
+          "url": "https://finnhub.io/api/news?id=9df03e2716b9ed3c01042a57db22beb7f3a278837f477e8ff4bceca55b3b52ac"
         },
         {
-          "headline": "A $12 Billion Fund Dumps These 3 Stocks",
+          "headline": "Jensen Huang is back: Does Washington have a seat in the boardroom?",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=bd705ff5f24c858a192b2bab3088605eae354a6d5449653440980e6d86737dc8"
+          "url": "https://finnhub.io/api/news?id=a52908d4c341923ace40bdd938c2a932b312ac5edeb57fa42d635d4bc0266178"
         },
         {
-          "headline": "NiobiumX Mining Inc. (OTCQB: NIOXF): Niobium Is Behind US Missiles and Next-Generation AI Chips. The US Imports All of It.",
+          "headline": "Steve Eisman Says “Stock Picking Is Back” Now That AI Is “No Longer One Trade”",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9417da3268be89c5bdf9edaa2c14413e44ba1820d01df26dc5bd06bf68234b17"
+          "url": "https://finnhub.io/api/news?id=298ca49f3d03ed48354ee2566932230843837433061006224edb8e3d81d503d9"
         }
       ],
       "earnings": [
@@ -337,16 +337,16 @@
     "MSFT": {
       "symbol": "MSFT",
       "type": "stock",
-      "price": 496.15,
-      "change": 11.63,
-      "changePercent": 2.4003,
+      "price": 492.5,
+      "change": 7.98,
+      "changePercent": 1.647,
       "high": 509.15,
-      "low": 494.5,
-      "open": 502.0325,
+      "low": 492.02,
+      "open": 506.055,
       "prevClose": 484.52,
       "name": "Microsoft Corporation",
       "sector": "Technology",
-      "marketCap": "$3.73T",
+      "marketCap": "$3.66T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
       "week52High": 559.15,
       "week52Low": 349.2,
@@ -359,34 +359,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Nebius Keeps Plummeting Amid 50% Drop This Month: This Wall Street Pro Now Predicts 370% Returns After Slight Adjustment",
+          "headline": "Chamath Says Microsoft “Clearly Is Going to Need to Have a Frontier Model.” Nadella Is Betting It Won’t",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5688bed6854955cbc2f3ef9d1e65ce3f4c64aff31453410d08f36265bb9f9f23"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=39f3d390f731ef3ef1fea99637909813c359f0b067ba589c5861452146a15e4b"
         },
         {
-          "headline": "Investors Might Be Underestimating Seagate’s Long-Term AI Growth Opportunity",
+          "headline": "Crypto traders saw Anthropic's 34% debut pop coming",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9d0044f5e95ca0319c28bc9b351f3df5f71505f8a99b5f7f98c7dd53d92f90c3"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=2e9867823f7e68e4507d79f97fa8e399b291159effcc42fc1df92c74d323bb66"
         },
         {
-          "headline": "Intel landed Microsoft, but now it needs something it can't make",
+          "headline": "Steve Eisman Says “Stock Picking Is Back” Now That AI Is “No Longer One Trade”",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=46783e2ce3887c8f1950c360f912ea3ed61426913e12f175b9f2c89b33b6928e"
+          "url": "https://finnhub.io/api/news?id=298ca49f3d03ed48354ee2566932230843837433061006224edb8e3d81d503d9"
         },
         {
-          "headline": "What Explains The Fall In Meta Stock?",
+          "headline": "It's not over for Jensen Huang",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e3f30c263a0cfbe41aa6899748ad7c22ea2f742b5ca9225512f53bfcc25c8ffa"
+          "url": "https://finnhub.io/api/news?id=3a56e647ab0a784ceec16368952f194531c0c93e39a4c015e56e8ae5d061b77b"
         },
         {
-          "headline": "Docusign vs. Figma: Which Technology Stock Is a Better Buy for 2027?",
+          "headline": "China Is “Only 12 Hours” Behind US AI Labs. ByteDance’s Reported Azure Deal Puts Microsoft in the Middle",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=02805f59c21f26af7f5cdbb3e76b091150a87be23d190b4460140e1a8cd1fe92"
+          "url": "https://finnhub.io/api/news?id=f8dbebf4e131a0ffd18695dd13f5c7af6438756832dcc8b07c1f555b7226d20f"
         }
       ],
       "earnings": [
@@ -423,16 +423,16 @@
     "AMZN": {
       "symbol": "AMZN",
       "type": "stock",
-      "price": 255.72,
-      "change": 8.9,
-      "changePercent": 3.6059,
+      "price": 255.39,
+      "change": 8.57,
+      "changePercent": 3.4722,
       "high": 262.48,
       "low": 251.25,
-      "open": 258.145,
+      "open": 260.26,
       "prevClose": 246.82,
       "name": "Amazon.com Inc",
       "sector": "Retail",
-      "marketCap": "$2.78T",
+      "marketCap": "$2.76T",
       "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
       "week52High": 287.2,
       "week52Low": 196,
@@ -445,34 +445,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "What Explains The Fall In Meta Stock?",
+          "headline": "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang Return; Elon Musk-Led SpaceX, Tesla Rally",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=e3f30c263a0cfbe41aa6899748ad7c22ea2f742b5ca9225512f53bfcc25c8ffa"
+          "timeAgo": "58m ago",
+          "url": "https://finnhub.io/api/news?id=6093e5f4f6713eee1baa1765ad2aa64b03c3c173778d021cc38740496cb04ebc"
         },
         {
-          "headline": "NiobiumX Mining Inc. (OTCQB: NIOXF): Niobium Is Behind US Missiles and Next-Generation AI Chips. The US Imports All of It.",
+          "headline": "S&P 500, Nasdaq End Best Session Since April Last Year On Optimism Led By Jensen Huang’s Reinstatement — NVDA, NASA, TTWO, AMZN In Focus",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=9417da3268be89c5bdf9edaa2c14413e44ba1820d01df26dc5bd06bf68234b17"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=ddb2d770f30059adbbc65d86ade40edd6805413fc599edc8859f2a43f266c7db"
         },
         {
-          "headline": "GBK Collective Expands Strategic Advisory Bench with Appointments of Adam Cohen and Patrick Moriarty",
+          "headline": "Netflix Cuts About 1,000 Jobs and Its Content Chief. YouTube Already Has Twice Its TV Share",
           "source": "Yahoo",
-          "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=16a0e8d29ed57d1e3bbd6642100df97e9c9f6a40f1de3a8a1cc1d3c0b8df1dd1"
+          "timeAgo": "1h ago",
+          "url": "https://finnhub.io/api/news?id=97496a16bd47634b1cb20c2d3ca0cc67803cceb86d643a3b46337af3cff7cb69"
         },
         {
-          "headline": "Stanley Druckenmiller and 45 Other Big Funds Bought Amazon Last Quarter. Dan Loeb and 25 Others Sold. Who’s Right?",
+          "headline": "Gen Z Worker Confronts Kevin O’Leary Over Why Investors Get Rich While Employees Miss Out: ‘Why Should You Be the Only One Getting Wealthy?’",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=f4e039c420b9e352ce086be95dfe8a97454a1099c80448fdac0f0a8e6e3fb932"
+          "url": "https://finnhub.io/api/news?id=87889ee5e4efc3dd0f64e85ca75f91b9ddcbfaf48fc8f80efa1843a4ed609f5e"
         },
         {
-          "headline": "AI Boom at Risk as Trump Threatens “Tremendous Tax” on Overseas Data Centers While Restrictions Mount at Home",
+          "headline": "Steve Eisman Says “Stock Picking Is Back” Now That AI Is “No Longer One Trade”",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=83f832f4564fb3a8d06f17a0712bf95061a93651d208b24809720eb478fd8e37"
+          "url": "https://finnhub.io/api/news?id=298ca49f3d03ed48354ee2566932230843837433061006224edb8e3d81d503d9"
         }
       ],
       "earnings": [
@@ -509,12 +509,12 @@
     "TSLA": {
       "symbol": "TSLA",
       "type": "stock",
-      "price": 386.05,
-      "change": 40.23,
-      "changePercent": 11.6332,
+      "price": 385.46,
+      "change": 39.64,
+      "changePercent": 11.4626,
       "high": 393.83,
-      "low": 368.2875,
-      "open": 368.2875,
+      "low": 371.95,
+      "open": 374.735,
       "prevClose": 345.82,
       "name": "Tesla Inc",
       "sector": "Automobiles",
@@ -531,34 +531,34 @@
       "sparklineData": [],
       "news": [
         {
-          "headline": "Tesla’s FSD v15 An ‘Illustration’ Of Head Start In Consumer Autonomy, Says JPMorgan – TSLA Stock Eyes Best Day In Over 19 Months",
+          "headline": "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang Return; Elon Musk-Led SpaceX, Tesla Rally",
+          "source": "Yahoo",
+          "timeAgo": "58m ago",
+          "url": "https://finnhub.io/api/news?id=6093e5f4f6713eee1baa1765ad2aa64b03c3c173778d021cc38740496cb04ebc"
+        },
+        {
+          "headline": "Stock Market Today, Nov. 23: Markets Rebound From Correction on AI Relief Rally",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=55d6ddd6741ce82a2531374a72bff852d969b04b73275415d54788b2ef38713f"
+          "url": "https://finnhub.io/api/news?id=a07de1a92a2742d31c95dc3a828a09a58102addf5f55f29418644610b4965da5"
         },
         {
-          "headline": "Jensen Huang Returns to NVIDIA. Which Magnificent 7 Stocks Win and Lose?",
+          "headline": "Tesla (TSLA) Is Advancing Toward A $3.5 Trillion Merger",
           "source": "Yahoo",
           "timeAgo": "2h ago",
-          "url": "https://finnhub.io/api/news?id=5cbd891e00680271aabad04fb879719669426e4da5165b0559f70465368aebef"
+          "url": "https://finnhub.io/api/news?id=44bff845b980ae72878de29c276fe6c7e65d8b7fd067e0fc895fb6acef4719b8"
         },
         {
-          "headline": "Tesla Jumps 13% as Jensen Huang’s Return to NVIDIA Sparks Broad Market Rally; Rivian Rallies 9%, Lucid Surges 8%",
+          "headline": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
           "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e003fd27b9d74e9ba1becfc3668b6df75933e9ba686b641062b1b2a1f6ac7f4d"
+          "timeAgo": "2h ago",
+          "url": "https://finnhub.io/api/news?id=21c25a066f488d74e57256b7983a67ab801fbd7a50e9f001128714609e6301c0"
         },
         {
-          "headline": "Tesla Stock Jumps 12.1% as AI Rally Sends Shares Higher on Nov. 23",
+          "headline": "Elon Musk on his support for Jensen Huang: 'Fair-weather friends are worthless'",
           "source": "Yahoo",
           "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=7ae40d21b7e57db094c2d6db57b11adce77fa391571619885d0e7212e4e24657"
-        },
-        {
-          "headline": "Tesla jumps 50 places on the Roundtable 100 amid FSD v15 rollout",
-          "source": "Yahoo",
-          "timeAgo": "3h ago",
-          "url": "https://finnhub.io/api/news?id=e279aae1d647df0e91a6465552bb8f7b43d8c028ac4a71a8f1af142c07efb0fc"
+          "url": "https://finnhub.io/api/news?id=9b19d112768177516eaa0aee135a317e06efb38db1704c35423b7a63f01b987f"
         }
       ],
       "earnings": [
